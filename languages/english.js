@@ -3,6 +3,11 @@ exports.language = {
   full_code: "english"
 }
 
+exports.announcements = {
+  title: "Important announcement",
+  description: "We have made changes to the configuration structure of all servers.\nAlong the way, some servers have lost all their settings.\n\nIf your server has lost all the settings and you want us to reset them, please **[contact us](https://discord.gg/tGphdcu)**.\n\nSorry for the inconvenience."
+};
+
 exports.general = {
     error_author: "{emoji} Something went wrong while trying to execute that action",
     error_contact: "Contact",
@@ -12,7 +17,6 @@ exports.general = {
     cooldown_commands: "Please wait **{time}** {unit} to be able to execute this command again.",
     error_permissions_description: "This error was caused because I don't have the `{permission}` permission.",
     only_guild: "You must be on a server to be able to execute the command **{command}**.",
-    ad_announcement: "**STAFF applications** are currently open! Enter **[our server](https://discord.gg/xVYukj2)** now for more information!"
 };
 
 exports.modules = {
@@ -37,11 +41,12 @@ exports.moderation = {
   administrator: "Administrator",
   moderator: "Moderator",
   responsible: "Responsible: {member}.",
-  responsible_and_reason: "Responsible: {user}. Reason: {reason}.",
+  responsible_and_reason: "Responsible: {user}. Reason: {reason}",
   notification_description: "You have received this informational message because you have been {sanction_type} from the server: **{guild}**.",
   default_reason: "The STAFF has not specified any reason",
   reason: "Reason",
-  completed: "{user} has been {sanction_type} from the server."
+  completed: "{user} has been {sanction_type} from the server.",
+  sanction_expired: "The sanction has expired"
 };
 
 exports.channel = {
@@ -249,6 +254,7 @@ exports.anti_invites = {
 };
 
 exports.auto_mod = {
+  pre_reason: "Filo auto-moderation system",
   reason: "Exceeding the {limit} warnings",
   server_invite: "Server invite"
 };
@@ -269,7 +275,7 @@ exports.commands = {
     args_invalid: "The specified arguments are not valid.",
     reason_limit: "You cannot set a reason greater than **{limit}** characters.",
     reason_less: "You cannot set a reason less than **{limit}** characters.",
-    no_user_perms: "You do not have permission to use the command **{command}** with {user}.",
+    no_user_perms: "You don't have permission to use the command **{command}** with {user}.",
     hastebin_check: "The result exceeds {limit} characters, but you can check the result **[here]({link})**.",
     author: "Author",
     two_options: "You must choose between **{option_1}** and **{option_2}** in order to execute the command correctly.",
@@ -308,6 +314,7 @@ exports.commands = {
   "addrole": {
     noArgs: "You must @Mention the person you want to give a role.",
     noArgs_2: "You must write the name of the role to be able to give it a role.",
+    invalid_role: "The {role} role is managed by an integration.",
     alreadyRole: "{member} already has the assigned {role} role.",
     bellowRole: "My roles is below the {role} role.",
     completed: "You have given {member} the {role} role correctly."
@@ -415,13 +422,13 @@ exports.commands = {
     completed: "You have removed all of {user}'s warnings."
   },
   "close": {
-    notValid: "This text channel is not a support ticket.",
+    notValid: "This text channel isn't a support ticket.",
     confirm: "{emoji} {user} are you sure you want to close the support ticket?\n\nIf you really want to close it, write **confirm** and if you don't want to close it, write **cancel**."
   },
   "coinflip": {
     noArgs: "You must choose **{option_1}** or **{option_2}** to play.",
     noArgs_2: "You must indicate the amount of {emoji} credits you want to bet.",
-    noMoney: "You do not have **{credits}** {emoji} credits to bet.",
+    noMoney: "You don't have **{credits}** {emoji} credits to bet.",
     heads: "heads",
     tails: "tails",
     completed: "You've **{game_status}** the bet! Now you have **{newBalance}** {emoji} credits."
@@ -436,83 +443,195 @@ exports.commands = {
     rgb: "RGB"
   },
   "conf": {
-    responsible: "Responsible: {member}",
+    question_description: "If so, click on ✅, if you don't want to set it click on ❎.",
     webhook: {
-      error: "An error occurred while trying to create the WebHook.",
-      completed: "WebHook created successfully."
+      noArgs_1: "You must specify for which module you want to create a webhook.",
+      noArgs_2: "You must specify the channel where you want to create the webhook.",
+      limit: "The webhook could not be created because the channel exceeds the maximum number of webhooks allowed.",
+      completed: "The webhook has been created in the {channel} channel."
     },
-    filo_options_name: "Filo options name",
-    help_title: "Do you need help setting up Filo?",
-    help_description: "Do not worry! Enter **[our server]({link})** and our support staff will help you in every way possible. You can also read **[our documentation]({link_2})** if you are more daring.",
-    set: {
-      noArgs: "You must write the option that you want to configure (Respecting uppercase and lowercase).",
-      noArgs_: "You must write the new value for the option you want to configure.",
-      noExist: "The mentioned option does not exist. You can know the name of all the options using **{command}**.",
-      errorConfig: "There is an error in the Filo configuration that is preventing its correct operation and while this error continues, the Filo configuration will not be allowed. You can correct this error by typing **{command}**.",
-      max_value: "You cannot set a value greater than **{limit}** characters.",
-      lang: {
-        noValid: "We currently do not offer support with the language **{args}**.\nWe only offer support with the languages **{language}** and **{language_2}**."
+    enable: {
+      noArgs_1: "You must specify the name of the module you want to enable.",
+      completed: "The **{module}** module has been successfully enabled."
+    },
+    disable: {
+      noArgs_1: "You must specify the name of the module you want to disable.",
+      completed: "The **{module}** module has been successfully disabled."
+    },
+    lang: {
+      noArgs_1: "You must specify the language you want to set.",
+      invalid_language: "The selected language is not valid. More information **[here]({link})**.",
+      completed: "You have changed the language of Filo to **{language}**."
+    },
+    prefix: {
+      noArgs_1: "You must specify the new prefix you want to set.",
+      completed: "You have set the Filo's prefix to **{prefix}**."
+    },
+    guild: {
+      noArgs_1: "You must specify what you want to configure.",
+      invite: {
+        noArgs_2: "You must specify the channel to create the invitation.",
+        completed: "You have created invitation **{invite}** in the {channel} channel."
+      }
+    },
+    role: {
+      noArgs_1: "You must specify what you want to configure.",
+      noArgs_2: "You must specify the role you want to set.",
+      invalid_role: "The role you specified is managed by an integration.",
+      error_perms_role: "The hierarchy of the mentioned role is greater than or equal to that of Filo.",
+      completed: "You have set the {role} role for the **{module}** module."
+    },
+    channel: {
+      noArgs_1: "You must specify what you want to configure.",
+      noArgs_2: "You must specify the channel to set it.",
+      invalid_channel: "The channel you have selected is not suitable for this configuration.",
+      completed: "You have set the {channel} channel for the **{module}** module."
+    },
+    message: {
+      noArgs_1: "You must specify the module you want to configure.",
+      noArgs_2: "You must specify the message you want to set.",
+      question_title: "Are you sure you want to set this message?",
+      completed: "You have set a new message for the **{module}** module."
+    },
+    counter: {
+      noArgs_1: "You must specify the option you want to configure.",
+      noArgs_2: "You must specify which member counter you want to set.",
+      noArgs_3: "You must specify the channel to set it.",
+      invalid_channel: "The channel you have selected is not suitable for this configuration.",
+      completed: "You have set the **{channel}** channel for the **{counter}** counter.",
+      name: {
+        noArgs_1: "You must specify the counter you want to rename.",
+        noArgs_2: "You must specify the variable **{members}** where you want the number of members of the counter to appear.",
+        question_title: "Are you sure you want to set that name for that counter?",
+        completed: "You have renamed the **{counter}** counter channel to **{name}**."
       },
-      enabled_options: "The value **{args}** is not correct.\nYou must use **{option_1}** to activate or **{option_2}** to deactivate.",
-      completed_clear: "The option has been reset **{args}** to **{default_args}**.",
-      channel_error_permissions: "I can't find the channel **{args}**.\nMake sure I have the permission `{permission}`.",
-      notValidChannel: "The specified channel is not suitable for this option.",
-      invalidRole: "I can't find the role **{args}**.",
-      sameChannel: "There is already a channel associated with a Filo option.",
-      completed: "You have changed the value of **{args}** to **{args_2}**."
+      nick: {
+        noArgs_1: "You must specify the nickname you want to set.",
+        noArgs_2: "You must specify the variable **{members}** where you want the number of members of the counter to appear.",
+        question_title: "Are you sure you want to set this nickname?",
+        completed: "You have set the nickname **{nick}** for the member counter."
+      }
     },
-    remove: {
-      noArgs: "You must write the option that you want to remove (Respecting uppercase and lowercase).",
-      noExist: "The mentioned option does not exist. You can know the name of all the options using **{command}**.",
-      confirmAction: "{emoji} Are you sure you want to reset the option **{args}**?\n\nType **confirm** if you really want to reset that option, type **cancel** if you don't want to reset it.",
-      completed: "The option has been reset **{args}** to **{default_args}**."
+    anti_invites: {
+      noArgs_1: "You must specify the action you want to carry out.",
+      add: {
+        noArgs_1: "You must specify the server ID you want to whitelist.",
+        already_set: "The ID you specified is already whitelisted.",
+        completed: "You have added the server with ID **{server_id}** to the whitelist."
+      },
+      remove: {
+        noArgs_1: "You must specify the server ID you want to remove from the whitelist.",
+        not_found: "The ID you specified is not whitelisted.",
+        completed: "You have to remove the server with ID **{server_id}** from the whitelist."
+      }
+    },
+    auto_mod: {
+      noArgs_1: "You must specify which option you want to configure.",
+      noArgs_2: "You must specify the level you want to configure.",
+      noArgs_3: "You must specify the maximum number of warnings a user must reach to reach that level.",
+      invalid_number: "The number you have indicated is not valid.",
+      completed: "You have set **{warnings}** warnings to reach level **{level}**.",
+      action: {
+        noArgs_1: "You must specify the level you want to configure.",
+        noArgs_2: "You must specify the action you want to take when you reach that level.",
+        completed: "You have established the **{action}** sanction for level **{level}**."
+      },
+      time: {
+        noArgs_1: "You must specify the level you want to configure.",
+        noArgs_2: "You must specify the time of the sanction.",
+        minimum_time: "The minimum time of the sanction must be greater than **{time}**.",
+        limit_time: "The time of the sanction can't exceed **{time}**.",
+        completed: "You have set **{time}** to expire the level **{level}** sanction."
+      }
     },
     reset: {
-      confirmAction: "{emoji} Are you sure you want to remove ALL server settings?\n\nType **confirm** if you really want to reset that option, type **cancel** if you don't want to reset it.",
-      completed: "All server configurations have been restored."
+      question_title: "Are you sure you want to reset all server settings?",
+      completed: "You have reset all server settings."
     },
-    need_help: "Don't you know how to customize some Filo options? Do not worry! Read **[our documentation]({link})** or go to **[our Discord server]({link_2})**.",
-    enabled: "Enabled",
-    disabled: "Disabled",
-    menu: {
-      modules: {
-        welcomes: "Welcomes",
-        farewells: "Farewells",
-        member_counter: "Member counter"
-      },
-      language: "Language",
-      prefix: "Prefix",
-      guild_invite_code: "Guild Invite Code",
+    support: {
+      noArgs_1: "You must specify the configuration you want to set.",
+      category: {
+        noArgs_1: "You must specify the ID of the category you want to set.",
+        invalid_channel: "The channel you have selected is not suitable for this configuration.",
+        completed: "You have set the **{category}** category as a support category."
+      }
+    },
+    view: {
+      description: "If you need help consult **[our wiki]({link})** and if you can't understand it, feel free to **[contact us]({link_2})**.",
       module: "Module",
-      active_module: "Active module?",
-      channel: "Channel",
-      role: "Role",
-      message: "Message",
-      counter_channel: "Counter channel",
-      counter_channel_name: "Counter channel name",
-      humans_counter_channel: "Humans counter channel",
-      humans_counter_channel_name: "Humans counter channel name",
-      robots_counter_channel: "Robots counter channel",
-      robots_counter_channel_name: "Robots counter channel name",
-      nickname_counter_enabled: "Nickname counter actived?",
-      nickname: "Nickname",
-      webhook_title: "Did you know that this module works through WebHooks?",
-      webhook_description: "Use **{command}** to create a Webhook and set it automatically in your module configuration.",
-      reports: "Reports",
-      support_parent: "Support parent",
+      module_status: "Module status",
+      current_language: "Current language",
+      supported_languages_title: "Supported languages",
+      supported_languages_description: "Get a complete list of all languages supported by Filo by **[clicking here]({link})**.",
+      current_prefix: "Current prefix",
+      server_invite: "Server invite",
+      reporting_channel: "Reporting channel",
+      cooldown: "Cooldown",
       support_role: "Support role",
-      admin_role: "Admin role",
-      support_and_tickets: "Support/Tickets",
-      logs: "Logs",
-      levelup: "Level UP notifications",
-      levelup_image: "Notifications via image?",
-      invites_filter: "Invites filter",
-      server_invites_allowed: "Server invitations allowed",
-      auto_mod: "Auto moderation",
-      moderation_level: "Moderation level #{number}",
-      action_level: "Action level #{number}",
-      completed_title: "Viewing the guild settings"
-    }
+      administrator_role: "Administrator role",
+      support_category: "Support category",
+      welcome_channel: "Welcome channel",
+      welcome_role: "Welcome role",
+      welcome_message: "Welcome message",
+      limit_embed: "Too much to show.",
+      all_counter: "Total member counter",
+      all_counter_name: "Total member name",
+      humans_counter: "Humans member counter",
+      humans_counter_name: "Humans member name",
+      bots_counter: "Bots member counter",
+      bots_counter_name: "Bots member name",
+      nick_counter: "All member nickname",
+      farewells_channel: "Farewell channel",
+      farewells_message: "Farewell message",
+      loging_channel: "Loging channel",
+      whitelist: "Whitelist",
+      level: "Level",
+      action: "Action",
+      time: "Time",
+      embed_title: "Viewing server settings",
+      modules_title: {
+        languages: "Languages",
+        prefix: "Prefix",
+        server: "Server",
+        reports: "Reports",
+        support: "Support / Tickets",
+        welcomes: "Welcomes",
+        membercounter: "Membercounter",
+        farewells: "Farewells",
+        levels: "Levels",
+        logs: "Logs",
+        anti_invites: "Anti-Invites",
+        auto_mod: "Auto-Mod"
+      }
+    },
+    embed_title: "Quick help menu",
+    embed_description: "With this command you can configure some aspects of Filo, including his language, prefix, modules, etc.",
+    warn_args: "(Do not include <> when executing any command)",
+    wiki: "Filo's Wiki",
+    discord: "Filo's Discord",
+    module: "Module",
+    module_title: "Module",
+    question_enable: "How to enable a module?",
+    question_disable: "How to disable a module?",
+    question_language: "How to change the language?",
+    language_title: "Language",
+    question_prefix: "How to change the prefix?",
+    prefix_title: "Prefix",
+    question_levelup: "How to activate the leveling notification?",
+    auto_mod_modules: "Automatic moderation modules",
+    anti_invites_title: "Anti-Invites",
+    auto_mod_title: "Auto-Mod",
+    welcomes_farewells_modules: "Welcome and farewell modules",
+    welcomes_title: "Welcomes",
+    farewells_title: "Farewells",
+    welcome_role_title: "Welcome role",
+    support_reports_modules: "Support and reporting modules",
+    support_title: "Support / Tickets",
+    reports_title: "Reports",
+    logs_membercounter_modules: "Loging and member counter modules",
+    logs_title: "Logs",
+    membercounter_title: "Membercounter",
+    help: "Help"
   },
   "confused": {
     completed: "{user} is confused!"
@@ -580,7 +699,7 @@ exports.commands = {
   "csgo": {
     noArgs: "You must specify the player's name to see their statistics.",
     loading: "Please wait while the statistics API information is collected.",
-    noPlayerFound: "The player you mentioned does not exist or is not registered in the statistics pages.",
+    noPlayerFound: "The player you mentioned does not exist or isn't registered in the statistics pages.",
     completed_title: "Viewing **{player}**'s statistics",
     ign: "IGN",
     uuid: "UUID",
@@ -670,16 +789,16 @@ exports.commands = {
     noAuthor: "You cannot feed yourself."
   },
   "fish": {
-    enough_money: "You do not have enough {emoji} credits to pay the hook.",
-    completed: "You have thrown the hook, but unfortunately you have not caught anything and you have had to pay **{credits}** {emoji} credits for your attempt. You have now **{balance}** {emoji} credits.",
+    enough_money: "You don't have enough {emoji} credits to pay the hook.",
+    completed: "You have thrown the hook, but unfortunately you haven't caught anything and you have had to pay **{credits}** {emoji} credits for your attempt. You have now **{balance}** {emoji} credits.",
     completed_2: "You have cast the hook, and... you have caught one! You've won **{reward}** {emoji} credits and you had to pay **{credits}** {emoji} credits for your attempt. You have now **{balance}** {emoji} credits."
   },
   "fortnite": {
     noArgs: "You must specify the platform to see the statistics of a player.",
     noArgs_2: "You must specify the player's name to see their statistics.",
-    invalidPlatform: "The platform you have written is not valid, please write a valid platform ({platforms}).",
+    invalidPlatform: "The platform you have written isn't valid, please write a valid platform ({platforms}).",
     loading: "Please wait while the statistics API information is collected.",
-    noPlayerFound: "The player you mentioned does not exist or is not registered in the statistics pages.",
+    noPlayerFound: "The player you mentioned does not exist or isn't registered in the statistics pages.",
     error_api: "An error occurred while trying to contact the API.",
     completed_title: "Viewing **{player}**'s statistics on **{platform}**",
     ign: "IGN",
@@ -718,11 +837,11 @@ exports.commands = {
   },
   "giveaway": {
     example: "Super kawaii giveaway!",
-    invalidTime: "The time you entered is not valid.",
+    invalidTime: "The time you entered isn't valid.",
     noArgs_0: "You must specify the action you want to carry out {options}.",
     noArgs: "You must specify the number of possible winners of the giveaway.",
     noArgs_2: "You must specify the prize of the giveaway.",
-    invalidWinners: "The number of possible winners you have specified is not valid.",
+    invalidWinners: "The number of possible winners you have specified isn't valid.",
     giveaway: "GIVEAWAY",
     giveaway_ended: "GIVEAWAY ENDED",
     timeRemaining: "Time remaining: **{duration}**.",
@@ -792,6 +911,10 @@ exports.commands = {
   "hug": {
     completed: "{user} hugs {user_2} amicably.",
     noHug: "You can't give yourself a hug."
+  },
+  "info": {
+    description: "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, tickets, loging, welcome and farewells, member counter, anti-invites, auto-mod. +190 commands.",
+    footer: "Serving Discord servers since 2019"
   },
   "invite": {
     completed_title: "Filo's Invite",
@@ -914,55 +1037,55 @@ exports.commands = {
     noArgs: "You must write the nickname of a premium player.",
     error_api: "An error occurred while trying to get **{user}**'s information.",
     completed_title: "Watching **{user}**'s body",
-    error_player: "The player you mentioned is not premium."
+    error_player: "The player you mentioned isn't premium."
   },
   "mcbust": {
     noArgs: "You must write the nickname of a premium player.",
     error_api: "An error occurred while trying to get **{user}**'s information.",
     completed_title: "Watching **{user}**'s bust",
-    error_player: "The player you mentioned is not premium."
+    error_player: "The player you mentioned isn't premium."
   },
   "mcface": {
     noArgs: "You must write the nickname of a premium player.",
     error_api: "An error occurred while trying to get **{user}**'s information.",
     completed_title: "Watching **{user}**'s face",
-    error_player: "The player you mentioned is not premium."
+    error_player: "The player you mentioned isn't premium."
   },
   "mcfront": {
     noArgs: "You must write the nickname of a premium player.",
     error_api: "An error occurred while trying to get **{user}**'s information.",
     completed_title: "Watching **{user}**'s front",
-    error_player: "The player you mentioned is not premium."
+    error_player: "The player you mentioned isn't premium."
   },
   "mcfrontbody": {
     noArgs: "You must write the nickname of a premium player.",
     error_api: "An error occurred while trying to get **{user}**'s information.",
     completed_title: "Watching **{user}**'s front",
-    error_player: "The player you mentioned is not premium."
+    error_player: "The player you mentioned isn't premium."
   },
   "mchead": {
     noArgs: "You must write the nickname of a premium player.",
     error_api: "An error occurred while trying to get **{user}**'s information.",
     completed_title: "Watching **{user}**'s head",
-    error_player: "The player you mentioned is not premium."
+    error_player: "The player you mentioned isn't premium."
   },
   "mcskin": {
     noArgs: "You must write the nickname of a premium player.",
     error_api: "An error occurred while trying to get **{user}**'s information.",
     completed_title: "Watching **{user}**'s skin",
-    error_player: "The player you mentioned is not premium."
+    error_player: "The player you mentioned isn't premium."
   },
   "mcuuid": {
     noArgs: "You must write the nickname of a premium player.",
     error_api: "An error occurred while trying to get **{user}**'s information.",
     completed: "The uuid of the player **{user}** is **{uuid}**.",
-    error_player: "The player you mentioned is not premium."
+    error_player: "The player you mentioned isn't premium."
   },
   "mcserver": {
     noArgs: "You must type the IP address of the server you want to check.",
     loading: "Please wait while I get the API information.",
     error_api: "An unexpected error occurred while trying to contact the API.",
-    server_offline: "The specified server is not online.",
+    server_offline: "The specified server isn't online.",
     too_long: "Too long to show",
     completed_title: "Viewing the status of the **{server}** server",
     ip: "IP",
@@ -1004,7 +1127,9 @@ exports.commands = {
     bellowRole: "My role is below the role **{role}**.",
     notification_title: "Permanently muted from the server **{guild}**",
     permanently_muted: "permanently muted",
-    mute_id: "Mute's ID"
+    mute_id: "Mute's ID",
+    invalid_role: "The {role} role is managed by an integration.",
+    already_muted: "The user you mentioned is already muted."
   },
   "new": {
     alreadyOpened: "You already have an open support request.",
@@ -1045,7 +1170,7 @@ exports.commands = {
     noArgs: "You must specify the player's name to see their statistics.",
     loading: "Please wait while the statistics API information is collected.",
     error_api: "An error occurred while trying to contact the API.",
-    error_player: "The player you mentioned does not exist or is not registered in the statistics pages.",
+    error_player: "The player you mentioned does not exist or isn't registered in the statistics pages.",
     completed_title: "Viewing **{player}**'s statistics",
     ign: "IGN",
     uuid: "UUID",
@@ -1077,15 +1202,15 @@ exports.commands = {
     noArgs: "You must @Mention the person you want to pay.",
     noArgs_2: "You must write the amount of money you want to pay.",
     noAuthor: "You can not pay yourself.",
-    noFilo: "I appreciate you want to pay me **{credits}** {emoji} credits, but unfortunately my developers do not allow me to accept money from others.",
-    noMoney: "You do not have **{credits}** {emoji} credits to pay to {user}.",
+    noFilo: "I appreciate you want to pay me **{credits}** {emoji} credits, but unfortunately my developers don't allow me to accept money from others.",
+    noMoney: "You don't have **{credits}** {emoji} credits to pay to {user}.",
     completed: "You have paid **{credits}** {emoji} credits to {user}."
   },
   "pin": {
     noArgs: "You need to specify the ID of the messages that you want to pinned.",
     maximumMessages: "There cannot be more than **{limit}** fixed messages per channel.",
     completed: "The message **{message_id}** has been pinned on the channel {channel}.",
-    error_pin: "An error occurred while trying to pinned the message **{message_id}**."
+    error_pin: "An error occurred while trying to pin the message **{message_id}**."
   },
   "ping": {
     loading: "Please wait while the latency test is performed.",
@@ -1103,29 +1228,16 @@ exports.commands = {
     example: "What do you think of this magnificent command?",
     completed_title: "Poll"
   },
+  "pout": {
+    completed: "{user} pouts!"
+  },
   "profile": {
-    status: {
-      online: "Online",
-      dnd: "Do not disturb",
-      idle: "Idle",
-      invisible: "Invisible",
-      streaming: "Streaming"
-    },
-    activities: {
-      default_activity: "Without activity",
-      playing: "Playing",
-      streaming: "Streaming",
-      listening: "Listening to",
-      watching: "Watching"
-    },
     completed_title: "Viewing **{user}**'s profile",
     name: "Name",
     nickname: "Nickname",
     badges: "Badges",
     no_badges: "No badges",
     registration_date: "Registration date",
-    status_field: "Status",
-    activity: "Activity",
     join_date: "Join date",
     credits: "Credits",
     level: "Level",
@@ -1140,7 +1252,7 @@ exports.commands = {
     invalidPlatform: "The platform you entered does not match those of the game {platforms}.",
     loading: "Please wait while the statistics API information is collected.",
     error_api: "An error occurred while trying to contact the API.",
-    error_player: "The player you mentioned does not exist or is not registered in the statistics pages.",
+    error_player: "The player you mentioned does not exist or isn't registered in the statistics pages.",
     completed_title: "Viewing **{player}**'s statistics on **{platform}**",
     ign: "IGN",
     uuid: "UUID",
@@ -1178,10 +1290,10 @@ exports.commands = {
   "r6": {
     noArgs: "You must specify the platform to see the statistics of a player.",
     noArgs_2: "You must specify the player's name to see their statistics.",
-    invalidPlatform: "The platform you have written is not valid, please write a valid platform ({platforms}).",
+    invalidPlatform: "The platform you have written isn't valid, please write a valid platform ({platforms}).",
     error_api: "An error occurred while trying to contact the API.",
     loading: "Please wait while the statistics API information is collected.",
-    error_player: "The player you mentioned does not exist or is not registered in the statistics pages.",
+    error_player: "The player you mentioned does not exist or isn't registered in the statistics pages.",
     completed_title: "Viewing **{player}**'s statistics on **{platform}**",
     ign: "IGN",
     uuid: "UUID",
@@ -1230,6 +1342,7 @@ exports.commands = {
   "removerole": {
     noArgs: "You must @Mention the person you want to take a role from.",
     noArgs_2: "You must write the name of the role you want to remove from that person.",
+    invalid_role: "The {role} role is managed by an integration.",
     noRole: "{user} does not have the assigned {role} role.",
     bellowRole: "My roles is below the {role} role.",
     completed: "You have successfully removed the {role} role from {user}."
@@ -1382,6 +1495,9 @@ exports.commands = {
   "sick": {
     completed: "{user} is sick!"
   },
+  "sing": {
+    completed: "{user} starts singing!"
+  },
   "slap": {
     noArgs: "You must @Mention the person you want to slap.",
     noAuthor: "You can not slap yourself.",
@@ -1428,8 +1544,7 @@ exports.commands = {
     emojis: "Emojis",
     commands: "Commands",
     version: "Filo version",
-    received_commands: "Received commands",
-    sent_messages: "Sent messages",
+    executed_commands: "Executed commands",
     library: "Library",
     library_version: "Library version",
     node_version: "Node version",
@@ -1460,29 +1575,47 @@ exports.commands = {
   },
   "support": {
     completed_title: "Filo support",
-    completed_description: "Do you need our help? Do not worry! Below you can see several methods of help that we provide.",
+    completed_description: "Do you need our help? don't worry! Below you can see several methods of help that we provide.",
     server: "Filo server",
     documentation: "Filo documentation",
     twitter: "Filo twitter",
     email: "Filo support email"
   },
+  teehee: {
+    completed: "{user} is teehee!"
+  },
+  "tempban": {
+    noArgs: "You must @Mention the person you want to ban.",
+    noArgs_2: "You must specify the duration of the ban.",
+    minimum_time: "The minimum time of the sanction must be greater than **{time}**.",
+    limit_time: "The time of the sanction can't exceed **{time}**.",
+    notification_title: "Temporarily banned from the server **{guild}**",
+    temporarily_banned: "temporarily banned",
+    ban_id: "Ban's ID",
+    time: "Time",
+    already_banned: "The user you mentioned is already banned."
+  },
   "tempmute": {
     noArgs: "You must @Mention the person you want to mute.",
     noArgs_2: "You must specify the time to temporarily mute this person.",
     bellowRole: "My roles is below the role **{role}**.",
+    invalid_role: "The {role} role is managed by an integration.",
+    minimum_time: "The minimum time of the sanction must be greater than **{time}**.",
+    limit_time: "The time of the sanction can't exceed **{time}**.",
     temporarily_muted: "temporarily muted",
     notification: {
       title: "Temporarily muted from the server **{guild}**",
     },
     mute_id: "Mute's ID",
-    time: "Time"
+    time: "Time",
+    already_muted: "The user you mentioned is already muted."
   },
   "tickle": {
     completed: "{user} tickles {user_2}!",
     noAuthor: "You can't tickle yourself."
   },
   "translate": {
-    noArgs: "You must write the language code to which you want to translate the text, if you do not know what the codes are, use the **{command}** command.",
+    noArgs: "You must write the language code to which you want to translate the text, if you don't know what the codes are, use the **{command}** command.",
     noArgs_2: "You must write the message you want to translate.",
     error_translate: "A problem has occurred while trying to translate the indicated text.",
     completed_title: "Translator"
@@ -1493,13 +1626,14 @@ exports.commands = {
   },
   "unban": {
     noArgs: "You must write the ID of the person you want to unban.",
-    user_not_banned: "The ID of the person you specified is not banned from the server.",
+    user_not_banned: "The ID of the person you specified isn't banned from the server.",
     completed: "{user} has been unbanned from the server correctly."
   },
   "unmute": {
     noArgs: "You must @Mention or write the ID of the person you want to unmute.",
     no_role_exist: "The **{role}** role does not exist on the server.",
-    user_not_muted: "{user} is not muted.",
+    invalid_role: "The {role} role is managed by an integration.",
+    user_not_muted: "{user} isn't muted.",
     bellowRole: "My roles is below the **{role}** role.",
     unmuted: "unmuted",
     notification: {
@@ -1509,7 +1643,7 @@ exports.commands = {
   "unpin": {
     noArgs: "You need to specify the ID of the messages that you want to unpin.",
     completed: "The message **{message_id}** has been unpinned on the channel {channel}.",
-    error_unpin: "An error occurred while trying to pinned the message **{message_id}**."
+    error_unpin: "An error occurred while trying to unpin the message **{message_id}**."
   },
   "urban": {
     noArgs: "You must write a word in English to look for it in the urban dictionary.",
