@@ -259,6 +259,10 @@ exports.auto_mod = {
   server_invite: "Invitación del servidor"
 };
 
+exports.anti_evasion = {
+  reason: "Evadir una sanción activa."
+};
+
 exports.games = {
   "won": "ganado",
   "lost": "perdido"
@@ -1326,6 +1330,17 @@ exports.commands = {
     casual_stats: "Estadísticas en partidas rápidas",
     ranked_stats: "Estadísticas en partidas igualadas",
     other_stats: "Otras estadísticas"
+  },
+  "r6status": {
+    loading: "Espere mientras se recopila la información de estado de la API.",
+    error_api: "Se produjo un error al intentar contactar con la API.",
+    completed_title: "Viendo el estado de los servidores de **{game}**",
+    completed_description: "Puedes obtener más información del status de los servidores haciendo **[clic aquí]({link})**.",
+    status: {
+      online: "En línea",
+      degraded: "Degradado",
+      maintenance: "Mantenimiento"
+    }
   },
   "randomnumber": {
     completed_title: "Número aleatorio"
