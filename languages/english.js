@@ -259,6 +259,10 @@ exports.auto_mod = {
   server_invite: "Server invite"
 };
 
+exports.anti_evasion = {
+  reason: "Evade an active sanction."
+};
+
 exports.games = {
   "won": "won",
   "lost": "lost"
@@ -1327,6 +1331,17 @@ exports.commands = {
     casual_stats: "Quick matches statistics",
     ranked_stats: "Ranked statistics",
     other_stats: "Other statistics"
+  },
+  "r6status": {
+    loading: "Please wait while the status API information is collected.",
+    error_api: "An error occurred while trying to contact the API.",
+    completed_title: "Viewing **{game}** server status",
+    completed_description: "You can obtain more information on the status of the servers by **[clicking here]({link})**.",
+    status: {
+      online: "Online",
+      degraded: "Degraded",
+      maintenance: "Maintenance"
+    }
   },
   "randomnumber": {
     completed_title: "Random number"
