@@ -403,6 +403,9 @@ exports.commands = {
     noFilo: "Por favor no me muerdas, ¡me vas a hacer daño! {emoji}",
     completed: "¡{user} muerde a {user_2}!"
   },
+  "blush": {
+    completed: "¡{user} se ha sonrojado!"
+  },
   "bored": {
     completed: "¡{user} se siente aburrido!"
   },
@@ -449,103 +452,116 @@ exports.commands = {
   "conf": {
     question_description: "Si es así, haga clic en ✅, si no desea configurarlo, haga clic en ❎.",
     webhook: {
-      noArgs_1: "Debesespecificar para qué módulo desea crear un webhook.",
-      noArgs_2: "Debesespecificar el canal donde desea crear el webhook.",
+      noArgs_1: "Debes especificar para qué módulo desea crear un webhook.",
+      noArgs_2: "Debes especificar el canal donde desea crear el webhook.",
       limit: "No se pudo crear el webhook porque el canal excede el número máximo permitido de webhooks.",
       completed: "El webhook se ha creado en el canal {channel}."
     },
     enable: {
-      noArgs_1: "Debesespecificar el nombre del módulo que desea habilitar.",
+      noArgs_1: "Debes especificar el nombre del módulo que desea habilitar.",
       completed: "El módulo **{module}** se ha habilitado correctamente."
     },
     disable: {
-      noArgs_1: "Debesespecificar el nombre del módulo que desea deshabilitar.",
+      noArgs_1: "Debes especificar el nombre del módulo que desea deshabilitar.",
       completed: "El módulo **{module}** se ha deshabilitado correctamente."
     },
     lang: {
-      noArgs_1: "Debesespecificar el idioma que desea establecer.",
+      noArgs_1: "Debes especificar el idioma que desea establecer.",
       invalid_language: "El idiomas que has seleccionado no es válido. Más información **[aquí]({link})**.",
       completed: "Has establecido el idioma de Filo a **{language}**."
     },
     prefix: {
-      noArgs_1: "Debesespecificar el nuevo prefijo que desea establecer.",
+      noArgs_1: "Debes especificar el nuevo prefijo que desea establecer.",
       completed: "Has establecido el prefijo de Filo como **{prefix}**."
     },
     guild: {
-      noArgs_1: "Debesespecificar lo que desea configurar.",
+      noArgs_1: "Debes especificar lo que desea configurar.",
       invite: {
-        noArgs_2: "Debesespecificar el canal para crear la invitación.",
+        noArgs_2: "Debes especificar el canal para crear la invitación.",
         completed: "Ha creado la invitación **{invite}** en el canal {channel}."
       }
     },
     role: {
-      noArgs_1: "Debesespecificar lo que desea configurar.",
-      noArgs_2: "Debesespecificar el rol que desea establecer.",
+      noArgs_1: "Debes especificar lo que desea configurar.",
+      noArgs_2: "Debes especificar el rol que desea establecer.",
       invalid_role: "El rol que especificó lo gestiona una integración.",
       error_perms_role: "La jerarquía del rol mencionado es mayor o igual que la de Filo.",
       completed: "Has establecido el rol {role} para el módulo **{module}**."
     },
     channel: {
-      noArgs_1: "Debesespecificar lo que desea configurar.",
-      noArgs_2: "Debesespecificar el canal para configurarlo.",
+      noArgs_1: "Debes especificar lo que desea configurar.",
+      noArgs_2: "Debes especificar el canal para configurarlo.",
       invalid_channel: "El canal que ha seleccionado no es apto para esta configuración.",
       completed: "Has establecido el canal {channel} para el módulo **{module}**."
     },
     message: {
-      noArgs_1: "Debesespecificar el módulo que desea configurar.",
-      noArgs_2: "Debesespecificar el mensaje que desea configurar.",
+      noArgs_1: "Debes especificar el módulo que desea configurar.",
+      noArgs_2: "Debes especificar el mensaje que desea configurar.",
       question_title: "¿Estás seguro de que deseas configurar este mensaje?",
       completed: "Ha establecido un nuevo mensaje para el módulo **{module}**."
     },
     counter: {
-      noArgs_1: "Debesespecificar la opción que desea configurar.",
-      noArgs_2: "Debesespecificar qué contador de miembros desea establecer.",
-      noArgs_3: "Debesespecificar el canal para configurarlo.",
+      noArgs_1: "Debes especificar la opción que desea configurar.",
+      noArgs_2: "Debes especificar qué contador de miembros desea establecer.",
+      noArgs_3: "Debes especificar el canal para configurarlo.",
       invalid_channel: "El canal que ha seleccionado no es apto para esta configuración.",
       completed: "Ha configurado el canal **{channel}** para el contador **{counter}**.",
       name: {
-        noArgs_1: "Debesespecificar el contador al que desea cambiar el nombre.",
-        noArgs_2: "Debesespecificar la variable **{members}** donde desea que aparezca el número de miembros del contador.",
+        noArgs_1: "Debes especificar el contador al que desea cambiar el nombre.",
+        noArgs_2: "Debes especificar la variable **{members}** donde desea que aparezca el número de miembros del contador.",
         question_title: "¿Estás seguro de que quieres establecer ese nombre para ese contador?",
         completed: "Cambiaste el nombre del canal de contador **{counter}** a **{name}**."
       },
       nick: {
-        noArgs_1: "Debesespecificar el apodo que desea establecer.",
-        noArgs_2: "Debesespecificar la variable **{members}** donde desea que aparezca el número de miembros del contador.",
+        noArgs_1: "Debes especificar el apodo que desea establecer.",
+        noArgs_2: "Debes especificar la variable **{members}** donde desea que aparezca el número de miembros del contador.",
         question_title: "¿Estás seguro de que quieres establecer este apodo?",
         completed: "Ha establecido el apodo **{nick}** para el contador de miembros."
       }
     },
     anti_invites: {
-      noArgs_1: "Debesespecificar la acción que desea llevar a cabo.",
+      noArgs_1: "Debes especificar la acción que desea llevar a cabo.",
       add: {
-        noArgs_1: "Debesespecificar la ID del servidor que desea incluir en la lista blanca.",
+        noArgs_1: "Debes especificar la ID del servidor que desea incluir en la lista blanca.",
         already_set: "La ID que especificó ya está en la lista blanca.",
         completed: "Ha agregado el servidor con ID **{server_id}** a la lista blanca."
       },
       remove: {
-        noArgs_1: "Debesespecificar la ID del servidor que desea eliminar de la lista blanca.",
+        noArgs_1: "Debes especificar la ID del servidor que desea eliminar de la lista blanca.",
         not_found: "La ID que especificó no está en la lista blanca.",
         completed: "Debeseliminar el servidor con ID **{server_id}** de la lista blanca."
       }
     },
     auto_mod: {
-      noArgs_1: "Debesespecificar qué opción desea configurar.",
-      noArgs_2: "Debesespecificar el nivel que desea configurar.",
-      noArgs_3: "Debesespecificar el número máximo de advertencias que Debesalcanzar un usuario para alcanzar ese nivel.",
+      noArgs_1: "Debes especificar qué opción desea configurar.",
+      noArgs_2: "Debes especificar el nivel que desea configurar.",
+      noArgs_3: "Debes especificar el número máximo de advertencias que Debesalcanzar un usuario para alcanzar ese nivel.",
       invalid_number: "El número que ha indicado no es válido.",
       completed: "Ha configurado **{warnings}** advertencias para alcanzar el nivel **{level}**.",
       action: {
-        noArgs_1: "Debesespecificar el nivel que desea configurar.",
-        noArgs_2: "Debesespecificar la acción que desea realizar cuando alcance ese nivel.",
+        noArgs_1: "Debes especificar el nivel que desea configurar.",
+        noArgs_2: "Debes especificar la acción que desea realizar cuando alcance ese nivel.",
         completed: "Has establecido la sanción **{action}** para el nivel **{level}**."
       },
       time: {
         noArgs_1: "Debes especificar el nivel que desea configurar.",
         noArgs_2: "Debes especificar el tiempo de la sanción.",
         limit_time: "El tiempo de la sanción no puede exceder **{time}**.",
-        minimum_time: "The minimum time of the sanction must be greater than **{time}**.",
+        minimum_time: "El tiempo mínimo de la sanción debe ser mayor que **{time}**.",
         completed: "Has establecido **{time}** para expirar la sanción del nivel **{level}**."
+      }
+    },
+    anti_evasion: {
+      noArgs_1: "Debes especificar qué opción desea configurar.",
+      action: {
+        noArgs_2: "Debes especificar la acción que quieres llevar a cabo cuando alguien intente evadir una sanción",
+        completed: "Has establecido la acción **{action}**."
+      },
+      time: {
+        noArgs_2: "Debes especificar la duración de la sanción.",
+        limit_time: "El tiempo de la sanción no puede exceder **{time}**.",
+        minimum_time: "El tiempo mínimo de la sanción debe ser mayor que **{time}**.",
+        completed: "Has establecido **{time}** para que expire la sanción."
       }
     },
     reset: {
@@ -553,9 +569,9 @@ exports.commands = {
       completed: "Has restablecido todas las configuraciones del servidor."
     },
     support: {
-      noArgs_1: "Debesespecificar la configuración que desea establecer.",
+      noArgs_1: "Debes especificar la configuración que desea establecer.",
       category: {
-        noArgs_1: "Debesespecificar el ID de la categoría que desea establecer.",
+        noArgs_1: "Debes especificar el ID de la categoría que desea establecer.",
         invalid_channel: "El canal que ha seleccionado no es apto para esta configuración.",
         completed: "Ha establecido la categoría **{category}** como categoría de soporte."
       }
@@ -605,7 +621,8 @@ exports.commands = {
         levels: "Niveles",
         logs: "Registros",
         anti_invites: "Anti-Invitaciones",
-        auto_mod: "Auto-Mod"
+        auto_mod: "Auto-Mod",
+        anti_evasion: "Anti-Evasión",
       }
     },
     embed_title: "Menú de ayuda rápida",
@@ -623,6 +640,7 @@ exports.commands = {
     question_levelup: "¿Cómo activar la notificación de subida de nivel?",
     auto_mod_modules: "Módulo de moderación automática",
     anti_invites_title: "Anti-Invitaciones",
+    anti_evasion_title: "Anti-Evasión",
     auto_mod_title: "Auto-Mod",
     welcomes_farewells_modules: "Módulo de bienvenidas y despedidas",
     welcomes_title: "Bienvenidas",
@@ -869,6 +887,11 @@ exports.commands = {
       error: "No se encontró ningún sorteo activo con la ID especificada."
     }
   },
+  "greet": {
+    noArgs: "Debes @Mencionar a la persona que quieres saludar.",
+    noAuthor: "No puedes saludarte a ti mismo.",
+    completed: "¡{user} saluda a {user_2}!"
+  },
   "happy": {
     completed: "¡{user} está feliz!"
   },
@@ -987,6 +1010,9 @@ exports.commands = {
   },
   "level" : {
     completed: "{user} se encuentra actualmente en el nivel **{level}**."
+  },
+  "like" : {
+    completed: "¡{user} da su aprobado!"
   },
   "love": {
     noArgs: "Tienes que @Mencionar a otra persona para generar la imagen de cariño.",
@@ -1329,7 +1355,33 @@ exports.commands = {
     reinforcements_deployed: "Refuerzos colocados",
     casual_stats: "Estadísticas en partidas rápidas",
     ranked_stats: "Estadísticas en partidas igualadas",
-    other_stats: "Otras estadísticas"
+    rank: "Rango",
+    mmr: "MMR",
+    other_stats: "Otras estadísticas",
+    ranks: {
+      unranked: "Sin clasificar",
+      copper_IV: "Cobre IV",
+      copper_III: "Cobre III",
+      copper_II: "Cobre II",
+      copper_I: "Cobre I",
+      bronze_IV: "Bronce IV",
+      bronze_III: "Bronce III",
+      bronze_II: "Bronce II",
+      silver_IV: "Bronce I",
+      silver_IV: "Plata IV",
+      silver_III: "Plata III",
+      silver_II: "Plata II",
+      bronze_I: "Plata I",
+      gold_IV: "Oro IV",
+      gold_III: "Oro III",
+      gold_II: "Oro II",
+      gold_I: "Oro I",
+      Platinum_III: "Platino III",
+      Platinum_II: "Platino II",
+      Platinum_I: "Platino I",
+      diamond: "Diamante",
+      champion: "Campeón"
+    }
   },
   "r6status": {
     loading: "Espere mientras se recopila la información de estado de la API.",
@@ -1615,7 +1667,7 @@ exports.commands = {
     invalid_role: "El rol {role} está administrado por una integración.",
     bellowRole: "Mis roles están por debajo del rol **{role}**.",
     limit_time: "El tiempo de la sanción no puede exceder **{time}**.",
-    minimum_time: "The minimum time of the sanction must be greater than **{time}**.",
+    minimum_time: "El tiempo mínimo de la sanción debe ser mayor que **{time}**.",
     temporarily_muted: "silenciado temporalmente",
     notification: {
       title: "Silenciado temporalmente del servidor **{guild}**",
@@ -1623,6 +1675,9 @@ exports.commands = {
     mute_id: "ID del silencio",
     time: "Tiempo",
     already_muted: "El usuario que has mencionado ya se encuentra silenciado."
+  },
+  "think": {
+    completed: "¡{user} está pensando!",
   },
   "tickle": {
     completed: "¡{user} hace cosquillas a {user_2}!",
