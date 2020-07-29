@@ -274,11 +274,11 @@ exports.commands = {
     example_1: "Am i kawaii?",
     example_2: "To be too kawaii!",
     unknown: "Unknown",
-    search_limit: "You cannot search more than **{limit}** characters.",
+    search_limit: "You can't search more than **{limit}** characters.",
     args_limit: "Written arguments exceed the limit of **{limit}** characters.",
     args_invalid: "The specified arguments are not valid.",
-    reason_limit: "You cannot set a reason greater than **{limit}** characters.",
-    reason_less: "You cannot set a reason less than **{limit}** characters.",
+    reason_limit: "You can't set a reason greater than **{limit}** characters.",
+    reason_less: "You can't set a reason less than **{limit}** characters.",
     no_user_perms: "You don't have permission to use the command **{command}** with {user}.",
     hastebin_check: "The result exceeds {limit} characters, but you can check the result **[here]({link})**.",
     author: "Author",
@@ -377,7 +377,7 @@ exports.commands = {
   },
   "baka": {
     noArgs: "You must @Mention the person you want to call baka.",
-    noBaka: "You can not call yourself baka. ばか！",
+    noBaka: "You can't call yourself baka. ばか！",
     noFilo: "Forgive me if I have failed at my job. {emoji}",
     completed: "{user} calls {user2} baka! ばか！"
   },
@@ -399,9 +399,12 @@ exports.commands = {
   },
   "bite": {
     noArgs: "You must @Mention the person you want to bite.",
-    noBite: "You can not bite yourself.",
+    noBite: "You can't bite yourself.",
     noFilo: "Please don't bite me, you're going to hurt me! {emoji}",
     completed: "{user} bites {user_2}!"
+  },
+  "blush": {
+    completed: "{user} has blushed!"
   },
   "bored": {
     completed: "{user} feels bored!"
@@ -418,7 +421,7 @@ exports.commands = {
   },
   "clear": {
     noArgs: "You must indicate the number of messages you want to delete.",
-    clear_limit: "You cannot delete more than **{limit}** messages at a time.",
+    clear_limit: "You can't delete more than **{limit}** messages at a time.",
     completed: "**{number}** messages from the {channel} channel have been deleted."
   },
   "clearwarns": {
@@ -538,7 +541,7 @@ exports.commands = {
       action: {
         noArgs_1: "You must specify the level you want to configure.",
         noArgs_2: "You must specify the action you want to take when you reach that level.",
-        completed: "You have established the **{action}** sanction for level **{level}**."
+        completed: "You have set the **{action}** sanction for level **{level}**."
       },
       time: {
         noArgs_1: "You must specify the level you want to configure.",
@@ -546,6 +549,19 @@ exports.commands = {
         minimum_time: "The minimum time of the sanction must be greater than **{time}**.",
         limit_time: "The time of the sanction can't exceed **{time}**.",
         completed: "You have set **{time}** to expire the level **{level}** sanction."
+      }
+    },
+    anti_evasion: {
+      noArgs_1: "You must specify which option you want to configure.",
+      action: {
+        noArgs_2: "You must specify the action you want to take when someone tries to evade a sanction.",
+        completed: "You have set the **{action}** action."
+      },
+      time: {
+        noArgs_2: "You must specify the time of the sanction.",
+        minimum_time: "The minimum time of the sanction must be greater than **{time}**.",
+        limit_time: "The time of the sanction can't exceed **{time}**.",
+        completed: "You have set **{time}** to expire the sanction."
       }
     },
     reset: {
@@ -605,7 +621,8 @@ exports.commands = {
         levels: "Levels",
         logs: "Logs",
         anti_invites: "Anti-Invites",
-        auto_mod: "Auto-Mod"
+        auto_mod: "Auto-Mod",
+        anti_evasion: "Anti-Evasion"
       }
     },
     embed_title: "Quick help menu",
@@ -624,6 +641,7 @@ exports.commands = {
     question_levelup: "How to activate the leveling notification?",
     auto_mod_modules: "Automatic moderation modules",
     anti_invites_title: "Anti-Invites",
+    anti_evasion_title: "Anti-Evasion",
     auto_mod_title: "Auto-Mod",
     welcomes_farewells_modules: "Welcome and farewell modules",
     welcomes_title: "Welcomes",
@@ -652,7 +670,7 @@ exports.commands = {
   },
   "cookie": {
     completed: "{user} gives {user_2} a cookie!",
-    noValid: "You can not give yourself a cookie."
+    noValid: "You can't give yourself a cookie."
   },
   "covid": {
     error_api: "An error occurred while trying to contact the API.",
@@ -752,7 +770,7 @@ exports.commands = {
   },
   "drake": {
     noArgs: "You must @Mention a person to do the meme.",
-    invalidMention: "You can not do the drake yourself, you must mention another person.",
+    invalidMention: "You can't do the drake yourself, you must mention another person.",
     invalidAvatar: "A valid avatar could not be found."
   },
   "ecotop": {
@@ -790,7 +808,7 @@ exports.commands = {
   },
   "feed": {
     completed: "{user} feeds {user2}!",
-    noAuthor: "You cannot feed yourself."
+    noAuthor: "You can't feed yourself."
   },
   "fish": {
     enough_money: "You don't have enough {emoji} credits to pay the hook.",
@@ -828,7 +846,7 @@ exports.commands = {
   },
   "fuck": {
     noArgs: "You must @Mention a person to be able to fuck.",
-    noAuthor: "You can not fuck yourself.",
+    noAuthor: "You can't fuck yourself.",
     noFuck: "What are you trying to do to me? ばか！",
     completed: "{user} fucked {user2}!"
   },
@@ -869,6 +887,11 @@ exports.commands = {
       completed: "You have edited the giveaway correctly.",
       error: "No active giveaways could be found with the ID provided."
     }
+  },
+  "greet": {
+    noArgs: "You must @Mention the person you want to greet.",
+    noAuthor: "You can't greet yourself.",
+    completed: "{user} greets {user_2}!"
   },
   "happy": {
     completed: "{user} is happy!"
@@ -988,6 +1011,9 @@ exports.commands = {
   },
   "level" : {
     completed: "{user} is currently at the level **{level}**."
+  },
+  "like" : {
+    completed: "{user} gives his thumbs up!"
   },
   "love": {
     noArgs: "You have to @Mention to another person to generate the image of love.",
@@ -1200,19 +1226,19 @@ exports.commands = {
   },
   "pat": {
     completed: "{user} caresses {user_2}!",
-    noAuthor: "You cannot caress yourself."
+    noAuthor: "You can't caress yourself."
   },
   "pay": {
     noArgs: "You must @Mention the person you want to pay.",
     noArgs_2: "You must write the amount of money you want to pay.",
-    noAuthor: "You can not pay yourself.",
+    noAuthor: "You can't pay yourself.",
     noFilo: "I appreciate you want to pay me **{credits}** {emoji} credits, but unfortunately my developers don't allow me to accept money from others.",
     noMoney: "You don't have **{credits}** {emoji} credits to pay to {user}.",
     completed: "You have paid **{credits}** {emoji} credits to {user}."
   },
   "pin": {
     noArgs: "You need to specify the ID of the messages that you want to pinned.",
-    maximumMessages: "There cannot be more than **{limit}** fixed messages per channel.",
+    maximumMessages: "There can't be more than **{limit}** fixed messages per channel.",
     completed: "The message **{message_id}** has been pinned on the channel {channel}.",
     error_pin: "An error occurred while trying to pin the message **{message_id}**."
   },
@@ -1224,7 +1250,7 @@ exports.commands = {
   },
   "poke": {
     noArgs: "You must @Mention the person you want to poke.",
-    noAuthor: "You can not bother yourself.",
+    noAuthor: "You can't bother yourself.",
     completed: "{user} bothers {user_2}!"
   },
   "poll": {
@@ -1287,7 +1313,7 @@ exports.commands = {
   },
   "punch": {
     noArgs: "You must @Mention the person you want to hit.",
-    noAuthor: "You can not hit yourself.",
+    noAuthor: "You can't hit yourself.",
     noFilo: "Please don't punch me, you're going to hurt me! {emoji}",
     completed: "{user} hits {user_2}!"
   },
@@ -1330,7 +1356,33 @@ exports.commands = {
     reinforcements_deployed: "Reinforcements deployed",
     casual_stats: "Quick matches statistics",
     ranked_stats: "Ranked statistics",
-    other_stats: "Other statistics"
+    rank: "Rank",
+    mmr: "MMR",
+    other_stats: "Other statistics",
+    ranks: {
+      unranked: "Unranked",
+      copper_IV: "Copper IV",
+      copper_III: "Copper III",
+      copper_II: "Copper II",
+      copper_I: "Copper I",
+      bronze_IV: "Bronze IV",
+      bronze_III: "Bronze III",
+      bronze_II: "Bronze II",
+      bronze_I: "Bronze I",
+      silver_IV: "Silver IV",
+      silver_III: "Silver III",
+      silver_II: "Silver II",
+      bronze_I: "Silver I",
+      gold_IV: "Gold IV",
+      gold_III: "Gold III",
+      gold_II: "Gold II",
+      gold_I: "Gold I",
+      Platinum_III: "Platinum III",
+      Platinum_II: "Platinum II",
+      Platinum_I: "Platinum I",
+      diamond: "Diamond",
+      champion: "Champion"
+    }
   },
   "r6status": {
     loading: "Please wait while the status API information is collected.",
@@ -1364,14 +1416,14 @@ exports.commands = {
   },
   "rep": {
     noArgs: "You must @Mention the person you want to grant a reputation point.",
-    noAuthor: "You cannot give yourself a reputation point.",
+    noAuthor: "You can't give yourself a reputation point.",
     completed: "{user} has given {user_2} a {emoji} reputation point!",
     cooldown: "{user}, you must wait **{hours} hours**, **{minutes} minutes**, **{seconds} seconds** to be able to grant another {emoji} reputation point."
   },
   "report": {
     noArgs: "You must @Mention to the person you want to report.",
     noArgs_2: "You must explain a reason for the report.",
-    noAuthor: "You cannot report yourself.",
+    noAuthor: "You can't report yourself.",
     completed: "You have reported {user} correctly.",
     report_id: "Report's ID",
     reason: "Reason",
@@ -1384,7 +1436,7 @@ exports.commands = {
   },
   "reversecard": {
     noArgs: "You must @Mention another person to use the reversed card.",
-    noAuthor: "You cannot use the inverted card with yourself.",
+    noAuthor: "You can't use the inverted card with yourself.",
     completed: "{user} uses the reversed card against {user_2}!"
   },
   "role": {
@@ -1515,7 +1567,7 @@ exports.commands = {
   },
   "slap": {
     noArgs: "You must @Mention the person you want to slap.",
-    noAuthor: "You can not slap yourself.",
+    noAuthor: "You can't slap yourself.",
     noFilo: "Please don't slap me, you're going to hurt me! {emoji}",
     completed: "{user} slap {user_2}!"
   },
@@ -1531,8 +1583,8 @@ exports.commands = {
   },
   "slowmode": {
     noArgs: "You must enter the number of seconds of slowmode.",
-    max: "You cannot set a slowmode greater than **{max}** hours.",
-    min: "You cannot set a slowmode less than **{min}** seconds.",
+    max: "You can't set a slowmode greater than **{max}** hours.",
+    min: "You can't set a slowmode less than **{min}** seconds.",
     completed: "You have set a slowmode of **{time}** seconds to the {channel} channel."
   },
   "smug": {
@@ -1624,6 +1676,9 @@ exports.commands = {
     mute_id: "Mute's ID",
     time: "Time",
     already_muted: "The user you mentioned is already muted."
+  },
+  "think": {
+    completed: "{user} is thinking!",
   },
   "tickle": {
     completed: "{user} tickles {user_2}!",
