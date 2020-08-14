@@ -529,13 +529,13 @@ exports.commands = {
       remove: {
         noArgs_1: "Debes especificar la ID del servidor que desea eliminar de la lista blanca.",
         not_found: "La ID que especificó no está en la lista blanca.",
-        completed: "Debeseliminar el servidor con ID **{server_id}** de la lista blanca."
+        completed: "Debes eliminar el servidor con ID **{server_id}** de la lista blanca."
       }
     },
     auto_mod: {
       noArgs_1: "Debes especificar qué opción desea configurar.",
       noArgs_2: "Debes especificar el nivel que desea configurar.",
-      noArgs_3: "Debes especificar el número máximo de advertencias que Debesalcanzar un usuario para alcanzar ese nivel.",
+      noArgs_3: "Debes especificar el número máximo de advertencias que debe alcanzar un usuario para alcanzar ese nivel.",
       invalid_number: "El número que ha indicado no es válido.",
       completed: "Ha configurado **{warnings}** advertencias para alcanzar el nivel **{level}**.",
       action: {
@@ -682,7 +682,7 @@ exports.commands = {
       fever: "Fiebre",
       breathing: "Dificultad para respirar (en casos graves)",
       more_info: "Más información acerca del coronavirus **[aquí]({link})**.",
-      warning: "**ADVERTENCIA**: En el caso de que tengas fiebre, tos y dificultad para respirar, Debesbuscar atención médica.",
+      warning: "**ADVERTENCIA**: En el caso de que tengas fiebre, tos y dificultad para respirar, debes buscar atención médica.",
       prevent_title: "¿Cómo se puede prevenir el coronavirus?",
       prevent_one: "Lávese las manos regularmente con agua y jabón o con un desinfectante para manos a base de alcohol.",
       prevent_two: "Cubrirse la nariz y la boca al toser y estornudar con un pañuelo desechable o el interior del codo.",
@@ -756,6 +756,12 @@ exports.commands = {
     fired_bullets: "Estadísticas de balas disparadas",
     successful_bullets: "Estadísticas de balas impactadas"
   },
+  "cuddle": {
+    noArgs: "Debes @Mencionar a otra persona para abrazarle.",
+    noAuthor: "No puedes abrazarte tu solo.",
+    noCuddle: "Lo siento, no puedo dejar que hagas eso {emoji}",
+    completed: "¡{user} abraza a {user_2}!"
+  },
   "daily": {
     completed: "**{user}**, ¡has recibido tus **{credits}** {emoji} créditos diarios!",
     completed_2: "{user}, ¡has recibido **{credits}** {emoji} créditos diarios de {user_2}!",
@@ -813,6 +819,9 @@ exports.commands = {
     enough_money: "No tienes suficientes {emoji} créditos para poder pagar el anzuelo.",
     completed: "Has lanzado el anzuelo, pero desafortunadamente no has pescado nada y has tenido que pagar **{credits}** {emoji} créditos por tu intento. Tienes ahora **{balance}** {emoji} créditos.",
     completed_2: "Has lanzado el anzuelo, y... ¡has pescado uno! Has ganado **{reward}** {emoji} créditos y has tenido que pagar **{credits}** {emoji} créditos por tu intento. Tienes ahora **{balance}** {emoji} créditos."
+  },
+  "floor": {
+    completed: "¡El suelo es lava!"
   },
   "fortnite": {
     noArgs: "Debes especificar la plataforma para ver las estadísticas de un jugador.",
@@ -1360,18 +1369,21 @@ exports.commands = {
     other_stats: "Otras estadísticas",
     ranks: {
       unranked: "Sin clasificar",
+      copper_V: "Cobre V",
       copper_IV: "Cobre IV",
       copper_III: "Cobre III",
       copper_II: "Cobre II",
       copper_I: "Cobre I",
+      bronze_V: "Bronce V",
       bronze_IV: "Bronce IV",
       bronze_III: "Bronce III",
       bronze_II: "Bronce II",
       silver_IV: "Bronce I",
+      silver_V: "Plata V",
       silver_IV: "Plata IV",
       silver_III: "Plata III",
       silver_II: "Plata II",
-      bronze_I: "Plata I",
+      silver_I: "Plata I",
       gold_IV: "Oro IV",
       gold_III: "Oro III",
       gold_II: "Oro II",
@@ -1387,7 +1399,7 @@ exports.commands = {
     loading: "Espere mientras se recopila la información de estado de la API.",
     error_api: "Se produjo un error al intentar contactar con la API.",
     completed_title: "Viendo el estado de los servidores de **{game}**",
-    completed_description: "Puedes obtener más información del status de los servidores haciendo **[clic aquí]({link})**.",
+    completed_description: "Puedes obtener más información del estado de los servidores haciendo **[clic aquí]({link})**.",
     status: {
       online: "En línea",
       degraded: "Degradado",
@@ -1466,10 +1478,10 @@ exports.commands = {
   "server": {
     moderation: {
       none: "Ninguno",
-      low: "Bajo (Debeshaber verificado el correo electrónico en la cuenta)",
-      medium: "Medio (Debesestar registrado en Discord por más de 5 minutos)",
-      high: "(╯°□°）╯︵ ┻━┻ (Debesser miembro del servidor durante más de 10 minutos)",
-      very_high: "┻━┻ ﾐヽ(ಠ益ಠ)ノ彡┻━┻ (Debestener un número de teléfono verificado)"
+      low: "Bajo (Debes haber verificado el correo electrónico en la cuenta)",
+      medium: "Medio (Debes estar registrado en Discord por más de 5 minutos)",
+      high: "(╯°□°）╯︵ ┻━┻ (Debes ser miembro del servidor durante más de 10 minutos)",
+      very_high: "┻━┻ ﾐヽ(ಠ益ಠ)ノ彡┻━┻ (Debes tener un número de teléfono verificado)"
     },
     filter: {
       disabled: "Desactivado",
