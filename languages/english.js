@@ -757,6 +757,12 @@ exports.commands = {
     fired_bullets: "Statistics of fired bullets",
     successful_bullets: "Statistics of successful bullets"
   },
+  "cuddle": {
+    noArgs: "You must @Mention another person to cuddle.",
+    noAuthor: "You can't cuddle yourself.",
+    noCuddle: "Sorry, I can't let you do that. {emoji}",
+    completed: "{user} cuddles {user_2}!"
+  },
   "daily": {
     completed: "**{user}**, you have received your **{credits}** daily {emoji} credits!",
     completed_2: "{user}, you've received {user_2}'s **{credits}** daily {emoji} credits!",
@@ -814,6 +820,9 @@ exports.commands = {
     enough_money: "You don't have enough {emoji} credits to pay the hook.",
     completed: "You have thrown the hook, but unfortunately you haven't caught anything and you have had to pay **{credits}** {emoji} credits for your attempt. You have now **{balance}** {emoji} credits.",
     completed_2: "You have cast the hook, and... you have caught one! You've won **{reward}** {emoji} credits and you had to pay **{credits}** {emoji} credits for your attempt. You have now **{balance}** {emoji} credits."
+  },
+  "floor": {
+    completed: "The floor is lava!"
   },
   "fortnite": {
     noArgs: "You must specify the platform to see the statistics of a player.",
@@ -1361,18 +1370,21 @@ exports.commands = {
     other_stats: "Other statistics",
     ranks: {
       unranked: "Unranked",
+      copper_V: "Copper V",
       copper_IV: "Copper IV",
       copper_III: "Copper III",
       copper_II: "Copper II",
       copper_I: "Copper I",
+      bronze_V: "Bronze V",
       bronze_IV: "Bronze IV",
       bronze_III: "Bronze III",
       bronze_II: "Bronze II",
       bronze_I: "Bronze I",
+      silver_V: "Silver V",
       silver_IV: "Silver IV",
       silver_III: "Silver III",
       silver_II: "Silver II",
-      bronze_I: "Silver I",
+      silver_I: "Silver I",
       gold_IV: "Gold IV",
       gold_III: "Gold III",
       gold_II: "Gold II",
