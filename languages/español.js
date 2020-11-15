@@ -20,7 +20,9 @@ exports.general = {
 };
 
 exports.modules = {
-  support: "soporte"
+  disable_commands: {
+    notification: "El comando que está intentando ejecutar está deshabilitado por la administración del servidor."
+  }
 };
 
 exports.time = {
@@ -37,13 +39,12 @@ exports.time = {
 };
 
 exports.moderation = {
-  server_invite: "El mensaje enviado contiene una invitación de servidor externo",
   administrator: "Administrador",
   moderator: "Moderador",
   responsible: "Responsable: {member}.",
   responsible_and_reason: "Responsable: {user}. Razón: {reason}",
   notification_description: "Has recibido este mensaje informativo porque has sido {sanction_type} del servidor: **{guild}**.",
-  default_reason: "El STAFF no ha especificado ninguna razón",
+  default_reason: "El staff no ha especificado ninguna razón",
   reason: "Razón",
   completed: "{user} ha sido {sanction_type} del servidor.",
   sanction_expired: "La sanción ha expirado"
@@ -56,8 +57,8 @@ exports.channel = {
     text: "Canal de texto",
     voice: "Canal de voz",
     category: "Categoría",
-    news: "Canal de anuncios",
-    store: "Tienda",
+    news: "Canal de noticias",
+    store: "Canal de comercio",
     unknown: "Canal desconocido"
   },
   channel: "Canal",
@@ -68,7 +69,7 @@ exports.channel = {
   channel_position: "Posición del canal",
   slowmode: "Tiempo de recuperación",
   channel_topic: "Tema del canal",
-  default_topic: "Canal sin tema definido"
+  default_topic: "Canal sin tema definido."
 };
 
 exports.nsfw = {
@@ -86,150 +87,57 @@ exports.log = {
   disabled: "Desactivado",
   ineligible: "Inelegible",
   any: "Ninguna",
-  default_reason: "El STAFF no ha especificado ninguna razón",
-  message: {
+  default_reason: "El staff no ha especificado ninguna razón",
+  messages: {
     completed_title: "Registro de mensajes",
     purged_messages: "Mensajes limpiados"
   },
-  support: {
-    completed_title: "Registro de soporte",
-    ticket_closed: "Ticket cerrado",
-    ticket_opened: "Ticket abierto",
-    default_reason: "Ninguna razón especificada"
-  },
-  channelCreate: {
+  channel: {
     title: "Registro de canales",
-    text: "Canal de texto",
-    voice: "Canal de voz",
-    news: "Canal de anuncios",
-    store: "Canal de tienda",
-    category: "Categoría",
-    unknown_channel: "Canal desconocido",
     channelCreate: "Canal creado",
-    type: "Tipo de canal",
-    position: "Posición del canal",
-    nsfw: "NSFW",
-    slowmode: "Tiempo de recuperación",
-    topic: "Tema del canal",
-    default_topic: "No está definido el tema"
-  },
-  channelDelete: {
-    title: "Registro de canales",
-    text: "Canal de texto",
-    voice: "Canal de voz",
-    news: "Canal de anuncios",
-    store: "Canal de tienda",
-    category: "Categoría",
-    unknown_channel: "Canal desconocido",
     channelDelete: "Canal eliminado",
+    channel_name: "Nombre del canal",
+    text: "Canal de texto",
+    voice: "Canal de voz",
+    news: "Canal de noticias",
+    store: "Canal de comercio",
+    category: "Categoría",
+    unknown_category: "Categoría desconocida",
+    unknown_channel: "Canal desconocido",
     type: "Tipo de canal",
     position: "Posición del canal",
     nsfw: "NSFW",
     slowmode: "Tiempo de recuperación",
     topic: "Tema del canal",
-    default_topic: "No está definido el tema"
+    default_topic: "Canal sin tema definido"
   },
-  channelUpdate: {
-    title: "Registro de canales",
-    text: "Canal de texto",
-    voice: "Canal de voz",
-    news: "Canal de anuncios",
-    store: "Canal de tienda",
-    category: "Categoría",
-    unknown_channel: "Canal desconocido",
-    channelUpdate: "Canal actualizado",
-    type: "Tipo de canal",
-    position: "Posición del canal",
-    nsfw: "NSFW",
-    slowmode: "Tiempo de recuperación",
-    old_topic: "Tema del canal anterior",
-    new_topic: "Tema del canal nuevo",
-    default_topic: "No está definido el tema"
-  },
-  guildBanAdd: {
+  sanction: {
     title: "Registro de sanción",
-    guildBanAdd: "Miembro baneado"
+    guildMemberWarn: "Miembro advertido",
+    guildBanAdd: "Miembro baneado",
+    guildBanRemove: "Miembro desbaneado",
   },
-  guildBanRemove: {
-    title: "Registro de sanción",
-    guildBanRemove: "Miembro desbaneado"
-  },
-  guildMemberAdd: {
-    bot_account: "Cuenta de bot",
-    normal_account: "Cuenta normal",
-    title: "Registro de miembros",
-    type: "Tipo de cuenta",
-    registration_date: "Fecha de registro",
-    guildMemberAdd: "Miembro unido",
-    verification: {
-      none: "Ninguna",
-      low: "Baja",
-      medium: "Media",
-    },
-    content: {
-      option_1: "Activado con criterios",
-      option_2: "Activado para todos",
-    },
-    notifications: {
-      mentions: "Solo @menciones",
-      all: "Todos los mensajes"
-    }
-  },
-  guildMemberRemove: {
-    bot_account: "Cuenta de bot",
-    normal_account: "Cuenta normal",
-    title: "Registro de miembros",
-    type: "Tipo de cuenta",
-    registration_date: "Fecha de registro",
-    guildMemberRemove: "Miembro sale",
-    verification: {
-      none: "Ninguna",
-      low: "Baja",
-      medium: "Media",
-    },
-    content: {
-      option_1: "Activado con criterios",
-      option_2: "Activado para todos",
-    },
-    notifications: {
-      mentions: "Solo @menciones",
-      all: "Todos los mensajes"
-    }
-  },
-  guildMemberUpdate: {
-    none: "Ninguna",
-    toMany: "Demasiados como para mostrarlos",
-    title: "Registro de miembros",
-    guildMemberUpdate: "Miembro actualizado",
-    rolesUpdate: "Roles de miembro actualizados",
-    old_roles: "Roles antiguos ({roles})",
-    new_roles: "Roles nuevos ({roles})",
-    updatedNickname: "Apodo de miembro actualizado",
-    old_nickname: "Apodo antiguo",
-    new_nickname: "Apodo nuevo"
-  },
-  warnedMember: {
-    title: "Registro de sanción",
-    warnedMember: "Miembro advertido"
-  },
-  messageDelete: {
+  message: {
     title: "Registro de mensaje",
-    messageDelete: "Mensaje eliminado"
-  },
-  messageUpdate: {
-    title: "Registro de mensaje",
+    messageDelete: "Mensaje eliminado",
+    message: "Mensaje",
+    message_link: "Enlace del mensaje",
     messageUpdate: "Mensaje actualizado",
     oldMessage: "Mensaje antiguo",
     newMessage: "Mensaje nuevo",
-    message_link: "Enlace del mensaje",
-    messagePinned: "Mensaje fijado actualizado"
+    messagePinned: "Mensaje fijado actualizado",
+    channel: "Canal"
+  },
+  member: {
+    title: "Registro de miembro",
+    guildMemberAdd: "Miembro unido",
+    guildMemberRemove: "Miembro sale",
+    member: "Miembro",
+    registration_date: "Fecha de registro",
+    account_type: "Tipo de cuenta",
+    bot_account: "Cuenta bot",
+    normal_account: "Cuenta normal"
   }
-};
-
-exports.leveling = {
-  level_up: "¡Subida de nivel!",
-  completed: "¡{user} ha subido de nivel!",
-  current_level: "Nivel actual: **{level}**"
 };
 
 exports.secret_menu_help = {
@@ -245,22 +153,31 @@ exports.secret_menu_help = {
 };
 
 exports.anti_invites = {
-  warned: "advertido",
-  notification: {
-    title: "Advertido del servidor **{guild}**"
-  },
-  warn_id: "ID de la advertencia",
-  reason: "Razón"
+  reason: "El mensaje enviado contiene una invitación de servidor externo.",
+  reason_2: "El mensaje actualizado contiene una invitación de servidor externo.",
 };
 
 exports.auto_mod = {
   pre_reason: "Sistema de auto-moderación de Filo",
-  reason: "Exceder {limit} advertencias",
+  reason: "Exceder {limit} advertencias.",
   server_invite: "Invitación del servidor"
 };
 
 exports.anti_evasion = {
   reason: "Evadir una sanción activa."
+};
+
+exports.anti_spam = {
+  reason_1: "Enviar demasiados mensajes en poco tiempo.",
+  reason_2: "Enviar demasiados mensajes similares en poco tiempo."
+};
+
+exports.anti_mass_mentions = {
+  reason: "Mencionas demasiados usuarios en el mismo mensaje."
+};
+
+exports.anti_repeated_text = {
+  reason: "El mensaje contiene texto repetido."
 };
 
 exports.games = {
@@ -412,9 +329,9 @@ exports.commands = {
   "bugs": {
     noArgs: "Debes explicar el bug que quieres reportar.",
     example: "No funciona el comando de estadísticas",
-    warning: "{emoji} ¿Estás seguro de que quieres informar de este bug al Equipo de Desarrollo de Filo?\n\n{emoji_2} **ADVERTENCIA**: Ten en cuenta que un mal uso intencionado de este comando puede conllevar una violación de los **[Términos y Condiciones de Filo]({link})**.\n\nEscribe **confirm** si quieres enviarlo o escribe **cancel** si no quieres enviarlo.",
+    warning: "{emoji} ¿Estás seguro de que quieres informar de este bug al Equipo de Desarrollo de Filo?\n\n{emoji_2} **ADVERTENCIA**: Ten en cuenta que un mal uso intencionado de este comando puede conllevar una violación de los **[Términos y Condiciones de Filo]({link})**.\n\nSi quieres enviaro haz clic en ✅, de lo contrario haz clic en ❎.",
     bug_explanation: "Explicación del bug",
-    completed: "El informe **{report_id}** ha sido enviado al Equipo de Desarrollo de Filo correctamente."
+    completed: "El informe #**{report_id}** ha sido enviado al Equipo de Desarrollo de Filo correctamente."
   },
   "channel": {
     completed_title: "Información del canal"
@@ -427,10 +344,6 @@ exports.commands = {
   "clearwarns": {
     noArgs: "Debes @Mencionar a una persona para eliminar todas sus advertencias.",
     completed: "Has eliminado todas las advertencias de {user}."
-  },
-  "close": {
-    notValid: "Este canal de texto no es un ticket de soporte.",
-    confirm: "{emoji} ¿{user} estás seguro de que quieres cerrar este ticket de soporte?\n\nSi realmente quieres cerrarlo escribe **confirm** y si no quieres cerrarlo escribe **cancel**."
   },
   "coinflip": {
     noArgs: "Debes elegir **{option_1}** o **{option_2}** para poder jugar.",
@@ -450,6 +363,8 @@ exports.commands = {
     rgb: "RGB"
   },
   "conf": {
+    minimum_value: "El valor debe ser igual o superior a **{number}**.",
+    maximum_value: "El valor debe ser igual o inferior a **{number}**.",
     question_description: "Si es así, haga clic en ✅, si no desea configurarlo, haga clic en ❎.",
     webhook: {
       noArgs_1: "Debes especificar para qué módulo desea crear un webhook.",
@@ -498,7 +413,10 @@ exports.commands = {
       noArgs_1: "Debes especificar el módulo que desea configurar.",
       noArgs_2: "Debes especificar el mensaje que desea configurar.",
       question_title: "¿Estás seguro de que deseas configurar este mensaje?",
-      completed: "Ha establecido un nuevo mensaje para el módulo **{module}**."
+      completed: "Ha establecido un nuevo mensaje para el módulo **{module}**.",
+      type: {
+        completed: "Has establecido el tipo de mensaje **{type}** para el módulo **{module}**."
+      }
     },
     counter: {
       noArgs_1: "Debes especificar la opción que desea configurar.",
@@ -564,17 +482,87 @@ exports.commands = {
         completed: "Has establecido **{time}** para que expire la sanción."
       }
     },
+    anti_spam: {
+      noArgs_0: "Debes especificar la acción que deseas realizar.",
+      bots: {
+        noArgs_1: "Debes especificar si quieres activar o desactivar la inmunidad para los bots.",
+        enabled: "activado",
+        disabled: "desactivado",
+        completed: "Has **{action}** la inmunidad para los bots."
+      },
+      channel: {
+        noArgs_1: "Debes especificar la acción que deseas realizar.",
+        add: {
+          noArgs_2: "Debes especificar el canal que quieres añadir a la lista blanca.",
+          already_set: "El canal que has especificado ya se encuentra en la lista blanca.",
+          completed: "Has añadido el canal {channel} a la lista blanca."
+        },
+        remove: {
+          noArgs_2: "Debes especificar el canal que quieres eliminar de la lista blanca.",
+          unknown_set: "El canal que has especificado no se encuentra en la lista blanca.",
+          completed: "Has eliminado el canal {channel} de la lista blanca."
+        }
+      },
+      role: {
+        noArgs_1: "Debes especificar la acción que deseas realizar.",
+        add: {
+          noArgs_2: "Debes especificar el rol que quieres añadir a la lista blanca.",
+          already_set: "El rol que has especificado ya se encuentra en la lista blanca.",
+          completed: "Has añadido el rol {role} a la lista blanca."
+        },
+        remove: {
+          noArgs_2: "Debes especificar el rol que quieres eliminar a la lista blanca.",
+          unknown_set: "El rol que has especificado no se encuentra en la lista blanca.",
+          completed: "Has eliminado el rol {role} a la lista blanca."
+        }
+      },
+      rules: {
+        noArgs_1: "Debes especificar la acción que deseas realizar.",
+        duplicates: {
+          noArgs_2: "Debes especificar el número máximo de mensajes similares que puede enviar un usuario.",
+          noArgs_3: "Debes especificar el tiempo en segundos que debe transcurrir para considerar los mensajes duplicados como spam.",
+          completed: "Has establecido que se pueden enviar **{messages}** mensajes similares cada **{seconds}** segundos."
+        }
+      }
+    },
+    anti_mass_mentions: {
+      noArgs_1: "Debes especificar el número máximo de menciones permitidas.",
+      completed: "Has establecido **{number}** menciones como máximo para considerarse menciones masivas."
+    },
+    commands: {
+      noArgs_0: "Debes especificar la acción que deseas realizar.",
+      invalid_args: "La acción especificada no es válida",
+      enable: {
+        noArgs_1: "Debe especificar el comando que desea habilitar.",
+        invalid_command: "El comando especificado es inválido",
+        no_exist: "El comando que has especificado no se encuentra deshabilitado.",
+        completed: "El comando **{command}** ha sido habilitado correctamente."
+      },
+      disable: {
+        noArgs_1: "You must specify the command you want to disable.",
+        invalid_command: "El comando especificado es inválido",
+        no_exist: "El comando que has especificado no se encuentra habilitado.",
+        privileged_command: "El comando **{command}** se encuentra en una categoría protegida y no puede ser deshabilitado.",
+        completed: "El comando **{command}** ha sido deshabilitado correctamente."
+      },
+    },
+    anti_bad_words: {
+      add: {
+        noArgs_1: "Debes especificar la palabra que quieres añadir.",
+        args_limit: "La palabra que has especificado supera los **{limit}** caracteres de longitud.",
+        already_exist: "La palabra **{word}** ya se encuentra añadida en la lista.",
+        completed: "Has añadido la palabra **{word}** a la lista."
+      },
+      remove: {
+        noArgs_1: "Debes especificar la palabra que quieres eliminar.",
+        args_limit: "La palabra que has especificado supera los **{limit}** caracteres de longitud.",
+        unknown_word: "La palabra **{word}** no se encuentra en la lista.",
+        completed: "Has eliminado la palabra **{word}** a la lista."
+      }
+    },
     reset: {
       question_title: "¿Está seguro de que desea restablecer todas las configuraciones del servidor?",
       completed: "Has restablecido todas las configuraciones del servidor."
-    },
-    support: {
-      noArgs_1: "Debes especificar la configuración que desea establecer.",
-      category: {
-        noArgs_1: "Debes especificar el ID de la categoría que desea establecer.",
-        invalid_channel: "El canal que ha seleccionado no es apto para esta configuración.",
-        completed: "Ha establecido la categoría **{category}** como categoría de soporte."
-      }
     },
     view: {
       description: "Si necesitas ayuda, consulte **[nuestra wiki]({link})** y si no puede entenderla, no dudes en **[contactarnos]({link_2})**.",
@@ -587,42 +575,54 @@ exports.commands = {
       server_invite: "Invitación del servidor",
       reporting_channel: "Canal de reportes",
       cooldown: "Cooldown",
-      support_role: "Rol de soporte",
       administrator_role: "Rol de administrador",
-      support_category: "Categoría de soporte",
       welcome_channel: "Canal de bienvenidas",
       welcome_role: "Rol de bienvenida",
       welcome_message: "Mensaje de bienvenida",
       limit_embed: "Demasiado largo como para mostrarlo.",
       all_counter: "Contador de miembros totales",
       all_counter_name: "Nombre del contador de miembros totales",
-      humans_counter: "Contador de miembros humanos",
-      humans_counter_name: "Nombre del contador de miembros humanos",
-      bots_counter: "Contador de miembros bots",
-      bots_counter_name: "Nombre del contador de miembros bots",
       nick_counter: "Apodo de miembros totales",
       farewells_channel: "Canal de despedidas",
       farewells_message: "Mensaje de despedida",
-      loging_channel: "Canal de registros",
+      logging_channel: "Canal de registros",
       whitelist: "Lista blanca",
       level: "Nivel",
       action: "Acción",
       time: "Tiempo",
       embed_title: "Viendo las configuraciones del servidor",
+      bots_inmunity: "Inmunidad para los bots",
+      duplicates_messages: "Mensajes duplicados",
+      anti_mass_mentions_allowed: "Menciones masivas permitidas",
+      channels_whitelist: "Lista blanca de canales",
+      roles_whitelist: "Lista blanca de roles",
+      message_type: "Tipo de mensaje",
+      embed_color: "Color del embed",
+      disabled_commands: "Comandos deshabilitados",
+      disable_commands: {
+        no_commands_disabled: "No hay comandos deshabilitados"
+      },
+      bad_words: "Palabras malas",
+      anti_bad_words: {
+        no_words: "No hay ninguna palabra mala en la lista."
+      },
       modules_title: {
         languages: "Idioma",
         prefix: "Prefijo",
         server: "Servidor",
         reports: "Reportes",
-        support: "Soporte / Tickets",
         welcomes: "Bienvenidas",
         membercounter: "Contador de miembros",
         farewells: "Despedidas",
-        levels: "Niveles",
         logs: "Registros",
-        anti_invites: "Anti-Invitaciones",
+        anti_invites: "Anti Invitaciones",
         auto_mod: "Auto-Mod",
-        anti_evasion: "Anti-Evasión",
+        anti_evasion: "Anti Evasión",
+        anti_spam: "Anti Spam",
+        anti_mass_mentions: "Anti Menciones Masivas",
+        anti_repeated_text: "Anti Texto Repetido",
+        disable_commands: "Deshabilitar comandos",
+        anti_bad_words: "Anti Malas Palabras"
       }
     },
     embed_title: "Menú de ayuda rápida",
@@ -631,23 +631,28 @@ exports.commands = {
     wiki: "Wiki de Filo",
     discord: "Discord de Filo",
     module_title: "Módulo",
+    command: "Comando",
     question_enable: "¿Cómo habilitar un módulo?",
-    question_disable: "¿Cómo deshabilitar?",
+    question_disable: "¿Cómo deshabilitar un módulo?",
+    question_command_enable: "¿Como habilitar un comando?",
+    question_command_disable: "¿Como deshabilitar un comando?",
     question_language: "¿Cómo cambiar el idioma?",
     language_title: "Idioma",
     question_prefix: "¿Cómo cambiar el prefijo?",
     prefix_title: "Prefijo",
-    question_levelup: "¿Cómo activar la notificación de subida de nivel?",
     auto_mod_modules: "Módulo de moderación automática",
-    anti_invites_title: "Anti-Invitaciones",
-    anti_evasion_title: "Anti-Evasión",
-    auto_mod_title: "Auto-Mod",
+    anti_invites_title: "Anti Invitaciones",
+    auto_mod_title: "Auto Moderación",
+    anti_evasion_title: "Anti Evasión",
+    anti_spam_title: "Anti Spam",
+    anti_mass_mentions_title: "Anti Menciones Masivas",
+    anti_repeated_text_title: "Anti Texto Repetido",
+    anti_bad_words_title: "Anti Malas Palabras",
     welcomes_farewells_modules: "Módulo de bienvenidas y despedidas",
     welcomes_title: "Bienvenidas",
     farewells_title: "Despedidas",
     welcome_role_title: "Rol de bienvenida",
-    support_reports_modules: "Módulo de soporte y reportes",
-    support_title: "Soporte / Tickets",
+    reports_modules: "Módulo de reportes",
     reports_title: "Reportes",
     logs_membercounter_modules: "Módulo de registros y contador de miembros",
     logs_title: "Registros",
@@ -659,6 +664,7 @@ exports.commands = {
   },
   "convert": {
     noArgs: "Debes pegar la URL del video que desea convertir a MP3.",
+    error_domain: "La URL que has introducido no es válida.",
     loading: "Por favor espera mientras se procesa el vídeo solicitado.",
     error: "Se produjo un error al intentar procesar este vídeo.",
     max_size: "El vídeo que has indicado excede los **{limit}** minutos.",
@@ -676,6 +682,7 @@ exports.commands = {
     info: {
       completed_title: "Viendo información relevante del coronavirus",
       completed_description: "El COVID-19 es una enfermedad infecciosa causada por un nuevo virus que no había sido detectado en humanos hasta la fecha.\nSe detectó por primera vez en la ciudad china de Wuhan (provincia de Hubei) en diciembre de 2019.​ Habiendo llegado a más de 100 territorios, el 11 de marzo de 2020 la Organización Mundial de la Salud la declaró pandemia.",
+      question: "¿Tienes algunos de estos síntomas?",
       runny_nose: "Secreciones nasales",
       sore_throat: "Dolor de garganta",
       cough: "Tos",
@@ -769,9 +776,6 @@ exports.commands = {
   },
   "dance": {
     completed: "¡{user} empezó a bailar!"
-  },
-  "donate": {
-    completed: "Filo es un bot de Discord **GRATUITO** e incluso estamos intentando hacer que el dinero crezca de nuestro arbol mágico...\nLamentablemente a día de hoy nuestro árbol no genera ingresos, por lo que ¡sería de gran ayuda que nos ayudases donando!\n\n{emoji} https://filobot.xyz/donate"
   },
   "drake": {
     noArgs: "Debes @Mencionar a una persona para hacer el meme.",
@@ -919,10 +923,8 @@ exports.commands = {
     minecraft: "Minecraft",
     miscellaneous: "Misceláneos",
     moderation: "Moderación",
-    levels: "Niveles",
     reaction: "Reacción",
     server: "Servidor",
-    support: "Soporte",
     social: "Social",
     nsfw: {
       nsfw_title: "NSFW",
@@ -948,12 +950,7 @@ exports.commands = {
     noHug: "No puedes darte un abrazo a ti mismo."
   },
   "info": {
-    description: "Filo es una potente bot de Discord. Personalizable, múltiples idiomas, reportes, tickets, registros, bienvenidas y despedidas, contador de miembros, anti-invitaciones, auto-mod. +190 comandos.",
     footer: "Sirviendo servidores de Discord desde 2019"
-  },
-  "invite": {
-    completed_title: "Invitación de Filo",
-    completed_description: "Estamos entusiasmados de que quieras añadirme a tu servidor. Haciendo clic **[aquí]({link})** podrás obtener un enlace para invitarme a tu servidor.\n¿Necesitas de nuestra ayuda? Entra en nuestro servidor de Discord haciendo clic **[aquí]({link_2})**."
   },
   "jojo": {
     completed: "¡{user} posa como un jojo!"
@@ -1017,10 +1014,7 @@ exports.commands = {
     completed_2: "¡{user} se ríe de sí mismo!",
     completed_3: "¡{user} hace reír descontroladamente a {user_2}!"
   },
-  "level" : {
-    completed: "{user} se encuentra actualmente en el nivel **{level}**."
-  },
-  "like" : {
+  "like": {
     completed: "¡{user} da su aprobado!"
   },
   "love": {
@@ -1028,11 +1022,6 @@ exports.commands = {
     loading: "Espera mientras se genera una súper imagen kawaii.",
     invalidAvatar: "El usuario que has mencionado no tiene un avatar válido.",
     error_api: "Se produjo un error al intentar contactar con la API."
-  },
-  "lvtop": {
-    not_found: "¡Nadie ha llegado!",
-    levels: "niveles",
-    completed_title: "Viendo el TOP de personas con más niveles"
   },
   "lyrics": {
     noArgs: "Debes introducir el nombre de la canción que deseas buscar.",
@@ -1125,6 +1114,7 @@ exports.commands = {
     error_api: "Se produjo un error inesperado al intentar contactar con la API.",
     server_offline: "El servidor especificado no está en línea.",
     too_long: "Demasiado largo como para mostrarlo",
+    invalid_port: "El puerto que has especificado no es válido.",
     completed_title: "Viendo el estado del servidor **{server}**",
     ip: "IP",
     port: "Puerto",
@@ -1168,30 +1158,6 @@ exports.commands = {
     permanently_muted: "silenciado permanentemente",
     mute_id: "ID del silencio",
     already_muted: "El usuario que has mencionado ya se encuentra silenciado."
-  },
-  "new": {
-    alreadyOpened: "Ya tienes una solicitud de soporte abierta.",
-    warning: "El módulo soporte no funcionará correctamente hasta que un Administrador del servidor establezca el rol de soporte en la configuración.",
-    channel_topic: {
-      information: "Información del ticket",
-      responsible: "Responsable: {user} ({user_id})",
-      date: "Fecha: {date}",
-      question_title: "¿No necesitas más ayuda?",
-      question_description: "Si no necesitas más ayuda usa **{command}**."
-    },
-    message: {
-      information: "Información del ticket",
-      author: "Autor",
-      ticket_id: "ID del ticket",
-      date: "Fecha",
-      reason: "Razón",
-      question_title: "¿No necesitas más ayuda?",
-      question_description: "Si no necesitas más ayuda usa **{command}**."
-    },
-    reason: "Razón",
-    default_reason: "Ninguna razón especificada",
-    completed: "Tu solicitud de soporte ha sido abierta en **{channel}**.",
-    ticket_id: "ID del ticket"
   },
   "nick": {
     noArgs: "Debes mencionar a la persona para cambiar su apodo en el servidor.",
@@ -1278,7 +1244,6 @@ exports.commands = {
     registration_date: "Fecha de registro",
     join_date: "Fecha de unión",
     credits: "Créditos",
-    level: "Nivel",
     reputation: "Reputación",
     server_booster: "Mejorador del servidor",
     roles: "Roles ({roles})",
@@ -1412,11 +1377,6 @@ exports.commands = {
   "randomuser": {
     completed_title: "Usuario aleatorio"
   },
-  "rank": {
-    rank: "Rango",
-    level: "Nivel",
-    completed: "Viendo la tarjeta de rango de {user}"
-  },
   "removerole": {
     noArgs: "Debes @Mencionar a la persona a la que quieres quitarle un rol.",
     noArgs_2: "Debes escribir el nombre del rol que quieres quitarle a esa persona.",
@@ -1533,15 +1493,19 @@ exports.commands = {
     mfa_level: "Autenticación en dos pasos",
     filter_level: "Filtro de contenido explícito",
     channels: "Canales",
-    default_channel: "Canal predeterminado",
     system_channel: "Canal del sistema",
     rules_channel: "Canal de reglas",
     discord_announcements_channel: "Canal de anuncios de Discord",
     afk_channel: "Canal AFK",
     afk_timeout: "Tiempo de espera para AFK",
     members: "Miembros",
+    maximum: "Máx",
     roles: "Roles",
-    emojis: "Emoticonos"
+    vanity_url: {
+      stats: "Estadísticas de la URL personalizada",
+      code: "Código",
+      uses: "Usos"
+    }
   },
   "serverinvite": {
     responsible: "Responsable: {user}",
@@ -1559,7 +1523,6 @@ exports.commands = {
     connection_time: "Tiempo de conexión",
     guilds: "Servidor",
     users: "Usuarios",
-    emojis: "Emoticonos",
     channels: "Canales"
   },
   "shorten": {
@@ -1615,11 +1578,10 @@ exports.commands = {
     completed_title: "Estadíticas de Filo",
     ram: "RAM",
     latency: "Latencia",
-    shards: "Fragmentos",
+    cluster: "Clúster",
     guilds: "Servidores",
     users: "Usuarios",
     channels: "Canales",
-    emojis: "Emoticonos",
     commands: "Comandos",
     version: "Versión de Filo",
     executed_commands: "Comandos ejecutados",
@@ -1629,10 +1591,6 @@ exports.commands = {
     votes: "Votos en la página {number}",
     total_votes: "Votos totales",
     connection_time: "Tiempo de conexión"
-  },
-  "status": {
-    completed_title: "Estado de Filo",
-    completed_description: "Visita **[mi página]({link})** de estado para comprobar que todos mis sistemas están en línea y funcionando correctamente."
   },
   "suck": {
     noArgs: "Debes @Mencionar a otra persona para chuparle el pene.",
@@ -1645,7 +1603,7 @@ exports.commands = {
     confirm: {
       title: "¿Estás seguro de que quieres enviar esta sugerencia al equipo de desarrollo de Filo?",
       description: "**ADVERTENCIA**: Ten en cuenta que un mal uso intencionado de este comando puede conllevar una violación de los **[términos y condiciones de Filo]({link})**.",
-      description_2: "Escribe **confirm** si quieres enviarlo o escribe **cancel** si no quieres enviarlo."
+      description_2: "Si quieres enviarlo haz clic en ✅, de lo contrario haz clic en ❎."
     },
     reason: "Explicación de la sugerencia",
     cancel: "La acción pendiente ha sido cancelada.",
@@ -1701,10 +1659,6 @@ exports.commands = {
     error_translate: "Se produjo un error al intentar traducir el texto.",
     completed_title: "Traductor"
   },
-  "twitter": {
-    completed_title: "Twitter de Filo",
-    completed_description: "¡**[Sígueme]({link})** en **[twitter]({link_2})** para estar al tanto de mis actualizaciones y no perderte mis tweets!"
-  },
   "unban": {
     noArgs: "Debes escribir la ID de la persona que a la que quieres desbanear.",
     user_not_banned: "La ID de la persona que especificaste no se encuentra baneada del servidor.",
@@ -1731,10 +1685,6 @@ exports.commands = {
     error_urban: "No se ha podido encontrar esta palabra en el diccionario urbano.",
     completed_title: "Definición de **{word}**",
     votes: "Votos de la definición"
-  },
-  "vote": {
-    completed_title: "Vota por Filo",
-    page: "Página {number}"
   },
   "votes": {
     completed_title: "Viendo los votos de Filo",
@@ -1769,11 +1719,5 @@ exports.commands = {
     environment: "Ambiente",
     humidity: "Humedad",
     wind: "Viento"
-  },
-  "web": {
-    completed: "En mi página podrás ver más información relevante de mí."
-  },
-  "xp": {
-    completed: "{user} tiene actualmente acumulado **{experience}** {emoji} puntos de experiencia."
   }
 };
