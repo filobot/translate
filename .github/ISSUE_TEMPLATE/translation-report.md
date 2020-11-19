@@ -1,7 +1,7 @@
 ---
 name: Translation report
 about: Create a translation error report to help us improve
-title: ''
+title: "[ERROR]"
 labels: error
 assignees: ''
 
