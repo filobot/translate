@@ -1,7 +1,7 @@
 ---
 name: Grammar error
 about: Create a report to help us improve grammar
-title: "[GRAMMAR]"
+title: Grammar error
 labels: grammar
 assignees: ''
 

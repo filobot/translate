@@ -1,7 +1,7 @@
 ---
 name: Request to add a translation
 about: Create a report if you want to add your translation
-title: "[REQUEST]"
+title: Request to add a translation
 labels: enhancement
 assignees: ''
 
