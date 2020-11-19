@@ -2,8 +2,9 @@
 name: Translation report
 about: Create a translation error report to help us improve
 title: ''
-labels: bug
+labels: error
 assignees: ''
+
 ---
 
 **Describe the translation error you are reporting:**
