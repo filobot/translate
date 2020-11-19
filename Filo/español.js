@@ -22,6 +22,10 @@ exports.general = {
 exports.modules = {
   disable_commands: {
     notification: "El comando que está intentando ejecutar está deshabilitado por la administración del servidor."
+  },
+  anti_bad_words: {
+    reason_1: "El mensaje enviado contiene malas palabras.",
+    reason_2: "El mensaje actualizado contiene malas palabras."
   }
 };
 

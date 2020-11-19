@@ -22,6 +22,10 @@ exports.general = {
 exports.modules = {
   disable_commands: {
     notification: "The command you are trying to execute is disabled by the server administration."
+  },
+  anti_bad_words: {
+    reason_1: "The sent message contains bad words.",
+    reason_2: "The updated message contains bad words."
   }
 };
 
