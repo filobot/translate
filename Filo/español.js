@@ -1347,7 +1347,7 @@ exports.commands = {
       bronze_IV: "Bronce IV",
       bronze_III: "Bronce III",
       bronze_II: "Bronce II",
-      silver_IV: "Bronce I",
+      bronze_I: "Bronce I",
       silver_V: "Plata V",
       silver_IV: "Plata IV",
       silver_III: "Plata III",
