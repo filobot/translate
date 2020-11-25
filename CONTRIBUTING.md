@@ -11,7 +11,7 @@ If you want to help us improve the grammar of translations, please note the foll
 ### Request to add a translation
 If you want to contribute to Filo's translations and want to create a request to add a translation, please note the following:
 - Don't change the format of the translation file.
-- Don't write, modify or delete any detailed variable in brackets ({}).
+- Don't write, modify or delete any detailed variable in brackets (e.g. {variable_name}).
 - Be case sensitive.
 - If you need to take references for the context of each translation, **[contact us](https://filobot.xyz)**.
 
