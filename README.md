@@ -8,7 +8,7 @@ This repository aims to provide the various translation files for Filo and the l
 ---
 
 #### Sumary
-- [Branch with Filo's translations](https://github.com/xXLoloGameplayXx/translate/tree/filo)
-- [Branch with the translations of the Filo's website](https://github.com/xXLoloGameplayXx/translate/tree/website)
+- [Folder with Filo's translations](https://github.com/xXLoloGameplayXx/translate/tree/master/Filo)
+- [Folder with the translations of the Filo's website](https://github.com/xXLoloGameplayXx/translate/tree/master/Website)
 
 If you have any questions, don't hesitate to **[contact us](https://filobot.xyz/discord)**.
