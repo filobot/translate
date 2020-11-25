@@ -1398,6 +1398,7 @@ exports.commands = {
   "report": {
     noArgs: "Debes @Mencionar a la persona que quieres reportar.",
     noArgs_2: "Debes explicar una razón para el reporte.",
+    unknown_user: "El usuario que has especificado no existe.",
     noAuthor: "No puedes reportarte a ti mismo.",
     completed: "Has reportado a {user} correctamente.",
     report_id: "ID del reporte",
