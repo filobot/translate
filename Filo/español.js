@@ -254,6 +254,7 @@ exports.commands = {
   },
   "anime": {
     noArgs: "Debes escribir el nombre del anime que quieres consultar.",
+    args_minimum: "Tu búsqueda debe incluir al menos **{minimum}** caracteres.",
     loading: "Por favor espera mientras obtengo los datos del anime solicitado.",
     noData: "No se han podido encontrar resultados para el anime **{search}**.",
     status_type: {
@@ -1036,6 +1037,7 @@ exports.commands = {
   },
   "manga": {
     noArgs: "Debes escribir el nombre del manga que quieres consultar.",
+    args_minimum: "Tu búsqueda debe incluir al menos **{minimum}** caracteres.",
     loading: "Por favor espera mientras obtengo los datos del manga solicitado.",
     noData: "No se han podido encontrar resultados para el manga **{search}**.",
     status_type: {
