@@ -1031,6 +1031,7 @@ exports.commands = {
   "lyrics": {
     noArgs: "Debes introducir el nombre de la canción que deseas buscar.",
     invalidSong: "No se ha podido encontrar ninguna lírica para los argumentos introducidos.",
+    api_error: "Ha ocurrido un error al intentar contactar con la API.",
     completed_title: "Viendo la lírica de la canción **{song}**",
     completed_title_secondary: "Viendo la lírica de una canción",
     message_limit: "La lírica excede los **{limit}** caracteres, pero puedes consultarla **[aquí]({link})**."

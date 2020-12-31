@@ -1031,6 +1031,7 @@ exports.commands = {
   "lyrics": {
     noArgs: "You must enter the name of the song you want to search.",
     invalidSong: "No lyric could be found for the arguments introduced.",
+    api_error: "An error occurred while trying to contact the API.",
     completed_title: "Watching the lyric of the song **{song}**",
     completed_title_secondary: "Watching the lyrics of a song",
     message_limit: "The lyrics exceed **{limit}** characters, but you can check it **[here]({link})**."
