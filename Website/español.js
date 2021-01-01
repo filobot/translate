@@ -16,7 +16,7 @@ exports.NAV_BAR = {
 };
 
 exports.ANNOUNCEMENT = {
-  DESCRIPTION: "A partir del día 1 de Septiembre algunos módulos no estarán disponibles.",
+  DESCRIPTION: "Inscripciones para nuestro laboratorio privado de pruebas abiertas.",
   MORE_INFORMATION: "Más información aquí"
 };
 

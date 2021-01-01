@@ -16,7 +16,7 @@ exports.NAV_BAR = {
 };
 
 exports.ANNOUNCEMENT = {
-  DESCRIPTION: "As of September 1, some modules will not be available.",
+  DESCRIPTION: "Registration for our private open testing laboratory.",
   MORE_INFORMATION: "More information here"
 };
 
