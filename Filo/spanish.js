@@ -1,6 +1,8 @@
 exports.language = {
+  wiki_code: "en",
   code: "es",
-  full_code: "español"
+  full_code: "español",
+  contributors: ["iLxlo_"]
 }
 
 exports.announcements = {
@@ -367,302 +369,626 @@ exports.commands = {
     hex: "HEX",
     rgb: "RGB"
   },
-  "conf": {
-    minimum_value: "El valor debe ser igual o superior a **{number}**.",
-    maximum_value: "El valor debe ser igual o inferior a **{number}**.",
-    question_description: "Si es así, haga clic en ✅, si no desea configurarlo, haga clic en ❎.",
-    webhook: {
-      noArgs_1: "Debes especificar para qué módulo desea crear un webhook.",
-      noArgs_2: "Debes especificar el canal donde desea crear el webhook.",
-      limit: "No se pudo crear el webhook porque el canal excede el número máximo permitido de webhooks.",
-      completed: "El webhook se ha creado en el canal {channel}."
+  "config": {
+    modules: {
+      language: "Idioma",
+      prefix: "Prefijo",
+      guild: "Gremio",
+      reports: "Reportes",
+      welcomes: "Bienvenidas",
+      welcome_role: "Rol de Bienvenida",
+      farewells: "Despedidas",
+      member_counter: "Contador de Miembros",
+      member_counter_nickname: "Apodo de Contador de Miembros",
+      logging: "Registros",
+      anti_invites: "Anti Invitaciones",
+      auto_moderation: "Auto Moderación",
+      anti_evasion: "Anti Evasión",
+      anti_spam: "Anti Spam",
+      anti_mass_mentions: "Anti Menciones Masivas",
+      anti_repeated_text: "Anti Texto Repetido",
+      disable_commands: "Deshabilitar Comandos",
+      anti_bad_words: "Anti Malas Palabras"
     },
-    enable: {
-      noArgs_1: "Debes especificar el nombre del módulo que desea habilitar.",
-      completed: "El módulo **{module}** se ha habilitado correctamente."
+    args_1: {
+      missing: "Debes especificar la acción que quieres llevar a cabo.",
+      invalid: "La acción que has especificado es inválida.",
+      tip: "**CONSEJO**: Las acciones válidas son: **{actions}**."
     },
-    disable: {
-      noArgs_1: "Debes especificar el nombre del módulo que desea deshabilitar.",
-      completed: "El módulo **{module}** se ha deshabilitado correctamente."
-    },
-    lang: {
-      noArgs_1: "Debes especificar el idioma que desea establecer.",
-      invalid_language: "El idiomas que has seleccionado no es válido. Más información **[aquí]({link})**.",
-      completed: "Has establecido el idioma de Filo a **{language}**."
+    module_enabled: "Has habilitado el módulo **{module}** correctamente.",
+    module_disabled: "Has deshabilitado el módulo **{module}** correctamente.",
+    module_already_enabled: "El módulo **{module}** ya se encuentra habilitado.",
+    module_already_disabled: "El módulo **{module}** ya se encuentra deshabilitado.",
+    invalid_channel_type: "El canal no cumple con los requisitos del módulo **{module}**.",
+    channel_established: "Has establecido el canal {channel} ({channel_id}) para el módulo **{module}** correctamente.",
+    channel_established_tip: "**CONSEJO**: Ejecuta el comando: **{command}**",
+    invalid_role_type: "El rol no cumple con los requisitos del módulo **{module}**.",
+    role_established: "Has establecido el rol {role} ({role_id}) para el módulo **{module}** correctamente.",
+    message_length_reached: "El mensaje que has especficiado excede los **{limit}** caracteres.",
+    message_established: "Has establecido el mensaje del módulo **{module}** correctamente.",
+    canceled_action: "La acción pendiente ha sido cancelada.",
+    message_type_established: "Has establecido el tipo de mensaje para el módulo **{module}**.",
+    language: {
+      set: {
+        args_1: {
+          missing: "Debes especificar el idioma que quieres establecer.",
+          unknown: "El lenguaje que has especificado no existe.",
+          already_established: "El idioma **{language}** ya se encuentra establecido en las configuraciones.",
+          tip: "**CONSEJO**: Ejecuta el comando: **{command}**"
+        },
+        established_language: "Has establecido el idioma **{language}** correctamente."
+      },
+      translate: {
+        title: "¡Ayúdanos a traducir a Filo!",
+        description: "Las traducciones de Filo son aportadas principalmente por la comunidad... ¿le gustaría ayudarnos a mejorar a Filo?\n\n **[Haciendo clic aquí]({repository_url})** te redireccionará a nuestro repositorio con los archivos de traducción de Filo, en él puedes informar de errores y contribuir con tus traducciones. ¡Te estaremos esperando!"
+      }
     },
     prefix: {
-      noArgs_1: "Debes especificar el nuevo prefijo que desea establecer.",
-      completed: "Has establecido el prefijo de Filo como **{prefix}**."
+      set: {
+        args_1: {
+          missing: "Debes especificar el prefijo que quieres establecer.",
+          already_established: "El prefijo **{prefix}** ya se encuentra establecido en las configuraciones.",
+          maxlength: "El prefijo excede los **{max_characters}** caracteres de longitud.",
+          invalid: "El prefijo que has especificado es inválido."
+        },
+        completed: "Has establecido el prefijo **{prefix}** correctamente."
+      }
     },
     guild: {
-      noArgs_1: "Debes especificar lo que desea configurar.",
       invite: {
-        noArgs_2: "Debes especificar el canal para crear la invitación.",
-        completed: "Ha creado la invitación **{invite}** en el canal {channel}."
-      }
-    },
-    role: {
-      noArgs_1: "Debes especificar lo que desea configurar.",
-      noArgs_2: "Debes especificar el rol que desea establecer.",
-      invalid_role: "El rol que especificó lo gestiona una integración.",
-      error_perms_role: "La jerarquía del rol mencionado es mayor o igual que la de Filo.",
-      completed: "Has establecido el rol {role} para el módulo **{module}**."
-    },
-    channel: {
-      noArgs_1: "Debes especificar lo que desea configurar.",
-      noArgs_2: "Debes especificar el canal para configurarlo.",
-      invalid_channel: "El canal que ha seleccionado no es apto para esta configuración.",
-      completed: "Has establecido el canal {channel} para el módulo **{module}**."
-    },
-    message: {
-      noArgs_1: "Debes especificar el módulo que desea configurar.",
-      noArgs_2: "Debes especificar el mensaje que desea configurar.",
-      question_title: "¿Estás seguro de que deseas configurar este mensaje?",
-      completed: "Ha establecido un nuevo mensaje para el módulo **{module}**.",
-      type: {
-        completed: "Has establecido el tipo de mensaje **{type}** para el módulo **{module}**."
-      }
-    },
-    counter: {
-      noArgs_1: "Debes especificar la opción que desea configurar.",
-      noArgs_2: "Debes especificar qué contador de miembros desea establecer.",
-      noArgs_3: "Debes especificar el canal para configurarlo.",
-      invalid_channel: "El canal que ha seleccionado no es apto para esta configuración.",
-      completed: "Ha configurado el canal **{channel}** para el contador **{counter}**.",
-      name: {
-        noArgs_1: "Debes especificar el contador al que desea cambiar el nombre.",
-        noArgs_2: "Debes especificar la variable **{members}** donde desea que aparezca el número de miembros del contador.",
-        question_title: "¿Estás seguro de que quieres establecer ese nombre para ese contador?",
-        completed: "Cambiaste el nombre del canal de contador **{counter}** a **{name}**."
-      },
-      nick: {
-        noArgs_1: "Debes especificar el apodo que desea establecer.",
-        noArgs_2: "Debes especificar la variable **{members}** donde desea que aparezca el número de miembros del contador.",
-        question_title: "¿Estás seguro de que quieres establecer este apodo?",
-        completed: "Ha establecido el apodo **{nick}** para el contador de miembros."
-      }
-    },
-    anti_invites: {
-      noArgs_1: "Debes especificar la acción que desea llevar a cabo.",
-      add: {
-        noArgs_1: "Debes especificar la ID del servidor que desea incluir en la lista blanca.",
-        already_set: "La ID que especificó ya está en la lista blanca.",
-        completed: "Ha agregado el servidor con ID **{server_id}** a la lista blanca."
-      },
-      remove: {
-        noArgs_1: "Debes especificar la ID del servidor que desea eliminar de la lista blanca.",
-        not_found: "La ID que especificó no está en la lista blanca.",
-        completed: "Debes eliminar el servidor con ID **{server_id}** de la lista blanca."
-      }
-    },
-    auto_mod: {
-      noArgs_1: "Debes especificar qué opción desea configurar.",
-      noArgs_2: "Debes especificar el nivel que desea configurar.",
-      noArgs_3: "Debes especificar el número máximo de advertencias que debe alcanzar un usuario para alcanzar ese nivel.",
-      invalid_number: "El número que ha indicado no es válido.",
-      completed: "Ha configurado **{warnings}** advertencias para alcanzar el nivel **{level}**.",
-      action: {
-        noArgs_1: "Debes especificar el nivel que desea configurar.",
-        noArgs_2: "Debes especificar la acción que desea realizar cuando alcance ese nivel.",
-        completed: "Has establecido la sanción **{action}** para el nivel **{level}**."
-      },
-      time: {
-        noArgs_1: "Debes especificar el nivel que desea configurar.",
-        noArgs_2: "Debes especificar el tiempo de la sanción.",
-        limit_time: "El tiempo de la sanción no puede exceder **{time}**.",
-        minimum_time: "El tiempo mínimo de la sanción debe ser mayor que **{time}**.",
-        completed: "Has establecido **{time}** para expirar la sanción del nivel **{level}**."
-      }
-    },
-    anti_evasion: {
-      noArgs_1: "Debes especificar qué opción desea configurar.",
-      action: {
-        noArgs_2: "Debes especificar la acción que quieres llevar a cabo cuando alguien intente evadir una sanción",
-        completed: "Has establecido la acción **{action}**."
-      },
-      time: {
-        noArgs_2: "Debes especificar la duración de la sanción.",
-        limit_time: "El tiempo de la sanción no puede exceder **{time}**.",
-        minimum_time: "El tiempo mínimo de la sanción debe ser mayor que **{time}**.",
-        completed: "Has establecido **{time}** para que expire la sanción."
-      }
-    },
-    anti_spam: {
-      noArgs_0: "Debes especificar la acción que deseas realizar.",
-      bots: {
-        noArgs_1: "Debes especificar si quieres activar o desactivar la inmunidad para los bots.",
-        enabled: "activado",
-        disabled: "desactivado",
-        completed: "Has **{action}** la inmunidad para los bots."
-      },
-      channel: {
-        noArgs_1: "Debes especificar la acción que deseas realizar.",
-        add: {
-          noArgs_2: "Debes especificar el canal que quieres añadir a la lista blanca.",
-          already_set: "El canal que has especificado ya se encuentra en la lista blanca.",
-          completed: "Has añadido el canal {channel} a la lista blanca."
+        create: {
+          args_1: {
+            missing: "Debes especificar el canal donde quieres generar la invitación permanente del gremio.",
+            invalid: "La ID del canal que has especificado es inválida.",
+            tip: "**CONSEJO**: Menciona el canal así: {channel}",
+            unknown: "El canal que has especificado no existe.",
+            already_set: "La invitación **{invite}** ya se encuentra establecida en las configuraciones."
+          },
+          completed: "Has generado la invitación **{invite}** para el canal {channel} correctamente."
         },
-        remove: {
-          noArgs_2: "Debes especificar el canal que quieres eliminar de la lista blanca.",
-          unknown_set: "El canal que has especificado no se encuentra en la lista blanca.",
-          completed: "Has eliminado el canal {channel} de la lista blanca."
+        set: {
+          args_1: {
+            missing: "Debes especificar la invitación que quieres establecer.",
+            already_set: "La invitación **{invite}** ya se encuentra establecida en las configuraciones.",
+            invalid: "La invitación que has especificado es inválida.",
+            tip: "**CONSEJO**: Ejecuta el comando: **{command}**",
+            invalid_2: "La invitación que has especificado pertenece a otro gremio."
+          },
+          completed: "Has establecido la invitación **{invite}** correctamente."
+        }
+      }
+    },
+    reports: {
+      enable: {
+        tip: "**CONSEJO**: Establece el canal de reportes: **{command}**"
+      },
+      set: {
+        args_1: {
+          missing: "Debes especificar el canal donde quieres que todos los reportes se envíen.",
+          invalid: "La ID del canal que has especificado es inválida.",
+          tip: "**CONSEJO**: Menciona el canal así: {channel}",
+          unknown: "El canal que has especificado no existe."
+        },
+        errors: {
+          too_many_webhooks: "El canal {channel} ha alcanzado el limite de **{limit}** webhooks.",
+          webhook_limit_tip: "**CONSEJO**: Elimina al menos **1** webhook del canal especificado.",
+          webhook_generation: "El webhook no ha podido crearse, por favor inténtalo de nuevo.",
+          another_owned_webhook: "Hay otro webhook creado por mi en el canal {channel}.",
+          another_owned_webhook_tip: "**CONSEJO**: Elimina o cambia el canal de un webhook."
+        },
+        webhook_created_and_established: "Los reportes se enviarán al canal {channel} ({channel_id}).",
+        webhook_created_and_established_tip: "**CONSEJO**: Ejecuta el comando: **{command}**"
+      }
+    },
+    welcomes: {
+      enable: {
+        tip: "**CONSEJO**: Establece el comando: **{command}**"
+      },
+      set: {
+        channel: {
+          args_1: {
+            missing: "Debes especificar el canal donde quieres que todas las bienvenidas se envíen.",
+            invalid: "La ID del canal que has especificado es inválida.",
+            invalid_channel_id_tip: "**CONSEJO**: Menciona el canal así: {channel}",
+            already_established: "El canal **{channel}** ya se encuentra establecido en las configuraciones.",
+            unknown: "El canal que has especificado no existe.",
+            invalid_channel_type_tip: "**CONSEJO**: Tipos de canales válidos: **{types}**.",
+          }
+        },
+        message: {
+          args_1: {
+            missing: "Debes especificar el mensaje que quieres enviar en el canal de bienvenidas.",
+            example: "¡Bienvenido {user}!"
+          },
+          question: "{emoji} ¿Estás seguro de que quieres establecer este mensaje de bienvenida?\n\nSi quieres establecer este mensaje haz clic en ✅, en caso contrario haz clic en ❎."
         }
       },
       role: {
-        noArgs_1: "Debes especificar la acción que deseas realizar.",
-        add: {
-          noArgs_2: "Debes especificar el rol que quieres añadir a la lista blanca.",
-          already_set: "El rol que has especificado ya se encuentra en la lista blanca.",
-          completed: "Has añadido el rol {role} a la lista blanca."
+        set: {
+          args_1: {
+            missing: "Debes especificar el rol que quieres otorgar a los nuevos miembros.",
+            invalid: "El rol que has especificado es inválido.",
+            invalid_role_id_tip: "**CONSEJO**: Menciona el rol así: {role}",
+            already_established: "El rol **{role}** ya se encuentra establecido en las configuraciones.",
+            unknown: "El rol que has especificado no existe.",
+            invalid_role_type_tip: "**CONSEJO**: Roles administrado por una integración no son admitidos.",
+            role_upper: "El rol {role} está por encima de mis roles.",
+            role_upper_tip: "**CONSEJO**: Modifica la jerarquía de mis roles para que sean más altos."
+          },
+          role_established_tip: "**ADVERTENCIA**: Los miembros existentes no recibirán este rol."
+        }
+      }
+    },
+    farewells: {
+      enable: {
+        tip: "**CONSEJO**: Establece el canal de despedidas: **{command}**"
+      },
+      set: {
+        channel: {
+          args_1: {
+            missing: "Debes especificar el canal donde quieres que todas las despedidas se envíen.",
+            invalid: "La ID del canal que has especificado es inválida..",
+            invalid_channel_id_tip: "**CONSEJO**: Menciona el canal así: {channel}",
+            already_established: "El canal **{channel}** ya se encuentra establecido en las configuraciones.",
+            unknown: "El canal que has especificado no existe.",
+            invalid_channel_type_tip: "**CONSEJO**: Tipos de canales válidos: **{types}**.",
+          }
         },
-        remove: {
-          noArgs_2: "Debes especificar el rol que quieres eliminar a la lista blanca.",
-          unknown_set: "El rol que has especificado no se encuentra en la lista blanca.",
-          completed: "Has eliminado el rol {role} a la lista blanca."
+        message: {
+          args_1: {
+            missing: "Debes especificar el mensaje que quieres enviar en el canal de despedidas.",
+            example: "¡Adiós {user}!"
+          },
+          question: "{emoji} ¿Estás seguro de que quieres establecer este mensaje de despedida?\n\nSi quieres establecer este mensaje haz clic en ✅, en caso contrario haz clic en ❎."
+        }
+      }
+    },
+    member_counter: {
+      enable: {
+        tip: "**CONSEJO**: Establece el canal contador de miembros: **{command}**"
+      },
+      nickname: {
+        set: {
+          args_1: {
+            missing: "Debes especificar el apodo para el apodo contador de miembros.",
+            missing_members_variable: "No has especificado la variable miembros.",
+            missing_members_variable_tip: "**CONSEJO**: Escribe el apodo así: **{name}**.",
+            max_characters_reached: "El apodo y el contador de miembros no pueden exceder los **{limit}** caracteres."
+          },
+          nickname_established: "Has establecido el apodo para el módulo apodo contador de miembros."
         }
       },
-      rules: {
-        noArgs_1: "Debes especificar la acción que deseas realizar.",
+      set: {
+        channel: {
+          args_1: {
+            missing: "Debes especificar el canal donde quieres que el contador de miembros sea mostrado.",
+            invalid: "La ID del canal que has especificado es inválida.",
+            invalid_channel_id_tip: "**CONSEJO**: Copia y pega la ID del canal así: {channel_id}",
+            already_established: "El canal **{channel}** ya se encuentra establecido en las configuraciones.",
+            unknown: "El canal que has especificado no existe.",
+            invalid_channel_type_tip: "**CONSEJO**: Tipos de canales válidos: **{types}**.",
+          }
+        },
+        name: {
+          args_1: {
+            missing: "Debes especificar el nombre del canal contador de miembros.",
+            missing_members_variable: "No has especificado la variable miembros.",
+            missing_members_variable_tip: "**CONSEJO**: Escribe el nombre del canal así: **{name}**.",
+            max_characters_reached: "El nombre del canal y el contador de miembros no pueden exceder los **{limit}** caracteres."
+          },
+          channel_name_established: "Has establecido el nombre del canal para el módulo canal contador de miembros."
+        }
+      }
+    },
+    logging: {
+      enable: {
+        tip: "**CONSEJO**: Establece el canal de registros: **{command}**"
+      },
+      set: {
+        args_1: {
+          missing: "Debes especificar el canal donde quieres que todos los registros se envíen.",
+          invalid: "La ID del canal que has especificado es inválida.",
+          tip: "**CONSEJO**: Menciona el canal así: {channel}",
+          unknown: "El canal que has especificado no existe."
+        },
+        errors: {
+          too_many_webhooks: "El canal {channel} ha alcanzado el limite de **{limit}** webhooks.",
+          webhook_limit_tip: "**CONSEJO**: Elimina al menos **1** webhook del canal especificado.",
+          webhook_generation: "El webhook no ha podido crearse, por favor inténtalo de nuevo.",
+          another_owned_webhook: "Hay otro webhook creado por mi en el canal {channel}.",
+          another_owned_webhook_tip: "**CONSEJO**: Elimina o cambia el canal de un webhook."
+        },
+        webhook_created_and_established: "Los registros se enviarán al canal {channel} ({channel_id})."
+      }
+    },
+    anti_invites: {
+      enable: {
+        tip: "**CONSEJO**: Establece excepciones en la lista de permitidos: **{command}**"
+      },
+      allow: {
+        add: {
+          args_1: {
+            missing: "Debes especificar la ID del gremio que quieres añadir a la lista de permitidos.",
+            invalid: "La ID del gremio que has especificado es inválida.",
+            tip: "**CONSEJO**: La ID del gremio debe ser así: {guild_id}",
+            guild_id_same_as_this_guild_id: "La ID del gremio que has especificado es la misma que la de este gremio.",
+            already_set: "El gremio **{guild_id}** ya se encuentra en la lista de permitidos."
+          },
+          completed: "Has añadido el gremio **{guild_id}** a la lista de permitidos correctamente."
+        },
+        remove: {
+          args_1: {
+            missing: "Debes especificar la ID del gremio que quieres eliminar de la lista de permitidos.",
+            invalid: "La ID del gremio que has especificado es inválida.",
+            tip: "**CONSEJO**: La ID del gremio debe ser asi: {guild_id}",
+            not_in_the_allowed_list: "El gremio **{guild_id}** que has especificado no se encuentra en la lista de permitidos."
+          },
+          completed: "Has eliminado el gremio **{guild_id}** de la lista de permitidos."
+        }
+      }
+    },
+    auto_moderation: {
+      enable: {
+        tip: "**CONSEJO**: Ejecuta el comando: **{command}**"
+      },
+      set: {
+        level: {
+          args_1: {
+            missing: "Debes especificar el nivel que quieres modificar.",
+            invalid: "El nivel que has especificado es inválido.",
+            tip: "**CONSEJO**: Números debajo de **{max_level}** son válidos."
+          },
+          args_2: {
+            missing: "Debes especificar el número máximo de advertencias que un usuario debe alcanzar.",
+            invalid: "El número que has especificado no es válido.",
+            same_number_at_this_level: "El número que has especificado ya se encuentra establecido en este nivel.",
+            min_number_reached: "El número no puede ser inferior a **{number}**.",
+            max_number_reached: "El número no puede ser superior a **{number}**.",
+            invalid_number: "No puedes establecer un número mayor, menor o igual que el de otro nivel."
+          },
+          completed: "Has establecido **{max_warnings}** advertencias máximas para alcanzar el nivel **{level}**."
+        },
+        action: {
+          args_1: {
+            missing: "Debes especificar el nivel que quieres modificar.",
+            invalid: "El nivel que has especificado es inválido.",
+            tip: "**CONSEJO**: Números debajo de **{max_level}** son válidos."
+          },
+          args_2: {
+            missing: "Debes especificar la acción que quieres establecer.",
+            invalid: "La acción que has especificado es inválida.",
+            tip: "**CONSEJO**: Acciones válidas: **{actions}**.",
+            same_action_at_this_level: "La acción que has especificado ya se encuentra establecida para este nivel."
+          },
+          completed: "Has establecido la acción **{action}** para el nivel **{level}**."
+        },
+        time: {
+          args_1: {
+            missing: "Debes especificar el nivel que quieres modificar.",
+            invalid: "El nivel que has especificado es inválido.",
+            tip: "**CONSEJO**: Números debajo de **{max_level}** son válidos."
+          },
+          args_2: {
+            missing: "Debes especificar el tiempo con formato que quieres establecer.",
+            invalid: "El tiempo que has especificado es inválido.",
+            invalid_tip: "**CONSEJO**: El tiempo debe ser así: **{time}**.",
+            same_time_at_this_level: "El tiempo que has especificado ya se encuentra establecido para este nivel.",
+            min_time_reached: "El tiempo que has especificado es inferior a **{time}**.",
+            min_time_reached_tip: "**CONSEJO**: El tiempo debe ser superior a: **{time}**.",
+            max_time_reached: "El tiempo que has especificado es superior a **{time}**.",
+            max_time_reached_tip: "**CONSEJO**: El tiempo debe ser inferior a: **{time}**."
+          },
+          completed: "Has establecido un tiempo de **{time}** para el nivel **{level}**."
+        }
+      }
+    },
+    anti_evasion: {
+      enable: {
+        tip: "**CONSEJO**: Ejecuta el comando: **{command}**"
+      },
+      set: {
+        action: {
+          args_1: {
+            missing: "Debes especificar la acción que quieres establecer.",
+            invalid: "La acción que has especificado es inválida.",
+            tip: "**CONSEJO**: Acciones válidas: **{actions}**.",
+            same_action: "La acción que has especificado ya se encuentra establecida en las configuraciones."
+          },
+          completed: "Has establecido la acción **{action}**."
+        },
+        time: {
+          args_1: {
+            missing: "Debes especificar el tiempo con formato que quieres establecer.",
+            invalid: "El tiempo que has especificado es inválido.",
+            invalid_tip: "**CONSEJO**: El tiempo debe ser así: **{time}**.",
+            same_time_at_this_level: "El tiempo que has especificado ya se encuentra establecido en las configuraciones.",
+            min_time_reached: "El tiempo que has especificado es inferior a **{time}**.",
+            min_time_reached_tip: "**CONSEJO**: El tiempo debe ser superior a: **{time}**.",
+            max_time_reached: "El tiempo que has especificado es superior a **{time}**.",
+            max_time_reached_tip: "**CONSEJO**: El tiempo debe ser inferior a: **{time}**."
+          },
+          completed: "Has establecido un tiempo de **{time}** para la acción del módulo."
+        }
+      }
+    },
+    anti_spam: {
+      enable: {
+        tip: "**CONSEJO**: Establece excepciones en la lista de permitidos: **{command}**"
+      },
+      set: {
         duplicates: {
-          noArgs_2: "Debes especificar el número máximo de mensajes similares que puede enviar un usuario.",
-          noArgs_3: "Debes especificar el tiempo en segundos que debe transcurrir para considerar los mensajes duplicados como spam.",
-          completed: "Has establecido que se pueden enviar **{messages}** mensajes similares cada **{seconds}** segundos."
+          threshold: {
+            args_1: {
+              missing: "Debes especificar el umbral de mensajes duplicados que se pueden enviar.",
+              invalid: "El umbral que has especificado es inválido.",
+              invalid_tip: "**CONSEJO**: El umbral debe ser así: **{threshold}**.",
+              same_threshold: "El umbral que has especificado ya se encuentra establecido en las configuraciones.",
+              min_threshold_reached: "El umbral que has especificado es inferior a **{threshold}**.",
+              min_threshold_reached_tip: "**CONSEJO**: El umbral debe ser superior a: **{threshold}**."
+            },
+            completed: "Has establecido un umbral de **{threshold}**."
+          },
+          time: {
+            args_1: {
+              missing: "Debes especificar el tiempo con formato que quieres establecer.",
+              invalid: "El tiempo que has especificado es inválido.",
+              invalid_tip: "**CONSEJO**: El tiempo debe ser así: **{time}**.",
+              same_time: "El tiempo que has especificado ya se encuentra establecido en las configuraciones.",
+              min_time_reached: "El tiempo que has especificado es inferior a **{time}**.",
+              min_time_reached_tip: "**CONSEJO**: El tiempo debe ser superior a: **{time}**.",
+              max_time_reached: "El tiempo que has especificado es superior a **{time}**.",
+              max_time_reached_tip: "**CONSEJO**: El tiempo debe ser inferior a: **{time}**."
+            },
+            completed: "Has establecido el tiempo del umbral a **{time}** segundos."
+          }
+        }
+      },
+      allow: {
+        role: {
+          add: {
+            args_1: {
+              missing: "Debes especificar el rol que quieres añadir a la lista de permitidos.",
+              invalid: "El rol que has especificado es inválido.",
+              tip: "**CONSEJO**: El rol debe ser así: {role}",
+              already_set: "El rol {role} ya se encuentra a la lista de permitidos."
+            },
+            completed: "Has añadido el rol {role} ({role_id}) a la lista de permitidos."
+          },
+          remove: {
+            args_1: {
+              missing: "Debes especificar el rol que quieres eliminar de la lista de permitidos.",
+              invalid: "El rol que has especificado es inválido.",
+              tip: "**CONSEJO**: El rol debe ser así: {role}",
+              already_set: "El rol {role} no se encuentra en la lista de permitidos."
+            },
+            completed: "Has eliminado el rol {role} ({role_id}) de la lista de permitidos."
+          },
+        },
+        channel: {
+          add: {
+            args_1: {
+              missing: "Debes especificar el canal que quieres añadir a la lista de permitidos.",
+              invalid: "El canal que has especificado es inválido.",
+              tip: "**CONSEJO**: El canal debe ser así: {channel}",
+              already_set: "El canal {channel} ya se encuentra en la lista de permitidos."
+            },
+            completed: "Has añadido el canal {channel} ({channel_id}) a la lista de permitidos."
+          },
+          remove: {
+            args_1: {
+              missing: "Debes especificar el canal que quieres eliminar de la lista de permitidos.",
+              invalid: "El canal que has especificado es inválido.",
+              tip: "**CONSEJO**: El canal debe ser así: {channel}",
+              already_set: "El canal {channel} no se encuentra en la lista de permitidos."
+            },
+            completed: "Has eliminado el canal {channel} de la lista de permitidos."
+          },
+        },
+        bots: {
+          args_1: {
+            missing: "Debes especificar si quieres habilitar o deshabilitar la inmunidad para los bots.",
+            invalid: "La acción que has especificado es inválida.",
+            tip: "**CONSEJO**: Las acciones válidas son: **{actions}**."
+          }
         }
       }
     },
     anti_mass_mentions: {
-      noArgs_1: "Debes especificar el número máximo de menciones permitidas.",
-      completed: "Has establecido **{number}** menciones como máximo para considerarse menciones masivas."
+      enable: {
+        tip: "**CONSEJO**: Establece el umbral de menciones: **{command}**"
+      },
+      set: {
+        threshold: {
+          args_1: {
+            missing: "Debes especificar el umbral de menciones máximas permitidas.",
+            invalid: "El umbral que has especificado es inválido.",
+            invalid_tip: "**CONSEJO**: El umbral debe ser así: **{threshold}**.",
+            same_threshold: "El umbral que has especificado ya se encuentra establecido en las configuraciones.",
+            min_threshold_reached: "El umbral que has especificado es inferior a **{threshold}**.",
+            min_threshold_reached_tip: "**CONSEJO**: El umbral debe ser superior a: **{threshold}**."
+          },
+          completed: "Has establecido el umbral de **{threshold}**."
+        },
+      }
+    },
+    anti_repeated_text: {
+      //No se requiere traducción.
     },
     commands: {
-      noArgs_0: "Debes especificar la acción que deseas realizar.",
-      invalid_args: "La acción especificada no es válida",
       enable: {
-        noArgs_1: "Debe especificar el comando que desea habilitar.",
-        invalid_command: "El comando especificado es inválido",
-        no_exist: "El comando que has especificado no se encuentra deshabilitado.",
-        completed: "El comando **{command}** ha sido habilitado correctamente."
+        args_1: {
+          missing: "Debes especificar el comando que quieres habilitar.",
+          unknown: "El comando que has especificado no existe.",
+          unknown_tip: "**CONSEJO**: Ejecuta el comando: **{command}**.",
+          already_enabled: "El comando **{command}** ya se encuentra habilitado."
+        },
+        completed: "Has habilitado el comando **{command}** successfully."
       },
       disable: {
-        noArgs_1: "You must specify the command you want to disable.",
-        invalid_command: "El comando especificado es inválido",
-        no_exist: "El comando que has especificado no se encuentra habilitado.",
-        privileged_command: "El comando **{command}** se encuentra en una categoría protegida y no puede ser deshabilitado.",
-        completed: "El comando **{command}** ha sido deshabilitado correctamente."
-      },
+        args_1: {
+          missing: "Debes especificar el comando que quieres deshabilitar.",
+          unknown: "El comando que has especificado no existe.",
+          unknown_tip: "**CONSEJO**: Ejecuta el comando: **{command}**.",
+          protected_category: "El comando **{command}** pertenece a una categoría protegida.",
+          already_disabled: "El comando **{command}** ya se encuentra deshabilitado."
+        },
+        completed: "Has deshabilitado el comando **{command}** correctamente."
+      }
     },
     anti_bad_words: {
+      enable: {
+        tip: "**CONSEJO**: Añade una palabra mal sonante: **{command}**"
+      },
       add: {
-        noArgs_1: "Debes especificar la palabra que quieres añadir.",
-        args_limit: "La palabra que has especificado supera los **{limit}** caracteres de longitud.",
-        already_exist: "La palabra **{word}** ya se encuentra añadida en la lista.",
-        completed: "Has añadido la palabra **{word}** a la lista."
+        args_1: {
+          missing: "Debes especificar la palabra mal sonante que quieres añadir a la lista de prohibidas.",
+          already_banned: "La mala palabra que has especificado ya se encuentra en la lista de prohibidas."
+        },
+        completed: "Has añadido esa palabra mal sonante a la lista de prohibidas correctamente."
       },
       remove: {
-        noArgs_1: "Debes especificar la palabra que quieres eliminar.",
-        args_limit: "La palabra que has especificado supera los **{limit}** caracteres de longitud.",
-        unknown_word: "La palabra **{word}** no se encuentra en la lista.",
-        completed: "Has eliminado la palabra **{word}** a la lista."
+        args_1: {
+          missing: "Debes especificar la mala palabra que quieres eliminar de la lista de prohibidas.",
+          not_banned: "La mala palabra que has especificado no se encuentra en la lista de prohibidas."
+        },
+        completed: "Has eliminado esa palabra mal sonante de la lista de prohibidas correctamente."
+      }
+    },
+    view: {
+      help: "Ayuda",
+      embed_title: "Viendo las configuraciones del gremio",
+      module: {
+        title: "Módulo",
+        status: "Estado",
+        help: "Si necesitas ayuda consulta **[nuestra wiki]({link})** y si no la entiendes, no dudes en **[contactarnos]({link_2})**."
+      },
+      language: {
+        current_language: "Idioma actual",
+        language_contributors: "Contribuidores del idioma",
+        question: {
+          title: "¿Te gustaría ayudarnos a traducir a Filo?",
+          description: "¡Consulte **[nuestro repositorio de traducción oficial]({link})** y ayúdenos a mejorar!"
+        }
+      },
+      prefix: {
+        current_prefix: "Prefijo actual"
+      },
+      guild: {
+        invite: "Invitación del gremio"
+      },
+      reports: {
+        channel: "Canal de reportes",
+        webhook: "Webhook de reportes",
+        cooldown: "Tiempo de espera"
+      },
+      welcomes: {
+        channel: "Canal de bienvenidas",
+        message_type: "Tipo de mensaje",
+        embed_color: "Color de la inserción",
+        message: "Mensaje de bienvenida"
+      },
+      welcome_role: {
+        role: "Rol de bienvenida"
+      },
+      farewells: {
+        channel: "Canal de despedidas",
+        message_type: "Tipo de mensaje",
+        embed_color: "Color de la inserción",
+        message: "Mensaje de despedida"
+      },
+      member_counter: {
+        counter: "Canal contador",
+        counter_name: "Nombre del canal contador"
+      },
+      member_counter_nickname: {
+        nickname: "Apodo contador"
+      },
+      logging: {
+        channel: "Canal de registros",
+        webhook: "Webhook de registros"
+      },
+      anti_invites: {
+        allow: {
+          without_exceptions: "Sin excepciones.",
+          guilds: "Gremios permitidos",
+          field_limit: "Esta lista de permitidos supera los **{limit}** caracteres de longitud."
+        }
+      },
+      auto_moderation: {
+        level: "Nivel {number}",
+        threshold: "Umbral",
+        action: "Acción",
+        time: "Tiempo"
+      },
+      anti_evasion: {
+        action: "Acción",
+        time: "Tiempo"
+      },
+      anti_spam: {
+        allow: {
+          without_exceptions: "Sin excepciones.",
+          bots_inmunity: "Inmunidad para los bots",
+          roles: "Roles permitidos",
+          channels: "Canal permitidos",
+          field_limit: "Esta lista de permitidos supera los **{limit}** caracteres de longitud."
+        },
+        duplicates: {
+          title: "Duplicados",
+          threshold: "Umbral",
+          time: "Tiempo"
+        }
+      },
+      anti_mass_mentions: {
+        threshold: "Umbral"
+      },
+      anti_repeated_text: {
+        //No se requiere traducción.
+      },
+      commands: {
+        disabled: {
+          empty_list: "Lista vacía.",
+          commands: "Comandos deshabilitados",
+          field_limit: "Esta lista supera los **{limit}** caracteres de longitud."
+        }
+      },
+      anti_bad_words: {
+        banned_words: {
+          empty_list: "Lista vacía.",
+          title: "Palabras prohibidas",
+          field_limit: "Esta lista supera los **{limit}** caracteres de longitud."
+        }
       }
     },
     reset: {
-      question_title: "¿Está seguro de que desea restablecer todas las configuraciones del servidor?",
-      completed: "Has restablecido todas las configuraciones del servidor."
-    },
-    view: {
-      description: "Si necesitas ayuda, consulte **[nuestra wiki]({link})** y si no puede entenderla, no dudes en **[contactarnos]({link_2})**.",
-      module: "Módulo",
-      module_status: "Estado del módulo",
-      current_language: "Idioma actual",
-      supported_languages_title: "Idiomas compatibles",
-      supported_languages_description: "Obtén una lista completa de los idiomas soportados por Filo haciendo **[clic aquí]({link})**.",
-      current_prefix: "Prefijo actual",
-      server_invite: "Invitación del servidor",
-      reporting_channel: "Canal de reportes",
-      cooldown: "Cooldown",
-      administrator_role: "Rol de administrador",
-      welcome_channel: "Canal de bienvenidas",
-      welcome_role: "Rol de bienvenida",
-      welcome_message: "Mensaje de bienvenida",
-      limit_embed: "Demasiado largo como para mostrarlo.",
-      all_counter: "Contador de miembros totales",
-      all_counter_name: "Nombre del contador de miembros totales",
-      nick_counter: "Apodo de miembros totales",
-      farewells_channel: "Canal de despedidas",
-      farewells_message: "Mensaje de despedida",
-      logging_channel: "Canal de registros",
-      whitelist: "Lista blanca",
-      level: "Nivel",
-      action: "Acción",
-      time: "Tiempo",
-      embed_title: "Viendo las configuraciones del servidor",
-      bots_inmunity: "Inmunidad para los bots",
-      duplicates_messages: "Mensajes duplicados",
-      anti_mass_mentions_allowed: "Menciones masivas permitidas",
-      channels_whitelist: "Lista blanca de canales",
-      roles_whitelist: "Lista blanca de roles",
-      message_type: "Tipo de mensaje",
-      embed_color: "Color del embed",
-      disabled_commands: "Comandos deshabilitados",
-      disable_commands: {
-        no_commands_disabled: "No hay comandos deshabilitados"
-      },
-      bad_words: "Palabras malas",
-      anti_bad_words: {
-        no_words: "No hay ninguna palabra mala en la lista."
-      },
-      modules_title: {
-        languages: "Idioma",
-        prefix: "Prefijo",
-        server: "Servidor",
-        reports: "Reportes",
-        welcomes: "Bienvenidas",
-        membercounter: "Contador de miembros",
-        farewells: "Despedidas",
-        logs: "Registros",
-        anti_invites: "Anti Invitaciones",
-        auto_mod: "Auto-Mod",
-        anti_evasion: "Anti Evasión",
-        anti_spam: "Anti Spam",
-        anti_mass_mentions: "Anti Menciones Masivas",
-        anti_repeated_text: "Anti Texto Repetido",
-        disable_commands: "Deshabilitar comandos",
-        anti_bad_words: "Anti Malas Palabras"
+      settings: {
+        invalid: "La opción que has especificado es inválida.",
+        tip: "**CONSEJO**: Las opciones válidas son: **{options}**.",
+        warning: "{emoji} ¿Estás seguro de que quieres restablecer esa configuración?\n\n{emoji_2} **ADVERTENCIA**: Una vez confirmes esta acción no habrá posibilidad recuperar los datos anteriores.\n\nSi quieres restablecerlas haz clic en ✅, en caso contrario haz clic en ❎.",
+        warning_all: "{emoji} ¿Estás seguro de que quieres restablecer todas las confituraciones?\n\n{emoji_2} **ADVERTENCIA**: Una vez confirmes esta acción no habrá posibilidad recuperar los datos anteriores.\n\nSi quieres restablecerlas haz clic en ✅, en caso contrario haz clic en ❎.",
+        completed: "Has restablecido las configuraciones seleccionadas.",
+        canceled: "La acción para establecer esas configuraciones ha sido cancelada."
       }
     },
-    embed_title: "Menú de ayuda rápida",
-    embed_description: "Con este comando puede configurar algunos aspectos de Filo, incluido su idioma, prefijo, módulos, etc.",
-    warn_args: "(No incluya <> al ejecutar cualquier comando)",
-    wiki: "Wiki de Filo",
-    discord: "Discord de Filo",
-    module_title: "Módulo",
-    command: "Comando",
-    question_enable: "¿Cómo habilitar un módulo?",
-    question_disable: "¿Cómo deshabilitar un módulo?",
-    question_command_enable: "¿Como habilitar un comando?",
-    question_command_disable: "¿Como deshabilitar un comando?",
-    question_language: "¿Cómo cambiar el idioma?",
-    language_title: "Idioma",
-    question_prefix: "¿Cómo cambiar el prefijo?",
-    prefix_title: "Prefijo",
-    auto_mod_modules: "Módulo de moderación automática",
-    anti_invites_title: "Anti Invitaciones",
-    auto_mod_title: "Auto Moderación",
-    anti_evasion_title: "Anti Evasión",
-    anti_spam_title: "Anti Spam",
-    anti_mass_mentions_title: "Anti Menciones Masivas",
-    anti_repeated_text_title: "Anti Texto Repetido",
-    anti_bad_words_title: "Anti Malas Palabras",
-    welcomes_farewells_modules: "Módulo de bienvenidas y despedidas",
-    welcomes_title: "Bienvenidas",
-    farewells_title: "Despedidas",
-    welcome_role_title: "Rol de bienvenida",
-    reports_modules: "Módulo de reportes",
-    reports_title: "Reportes",
-    logs_membercounter_modules: "Módulo de registros y contador de miembros",
-    logs_title: "Registros",
-    membercounter_title: "Contador de miembros",
-    help: "Ayuda"
+    quick_help_menu: {
+      title: "Menú de ayuda rápida",
+      description: "Con este comando podrás personalizar algunos aspectos de Filo como cambiar el idioma o prefijo, habilitar o deshabilitar módulos, ¡entre muchas otras cosas!",
+      helpful_links: {
+        title: "Enlaces Útiles",
+        wiki: "Wiki de Filo",
+        support_server: "Servidor de soporte de Filo"
+      },
+      changing_the_language: "¿Cómo cambiar el idioma?",
+      language: "Idioma",
+      help: "Ayuda",
+      changing_the_prefix: "¿Cómo cambiar el prefijo?",
+      prefix: "Prefijo",
+      enabling_a_module: "¿Cómo habilitar un módulo?",
+      module: "Módulo",
+      disabling_a_module: "¿Cómo deshabilitar un módulo?",
+      enabling_a_command: "¿Cómo habilitar un comando?",
+      command: "Comando",
+      disabling_a_command: "¿Cómo deshabilitar un comando?",
+    }
   },
   "confused": {
     completed: "¡{user} está confundido!"
