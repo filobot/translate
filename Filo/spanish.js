@@ -388,7 +388,8 @@ exports.commands = {
       anti_mass_mentions: "Anti Menciones Masivas",
       anti_repeated_text: "Anti Texto Repetido",
       disable_commands: "Deshabilitar Comandos",
-      anti_bad_words: "Anti Malas Palabras"
+      anti_bad_words: "Anti Malas Palabras",
+      muted_role: "Muted Role"
     },
     args_1: {
       missing: "Debes especificar la acción que quieres llevar a cabo.",
@@ -438,6 +439,7 @@ exports.commands = {
       invite: {
         create: {
           args_1: {
+            max_guild_roles: "La acción ha sido cancelada debido a que este gremio excede el límite de **{limit}** roles.",
             missing: "Debes especificar el canal donde quieres generar la invitación permanente del gremio.",
             invalid: "La ID del canal que has especificado es inválida.",
             tip: "**CONSEJO**: Menciona el canal así: {channel}",
@@ -455,6 +457,25 @@ exports.commands = {
             invalid_2: "La invitación que has especificado pertenece a otro gremio."
           },
           completed: "Has establecido la invitación **{invite}** correctamente."
+        }
+      },
+      role: {
+        muted: {
+          create: {
+            loading: "Espera mientras creo el rol y establezco los permisos necesarios.",
+            loading_warning: "**ADVERTENCIA**: Este proceso puede tardar hasta **{seconds} segundos** en buenas condiciones..",
+            role_deleted: "La acción pendiente se canceló porque se eliminó el rol.",
+            role_created: "Se ha creado el rol {role}."
+          },
+          set: {
+            missing_role: "Debes especificar el rol que desea establecer.",
+            invalid_role: "El rol que has especificado no es válido.",
+            invalid_role_tip: "**CONSEJO**: Ejecuta el comando: **{command}**",
+            unknown_role: "El rol que has especificado no existe.",
+            already_established: "El rol que has especificado ya está establecido.",
+            role_higher: "El rol {role} está por encima de mis roles.",
+            role_higher_tip: "**CONSEJO**: Modifica la jerarquía de mis roles para que sean más altos."
+          }
         }
       }
     },
@@ -874,7 +895,9 @@ exports.commands = {
         current_prefix: "Prefijo actual"
       },
       guild: {
-        invite: "Invitación del gremio"
+        invite: "Invitación del gremio",
+        roles: "Roles",
+        muted: "Silenciado"
       },
       reports: {
         channel: "Canal de reportes",
@@ -1484,6 +1507,7 @@ exports.commands = {
     }
   },
   "mute": {
+    missing_muted_role: "El rol **Muted** no está establecido en las configuraciones.",
     noArgs: "Debes @Mencionar a la persona que quieres silenciar.",
     bellowRole: "Mi rol está por debajo del rol **{role}**.",
     invalid_role: "El rol {role} está administrado por una integración.",
@@ -1966,6 +1990,7 @@ exports.commands = {
     already_banned: "El usuario que has mencionado ya se encuentra baneado."
   },
   "tempmute": {
+    missing_muted_role: "El rol **Muted** no está establecido en las configuraciones.",
     noArgs: "Debes @Mencionar a la persona que quieres silenciar.",
     noArgs_2: "Debes especificar el tiempo para silenciar temporalmente a esta persona.",
     invalid_role: "El rol {role} está administrado por una integración.",
@@ -1999,6 +2024,7 @@ exports.commands = {
     completed: "{user} ha sido desbaneado del servidor correctamente."
   },
   "unmute": {
+    missing_muted_role: "El rol **Muted** no está establecido en las configuraciones.",
     noArgs: "Debes @Mencionar o escribir la ID de la persona a la que quieres desmutear.",
     no_role_exist: "El rol **{role}** no existe en el servidor.",
     invalid_role: "El rol {role} está administrado por una integración.",

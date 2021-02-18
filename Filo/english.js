@@ -388,7 +388,8 @@ exports.commands = {
       anti_mass_mentions: "Anti Mass Mentions",
       anti_repeated_text: "Anti Repeated Text",
       disable_commands: "Disable Commands",
-      anti_bad_words: "Anti Bad Words"
+      anti_bad_words: "Anti Bad Words",
+      muted_role: "Muted Role"
     },
     args_1: {
       missing: "You must specify the action you want to carry out.",
@@ -455,6 +456,26 @@ exports.commands = {
             invalid_2: "The specified invite belongs to another guild."
           },
           completed: "You have set the invite **{invite}** correctly."
+        }
+      },
+      role: {
+        muted: {
+          create: {
+            max_guild_roles: "The action has been canceled due to this guild exceeding the **{limit}** role limit.",
+            loading: "Please wait while I create the role and set the necessary permissions.",
+            loading_warning: "**WARNING**: This process can take up to **{seconds} seconds** in good condition.",
+            role_deleted: "The pending action has been canceled because the role has been deleted.",
+            role_created: "The {role} role has been created."
+          },
+          set: {
+            missing_role: "You must specify the role you want to establish.",
+            invalid_role: "The role you have specified is invalid.",
+            invalid_role_tip: "**TIP**: Execute the command: **{command}**",
+            unknown_role: "The role you specified doesn't exist.",
+            already_established: "The role you specified is already established.",
+            role_higher: "The {role} role is above my roles.",
+            role_higher_tip: "**TIP**: Modify the hierarchy of my roles to be higher."
+          }
         }
       }
     },
@@ -874,7 +895,9 @@ exports.commands = {
         current_prefix: "Current prefix"
       },
       guild: {
-        invite: "Guild invite"
+        invite: "Guild invite",
+        roles: "Roles",
+        muted: "Muted"
       },
       reports: {
         channel: "Reports channel",
@@ -1484,6 +1507,7 @@ exports.commands = {
     }
   },
   "mute": {
+    missing_muted_role: "The **Muted** role is not set in the settings.",
     noArgs: "You must @Mention the person you want to mute.",
     bellowRole: "My role is below the role **{role}**.",
     notification_title: "Permanently muted from the server **{guild}**",
@@ -1966,6 +1990,7 @@ exports.commands = {
     already_banned: "The user you mentioned is already banned."
   },
   "tempmute": {
+    missing_muted_role: "The **Muted** role is not set in the settings.",
     noArgs: "You must @Mention the person you want to mute.",
     noArgs_2: "You must specify the time to temporarily mute this person.",
     bellowRole: "My roles is below the role **{role}**.",
@@ -1999,6 +2024,7 @@ exports.commands = {
     completed: "{user} has been unbanned from the server correctly."
   },
   "unmute": {
+    missing_muted_role: "The **Muted** role is not set in the settings.",
     noArgs: "You must @Mention or write the ID of the person you want to unmute.",
     no_role_exist: "The **{role}** role does not exist on the server.",
     invalid_role: "The {role} role is managed by an integration.",
