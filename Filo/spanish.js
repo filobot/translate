@@ -23,7 +23,7 @@ exports.general = {
 
 exports.modules = {
   disable_commands: {
-    notification: "El comando que está intentando ejecutar está deshabilitado por la administración del servidor."
+    notification: "El comando que está intentando ejecutar está deshabilitado por la administración del gremio."
   },
   anti_bad_words: {
     reason_1: "El mensaje enviado contiene malas palabras.",
@@ -49,10 +49,10 @@ exports.moderation = {
   moderator: "Moderador",
   responsible: "Responsable: {member}.",
   responsible_and_reason: "Responsable: {user}. Razón: {reason}",
-  notification_description: "Has recibido este mensaje informativo porque has sido {sanction_type} del servidor: **{guild}**.",
+  notification_description: "Has recibido este mensaje informativo porque has sido {sanction_type} del gremio: **{guild}**.",
   default_reason: "El staff no ha especificado ninguna razón",
   reason: "Razón",
-  completed: "{user} ha sido {sanction_type} del servidor.",
+  completed: "{user} ha sido {sanction_type} del gremio.",
   sanction_expired: "La sanción ha expirado"
 };
 
@@ -166,7 +166,7 @@ exports.anti_invites = {
 exports.auto_mod = {
   pre_reason: "Sistema de auto-moderación de Filo",
   reason: "Exceder {limit} advertencias.",
-  server_invite: "Invitación del servidor"
+  server_invite: "Invitación del gremio"
 };
 
 exports.anti_evasion = {
@@ -306,8 +306,17 @@ exports.commands = {
     completed: "¡{user} llama a {user2} baka! ばか！"
   },
   "ban": {
-    noArgs: "Debes @Mencionar a la persona que quieres banear.",
-    notification_title: "Baneado permanentemente del servidor **{guild}**",
+    missing_user: "Debes @Mencionar al usuario que quieres banear.",
+    example_reason: "¡Ser demasiado Kawaii!",
+    invalid_user_id: "La ID del usuario que has especificado es inválida.",
+    unknown_user: "El usuario que has especificado no existe.",
+    protected_user: "El usuario que has especificado está protegido.",
+    max_reason: "La razón que has especificado excede los **{limit}** caracteres.",
+    ban_impossible: "Este usuario no puede ser baneado del gremio.",
+    missing_user_permissions: "No tienes permisos para banear a {user}.",
+    missing_client_permissions: "No tengo permisos para banear a {user}.",
+    permission_exception: "{user} tiene permisos especiales y no puede ser baneado.",
+    notification_title: "Baneado permanentemente del gremio **{guild}**",
     permanently_banned: "baneado permanentemente",
     ban_id: "ID del baneo"
   },
@@ -1155,7 +1164,7 @@ exports.commands = {
   "emojis": {
     noEmojisFound: "No hay ningún emoji disponible en el servidor.",
     max_emojis_limit: "Hay demasiados emojis en el servidor como para mostrarlos.",
-    completed_title: "Viendo los emojis del servidor"
+    completed_title: "Viendo los emojis del gremio"
   },
   "esay": {
     noArgs: "Debes especificar el mensaje que quieres enviar.",
@@ -1335,9 +1344,9 @@ exports.commands = {
   "kick": {
     noArgs: "Debes @Mencionar a la persona que quieres expulsar.",
     kick: "expulsado",
-    completed_title: "Expulsado del servidor **{guild}**",
+    completed_title: "Expulsado del gremio **{guild}**",
     kick_id: "ID de la expulsión",
-    server_invite: "Invitación del servidor"
+    server_invite: "Invitación del gremio"
   },
   "kickbutts": {
     noArgs: "Debes @Mencionar a una persona para darle una patada.",
@@ -1352,7 +1361,7 @@ exports.commands = {
     completed: "¡{user} besa a {user_2}!"
   },
   "lang": {
-    completed_title: "Viendo el idioma del servidor",
+    completed_title: "Viendo el idioma del gremio",
     completed_description: "Actualmente en **{guild}** se está usando el idioma **{lang}**.",
     languages_title: "Languages compatible with Filo",
     question_title: "¿En este servidor no se habla {lang}?",
@@ -1414,7 +1423,7 @@ exports.commands = {
     noMasturbate: "¿Qué intentas hacerme? ばか！"
   },
   "mcbanner": {
-    noArgs: "Debes escribir la dirección IP del servidor que deseas comprobar."
+    noArgs: "Debes escribir la dirección IP del gremio que deseas comprobar."
   },
   "mcbody": {
     noArgs: "Debes escribir el nick de algún jugador premium.",
@@ -1465,13 +1474,13 @@ exports.commands = {
     error_player: "El jugador que mencionaste no es premium."
   },
   "mcserver": {
-    noArgs: "Debes escribir la dirección IP del servidor que deseas comprobar.",
+    noArgs: "Debes escribir la dirección IP del gremio que deseas comprobar.",
     loading: "Por favor espera mientras obtengo la información de la API.",
     error_api: "Se produjo un error inesperado al intentar contactar con la API.",
     server_offline: "El servidor especificado no está en línea.",
     too_long: "Demasiado largo como para mostrarlo",
     invalid_port: "El puerto que has especificado no es válido.",
-    completed_title: "Viendo el estado del servidor **{server}**",
+    completed_title: "Viendo el estado del gremio **{server}**",
     ip: "IP",
     port: "Puerto",
     players: "Jugadores",
@@ -1480,7 +1489,7 @@ exports.commands = {
   },
   "members": {
     loading: "Por favor espere mientras reviso la lista de miembros.",
-    completed_title: "Viendo la lista de miembros del servidor",
+    completed_title: "Viendo la lista de miembros del gremio",
     total_members: "Miembros totales",
     humans: "Humanos",
     robots: "Robots"
@@ -1511,7 +1520,7 @@ exports.commands = {
     noArgs: "Debes @Mencionar a la persona que quieres silenciar.",
     bellowRole: "Mi rol está por debajo del rol **{role}**.",
     invalid_role: "El rol {role} está administrado por una integración.",
-    notification_title: "Silenciado permanentemente del servidor **{guild}**",
+    notification_title: "Silenciado permanentemente del gremio **{guild}**",
     permanently_muted: "silenciado permanentemente",
     mute_id: "ID del silencio",
     already_muted: "El usuario que has mencionado ya se encuentra silenciado."
@@ -1602,7 +1611,7 @@ exports.commands = {
     join_date: "Fecha de unión",
     credits: "Créditos",
     reputation: "Reputación",
-    server_booster: "Mejorador del servidor",
+    server_booster: "Mejorador del gremio",
     roles: "Roles ({roles})",
     error_profile: "Se produjo un error al intentar cargar la información de este perfil."
   },
@@ -1798,7 +1807,7 @@ exports.commands = {
       none: "Ninguno",
       low: "Bajo (Debes haber verificado el correo electrónico en la cuenta)",
       medium: "Medio (Debes estar registrado en Discord por más de 5 minutos)",
-      high: "(╯°□°）╯︵ ┻━┻ (Debes ser miembro del servidor durante más de 10 minutos)",
+      high: "(╯°□°）╯︵ ┻━┻ (Debes ser miembro del gremio durante más de 10 minutos)",
       very_high: "┻━┻ ﾐヽ(ಠ益ಠ)ノ彡┻━┻ (Debes tener un número de teléfono verificado)"
     },
     filter: {
@@ -1838,7 +1847,7 @@ exports.commands = {
     },
     not_set: "No establecido",
     level: "Nivel",
-    guild_id: "ID del servidor",
+    guild_id: "ID del gremio",
     owner: "Propietario",
     boost: "Mejora",
     boosts: "{number} mejoras",
@@ -1928,8 +1937,8 @@ exports.commands = {
     author: "Autor",
     ban_id: "ID del baneo",
     notification: {
-      completed_title: "Baneado suavemente del servidor **{guild}**",
-      server_invite: "Invitación del servidor"
+      completed_title: "Baneado suavemente del gremio **{guild}**",
+      server_invite: "Invitación del gremio"
     }
   },
   "stats": {
@@ -1979,15 +1988,25 @@ exports.commands = {
     completed: "¡{user} se ríe con una risita tonta!"
   },
   "tempban": {
-    noArgs: "Debes @Mencionar a la persona que deseas banear.",
-    noArgs_2: "Debes especificar la duración del ban.",
-    minimum_time: "El tiempo mínimo de la sanción no puede ser inferior a **{time}**.",
-    limit_time: "El tiempo máximo de la sanción no puede exceder **{time}**.",
-    notification_title: "Baneado Temporalmente del servidor **{guild}**",
+    missing_user: "Debes @Mencionar al usuario que quieres banear.",
+    example_reason: "¡Ser demasiado Kawaii!",
+    invalid_user_id: "La ID del usuario que has especificado es inválida.",
+    unknown_user: "El usuario que has especificado no existe.",
+    protected_user: "El usuario que has especificado está protegido.",
+    missing_time: "Debes especificar la duración del baneo.",
+    invalid_time: "La duración que has especificado es inválida.",
+    minimum_time: "La duración del baneo debe ser superior a **{time}**.",
+    maximum_time: "La duración del baneo debe ser inferior a **{time}**.",
+    max_reason: "La razón que has especificado excede **{limit}** caracteres.",
+    ban_impossible: "Este usuario no puede ser baneado del gremio.",
+    missing_user_permissions: "No tienes permisos para banear a {user}.",
+    missing_client_permissions: "No tengo permisos para banear a {user}.",
+    permission_exception: "{user} tiene permisos especiales y no puede ser baneado.",
+    already_banned: "{user} se encuentra baneado en la base de datos.",
+    notification_title: "Baneado temporalmente del gremio **{guild}**",
     temporarily_banned: "baneado temporalmente",
-    ban_id: "ID del baneo",
-    time: "Tiempo",
-    already_banned: "El usuario que has mencionado ya se encuentra baneado."
+    ban_id: "ID del Baneo",
+    time: "Duración"
   },
   "tempmute": {
     missing_muted_role: "El rol **Muted** no está establecido en las configuraciones.",
@@ -1999,7 +2018,7 @@ exports.commands = {
     minimum_time: "El tiempo mínimo de la sanción debe ser mayor que **{time}**.",
     temporarily_muted: "silenciado temporalmente",
     notification: {
-      title: "Silenciado temporalmente del servidor **{guild}**",
+      title: "Silenciado temporalmente del gremio **{guild}**",
     },
     mute_id: "ID del silencio",
     time: "Tiempo",
@@ -2020,8 +2039,8 @@ exports.commands = {
   },
   "unban": {
     noArgs: "Debes escribir la ID de la persona que a la que quieres desbanear.",
-    user_not_banned: "La ID de la persona que especificaste no se encuentra baneada del servidor.",
-    completed: "{user} ha sido desbaneado del servidor correctamente."
+    user_not_banned: "La ID de la persona que especificaste no se encuentra baneada del gremio.",
+    completed: "{user} ha sido desbaneado del gremio correctamente."
   },
   "unmute": {
     missing_muted_role: "El rol **Muted** no está establecido en las configuraciones.",
@@ -2032,7 +2051,7 @@ exports.commands = {
     bellowRole: "Mis roles están por debajo del rol **{role}**.",
     unmuted: "desmuteado",
     notification: {
-      title: "Desmuteado del servidor **{guild}**"
+      title: "Desmuteado del gremio **{guild}**"
     }
   },
   "unpin": {
@@ -2059,7 +2078,7 @@ exports.commands = {
     noArgs: "Debes @Mencionar a la persona que quieres advertir.",
     noArgs_2: "Debes especificar una razón para advertir a una persona.",
     notification: {
-      title: "Advertido del servidor **{guild}**"
+      title: "Advertido del gremio **{guild}**"
     },
     warned: "advertido",
     warn_id: "ID de la advertencia"

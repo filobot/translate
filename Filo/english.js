@@ -23,7 +23,7 @@ exports.general = {
 
 exports.modules = {
   disable_commands: {
-    notification: "The command you are trying to execute is disabled by the server administration."
+    notification: "The command you are trying to execute is disabled by the guild administration."
   },
   anti_bad_words: {
     reason_1: "The sent message contains bad words.",
@@ -48,11 +48,12 @@ exports.moderation = {
   administrator: "Administrator",
   moderator: "Moderator",
   responsible: "Responsible: {member}.",
+  responsible_expiration_and_reason: "Responsible: {user}. Expires in {time}. Reason: {reason}",
   responsible_and_reason: "Responsible: {user}. Reason: {reason}",
-  notification_description: "You have received this informational message because you have been {sanction_type} from the server: **{guild}**.",
+  notification_description: "You have received this informational message because you have been {sanction_type} from the guild: **{guild}**.",
   default_reason: "The staff has not specified any reason",
   reason: "Reason",
-  completed: "{user} has been {sanction_type} from the server.",
+  completed: "{user} has been {sanction_type} from the guild.",
   sanction_expired: "The sanction has expired"
 };
 
@@ -306,8 +307,17 @@ exports.commands = {
     completed: "{user} calls {user2} baka! ばか！"
   },
   "ban": {
-    noArgs: "You must @Mention the person you want to ban.",
-    notification_title: "Permanently banned from the server **{guild}**",
+    missing_user: "You must @Mention the user you want to ban.",
+    example_reason: "Being too Kawaii!",
+    invalid_user_id: "The user ID you specified is invalid.",
+    unknown_user: "The user you specified doesn't exist.",
+    protected_user: "The user you have specified is protected.",
+    max_reason: "The reason you specified exceeds **{limit}** characters.",
+    ban_impossible: "The user can't be banned from the guild.",
+    missing_user_permissions: "You don't have permission to ban {user}.",
+    missing_client_permissions: "I don't have permission to ban {user}.",
+    permission_exception: "{user} has special permissions and can't be banned.",
+    notification_title: "Permanently banned from the guild **{guild}**",
     permanently_banned: "permanently banned",
     ban_id: "Ban's ID"
   },
@@ -1153,8 +1163,8 @@ exports.commands = {
     animated: "Animated"
   },
   "emojis": {
-    noEmojisFound: "There is no emoji available on the server.",
-    max_emojis_limit: "There are too many emojis on the server to show them.",
+    noEmojisFound: "There is no emoji available on the guild.",
+    max_emojis_limit: "There are too many emojis on the guild to show them.",
     completed_title: "Watching server emojis"
   },
   "esay": {
@@ -1335,7 +1345,7 @@ exports.commands = {
   "kick": {
     noArgs: "You must @Mention to the person you want to kick.",
     kick: "kicked",
-    completed_title: "Kicked from the server **{guild}**",
+    completed_title: "Kicked from the guild **{guild}**",
     kick_id: "Kick's ID",
     server_invite: "Server invite"
   },
@@ -1414,7 +1424,7 @@ exports.commands = {
     noMasturbate: "What are you trying to do to me? ばか！"
   },
   "mcbanner": {
-    noArgs: "You must type the IP address of the server you want to check."
+    noArgs: "You must type the IP address of the guild you want to check."
   },
   "mcbody": {
     noArgs: "You must write the nickname of a premium player.",
@@ -1465,7 +1475,7 @@ exports.commands = {
     error_player: "The player you mentioned isn't premium."
   },
   "mcserver": {
-    noArgs: "You must type the IP address of the server you want to check.",
+    noArgs: "You must type the IP address of the guild you want to check.",
     loading: "Please wait while I get the API information.",
     error_api: "An unexpected error occurred while trying to contact the API.",
     server_offline: "The specified server isn't online.",
@@ -1510,14 +1520,14 @@ exports.commands = {
     missing_muted_role: "The **Muted** role is not set in the settings.",
     noArgs: "You must @Mention the person you want to mute.",
     bellowRole: "My role is below the role **{role}**.",
-    notification_title: "Permanently muted from the server **{guild}**",
+    notification_title: "Permanently muted from the guild **{guild}**",
     permanently_muted: "permanently muted",
     mute_id: "Mute's ID",
     invalid_role: "The {role} role is managed by an integration.",
     already_muted: "The user you mentioned is already muted."
   },
   "nick": {
-    noArgs: "You must mention the person to change their nickname on the server.",
+    noArgs: "You must mention the person to change their nickname on the guild.",
     noArgs_2: "You must write the new nickname you want to establish for that person.",
     completed: "You have changed {user}'s nickname to **{nickname}**."
   },
@@ -1721,7 +1731,7 @@ exports.commands = {
     loading: "Please wait while the status API information is collected.",
     error_api: "An error occurred while trying to contact the API.",
     completed_title: "Viewing **{game}** server status",
-    completed_description: "You can obtain more information on the status of the servers by **[clicking here]({link})**.",
+    completed_description: "You can obtain more information on the status of the guilds by **[clicking here]({link})**.",
     status: {
       online: "Online",
       degraded: "Degraded",
@@ -1798,7 +1808,7 @@ exports.commands = {
       none: "None",
       low: "Low (Must have verified email on account)",
       medium: "Medium (Must be registered on Discord for longer than 5 minutes)",
-      high: "(╯°□°）╯︵ ┻━┻ (Must be a member of the server for longer than 10 minutes)",
+      high: "(╯°□°）╯︵ ┻━┻ (Must be a member of the guild for longer than 10 minutes)",
       very_high: "┻━┻ ﾐヽ(ಠ益ಠ)ノ彡┻━┻ (Must have a verified phone number)"
     },
     filter: {
@@ -1928,7 +1938,7 @@ exports.commands = {
     author: "Author",
     ban_id: "Ban's ID",
     notification: {
-      completed_title: "Soft banned from the server **{guild}**",
+      completed_title: "Soft banned from the guild **{guild}**",
       server_invite: "Server invite"
     }
   },
@@ -1979,15 +1989,25 @@ exports.commands = {
     completed: "{user} is teehee!"
   },
   "tempban": {
-    noArgs: "You must @Mention the person you want to ban.",
-    noArgs_2: "You must specify the duration of the ban.",
-    minimum_time: "The minimum time of the sanction must be greater than **{time}**.",
-    limit_time: "The time of the sanction can't exceed **{time}**.",
-    notification_title: "Temporarily banned from the server **{guild}**",
+    missing_user: "You must @Mention the user you want to ban.",
+    example_reason: "Being too Kawaii!",
+    invalid_user_id: "The user ID you specified is invalid.",
+    unknown_user: "The user you specified doesn't exist.",
+    protected_user: "The user you have specified is protected.",
+    missing_time: "You must specify the duration of the ban.",
+    invalid_time: "The duration you have specified is invalid.",
+    minimum_time: "The duration of the ban must be greater than **{time}**.",
+    maximum_time: "The duration of the ban must be less than **{time}**.",
+    max_reason: "The reason you specified exceeds **{limit}** characters.",
+    ban_impossible: "The user can't be banned from the guild.",
+    missing_user_permissions: "You don't have permission to ban {user}.",
+    missing_client_permissions: "I don't have permission to ban {user}.",
+    permission_exception: "{user} has special permissions and can't be banned.",
+    already_banned: "{user} is already banned from the database.",
+    notification_title: "Temporarily banned from the guild **{guild}**",
     temporarily_banned: "temporarily banned",
     ban_id: "Ban's ID",
-    time: "Time",
-    already_banned: "The user you mentioned is already banned."
+    time: "Duration"
   },
   "tempmute": {
     missing_muted_role: "The **Muted** role is not set in the settings.",
@@ -1999,7 +2019,7 @@ exports.commands = {
     limit_time: "The time of the sanction can't exceed **{time}**.",
     temporarily_muted: "temporarily muted",
     notification: {
-      title: "Temporarily muted from the server **{guild}**",
+      title: "Temporarily muted from the guild **{guild}**",
     },
     mute_id: "Mute's ID",
     time: "Time",
@@ -2020,19 +2040,19 @@ exports.commands = {
   },
   "unban": {
     noArgs: "You must write the ID of the person you want to unban.",
-    user_not_banned: "The ID of the person you specified isn't banned from the server.",
-    completed: "{user} has been unbanned from the server correctly."
+    user_not_banned: "The ID of the person you specified isn't banned from the guild.",
+    completed: "{user} has been unbanned from the guild correctly."
   },
   "unmute": {
     missing_muted_role: "The **Muted** role is not set in the settings.",
     noArgs: "You must @Mention or write the ID of the person you want to unmute.",
-    no_role_exist: "The **{role}** role does not exist on the server.",
+    no_role_exist: "The **{role}** role does not exist on the guild.",
     invalid_role: "The {role} role is managed by an integration.",
     user_not_muted: "{user} isn't muted.",
     bellowRole: "My roles is below the **{role}** role.",
     unmuted: "unmuted",
     notification: {
-      title: "Unmuted from the server **{guild}**"
+      title: "Unmuted from the guild **{guild}**"
     }
   },
   "unpin": {
@@ -2059,7 +2079,7 @@ exports.commands = {
     noArgs: "You must @Mention the person you want to warn.",
     noArgs_2: "You must specify a reason to warn a person.",
     notification: {
-      title: "Warned from the server **{guild}**"
+      title: "Warned from the guild **{guild}**"
     },
     warned: "warned",
     warn_id: "Warn's ID"
