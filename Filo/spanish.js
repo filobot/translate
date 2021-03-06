@@ -48,6 +48,7 @@ exports.moderation = {
   administrator: "Administrador",
   moderator: "Moderador",
   responsible: "Responsable: {member}.",
+  responsible_expiration_and_reason: "Responsable: {user}. Expira en {time}. Razón: {reason}",
   responsible_and_reason: "Responsable: {user}. Razón: {reason}",
   notification_description: "Has recibido este mensaje informativo porque has sido {sanction_type} del gremio: **{guild}**.",
   default_reason: "El staff no ha especificado ninguna razón",
