@@ -471,20 +471,24 @@ exports.commands = {
       role: {
         muted: {
           create: {
-            max_guild_roles: "The action has been canceled due to this guild exceeding the **{limit}** role limit.",
-            loading: "Please wait while I create the role and set the necessary permissions.",
-            loading_warning: "**WARNING**: This process can take up to **{seconds} seconds** in good condition.",
-            role_deleted: "The pending action has been canceled because the role has been deleted.",
-            role_created: "The {role} role has been created."
+            args_1: {
+              max_guild_roles: "The action has been canceled due to this guild exceeding the **{limit}** role limit.",
+              loading: "Please wait while I create the role and set the necessary permissions.",
+              loading_warning: "**WARNING**: This process can take up to **{seconds} seconds** in good condition.",
+              role_deleted: "The pending action has been canceled because the role has been deleted.",
+              role_created: "The {role} role has been created."
+            }
           },
           set: {
-            missing_role: "You must specify the role you want to establish.",
-            invalid_role: "The role you have specified is invalid.",
-            invalid_role_tip: "**TIP**: Execute the command: **{command}**",
-            unknown_role: "The role you specified doesn't exist.",
-            already_established: "The role you specified is already established.",
-            role_higher: "The {role} role is above my roles.",
-            role_higher_tip: "**TIP**: Modify the hierarchy of my roles to be higher."
+            args_1: {
+              missing_role: "You must specify the role you want to establish.",
+              invalid_role: "The role you have specified is invalid.",
+              invalid_role_tip: "**TIP**: Execute the command: **{command}**",
+              unknown_role: "The role you specified doesn't exist.",
+              already_established: "The role you specified is already established.",
+              role_higher: "The {role} role is above my roles.",
+              role_higher_tip: "**TIP**: Modify the hierarchy of my roles to be higher."
+            }
           }
         }
       }
@@ -1233,37 +1237,6 @@ exports.commands = {
     notFound: "Could not find any results for the specified search.",
     completed_title: "Results for the search \"**{search}**\""
   },
-  "giveaway": {
-    example: "Super kawaii giveaway!",
-    invalidTime: "The time you entered isn't valid.",
-    noArgs_0: "You must specify the action you want to carry out {options}.",
-    noArgs: "You must specify the number of possible winners of the giveaway.",
-    noArgs_2: "You must specify the prize of the giveaway.",
-    invalidWinners: "The number of possible winners you have specified isn't valid.",
-    giveaway: "GIVEAWAY",
-    giveaway_ended: "GIVEAWAY ENDED",
-    timeRemaining: "Time remaining: **{duration}**.",
-    inviteToParticipate: "React with {emoji} to participate!",
-    winMessage: "Congratulations, {winners}! You won **{prize}**!",
-    noWinner: "The giveaway has been canceled because there is no valid participation.",
-    hostedBy: "Hosted by: {user}",
-    winners: "winner(s)",
-    create: {
-      noArgs: "You must specify the time you want the giveaway to last."
-    },
-    reroll: {
-      noArgs: "You must specify the ID of the giveaway, which is usually the ID of the message.",
-      completed: "¡New winner(s): {winners}! Congratulations!",
-      error: "There is no valid participation, so the reroll has not been carried out.",
-      error_id: "Could not find any giveaway with the ID **{giveaway_id}**."
-    },
-    edit: {
-      noArgs: "You must specify the ID of the giveaway, which is usually the ID of the message.",
-      noArgs_2: "You must specify the time you want the giveaway to last.",
-      completed: "You have edited the giveaway correctly.",
-      error: "No active giveaways could be found with the ID provided."
-    }
-  },
   "greet": {
     noArgs: "You must @Mention the person you want to greet.",
     noAuthor: "You can't greet yourself.",
@@ -1281,7 +1254,7 @@ exports.commands = {
     core: "Core",
     fun: "Fun",
     economy: "Economy",
-    game_stats: "Game statistics",
+    game_statistics: "Game statistics",
     interaction: "Interaction",
     games: "Games",
     minecraft: "Minecraft",
@@ -1290,13 +1263,590 @@ exports.commands = {
     reaction: "Reaction",
     server: "Server",
     social: "Social",
-    nsfw: {
+    temporary_commands: "Temporary commands",
+    nsfw: "NSFW",
+    nsfw_warning: {
       nsfw_title: "NSFW",
       nsfw_description: "You must be on an **NSFW** channel to see these commands."
     },
     restricted: "Restricted",
     question_title: "This server does not speak {lang}?",
-    question_description: "If so, you can change the language of Filo using the command **{command}**.\nYou can get a complete list of Filo supported languages **[here]({link})** or using the **{command_2}** command."
+    question_description: "If so, you can change the language of Filo using the command **{command}**.\nYou can get a complete list of Filo supported languages **[here]({link})** or using the **{command_2}** command.",
+    advanced_help: {
+      search_title: "Viewing search results",
+      nsfw_channel_or_category: "This channel does not meet the criteria for displaying adult content.\n\nIf you want to activate the adult mode (NSFW) use **{command}**.",
+      none: "None",
+      command: "Command",
+      commands: "Commands",
+      aliases: "Aliases",
+      category: "Category",
+      filo_required_permissions: "Filo required permissions",
+      user_required_permissions: "User required permissions",
+      restrictions: "Restrictions",
+      only_guild: "This command can only be executed in a guild.",
+      only_nsfw_channels: "This command can only be executed in a NSFW channel.",
+      usage: "Usage",
+      example_usage: "Example usage",
+      deprecated_command: "This command is in deprecated and it's possible that a future will be removed."
+    },
+    commands: {
+      "8ball": {
+        description: "Ask anything to the 8 ball"
+      },
+      "addrole": {
+        description: "Add roles to a member or yourself"
+      },
+      "anal": {
+        description: "Send a anal gif to the channel"
+      },
+      "angry": {
+        description: "Send a angry reaction gif to the channel"
+      },
+      "anime": {
+        description: "Search the information of an anime"
+      },
+      "animeavatar": {
+        description: "Send a random anime avatar"
+      },
+      "ascii": {
+        description: "Convert the word you want to ASCII Art"
+      },
+      "avatar": {
+        description: "Send the avatar of another member or yours"
+      },
+      "baka": {
+        description: "Send a baka interaction gif to the channel"
+      },
+      "ban": {
+        description: "Ban permanently a guild member for bad behavior"
+      },
+      "bear": {
+        description: "Send a random image of a bear to the channel"
+      },
+      "binary": {
+        description: "Encode your text to binary or decode binary to text"
+      },
+      "bird": {
+        description: "Send a random image of a bird to the channel"
+      },
+      "bite": {
+        description: "Send a bite interaction gif to the channel"
+      },
+      "blush": {
+        description: "Send a blush reaction gif to the channel"
+      },
+      "blushingneko": {
+        description: "Send a random blushing neko image"
+      },
+      "boobs": {
+        description: "Send a boobs gif to the channel"
+      },
+      "bored": {
+        description: "Send a bored reaction gif to the channel"
+      },
+      "bugs": {
+        description: "Report a bug with Filo or any Filo service"
+      },
+      "cat": {
+        description: "Send a random image of a cat to the channel"
+      },
+      "channel": {
+        description: "Get detailed information on a guild channel"
+      },
+      "chucknorris": {
+        description: "Send random Chuck Norris memes to the channel"
+      },
+      "clear": {
+        description: "Clear a number of messages in a guild channel"
+      },
+      "clearwarns": {
+        description: "Clear a member's entire warning history"
+      },
+      "coffee": {
+        description: "Send a random image of a coffee to the channel"
+      },
+      "coinflip": {
+        description: "Classic coinflip game"
+      },
+      "cold": {
+        description: "Send a cold reaction gif to the channel"
+      },
+      "color": {
+        description: "Send basic information of a random color"
+      },
+      "config": {
+        description: "Configure Filo's behavior in the guild"
+      },
+      "confused": {
+        description: "Send a confused reaction gif to the channel"
+      },
+      "cookie": {
+        description: "Give a guild member a cookie"
+      },
+      "covid": {
+        description: "Displays information about COVID-19"
+      },
+      "credits": {
+        description: "Show the total sum of credits of a member or yourself"
+      },
+      "cry": {
+        description: "Send a cry reaction gif to the channel"
+      },
+      "csgo": {
+        description: "Sends the statistics of the selected CSGO player"
+      },
+      "cuddle": {
+        description: "Send a cuddle interaction gif to the channel"
+      },
+      "cum": {
+        description: "Send a cum gif to the channel"
+      },
+      "daily": {
+        description: "Claim or give away your daily credits"
+      },
+      "dance": {
+        description: "Send a dance reaction gif to the channel"
+      },
+      "dog": {
+        description: "Send a random image of a dog to the channel"
+      },
+      "donate": {
+        description: "Shows information on how to donate to Filo"
+      },
+      "drake": {
+        description: "Create and send the classic drake meme"
+      },
+      "erofeet": {
+        description: "Send a erofeet image to the channel"
+      },
+      "erok": {
+        description: "Send a eroneko image to the channel"
+      },
+      "esay": {
+        description: "Send your message through Filo with an embed"
+      },
+      "expand": {
+        description: "Lengthen any shortened link"
+      },
+      "eyebrow": {
+        description: "Send a eyebrow reaction gif to the channel"
+      },
+      "fanart": {
+        description: "Send a random fan art to the channel"
+      },
+      "feed": {
+        description: "Send a feed interaction gif to the channel"
+      },
+      "feetg": {
+        description: "Send a feetg gif to the channel"
+      },
+      "femdom": {
+        description: "Send a femdom image to the channel"
+      },
+      "fish": {
+        description: "Classic fishing game"
+      },
+      "floor": {
+        description: "Create and send the classic floor is lava meme"
+      },
+      "food": {
+        description: "Send a random anime food gif to the channel"
+      },
+      "fortnite": {
+        description: "Sends the statistics of the selected Fortnite player"
+      },
+      "fortnitestore": {
+        description: "Send the information of a random item from the Fortnite store"
+      },
+      "foxgirl": {
+        description: "Send a random fox girl image to the channel"
+      },
+      "fuck": {
+        description: "Send a fuck gif to the channel"
+      },
+      "futanari": {
+        description: "Send a random futanari image to the channel"
+      },
+      "gasm": {
+        description: "Send a random ahegao emoji to the channel"
+      },
+      "gecg": {
+        description: "Send a random gecg image to the channel"
+      },
+      "ghoul": {
+        description: "Send a random ghoul gif to the channel"
+      },
+      "giphy": {
+        description: "Search for a random gif with the given criteria on Giphy"
+      },
+      "greet": {
+        description: "Send a greet reaction gif to the channel"
+      },
+      "happy": {
+        description: "Send a happy reaction gif to the channel"
+      },
+      "help": {
+        description: "Shows information about the Filo commands"
+      },
+      "hentai": {
+        description: "Send a random hentai image to the channel"
+      },
+      "history": {
+        description: "Check the warning history of a guild member"
+      },
+      "hnekos": {
+        description: "Send a random NSFW neko image to the channel"
+      },
+      "holoero": {
+        description: "Send a random holoero image to the channel"
+      },
+      "hot": {
+        description: "Send a hot reaction gif to the channel"
+      },
+      "hug": {
+        description: "Send a hug interaction gif to the channel"
+      },
+      "husband": {
+        description: "Send a random husband image to the channel"
+      },
+      "info": {
+        description: "Shows information about Filo"
+      },
+      "invite": {
+        description: "Shows information about how to invite Filo"
+      },
+      "jojo": {
+        description: "Send a random jojo image to the channel"
+      },
+      "joke": {
+        description: "Send a random joke to the channel"
+      },
+      "kick": {
+        description: "Kick a guild member for bad behavior"
+      },
+      "kickbutt": {
+        description: "Send a kickbutts interaction gif to the channel"
+      },
+      "kiss": {
+        description: "Send a kiss interaction gif to the channel"
+      },
+      "koala": {
+        description: "Send a random image of a koala to the channel"
+      },
+      "lang": {
+        description: "Shows information about the guild's current language"
+      },
+      "laugh": {
+        description: "Send a laugh interaction gif to the channel"
+      },
+      "lewd": {
+        description: "Send a random lewd image to the channel"
+      },
+      "lewdkemo": {
+        description: "Send a random lewdkemo image to the channel"
+      },
+      "like": {
+        description: "Send a like reaction gif to the channel"
+      },
+      "loli": {
+        description: "Send a random loli image to the channel"
+      },
+      "lolineko": {
+        description: "Send a random lolineko image to the channel"
+      },
+      "love": {
+        description: "Send a image with a heart with the specified member"
+      },
+      "lyrics": {
+        description: "Search information about the specified song"
+      },
+      "manga": {
+        description: "Search the information of an manga"
+      },
+      "masturbate": {
+        description: "Send a masturbate interaction gif to the channel"
+      },
+      "mcbanner": {
+        description: "Sends a banner with the basic information of a Minecraft server"
+      },
+      "mcbody": {
+        description: "Sends a render of the specified player's body"
+      },
+      "mcbust": {
+        description: "Sends a render of the specified player's bust"
+      },
+      "mcface": {
+        description: "Sends a render of the specified player's face"
+      },
+      "mcfront": {
+        description: "Sends a render of the specified player's front"
+      },
+      "mcfrontbody": {
+        description: "Sends a render of the specified player's front body"
+      },
+      "mchead": {
+        description: "Sends a render of the specified player's head"
+      },
+      "mcserver": {
+        description: "Sends basic information about the status of the specified Minecraft server"
+      },
+      "mcskin": {
+        description: "Send the specified player's skin"
+      },
+      "mcuuid": {
+        description: "Send the specified player's UUID"
+      },
+      "meme": {
+        description: "Send a random meme to the channel"
+      },
+      "minesweeper": {
+        description: "Classic minesweeper game"
+      },
+      "morse": {
+        description: "Convert text to morse or morse to text"
+      },
+      "mute": {
+        description: "Mute permanently a guild member for bad behavior"
+      },
+      "neko": {
+        description: "Send a random neko image to the channel"
+      },
+      "nekogif": {
+        description: "Send a random neko gif to the channel"
+      },
+      "nickname": {
+        description: "Change the nickname of a guild member or yourself"
+      },
+      "nsfw": {
+        description: "Enable or disable NSFW mode on the execution channel"
+      },
+      "nsfwneko": {
+        description: "Send a random NSFW neko gif to the channel"
+      },
+      "osu": {
+        description: "Sends the statistics of the selected osu! player"
+      },
+      "owoify": {
+        description: "Convert text to owoify"
+      },
+      "panda": {
+        description: "Send a random image of a panda to the channel"
+      },
+      "pat": {
+        description: "Send a pat interaction gif to the channel"
+      },
+      "pay": {
+        description: "Pay with your credits to another member"
+      },
+      "pin": {
+        description: "Pin a message on the channel"
+      },
+      "ping": {
+        description: "Filo's latency test against the Discord API"
+      },
+      "poke": {
+        description: "Send a poke interaction gif to the channel"
+      },
+      "poll": {
+        description: "Make a poll of reactions on the channel"
+      },
+      "privacy": {
+        description: "Shows information on how to view Filo's Privacy Policy"
+      },
+      "profile": {
+        description: "Show your profile or that of another member"
+      },
+      "pubg": {
+        description: "Sends the statistics of the selected PUBG player"
+      },
+      "punch": {
+        description: "Send a punch interaction gif to the channel"
+      },
+      "pussy": {
+        description: "Send a random pussy gif to the channel"
+      },
+      "r6": {
+        description: "Sends the statistics of the selected R6 player"
+      },
+      "r6status": {
+        description: "Shows the status of the R6 servers"
+      },
+      "randomnumber": {
+        description: "Generate a random number with or without the arguments"
+      },
+      "randomuser": {
+        description: "Select a random guild member"
+      },
+      "removerole": {
+        description: "Remove roles to a member or yourself"
+      },
+      "rep": {
+        description: "Grant reputation points to other guild members"
+      },
+      "report": {
+        description: "Report the Moderators of a member that violates the rules"
+      },
+      "reps": {
+        description: "Check the reputation points of a member or yours"
+      },
+      "reversecard": {
+        description: "Get your ace off your sleeve: reverse card"
+      },
+      "role": {
+        description: "Get information about a guild role"
+      },
+      "run": {
+        description: "Send a run reaction gif to the channel"
+      },
+      "say": {
+        description: "Send your message through Filo"
+      },
+      "scared": {
+        description: "Send a scared reaction gif to the channel"
+      },
+      "guild": {
+        description: "Get information about the guild"
+      },
+      "serverinvite": {
+        description: "Generate a permanent invite from the channel"
+      },
+      "shard": {
+        description: "Get information from the guild shard on Filo"
+      },
+      "shorten": {
+        description: "Shorten links using Filo's domain"
+      },
+      "sick": {
+        description: "Send a sick reaction gif to the channel"
+      },
+      "sing": {
+        description: "Send a sing reaction gif to the channel"
+      },
+      "slap": {
+        description: "Send a slap interaction gif to the channel"
+      },
+      "sleep": {
+        description: "Send a sleep reaction gif to the channel"
+      },
+      "slots": {
+        description: "Classic slots game"
+      },
+      "slowmode": {
+        description: "Sets the channel slowmode"
+      },
+      "smug": {
+        description_: "Send a smug reaction gif to the channel"
+      },
+      "snake": {
+        description: "Send a random image of a snake to the channel"
+      },
+      "softban": {
+        description: "Softban a guild member for bad behavior"
+      },
+      "stats": {
+        description: "Shows Filo's basic stats"
+      },
+      "status": {
+        description: "Show information about the Filo status page"
+      },
+      "suck": {
+        description: "Send a random suck gif to the channel"
+      },
+      "suggest": {
+        description: "Make a suggestion to the Filo Development Team"
+      },
+      "support": {
+        description: "Show information about how to get support"
+      },
+      "tempban": {
+        description: "Ban temporarily a guild member for bad behavior"
+      },
+      "tempmute": {
+        description: "Mute temporarily a guild member for bad behavior"
+      },
+      "terms": {
+        description: "Shows information on how to view Filo's Terms of Service"
+      },
+      "think": {
+        description: "Send a think reaction gif to the channel"
+      },
+      "tickle": {
+        description: "Send a tickle interaction gif to the channel"
+      },
+      "titan": {
+        description: "Send a random titan image to the channel"
+      },
+      "tits": {
+        description: "Send a random tits gif to the channel"
+      },
+      "trap": {
+        description: "Send a random trap gif to the channel"
+      },
+      "twitter": {
+        description: "Show information about the Filo Twitter"
+      },
+      "unban": {
+        description: "Remove ban on a banned member from the guild"
+      },
+      "unmute": {
+        description: "Remove mute on a muted member from the guild"
+      },
+      "unpin": {
+        description: "Unpin a message on the channel"
+      },
+      "urban": {
+        description: "Search word in the urban dictionary"
+      },
+      "vote": {
+        description: "Show information on how to vote for Filo"
+      },
+      "votes": {
+        description: "Shows how many votes Filo has this month"
+      },
+      "waifu": {
+        description: "Send a random waifu image to the channel"
+      },
+      "waifuneko": {
+        description: "Send a random waifuneko image to the channel"
+      },
+      "wallpapers": {
+        description: "Send a random NSFW anime wallpaper to the channel"
+      },
+      "warn": {
+        description: "Warn a guild member for bad behavior"
+      },
+      "weather": {
+        description: "Shows the current weather of a city"
+      },
+      "web": {
+        description: "Show information on how to access the Filo website"
+      },
+      "wiki": {
+        description: "Show information on how to access the Filo documentation"
+      },
+      "wolf": {
+        description: "Send a random image of a wolf to the channel"
+      }
+    },
+    category: {
+      administration: "Commands for managing a guild",
+      animals: "Commands that send visual content of animals",
+      anime: "Commands for members who like anime",
+      core: "Commands that display information about Filo",
+      fun: "Commands to try to make you smile",
+      economy: "Commands for the Filo economy system",
+      game_statistics: "Commands to check the statistics of a player in a game",
+      interaction: "Commands for those who like anime and want to interact with others through gifs",
+      games: "Commands to make you have fun with minigames",
+      minecraft: "Commands for the game Minecraft",
+      miscellaneous: "Commands that can have multiple functions and cannot be categorized elsewhere",
+      moderation: "Commands for moderating a guild",
+      reaction: "Commands for those who like anime and want to react through gifs",
+      server: "Commands to use in the guild",
+      social: "Commands for Filo's social systems",
+      temporary_commands: "Commands that will disappear in the future",
+      nsfw: "Commands for the most daring members of the guild"
+    }
   },
   "history": {
     noArgs: "You must @Mention a person to see their history.",

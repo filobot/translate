@@ -449,7 +449,6 @@ exports.commands = {
       invite: {
         create: {
           args_1: {
-            max_guild_roles: "La acción ha sido cancelada debido a que este gremio excede el límite de **{limit}** roles.",
             missing: "Debes especificar el canal donde quieres generar la invitación permanente del gremio.",
             invalid: "La ID del canal que has especificado es inválida.",
             tip: "**CONSEJO**: Menciona el canal así: {channel}",
@@ -472,19 +471,24 @@ exports.commands = {
       role: {
         muted: {
           create: {
-            loading: "Espera mientras creo el rol y establezco los permisos necesarios.",
-            loading_warning: "**ADVERTENCIA**: Este proceso puede tardar hasta **{seconds} segundos** en buenas condiciones..",
-            role_deleted: "La acción pendiente se canceló porque se eliminó el rol.",
-            role_created: "Se ha creado el rol {role}."
+            args_1: {
+              max_guild_roles: "La acción ha sido cancelada debido a que este gremio excede el límite de **{limit}** roles.",
+              loading: "Espera mientras creo el rol y establezco los permisos necesarios.",
+              loading_warning: "**ADVERTENCIA**: Este proceso puede tardar hasta **{seconds} segundos** en buenas condiciones..",
+              role_deleted: "La acción pendiente se canceló porque se eliminó el rol.",
+              role_created: "Se ha creado el rol {role}."
+            }
           },
           set: {
-            missing_role: "Debes especificar el rol que desea establecer.",
-            invalid_role: "El rol que has especificado no es válido.",
-            invalid_role_tip: "**CONSEJO**: Ejecuta el comando: **{command}**",
-            unknown_role: "El rol que has especificado no existe.",
-            already_established: "El rol que has especificado ya está establecido.",
-            role_higher: "El rol {role} está por encima de mis roles.",
-            role_higher_tip: "**CONSEJO**: Modifica la jerarquía de mis roles para que sean más altos."
+            args_1: {
+              missing_role: "Debes especificar el rol que desea establecer.",
+              invalid_role: "El rol que has especificado no es válido.",
+              invalid_role_tip: "**CONSEJO**: Ejecuta el comando: **{command}**",
+              unknown_role: "El rol que has especificado no existe.",
+              already_established: "El rol que has especificado ya está establecido.",
+              role_higher: "El rol {role} está por encima de mis roles.",
+              role_higher_tip: "**CONSEJO**: Modifica la jerarquía de mis roles para que sean más altos."
+            }
           }
         }
       }
@@ -1210,7 +1214,7 @@ exports.commands = {
     total_score: "Puntuación total",
     recent_stats: "Estadísticas recientes",
     time_played: "Tiempo jugado",
-    players_alive: "Jugadores que quedaron con vida"
+    seleccionados_alive: "Jugadores que quedaron con vida"
   },
   "fortnitestore": {
     loading: "Por favor espera mientras se obtienen los datos de la API.",
@@ -1233,37 +1237,6 @@ exports.commands = {
     notFound: "No se ha podido encontrar ningún resultado para la búsqueda especificada.",
     completed_title: "Resultados para la búsqueda \"**{search}**\""
   },
-  "giveaway": {
-    example: "¡Sorteo súper kawaii!",
-    invalidTime: "El tiempo que has introducido no es válido.",
-    noArgs_0: "Debes especificar la acción que quieres llevar a cabo {options}.",
-    noArgs: "Debes especificar el número de ganadores posibles del sorteo.",
-    noArgs_2: "Debes especificar el premio del sorteo.",
-    invalidWinners: "El número de posibles ganadores que has especificado no es válido.",
-    giveaway: "SORTEO",
-    giveaway_ended: "SORTEO FINALIZADO",
-    timeRemaining: "Tiempo restante: **{duration}**.",
-    inviteToParticipate: "¡Reacciona con {emoji} para participar!",
-    winMessage: "¡Felicidades, {winners}! ¡Has ganado **{prize}**!",
-    noWinner: "El sorteo ha sido cancelado debido a que no hay ninguna participación válida.",
-    hostedBy: "Alojada por: {user}",
-    winners: "ganador(es)",
-    create: {
-      noArgs: "Debes especificar el tiempo que quieres que dure el sorteo."
-    },
-    reroll: {
-      noArgs: "Debes especificar la ID del sorteo, que generalmente es la ID del mensaje.",
-      completed: "¡Nuevo ganador(es): {winners}! ¡Felicidades!",
-      error: "No hay ninguna participación válida, por lo que no se puede llevar a cabo el reroll.",
-      error_id: "No se ha podido encontrar ningún sorteo con la ID **{giveaway_id}**."
-    },
-    edit: {
-      noArgs: "Debes especificar la ID del sorteo, que generalmente es la ID del mensaje.",
-      noArgs_2: "Debes especificar el tiempo que quieres que dure el sorteo.",
-      completed: "Has editado el sorteo correctamente.",
-      error: "No se encontró ningún sorteo activo con la ID especificada."
-    }
-  },
   "greet": {
     noArgs: "Debes @Mencionar a la persona que quieres saludar.",
     noAuthor: "No puedes saludarte a ti mismo.",
@@ -1281,7 +1254,7 @@ exports.commands = {
     core: "Core",
     fun: "Diversión",
     economy: "Economía",
-    game_stats: "Estadísticas en juegos",
+    game_statistics: "Estadísticas en juegos",
     interaction: "Interacción",
     games: "Juegos",
     minecraft: "Minecraft",
@@ -1290,13 +1263,590 @@ exports.commands = {
     reaction: "Reacción",
     server: "Servidor",
     social: "Social",
-    nsfw: {
+    temporary_commands: "Comandos temporales",
+    nsfw: "NSFW",
+    nsfw_warning: {
       nsfw_title: "NSFW",
       nsfw_description: "Debes estar en un canal **NSFW** para poder ver estos comandos."
     },
     restricted: "Restringidos",
     question_title: "¿En este servidor no se habla {lang}?",
-    question_description: "De ser así, puedes cambiar el idioma de Filo usando el comando **{command}**.\nPuedes obtener una lista completa de los idiomas soportados de Filo **[aquí]({link})** o usando el comando **{command_2}**."
+    question_description: "De ser así, puedes cambiar el idioma de Filo usando el comando **{command}**.\nPuedes obtener una lista completa de los idiomas soportados de Filo **[aquí]({link})** o usando el comando **{command_2}**.",
+    advanced_help: {
+      search_title: "Viendo los resultados de la búsqueda",
+      nsfw_channel_or_category: "Este canal no cumple con los criterios para mostrar contenido de adultos.\n\nSi quieres activar el modo adulto (NSFW) usa **{command}**.",
+      none: "Ninguno",
+      command: "Comando",
+      commands: "Comandos",
+      aliases: "Alias",
+      category: "Categoría",
+      filo_required_permissions: "Permisos requeridos a Filo",
+      user_required_permissions: "Permisos requeridos al usuario",
+      restrictions: "Restrincciones",
+      only_guild: "Este comando solo puede ser ejecutado en un gremio.",
+      only_nsfw_channels: "Este comando solo puede ser ejecutado en un canal NSFW.",
+      usage: "Uso",
+      example_usage: "Ejemplo de uso",
+      deprecated_command: "Este comando está obsoleto y es posible que se elimine un futuro."
+    },
+    commands: {
+      "8ball": {
+        description: "Pregúntale cualquier cosa a la bola 8"
+      },
+      "addrole": {
+        description: "Agrega roles a un miembro o a ti mismo"
+      },
+      "anal": {
+        description: "Envía un gif anal al canal"
+      },
+      "angry": {
+        description: "Envía un gif de reacción de enfado al canal"
+      },
+      "anime": {
+        description: "Busca la información de un anime"
+      },
+      "animeavatar": {
+        description: "Envía un avatar de anime aleatorio"
+      },
+      "ascii": {
+        description: "Convierte la palabra que quieras en Arte ASCII"
+      },
+      "avatar": {
+        description: "Envía el avatar de otro miembro o el tuyo"
+      },
+      "baka": {
+        description: "Envía un gif de interacción de baka al canal"
+      },
+      "ban": {
+        description: "Prohibe permanentemente a un miembro del gremio por mal comportamiento"
+      },
+      "bear": {
+        description: "Envía una imagen aleatoria de un oso al canal"
+      },
+      "binary": {
+        description: "Codifica texto a binario o decodifica binario a texto"
+      },
+      "bird": {
+        description: "Envía una imagen aleatoria de un pájaro al canal"
+      },
+      "bite": {
+        description: "Envia un gif de interacción de mordisco al canal"
+      },
+      "blush": {
+        description: "Envía un gif de reacción de sonrojado al canal"
+      },
+      "blushingneko": {
+        description: "Envía una imagen aleatoria de una neko sonrojada"
+      },
+      "boobs": {
+        description: "Envía un gif de tetas al canal canal"
+      },
+      "bored": {
+        description: "Envía un gif de reacción de aburrimiento al canal"
+      },
+      "bugs": {
+        description: "Informa de un error de Filo o cualquier servicio de Filo"
+      },
+      "cat": {
+        description: "Envía una imagen aleatoria de un gato al canal"
+      },
+      "channel": {
+        description: "Obtén información detallada sobre un canal del gremio"
+      },
+      "chucknorris": {
+        description: "Envía un meme aleatorio de Chuck Norris al canal"
+      },
+      "clear": {
+        description: "Limpia un número de mensajes de un canal del gremio"
+      },
+      "clearwarns": {
+        description: "Limpia el historial completo de advertencias de un miembro"
+      },
+      "coffee": {
+        description: "Envía una imagen aleatoria de un café al canal"
+      },
+      "coinflip": {
+        description: "Juego clásico de lanzar la moneda"
+      },
+      "cold": {
+        description: "Envía un gif de reacción de frío al canal"
+      },
+      "color": {
+        description: "Envía la información básico de un color aleatorio"
+      },
+      "config": {
+        description: "Configura el comportamiento de Filo en el gremio"
+      },
+      "confused": {
+        description: "Envía un gif de reacción confuso al canal"
+      },
+      "cookie": {
+        description: "Otorga una cookie a un miembro del gremio"
+      },
+      "covid": {
+        description: "Muestra información acerca del COVID-19"
+      },
+      "credits": {
+        description: "Muestra la suma total de créditos de un miembro o de ti mismo"
+      },
+      "cry": {
+        description: "Envía un gif de reacción de lloro al canal"
+      },
+      "csgo": {
+        description: "Envía las estadísticas del jugador de CSGO seleccionado"
+      },
+      "cuddle": {
+        description: "Envía un gif de interacción de abrazo al canal"
+      },
+      "cum": {
+        description: "Envía un gif de semen al canal"
+      },
+      "daily": {
+        description: "Reclama o regala tus créditos diarios"
+      },
+      "dance": {
+        description: "Envía un gif de reacción de baile al canal"
+      },
+      "dog": {
+        description: "Envía una imagen aleatoria de un perro al canal"
+      },
+      "donate": {
+        description: "Muestra información de como donar a Filo"
+      },
+      "drake": {
+        description: "Crea y envía el clásico meme de drake"
+      },
+      "erofeet": {
+        description: "Envía una imagen de pierna erótica al canal"
+      },
+      "erok": {
+        description: "Envía una imagen de neko erótica al canal"
+      },
+      "esay": {
+        description: "Envíe su mensaje a través de Filo con un incrustado"
+      },
+      "expand": {
+        description: "Alarga cualquier enlace acortado"
+      },
+      "eyebrow": {
+        description: "Envía un gif de reacción de cejas al canal"
+      },
+      "fanart": {
+        description: "Envía un arte de fan aleatorio al canal"
+      },
+      "feed": {
+        description: "Envía un gif de interacción al canal"
+      },
+      "feetg": {
+        description: "Envía un gif de feetg al canal"
+      },
+      "femdom": {
+        description: "Envía un gif de dominación femenina al canal"
+      },
+      "fish": {
+        description: "Juego clásico de pesca"
+      },
+      "floor": {
+        description: "Crea y envía el clásico meme de el suelo es lava"
+      },
+      "food": {
+        description: "Envía un gif aleatorio de comida de anime al canal"
+      },
+      "fortnite": {
+        description: "Envía las estadísticas del jugador de Fortnite seleccionado"
+      },
+      "fortnitestore": {
+        description: "Envía la información de un objeto aleatorio de la tienda de Fortnite"
+      },
+      "foxgirl": {
+        description: "Envía una imagen aleatoria de chica zorro al canal"
+      },
+      "fuck": {
+        description: "Envía un gif de follar al canal"
+      },
+      "futanari": {
+        description: "Envía una imagen aleatoria de futanari al canal"
+      },
+      "gasm": {
+        description: "Envía un emoji aleatorio de ahegao al canal"
+      },
+      "gecg": {
+        description: "Envía una imagen aleatoria de gecg al canal"
+      },
+      "ghoul": {
+        description: "Envía un gif aleatorio de ghoul al canal"
+      },
+      "giphy": {
+        description: "Busca un gif aleatorio con los criterios especificados en Giphy"
+      },
+      "greet": {
+        description: "Envía un gif de interacción de saludo al canal"
+      },
+      "happy": {
+        description: "Envía un gif de reacción de aleagría al canal"
+      },
+      "help": {
+        description: "Muestra información acerca de los comandos de Filo"
+      },
+      "hentai": {
+        description: "Envía una imagen aleatoria de hentai al canal"
+      },
+      "history": {
+        description: "Consulta el historial de advertencias de un miembro del gremio"
+      },
+      "hnekos": {
+        description: "Envía una imagen NSFW aleatoria de una neko al canal"
+      },
+      "holoero": {
+        description: "Envía una imagen aleatoria de erótica de Holo al canal"
+      },
+      "hot": {
+        description: "Envía un gif de reacción de calor al canal"
+      },
+      "hug": {
+        description: "Envía un gif de interacción de abrazo al canal"
+      },
+      "husband": {
+        description: "Envía una imagen aleatoria de un hugbando al canal"
+      },
+      "info": {
+        description: "Muestra información acerca de Filo"
+      },
+      "invite": {
+        description: "Muestra información acerca de como invitar a Filo"
+      },
+      "jojo": {
+        description: "Envía una imagen aleatoria de jojo al canal"
+      },
+      "joke": {
+        description: "Envía un chiste aleatorio al canal"
+      },
+      "kick": {
+        description: "Expulsa a un miembro del gremio por mal comportamiento"
+      },
+      "kickbutt": {
+        description: "Envía un gif de interacción de patada en el culo al canal"
+      },
+      "kiss": {
+        description: "Envía un gif de interacción de beso al canal"
+      },
+      "koala": {
+        description: "Envía una imagen aleatoria de un koala al canal"
+      },
+      "lang": {
+        description: "Muestra información del idioma actual del gremio"
+      },
+      "laugh": {
+        description: "Envía un gif de interacción de risa al canal"
+      },
+      "lewd": {
+        description: "Envía una imagen lewd aleatoria al canal"
+      },
+      "lewdkemo": {
+        description: "Envía una imagen lewd aleatoria de neko al canal"
+      },
+      "like": {
+        description: "Envía un gif de reacción de me gusta al canal"
+      },
+      "loli": {
+        description: "Envía una imagen aleatoria de una loli al canal"
+      },
+      "lolineko": {
+        description: "Envía una imagen aleatoria de una loli neko al canal"
+      },
+      "love": {
+        description: "Envía una imagen con el corazón del miembro especificado"
+      },
+      "lyrics": {
+        description: "Busca información acerca de la canción especificada"
+      },
+      "manga": {
+        description: "Busca información de un manga"
+      },
+      "masturbate": {
+        description: "Envía un gif de interacción de masturbarse al canal"
+      },
+      "mcbanner": {
+        description: "Envía una banner con la información básica de un servidor de Minecraft"
+      },
+      "mcbody": {
+        description: "Envía una render del cuerpo del jugador especificado"
+      },
+      "mcbust": {
+        description: "Envía una render del busto del jugador especificado"
+      },
+      "mcface": {
+        description: "Envía una render de la cara del jugador especificado"
+      },
+      "mcfront": {
+        description: "Envía una render del frontal del jugador especificado"
+      },
+      "mcfrontbody": {
+        description: "Envía una render del cuerpo frontal del jugador especificado"
+      },
+      "mchead": {
+        description: "Envía una render de la cabeza del jugador especificado"
+      },
+      "mcserver": {
+        description: "Envía la información básica acerca del estado de un servidor de Minecraft específico"
+      },
+      "mcskin": {
+        description: "Envía la apariencia del jugador especificado"
+      },
+      "mcuuid": {
+        description: "Envía la UUID del jugador especificado"
+      },
+      "meme": {
+        description: "Envía un meme aleatorio al canal"
+      },
+      "minesweeper": {
+        description: "Juego clásico del buscaminas"
+      },
+      "morse": {
+        description: "Convierte texto en morse y morse en texto"
+      },
+      "mute": {
+        description: "Silencia a un miembro del gremio por mal comportamiento"
+      },
+      "neko": {
+        description: "Envía una imagen aleatoria de una neko al canal"
+      },
+      "nekogif": {
+        description: "Envía un gif aleatorio de una neko al canal"
+      },
+      "nickname": {
+        description: "Cambia el apodo de un miembro del gremio o de ti mismo"
+      },
+      "nsfw": {
+        description: "Habilita o deshabilita el modo NSFW en el canal de ejecución"
+      },
+      "nsfwneko": {
+        description: "Envía un gif NSFW aleatorio de una neko gif al canal"
+      },
+      "osu": {
+        description: "Envía las estadísticas del jugador de osu! seleccionado"
+      },
+      "owoify": {
+        description: "Convierte texto en owoify"
+      },
+      "panda": {
+        description: "Envía una imagen aleatoria de un panda al canal"
+      },
+      "pat": {
+        description: "Envía un gif de interacción de caricia al canal"
+      },
+      "pay": {
+        description: "Paga con tus créditos a otro miembro"
+      },
+      "pin": {
+        description: "Ancla un mensaje en el canal"
+      },
+      "ping": {
+        description: "Prueba de latencia de Filo contra la API de Discord"
+      },
+      "poke": {
+        description: "Envía un gif de interacción de molestar al canal"
+      },
+      "poll": {
+        description: "Crea una encuesta de reacciones en el canal"
+      },
+      "privacy": {
+        description: "Muestra información de como ver la Política de Privacidad de Filo"
+      },
+      "profile": {
+        description: "Muestra tu perfil o el de otro miembro"
+      },
+      "pubg": {
+        description: "Envía las estadísticas del jugador de PUBG seleccionado"
+      },
+      "punch": {
+        description: "Envía un gif de interacción de puñetazo al canal"
+      },
+      "pussy": {
+        description: "Envía un gif aleatorio de una vagina al canal"
+      },
+      "r6": {
+        description: "Envía las estadísticas del jugador de R6 seleccionado"
+      },
+      "r6status": {
+        description: "Envía el estado de los servidores de R6"
+      },
+      "randomnumber": {
+        description: "Genera un número aleatorio con o sin argumentos"
+      },
+      "randomuser": {
+        description: "Selecciona un miembro aleatorio del gremio"
+      },
+      "removerole": {
+        description: "Elimina roles a un miembro o a ti mismo"
+      },
+      "rep": {
+        description: "Otorga puntos de reputación a otros miembros del gremio"
+      },
+      "report": {
+        description: "Informa a los Moderadores de otros miembros que violan las reglas"
+      },
+      "reps": {
+        description: "Consulta los puntos de reputación de un miembro o los tuyos"
+      },
+      "reversecard": {
+        description: "Saca tu as de la manga: carta inversa"
+      },
+      "role": {
+        description: "Obtén información acerca de un rol del gremio"
+      },
+      "run": {
+        description: "Envía un gif de reacción de correr al canal"
+      },
+      "say": {
+        description: "Envía un mensaje a traves de Filo"
+      },
+      "scared": {
+        description: "Envía un gif de reacción de asustado al canal"
+      },
+      "guild": {
+        description: "Obtén información acerca del gremio"
+      },
+      "serverinvite": {
+        description: "Genera una invitación permanente del canal"
+      },
+      "shard": {
+        description: "Obtén información del fragmento de Filo del gremio"
+      },
+      "shorten": {
+        description: "Acorta enlaces usando el dominio de Filo"
+      },
+      "sick": {
+        description: "Envía un gif de reacción de enfermo al canal"
+      },
+      "sing": {
+        description: "Envía un gif de reacción de cantar al canal"
+      },
+      "slap": {
+        description: "Envía un gif de interacción de bofetada al canal"
+      },
+      "sleep": {
+        description: "Envía un gif de reacción de durmiendo al canal"
+      },
+      "slots": {
+        description: "Juego clásico del tragamonedas"
+      },
+      "slowmode": {
+        description: "Establece el modo lento del canal"
+      },
+      "smug": {
+        description_: "Envía un gif de reacción de presumir al canal"
+      },
+      "snake": {
+        description: "Envía una imagen aleatoria de una serpiente al canal"
+      },
+      "softban": {
+        description: "Prohibe suavemente a un miembro del gremio"
+      },
+      "stats": {
+        description: "Envía las estadísticas básicas de Filo"
+      },
+      "status": {
+        description: "Muestra información acerca de la página de estado de Filo"
+      },
+      "suck": {
+        description: "Envía un gif de interación de chupar al canal"
+      },
+      "suggest": {
+        description: "Haz una sugerencia al equipo de Desarrollo de Filo"
+      },
+      "support": {
+        description: "Muestra información acerca de como obtener soporte"
+      },
+      "tempban": {
+        description: "Prohibe temporalmente a un miembro del gremio por mal comportamiento"
+      },
+      "tempmute": {
+        description: "Silencia temporalmente a un miembro del gremio por mal comportamiento"
+      },
+      "terms": {
+        description: "Muestra información de como ver los Términos del Servicio de Filo"
+      },
+      "think": {
+        description: "Envíoa un gif de reacción de pensando al canal"
+      },
+      "tickle": {
+        description: "Envía un gif de interacción de cosquillas al canal"
+      },
+      "titan": {
+        description: "Envía una imagen aleatoria de un titan al canal"
+      },
+      "tits": {
+        description: "Envía un gif aleatorio de pechos al canal"
+      },
+      "trap": {
+        description: "Envía un gif aleatorio de trapitos al canal"
+      },
+      "twitter": {
+        description: "Muestra información acerca del Twitter de Filo"
+      },
+      "unban": {
+        description: "Elimina la prohibición de un miembro prohibido del gremio"
+      },
+      "unmute": {
+        description: "Elimina el silencio de un miembro silenciado del gremio"
+      },
+      "unpin": {
+        description: "Desancla un mensaje del canal"
+      },
+      "urban": {
+        description: "Busca una palabra en el diccionario urbano"
+      },
+      "vote": {
+        description: "Muestra información de como votar por Filo"
+      },
+      "votes": {
+        description: "Muestra cuantos votos tiene Filo este mes"
+      },
+      "waifu": {
+        description: "Envía una imagen aleatoria de una waifu al canal"
+      },
+      "waifuneko": {
+        description: "Envía una imagen aleatoria de una waifu neko al canal"
+      },
+      "wallpapers": {
+        description: "Envía un fondo de pantalla NSFW de anime al canal"
+      },
+      "warn": {
+        description: "Advierte a un miembro del gremio por mal comportamiento"
+      },
+      "weather": {
+        description: "Muestra el tiempo actual de una ciudad"
+      },
+      "web": {
+        description: "Muestra información de como acceder al sitio web de Filo"
+      },
+      "wiki": {
+        description: "Muestra información de como acceder a la documentación de Filo"
+      },
+      "wolf": {
+        description: "Envía una imagen aleatoria de un lobo al canal"
+      }
+    },
+    category: {
+      administration: "Comandos para administrar un gremio",
+      animals: "Comandos que envían contenido visual de animales",
+      anime: "Comandos para miembros a los que les gusta el anime",
+      core: "Comandos que muestran información sobre Filo",
+      fun: "Comandos para intentar hacerte sonreír",
+      economy: "Comandos para el sistema de economía de Filo",
+      game_statistics: "Comandos para verificar las estadísticas de un jugador en un juego",
+      interaction: "Comandos para aquellos a los que les gusta el anime y quieren interactuar con los demás a través de gifs",
+      games: "Comandos para divertirte con minijuegos",
+      minecraft: "Comandos para el juego Minecraft",
+      miscellaneous: "Comandos que pueden tener múltiples funciones y no se pueden categorizar en otro lugar",
+      moderation: "Comandos para moderar un gremio",
+      reaction: "Comandos para los que les gusta el anime y quieren reaccionar a través de gifs",
+      server: "Comandos para usar en el gremio",
+      social: "Comandos para los sistemas sociales de Filo",
+      temporary_commands: "Comandos que desaparecerán en el futuro",
+      nsfw: "Comandos para los miembros más atrevidos del gremio"
+    }
   },
   "history": {
     noArgs: "Debes @Mencionar a una persona para ver su historial.",
@@ -1484,7 +2034,7 @@ exports.commands = {
     completed_title: "Viendo el estado del gremio **{server}**",
     ip: "IP",
     port: "Puerto",
-    players: "Jugadores",
+    seleccionados: "Jugadores",
     version: "Versión",
     motd: "Motd"
   },
@@ -1546,7 +2096,7 @@ exports.commands = {
     ign: "IGN",
     uuid: "UUID",
     level: "Nivel",
-    player_country: "País del jugador",
+    seleccionado_country: "País del jugador",
     registration_date: "Fecha de registro",
     accuracy: "Precisión",
     time_played: "Tiempo jugado",
