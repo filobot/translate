@@ -6,8 +6,8 @@ exports.language = {
 }
 
 exports.announcements = {
-  title: "Aviso importante",
-  description: "Hemos realizado cambios en la estructura de configuración de todos los servidores.\nA lo largo del camino, algunos servidores han perdido todas sus configuraciones.\n\nSi su servidor ha perdido todas las configuraciones y desea que las restablezcamos, por favor **[contáctenos](https://discord.gg/tGphdcu)**.\n\nDisculpe las molestias."
+  title: "SEGUNDO ANIVERSARIO DE FILO",
+  description: "¡Ya está aquí! El sábado 17 de Abril de 2021 vamos a realizar un SORTEO de DISCORD NITRO en nuestro servidor con motivo de celebración del aniversario.\nSi quieres participar, haz **[clic aquí](https://discord.gg/Z3u6SFs)**.\n\n¡¡Te esperamos!!"
 };
 
 exports.general = {
@@ -1532,6 +1532,9 @@ exports.commands = {
       },
       "koala": {
         description: "Envía una imagen aleatoria de un koala al canal"
+      },
+      "kuni": {
+        description: "Envía una imagen aleatoria de kuni al canal"
       },
       "lang": {
         description: "Muestra información del idioma actual del gremio"
