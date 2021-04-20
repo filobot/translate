@@ -18,10 +18,10 @@ exports.NAV_BAR = {
 };
 
 exports.HEADER = {
-  TITLE: "A powerful multipurpose Discord bot",
-  SUBTITLE: "Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion",
+  TITLE: "一个强大的多功能 Discord bot",
+  SUBTITLE: "可定制， 多语言选择，举报，登记表格，欢饮和告辞， 人数统计，防止-邀请，auto-mod，防止-逃避 ",
   FEATURES: "标题",
-  ADD_TO_A_SERVER: "Add to a server"
+  ADD_TO_A_SERVER: "添加至个服务器"
 };
 
 exports.FEATURES = {
