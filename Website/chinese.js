@@ -1,5 +1,5 @@
 exports.LANGUAGE = {
-  WIKI_CODE: "en",
+  WIKI_CODE: "zh",
   CODE: "zh",
   FULL_CODE: "chinese",
   CONTRIBUTORS: ["Reli-Galliard"]
