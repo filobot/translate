@@ -1,6 +1,8 @@
 exports.LANGUAGE = {
+  WIKI_CODE: "en",
   CODE: "zh",
-  FULL_CODE: "chinese"
+  FULL_CODE: "chinese",
+  CONTRIBUTORS: ["Reli-Galliard"]
 };
 
 exports.NAV_BAR = {
