@@ -23,7 +23,7 @@ exports.HEADER = {
 };
 
 exports.FEATURES = {
-  TITLE: "Features",
+  TITLE: "标题",
   SUBTITLE: "The best features of Filo!",
   MULTILANGUAGE: {
     TITLE: "Multilanguage",
