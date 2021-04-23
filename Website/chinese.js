@@ -27,28 +27,28 @@ exports.HEADER = {
 
 exports.FEATURES = {
   TITLE: "标题",
-  SUBTITLE: "The best features of Filo!",
+  SUBTITLE:  "Filo 最好的特征!",
   MULTILANGUAGE: {
-    TITLE: "Multilanguage",
-    DESCRIPTION: "We believe that the best way to offer a service is to adapt it to your language. Filo supports some languages.",
-    MORE_INFORMATION: "More information about this feature"
+    TITLE: "多语言选择",
+    DESCRIPTION: "我们相信最好的方式为您提供我们的服务是匹配至您的语言.", 
+    MORE_INFORMATION: "更多信息关于这个特征"
   },
   ADMINISTRATION: {
-    TITLE: "Administration",
-    DESCRIPTION: "One of the best ways to summarize Filo is its modules. These include",
+    TITLE: "行政管理",
+    DESCRIPTION: "其中最好的方式来总结Filo是它的模组",
     ITEMS: {
-      WELCOMES: "welcomes",
-      FAREWELLS: "farewells",
-      REPORTS: "reports",
-      LOGGING: "logging"
+      WELCOMES: "欢迎",
+      FAREWELLS: "告辞",
+      REPORTS: "举报",
+      LOGGING: "登记"
     }
   },
   MODERATION: {
-    TITLE: "Moderation",
-    DESCRIPTION: "Simplify the moderation of your server with a few clicks. It is time to teach those who blatantly break the rules a lesson. Filo has:",
-  },
+    TITLE: "适度",
+    DESCRIPTION:  "简化您的服务器适度只需几个点击. 是时候告诉那些爱破规矩的一个教训. Filo 拥有:",
+  },             
   MEMBER_COUNTER: {
-    TITLE: "Member Counter",
+    TITLE: "人数统计",
     DESCRIPTION: "Show off the number of members of your server with this module. Allows you to configure a nickname and a counter channel.",
     MORE_INFORMATION: "More information about this feature"
   },
