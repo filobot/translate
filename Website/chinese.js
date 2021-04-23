@@ -1,7 +1,8 @@
 exports.LANGUAGE = {
-  WIKI_CODE: "zh",
   CODE: "zh",
+  STANDARD_CODE: "zh",
   FULL_CODE: "chinese",
+  WIKI_CODE: "zh",
   CONTRIBUTORS: ["Reli-Galliard"]
 };
 
