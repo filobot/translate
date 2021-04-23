@@ -1,6 +1,9 @@
 exports.LANGUAGE = {
   CODE: "es",
-  FULL_CODE: "español"
+  STANDARD_CODE: "es-ES",
+  FULL_CODE: "spanish",
+  WIKI_CODE: "es",
+  CONTRIBUTORS: ["iLxlo_"],
 };
 
 exports.NAV_BAR = {
@@ -15,14 +18,9 @@ exports.NAV_BAR = {
   TERMS: "Términos"
 };
 
-exports.ANNOUNCEMENT = {
-  DESCRIPTION: "Inscripciones para nuestro laboratorio privado de pruebas abiertas.",
-  MORE_INFORMATION: "Más información aquí"
-};
-
 exports.HEADER = {
   TITLE: "Un potente bot de Discord multipropósito",
-  SUBTITLE: "Personalizable, varios idiomas, reportes, registro, bienvenida y despedidas, contador de miembros, anti-invitaciones, auto-mod, anti-evasión.",
+  SUBTITLE: "Personalizable, varios idiomas, reportes, registro, bienvenida y despedidas, contador de miembros, anti-invitaciones, auto-mod, anti-evasión",
   FEATURES: "Características",
   ADD_TO_A_SERVER: "Añadir a un servidor"
 };
@@ -121,6 +119,7 @@ exports.VOTE = {
   DESCRIPTION: "Obtén muchas recompensas por votar diariamente por Filo.",
   PAGE_1: "Página 1",
   PAGE_2: "Página 2",
+  PAGE_3: "Página 3",
   MORE_INFORMATION: "Más información",
   PAGE: {
     TITLE: "Votar por Filo",
