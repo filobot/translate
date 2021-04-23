@@ -1,9 +1,9 @@
 exports.LANGUAGE = {
   CODE: "zh",
   STANDARD_CODE: "zh",
-  FULL_CODE: "chinese",
+  FULL_CODE: "中文",
   WIKI_CODE: "zh",
-  CONTRIBUTORS: ["Reli-Galliard"]
+  CONTRIBUTORS: ["Reli-Galliard", "iLxlo_"]
 };
 
 exports.NAV_BAR = {
