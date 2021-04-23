@@ -49,7 +49,7 @@ exports.FEATURES = {
   },             
   MEMBER_COUNTER: {
     TITLE: "人数统计",
-    DESCRIPTION: "Show off the number of members of your server with this module. Allows you to configure a nickname and a counter channel.",
+    DESCRIPTION: "展示 the number of members of your server with this module. Allows you to configure a nickname and a counter channel.",
     MORE_INFORMATION: "More information about this feature"
   },
   FUN: {
