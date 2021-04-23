@@ -1,7 +1,7 @@
 exports.LANGUAGE = {
   CODE: "es",
   STANDARD_CODE: "es-ES",
-  FULL_CODE: "spanish",
+  FULL_CODE: "español",
   WIKI_CODE: "es",
   CONTRIBUTORS: ["iLxlo_"],
 };
