@@ -74,7 +74,7 @@ exports.FEATURES = {
     }
   },
   GAME_STATISTICS: {
-    TITLE: "Stats en juegos",
+    TITLE: "Estadísticas en juegos",
     DESCRIPTION: "Si su comunidad se enfoca en los videojuegos, no lo piense dos veces. Filo ofrece comandos para obtener tus",
     ITEMS: {
       GAME_STATISTICS: "estadísticas en juegos"
