@@ -1,6 +1,9 @@
 exports.LANGUAGE = {
   CODE: "es",
-  FULL_CODE: "español"
+  STANDARD_CODE: "es-ES",
+  FULL_CODE: "español",
+  WIKI_CODE: "es",
+  CONTRIBUTORS: ["iLxlo_"],
 };
 
 exports.NAV_BAR = {
@@ -15,14 +18,9 @@ exports.NAV_BAR = {
   TERMS: "Términos"
 };
 
-exports.ANNOUNCEMENT = {
-  DESCRIPTION: "Inscripciones para nuestro laboratorio privado de pruebas abiertas.",
-  MORE_INFORMATION: "Más información aquí"
-};
-
 exports.HEADER = {
   TITLE: "Un potente bot de Discord multipropósito",
-  SUBTITLE: "Personalizable, varios idiomas, reportes, registro, bienvenida y despedidas, contador de miembros, anti-invitaciones, auto-mod, anti-evasión.",
+  SUBTITLE: "Personalizable, varios idiomas, reportes, registro, bienvenida y despedidas, contador de miembros, anti-invitaciones, auto-mod, anti-evasión",
   FEATURES: "Características",
   ADD_TO_A_SERVER: "Añadir a un servidor"
 };
@@ -76,7 +74,7 @@ exports.FEATURES = {
     }
   },
   GAME_STATISTICS: {
-    TITLE: "Stats en juegos",
+    TITLE: "Estadísticas en juegos",
     DESCRIPTION: "Si su comunidad se enfoca en los videojuegos, no lo piense dos veces. Filo ofrece comandos para obtener tus",
     ITEMS: {
       GAME_STATISTICS: "estadísticas en juegos"
@@ -97,44 +95,45 @@ exports.STATISTICS = {
 
 exports.DONATE = {
   TITLE: "Donar a Filo",
-  DESCRIPTION: "¡Ayúdanos a mantener la cuenta de anime de Filo!",
-  DONATE: "Donar",
-  MORE_INFORMATION: "Más información",
-  PAGE: {
-    TITLE: "Donar a Filo",
-    SUBTITLE: "Información",
-    DESCRIPTION: "Donar a Filo cualquier cantidad será una gran contribución.",
-    DESCRIPTION_2: "Puede donar a Filo a través de un sitio web y el dinero donado se invertirá para mejorar la calidad del servicio.",
-    DESCRIPTION_3: "Recuerda que todas las donaciones están sujetas a algunos términos y condiciones que usted acepta una vez que se procesa su pago.",
-    REWARDS: {
-      TITLE: "Recompensas",
-      PRE_MESSAGE_REWARD: "Recibirás el rol",
-      MESSAGE_REWARD: "temporalmente por cualquier donación superior a",
-      MESSAGE_REWARD_2: "temporalmente si donas",
-      OR_MORE: "o más"
-    }
+  SUBTITLE: "¡Ayúdanos a mantener en línea a Filo haciendo una donación!",
+  TERMS_AND_CONDITIONS_WARNING: {
+    DESCRIPTION: "Todas las donaciones están sujetas a unos Términos y Condiciones.",
+    MORE_INFORMATION: "Más información"
+  },
+  PLANS: {
+    PER_MONTH: "Al mes",
+    VAT_NOT_INCLUDED: "IVA no incluido",
+    SUBSCRIBE: "Suscribirse",
+    REWARD_1: "Rol simbólico en nuestro servidor",
+    REWARD_2: "Muestra tu apoyo a Filo",
+    PREVIOUS_REWARD: "Todo del plan anterior",
+    SOON_MORE: "Pronto™ más"
   }
+};
+
+exports.REVIEW = {
+  TITLE: "Déjanos una reseña",
+  SUBTITLE: "¡Demuestra cuánto amas a Filo y a su servicio!"
 };
 
 exports.VOTE = {
   TITLE: "Votar por Filo",
-  DESCRIPTION: "Obtén muchas recompensas por votar diariamente por Filo.",
-  PAGE_1: "Página 1",
-  PAGE_2: "Página 2",
-  MORE_INFORMATION: "Más información",
-  PAGE: {
-    TITLE: "Votar por Filo",
-    SUBTITLE: "Información",
-    DESCRIPTION: "Votar por Filo es una buena manera de mostrarle apoyo.",
-    DESCRIPTION_2: "Puedes votar diariamente en algunas páginas que promueve Filo.",
-    DESCRIPTION_3: "Recuerda que puedes reclamar recompensas si entras en",
-    OUR_DISCORD_SERVER: "nuestro servidor de Discord",
-    REWARDS: {
-      TITLE: "Recompensas",
-      PRE_MESSAGE_REWARD: "Recibirás el rol",
-      MESSAGE_REWARD: "si votas",
-      MESSAGE_REWARD_2: "veces por Filo"
-    }
+  SUBTITLE: "¡Obtén muchas recompensas por votar diariamente por Filo!",
+  REWARDS_WARNING: {
+    DESCRIPTION: "Para poder reclamar tus recompensas debes estar en nuestro servidor de Discord.",
+    JOIN_NOW: "¡Únete ahora!"
+  },
+  PAGE: "Página",
+  PLANS: {
+    PRE_TITLE: "Recompensas por votar",
+    VOTES: "Votos",
+    PER_MONTH: "Al mes",
+    CLAIM_NOW: "Reclamar ahora",
+    REWARD_1: "Rol simbólico en nuestro servidor",
+    REWARD_2: "Muestra tu apoyo a Filo",
+    REWARD_3: "Uso de emoticonos externos en nuestro servidor",
+    PREVIOUS_REWARD: "Todo del plan anterior",
+    SOON_MORE: "Pronto™ más"
   }
 };
 
@@ -144,7 +143,7 @@ exports.FRIENDLY_WEBSITES = {
 
 exports.READY = {
   TITLE: "¿Preparado para probar a Filo?",
-  DESCRIPTION: "Únase a los más de 2,500 servidores que confían en ella.",
+  SUBTITLE: "Únase a los más de 2,500 servidores que confían en ella.",
   ADD_TO_A_SERVER: "Añadir a un servidor",
   GETTING_STARTED: "Empezando"
 };

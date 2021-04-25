@@ -1,6 +1,9 @@
 exports.LANGUAGE = {
   CODE: "en",
-  FULL_CODE: "english"
+  STANDARD_CODE: "en-US",
+  FULL_CODE: "english",
+  WIKI_CODE: "en",
+  CONTRIBUTORS: ["iLxlo_"],
 };
 
 exports.NAV_BAR = {
@@ -15,14 +18,9 @@ exports.NAV_BAR = {
   TERMS: "Terms"
 };
 
-exports.ANNOUNCEMENT = {
-  DESCRIPTION: "Registration for our private open testing laboratory.",
-  MORE_INFORMATION: "More information here"
-};
-
 exports.HEADER = {
   TITLE: "A powerful multipurpose Discord bot",
-  SUBTITLE: "Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion.",
+  SUBTITLE: "Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion",
   FEATURES: "Features",
   ADD_TO_A_SERVER: "Add to a server"
 };
@@ -97,44 +95,45 @@ exports.STATISTICS = {
 
 exports.DONATE = {
   TITLE: "Donate to Filo",
-  DESCRIPTION: "Help us maintain Filo's anime account!",
-  DONATE: "Donate",
-  MORE_INFORMATION: "More information",
-  PAGE: {
-    TITLE: "Donate to Filo",
-    SUBTITLE: "Information",
-    DESCRIPTION: "Donating to Filo any amount will be a great contribution.",
-    DESCRIPTION_2: "Then you can donate to Filo through a website and the money donated will be invested to improve the quality of the service.",
-    DESCRIPTION_3: "Remember that all donations are subject to some terms and conditions that you accept once their payment is processed.",
-    REWARDS: {
-      TITLE: "Rewards",
-      PRE_MESSAGE_REWARD: "You will receive the",
-      MESSAGE_REWARD: "role temporarily for any donation over",
-      MESSAGE_REWARD_2: "role temporarily if you donate",
-      OR_MORE: "or more"
-    }
+  SUBTITLE: "Help us keep Filo online by making a donation!",
+  TERMS_AND_CONDITIONS_WARNING: {
+    DESCRIPTION: "All donations are subject to Terms and Conditions.",
+    MORE_INFORMATION: "More information"
+  },
+  PLANS: {
+    PER_MONTH: "Per month",
+    VAT_NOT_INCLUDED: "VAT not included",
+    SUBSCRIBE: "Subscribe",
+    REWARD_1: "Symbolic role on our server",
+    REWARD_2: "Show your support for Filo",
+    PREVIOUS_REWARD: "Everything from the previous plan",
+    SOON_MORE: "Soon™ more"
   }
+};
+
+exports.REVIEW = {
+  TITLE: "Leave us a review",
+  SUBTITLE: "Show how much you love Filo a her service!"
 };
 
 exports.VOTE = {
   TITLE: "Vote for Filo",
-  DESCRIPTION: "Get lots of rewards for voting daily for Filo.",
-  PAGE_1: "Page 1",
-  PAGE_2: "Page 2",
-  MORE_INFORMATION: "More information",
-  PAGE: {
-    TITLE: "Vote for Filo",
-    SUBTITLE: "Information",
-    DESCRIPTION: "Voting for Filo is a good way to show support for her.",
-    DESCRIPTION_2: "You can vote daily on some pages that Filo promotes.",
-    DESCRIPTION_3: "Remember that you can claim rewards if you enter",
-    OUR_DISCORD_SERVER: "our Discord server",
-    REWARDS: {
-      TITLE: "Rewards",
-      PRE_MESSAGE_REWARD: "You will receive the",
-      MESSAGE_REWARD: "role if you vote",
-      MESSAGE_REWARD_2: "times for Filo"
-    }
+  SUBTITLE: "Get lots of rewards for voting daily for Filo!",
+  REWARDS_WARNING: {
+    DESCRIPTION: "In order to claim your rewards you must be on our Discord server.",
+    JOIN_NOW: "Join now!"
+  },
+  PAGE: "Page",
+  PLANS: {
+    PRE_TITLE: "Rewards for voting",
+    VOTES: "Votes",
+    PER_MONTH: "Per month",
+    CLAIM_NOW: "Claim now",
+    REWARD_1: "Symbolic role on our server",
+    REWARD_2: "Show your support for Filo",
+    REWARD_3: "Use of external emojis on our server",
+    PREVIOUS_REWARD: "Everything from the previous plan",
+    SOON_MORE: "Soon™ more"
   }
 };
 
@@ -144,7 +143,7 @@ exports.FRIENDLY_WEBSITES = {
 
 exports.READY = {
   TITLE: "Ready to test Filo?",
-  DESCRIPTION: "Join the more than 2,500 servers that trust her.",
+  SUBTITLE: "Join the more than 2,500 servers that trust her.",
   ADD_TO_A_SERVER: "Add to a Server",
   GETTING_STARTED: "Getting Started"
 };
