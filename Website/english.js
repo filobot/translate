@@ -138,7 +138,8 @@ exports.VOTE = {
 };
 
 exports.FRIENDLY_WEBSITES = {
-  TITLE: "Friendly Websites"
+  TITLE: "Friendly Websites",
+  SUBTITLE: "Filo friendly pages that help Filo grow!"
 };
 
 exports.READY = {

@@ -138,7 +138,8 @@ exports.VOTE = {
 };
 
 exports.FRIENDLY_WEBSITES = {
-  TITLE: "Páginas amigas"
+  TITLE: "Páginas amigas",
+  SUBTITLE: "¡Páginas amigas de Filo que ayudan a Filo a crecer!"
 };
 
 exports.READY = {
