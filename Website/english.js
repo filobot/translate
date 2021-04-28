@@ -22,7 +22,7 @@ exports.HEADER = {
   TITLE: "A powerful multipurpose Discord bot",
   SUBTITLE: "Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion",
   FEATURES: "Features",
-  ADD_TO_A_SERVER: "Add to a server"
+  INVITE: "Invite"
 };
 
 exports.FEATURES = {
@@ -144,12 +144,29 @@ exports.FRIENDLY_WEBSITES = {
 
 exports.READY = {
   TITLE: "Ready to test Filo?",
-  SUBTITLE: "Join the more than 2,500 servers that trust her.",
-  ADD_TO_A_SERVER: "Add to a Server",
+  SUBTITLE: "Join the more than {guilds} guilds that trust her!",
+  INVITE: "Invite",
   GETTING_STARTED: "Getting Started"
 };
 
-exports.COPYRIGHT = "All rights reserved to"
+exports.FOOTER = {
+  HELPFUL_LINKS: {
+    TITLE: "Helpful links",
+    WIKI: "Wiki",
+    DONATE: "Donate",
+    STATUS: "Status"
+  },
+  IMPORTANT_LINKS: {
+    TITLE: "Important links",
+    TERMS_AND_CONDITIONS: "Terms and Conditions",
+    PRIVACY_POLICY: "Privacy Policy",
+    DMCA: "DMCA"
+  },
+  ABOUT_FILO: {
+    TITLE: "About Filo",
+    DESCRIPTION: "Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you."
+  }
+};
 
 exports.THANKS = {
   PAGE: {

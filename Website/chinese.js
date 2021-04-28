@@ -22,7 +22,7 @@ exports.HEADER = {
   TITLE: "一个强大的多功能 Discord bot",
   SUBTITLE: "可定制， 多语言选择，举报，登记表格，欢饮和告辞， 人数统计，防止-邀请，自动审核，防止-逃避 ",
   FEATURES: "标题",
-  ADD_TO_A_SERVER: "添加至个服务器"
+  INVITE: "Invite"
 };
 
 exports.FEATURES = {
@@ -144,12 +144,29 @@ exports.FRIENDLY_WEBSITES = {
 
 exports.READY = {
   TITLE: "Ready to test Filo?",
-  DESCRIPTION: "Join the more than 2,500 servers that trust her.",
-  ADD_TO_A_SERVER: "Add to a Server",
+  SUBTITLE: "Join the more than {guilds} guilds that trust her!",
+  INVITE: "Invite",
   GETTING_STARTED: "Getting Started"
 };
 
-exports.COPYRIGHT = "All rights reserved to"
+exports.FOOTER = {
+  HELPFUL_LINKS: {
+    TITLE: "Helpful links",
+    WIKI: "Wiki",
+    DONATE: "Donate",
+    STATUS: "Status"
+  },
+  IMPORTANT_LINKS: {
+    TITLE: "Important links",
+    TERMS_AND_CONDITIONS: "Terms and Conditions",
+    PRIVACY_POLICY: "Privacy Policy",
+    DMCA: "DMCA"
+  },
+  ABOUT_FILO: {
+    TITLE: "About Filo",
+    DESCRIPTION: "Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you."
+  }
+};
 
 exports.THANKS = {
   PAGE: {

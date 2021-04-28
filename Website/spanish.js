@@ -22,7 +22,7 @@ exports.HEADER = {
   TITLE: "Un potente bot de Discord multipropósito",
   SUBTITLE: "Personalizable, varios idiomas, reportes, registro, bienvenida y despedidas, contador de miembros, anti-invitaciones, auto-mod, anti-evasión",
   FEATURES: "Características",
-  ADD_TO_A_SERVER: "Añadir a un servidor"
+  INVITE: "Invitar"
 };
 
 exports.FEATURES = {
@@ -144,12 +144,29 @@ exports.FRIENDLY_WEBSITES = {
 
 exports.READY = {
   TITLE: "¿Preparado para probar a Filo?",
-  SUBTITLE: "Únase a los más de 2,500 servidores que confían en ella.",
-  ADD_TO_A_SERVER: "Añadir a un servidor",
+  SUBTITLE: "¡Únase a los más de {guilds} gremios que confían en ella!",
+  INVITE: "Invitar",
   GETTING_STARTED: "Empezando"
 };
 
-exports.COPYRIGHT = "Todos los derechos reservados para"
+exports.FOOTER = {
+  HELPFUL_LINKS: {
+    TITLE: "Enlaces útiles",
+    WIKI: "Wiki",
+    DONATE: "Donar",
+    STATUS: "Estado"
+  },
+  IMPORTANT_LINKS: {
+    TITLE: "Enlaces importantes",
+    TERMS_AND_CONDITIONS: "Términos y Condiciones",
+    PRIVACY_POLICY: "Política de Privacidad",
+    DMCA: "DMCA"
+  },
+  ABOUT_FILO: {
+    TITLE: "Acerca de Filo",
+    DESCRIPTION: "Filo es un potente bot de Discord multipropósito que sirve a gremios de Discord desde 2019. Contando con una amplia gama de módulos de administración y moderación para facilitarte las cosas."
+  }
+};
 
 exports.THANKS = {
   PAGE: {
