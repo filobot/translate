@@ -49,23 +49,23 @@ exports.FEATURES = {
   },
   MEMBER_COUNTER: {
     TITLE: "人数统计",
-    DESCRIPTION: "展示 the number of members of your server with this module. Allows you to configure a nickname and a counter channel.",
-    MORE_INFORMATION: "More information about this feature"
+    DESCRIPTION: "用此模块展示您的服务器的总人数. 允许你配置一个名称和 a counter channel.",
+    MORE_INFORMATION: "更多关于这个特征的信息"
   },
   FUN: {
-    TITLE: "Fun",
-    DESCRIPTION: "We know that sometimes a person can be bored, so we think that another of our objectives is to promote fun. Filo has several",
+    TITLE: "娱乐",
+    DESCRIPTION: "我们知道有时一个人会无聊, 之所以我们想推动娱乐. Filo 拥有一些",
     ITEMS: {
-      FUN: "fun",
-      GAMES: "game commands"
+      FUN: "娱乐",
+      GAMES: "游戏命令"
     }
   },
   ANIME: {
-    TITLE: "Anime",
-    PRE_DESCRIPTION: "Otaku pride!",
-    PRE_DESCRIPTION_2: "~ sorry wrong phrase ~",
-    DESCRIPTION: "Filo has various",
-    AND: "and",
+    TITLE: "日本漫画",
+    PRE_DESCRIPTION: "宅男骄傲!",
+    PRE_DESCRIPTION_2: "~ 对不起说错了呵 ~",
+    DESCRIPTION: "Filo 有一些",
+    AND: "和",
     DESCRIPTION_2: "commands to meet the human needs of otakus on your server.",
     ITEMS: {
       ANIME: "anime",
