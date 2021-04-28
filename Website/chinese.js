@@ -49,7 +49,7 @@ exports.FEATURES = {
   },
   MEMBER_COUNTER: {
     TITLE: "人数统计",
-    DESCRIPTION: "用此模块展示您的服务器的总人数. 允许你配置一个名称和 a counter channel.",
+    DESCRIPTION: "用此模块展示您的服务器的总人数. 允许你配置一个名称和一个人数统计频道.",
     MORE_INFORMATION: "更多关于这个特征的信息"
   },
   FUN: {
@@ -66,112 +66,112 @@ exports.FEATURES = {
     PRE_DESCRIPTION_2: "~ 对不起说错了呵 ~",
     DESCRIPTION: "Filo 有一些",
     AND: "和",
-    DESCRIPTION_2: "commands to meet the human needs of otakus on your server.",
+    DESCRIPTION_2: "用这些命令来帮助你服务器内的宅男们.",
     ITEMS: {
-      ANIME: "anime",
-      REACTION: "reaction",
-      INTERACTION: "interaction"
+      ANIME: "日本漫画",
+      REACTION: "反应",
+      INTERACTION: "互动"
     }
   },
   GAME_STATISTICS: {
-    TITLE: "Game Statistics",
-    DESCRIPTION: "If your community focuses on video games, don't think twice. Filo offers commands to get your",
+    TITLE: "游戏统计数据",
+    DESCRIPTION: "如果你的社区注重游戏, 别多想. Filo 提供命令可使用",
     ITEMS: {
-      GAME_STATISTICS: "statistics in games"
+      GAME_STATISTICS: "游戏统计数据"
     }
   },
   MISCELLANEOUS: {
-    TITLE: "Miscellaneous",
-    DESCRIPTION: "Filo has a wide variety of commands apart from those mentioned above.",
-    MORE_INFORMATION: "More information here"
+    TITLE: "各种各样的",
+    DESCRIPTION: "Filo 拥有各种各样的命令不止上面所提到的.",
+    MORE_INFORMATION: "更多信息这里"
   }
 };
 
 exports.STATISTICS = {
-  TITLE: "Filo's statistics",
-  GUILDS: "Guilds",
-  USERS: "Users"
+  TITLE: "Filo's 统计数据",
+  GUILDS: "行会",
+  USERS: "用户"
 };
 
 exports.DONATE = {
-  TITLE: "Donate to Filo",
-  SUBTITLE: "Help us keep Filo online by making a donation!",
+  TITLE: "捐款给Filo",
+  SUBTITLE: "用捐款帮助 Filo 继续在成长!",
   TERMS_AND_CONDITIONS_WARNING: {
-    DESCRIPTION: "All donations are subject to Terms and Conditions.",
-    MORE_INFORMATION: "More information"
+    DESCRIPTION: "所有捐款受条款及细则约束.",
+    MORE_INFORMATION: "更多信息"
   },
   PLANS: {
-    PER_MONTH: "Per month",
-    VAT_NOT_INCLUDED: "VAT not included",
-    SUBSCRIBE: "Subscribe",
-    REWARD_1: "Symbolic role on our server",
-    REWARD_2: "Show your support for Filo",
-    PREVIOUS_REWARD: "Everything from the previous plan",
-    SOON_MORE: "Soon™ more"
+    PER_MONTH: "每月",
+    VAT_NOT_INCLUDED: "不包括增值税",
+    SUBSCRIBE: "订阅",
+    REWARD_1: "服务器上的象征的角色",
+    REWARD_2: "表示你给 Filo 支持",
+    PREVIOUS_REWARD: "所有跟之前的计划",
+    SOON_MORE: "以后更多"
   }
 };
 
 exports.REVIEW = {
-  TITLE: "Leave us a review",
-  SUBTITLE: "Show how much you love Filo a her service!"
+  TITLE: "给我们留个评价",
+  SUBTITLE: "展示你多喜欢 Filo 的服务!"
 };
 
 exports.VOTE = {
-  TITLE: "Vote for Filo",
-  SUBTITLE: "Get lots of rewards for voting daily for Filo!",
+  TITLE: "为 Filo 投票",
+  SUBTITLE: "给 Filo 每天获得大量奖励!",
   REWARDS_WARNING: {
-    DESCRIPTION: "In order to claim your rewards you must be on our Discord server.",
-    JOIN_NOW: "Join now!"
+    DESCRIPTION: "为了领取您的奖励，你必须得加入我们的服务器.",
+    JOIN_NOW: "现在加入吧!"
   },
-  PAGE: "Page",
+  PAGE: "页",
   PLANS: {
-    PRE_TITLE: "Rewards for voting",
-    VOTES: "Votes",
-    PER_MONTH: "Per month",
-    CLAIM_NOW: "Claim now",
-    REWARD_1: "Symbolic role on our server",
-    REWARD_2: "Show your support for Filo",
-    REWARD_3: "Use of external emojis on our server",
-    PREVIOUS_REWARD: "Everything from the previous plan",
-    SOON_MORE: "Soon™ more"
+    PRE_TITLE: "投票奖励",
+    VOTES: "投票数",
+    PER_MONTH: "每月",
+    CLAIM_NOW: "现在领取",
+    REWARD_1: "服务器上有象征的角色",
+    REWARD_2: "展示您给Filo的支持",
+    REWARD_3: "使用外部表情符号在我们的服务器里",
+    PREVIOUS_REWARD: "之前计划中的所有内容",
+    SOON_MORE: "以后更多"
   }
 };
 
 exports.FRIENDLY_WEBSITES = {
-  TITLE: "Friendly Websites",
-  SUBTITLE: "Filo friendly pages that help Filo grow!"
+  TITLE: "有好的网页",
+  SUBTITLE: "Filo 的有好网页帮助 Filo 继续在成长!"
 };
 
 exports.READY = {
-  TITLE: "Ready to test Filo?",
-  SUBTITLE: "Join the more than {guilds} guilds that trust her!",
+  TITLE: "准备测试 Filo 吗?",
+  SUBTITLE: "加入超过 {行会} 相信她的公会!",
   INVITE: "邀请",
-  GETTING_STARTED: "Getting Started"
+  GETTING_STARTED: "入门"
 };
 
 exports.FOOTER = {
   HELPFUL_LINKS: {
-    TITLE: "Helpful links",
+    TITLE: "有用的网址",
     WIKI: "维基",
     DONATE: "捐款",
     STATUS: "状态"
   },
   IMPORTANT_LINKS: {
-    TITLE: "Important links",
-    TERMS_AND_CONDITIONS: "Terms and Conditions",
-    PRIVACY_POLICY: "Privacy Policy",
+    TITLE: "重要的网址",
+    TERMS_AND_CONDITIONS: "条款和条约",
+    PRIVACY_POLICY: "Privacy Policy隐私政策",
     DMCA: "DMCA"
   },
   ABOUT_FILO: {
-    TITLE: "About Filo",
-    DESCRIPTION: "Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you."
+    TITLE: "关于 Filo",
+    DESCRIPTION: "自从2019以来，Filo 一款功能强大的多功能Discord机器人，为Discord公会提供服务. 具有广泛的管理和审核模块，使您的工作更轻松."
   }
 };
 
 exports.THANKS = {
   PAGE: {
-    TITLE: "Thanks for adding Filo!",
-    DESCRIPTION: "We are very grateful that you have decided to trust Filo.",
-    DESCRIPTION_2: "You will be redirected to our Discord server."
+    TITLE: "感谢添加 Filo!",
+    DESCRIPTION: "我们非常感谢您相信 Filo.",
+    DESCRIPTION_2: "你将被重定向到 Filo."
   }
 }
