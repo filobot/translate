@@ -22,7 +22,7 @@ exports.HEADER = {
   TITLE: "一个强大的多功能 Discord bot",
   SUBTITLE: "可定制， 多语言选择，举报，登记表格，欢饮和告辞， 人数统计，防止-邀请，自动审核，防止-逃避 ",
   FEATURES: "标题",
-  INVITE: "Invite"
+  INVITE: "邀请"
 };
 
 exports.FEATURES = {
@@ -145,16 +145,16 @@ exports.FRIENDLY_WEBSITES = {
 exports.READY = {
   TITLE: "Ready to test Filo?",
   SUBTITLE: "Join the more than {guilds} guilds that trust her!",
-  INVITE: "Invite",
+  INVITE: "邀请",
   GETTING_STARTED: "Getting Started"
 };
 
 exports.FOOTER = {
   HELPFUL_LINKS: {
     TITLE: "Helpful links",
-    WIKI: "Wiki",
-    DONATE: "Donate",
-    STATUS: "Status"
+    WIKI: "维基",
+    DONATE: "捐款",
+    STATUS: "状态"
   },
   IMPORTANT_LINKS: {
     TITLE: "Important links",
