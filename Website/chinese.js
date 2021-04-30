@@ -104,9 +104,11 @@ exports.DONATE = {
     PER_MONTH: "每月",
     VAT_NOT_INCLUDED: "不包括增值税",
     SUBSCRIBE: "订阅",
+    PREVIOUS_REWARD: "所有跟之前的计划",
     ROLE_REWARD: "服务器上的象征的角色",
     SUPPORT_REWARD: "表示你给 Filo 支持",
-    PREVIOUS_REWARD: "所有跟之前的计划",
+    NICKNAME_REWARD: "Customizable nickname on our server",
+    EMOJIS_REWARD: "使用外部表情符号在我们的服务器里",
     SOON_MORE: "以后更多"
   }
 };
@@ -129,10 +131,10 @@ exports.VOTE = {
     VOTES: "投票数",
     PER_MONTH: "每月",
     CLAIM_NOW: "现在领取",
+    PREVIOUS_REWARD: "之前计划中的所有内容",
     ROLE_REWARD: "服务器上有象征的角色",
     SUPPORT_REWARD: "展示您给Filo的支持",
     EMOJIS_REWARD: "使用外部表情符号在我们的服务器里",
-    PREVIOUS_REWARD: "之前计划中的所有内容",
     SOON_MORE: "以后更多"
   }
 };
