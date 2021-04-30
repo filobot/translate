@@ -106,6 +106,8 @@ exports.DONATE = {
     SUBSCRIBE: "Subscribe",
     ROLE_REWARD: "Symbolic role on our server",
     SUPPORT_REWARD: "Show your support for Filo",
+    NICKNAME_REWARD: "Customizable nickname on our server",
+    EMOJIS_REWARD: "Use of external emojis on our server",
     PREVIOUS_REWARD: "Everything from the previous plan",
     SOON_MORE: "Soon™ more"
   }
@@ -131,6 +133,7 @@ exports.VOTE = {
     CLAIM_NOW: "Claim now",
     ROLE_REWARD: "Symbolic role on our server",
     SUPPORT_REWARD: "Show your support for Filo",
+    NICKNAME_REWARD: "Customizable nickname on our server",
     EMOJIS_REWARD: "Use of external emojis on our server",
     PREVIOUS_REWARD: "Everything from the previous plan",
     SOON_MORE: "Soon™ more"
