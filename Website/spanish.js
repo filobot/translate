@@ -129,9 +129,9 @@ exports.VOTE = {
     VOTES: "Votos",
     PER_MONTH: "Al mes",
     CLAIM_NOW: "Reclamar ahora",
-    REWARD_1: "Rol simbólico en nuestro servidor",
-    REWARD_2: "Muestra tu apoyo a Filo",
-    REWARD_3: "Uso de emoticonos externos en nuestro servidor",
+    ROLE_REWARD: "Rol simbólico en nuestro servidor",
+    SUPPORT_REWARD: "Muestra tu apoyo a Filo",
+    EMOJIS_REWARD: "Uso de emoticonos externos en nuestro servidor",
     PREVIOUS_REWARD: "Todo del plan anterior",
     SOON_MORE: "Pronto™ más"
   }
