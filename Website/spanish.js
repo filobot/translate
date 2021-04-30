@@ -104,11 +104,11 @@ exports.DONATE = {
     PER_MONTH: "Al mes",
     VAT_NOT_INCLUDED: "IVA no incluido",
     SUBSCRIBE: "Suscribirse",
+    PREVIOUS_REWARD: "Todo del plan anterior",
     ROLE_REWARD: "Rol simbólico en nuestro servidor",
     SUPPORT_REWARD: "Muestra tu apoyo a Filo",
     NICKNAME_REWARD: "Apodo personalizable en nuestro servidor",
     EMOJIS_REWARD: "Uso de emoticonos externos en nuestro servidor",
-    PREVIOUS_REWARD: "Todo del plan anterior",
     SOON_MORE: "Pronto™ más"
   }
 };
@@ -131,11 +131,11 @@ exports.VOTE = {
     VOTES: "Votos",
     PER_MONTH: "Al mes",
     CLAIM_NOW: "Reclamar ahora",
+    PREVIOUS_REWARD: "Todo del plan anterior",
     ROLE_REWARD: "Rol simbólico en nuestro servidor",
     SUPPORT_REWARD: "Muestra tu apoyo a Filo",
     NICKNAME_REWARD: "Apodo personalizable en nuestro servidor",
     EMOJIS_REWARD: "Uso de emoticonos externos en nuestro servidor",
-    PREVIOUS_REWARD: "Todo del plan anterior",
     SOON_MORE: "Pronto™ más"
   }
 };
