@@ -104,8 +104,8 @@ exports.DONATE = {
     PER_MONTH: "Per month",
     VAT_NOT_INCLUDED: "VAT not included",
     SUBSCRIBE: "Subscribe",
-    REWARD_1: "Symbolic role on our server",
-    REWARD_2: "Show your support for Filo",
+    ROLE_REWARD: "Symbolic role on our server",
+    SUPPORT_REWARD: "Show your support for Filo",
     PREVIOUS_REWARD: "Everything from the previous plan",
     SOON_MORE: "Soon™ more"
   }
@@ -129,9 +129,9 @@ exports.VOTE = {
     VOTES: "Votes",
     PER_MONTH: "Per month",
     CLAIM_NOW: "Claim now",
-    REWARD_1: "Symbolic role on our server",
-    REWARD_2: "Show your support for Filo",
-    REWARD_3: "Use of external emojis on our server",
+    ROLE_REWARD: "Symbolic role on our server",
+    SUPPORT_REWARD: "Show your support for Filo",
+    EMOJIS_REWARD: "Use of external emojis on our server",
     PREVIOUS_REWARD: "Everything from the previous plan",
     SOON_MORE: "Soon™ more"
   }
