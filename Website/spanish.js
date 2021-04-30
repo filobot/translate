@@ -104,8 +104,8 @@ exports.DONATE = {
     PER_MONTH: "Al mes",
     VAT_NOT_INCLUDED: "IVA no incluido",
     SUBSCRIBE: "Suscribirse",
-    REWARD_1: "Rol simbólico en nuestro servidor",
-    REWARD_2: "Muestra tu apoyo a Filo",
+    ROLE_REWARD: "Rol simbólico en nuestro servidor",
+    SUPPORT_REWARD: "Muestra tu apoyo a Filo",
     PREVIOUS_REWARD: "Todo del plan anterior",
     SOON_MORE: "Pronto™ más"
   }
