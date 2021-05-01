@@ -107,7 +107,7 @@ exports.DONATE = {
     PREVIOUS_REWARD: "所有跟之前的计划",
     ROLE_REWARD: "服务器上的象征的角色",
     SUPPORT_REWARD: "表示你给 Filo 支持",
-    NICKNAME_REWARD: "Customizable nickname on our server",
+    NICKNAME_REWARD: "我们服务器上可定制名称",
     EMOJIS_REWARD: "使用外部表情符号在我们的服务器里",
     SOON_MORE: "以后更多"
   }
