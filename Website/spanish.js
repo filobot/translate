@@ -22,7 +22,7 @@ exports.HEADER = {
   TITLE: "Un potente bot de Discord multipropósito",
   SUBTITLE: "Personalizable, varios idiomas, reportes, registro, bienvenida y despedidas, contador de miembros, anti-invitaciones, auto-mod, anti-evasión",
   FEATURES: "Características",
-  ADD_TO_A_SERVER: "Añadir a un servidor"
+  INVITE: "Invitar"
 };
 
 exports.FEATURES = {
@@ -95,60 +95,81 @@ exports.STATISTICS = {
 
 exports.DONATE = {
   TITLE: "Donar a Filo",
-  DESCRIPTION: "¡Ayúdanos a mantener la cuenta de anime de Filo!",
-  DONATE: "Donar",
-  MORE_INFORMATION: "Más información",
-  PAGE: {
-    TITLE: "Donar a Filo",
-    SUBTITLE: "Información",
-    DESCRIPTION: "Donar a Filo cualquier cantidad será una gran contribución.",
-    DESCRIPTION_2: "Puede donar a Filo a través de un sitio web y el dinero donado se invertirá para mejorar la calidad del servicio.",
-    DESCRIPTION_3: "Recuerda que todas las donaciones están sujetas a algunos términos y condiciones que usted acepta una vez que se procesa su pago.",
-    REWARDS: {
-      TITLE: "Recompensas",
-      PRE_MESSAGE_REWARD: "Recibirás el rol",
-      MESSAGE_REWARD: "temporalmente por cualquier donación superior a",
-      MESSAGE_REWARD_2: "temporalmente si donas",
-      OR_MORE: "o más"
-    }
+  SUBTITLE: "¡Ayúdanos a mantener en línea a Filo haciendo una donación!",
+  TERMS_AND_CONDITIONS_WARNING: {
+    DESCRIPTION: "Todas las donaciones están sujetas a unos Términos y Condiciones.",
+    MORE_INFORMATION: "Más información"
+  },
+  PLANS: {
+    PER_MONTH: "Al mes",
+    VAT_NOT_INCLUDED: "IVA no incluido",
+    SUBSCRIBE: "Suscribirse",
+    PREVIOUS_REWARD: "Todo del plan anterior",
+    ROLE_REWARD: "Rol simbólico en nuestro servidor",
+    SUPPORT_REWARD: "Muestra tu apoyo a Filo",
+    NICKNAME_REWARD: "Apodo personalizable en nuestro servidor",
+    EMOJIS_REWARD: "Uso de emoticonos externos en nuestro servidor",
+    SOON_MORE: "Pronto™ más"
   }
+};
+
+exports.REVIEW = {
+  TITLE: "Déjanos una reseña",
+  SUBTITLE: "¡Demuestra cuánto amas a Filo y a su servicio!"
 };
 
 exports.VOTE = {
   TITLE: "Votar por Filo",
-  DESCRIPTION: "Obtén muchas recompensas por votar diariamente por Filo.",
-  PAGE_1: "Página 1",
-  PAGE_2: "Página 2",
-  PAGE_3: "Página 3",
-  MORE_INFORMATION: "Más información",
-  PAGE: {
-    TITLE: "Votar por Filo",
-    SUBTITLE: "Información",
-    DESCRIPTION: "Votar por Filo es una buena manera de mostrarle apoyo.",
-    DESCRIPTION_2: "Puedes votar diariamente en algunas páginas que promueve Filo.",
-    DESCRIPTION_3: "Recuerda que puedes reclamar recompensas si entras en",
-    OUR_DISCORD_SERVER: "nuestro servidor de Discord",
-    REWARDS: {
-      TITLE: "Recompensas",
-      PRE_MESSAGE_REWARD: "Recibirás el rol",
-      MESSAGE_REWARD: "si votas",
-      MESSAGE_REWARD_2: "veces por Filo"
-    }
+  SUBTITLE: "¡Obtén muchas recompensas por votar diariamente por Filo!",
+  REWARDS_WARNING: {
+    DESCRIPTION: "Para poder reclamar tus recompensas debes estar en nuestro servidor de Discord.",
+    JOIN_NOW: "¡Únete ahora!"
+  },
+  PAGE: "Página",
+  PLANS: {
+    PRE_TITLE: "Recompensas por votar",
+    VOTES: "Votos",
+    PER_MONTH: "Al mes",
+    CLAIM_NOW: "Reclamar ahora",
+    PREVIOUS_REWARD: "Todo del plan anterior",
+    ROLE_REWARD: "Rol simbólico en nuestro servidor",
+    SUPPORT_REWARD: "Muestra tu apoyo a Filo",
+    NICKNAME_REWARD: "Apodo personalizable en nuestro servidor",
+    EMOJIS_REWARD: "Uso de emoticonos externos en nuestro servidor",
+    SOON_MORE: "Pronto™ más"
   }
 };
 
 exports.FRIENDLY_WEBSITES = {
-  TITLE: "Páginas amigas"
+  TITLE: "Páginas amigas",
+  SUBTITLE: "¡Páginas amigas de Filo que ayudan a Filo a crecer!"
 };
 
 exports.READY = {
   TITLE: "¿Preparado para probar a Filo?",
-  DESCRIPTION: "Únase a los más de 2,500 servidores que confían en ella.",
-  ADD_TO_A_SERVER: "Añadir a un servidor",
+  SUBTITLE: "¡Únase a los más de {guilds} gremios que confían en ella!",
+  INVITE: "Invitar",
   GETTING_STARTED: "Empezando"
 };
 
-exports.COPYRIGHT = "Todos los derechos reservados para"
+exports.FOOTER = {
+  HELPFUL_LINKS: {
+    TITLE: "Enlaces útiles",
+    WIKI: "Wiki",
+    DONATE: "Donar",
+    STATUS: "Estado"
+  },
+  IMPORTANT_LINKS: {
+    TITLE: "Enlaces importantes",
+    TERMS_AND_CONDITIONS: "Términos y Condiciones",
+    PRIVACY_POLICY: "Política de Privacidad",
+    DMCA: "DMCA"
+  },
+  ABOUT_FILO: {
+    TITLE: "Acerca de Filo",
+    DESCRIPTION: "Filo es un potente bot de Discord multipropósito que sirve a gremios de Discord desde 2019. Contando con una amplia gama de módulos de administración y moderación para facilitarte las cosas."
+  }
+};
 
 exports.THANKS = {
   PAGE: {
