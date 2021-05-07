@@ -2,7 +2,7 @@ exports.LANGUAGE = {
   CODE: "zh",
   STANDARD_CODE: "zh",
   FULL_CODE: "中文",
-  WIKI_CODE: "zh",
+  WIKI_CODE: "en", //There are no Chinese translations for the Wiki yet.
   CONTRIBUTORS: ["Reli-Galliard", "iLxlo_"]
 };
 
