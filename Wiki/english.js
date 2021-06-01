@@ -136,22 +136,7 @@ exports.NAVBAR = {
   ANTI_REPEATED_TEXT: "Anti Repeated Text",
   DISABLE_COMMANDS: "Disable Commands",
   ANTI_BAD_WORDS: "Anti Bad Words",
-  COMMANDS: "Commands",
-  ADMINISTRATION: "Administration",
-  ANIMALS: "Animals",
-  ANIME: "Anime",
-  CORE: "Core",
-  FUN: "Fun",
-  ECONOMY: "Economy",
-  GAME_STATISTICS: "Game Statistics",
-  INTERACTION: "Interaction",
-  GAMES: "Games",
-  MINECRAFT: "Minecraft",
-  MISCELLANEOUS: "Miscellaneous",
-  MODERATION: "Moderation",
-  REACTION: "Reaction",
-  SERVER: "Server",
-  SOCIAL: "Social"
+  COMMANDS: "Commands"
 };
 
 exports.HOME = {
