@@ -32,6 +32,7 @@ exports.PAGE_TITLES = {
   ANTI_INVITES: "Anti Invites",
   ANTI_MASS_MENTIONS: "Anti Mass Mentions",
   ANTI_REPEATED_TEXT: "Anti Repeated Text",
+  AUTO_MODERATION: "Auto Moderation",
   ANTI_SPAM: "Anti Spam",
   COMMANDS: "Commands",
   DISABLE_COMMANDS: "Disable commands",
