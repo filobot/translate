@@ -86,6 +86,7 @@ exports.GENERAL = {
 };
 
 exports.ABOUT_WIKI = {
+  TITLE: "Welcome to the Filo Wiki",
   FILO_DESCRIPTION: "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands",
   WIKI_DESCRIPTION: "The content of this Wiki is subject to constant changes in order to improve its quality. This documentation covers some of the frequently asked questions, as well as step-by-step tutorials on how each Filo module works",
   ASK_FOR_HELP: "Go to **[our Discord server]({{link}})** if this documentation isn't enough or if you need more help",
