@@ -101,7 +101,7 @@ exports.ABOUT_WIKI = {
   },
   REQUEST_TRANSLATION: {
     TITLE: "Solicitudes y traducciones",
-    DESCRIPTION: "Si lo necesitas, puede solicitar una actualización/revisión de un artículo documentado en esta Wiki, ya sea para su mejora o para su corrección (desactualizado o en desuso)" + ".\n" + "Esta Wiki tiene varios idiomas, todos las cuales han sido aportadas por colaboradores voluntarios. Si deseas contribuir traducciendo, **[haz clic aquí]({{link}})**"
+    DESCRIPTION: "Si lo necesitas, puede solicitar una actualización/revisión de un artículo documentado en esta Wiki, ya sea para su mejora o para su corrección (desactualizado o en desuso)" + ".\n" + "Esta Wiki tiene varios idiomas, todos las cuales han sido aportadas por colaboradores voluntarios. Si deseas contribuir traducciendo, haz **[clic aquí]({{link}})**"
   }
 };
 
@@ -165,7 +165,7 @@ exports.GETTING_STARTED = {
     SLASH_COMMAND_WARNING: "Actualmente, Filo no admite el uso de comandos de barra sin el bot de alcance en la invitación. Si agrega la integración de comandos de barra a su servidor y no agrega a Filo al servidor también, los comandos de barra siempre devolverán un error genérico en inglés",
     STEP_1: {
       TITLE: "Abra la invitación de Filo en el navegador",
-      DESCRIPTION: "**[Haciendo clic aquí]({{link}})** se le redirigirá a la invitación con los permisos recomendados y el scope de los comandos de barra como un extra",
+      DESCRIPTION: "Haciendo **[clic aquí]({{link}})** se le redirigirá a la invitación con los permisos recomendados y el scope de los comandos de barra como un extra",
       EXAMPLE: "Ejemplo de lo importante de la pantalla de invitación de Filo",
       ALTERNATIVE_INVITE: "Si no desea tener los comandos de barra inclinada de Filo, puede optar por utilizar esta **[invitación]({{link}})**"
     },
@@ -190,146 +190,146 @@ exports.GETTING_STARTED = {
 };
 
 exports.MODULES = {
-  ABOUT_THE_MODULE: "About the module",
-  COMMUNITY_RECOMMENDATION: "We recommend using this module if you manage a community",
-  TO_ACTION_COMMAND: "To {{action}} you must execute the following command: {{command}}",
-  MAX_AND_MIN_DURATION: "The duration of the action must be between **{{min}}** and **{{max}}**",
-  VALUE_GREATER_THAN: "The value must be greater than **{{number}}**",
-  SUMMARY: "Summary",
-  IF_YOU_WANT_SETUP: "If you want to {{action}}, **[click here]({{link}})** and we'll take you to the guided article in no time",
-  VARIABLE_WILL_RETURN: "This variable will return the {{data}}",
+  ABOUT_THE_MODULE: "Acerca del módulo",
+  COMMUNITY_RECOMMENDATION: "Recomendamos usar este módulo si administras una comunidad",
+  TO_ACTION_COMMAND: "Para {{action}} debes ejecutar el siguiente comando: {{command}}",
+  MAX_AND_MIN_DURATION: "La duración de la acción debe estar entre **{{min}}** y **{{max}}**",
+  VALUE_GREATER_THAN: "El valor debe ser mayor de **{{number}}**",
+  SUMMARY: "Índice",
+  IF_YOU_WANT_SETUP: "Si quieres {{action}}, haz **[clic aquí]({{link}})** y lo llevaremos al artículo guiado en poco tiempo",
+  VARIABLE_WILL_RETURN: "Esta variable devolverá el {{data}}",
   GETTING_STARTED: {
-    DESCRIPTION: "Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page",
-    REQUIRES_ADVANCED_PERMISSION: "Filo requires the following advanced permission: {{permission}}",
-    REQUIRES_BASIC_PERMISSION: "Filo requires the following basic permission: {{permission}}",
-    REQUIRES_ADVANCED_PERMISSIONS: "Filo requires the following advanced permissions: {{permissions}}",
-    REQUIRES_BASIC_PERMISSIONS: "Filo requires the following basic permissions: {{permissions}}",
-    REQUIRES_USER_PERMISSION: "You need {{permission}} permission to perform most of the actions in this article",
-    REQUIRES_USER_PERMISSIONS: "You need {{permissions}} permissions to perform most of the actions in this article",
-    CUSTOM_PREFIX: "You should replace " + "<kbd>" + "f!" + "</kbd>" + " with the current prefix you have set. More information on how to change the prefix by **[clicking here]({{link}})**"
+    DESCRIPTION: "Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página",
+    REQUIRES_ADVANCED_PERMISSION: "Filo requiere el siguiente permiso avanzado: {{permission}}",
+    REQUIRES_BASIC_PERMISSION: "Filo requiere el siguiente permiso básico: {{permission}}",
+    REQUIRES_ADVANCED_PERMISSIONS: "Filo requiere los siguientes permisos avanzados: {{permissions}}",
+    REQUIRES_BASIC_PERMISSIONS: "Filo requiere los siguientes permisos básicos: {{permissions}}",
+    REQUIRES_USER_PERMISSION: "Necesitas el permiso {{permission}} para realizar la mayoría de las acciones de este artículo",
+    REQUIRES_USER_PERMISSIONS: "Necesitas los permisos {{permissions}} para realizar la mayoría de las acciones de este artículo",
+    CUSTOM_PREFIX: "Debes reemplazar " + "<kbd>" + "f!" + "</kbd>" + " con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí]({{link}})**"
   },
   MODULE_EXCEPTIONS: {
-    TITLE: "Module Exceptions",
-    DESCRIPTION: "This module has exceptions, which means that it won't work if some of the requirements mentioned below are met",
-    FILO_REQUIRED_PERMISSION: "If Filo doesn't have {{permission}} permission",
-    FILO_REQUIRED_PERMISSIONS: "If Filo doesn't have {{permissions}} permissions",
-    USER_HAS_PERMISSION: "If the user has the {{permission}} permission",
-    USER_HAS_PERMISSIONS: "If the user has the {{permissions}} permissions",
-    FILO_LOWER_ROLES: "If the position of the Filo's roles are lower than the user roles",
-    FILO_EQUAL_ROLES: "If the position of the Filo's roles are equal to the user roles",
-    WEBHOOK_OTHER_MODULE: "If the webhook shares a channel with another Filo's module (e.g. {{module}})",
-    SETTINGS_WILL_RESET: "If this requirement is met, the module settings will be reset",
-    MODULE_WILL_NOT_WORK: "If this or some of the requirements are met, the module won't work"
+    TITLE: "Excepciones del módulo",
+    DESCRIPTION: "Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación",
+    FILO_REQUIRED_PERMISSION: "Si Filo no tiene el permiso {{permission}}",
+    FILO_REQUIRED_PERMISSIONS: "Si Filo no tiene los permisos {{permissions}}",
+    USER_HAS_PERMISSION: "Si el usuario tiene el permiso {{permission}}",
+    USER_HAS_PERMISSIONS: "Si el usuario tiene los permisos {{permissions}}",
+    FILO_LOWER_ROLES: "Si la posición de los roles de Filo es más baja que la de los roles del usuario",
+    FILO_EQUAL_ROLES: "Si la posición de los roles de Filo es igual que la de los roles del usuario",
+    WEBHOOK_OTHER_MODULE: "Si el webhook comparte un canal con otro módulo de Filo (ej. {{module}})",
+    SETTINGS_WILL_RESET: "Si se cumple este requisito, la configuración del módulo se restablecerá",
+    MODULE_WILL_NOT_WORK: "Si se cumplen estos o algunos de los requisitos, el módulo no funcionará"
   },
   ENABLE_MODULE: {
-    TITLE: "Steps to enable the module",
-    SUBTITLE: "Enable the module",
-    DESCRIPTION: "To enable the module you must execute the following command: {{command}}",
-    SUPPLEMENTARY_MODULE: "This module can be supplemented with the **[{{module}}]({{link}})** module"
+    TITLE: "Pasos para habilitar el módulo",
+    SUBTITLE: "Habilitar el módulo",
+    DESCRIPTION: "Para habilitar el módulo debes ejecutar el siguiente comando: {{command}}",
+    SUPPLEMENTARY_MODULE: "Este módulo se puede complementar con el módulo **[{{module}}]({{link}})**"
   },
   DISABLE_MODULE: {
-    TITLE: "Steps to disable the module",
-    SUBTITLE: "Disable the module",
-    DESCRIPTION: "To disable the module you must execute the following command: {{command}}",
+    TITLE: "Pasos para deshabilitar el módulo",
+    SUBTITLE: "Deshabilitar el módulo",
+    DESCRIPTION: "Para deshabilitar el módulo debes ejecutar el siguiente comando: {{command}}",
   },
   RESET_MODULE: {
-    TITLE: "Steps to reset module settings",
-    SUBTITLE: "Reset the module settings",
-    WARNING: "You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data"
+    TITLE: "Pasos para restablecer las configuraciones del módulo",
+    SUBTITLE: "Restablecer las configuraciones del módulo",
+    WARNING: "Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores"
   },
   ACTION_LIST: {
-    SANCTION_DESCRIPTION: "This sanction will {{time}} {{action}} the user in question from the server"
+    SANCTION_DESCRIPTION: "La sanción {{action}} {{time}} al usuario en cuestión del servidor"
   },
   VARIABLES_LIST: {
-    USER_MENTION: "Mention of the user in question",
-    USER_ID: "ID of the user in question",
-    USER_NAME: "Name of the user in question",
-    USER_DISCRIMINATOR: "Discriminator of the user in question",
-    USER_TAG: "Name and discriminator of the user in question",
-    USER_AVATAR_URL: "Avatar URL of the user in question",
-    SERVER_NAME: "Name of the guild in question",
-    SERVER_ID: "ID of the guild in question",
-    SERVER_ICON_URL: "Server icon URL of the guild in question",
-    SERVER_OWNER_MENTION: "Mention of the owner of the guild in question",
-    SERVER_OWNER_ID: "ID of the owner of the guild in question",
-    SERVER_MEMBER_COUNT: "Member count of the guild in question",
-    SERVER_INVITE_SPLASH_URL: "Splash URL of the guild in question",
-    SERVER_BANNER_URL: "Banner URL of the guild in question"
+    USER_MENTION: "Mención del usuario en cuestión",
+    USER_ID: "ID del usuario en cuestión",
+    USER_NAME: "Nombre del usuario en cuestión",
+    USER_DISCRIMINATOR: "Discriminador del usuario en cuestión",
+    USER_TAG: "Nombre y discriminador del usuario en cuestión",
+    USER_AVATAR_URL: "URL del avatar del usuario en cuestión",
+    SERVER_NAME: "Nombre del servidor en cuestión",
+    SERVER_ID: "ID del servidor en cuestión",
+    SERVER_ICON_URL: "URL del icono del servidor en cuestión",
+    SERVER_OWNER_MENTION: "Mención del propietario del servidor en cuestión",
+    SERVER_OWNER_ID: "ID del propietario del servidor en cuestión",
+    SERVER_MEMBER_COUNT: "Contador de Miembros del servidor en cuestión",
+    SERVER_INVITE_SPLASH_URL: "URL del splash del servidor en cuestión",
+    SERVER_BANNER_URL: "URL de la banner del servidor en cuestión"
   },
   ANTI_BAD_WORDS: {
-    DESCRIPTION: "This module will allow you to eliminate and warn users who send bad words",
-    BAD_WORD: "Bad word",
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían malas palabras",
+    BAD_WORD: "Mala palabra",
     BAN_A_BAD_WORD: {
-      TITLE: "Steps to ban a bad word",
-      SUBTITLE: "Ban a bad word"
+      TITLE: "Pasos para banear una mala palabra",
+      SUBTITLE: "Banear una mala palabra"
     },
     UNBAN_A_BAD_WORD: {
-      TITLE: "Steps to unban a bad word",
-      SUBTITLE: "Unban a bad word"
+      TITLE: "Pasos para desbanear una mala palabra",
+      SUBTITLE: "Desbanear una mala palabra"
     }
   },
   ANTI_EVASION: {
-    DESCRIPTION: "This module allows you to automatically ban those users who were sanctioned in your server and tried to evade the sanction",
-    ACTION: "Action",
+    DESCRIPTION: "Este módulo te permitirá banear automáticamente a aquellos usuarios que fueron sancionados en tu servidor e intentaron evadir la sanción",
+    ACTION: "Acción",
     SET_A_ACTION: {
-      TITLE: "Steps to set a action",
-      SUBTITLE: "Set a action",
-      FULL_LIST_OF_ACTIONS: "You can see a full list of actions that Filo supports by **[clicking here]({{link}})**"
+      TITLE: "Pasos para establecer la acción",
+      SUBTITLE: "Establecer la acción",
+      FULL_LIST_OF_ACTIONS: "Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí]({{link}})**"
     },
     SET_TIME: {
-      TITLE: "Steps to set the time of a action",
-      SUBTITLE: "Set the time of a action"
+      TITLE: "Pasos para establecer el tiempo de la acción",
+      SUBTITLE: "Establecer el tiempo de la acción"
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "This module will allow you to delete and warn users who send invites outside your server or the allowed servers",
-    SERVER_ID: "Server ID",
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían invitaciones ajenas a su servidor o de los servidores permitidos.",
+    SERVER_ID: "ID del servidor",
     ALLOW_A_SERVER: {
-      TITLE: "Steps to add a server to the allowed list",
-      SUBTITLE: "Add a server to the allowed list",
+      TITLE: "Pasos para añadir un servidor a la lista de permitidos",
+      SUBTITLE: "Añadir un servidor a la lista de permitidos",
     },
     DISALLOW_A_SERVER: {
-      TITLE: "Steps to remove a server to the allowed list",
-      SUBTITLE: "Remove a server to the allowed list"
+      TITLE: "Pasos para eliminar un servidor de la lista de permitidos",
+      SUBTITLE: "Eliminar un servidor de la lista de permitidos"
     }
   },
   ANTI_MASS_MENTIONS: {
-    DESCRIPTION: "This module will allow you to sanction those users who make massive mentions",
+    DESCRIPTION: "Este módulo te permitirá sancionar a aquellos usuarios que realicen menciones masivas",
     SET_THRESHOLD: {
-      TITLE: "Steps to set the mentions threshold",
-      SUBTITLE: "Set the mentions threshold"
+      TITLE: "Pasos para establecer el umbral de menciones",
+      SUBTITLE: "Establecer el umbral de menciones"
     }
   },
   ANTI_REPEATED_TEXT: {
-    DESCRIPTION: "This module will allow you to eliminate and warn those users who send messages with repeated text"
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a aquellos usuarios que envíen mensajes con texto repetido"
   },
   ANTI_SPAM: {
-    DESCRIPTION: "This module will allow you to delete and warn a user who does spam",
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a aquellos usuarios que realicen spam",
     ALLOW_CHANNEL: {
-      TITLE: "Steps to add a channel to the allowed list",
-      SUBTITLE: "Add a channel to the allowed list",
-      WARNING: "If you add a channel to the allowed list, a warn won't be granted to those users who spam on those channels"
+      TITLE: "Pasos para añadir un canal a la lista de permtiidos",
+      SUBTITLE: "Añadir un canal a la lista de permitidos",
+      WARNING: "Si agregas un canal a la lista de permitidos, no se otorgará una advertencia a los usuarios que envíen spam en esos canales"
     },
     DISALLOW_CHANNEL: {
-      TITLE: "Steps to remove a channel to the allowed list",
-      SUBTITLE: "Remove a channel to the allowed list",
-      WARNING: "If you remove a channel to the allowed list, a warn will be granted to those users who spam on those channels"
+      TITLE: "Pasos para eliminar un canal de la lista de permitidos",
+      SUBTITLE: "Eliminar un canal de la lista de permitidos",
+      WARNING: "Si eliminas un canal de la lista de permitidos, se otorgará una advertencia a los usuarios que envíen spam en esos canales"
     },
     ALLOW_ROLE: {
-      TITLE: "Steps to add a role to the allowed list",
-      SUBTITLE: "Add a role to the allowed list",
-      WARNING: "If you add a role to the allowed list, users who have that role assigned won't be warned if they spam"
+      TITLE: "Pasos para añadir un rol a la lista de permitidos",
+      SUBTITLE: "Añadir un rol a la lista de permitidos",
+      WARNING: "Si agregas un rol a la lista de permitidos, los usuarios que tengan ese rol asignado no recibirán una advertencia si envían spam"
     },
     DISALLOW_ROLE: {
-      TITLE: "Steps to remove a role to the allowed list",
-      SUBTITLE: "Remove a role to the allowed list",
-      WARNING: "If you remove a role to the allowed list, users who have that role assigned will be warned if they spam"
+      TITLE: "Pasos para eliminar un rol de la lista de permitidos",
+      SUBTITLE: "Eliminar un rol de la lista de permitidos",
+      WARNING: "Si eliminas un rol de la lista de permitidos, los usuarios que tengan ese rol asignado recibirán una advertencia si envían spam"
     },
     SET_THRESHOLD: {
-      TITLE: "Steps to set the threshold and time for duplicate messages",
-      SUBTITLE: "Set the threshold for duplicate messages",
+      TITLE: "Pasos para establecer el umbral de mensajes duplicados y el tiempo",
+      SUBTITLE: "Establecer el umbral de mensajes duplicados",
       TIME: {
-        SUBTITLE: "Set the time for duplicate messages"
+        SUBTITLE: "Establecer el tiempo para mensajes duplicados"
       }
     }
   },

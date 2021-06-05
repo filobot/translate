@@ -207,7 +207,7 @@ exports.MODULES = {
     CUSTOM_PREFIX: "You should replace " + "<kbd>" + "f!" + "</kbd>" + " with the current prefix you have set. More information on how to change the prefix by **[clicking here]({{link}})**"
   },
   MODULE_EXCEPTIONS: {
-    TITLE: "Module Exceptions",
+    TITLE: "Module exceptions",
     DESCRIPTION: "This module has exceptions, which means that it won't work if some of the requirements mentioned below are met",
     FILO_REQUIRED_PERMISSION: "If Filo doesn't have {{permission}} permission",
     FILO_REQUIRED_PERMISSIONS: "If Filo doesn't have {{permissions}} permissions",
@@ -245,14 +245,14 @@ exports.MODULES = {
     USER_DISCRIMINATOR: "Discriminator of the user in question",
     USER_TAG: "Name and discriminator of the user in question",
     USER_AVATAR_URL: "Avatar URL of the user in question",
-    SERVER_NAME: "Name of the guild in question",
-    SERVER_ID: "ID of the guild in question",
-    SERVER_ICON_URL: "Server icon URL of the guild in question",
-    SERVER_OWNER_MENTION: "Mention of the owner of the guild in question",
-    SERVER_OWNER_ID: "ID of the owner of the guild in question",
-    SERVER_MEMBER_COUNT: "Member count of the guild in question",
-    SERVER_INVITE_SPLASH_URL: "Splash URL of the guild in question",
-    SERVER_BANNER_URL: "Banner URL of the guild in question"
+    SERVER_NAME: "Name of the server in question",
+    SERVER_ID: "ID of the server in question",
+    SERVER_ICON_URL: "Server icon URL of the server in question",
+    SERVER_OWNER_MENTION: "Mention of the owner of the server in question",
+    SERVER_OWNER_ID: "ID of the owner of the server in question",
+    SERVER_MEMBER_COUNT: "Member count of the server in question",
+    SERVER_INVITE_SPLASH_URL: "Splash URL of the server in question",
+    SERVER_BANNER_URL: "Banner URL of the server in question"
   },
   ANTI_BAD_WORDS: {
     DESCRIPTION: "This module will allow you to eliminate and warn users who send bad words",
