@@ -280,7 +280,7 @@ exports.MODULES = {
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían invitaciones ajenas a su servidor o de los servidores permitidos.",
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían invitaciones ajenas a su servidor o de los servidores permitidos",
     SERVER_ID: "ID del servidor",
     ALLOW_A_SERVER: {
       TITLE: "Pasos para añadir un servidor a la lista de permitidos",
@@ -332,195 +332,195 @@ exports.MODULES = {
     }
   },
   AUTO_MODERATION: {
-    DESCRIPTION: "This module will allow you to automatically sanction those users who repeatedly have incorrect behavior",
+    DESCRIPTION: "Este módulo te permitirá sancionar automáticamente a aquellos usuarios que tengan repetidamente un comportamiento incorrecto",
     SET_MAX_WARNINGS: {
-      TITLE: "Steps to set maximum warnings per level",
-      SUBTITLE: "Set maximum warnings per level"
+      TITLE: "Pasos para establecer las advertencias máximas por nivel",
+      SUBTITLE: "Establecer las advertencias máximas por nivel"
     },
     SET_ACTION: {
-      TITLE: "Steps to set a action per level",
-      SUBTITLE: "Set a action per level",
-      FULL_LIST_OF_ACTIONS: "You can see a full list of actions that Filo supports by **[clicking here]({{link}})**"
+      TITLE: "Pasos para establecer la acción por nivel",
+      SUBTITLE: "Establecer la acción por nivel",
+      FULL_LIST_OF_ACTIONS: "Puedes ver una lista completa de las acciones que admite Filo haciendo **[clic aquí]({{link}})**"
     },
     SET_TIME: {
-      TITLE: "Steps to set the time of a action per level",
-      SUBTITLE: "Set the time of a action per level"
+      TITLE: "Pasos para establecer el tiempo de la acción por nivel",
+      SUBTITLE: "Establecer el tiempo de la acción por nivel"
     }
   },
   COMMANDS: {
-    DESCRIPTION: "This module will allow you to partially customize the behavior of the Filo's commands",
+    DESCRIPTION: "Este módulo te permitirá personalizar parcialmente el comportamiento de los comandos de Filo",
     DISABLE_COMMANDS: {
-      ACTION: "Disable a Filo's command or re-enable it",
-      DESCRIPTION: "This module will allow you to disable the Filo commands that you don't want to be used on your guild",
+      ACTION: "Deshabilitar un comando de Filo o volver a habilitarlo",
+      DESCRIPTION: "Este módulo le permitirá deshabilitar los comandos de Filo que no desea que se usen en su servidor",
       DISABLE: {
-        TITLE: "Steps to disable a command",
-        SUBTITLE: "Disable a command"
+        TITLE: "Pasos para deshabilitar un comando",
+        SUBTITLE: "Deshabilitar un comando"
       },
       ENABLE: {
-        TITLE: "Steps to enable a command",
-        SUBTITLE: "Enable a command"
+        TITLE: "Pasos para habilitar un comando",
+        SUBTITLE: "Habilitar un comando"
       }
     }
   },
   FAREWELLS: {
-    DESCRIPTION: "This module will allow you to send a farewell message to the old members of the server",
+    DESCRIPTION: "Este módulo te permitirá enviar un mensaje de despedida a los antiguos miembros del servidor",
     SET_CHANNEL: {
-      TITLE: "Steps to set the farewells channel",
-      SUBTITLE: "Set the farewells channel"
+      TITLE: "Pasos para establecer el canal de despedidas",
+      SUBTITLE: "Establecer el canal de despedidas"
     },
     SET_MESSAGE: {
-      TITLE: "Steps to set the farewell message",
-      SUBTITLE: "Set the farewell message",
-      MESSAGE_VARIABLES: "You can set variables in the farewell message. You can find a list of all variables by **[clicking here]({{link}})**",
-      MESSAGE_CODE: "Message code",
-      RESULT_MESSAGE: "Result message"
+      TITLE: "Pasos para establecer el mensaje de despedida",
+      SUBTITLE: "Establecer el mensaje de despedida",
+      MESSAGE_VARIABLES: "Puedes establecer variables en el mensaje de despedida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí]({{link}})**",
+      MESSAGE_CODE: "Código del mensaje",
+      RESULT_MESSAGE: "Resultado del mensaje"
     },
     SET_MESSAGE_TYPE: {
-      TITLE: "Steps to set the message type",
-      SUBTITLE: "Set the message type",
-      WARNING: "If users have disabled the display of embeds, they won't see the farewell message",
+      TITLE: "Pasos para establecer el tipo de mensaje",
+      SUBTITLE: "Establecer el tipo de mensaje",
+      WARNING: "Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de despedida",
       SET_EMBED_COLOR: {
-        SUBTITLE: "Set the embed color",
-        WARNING: "Currently Filo doesn't have a command to set the embed color, however there is a way to change it. When Filo is going to send the farewell message through an embed, it obtains the information of the highest role assigned to it. If said role has a custom color, the color of the embed will be the same as said role"
+        SUBTITLE: "Establecer el color del embed",
+        WARNING: "Actualmente, Filo no tiene un comando para establecer el color del embed, sin embargo, hay una forma de cambiarlo. Cuando Filo va a enviar el mensaje de despedida a través de un embed, obtiene la información del rol más alto que ella tiene asignado. Si dicho rol tiene un color personalizado, el color del embed será el mismo que dicho rol"
       }
     },
     VARIABLES: {
-      WARNING: "These variables may not always send the expected information",
-      VARIABLES: "{{variable}} variables"
+      WARNING: "Es posible que estas variables no siempre envíen la información esperada",
+      VARIABLES: "Variables de {{variable}}"
     }
   },
   WELCOMES: {
-    DESCRIPTION: "This module will allow you to send a welcome message to the new members of the server",
+    DESCRIPTION: "Este módulo te permitirá enviar un mensaje de bienvenida a los nuevos miembros del servidor",
     SET_CHANNEL: {
-      TITLE: "Steps to set the welcomes channel",
-      SUBTITLE: "Set the welcomes channel"
+      TITLE: "Pasos para establecer el canal de bienvenidas",
+      SUBTITLE: "Establecer el canal de bienvenidas"
     },
     SET_MESSAGE: {
-      TITLE: "Steps to set the welcome message",
-      SUBTITLE: "Set the welcome message",
-      MESSAGE_VARIABLES: "You can set variables in the welcome message. You can find a list of all variables by **[clicking here]({{link}})**",
-      MESSAGE_CODE: "Message code",
-      RESULT_MESSAGE: "Result message"
+      TITLE: "Pasos para establecer el mensaje de bienvenida",
+      SUBTITLE: "Establecer el mensaje de bienvenida",
+      MESSAGE_VARIABLES: "Puedes establecer variables en el mensaje de bienvenida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí]({{link}})**",
+      MESSAGE_CODE: "Código del mensaje",
+      RESULT_MESSAGE: "Resultado del mensaje"
     },
     SET_MESSAGE_TYPE: {
-      TITLE: "Steps to set the message type",
-      SUBTITLE: "Set the message type",
-      WARNING: "If users have disabled the display of embeds, they won't see the welcome message",
+      TITLE: "Pasos para establecer el tipo de mensaje",
+      SUBTITLE: "Establecer el tipo de mensaje",
+      WARNING: "Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de bienvenida",
       SET_EMBED_COLOR: {
-        SUBTITLE: "Set the embed color",
-        WARNING: "Currently Filo doesn't have a command to set the embed color, however there is a way to change it. When Filo is going to send the welcome message through an embed, it obtains the information of the highest role assigned to it. If said role has a custom color, the color of the embed will be the same as said role"
+        SUBTITLE: "Establecer el color del embed",
+        WARNING: "Actualmente, Filo no tiene un comando para establecer el color del embed, sin embargo, hay una forma de cambiarlo. Cuando Filo va a enviar el mensaje de bienvenida a través de un embed, obtiene la información del rol más alto que ella tiene asignado. Si dicho rol tiene un color personalizado, el color del embed será el mismo que dicho rol"
       }
     },
     VARIABLES: {
-      WARNING: "These variables may not always send the expected information",
-      VARIABLES: "{{variable}} variables"
+      WARNING: "Es posible que estas variables no siempre envíen la información esperada",
+      VARIABLES: "Variables de {{variable}}"
     },
     SET_ROLE: {
-      DESCRIPTION: "This module will allow you to grant a welcome role to new members",
+      DESCRIPTION: "Este módulo te permitirá otorgar un rol de bienvenida a los nuevos miembros",
       MODULE_EXCEPTIONS: {
-        FILO_LOWER_WELCOME_ROLE: "If the position of the Filo's roles are lower than the welcome role",
-        FILO_EQUAL_WELCOME_ROLE: "If the position of the Filo's roles is equal to the welcome role",
+        FILO_LOWER_WELCOME_ROLE: "Si la posición de los roles de Filo es más baja que la del rol de bienvenida",
+        FILO_EQUAL_WELCOME_ROLE: "Si la posición de los roles de Filo es igual que la del rol de bienvenida",
       },
-      TITLE: "Steps to set the welcome role",
-      SUBTITLE: "Set the welcome role",
-      WARNING: "The Filo's roles must be higher than the selected role, also the selected role can't be managed by an integration"
+      TITLE: "Pasos para establecer el rol de bienvenida",
+      SUBTITLE: "Establecer el rol de bienvenida",
+      WARNING: "Los roles de Filo deben ser más altos que el rol seleccionado, además, el rol seleccionado no puede ser administrado por una integración"
     }
   },
   GUILD: {
-    DESCRIPTION: "This module will allow you to set certain settings that can help us to help you",
+    DESCRIPTION: "Este módulo te permitirá establecer ciertas configuraciones que pueden ayudarnos a ayudarlo",
     GUILD_INVITE: {
-      ACTION: "Set up a permanent guild invite",
-      DESCRIPTION: "This module will allow you to set a permanent invite from the guild",
+      ACTION: "Configurar una invitación de gremio permanente",
+      DESCRIPTION: "Este módulo te permitirá establecer una invitación permanente del gremio",
       CREATE_A_INVITE: {
-        TITLE: "Steps to create the invite on a channel",
-        SUBTITLE: "Create the invite on a channel"
+        TITLE: "Pasos para crear la invitación en un canal",
+        SUBTITLE: "Crear la invitación en un canal"
       },
       SET_A_INVITE: {
-        TITLE: "Steps to set a existing invite from a channel",
-        SUBTITLE: "Set a existing invite from a channel",
-        INVITE_URL: "Invite URL",
-        INVITE_CODE: "Invite Code",
-        WARNING: "The invite you set must be from the same guild"
+        TITLE: "Pasos para configurar una invitación existente desde un canal",
+        SUBTITLE: "Establecer una invitación existente de un canal",
+        INVITE_URL: "URL de la Invitación",
+        INVITE_CODE: "Código de la Invitación",
+        WARNING: "La invitación que establezcas debe ser del mismo gremio"
       }
     },
     MUTED_ROLE: {
-      ACTION: "Set up the Muted Role",
-      DESCRIPTION: "This module will allow you to set the Muted role",
+      ACTION: "Configurar el rol Silenciado",
+      DESCRIPTION: "Este módulo le permitirá configurar el rol Silenciado",
       CREATE_THE_ROLE: {
-        TITLE: "Steps to create the muted role",
-        SUBTITLE: "Create the the muted role"
+        TITLE: "Pasos para crear el rol Silenciado",
+        SUBTITLE: "Crea el rol Silenciado"
       },
       SET_THE_ROLE: {
-        TITLE: "Steps to set a existing muted role",
-        SUBTITLE: "Set a existing muted role"
+        TITLE: "Pasos para establecer el rol Silenciado",
+        SUBTITLE: "Establecer el rol Silenciado"
       }
     }
   },
   LANGUAGE: {
-    DESCRIPTION: "This module will allow you to set or reset the Filo's language; this will affect all current and future commands, modules and systems",
+    DESCRIPTION: "Este módulo te permitirá configurar o estabke el idioma de Filo; esto afectará a todos los comandos, módulos y sistemas actuales y futuros",
     SET_A_LANGUAGE: {
-      TITLE: "Steps to set a language",
-      SUBTITLE: "Set a language",
-      LANGUAGE_LIST: "You can see a complete list of languages supported by Filo by **[clicking here]({{link}})**",
-      LANGUAGE_FULL_CODE: "Language Full Code"
+      TITLE: "Pasos para establecer el idioma",
+      SUBTITLE: "Establecer el idioma",
+      LANGUAGE_LIST: "Puedes ver una lista completa de los idiomas admitidos por Filo haciendo **[clic aquí]({{link}})**",
+      LANGUAGE_FULL_CODE: "Código Completo del Idioma"
     },
     SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's translations may contain errors, we are human!\nIf you find any errors, please report them in **[our translation repository]({{link}})** or **[contact us]({{link_2}})**",
-      SHORT_CODE: "Short code",
-      FULL_CODE: "Full code"
+      WARNING: "Las traducciones de Filo pueden contener errores, ¡somos humanos!" + "\n" + "Si encuentra algún error, infórmelo en **[nuestro repositorio de traducción]({{link}})** o **[contáctanos]({{link_2}})**",
+      SHORT_CODE: "Código Corto",
+      FULL_CODE: "Código Completo"
     }
   },
   LOGGING: {
-    DESCRIPTION: "This module will allow you to send all the server logs to a specific channel",
+    DESCRIPTION: "Este módulo te permitirá enviar todos los registros del servidor a un canal específico",
     MODULE_EXCEPTIONS: {
-      WEBHOOK_REMOVED: "If the webhook has been removed",
+      WEBHOOK_REMOVED: "Si se ha eliminado el webhook",
     },
     SET_CHANNEL: {
-      TITLE: "Steps to set the logging channel",
-      SUBTITLE: "Set the logging channel",
-      SUGGESTION: "The channel you select should be private and accessible to server moderators"
+      TITLE: "Pasos para establecer el canal de registros",
+      SUBTITLE: "Establecer el canal de registros",
+      SUGGESTION: "El canal que selecciones debe ser privado y accesible para los moderadores del servidor"
     }
   },
   MEMBER_COUNTER: {
-    DESCRIPTION: "This module will allow you to display the member count of your guild in a voice channel",
+    DESCRIPTION: "Este módulo te permitirá mostrar el contador de miembros de tu gremio en un canal de voz",
     SET_CHANNEL: {
-      TITLE: "Steps to set the member-counter channel",
-      SUBTITLE: "Set the member-counter channel",
-      INVALID_CHANNEL_WARNING: "The channel you select must be **voice channel**, otherwise the module won't work"
+      TITLE: "Pasos para establecer el canal de contador de miembros",
+      SUBTITLE: "Establecer el canal contador de miembros",
+      INVALID_CHANNEL_WARNING: "El canal que selecciones debe ser un **canal de voz**, de lo contrario, el módulo no funcionará"
     },
     SET_CHANNEL_NAME: {
-      TITLE: "Steps to set the member-counter channel name",
-      SUBTITLE: "Set the member-counter channel name",
-      MAX_LENGTH: "The channel name can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
+      TITLE: "Pasos para establecer el nombre del canal contador de miembros",
+      SUBTITLE: "Establecer el nombre del canal contador de miembros",
+      MAX_LENGTH: "El nombre del canal no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{members}` en el contenido"
     },
     NICKNAME: {
-      DESCRIPTION: "This module will allow you to set a member counter on Filo's nickname",
+      DESCRIPTION: "Este módulo te permitirá establecer un contador de miembros en el apodo de Filo",
       SET_NICKNAME: {
-        TITLE: "Steps to set the nickname",
-        SUBTITLE: "Set the nickname",
-        MAX_LENGTH: "The nickname can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
+        TITLE: "Pasos para establecer el apodo",
+        SUBTITLE: "Establecer el apodo",
+        MAX_LENGTH: "El apodo no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{members}` en el contenido"
       }
     }
   },
   PREFIX: {
-    DESCRIPTION: "This module will allow you to set or reset the Filo's prefix",
+    DESCRIPTION: "Este módulo te permitirá configurar o restablecer el prefijo de Filo",
     SET_PREFIX: {
-      TITLE: "Steps to set a new prefix",
-      SUBTITLE: "Set a new prefix",
-      NEW_PREFIX: "Prefix",
-      SLASH_PREFIX_WARNING: "Slash prefixes aren't supported by Filo",
-      MAX_LENGTH: "You can't set a prefix that is longer than **{{number}}** characters"
+      TITLE: "Pasos para establecer un nuevo prefijo",
+      SUBTITLE: "Establecer un nuevo prefijo",
+      NEW_PREFIX: "Prefijo",
+      SLASH_PREFIX_WARNING: "Los prefijos de barra no son compatibles con Filo",
+      MAX_LENGTH: "No puede establecer un prefijo que tenga más de **{{number}}** caracteres"
     }
   },
   REPORTS: {
-    DESCRIPTION: "This module will allow you to report to other members and send them to a report channel",
+    DESCRIPTION: "Este módulo te permitirá reportar a otros miembros y enviarlos a un canal de reportes",
     MODULE_EXCEPTIONS: {
-      WEBHOOK_REMOVED: "If the webhook has been removed"
+      WEBHOOK_REMOVED: "Si se ha eliminado el webhook"
     },
     SET_CHANNEL: {
-      TITLE: "Steps to set the reports channel",
-      SUBTITLE: "Set the reports channel",
-      SUGGESTION: "The channel you select should be private and accessible to server moderators"
+      TITLE: "Pasos para establer el canal de reportes",
+      SUBTITLE: "Establecer el canal de reportes",
+      SUGGESTION: "El canal que selecciones debe ser privado y accesible para los moderadores del servidor"
     }
   }
 };

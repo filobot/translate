@@ -349,7 +349,7 @@ exports.MODULES = {
     DESCRIPTION: "This module will allow you to partially customize the behavior of the Filo's commands",
     DISABLE_COMMANDS: {
       ACTION: "Disable a Filo's command or re-enable it",
-      DESCRIPTION: "This module will allow you to disable the Filo commands that you don't want to be used on your guild",
+      DESCRIPTION: "This module will allow you to disable the Filo commands that you don't want to be used on your server",
       DISABLE: {
         TITLE: "Steps to disable a command",
         SUBTITLE: "Disable a command"
@@ -463,7 +463,7 @@ exports.MODULES = {
       LANGUAGE_FULL_CODE: "Language Full Code"
     },
     SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's translations may contain errors, we are human!\nIf you find any errors, please report them in **[our translation repository]({{link}})** or **[contact us]({{link_2}})**",
+      WARNING: "Filo's translations may contain errors, we are human!" + "\n" + "If you find any errors, please report them in **[our translation repository]({{link}})** or **[contact us]({{link_2}})**",
       SHORT_CODE: "Short code",
       FULL_CODE: "Full code"
     }
