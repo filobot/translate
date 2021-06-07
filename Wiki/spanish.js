@@ -6,677 +6,673 @@ exports.LANGUAGE = {
   CONTRIBUTORS: ["iLxlo_"]
 };
 
-// Actualmente se está trabajando una re-traducción al Español de la Wiki.
-
 exports.TIME = {
-  SECOND: "second",
-  SECONDS: "seconds",
-  MINUTE: "minute",
-  MINUTES: "minutes",
-  HOUR: "hour",
-  HOURS: "hours",
-  DAY: "day",
-  DAYS: "days",
-  WEEK: "week",
-  WEEKS: "weeks",
-  MONTH: "month",
-  MONTHS: "months",
-  YEAR: "year",
-  YEARS: "years"
+  SECOND: "segundo",
+  SECONDS: "segundos",
+  MINUTE: "minuto",
+  MINUTES: "minutos",
+  HOUR: "hora",
+  HOURS: "horas",
+  DAY: "día",
+  DAYS: "dias",
+  WEEK: "semana",
+  WEEKS: "semanas",
+  MONTH: "mes",
+  MONTHS: "meses",
+  YEAR: "año",
+  YEARS: "años"
 };
 
 exports.PAGE_TITLES = {
-  HOME: "Home",
-  INVITE_FILO: "Invite Filo",
-  ANTI_BAD_WORDS: "Anti Bad Words",
-  ANTI_EVASION: "Anti Evasion",
-  ACTION_LIST: "Action List",
-  ANTI_INVITES: "Anti Invites",
-  ANTI_MASS_MENTIONS: "Anti Mass Mentions",
-  ANTI_REPEATED_TEXT: "Anti Repeated Text",
-  AUTO_MODERATION: "Auto Moderation",
+  HOME: "Inicio",
+  INVITE_FILO: "Invitar a Filo",
+  ANTI_BAD_WORDS: "Anti Malas Palabras",
+  ANTI_EVASION: "Anti Evasión",
+  ACTION_LIST: "Lista de Sanciones",
+  ANTI_INVITES: "Anti Invitaciones",
+  ANTI_MASS_MENTIONS: "Anti Menciones Masivas",
+  ANTI_REPEATED_TEXT: "Anti Texto Repetido",
+  AUTO_MODERATION: "Auto Moderación",
   ANTI_SPAM: "Anti Spam",
-  COMMANDS: "Commands",
-  DISABLE_COMMANDS: "Disable commands",
-  FAREWELLS: "Farewells",
-  FAREWELLS_VARIABLES: "Farewells Variables",
-  GUILD: "Guild",
-  GUILD_INVITE: "Guild Invite",
-  MUTED_ROLE: "Muted Role",
-  LANGUAGE: "Language",
-  SUPPORTED_LANGUAGES: "Supported Languages",
-  LOGGING: "Logging",
-  MEMBER_COUNTER: "Member Counter",
-  MEMBER_COUNTER_NICKNAME: "Member Counter Nickname",
-  PREFIX: "Prefix",
-  REPORTS: "Reports",
-  WELCOMES: "Welcomes",
-  WELCOMES_VARIABLES: "Welcomes Variables",
-  WELCOME_ROLE: "Welcome Role",
+  COMMANDS: "Comandos",
+  DISABLE_COMMANDS: "Deshabilitar Comandos",
+  FAREWELLS: "Despedidas",
+  FAREWELLS_VARIABLES: "Variables de Despedida",
+  GUILD: "Gremio",
+  GUILD_INVITE: "Invitación del Gremio",
+  MUTED_ROLE: "Rol Silenciado",
+  LANGUAGE: "Idioma",
+  SUPPORTED_LANGUAGES: "Idiomas Soportados",
+  LOGGING: "Registros",
+  MEMBER_COUNTER: "Contador de Miembros",
+  MEMBER_COUNTER_NICKNAME: "Apodo Contador de Miembros",
+  PREFIX: "Prefijo",
+  REPORTS: "Reportes",
+  WELCOMES: "Bienvenidas",
+  WELCOMES_VARIABLES: "Variables de Bienvenida",
+  WELCOME_ROLE: "Rol de Bienvenida",
   CLOUDFLARE: "Cloudflare",
-  COMMON_ERRORS: "Common Errors"
+  COMMON_ERRORS: "Errores Comunes"
 };
 
 exports.GENERAL = {
-  NOT_AVAILABLE: "Not available",
-  STEP: "Step {{number}}",
-  EXAMPLE: "Example",
-  AND: "And",
-  DO_NOT_INCLUDE_THIS: "Don't include ``<>`` when you're running the command",
-  CHECK_DISCORD_SUPPORT_ARTICLE: "Check out this article from the Discord support center by **[clicking here]({{link}})**",
-  OPTIONAL: "Optional",
-  PERMANENT: "Permanent",
-  TEMPORARY: "Temporary",
-  PERMANENTLY: "Permanently",
-  CHANNEL: "Channel",
-  CHANNEL_ID: "Channel ID",
-  ROLE: "Role",
-  ROLE_ID: "Role ID",
-  THRESHOLD: "Threshold",
-  TIME: "Time",
-  IF_APPLICABLE: "If applicable",
-  LEVEL: "Level",
-  NUMBER: "Number",
-  ACTION: "Action",
-  COMMAND: "Command",
-  MESSAGE: "Message",
-  USER: "User",
-  SERVER: "Server",
-  NAME: "Name"
+  NOT_AVAILABLE: "No disponible",
+  STEP: "Paso {{number}}",
+  EXAMPLE: "Ejemplo",
+  AND: "Y",
+  DO_NOT_INCLUDE_THIS: "No incluyas ``<>`` cuando estés ejecutando el comando",
+  CHECK_DISCORD_SUPPORT_ARTICLE: "Consulta este artículo del centro de soporte de Discord haciendo **[clic aquí]({{link}})**",
+  OPTIONAL: "Opcional",
+  PERMANENT: "Permanente",
+  TEMPORAL: "Temporal",
+  TEMPORARY: "Temporalmente",
+  PERMANENTLY: "Permanentemente",
+  CHANNEL: "Canal",
+  CHANNEL_ID: "ID del Canal",
+  ROLE: "Rol",
+  ROLE_ID: "ID del Rol",
+  THRESHOLD: "Umbral",
+  TIME: "Tiempo",
+  IF_APPLICABLE: "Si aplica",
+  LEVEL: "Nivel",
+  NUMBER: "Número",
+  ACTION: "Acción",
+  COMMAND: "Comando",
+  MESSAGE: "Mensaje",
+  USER: "Usuario",
+  SERVER: "Servidor",
+  NAME: "Nombre"
 };
 
 exports.ABOUT_WIKI = {
-  TITLE: "Welcome to the Filo Wiki",
+  TITLE: "Bienvenido a la Wiki de Filo",
   FILO_DESCRIPTION: "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands",
-  WIKI_DESCRIPTION: "The content of this Wiki is subject to constant changes in order to improve its quality. This documentation covers some of the frequently asked questions, as well as step-by-step tutorials on how each Filo module works",
-  ASK_FOR_HELP: "Go to **[our Discord server]({{link}})** if this documentation isn't enough or if you need more help",
+  WIKI_DESCRIPTION: "El contenido de este Wiki está sujeto a cambios constantes para mejorar su calidad. Esta documentación cubre algunas de las preguntas frecuentes, así como guías paso a paso sobre cómo funciona cada módulo de Filo",
+  ASK_FOR_HELP: "Dirígete a **[nuestro servidor de Discord]({{link}})** si esta documentación no es suficiente o si necesitas más ayuda",
   WIKI_KEYS: {
-    TITLE: "Wiki keys",
-    DESCRIPTION: "On certain pages of the Wiki you'll find the following essential keys that will indicate important information that you should take into account. Below you can find some of the keys mentioned above",
-    SUCCESS_KEY: "Disclosure notes or recommendations will be displayed in a box similar to this one",
-    INFO_KEY: "The information notes will be displayed in a box similar to this one",
-    WARNING_KEY: "Warnings will be displayed in a box similar to this one",
-    DANGER_KEY: "Important information will be displayed in a box similar to this one"
+    TITLE: "Claves de la Wiki",
+    DESCRIPTION: "En determinadas páginas de la Wiki encontrarás las siguientes claves esenciales que te indicarán información importante que debes tener en cuenta. A continuación puede encontrar algunas de las claves mencionadas anteriormente",
+    SUCCESS_KEY: "Las notas de divulgación o recomendaciones se mostrarán en un cuadro similar a este",
+    INFO_KEY: "Las notas informativas se mostrarán en un cuadro similar a este",
+    WARNING_KEY: "Las advertencias se mostrarán en un cuadro similar a este",
+    DANGER_KEY: "La información importante se mostrará en un cuadro similar a este"
   },
   REQUEST_TRANSLATION: {
-    TITLE: "Requests and translations",
-    DESCRIPTION: "If you need it, you can request an update/revision of a documented article on this Wiki, either for its improvement or for its correction (outdated or deprecated)" + ".\n" + "This Wiki has several languages, all of which have been contributed by voluntary contributors. If you want to contribute translations, **[click here]({{link}})**"
+    TITLE: "Solicitudes y traducciones",
+    DESCRIPTION: "Si lo necesitas, puede solicitar una actualización/revisión de un artículo documentado en esta Wiki, ya sea para su mejora o para su corrección (desactualizado o en desuso)" + ".\n" + "Esta Wiki tiene varios idiomas, todos las cuales han sido aportadas por colaboradores voluntarios. Si deseas contribuir traducciendo, haz **[clic aquí]({{link}})**"
   }
 };
 
 exports.HELPFUL_LINKS = {
-  TITLE: "Helpful links"
+  TITLE: "Enlaces Útiles"
 };
 
 exports.NAVBAR = {
-  HOME: "Home",
-  DISCORD_SERVER :"Discord Server",
-  PRIVACY_POLICY: "Privacy Policy",
-  TERMS_AND_CONDITIONS: "Terms and Conditions",
-  WEBSITE: "Website",
-  DONATE :"Donate",
+  HOME: "Inicio",
+  DISCORD_SERVER :"Servidor de Discord",
+  PRIVACY_POLICY: "Política de Privacidad",
+  TERMS_AND_CONDITIONS: "Términos y Condiciones",
+  WEBSITE: "Sitio web",
+  DONATE :"Donar",
   BLOG :"Blog",
   TWITTER :"Twitter",
-  VOTE :"Vote",
-  GETTING_STARTED: "Getting Started",
-  INVITE_FILO: "Invite Filo",
-  COMMON_ERRORS: "Common Errors",
-  MODULES: "Modules",
-  LANGUAGE: "Language",
-  PREFIX: "Prefix",
-  GUILD: "Guild",
-  REPORTS: "Reports",
-  WELCOMES: "Welcomes",
-  WELCOME_ROLE: "Welcome Role",
-  FAREWELLS: "Farewells",
-  MEMBER_COUNTER: "Member Counter",
-  MEMBER_COUNTER_NICKNAME: "Member Counter Nickname",
-  LOGGING: "Logging",
-  ANTI_INVITES: "Anti Invites",
-  AUTO_MODERATION: "Auto Moderation",
-  ANTI_EVASION: "Anti Evasion",
+  VOTE :"Votar",
+  GETTING_STARTED: "Empezando",
+  INVITE_FILO: "Invitar a Filo",
+  MODULES: "Módulos",
+  LANGUAGE: "Idioma",
+  PREFIX: "Prefijo",
+  GUILD: "Gremio",
+  REPORTS: "Reportes",
+  WELCOMES: "Bienvenidas",
+  WELCOME_ROLE: "Rol de Bienvenida",
+  FAREWELLS: "Despedidas",
+  MEMBER_COUNTER: "Contador de Miembros",
+  MEMBER_COUNTER_NICKNAME: "Apodo Contador de Miembros",
+  LOGGING: "Registros",
+  ANTI_INVITES: "Anti Invitaciones",
+  AUTO_MODERATION: "Auto Moderación",
+  ANTI_EVASION: "Anti Evasión",
   ANTI_SPAM: "Anti Spam",
-  ANTI_MASS_MENTIONS: "Anti Mass Mentions",
-  ANTI_REPEATED_TEXT: "Anti Repeated Text",
-  DISABLE_COMMANDS: "Disable Commands",
-  ANTI_BAD_WORDS: "Anti Bad Words",
-  COMMANDS: "Commands"
+  ANTI_MASS_MENTIONS: "Anti Menciones Masivas",
+  ANTI_REPEATED_TEXT: "Anti Texto Repetido",
+  DISABLE_COMMANDS: "Deshabilitar Comandos",
+  ANTI_BAD_WORDS: "Anti Malas Palabras",
+  COMMANDS: "Comandos",
+  TOPICS: "Temas",
+  CLOUDFLARE: "Cloudflare",
+  COMMON_ERRORS: "Errores Comunes"
 };
 
 exports.HOME = {
   NAVIGATION_INDEX: {
-    TITLE: "Navigation index",
+    TITLE: "Índice de navegación",
     GETTING_STARTED: {
-      DESCRIPTION: "In this section you'll find all kinds of guides with the necessary information to start using Filo"
+      DESCRIPTION: "En esta sección encontrarás todo tipo de guías con la información necesaria para empezar a utilizar Filo"
     }
   },
   MODULES: {
-    DESCRIPTION: "In this section you'll find all kinds of guides with the necessary information from all the Filo modules"
-  },
-  COMMANDS: {
-    DESCRIPTION: "In this section you'll find the essential information of the Filo commands, including the necessary permissions to execute them and their restrictions"
+    DESCRIPTION: "En esta sección encontrarás todo tipo de guías con la información necesaria de todos los módulos de Filo"
   }
 };
 
 exports.GETTING_STARTED = {
   INVITE_FILO: {
-    DESCRIPTION: "Below you'll find a guided explanation of how to invite Filo and the permissions that we recommend",
-    PERMISSIONS_NEEDED: "You must be the **owner** of the server you want to add Filo to or have one of these permissions: {{permission_1}} and {{permission_2}}",
-    SLASH_COMMAND_WARNING: "Currently Filo doesn't support the use of Slash Commands without the scope bot in the invitation. If you add the Slash Commands integration to your server and don't add Filo to the server as well, the Slash Commands will always return a generic error in English",
+    DESCRIPTION: "A continuación, encontrará una explicación guiada de cómo invitar a Filo y los permisos que recomendamos",
+    PERMISSIONS_NEEDED: "Debe ser el **propietario** del servidor al que desea agregar Filo o tener uno de estos permisos: {{permission_1}} o {{permission_2}}",
+    SLASH_COMMAND_WARNING: "Actualmente, Filo no admite el uso de comandos de barra sin el bot de alcance en la invitación. Si agrega la integración de comandos de barra a su servidor y no agrega a Filo al servidor también, los comandos de barra siempre devolverán un error genérico en inglés",
     STEP_1: {
-      TITLE: "Open the Filo invite in the browser",
-      DESCRIPTION: "**[Clicking here]({{link}})** will redirect you to the invite with the recommended permissions and the scope of slash commands as an extra",
-      EXAMPLE: "Example of the important Filo invite screen",
-      ALTERNATIVE_INVITE: "If you don't want to have Filo's Slash Commands, you can choose to use this **[invite]({{link}})**"
+      TITLE: "Abra la invitación de Filo en el navegador",
+      DESCRIPTION: "Haciendo **[clic aquí]({{link}})** se le redirigirá a la invitación con los permisos recomendados y el scope de los comandos de barra como un extra",
+      EXAMPLE: "Ejemplo de lo importante de la pantalla de invitación de Filo",
+      ALTERNATIVE_INVITE: "Si no desea tener los comandos de barra inclinada de Filo, puede optar por utilizar esta **[invitación]({{link}})**"
     },
     STEP_2: {
-      TITLE: "Select the server where to add Filo",
-      DESCRIPTION: "Go to the down arrow of the section nicknamed **Add to server** and select the name of the server where you want to add Filo",
-      EXAMPLE: "Image where the section mentioned above is highlighted",
-      BEFORE_THE_RESULT_EXAMPLE: "Once you have selected a server, the screen should look like the image below",
-      CONTINUE: "At the bottom of the invite box you'll find a button called **Continue**. Click on it when you have selected the server"
+      TITLE: "Seleccione el servidor donde agregar a Filo",
+      DESCRIPTION: "Vaya a la flecha hacia abajo de la sección apodada **Agregar al servidor** y seleccione el nombre del servidor donde desea agregar a Filo",
+      EXAMPLE: "Imagen donde se resalta la sección mencionada anteriormente",
+      BEFORE_THE_RESULT_EXAMPLE: "Una vez que haya seleccionado un servidor, la pantalla debería verse como la imagen de abajo",
+      CONTINUE: "En la parte inferior del cuadro de invitación, encontrará un botón llamado **Continuar**. Haga clic en él cuando haya seleccionado el servidor"
     },
     STEP_3: {
-      TITLE: "Select permissions (optional)",
-      DESCRIPTION: "In this section you'll be able to customize the permissions you want to grant to Filo globally (not by channel). If you don't want to change them, just click the **Continue** button",
-      INTEGRATION_ROLE: "If you leave any permission active in the invite, Discord will automatically create a role called **Filo**, however, if the server exceeds the role limit it is possible that the role cannot be created and you'll have to manually assign the permissions to Filo",
-      PERMISSIONS_NEEDED: "The necessary permissions that Filo must always have are: {{permission_1}}, {{permission_2}}, {{permission_3}} and {{permission_4}}"
+      TITLE: "Seleccionar permisos (opcional)",
+      DESCRIPTION: "En esta sección podrá personalizar los permisos que desea otorgar a Filo globalmente (no por canal). Si no desea cambiarlos, simplemente haga clic en el botón **Continuar**",
+      INTEGRATION_ROLE: "Si dejas algún permiso activo en la invitación, Discord creará automáticamente un rol llamado **Filo**, sin embargo, si el servidor excede el límite de roles, es posible que el rol no se pueda crear y tenga que asignar manualmente los permisos para Filo",
+      PERMISSIONS_NEEDED: "Los permisos necesarios que Filo debe tener siempre son: {{permission_1}}, {{permission_2}}, {{permission_3}} u {{permission_4}}"
     },
     STEP_4: {
-      TITLE: "Authorize the invite",
-      DESCRIPTION: "Once you have finished selecting the server and customizing the permissions (if you want to do so), touch authorize the invite by clicking the **Authorize** button"
+      TITLE: "Autorizar la invitación",
+      DESCRIPTION: "Una vez que haya terminado de seleccionar el servidor y personalizar los permisos (si desea hacerlo), toca autorizar la invitación haciendo clic en el botón **Autorizar**"
     }
   }
 };
 
 exports.MODULES = {
-  ABOUT_THE_MODULE: "About the module",
-  COMMUNITY_RECOMMENDATION: "We recommend using this module if you manage a community",
-  TO_ACTION_COMMAND: "To {{action}} you must execute the following command: {{command}}",
-  MAX_AND_MIN_DURATION: "The duration of the action must be between **{{min}}** and **{{max}}**",
-  VALUE_GREATER_THAN: "The value must be greater than **{{number}}**",
-  SUMMARY: "Summary",
-  IF_YOU_WANT_SETUP: "If you want to {{action}}, **[click here]({{link}})** and we'll take you to the guided article in no time",
-  VARIABLE_WILL_RETURN: "This variable will return the {{data}}",
+  ABOUT_THE_MODULE: "Acerca del módulo",
+  COMMUNITY_RECOMMENDATION: "Recomendamos usar este módulo si administras una comunidad",
+  TO_ACTION_COMMAND: "Para {{action}} debes ejecutar el siguiente comando: {{command}}",
+  MAX_AND_MIN_DURATION: "La duración de la acción debe estar entre **{{min}}** y **{{max}}**",
+  VALUE_GREATER_THAN: "El valor debe ser mayor de **{{number}}**",
+  SUMMARY: "Índice",
+  IF_YOU_WANT_SETUP: "Si quieres {{action}}, haz **[clic aquí]({{link}})** y lo llevaremos al artículo guiado en poco tiempo",
+  VARIABLE_WILL_RETURN: "Esta variable devolverá el {{data}}",
   GETTING_STARTED: {
-    DESCRIPTION: "Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page",
-    REQUIRES_ADVANCED_PERMISSION: "Filo requires the following advanced permission: {{permission}}",
-    REQUIRES_BASIC_PERMISSION: "Filo requires the following basic permission: {{permission}}",
-    REQUIRES_ADVANCED_PERMISSIONS: "Filo requires the following advanced permissions: {{permissions}}",
-    REQUIRES_BASIC_PERMISSIONS: "Filo requires the following basic permissions: {{permissions}}",
-    REQUIRES_USER_PERMISSION: "You need {{permission}} permission to perform most of the actions in this article",
-    REQUIRES_USER_PERMISSIONS: "You need {{permissions}} permissions to perform most of the actions in this article",
-    CUSTOM_PREFIX: "You should replace " + "<kbd>" + "f!" + "</kbd>" + " with the current prefix you have set. More information on how to change the prefix by **[clicking here]({{link}})**"
+    DESCRIPTION: "Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página",
+    REQUIRES_ADVANCED_PERMISSION: "Filo requiere el siguiente permiso avanzado: {{permission}}",
+    REQUIRES_BASIC_PERMISSION: "Filo requiere el siguiente permiso básico: {{permission}}",
+    REQUIRES_ADVANCED_PERMISSIONS: "Filo requiere los siguientes permisos avanzados: {{permissions}}",
+    REQUIRES_BASIC_PERMISSIONS: "Filo requiere los siguientes permisos básicos: {{permissions}}",
+    REQUIRES_USER_PERMISSION: "Necesitas el permiso {{permission}} para realizar la mayoría de las acciones de este artículo",
+    REQUIRES_USER_PERMISSIONS: "Necesitas los permisos {{permissions}} para realizar la mayoría de las acciones de este artículo",
+    CUSTOM_PREFIX: "Debes reemplazar " + "<kbd>" + "f!" + "</kbd>" + " con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí]({{link}})**"
   },
   MODULE_EXCEPTIONS: {
-    TITLE: "Module Exceptions",
-    DESCRIPTION: "This module has exceptions, which means that it won't work if some of the requirements mentioned below are met",
-    FILO_REQUIRED_PERMISSION: "If Filo doesn't have {{permission}} permission",
-    FILO_REQUIRED_PERMISSIONS: "If Filo doesn't have {{permissions}} permissions",
-    USER_HAS_PERMISSION: "If the user has the {{permission}} permission",
-    USER_HAS_PERMISSIONS: "If the user has the {{permissions}} permissions",
-    FILO_LOWER_ROLES: "If the position of the Filo's roles are lower than the user roles",
-    FILO_EQUAL_ROLES: "If the position of the Filo's roles are equal to the user roles",
-    WEBHOOK_OTHER_MODULE: "If the webhook shares a channel with another Filo's module (e.g. {{module}})",
-    SETTINGS_WILL_RESET: "If this requirement is met, the module settings will be reset",
-    MODULE_WILL_NOT_WORK: "If this or some of the requirements are met, the module won't work"
+    TITLE: "Excepciones del módulo",
+    DESCRIPTION: "Este módulo tiene excepciones, lo que significa que no funcionará si se cumplen algunos de los requisitos que se mencionan a continuación",
+    FILO_REQUIRED_PERMISSION: "Si Filo no tiene el permiso {{permission}}",
+    FILO_REQUIRED_PERMISSIONS: "Si Filo no tiene los permisos {{permissions}}",
+    USER_HAS_PERMISSION: "Si el usuario tiene el permiso {{permission}}",
+    USER_HAS_PERMISSIONS: "Si el usuario tiene los permisos {{permissions}}",
+    FILO_LOWER_ROLES: "Si la posición de los roles de Filo es más baja que la de los roles del usuario",
+    FILO_EQUAL_ROLES: "Si la posición de los roles de Filo es igual que la de los roles del usuario",
+    WEBHOOK_OTHER_MODULE: "Si el webhook comparte un canal con otro módulo de Filo (ej. {{module}})",
+    SETTINGS_WILL_RESET: "Si se cumple este requisito, la configuración del módulo se restablecerá",
+    MODULE_WILL_NOT_WORK: "Si se cumplen estos o algunos de los requisitos, el módulo no funcionará"
   },
   ENABLE_MODULE: {
-    TITLE: "Steps to enable the module",
-    SUBTITLE: "Enable the module",
-    DESCRIPTION: "To enable the module you must execute the following command: {{command}}",
-    SUPPLEMENTARY_MODULE: "This module can be supplemented with the **[{{module}}]({{link}})** module"
+    TITLE: "Pasos para habilitar el módulo",
+    SUBTITLE: "Habilitar el módulo",
+    SUPPLEMENTARY_MODULE: "Este módulo se puede complementar con el módulo **[{{module}}]({{link}})**"
   },
   DISABLE_MODULE: {
-    TITLE: "Steps to disable the module",
-    SUBTITLE: "Disable the module",
-    DESCRIPTION: "To disable the module you must execute the following command: {{command}}",
+    TITLE: "Pasos para deshabilitar el módulo",
+    SUBTITLE: "Deshabilitar el módulo"
   },
   RESET_MODULE: {
-    TITLE: "Steps to reset module settings",
-    SUBTITLE: "Reset the module settings",
-    WARNING: "You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data"
+    TITLE: "Pasos para restablecer las configuraciones del módulo",
+    SUBTITLE: "Restablecer las configuraciones del módulo",
+    WARNING: "Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores"
   },
   ACTION_LIST: {
-    SANCTION_DESCRIPTION: "This sanction will {{time}} {{action}} the user in question from the server"
+    SANCTION_DESCRIPTION: "La sanción {{action}} {{time}} al usuario en cuestión del servidor"
   },
   VARIABLES_LIST: {
-    USER_MENTION: "Mention of the user in question",
-    USER_ID: "ID of the user in question",
-    USER_NAME: "Name of the user in question",
-    USER_DISCRIMINATOR: "Discriminator of the user in question",
-    USER_TAG: "Name and discriminator of the user in question",
-    USER_AVATAR_URL: "Avatar URL of the user in question",
-    SERVER_NAME: "Name of the guild in question",
-    SERVER_ID: "ID of the guild in question",
-    SERVER_ICON_URL: "Server icon URL of the guild in question",
-    SERVER_OWNER_MENTION: "Mention of the owner of the guild in question",
-    SERVER_OWNER_ID: "ID of the owner of the guild in question",
-    SERVER_MEMBER_COUNT: "Member count of the guild in question",
-    SERVER_INVITE_SPLASH_URL: "Splash URL of the guild in question",
-    SERVER_BANNER_URL: "Banner URL of the guild in question"
+    USER_MENTION: "Mención del usuario en cuestión",
+    USER_ID: "ID del usuario en cuestión",
+    USER_NAME: "Nombre del usuario en cuestión",
+    USER_DISCRIMINATOR: "Discriminador del usuario en cuestión",
+    USER_TAG: "Nombre y discriminador del usuario en cuestión",
+    USER_AVATAR_URL: "URL del avatar del usuario en cuestión",
+    SERVER_NAME: "Nombre del servidor en cuestión",
+    SERVER_ID: "ID del servidor en cuestión",
+    SERVER_ICON_URL: "URL del icono del servidor en cuestión",
+    SERVER_OWNER_MENTION: "Mención del propietario del servidor en cuestión",
+    SERVER_OWNER_ID: "ID del propietario del servidor en cuestión",
+    SERVER_MEMBER_COUNT: "Contador de Miembros del servidor en cuestión",
+    SERVER_INVITE_SPLASH_URL: "URL del splash del servidor en cuestión",
+    SERVER_BANNER_URL: "URL de la banner del servidor en cuestión"
   },
   ANTI_BAD_WORDS: {
-    DESCRIPTION: "This module will allow you to eliminate and warn users who send bad words",
-    BAD_WORD: "Bad word",
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían malas palabras",
+    BAD_WORD: "Mala palabra",
     BAN_A_BAD_WORD: {
-      TITLE: "Steps to ban a bad word",
-      SUBTITLE: "Ban a bad word"
+      TITLE: "Pasos para banear una mala palabra",
+      SUBTITLE: "Banear una mala palabra"
     },
     UNBAN_A_BAD_WORD: {
-      TITLE: "Steps to unban a bad word",
-      SUBTITLE: "Unban a bad word"
+      TITLE: "Pasos para desbanear una mala palabra",
+      SUBTITLE: "Desbanear una mala palabra"
     }
   },
   ANTI_EVASION: {
-    DESCRIPTION: "This module allows you to automatically ban those users who were sanctioned in your server and tried to evade the sanction",
-    ACTION: "Action",
+    DESCRIPTION: "Este módulo te permitirá banear automáticamente a aquellos usuarios que fueron sancionados en tu servidor e intentaron evadir la sanción",
+    ACTION: "Acción",
     SET_A_ACTION: {
-      TITLE: "Steps to set a action",
-      SUBTITLE: "Set a action",
-      FULL_LIST_OF_ACTIONS: "You can see a full list of actions that Filo supports by **[clicking here]({{link}})**"
+      TITLE: "Pasos para establecer la acción",
+      SUBTITLE: "Establecer la acción",
+      FULL_LIST_OF_ACTIONS: "Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí]({{link}})**"
     },
     SET_TIME: {
-      TITLE: "Steps to set the time of a action",
-      SUBTITLE: "Set the time of a action"
+      TITLE: "Pasos para establecer el tiempo de la acción",
+      SUBTITLE: "Establecer el tiempo de la acción"
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "This module will allow you to delete and warn users who send invites outside your server or the allowed servers",
-    SERVER_ID: "Server ID",
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían invitaciones ajenas a su servidor o de los servidores permitidos",
+    SERVER_ID: "ID del servidor",
     ALLOW_A_SERVER: {
-      TITLE: "Steps to add a server to the allowed list",
-      SUBTITLE: "Add a server to the allowed list",
+      TITLE: "Pasos para añadir un servidor a la lista de permitidos",
+      SUBTITLE: "Añadir un servidor a la lista de permitidos",
     },
     DISALLOW_A_SERVER: {
-      TITLE: "Steps to remove a server to the allowed list",
-      SUBTITLE: "Remove a server to the allowed list"
+      TITLE: "Pasos para eliminar un servidor de la lista de permitidos",
+      SUBTITLE: "Eliminar un servidor de la lista de permitidos"
     }
   },
   ANTI_MASS_MENTIONS: {
-    DESCRIPTION: "This module will allow you to sanction those users who make massive mentions",
+    DESCRIPTION: "Este módulo te permitirá sancionar a aquellos usuarios que realicen menciones masivas",
     SET_THRESHOLD: {
-      TITLE: "Steps to set the mentions threshold",
-      SUBTITLE: "Set the mentions threshold"
+      TITLE: "Pasos para establecer el umbral de menciones",
+      SUBTITLE: "Establecer el umbral de menciones"
     }
   },
   ANTI_REPEATED_TEXT: {
-    DESCRIPTION: "This module will allow you to eliminate and warn those users who send messages with repeated text"
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a aquellos usuarios que envíen mensajes con texto repetido"
   },
   ANTI_SPAM: {
-    DESCRIPTION: "This module will allow you to delete and warn a user who does spam",
+    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a aquellos usuarios que realicen spam",
     ALLOW_CHANNEL: {
-      TITLE: "Steps to add a channel to the allowed list",
-      SUBTITLE: "Add a channel to the allowed list",
-      WARNING: "If you add a channel to the allowed list, a warn won't be granted to those users who spam on those channels"
+      TITLE: "Pasos para añadir un canal a la lista de permtiidos",
+      SUBTITLE: "Añadir un canal a la lista de permitidos",
+      WARNING: "Si agregas un canal a la lista de permitidos, no se otorgará una advertencia a los usuarios que envíen spam en esos canales"
     },
     DISALLOW_CHANNEL: {
-      TITLE: "Steps to remove a channel to the allowed list",
-      SUBTITLE: "Remove a channel to the allowed list",
-      WARNING: "If you remove a channel to the allowed list, a warn will be granted to those users who spam on those channels"
+      TITLE: "Pasos para eliminar un canal de la lista de permitidos",
+      SUBTITLE: "Eliminar un canal de la lista de permitidos",
+      WARNING: "Si eliminas un canal de la lista de permitidos, se otorgará una advertencia a los usuarios que envíen spam en esos canales"
     },
     ALLOW_ROLE: {
-      TITLE: "Steps to add a role to the allowed list",
-      SUBTITLE: "Add a role to the allowed list",
-      WARNING: "If you add a role to the allowed list, users who have that role assigned won't be warned if they spam"
+      TITLE: "Pasos para añadir un rol a la lista de permitidos",
+      SUBTITLE: "Añadir un rol a la lista de permitidos",
+      WARNING: "Si agregas un rol a la lista de permitidos, los usuarios que tengan ese rol asignado no recibirán una advertencia si envían spam"
     },
     DISALLOW_ROLE: {
-      TITLE: "Steps to remove a role to the allowed list",
-      SUBTITLE: "Remove a role to the allowed list",
-      WARNING: "If you remove a role to the allowed list, users who have that role assigned will be warned if they spam"
+      TITLE: "Pasos para eliminar un rol de la lista de permitidos",
+      SUBTITLE: "Eliminar un rol de la lista de permitidos",
+      WARNING: "Si eliminas un rol de la lista de permitidos, los usuarios que tengan ese rol asignado recibirán una advertencia si envían spam"
     },
     SET_THRESHOLD: {
-      TITLE: "Steps to set the threshold and time for duplicate messages",
-      SUBTITLE: "Set the threshold for duplicate messages",
+      TITLE: "Pasos para establecer el umbral de mensajes duplicados y el tiempo",
+      SUBTITLE: "Establecer el umbral de mensajes duplicados",
       TIME: {
-        SUBTITLE: "Set the time for duplicate messages"
+        SUBTITLE: "Establecer el tiempo para mensajes duplicados"
       }
     }
   },
   AUTO_MODERATION: {
-    DESCRIPTION: "This module will allow you to automatically sanction those users who repeatedly have incorrect behavior",
+    DESCRIPTION: "Este módulo te permitirá sancionar automáticamente a aquellos usuarios que tengan repetidamente un comportamiento incorrecto",
     SET_MAX_WARNINGS: {
-      TITLE: "Steps to set maximum warnings per level",
-      SUBTITLE: "Set maximum warnings per level"
+      TITLE: "Pasos para establecer las advertencias máximas por nivel",
+      SUBTITLE: "Establecer las advertencias máximas por nivel"
     },
     SET_ACTION: {
-      TITLE: "Steps to set a action per level",
-      SUBTITLE: "Set a action per level",
-      FULL_LIST_OF_ACTIONS: "You can see a full list of actions that Filo supports by **[clicking here]({{link}})**"
+      TITLE: "Pasos para establecer la acción por nivel",
+      SUBTITLE: "Establecer la acción por nivel",
+      FULL_LIST_OF_ACTIONS: "Puedes ver una lista completa de las acciones que admite Filo haciendo **[clic aquí]({{link}})**"
     },
     SET_TIME: {
-      TITLE: "Steps to set the time of a action per level",
-      SUBTITLE: "Set the time of a action per level"
+      TITLE: "Pasos para establecer el tiempo de la acción por nivel",
+      SUBTITLE: "Establecer el tiempo de la acción por nivel"
     }
   },
   COMMANDS: {
-    DESCRIPTION: "This module will allow you to partially customize the behavior of the Filo's commands",
+    DESCRIPTION: "Este módulo te permitirá personalizar parcialmente el comportamiento de los comandos de Filo",
     DISABLE_COMMANDS: {
-      ACTION: "Disable a Filo's command or re-enable it",
-      DESCRIPTION: "This module will allow you to disable the Filo commands that you don't want to be used on your guild",
+      ACTION: "Deshabilitar un comando de Filo o volver a habilitarlo",
+      DESCRIPTION: "Este módulo le permitirá deshabilitar los comandos de Filo que no desea que se usen en su servidor",
       DISABLE: {
-        TITLE: "Steps to disable a command",
-        SUBTITLE: "Disable a command"
+        TITLE: "Pasos para deshabilitar un comando",
+        SUBTITLE: "Deshabilitar un comando"
       },
       ENABLE: {
-        TITLE: "Steps to enable a command",
-        SUBTITLE: "Enable a command"
+        TITLE: "Pasos para habilitar un comando",
+        SUBTITLE: "Habilitar un comando"
       }
     }
   },
   FAREWELLS: {
-    DESCRIPTION: "This module will allow you to send a farewell message to the old members of the server",
+    DESCRIPTION: "Este módulo te permitirá enviar un mensaje de despedida a los antiguos miembros del servidor",
     SET_CHANNEL: {
-      TITLE: "Steps to set the farewells channel",
-      SUBTITLE: "Set the farewells channel"
+      TITLE: "Pasos para establecer el canal de despedidas",
+      SUBTITLE: "Establecer el canal de despedidas"
     },
     SET_MESSAGE: {
-      TITLE: "Steps to set the farewell message",
-      SUBTITLE: "Set the farewell message",
-      MESSAGE_VARIABLES: "You can set variables in the farewell message. You can find a list of all variables by **[clicking here]({{link}})**",
-      MESSAGE_CODE: "Message code",
-      RESULT_MESSAGE: "Result message"
+      TITLE: "Pasos para establecer el mensaje de despedida",
+      SUBTITLE: "Establecer el mensaje de despedida",
+      MESSAGE_VARIABLES: "Puedes establecer variables en el mensaje de despedida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí]({{link}})**",
+      MESSAGE_CODE: "Código del mensaje",
+      RESULT_MESSAGE: "Resultado del mensaje"
     },
     SET_MESSAGE_TYPE: {
-      TITLE: "Steps to set the message type",
-      SUBTITLE: "Set the message type",
-      WARNING: "If users have disabled the display of embeds, they won't see the farewell message",
+      TITLE: "Pasos para establecer el tipo de mensaje",
+      SUBTITLE: "Establecer el tipo de mensaje",
+      WARNING: "Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de despedida",
       SET_EMBED_COLOR: {
-        SUBTITLE: "Set the embed color",
-        WARNING: "Currently Filo doesn't have a command to set the embed color, however there is a way to change it. When Filo is going to send the farewell message through an embed, it obtains the information of the highest role assigned to it. If said role has a custom color, the color of the embed will be the same as said role"
+        SUBTITLE: "Establecer el color del embed",
+        WARNING: "Actualmente, Filo no tiene un comando para establecer el color del embed, sin embargo, hay una forma de cambiarlo. Cuando Filo va a enviar el mensaje de despedida a través de un embed, obtiene la información del rol más alto que ella tiene asignado. Si dicho rol tiene un color personalizado, el color del embed será el mismo que dicho rol"
       }
     },
     VARIABLES: {
-      WARNING: "These variables may not always send the expected information",
-      VARIABLES: "{{variable}} variables"
+      WARNING: "Es posible que estas variables no siempre envíen la información esperada",
+      VARIABLES: "Variables de {{variable}}"
     }
   },
   WELCOMES: {
-    DESCRIPTION: "This module will allow you to send a welcome message to the new members of the server",
+    DESCRIPTION: "Este módulo te permitirá enviar un mensaje de bienvenida a los nuevos miembros del servidor",
     SET_CHANNEL: {
-      TITLE: "Steps to set the welcomes channel",
-      SUBTITLE: "Set the welcomes channel"
+      TITLE: "Pasos para establecer el canal de bienvenidas",
+      SUBTITLE: "Establecer el canal de bienvenidas"
     },
     SET_MESSAGE: {
-      TITLE: "Steps to set the welcome message",
-      SUBTITLE: "Set the welcome message",
-      MESSAGE_VARIABLES: "You can set variables in the welcome message. You can find a list of all variables by **[clicking here]({{link}})**",
-      MESSAGE_CODE: "Message code",
-      RESULT_MESSAGE: "Result message"
+      TITLE: "Pasos para establecer el mensaje de bienvenida",
+      SUBTITLE: "Establecer el mensaje de bienvenida",
+      MESSAGE_VARIABLES: "Puedes establecer variables en el mensaje de bienvenida. Puedes encontrar una lista de todas las variables haciendo **[clic aquí]({{link}})**",
+      MESSAGE_CODE: "Código del mensaje",
+      RESULT_MESSAGE: "Resultado del mensaje"
     },
     SET_MESSAGE_TYPE: {
-      TITLE: "Steps to set the message type",
-      SUBTITLE: "Set the message type",
-      WARNING: "If users have disabled the display of embeds, they won't see the welcome message",
+      TITLE: "Pasos para establecer el tipo de mensaje",
+      SUBTITLE: "Establecer el tipo de mensaje",
+      WARNING: "Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de bienvenida",
       SET_EMBED_COLOR: {
-        SUBTITLE: "Set the embed color",
-        WARNING: "Currently Filo doesn't have a command to set the embed color, however there is a way to change it. When Filo is going to send the welcome message through an embed, it obtains the information of the highest role assigned to it. If said role has a custom color, the color of the embed will be the same as said role"
+        SUBTITLE: "Establecer el color del embed",
+        WARNING: "Actualmente, Filo no tiene un comando para establecer el color del embed, sin embargo, hay una forma de cambiarlo. Cuando Filo va a enviar el mensaje de bienvenida a través de un embed, obtiene la información del rol más alto que ella tiene asignado. Si dicho rol tiene un color personalizado, el color del embed será el mismo que dicho rol"
       }
     },
     VARIABLES: {
-      WARNING: "These variables may not always send the expected information",
-      VARIABLES: "{{variable}} variables"
+      WARNING: "Es posible que estas variables no siempre envíen la información esperada",
+      VARIABLES: "Variables de {{variable}}"
     },
     SET_ROLE: {
-      DESCRIPTION: "This module will allow you to grant a welcome role to new members",
+      DESCRIPTION: "Este módulo te permitirá otorgar un rol de bienvenida a los nuevos miembros",
       MODULE_EXCEPTIONS: {
-        FILO_LOWER_WELCOME_ROLE: "If the position of the Filo's roles are lower than the welcome role",
-        FILO_EQUAL_WELCOME_ROLE: "If the position of the Filo's roles is equal to the welcome role",
+        FILO_LOWER_WELCOME_ROLE: "Si la posición de los roles de Filo es más baja que la del rol de bienvenida",
+        FILO_EQUAL_WELCOME_ROLE: "Si la posición de los roles de Filo es igual que la del rol de bienvenida",
       },
-      TITLE: "Steps to set the welcome role",
-      SUBTITLE: "Set the welcome role",
-      WARNING: "The Filo's roles must be higher than the selected role, also the selected role can't be managed by an integration"
+      TITLE: "Pasos para establecer el rol de bienvenida",
+      SUBTITLE: "Establecer el rol de bienvenida",
+      WARNING: "Los roles de Filo deben ser más altos que el rol seleccionado, además, el rol seleccionado no puede ser administrado por una integración"
     }
   },
   GUILD: {
-    DESCRIPTION: "This module will allow you to set certain settings that can help us to help you",
+    DESCRIPTION: "Este módulo te permitirá establecer ciertas configuraciones que pueden ayudarnos a ayudarlo",
     GUILD_INVITE: {
-      ACTION: "Set up a permanent guild invite",
-      DESCRIPTION: "This module will allow you to set a permanent invite from the guild",
+      ACTION: "Configurar una invitación de gremio permanente",
+      DESCRIPTION: "Este módulo te permitirá establecer una invitación permanente del gremio",
       CREATE_A_INVITE: {
-        TITLE: "Steps to create the invite on a channel",
-        SUBTITLE: "Create the invite on a channel"
+        TITLE: "Pasos para crear la invitación en un canal",
+        SUBTITLE: "Crear la invitación en un canal"
       },
       SET_A_INVITE: {
-        TITLE: "Steps to set a existing invite from a channel",
-        SUBTITLE: "Set a existing invite from a channel",
-        INVITE_URL: "Invite URL",
-        INVITE_CODE: "Invite Code",
-        WARNING: "The invite you set must be from the same guild"
+        TITLE: "Pasos para configurar una invitación existente desde un canal",
+        SUBTITLE: "Establecer una invitación existente de un canal",
+        INVITE_URL: "URL de la Invitación",
+        INVITE_CODE: "Código de la Invitación",
+        WARNING: "La invitación que establezcas debe ser del mismo gremio"
       }
     },
     MUTED_ROLE: {
-      ACTION: "Set up the Muted Role",
-      DESCRIPTION: "This module will allow you to set the Muted role",
+      ACTION: "Configurar el rol Silenciado",
+      DESCRIPTION: "Este módulo le permitirá configurar el rol Silenciado",
       CREATE_THE_ROLE: {
-        TITLE: "Steps to create the muted role",
-        SUBTITLE: "Create the the muted role"
+        TITLE: "Pasos para crear el rol Silenciado",
+        SUBTITLE: "Crea el rol Silenciado"
       },
       SET_THE_ROLE: {
-        TITLE: "Steps to set a existing muted role",
-        SUBTITLE: "Set a existing muted role"
+        TITLE: "Pasos para establecer el rol Silenciado",
+        SUBTITLE: "Establecer el rol Silenciado"
       }
     }
   },
   LANGUAGE: {
-    DESCRIPTION: "This module will allow you to set or reset the Filo's language; this will affect all current and future commands, modules and systems",
+    DESCRIPTION: "Este módulo te permitirá configurar o estabke el idioma de Filo; esto afectará a todos los comandos, módulos y sistemas actuales y futuros",
     SET_A_LANGUAGE: {
-      TITLE: "Steps to set a language",
-      SUBTITLE: "Set a language",
-      LANGUAGE_LIST: "You can see a complete list of languages supported by Filo by **[clicking here]({{link}})**",
-      LANGUAGE_FULL_CODE: "Language Full Code"
+      TITLE: "Pasos para establecer el idioma",
+      SUBTITLE: "Establecer el idioma",
+      LANGUAGE_LIST: "Puedes ver una lista completa de los idiomas admitidos por Filo haciendo **[clic aquí]({{link}})**",
+      LANGUAGE_FULL_CODE: "Código Completo del Idioma"
     },
     SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's translations may contain errors, we are human!\nIf you find any errors, please report them in **[our translation repository]({{link}})** or **[contact us]({{link_2}})**",
-      SHORT_CODE: "Short code",
-      FULL_CODE: "Full code"
+      WARNING: "Las traducciones de Filo pueden contener errores, ¡somos humanos!" + "\n" + "Si encuentra algún error, infórmelo en **[nuestro repositorio de traducción]({{link}})** o **[contáctanos]({{link_2}})**",
+      SHORT_CODE: "Código Corto",
+      FULL_CODE: "Código Completo"
     }
   },
   LOGGING: {
-    DESCRIPTION: "This module will allow you to send all the server logs to a specific channel",
+    DESCRIPTION: "Este módulo te permitirá enviar todos los registros del servidor a un canal específico",
     MODULE_EXCEPTIONS: {
-      WEBHOOK_REMOVED: "If the webhook has been removed",
+      WEBHOOK_REMOVED: "Si se ha eliminado el webhook",
     },
     SET_CHANNEL: {
-      TITLE: "Steps to set the logging channel",
-      SUBTITLE: "Set the logging channel",
-      SUGGESTION: "The channel you select should be private and accessible to server moderators"
+      TITLE: "Pasos para establecer el canal de registros",
+      SUBTITLE: "Establecer el canal de registros",
+      SUGGESTION: "El canal que selecciones debe ser privado y accesible para los moderadores del servidor"
     }
   },
   MEMBER_COUNTER: {
-    DESCRIPTION: "This module will allow you to display the member count of your guild in a voice channel",
+    DESCRIPTION: "Este módulo te permitirá mostrar el contador de miembros de tu gremio en un canal de voz",
     SET_CHANNEL: {
-      TITLE: "Steps to set the member-counter channel",
-      SUBTITLE: "Set the member-counter channel",
-      INVALID_CHANNEL_WARNING: "The channel you select must be **voice channel**, otherwise the module won't work"
+      TITLE: "Pasos para establecer el canal de contador de miembros",
+      SUBTITLE: "Establecer el canal contador de miembros",
+      INVALID_CHANNEL_WARNING: "El canal que selecciones debe ser un **canal de voz**, de lo contrario, el módulo no funcionará"
     },
     SET_CHANNEL_NAME: {
-      TITLE: "Steps to set the member-counter channel name",
-      SUBTITLE: "Set the member-counter channel name",
-      MAX_LENGTH: "The channel name can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
+      TITLE: "Pasos para establecer el nombre del canal contador de miembros",
+      SUBTITLE: "Establecer el nombre del canal contador de miembros",
+      MAX_LENGTH: "El nombre del canal no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{members}` en el contenido"
     },
     NICKNAME: {
-      DESCRIPTION: "This module will allow you to set a member counter on Filo's nickname",
+      DESCRIPTION: "Este módulo te permitirá establecer un contador de miembros en el apodo de Filo",
       SET_NICKNAME: {
-        TITLE: "Steps to set the nickname",
-        SUBTITLE: "Set the nickname",
-        MAX_LENGTH: "The nickname can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
+        TITLE: "Pasos para establecer el apodo",
+        SUBTITLE: "Establecer el apodo",
+        MAX_LENGTH: "El apodo no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{members}` en el contenido"
       }
     }
   },
   PREFIX: {
-    DESCRIPTION: "This module will allow you to set or reset the Filo's prefix",
+    DESCRIPTION: "Este módulo te permitirá configurar o restablecer el prefijo de Filo",
     SET_PREFIX: {
-      TITLE: "Steps to set a new prefix",
-      SUBTITLE: "Set a new prefix",
-      NEW_PREFIX: "Prefix",
-      SLASH_PREFIX_WARNING: "Slash prefixes aren't supported by Filo",
-      MAX_LENGTH: "You can't set a prefix that is longer than **{{number}}** characters"
+      TITLE: "Pasos para establecer un nuevo prefijo",
+      SUBTITLE: "Establecer un nuevo prefijo",
+      NEW_PREFIX: "Prefijo",
+      SLASH_PREFIX_WARNING: "Los prefijos de barra no son compatibles con Filo",
+      MAX_LENGTH: "No puede establecer un prefijo que tenga más de **{{number}}** caracteres"
     }
   },
   REPORTS: {
-    DESCRIPTION: "This module will allow you to report to other members and send them to a report channel",
+    DESCRIPTION: "Este módulo te permitirá reportar a otros miembros y enviarlos a un canal de reportes",
     MODULE_EXCEPTIONS: {
-      WEBHOOK_REMOVED: "If the webhook has been removed"
+      WEBHOOK_REMOVED: "Si se ha eliminado el webhook"
     },
     SET_CHANNEL: {
-      TITLE: "Steps to set the reports channel",
-      SUBTITLE: "Set the reports channel",
-      SUGGESTION: "The channel you select should be private and accessible to server moderators"
+      TITLE: "Pasos para establer el canal de reportes",
+      SUBTITLE: "Establecer el canal de reportes",
+      SUGGESTION: "El canal que selecciones debe ser privado y accesible para los moderadores del servidor"
     }
   }
 };
 
 exports.CLOUDFLARE = {
-  DESCRIPTION: "Here you'll find useful documentation on how Cloudflare works on the Filo service",
-  IP_ADDRESS: "IP address",
-  YOUR_IP_ADDRESS: "Your IP address",
-  ISP: "ISP (AKA: Internet Service Provider)",
-  YOUR_ISP: "Your ISP (AKA: Internet Service Provider)",
-  IP_ADDRESS_RANGE: "IP address range",
-  YOUR_IP_ADDRESS_RANGE: "Your IP address range",
+  DESCRIPTION: "Aquí encontrará documentación útil sobre cómo funciona Cloudflare en el servicio Filo",
+  IP_ADDRESS: "Dirección IP",
+  YOUR_IP_ADDRESS: "Tu dirección IP",
+  ISP: "ISP (AKA: Proveedor de Servicios de Internet)",
+  YOUR_ISP: "Tu ISP (AKA: Proveedor de Servicios de Internet)",
+  IP_ADDRESS_RANGE: "Rango de dirección IP",
+  YOUR_IP_ADDRESS_RANGE: "Tu rango de dirección IP",
   USER_AGENT: "User-Agent",
-  YOUR_USER_AGENT: "Your User-Agent",
-  COUNTRY: "Country",
-  YOUR_COUNTRY: "Your country",
+  YOUR_USER_AGENT: "Tu User-Agent",
+  COUNTRY: "País",
+  YOUR_COUNTRY: "Tu país",
   WHATS_CLOUDFLARE: {
-    TITLE: "What's Cloudflare?",
-    DESCRIPTION: "Cloudflare is one of the biggest networks operating on the Internet. People use Cloudflare services for the purposes of increasing the security and performance of their web sites and services"
+    TITLE: "¿Qué es Cloudflare?",
+    DESCRIPTION: "Cloudflare es una de las redes más grandes que operan en Internet. Las personas utilizan los servicios de Cloudflare con el fin de aumentar la seguridad y el rendimiento de sus sitios web y servicios"
   },
   CLOUDFLARE_HELP: {
-    TITLE: "How does Cloudflare help Filo?",
-    DESCRIPTION: "Cloudflare helps Filo by protecting its website and API from malicious people"
+    TITLE: "¿Cómo ayuda Cloudflare a Filo?",
+    DESCRIPTION: "Cloudflare ayuda a Filo protegiendo su sitio web y API de personas malintencionadas"
   },
   CLOUDFLARE_BANS: {
-    TITLE: "Cloudflare bans",
-    DESCRIPTION: "It's essential that we protect our website from people with malicious intent, for this we are using bans on Cloudflare. Below you'll find information about these bans and how they can affect you",
+    TITLE: "Prohibiciones de Cloudflare",
+    DESCRIPTION: "Es esencial que protejamos nuestro sitio web de personas con malas intenciones, para ello estamos usando prohibiciones en Cloudflare. A continuación, encontrará información sobre estas prohibiciones y cómo pueden afectarlo",
     WHATS_IT: {
-      TITLE: "What's a Cloudflare ban?",
-      DESCRIPTION: "A Cloudflare ban is a temporary or permanent sanction that will deny you access to our website. The ban can be given by:"
+      TITLE: "¿Qué es una prohibición de Cloudflare?",
+      DESCRIPTION: "Una prohibición de Cloudflare es una sanción temporal o permanente que le negará el acceso a nuestro sitio web. La prohibición puede ser dada por:"
     },
     HOW_TO_IDENTIFY_IT: {
-      TITLE: "How can I identify a Cloudflare ban?",
-      DESCRIPTION: "You'll be able to quickly identify a Cloudflare ban, because you'll receive a 403 error followed by an error page titled \"Access Denied\"",
-      EXAMPLE_DESCRIPTION: "Example of a page that shows that your IP address has been banned and you can't access its content"
+      TITLE: "¿Cómo identifico una prohibición de Cloudflare?",
+      DESCRIPTION: "Podrá identificar rápidamente una prohibición de Cloudflare, porque recibirá un error 403 seguido de una página de error titulada \"Access Denied\"",
+      EXAMPLE_DESCRIPTION: "Ejemplo de una página que muestra que su dirección IP ha sido prohibida y no puede acceder a su contenido"
     }
   },
   BANNED_ACTIONS: {
-    TITLE: "What actions are banned from Cloudflare?",
-    DESCRIPTION: "Information on what actions can be banned from Cloudflare is specified below, however this document may not be 100% accurate for security reasons",
-    EXPLANATION_ERROR_429: "429 errors tell browsers and applications making requests of any kind to our website that your rate limit is being exceeded",
-    INDIVIDUAL_OR_SPECIFIC: "Individual or specific",
-    GLOBAL_OR_COMMON: "Global or common",
-    INDIVIDUAL_EXPLANATION: "The individual or specific rate limits are more restrictive, but, as a consequence, exceeding this limit won't result in a ban on Cloudflare (although it would be advisable not to exceed these limits). These limits are specific to each API endpoint",
-    GLOBAL_EXPLANATION: "Global or common rate limits are restrictive in the long term, that's, if you make a large number of requests per minute, you'll likely receive a global rate limit (you won't be allowed to access any other API endpoints during a rate limit)" + ".\n\n" + "If you exceed 5 times the warning for exceeding the global request quota in less than 1 hour, your IP address will be temporarily banned for 1 hour",
-    CLARIFICATION: "Please note that Cloudflare bans affect all domains related to Filo",
+    TITLE: "¿Qué acciones están prohibidas en Cloudflare?",
+    DESCRIPTION: "La información sobre qué acciones se pueden prohibir de Cloudflare se especifica a continuación; sin embargo, este documento puede no ser 100% exacto por razones de seguridad",
+    EXPLANATION_ERROR_429: "Los errores 429 le dicen a los navegadores y aplicaciones que realizan solicitudes de cualquier tipo a nuestro sitio web que se está excediendo su límite de velocidad",
+    INDIVIDUAL_OR_SPECIFIC: "Individual o específico",
+    GLOBAL_OR_COMMON: "Global o común",
+    INDIVIDUAL_EXPLANATION: "Los límites de tarifa individuales o específicos son más restrictivos, pero, como consecuencia, exceder este límite no resultará en una prohibición de Cloudflare (aunque sería recomendable no exceder estos límites). Estos límites son específicos para cada punto final de la API",
+    GLOBAL_EXPLANATION: "Los límites de tasa globales o comunes son restrictivos a largo plazo, es decir, si realiza una gran cantidad de solicitudes por minuto, es probable que reciba un límite de tasa global (no se le permitirá acceder a ningún otro punto final de API durante una tasa límite) " + ".\n\n" + " Si excede 5 veces la advertencia por exceder la cuota de solicitud global en menos de 1 hora, su dirección IP será prohibida temporalmente durante 1 hora",
+    CLARIFICATION: "Tenga en cuenta que las prohibiciones de Cloudflare afectan a todos los dominios relacionados con Filo",
     EXCESS_429_ERRORS_ONLY_API: {
-      TITLE: "Excess 429 errors in the API",
-      DESCRIPTION: "The API has two types of rate limits"
+      TITLE: "Exceso de errores 429 en la API",
+      DESCRIPTION: "La API tiene dos tipos de límites de tasa"
     },
     EXCESS_429_ERRORS: {
-      TITLE: "Excess 429 errors in the rest of the service",
-      DESCRIPTION: "The rest of the Filo service has two types of rate limits"
+      TITLE: "Exceso de errores 429 en el resto del servicio",
+      DESCRIPTION: "El resto del servicio Filo tiene dos tipos de límites de tarifas"
     }
   },
   APPEAL_A_BAN: {
-    TITLE: "Appeal a ban on Cloudflare",
-    DESCRIPTION: "Below you'll find information on how to appeal a ban on Cloudflare",
+    TITLE: "Apelar la prohibición de Cloudflare",
+    DESCRIPTION: "A continuación, encontrarás información sobre cómo apelar una prohibición de Cloudflare",
     ACCORDING_TO_THE_TIME: {
-      TITLE: "Appeal according to the duration of the ban",
-      TEMPORARY: "Temporary",
-      PERMANENT: "Permanent",
-      PERMANENT_APPEAL: "You can appeal a permanent ban by **[clicking here]({{link}})**"
+      TITLE: "Apelación según la duración de la prohibición",
+      TEMPORAL: "Temporal",
+      PERMANENT: "Permanente",
+      PERMANENT_APPEAL: "Puedes apelar una prohibición permanente haciendo **[clic aquí]({{link}})**"
     },
     ACCORDING_TO_THE_TYPE: {
-      TITLE: "Appeal according to the type of ban",
-      DESCRIPTION: "Below you'll find information on how to appeal the type of ban",
-      WARNING: "Please note that some bans can't be appealed due to their nature",
-      IP_ADDRESS: "If you were banned by mistake as you got a banned IP address from Cloudflare, please turn off your router for 5 minutes for the IP address to be changed. Otherwise **[click here]({{link}})**",
-      ISP: "If you were banned because of your ISP, it's very likely that we received an excessive amount of requests that result in 429 errors and, therefore, we determined that your ISP should be banned. there's no appeal available",
-      IP_ADDRESS_RANGE: "If I was banned because of your IP address range, it's very likely that we received an excessive amount of requests that result in 429 errors and, therefore, we determined that your IP address range should be banned. Please turn off your router for 5 minutes for the IP address to be changed. Otherwise, there's no appeal available",
-      USER_AGENT: "If you were banned because of your User-Agent, it's very likely that we determined that your User-Agent is dangerous or related to harmful purposes. there's no appeal available",
-      NO_APPEALABLE: "there's no appeal available"
+      TITLE: "Apelar según el tipo de prohibición",
+      DESCRIPTION: "A continuación, encontrará información sobre cómo apelar cada tipo de prohibición",
+      WARNING: "Tenga en cuenta que algunas prohibiciones no se pueden apelar debido a su naturaleza",
+      IP_ADDRESS: "Si fue prohibido por error porque obtuvo una dirección IP prohibida de Cloudflare, apague su router durante 5 minutos para que se cambie la dirección IP. En caso contrario haga **[clic aquí]({{link}})**",
+      ISP: "Si fue baneado debido a su ISP, es muy probable que recibamos una cantidad excesiva de solicitudes que resulten en errores 429 y, por lo tanto, determinamos que su ISP debería ser prohibido. No hay apelación disponible",
+      IP_ADDRESS_RANGE: "Si le prohibieron debido a su rango de direcciones IP, es muy probable que recibamos una cantidad excesiva de solicitudes que resulten en errores 429 y, por lo tanto, determinamos que su rango de direcciones IP debería ser prohibido. Apague su router durante 5 minutos para que se cambie la dirección IP. De lo contrario, no hay apelación disponible",
+      USER_AGENT: "Si fue baneado debido a su User-Agent, es muy probable que hayamos determinado que su User-Agent es peligroso o está relacionado con propósitos dañinos. No hay apelación disponible",
+      NO_APPEALABLE: "no hay apelación disponible"
     }
   },
   REPETITIVE_SANCTIONS: {
-    TITLE: "Repetitive sanctions",
-    DESCRIPTION: "The automatic sanctions of our service are always temporary, however, if an IP address or ISP receives constant sanctions, our team can permanently ban the following parameters:"
+    TITLE: "Sanciones repetitivas",
+    DESCRIPTION: "Las sanciones automáticas de nuestro servicio son siempre temporales, sin embargo, si una dirección IP o ISP recibe sanciones constantes, nuestro equipo puede prohibir permanentemente los siguientes parámetros:"
   },
   PERMANENT_BANS: {
-    TITLE: "Permanent bans on Cloudflare",
-    DESCRIPTION: "Permanent Cloudflare bans are granted as the last measure of protection for our service. While it's true that, in the event of an ISP ban, all of its clients are denied access to our website, it isn't entirely true",
+    TITLE: "Prohibiciones permanentes de Cloudflare",
+    DESCRIPTION: "Las prohibiciones permanentes de Cloudflare se otorgan como la última medida de protección para nuestro servicio. Si bien es cierto que, en caso de una prohibición de ISP, a todos sus clientes se les niega el acceso a nuestro sitio web, no es del todo cierto",
     ISP: {
-      TITLE: "ISP ban",
-      DESCRIPTION: "It isn't entirely true that to protect our website we ban an ISP, rather we force all clients of this ISP to perform a captcha. This validates requests and makes it possible to deny access to people with bad intentions"
+      TITLE: "Prohibición del ISP",
+      DESCRIPTION: "No es del todo cierto que para proteger nuestro sitio web prohibimos un ISP, sino que obligamos a todos los clientes de este ISP a realizar un captcha. Esto valida las solicitudes y permite denegar el acceso a personas con malas intenciones"
     },
     IP_ADDRESS_RANGE: {
-      TITLE: "IP address range ban",
-      DESCRIPTION: "Depending on the situation, if an IP address range has been permanently banned, on special occasions, it's possible that no type of captcha is performed to validate the requests. Likewise, the priority of our team is to reject requests with bad intentions as the main measure"
+      TITLE: "Prohibición del rango de direcciones IP",
+      DESCRIPTION: "Dependiendo de la situación, si un rango de direcciones IP ha sido prohibido permanentemente, en ocasiones especiales, es posible que no se realice ningún tipo de captcha para validar las solicitudes. Asimismo, la prioridad de nuestro equipo es rechazar las solicitudes con malas intenciones como principal medida"
     },
     USER_AGENT: {
-      TITLE: "User-Agent ban",
-      DESCRIPTION: "Typically, those who modify the User-Agent of their browser or application to make requests to a website know what they are doing. Modification to an unknown User-Agent can be interpreted as a threat and receive a sanction from us" + ".\n\n" + "Our recommendation is to leave the browser's default User-Agent or specify a known User-Agent"
+      TITLE: "Prohibición del User-Agent",
+      DESCRIPTION: "Normalmente, quienes modifican el User-Agent de su navegador o aplicación para realizar solicitudes a un sitio web saben lo que están haciendo. La modificación a un User-Agent desconocido puede interpretarse como una amenaza y recibir una sanción nuestra " + ".\n\n" + " Nuestra recomendación es dejar el User-Agent predeterminado del navegador o especificar un User-Agent conocido"
     },
     COUNTRY: {
-      TITLE: "Country ban",
-      DESCRIPTION: "It isn't entirely true that we ban countries that make malicious requests (at least not if we consider the number of malicious requests tolerable). As a priority, we'll request a captcha to all requests from those countries and all requests with bad intentions will be rejected, to ensure that our service is accessible to people with good intentions"
+      TITLE: "Prohibición del país",
+      DESCRIPTION: "No es del todo cierto que prohibamos los países que realizan solicitudes maliciosas (al menos no si consideramos tolerable la cantidad de solicitudes maliciosas). Como prioridad, solicitaremos un captcha a todas las solicitudes de esos países y todas las solicitudes con malas intenciones serán rechazadas, para garantizar que nuestro servicio sea accesible para personas con buenas intenciones"
     }
   },
   HCAPTCHA: {
     TITLE: "hCaptcha",
-    DESCRIPTION: "The captcha is managed by **[hCaptcha]({{link_1}})** and applies a **[Terms and Conditions]({{link_2}})** and **[Privacy Policy]({{link_3}})**",
-    EXAMPLE_CAPTCHA: "Example of a page that shows an hCaptcha to be able to access its content"
+    DESCRIPTION: "El captcha es administrado por **[hCaptcha]({{link_1}})** y aplica unos **[Términos y Condiciones]({{link_2}})** y **[Política de Privacidad]({{link_3}})**",
+    EXAMPLE_CAPTCHA: "Ejemplo de una página que muestra un hCaptcha para poder acceder a su contenido"
   }
 };
 
 exports.COMMON_ERRORS = {
-  DESCRIPTION: "Here you'll find documented all Filo errors along with their possible solutions",
-  SOLUTION: "Solution",
+  DESCRIPTION: "Aquí encontrarás documentados todos los errores de Filo junto con sus posibles soluciones",
+  SOLUTION: "Solución",
   SOMETHING_WENT_WRONG: {
-    TITLE: "Something went wrong when trying to execute that action",
+    TITLE: "Algo salió mal al intentar ejecutar esa acción",
     WITHOUT_TRACKING_ID: {
-      TITLE: "Without Tracking ID",
-      DESCRIPTION: "This is an error that will be granted whenever something fails on your part, for example, the lack of permissions from Filo can cause this error to be sent",
-      SOLUTION: "Check that the Filo permissions are correctly placed and that the role hierarchy is appropriate for each situation"
+      TITLE: "Sin ID de Seguimiento",
+      DESCRIPTION: "Este es un error que se otorgará siempre que algo falle de tu parte, por ejemplo, la falta de permisos de Filo puede hacer que se envíe este error",
+      SOLUTION: "Verifica que los permisos de Filo estén colocados correctamente y que la jerarquía de roles sea adecuada para cada situación"
     },
     WITH_TRACKING_ID: {
-      TITLE: "With Tracking ID",
-      DESCRIPTION: "This error occurs when something isn't working on our side or the Discord API doesn't return satisfactory responses",
-      SOLUTION: "Inform the Filo Development Team and wait for a solution to the problem",
-      DISCLAIMER_WARNING: "It's possible that there's no definitive solution, depending on the causes of the error"
+      TITLE: "Con ID de Seguimiento",
+      DESCRIPTION: "Este error ocurre cuando algo no funciona de nuestro lado o la API de Discord no devuelve respuestas satisfactorias",
+      SOLUTION: "Informa al equipo de desarrollo de Filo y espere una solución al problema",
+      DISCLAIMER_WARNING: "Es posible que no haya una solución definitiva, dependiendo de las causas del error"
     }
   },
   MODULE_DISABLED: {
-    TITLE: "The {{module}} module is disabled",
-    DESCRIPTION: "This is an error that's sent when you try to use a command or functionality that's only available if you have the necessary module enabled",
-    SOLUTION: "Enable the necessary module that's specified in the error message"
+    TITLE: "El módulo {{module}} está deshabilitado",
+    DESCRIPTION: "Este es un error que se envía cuando intenta usar un comando o función que solo está disponible si tiene habilitado el módulo necesario",
+    SOLUTION: "Habilite el módulo necesario que se especifica en el mensaje de error"
   },
   MODULE_DOES_NOT_WORK: {
-    TITLE: "The {{module}} module doesn't work even though it's enabled",
-    DESCRIPTION: "This error is given when something in the module configuration does not work as it should; The causes could be: lack of necessary permissions, problems in the role hierarchy, the necessary channel ceased to exist, malformation of the information sent by the module, the webhook ceased to exist, etc",
-    SOLUTION: "Check that the configuration is correct, the permissions are correct and if the hierarchy is correct",
-    CONTACT_US: "If you can't determine the problem why the module doesn't work, **[contact us]({{link}})**"
+    TITLE: "El módulo {{module}} no funciona aunque está habilitado",
+    DESCRIPTION: "Este error se da cuando algo en la configuración del módulo no funciona como debería; Las causas podrían ser: falta de permisos necesarios, problemas en la jerarquía de roles, el canal necesario dejó de existir, malformación de la información enviada por el módulo, el webhook dejó de existir, etc",
+    SOLUTION: "Compruebe que la configuración sea correcta, los permisos sean correctos y si la jerarquía es correcta",
+    CONTACT_US: "Si no puedes determinar el problema por el que el módulo no funciona, **[contáctanos]({{link}})**"
   },
   MISSING_USER_PERMISSIONS: {
-    TITLE: "You don't have permissions to run the {{command}} command",
-    DESCRIPTION: "This error is given when you try to execute a command that you shouldn't have access to, for example, a moderation command without being a server moderator",
-    SOLUTION: "Ask a superior of your server to establish the necessary permissions for the execution of the command in question",
-    CONTACT_US: "If you can't determine which permission is necessary, **[contact us]({{link}})**"
+    TITLE: "No tienes permisos para ejecutar el comando {{command}}",
+    DESCRIPTION: "Este error se da cuando intentas ejecutar un comando al que no deberías tener acceso, por ejemplo, un comando de moderación sin ser moderador del servidor",
+    SOLUTION: "Solicite a un superior de su servidor que establezca los permisos necesarios para la ejecución del comando en cuestión",
+    CONTACT_US: "Si no puedes determinar qué permiso es necesario, **[contáctanos]({{link}})**"
   },
   HIERARCHY_ERROR: {
-    TITLE: "You don't have permissions to run the command {{command}} to {{user}}",
-    DESCRIPTION: "This error is given when you try to execute a command with a user who has a higher role hierarchy than yours",
-    SOLUTION: "Ask a superior to review your role hierarchy and that of the user with whom you want to run the command"
+    TITLE: "No tienes permisos para ejecutar el comando {{command}} con {{user}}",
+    DESCRIPTION: "Este error se da cuando intentas ejecutar un comando con un usuario que tiene una jerarquía de roles más alta que la tuya",
+    SOLUTION: "Solicite a un superior que revise su jerarquía de roles y la del usuario con el que desea ejecutar el comando"
   },
   AN_ERROR_OCURRED_API: {
-    TITLE: "An error occurred while trying to contact the API",
-    DESCRIPTION: "This error is given when the command or module depends on a third-party API and it doesn't return a successful response",
-    SOLUTION: "Try to try the action taken later, if it continues the same, **[contact us]({{link}})**"
+    TITLE: "Se produjo un error al intentar comunicarse con la API",
+    DESCRIPTION: "Este error se da cuando el comando o módulo depende de una API de terceros y no devuelve una respuesta satisfactoria",
+    SOLUTION: "Intente probar la acción tomada más tarde, si continúa igual, **[contáctanos]({{link}})**"
   },
   FILO_DOES_NOT_RESPOND: {
-    TITLE: "Filo doesn't respond to any command",
-    DESCRIPTION: "This error occurs when the Discord API doesn't send the necessary information about the permissions of Filo in the command execution channel",
-    SOLUTION: "Please try again later and if the problem persists, **[contact us]({{link}})**",
-    DISCLAIMER_WARNING: "There's currently no definitive solution to this error"
+    TITLE: "Filo no responde a ningún comando",
+    DESCRIPTION: "Este error ocurre cuando la API de Discord no envía la información necesaria sobre los permisos de Filo en el canal de ejecución de comandos",
+    SOLUTION: "Vuelve a intentarlo más tarde y, si el problema persiste, **[contáctanos]({{link}})**",
+    DISCLAIMER_WARNING: "Actualmente no hay una solución definitiva a este error"
   }
 };
