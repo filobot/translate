@@ -6,8 +6,6 @@ exports.LANGUAGE = {
   CONTRIBUTORS: ["iLxlo_"]
 };
 
-// Actualmente se está trabajando una re-traducción al Español de la Wiki.
-
 exports.TIME = {
   SECOND: "second",
   SECONDS: "seconds",
