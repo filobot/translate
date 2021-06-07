@@ -224,13 +224,11 @@ exports.MODULES = {
   ENABLE_MODULE: {
     TITLE: "Pasos para habilitar el módulo",
     SUBTITLE: "Habilitar el módulo",
-    DESCRIPTION: "Para habilitar el módulo debes ejecutar el siguiente comando: {{command}}",
     SUPPLEMENTARY_MODULE: "Este módulo se puede complementar con el módulo **[{{module}}]({{link}})**"
   },
   DISABLE_MODULE: {
     TITLE: "Pasos para deshabilitar el módulo",
-    SUBTITLE: "Deshabilitar el módulo",
-    DESCRIPTION: "Para deshabilitar el módulo debes ejecutar el siguiente comando: {{command}}",
+    SUBTITLE: "Deshabilitar el módulo"
   },
   RESET_MODULE: {
     TITLE: "Pasos para restablecer las configuraciones del módulo",

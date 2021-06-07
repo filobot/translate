@@ -222,13 +222,11 @@ exports.MODULES = {
   ENABLE_MODULE: {
     TITLE: "Steps to enable the module",
     SUBTITLE: "Enable the module",
-    DESCRIPTION: "To enable the module you must execute the following command: {{command}}",
     SUPPLEMENTARY_MODULE: "This module can be supplemented with the **[{{module}}]({{link}})** module"
   },
   DISABLE_MODULE: {
     TITLE: "Steps to disable the module",
-    SUBTITLE: "Disable the module",
-    DESCRIPTION: "To disable the module you must execute the following command: {{command}}",
+    SUBTITLE: "Disable the module"
   },
   RESET_MODULE: {
     TITLE: "Steps to reset module settings",
