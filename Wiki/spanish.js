@@ -526,155 +526,155 @@ exports.MODULES = {
 };
 
 exports.CLOUDFLARE = {
-  DESCRIPTION: "Here you'll find useful documentation on how Cloudflare works on the Filo service",
-  IP_ADDRESS: "IP address",
-  YOUR_IP_ADDRESS: "Your IP address",
-  ISP: "ISP (AKA: Internet Service Provider)",
-  YOUR_ISP: "Your ISP (AKA: Internet Service Provider)",
-  IP_ADDRESS_RANGE: "IP address range",
-  YOUR_IP_ADDRESS_RANGE: "Your IP address range",
+  DESCRIPTION: "Aquí encontrará documentación útil sobre cómo funciona Cloudflare en el servicio Filo",
+  IP_ADDRESS: "Dirección IP",
+  YOUR_IP_ADDRESS: "Tu dirección IP",
+  ISP: "ISP (AKA: Proveedor de Servicios de Internet)",
+  YOUR_ISP: "Tu ISP (AKA: Proveedor de Servicios de Internet)",
+  IP_ADDRESS_RANGE: "Rango de dirección IP",
+  YOUR_IP_ADDRESS_RANGE: "Tu rango de dirección IP",
   USER_AGENT: "User-Agent",
-  YOUR_USER_AGENT: "Your User-Agent",
-  COUNTRY: "Country",
-  YOUR_COUNTRY: "Your country",
+  YOUR_USER_AGENT: "Tu User-Agent",
+  COUNTRY: "País",
+  YOUR_COUNTRY: "Tu país",
   WHATS_CLOUDFLARE: {
-    TITLE: "What's Cloudflare?",
-    DESCRIPTION: "Cloudflare is one of the biggest networks operating on the Internet. People use Cloudflare services for the purposes of increasing the security and performance of their web sites and services"
+    TITLE: "¿Qué es Cloudflare?",
+    DESCRIPTION: "Cloudflare es una de las redes más grandes que operan en Internet. Las personas utilizan los servicios de Cloudflare con el fin de aumentar la seguridad y el rendimiento de sus sitios web y servicios"
   },
   CLOUDFLARE_HELP: {
-    TITLE: "How does Cloudflare help Filo?",
-    DESCRIPTION: "Cloudflare helps Filo by protecting its website and API from malicious people"
+    TITLE: "¿Cómo ayuda Cloudflare a Filo?",
+    DESCRIPTION: "Cloudflare ayuda a Filo protegiendo su sitio web y API de personas malintencionadas"
   },
   CLOUDFLARE_BANS: {
-    TITLE: "Cloudflare bans",
-    DESCRIPTION: "It's essential that we protect our website from people with malicious intent, for this we are using bans on Cloudflare. Below you'll find information about these bans and how they can affect you",
+    TITLE: "Prohibiciones de Cloudflare",
+    DESCRIPTION: "Es esencial que protejamos nuestro sitio web de personas con malas intenciones, para ello estamos usando prohibiciones en Cloudflare. A continuación, encontrará información sobre estas prohibiciones y cómo pueden afectarlo",
     WHATS_IT: {
-      TITLE: "What's a Cloudflare ban?",
-      DESCRIPTION: "A Cloudflare ban is a temporary or permanent sanction that will deny you access to our website. The ban can be given by:"
+      TITLE: "¿Qué es una prohibición de Cloudflare?",
+      DESCRIPTION: "Una prohibición de Cloudflare es una sanción temporal o permanente que le negará el acceso a nuestro sitio web. La prohibición puede ser dada por:"
     },
     HOW_TO_IDENTIFY_IT: {
-      TITLE: "How can I identify a Cloudflare ban?",
-      DESCRIPTION: "You'll be able to quickly identify a Cloudflare ban, because you'll receive a 403 error followed by an error page titled \"Access Denied\"",
-      EXAMPLE_DESCRIPTION: "Example of a page that shows that your IP address has been banned and you can't access its content"
+      TITLE: "¿Cómo identifico una prohibición de Cloudflare?",
+      DESCRIPTION: "Podrá identificar rápidamente una prohibición de Cloudflare, porque recibirá un error 403 seguido de una página de error titulada \"Access Denied\"",
+      EXAMPLE_DESCRIPTION: "Ejemplo de una página que muestra que su dirección IP ha sido prohibida y no puede acceder a su contenido"
     }
   },
   BANNED_ACTIONS: {
-    TITLE: "What actions are banned from Cloudflare?",
-    DESCRIPTION: "Information on what actions can be banned from Cloudflare is specified below, however this document may not be 100% accurate for security reasons",
-    EXPLANATION_ERROR_429: "429 errors tell browsers and applications making requests of any kind to our website that your rate limit is being exceeded",
-    INDIVIDUAL_OR_SPECIFIC: "Individual or specific",
-    GLOBAL_OR_COMMON: "Global or common",
-    INDIVIDUAL_EXPLANATION: "The individual or specific rate limits are more restrictive, but, as a consequence, exceeding this limit won't result in a ban on Cloudflare (although it would be advisable not to exceed these limits). These limits are specific to each API endpoint",
-    GLOBAL_EXPLANATION: "Global or common rate limits are restrictive in the long term, that's, if you make a large number of requests per minute, you'll likely receive a global rate limit (you won't be allowed to access any other API endpoints during a rate limit)" + ".\n\n" + "If you exceed 5 times the warning for exceeding the global request quota in less than 1 hour, your IP address will be temporarily banned for 1 hour",
-    CLARIFICATION: "Please note that Cloudflare bans affect all domains related to Filo",
+    TITLE: "¿Qué acciones están prohibidas en Cloudflare?",
+    DESCRIPTION: "La información sobre qué acciones se pueden prohibir de Cloudflare se especifica a continuación; sin embargo, este documento puede no ser 100% exacto por razones de seguridad",
+    EXPLANATION_ERROR_429: "Los errores 429 le dicen a los navegadores y aplicaciones que realizan solicitudes de cualquier tipo a nuestro sitio web que se está excediendo su límite de velocidad",
+    INDIVIDUAL_OR_SPECIFIC: "Individual o específico",
+    GLOBAL_OR_COMMON: "Global o común",
+    INDIVIDUAL_EXPLANATION: "Los límites de tarifa individuales o específicos son más restrictivos, pero, como consecuencia, exceder este límite no resultará en una prohibición de Cloudflare (aunque sería recomendable no exceder estos límites). Estos límites son específicos para cada punto final de la API",
+    GLOBAL_EXPLANATION: "Los límites de tasa globales o comunes son restrictivos a largo plazo, es decir, si realiza una gran cantidad de solicitudes por minuto, es probable que reciba un límite de tasa global (no se le permitirá acceder a ningún otro punto final de API durante una tasa límite) " + ".\n\n" + " Si excede 5 veces la advertencia por exceder la cuota de solicitud global en menos de 1 hora, su dirección IP será prohibida temporalmente durante 1 hora",
+    CLARIFICATION: "Tenga en cuenta que las prohibiciones de Cloudflare afectan a todos los dominios relacionados con Filo",
     EXCESS_429_ERRORS_ONLY_API: {
-      TITLE: "Excess 429 errors in the API",
-      DESCRIPTION: "The API has two types of rate limits"
+      TITLE: "Exceso de errores 429 en la API",
+      DESCRIPTION: "La API tiene dos tipos de límites de tasa"
     },
     EXCESS_429_ERRORS: {
-      TITLE: "Excess 429 errors in the rest of the service",
-      DESCRIPTION: "The rest of the Filo service has two types of rate limits"
+      TITLE: "Exceso de errores 429 en el resto del servicio",
+      DESCRIPTION: "El resto del servicio Filo tiene dos tipos de límites de tarifas"
     }
   },
   APPEAL_A_BAN: {
-    TITLE: "Appeal a ban on Cloudflare",
-    DESCRIPTION: "Below you'll find information on how to appeal a ban on Cloudflare",
+    TITLE: "Apelar la prohibición de Cloudflare",
+    DESCRIPTION: "A continuación, encontrarás información sobre cómo apelar una prohibición de Cloudflare",
     ACCORDING_TO_THE_TIME: {
-      TITLE: "Appeal according to the duration of the ban",
-      TEMPORARY: "Temporary",
-      PERMANENT: "Permanent",
-      PERMANENT_APPEAL: "You can appeal a permanent ban by **[clicking here]({{link}})**"
+      TITLE: "Apelación según la duración de la prohibición",
+      TEMPORAL: "Temporal",
+      PERMANENT: "Permanente",
+      PERMANENT_APPEAL: "Puedes apelar una prohibición permanente haciendo **[clic aquí]({{link}})**"
     },
     ACCORDING_TO_THE_TYPE: {
-      TITLE: "Appeal according to the type of ban",
-      DESCRIPTION: "Below you'll find information on how to appeal the type of ban",
-      WARNING: "Please note that some bans can't be appealed due to their nature",
-      IP_ADDRESS: "If you were banned by mistake as you got a banned IP address from Cloudflare, please turn off your router for 5 minutes for the IP address to be changed. Otherwise **[click here]({{link}})**",
-      ISP: "If you were banned because of your ISP, it's very likely that we received an excessive amount of requests that result in 429 errors and, therefore, we determined that your ISP should be banned. there's no appeal available",
-      IP_ADDRESS_RANGE: "If I was banned because of your IP address range, it's very likely that we received an excessive amount of requests that result in 429 errors and, therefore, we determined that your IP address range should be banned. Please turn off your router for 5 minutes for the IP address to be changed. Otherwise, there's no appeal available",
-      USER_AGENT: "If you were banned because of your User-Agent, it's very likely that we determined that your User-Agent is dangerous or related to harmful purposes. there's no appeal available",
-      NO_APPEALABLE: "there's no appeal available"
+      TITLE: "Apelar según el tipo de prohibición",
+      DESCRIPTION: "A continuación, encontrará información sobre cómo apelar cada tipo de prohibición",
+      WARNING: "Tenga en cuenta que algunas prohibiciones no se pueden apelar debido a su naturaleza",
+      IP_ADDRESS: "Si fue prohibido por error porque obtuvo una dirección IP prohibida de Cloudflare, apague su router durante 5 minutos para que se cambie la dirección IP. En caso contrario haga **[clic aquí]({{link}})**",
+      ISP: "Si fue baneado debido a su ISP, es muy probable que recibamos una cantidad excesiva de solicitudes que resulten en errores 429 y, por lo tanto, determinamos que su ISP debería ser prohibido. No hay apelación disponible",
+      IP_ADDRESS_RANGE: "Si le prohibieron debido a su rango de direcciones IP, es muy probable que recibamos una cantidad excesiva de solicitudes que resulten en errores 429 y, por lo tanto, determinamos que su rango de direcciones IP debería ser prohibido. Apague su router durante 5 minutos para que se cambie la dirección IP. De lo contrario, no hay apelación disponible",
+      USER_AGENT: "Si fue baneado debido a su User-Agent, es muy probable que hayamos determinado que su User-Agent es peligroso o está relacionado con propósitos dañinos. No hay apelación disponible",
+      NO_APPEALABLE: "no hay apelación disponible"
     }
   },
   REPETITIVE_SANCTIONS: {
-    TITLE: "Repetitive sanctions",
-    DESCRIPTION: "The automatic sanctions of our service are always temporary, however, if an IP address or ISP receives constant sanctions, our team can permanently ban the following parameters:"
+    TITLE: "Sanciones repetitivas",
+    DESCRIPTION: "Las sanciones automáticas de nuestro servicio son siempre temporales, sin embargo, si una dirección IP o ISP recibe sanciones constantes, nuestro equipo puede prohibir permanentemente los siguientes parámetros:"
   },
   PERMANENT_BANS: {
-    TITLE: "Permanent bans on Cloudflare",
-    DESCRIPTION: "Permanent Cloudflare bans are granted as the last measure of protection for our service. While it's true that, in the event of an ISP ban, all of its clients are denied access to our website, it isn't entirely true",
+    TITLE: "Prohibiciones permanentes de Cloudflare",
+    DESCRIPTION: "Las prohibiciones permanentes de Cloudflare se otorgan como la última medida de protección para nuestro servicio. Si bien es cierto que, en caso de una prohibición de ISP, a todos sus clientes se les niega el acceso a nuestro sitio web, no es del todo cierto",
     ISP: {
-      TITLE: "ISP ban",
-      DESCRIPTION: "It isn't entirely true that to protect our website we ban an ISP, rather we force all clients of this ISP to perform a captcha. This validates requests and makes it possible to deny access to people with bad intentions"
+      TITLE: "Prohibición del ISP",
+      DESCRIPTION: "No es del todo cierto que para proteger nuestro sitio web prohibimos un ISP, sino que obligamos a todos los clientes de este ISP a realizar un captcha. Esto valida las solicitudes y permite denegar el acceso a personas con malas intenciones"
     },
     IP_ADDRESS_RANGE: {
-      TITLE: "IP address range ban",
-      DESCRIPTION: "Depending on the situation, if an IP address range has been permanently banned, on special occasions, it's possible that no type of captcha is performed to validate the requests. Likewise, the priority of our team is to reject requests with bad intentions as the main measure"
+      TITLE: "Prohibición del rango de direcciones IP",
+      DESCRIPTION: "Dependiendo de la situación, si un rango de direcciones IP ha sido prohibido permanentemente, en ocasiones especiales, es posible que no se realice ningún tipo de captcha para validar las solicitudes. Asimismo, la prioridad de nuestro equipo es rechazar las solicitudes con malas intenciones como principal medida"
     },
     USER_AGENT: {
-      TITLE: "User-Agent ban",
-      DESCRIPTION: "Typically, those who modify the User-Agent of their browser or application to make requests to a website know what they are doing. Modification to an unknown User-Agent can be interpreted as a threat and receive a sanction from us" + ".\n\n" + "Our recommendation is to leave the browser's default User-Agent or specify a known User-Agent"
+      TITLE: "Prohibición del User-Agent",
+      DESCRIPTION: "Normalmente, quienes modifican el User-Agent de su navegador o aplicación para realizar solicitudes a un sitio web saben lo que están haciendo. La modificación a un User-Agent desconocido puede interpretarse como una amenaza y recibir una sanción nuestra " + ".\n\n" + " Nuestra recomendación es dejar el User-Agent predeterminado del navegador o especificar un User-Agent conocido"
     },
     COUNTRY: {
-      TITLE: "Country ban",
-      DESCRIPTION: "It isn't entirely true that we ban countries that make malicious requests (at least not if we consider the number of malicious requests tolerable). As a priority, we'll request a captcha to all requests from those countries and all requests with bad intentions will be rejected, to ensure that our service is accessible to people with good intentions"
+      TITLE: "Prohibición del país",
+      DESCRIPTION: "No es del todo cierto que prohibamos los países que realizan solicitudes maliciosas (al menos no si consideramos tolerable la cantidad de solicitudes maliciosas). Como prioridad, solicitaremos un captcha a todas las solicitudes de esos países y todas las solicitudes con malas intenciones serán rechazadas, para garantizar que nuestro servicio sea accesible para personas con buenas intenciones"
     }
   },
   HCAPTCHA: {
     TITLE: "hCaptcha",
-    DESCRIPTION: "The captcha is managed by **[hCaptcha]({{link_1}})** and applies a **[Terms and Conditions]({{link_2}})** and **[Privacy Policy]({{link_3}})**",
-    EXAMPLE_CAPTCHA: "Example of a page that shows an hCaptcha to be able to access its content"
+    DESCRIPTION: "El captcha es administrado por **[hCaptcha]({{link_1}})** y aplica unos **[Términos y Condiciones]({{link_2}})** y **[Política de Privacidad]({{link_3}})**",
+    EXAMPLE_CAPTCHA: "Ejemplo de una página que muestra un hCaptcha para poder acceder a su contenido"
   }
 };
 
 exports.COMMON_ERRORS = {
-  DESCRIPTION: "Here you'll find documented all Filo errors along with their possible solutions",
-  SOLUTION: "Solution",
+  DESCRIPTION: "Aquí encontrarás documentados todos los errores de Filo junto con sus posibles soluciones",
+  SOLUTION: "Solución",
   SOMETHING_WENT_WRONG: {
-    TITLE: "Something went wrong when trying to execute that action",
+    TITLE: "Algo salió mal al intentar ejecutar esa acción",
     WITHOUT_TRACKING_ID: {
-      TITLE: "Without Tracking ID",
-      DESCRIPTION: "This is an error that will be granted whenever something fails on your part, for example, the lack of permissions from Filo can cause this error to be sent",
-      SOLUTION: "Check that the Filo permissions are correctly placed and that the role hierarchy is appropriate for each situation"
+      TITLE: "Sin ID de Seguimiento",
+      DESCRIPTION: "Este es un error que se otorgará siempre que algo falle de tu parte, por ejemplo, la falta de permisos de Filo puede hacer que se envíe este error",
+      SOLUTION: "Verifica que los permisos de Filo estén colocados correctamente y que la jerarquía de roles sea adecuada para cada situación"
     },
     WITH_TRACKING_ID: {
-      TITLE: "With Tracking ID",
-      DESCRIPTION: "This error occurs when something isn't working on our side or the Discord API doesn't return satisfactory responses",
-      SOLUTION: "Inform the Filo Development Team and wait for a solution to the problem",
-      DISCLAIMER_WARNING: "It's possible that there's no definitive solution, depending on the causes of the error"
+      TITLE: "Con ID de Seguimiento",
+      DESCRIPTION: "Este error ocurre cuando algo no funciona de nuestro lado o la API de Discord no devuelve respuestas satisfactorias",
+      SOLUTION: "Informa al equipo de desarrollo de Filo y espere una solución al problema",
+      DISCLAIMER_WARNING: "Es posible que no haya una solución definitiva, dependiendo de las causas del error"
     }
   },
   MODULE_DISABLED: {
-    TITLE: "The {{module}} module is disabled",
-    DESCRIPTION: "This is an error that's sent when you try to use a command or functionality that's only available if you have the necessary module enabled",
-    SOLUTION: "Enable the necessary module that's specified in the error message"
+    TITLE: "El módulo {{module}} está deshabilitado",
+    DESCRIPTION: "Este es un error que se envía cuando intenta usar un comando o función que solo está disponible si tiene habilitado el módulo necesario",
+    SOLUTION: "Habilite el módulo necesario que se especifica en el mensaje de error"
   },
   MODULE_DOES_NOT_WORK: {
-    TITLE: "The {{module}} module doesn't work even though it's enabled",
-    DESCRIPTION: "This error is given when something in the module configuration does not work as it should; The causes could be: lack of necessary permissions, problems in the role hierarchy, the necessary channel ceased to exist, malformation of the information sent by the module, the webhook ceased to exist, etc",
-    SOLUTION: "Check that the configuration is correct, the permissions are correct and if the hierarchy is correct",
-    CONTACT_US: "If you can't determine the problem why the module doesn't work, **[contact us]({{link}})**"
+    TITLE: "El módulo {{module}} no funciona aunque está habilitado",
+    DESCRIPTION: "Este error se da cuando algo en la configuración del módulo no funciona como debería; Las causas podrían ser: falta de permisos necesarios, problemas en la jerarquía de roles, el canal necesario dejó de existir, malformación de la información enviada por el módulo, el webhook dejó de existir, etc",
+    SOLUTION: "Compruebe que la configuración sea correcta, los permisos sean correctos y si la jerarquía es correcta",
+    CONTACT_US: "Si no puedes determinar el problema por el que el módulo no funciona, **[contáctanos]({{link}})**"
   },
   MISSING_USER_PERMISSIONS: {
-    TITLE: "You don't have permissions to run the {{command}} command",
-    DESCRIPTION: "This error is given when you try to execute a command that you shouldn't have access to, for example, a moderation command without being a server moderator",
-    SOLUTION: "Ask a superior of your server to establish the necessary permissions for the execution of the command in question",
-    CONTACT_US: "If you can't determine which permission is necessary, **[contact us]({{link}})**"
+    TITLE: "No tienes permisos para ejecutar el comando {{command}}",
+    DESCRIPTION: "Este error se da cuando intentas ejecutar un comando al que no deberías tener acceso, por ejemplo, un comando de moderación sin ser moderador del servidor",
+    SOLUTION: "Solicite a un superior de su servidor que establezca los permisos necesarios para la ejecución del comando en cuestión",
+    CONTACT_US: "Si no puedes determinar qué permiso es necesario, **[contáctanos]({{link}})**"
   },
   HIERARCHY_ERROR: {
-    TITLE: "You don't have permissions to run the command {{command}} to {{user}}",
-    DESCRIPTION: "This error is given when you try to execute a command with a user who has a higher role hierarchy than yours",
-    SOLUTION: "Ask a superior to review your role hierarchy and that of the user with whom you want to run the command"
+    TITLE: "No tienes permisos para ejecutar el comando {{command}} con {{user}}",
+    DESCRIPTION: "Este error se da cuando intentas ejecutar un comando con un usuario que tiene una jerarquía de roles más alta que la tuya",
+    SOLUTION: "Solicite a un superior que revise su jerarquía de roles y la del usuario con el que desea ejecutar el comando"
   },
   AN_ERROR_OCURRED_API: {
-    TITLE: "An error occurred while trying to contact the API",
-    DESCRIPTION: "This error is given when the command or module depends on a third-party API and it doesn't return a successful response",
-    SOLUTION: "Try to try the action taken later, if it continues the same, **[contact us]({{link}})**"
+    TITLE: "Se produjo un error al intentar comunicarse con la API",
+    DESCRIPTION: "Este error se da cuando el comando o módulo depende de una API de terceros y no devuelve una respuesta satisfactoria",
+    SOLUTION: "Intente probar la acción tomada más tarde, si continúa igual, **[contáctanos]({{link}})**"
   },
   FILO_DOES_NOT_RESPOND: {
-    TITLE: "Filo doesn't respond to any command",
-    DESCRIPTION: "This error occurs when the Discord API doesn't send the necessary information about the permissions of Filo in the command execution channel",
-    SOLUTION: "Please try again later and if the problem persists, **[contact us]({{link}})**",
-    DISCLAIMER_WARNING: "There's currently no definitive solution to this error"
+    TITLE: "Filo no responde a ningún comando",
+    DESCRIPTION: "Este error ocurre cuando la API de Discord no envía la información necesaria sobre los permisos de Filo en el canal de ejecución de comandos",
+    SOLUTION: "Vuelve a intentarlo más tarde y, si el problema persiste, **[contáctanos]({{link}})**",
+    DISCLAIMER_WARNING: "Actualmente no hay una solución definitiva a este error"
   }
 };

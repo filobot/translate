@@ -579,7 +579,7 @@ exports.CLOUDFLARE = {
     DESCRIPTION: "Below you'll find information on how to appeal a ban on Cloudflare",
     ACCORDING_TO_THE_TIME: {
       TITLE: "Appeal according to the duration of the ban",
-      TEMPORARY: "Temporary",
+      TEMPORAL: "Temporal",
       PERMANENT: "Permanent",
       PERMANENT_APPEAL: "You can appeal a permanent ban by **[clicking here]({{link}})**"
     },
