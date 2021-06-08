@@ -64,6 +64,7 @@ exports.GENERAL = {
   CHECK_DISCORD_SUPPORT_ARTICLE: "Check out this article from the Discord support center by **[clicking here]({{link}})**",
   OPTIONAL: "Optional",
   PERMANENT: "Permanent",
+  TEMPORAL: "Temporal",
   TEMPORARY: "Temporary",
   PERMANENTLY: "Permanently",
   CHANNEL: "Channel",
@@ -118,7 +119,6 @@ exports.NAVBAR = {
   VOTE :"Vote",
   GETTING_STARTED: "Getting Started",
   INVITE_FILO: "Invite Filo",
-  COMMON_ERRORS: "Common Errors",
   MODULES: "Modules",
   LANGUAGE: "Language",
   PREFIX: "Prefix",
@@ -138,7 +138,10 @@ exports.NAVBAR = {
   ANTI_REPEATED_TEXT: "Anti Repeated Text",
   DISABLE_COMMANDS: "Disable Commands",
   ANTI_BAD_WORDS: "Anti Bad Words",
-  COMMANDS: "Commands"
+  COMMANDS: "Commands",
+  TOPICS: "Topics",
+  CLOUDFLARE: "Cloudflare",
+  COMMON_ERRORS: "Common Errors"
 };
 
 exports.HOME = {
@@ -150,16 +153,13 @@ exports.HOME = {
   },
   MODULES: {
     DESCRIPTION: "In this section you'll find all kinds of guides with the necessary information from all the Filo modules"
-  },
-  COMMANDS: {
-    DESCRIPTION: "In this section you'll find the essential information of the Filo commands, including the necessary permissions to execute them and their restrictions"
   }
 };
 
 exports.GETTING_STARTED = {
   INVITE_FILO: {
     DESCRIPTION: "Below you'll find a guided explanation of how to invite Filo and the permissions that we recommend",
-    PERMISSIONS_NEEDED: "You must be the **owner** of the server you want to add Filo to or have one of these permissions: {{permission_1}} and {{permission_2}}",
+    PERMISSIONS_NEEDED: "You must be the **owner** of the server you want to add Filo to or have one of these permissions: {{permission_1}} or {{permission_2}}",
     SLASH_COMMAND_WARNING: "Currently Filo doesn't support the use of Slash Commands without the scope bot in the invitation. If you add the Slash Commands integration to your server and don't add Filo to the server as well, the Slash Commands will always return a generic error in English",
     STEP_1: {
       TITLE: "Open the Filo invite in the browser",
@@ -207,7 +207,7 @@ exports.MODULES = {
     CUSTOM_PREFIX: "You should replace " + "<kbd>" + "f!" + "</kbd>" + " with the current prefix you have set. More information on how to change the prefix by **[clicking here]({{link}})**"
   },
   MODULE_EXCEPTIONS: {
-    TITLE: "Module Exceptions",
+    TITLE: "Module exceptions",
     DESCRIPTION: "This module has exceptions, which means that it won't work if some of the requirements mentioned below are met",
     FILO_REQUIRED_PERMISSION: "If Filo doesn't have {{permission}} permission",
     FILO_REQUIRED_PERMISSIONS: "If Filo doesn't have {{permissions}} permissions",
@@ -222,13 +222,11 @@ exports.MODULES = {
   ENABLE_MODULE: {
     TITLE: "Steps to enable the module",
     SUBTITLE: "Enable the module",
-    DESCRIPTION: "To enable the module you must execute the following command: {{command}}",
     SUPPLEMENTARY_MODULE: "This module can be supplemented with the **[{{module}}]({{link}})** module"
   },
   DISABLE_MODULE: {
     TITLE: "Steps to disable the module",
-    SUBTITLE: "Disable the module",
-    DESCRIPTION: "To disable the module you must execute the following command: {{command}}",
+    SUBTITLE: "Disable the module"
   },
   RESET_MODULE: {
     TITLE: "Steps to reset module settings",
@@ -245,14 +243,14 @@ exports.MODULES = {
     USER_DISCRIMINATOR: "Discriminator of the user in question",
     USER_TAG: "Name and discriminator of the user in question",
     USER_AVATAR_URL: "Avatar URL of the user in question",
-    SERVER_NAME: "Name of the guild in question",
-    SERVER_ID: "ID of the guild in question",
-    SERVER_ICON_URL: "Server icon URL of the guild in question",
-    SERVER_OWNER_MENTION: "Mention of the owner of the guild in question",
-    SERVER_OWNER_ID: "ID of the owner of the guild in question",
-    SERVER_MEMBER_COUNT: "Member count of the guild in question",
-    SERVER_INVITE_SPLASH_URL: "Splash URL of the guild in question",
-    SERVER_BANNER_URL: "Banner URL of the guild in question"
+    SERVER_NAME: "Name of the server in question",
+    SERVER_ID: "ID of the server in question",
+    SERVER_ICON_URL: "Server icon URL of the server in question",
+    SERVER_OWNER_MENTION: "Mention of the owner of the server in question",
+    SERVER_OWNER_ID: "ID of the owner of the server in question",
+    SERVER_MEMBER_COUNT: "Member count of the server in question",
+    SERVER_INVITE_SPLASH_URL: "Splash URL of the server in question",
+    SERVER_BANNER_URL: "Banner URL of the server in question"
   },
   ANTI_BAD_WORDS: {
     DESCRIPTION: "This module will allow you to eliminate and warn users who send bad words",
@@ -351,7 +349,7 @@ exports.MODULES = {
     DESCRIPTION: "This module will allow you to partially customize the behavior of the Filo's commands",
     DISABLE_COMMANDS: {
       ACTION: "Disable a Filo's command or re-enable it",
-      DESCRIPTION: "This module will allow you to disable the Filo commands that you don't want to be used on your guild",
+      DESCRIPTION: "This module will allow you to disable the Filo commands that you don't want to be used on your server",
       DISABLE: {
         TITLE: "Steps to disable a command",
         SUBTITLE: "Disable a command"
@@ -465,7 +463,7 @@ exports.MODULES = {
       LANGUAGE_FULL_CODE: "Language Full Code"
     },
     SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's translations may contain errors, we are human!\nIf you find any errors, please report them in **[our translation repository]({{link}})** or **[contact us]({{link_2}})**",
+      WARNING: "Filo's translations may contain errors, we are human!" + "\n" + "If you find any errors, please report them in **[our translation repository]({{link}})** or **[contact us]({{link_2}})**",
       SHORT_CODE: "Short code",
       FULL_CODE: "Full code"
     }
@@ -581,7 +579,7 @@ exports.CLOUDFLARE = {
     DESCRIPTION: "Below you'll find information on how to appeal a ban on Cloudflare",
     ACCORDING_TO_THE_TIME: {
       TITLE: "Appeal according to the duration of the ban",
-      TEMPORARY: "Temporary",
+      TEMPORAL: "Temporal",
       PERMANENT: "Permanent",
       PERMANENT_APPEAL: "You can appeal a permanent ban by **[clicking here]({{link}})**"
     },
