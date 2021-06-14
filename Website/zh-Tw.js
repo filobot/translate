@@ -1,5 +1,5 @@
 exports.LANGUAGE = {
-  CODE: "zh-Hans",
+  CODE: "zh-Tw",
   STANDARD_CODE: "zh-Tw",
   FULL_CODE: "正體中文",
   WIKI_CODE: "en", // No Traditional Chinese Page in Wiki
