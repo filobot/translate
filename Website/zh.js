@@ -162,7 +162,7 @@ exports.FOOTER = {
   IMPORTANT_LINKS: {
     TITLE: "重要的网址",
     TERMS_AND_CONDITIONS: "条款和条约",
-    PRIVACY_POLICY: "Privacy Policy隐私政策",
+    PRIVACY_POLICY: "隐私政策",
     DMCA: "DMCA"
   },
   ABOUT_FILO: {
