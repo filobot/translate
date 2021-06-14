@@ -20,7 +20,7 @@ exports.NAV_BAR = {
 
 exports.HEADER = {
   TITLE: "一个强大的多功能 Discord bot",
-  SUBTITLE: "可定制， 多语言选择，举报，登记表格，欢饮和告辞， 人数统计，防止-邀请，自动审核，防止-逃避 ",
+  SUBTITLE: "可定制， 多语言选择，举报，登记表格，欢饮和告辞， 人数统计，防止-邀请，自动审核，防止-逃避",
   FEATURES: "标题",
   INVITE: "邀请"
 };
