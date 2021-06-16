@@ -31,13 +31,13 @@ exports.PAGE_TITLES = {
   ACTION_LIST: "事項清單",
   ANTI_INVITES: "反邀請",
   ANTI_MASS_MENTIONS: "防止提及",
-  ANTI_REPEATED_TEXT: "重複文字偵測",
-  AUTO_MODERATION: "前科制度",
-  ANTI_SPAM: "洗版偵測",
+  ANTI_REPEATED_TEXT: "反重複文字",
+  AUTO_MODERATION: "AUTO MODERATION",
+  ANTI_SPAM: "反洗版",
   COMMANDS: "指令",
   DISABLE_COMMANDS: "停用指令",
-  FAREWELLS: "離開訊息",
-  FAREWELLS_VARIABLES: "離開訊息變數",
+  FAREWELLS: "離別訊息",
+  FAREWELLS_VARIABLES: "離別訊息變數",
   GUILD: "伺服器",
   GUILD_INVITE: "伺服器邀請",
   MUTED_ROLE: "禁言身分組",
@@ -86,7 +86,7 @@ exports.GENERAL = {
 
 exports.ABOUT_WIKI = {
   TITLE: "歡迎來到 Filo 指南百科",
-  FILO_DESCRIPTION: "Filo 是個多功能且強大的 Discord 機器人。 高自訂性、多語言、檢舉系統、日誌、歡迎和離開訊息、人數統計、反邀請、前科制度、反規避，以及 +190 個指令",
+  FILO_DESCRIPTION: "Filo 是個多功能且強大的 Discord 機器人。 高自訂性、多語言、檢舉系統、日誌、歡迎和離別訊息、人數統計、反邀請、AUTO MODERATION、反規避，以及 +190 個指令",
   WIKI_DESCRIPTION: " Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見錯誤，以及每個 Filo 指令的指令教學 ",
   ASK_FOR_HELP: "如果本指南沒有解決您想要的問題，歡迎拜訪我們的 **[Discord 伺服器]({{link}})**",
   WIKI_KEYS: {
@@ -126,16 +126,16 @@ exports.NAVBAR = {
   REPORTS: "檢舉",
   WELCOMES: "歡迎",
   WELCOME_ROLE: "預設身分組",
-  FAREWELLS: "離開訊息",
+  FAREWELLS: "離別訊息",
   MEMBER_COUNTER: "人數統計",
   MEMBER_COUNTER_NICKNAME: "人數統計 (暱稱)",
   LOGGING: "日誌",
   ANTI_INVITES: "反邀請",
-  AUTO_MODERATION: "前科制度",
+  AUTO_MODERATION: "AUTO MODERATION",
   ANTI_EVASION: "反規避",
-  ANTI_SPAM: "洗版偵測",
+  ANTI_SPAM: "反洗版",
   ANTI_MASS_MENTIONS: "防止提及",
-  ANTI_REPEATED_TEXT: "重複文字偵測",
+  ANTI_REPEATED_TEXT: "返重複文字",
   DISABLE_COMMANDS: "停用指令",
   ANTI_BAD_WORDS: "反壞話",
   COMMANDS: "指令",
@@ -363,13 +363,13 @@ exports.MODULES = {
   FAREWELLS: {
     DESCRIPTION: "本模組可以為離開伺服器的人發佈一條訊息",
     SET_CHANNEL: {
-      TITLE: "如何設定離開訊息發佈頻道？",
-      SUBTITLE: "設定離開訊息發佈頻道"
+      TITLE: "如何設定離別訊息發佈頻道？",
+      SUBTITLE: "設定離別訊息發佈頻道"
     },
     SET_MESSAGE: {
-      TITLE: "如何設定離開訊息？",
-      SUBTITLE: "設定離開訊息",
-      MESSAGE_VARIABLES: "你可以在離開訊息裡添加變數，點擊**[這個連結]({{link}})**來查看 Filo 支援的變數",
+      TITLE: "如何設定離別訊息？",
+      SUBTITLE: "設定離別訊息",
+      MESSAGE_VARIABLES: "你可以在離別訊息裡添加變數，點擊**[這個連結]({{link}})**來查看 Filo 支援的變數",
       MESSAGE_CODE: "訊息程式碼",
       RESULT_MESSAGE: "訊息結果"
     },
