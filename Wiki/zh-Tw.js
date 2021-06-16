@@ -178,7 +178,7 @@ exports.GETTING_STARTED = {
       TITLE: "選擇權限 (可選可不選)",
       DESCRIPTION: "這個步驟可以讓您選擇 Filo 的伺服器權限 (非頻道權限). 如果沒有特別要求，請點擊 **繼續** 按鈕",
       INTEGRATION_ROLE: "如果您全選了所有權限，Discord 會幫您建立一個 **Filo**的身分組。反之，Discord 會把權限單獨寫在他的身分裡",
-      PERMISSIONS_NEEDED: "Filo 必須有這些指令才能正常工作: {{permission_1}} (管理頻道)、 {{permission_2}} (發送訊息)、{{permission_3}} (嵌入連結)，和 {{permission_4}} (使用外部表情符號)"
+      PERMISSIONS_NEEDED: "Filo 必須有這些指令才能正常工作: {{permission_1}}、 {{permission_2}}、{{permission_3}} 和 {{permission_4}}"
     },
     STEP_4: {
       TITLE: "授權邀請",
@@ -434,11 +434,11 @@ exports.MODULES = {
         SUBTITLE: "在頻道裡建立永久的邀請連結"
       },
       SET_A_INVITE: {
-        TITLE: "Steps to set a existing invite from a channel",
-        SUBTITLE: "Set a existing invite from a channel",
-        INVITE_URL: "Invite URL",
-        INVITE_CODE: "Invite Code",
-        WARNING: "The invite you set must be from the same guild"
+        TITLE: "如何從頻道設定現有的邀請？",
+        SUBTITLE: "從頻道設定現有的邀請",
+        INVITE_URL: "邀請連結",
+        INVITE_CODE: "邀請代碼",
+        WARNING: "你設置的邀請必須來自同一個伺服器"
       }
     },
     MUTED_ROLE: {
