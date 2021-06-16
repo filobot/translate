@@ -26,11 +26,11 @@ exports.TIME = {
 exports.PAGE_TITLES = {
   HOME: "首頁",
   INVITE_FILO: "邀請 Filo",
-  ANTI_BAD_WORDS: "髒話過濾",
-  ANTI_EVASION: "處罰者破解偵測",
+  ANTI_BAD_WORDS: "反壞話",
+  ANTI_EVASION: "反規避",
   ACTION_LIST: "事項清單",
-  ANTI_INVITES: "邀請偵測",
-  ANTI_MASS_MENTIONS: "大量提及偵測",
+  ANTI_INVITES: "反邀請",
+  ANTI_MASS_MENTIONS: "防止提及",
   ANTI_REPEATED_TEXT: "重複文字偵測",
   AUTO_MODERATION: "前科制度",
   ANTI_SPAM: "洗版偵測",
@@ -39,12 +39,12 @@ exports.PAGE_TITLES = {
   FAREWELLS: "離開訊息",
   FAREWELLS_VARIABLES: "離開訊息變數",
   GUILD: "伺服器",
-  GUILD_INVITE: "伺服器邀請連結",
+  GUILD_INVITE: "伺服器邀請",
   MUTED_ROLE: "禁言身分組",
   LANGUAGE: "語言",
   SUPPORTED_LANGUAGES: "支援的語言",
   LOGGING: "日誌",
-  MEMBER_COUNTER: "人數統計 (頻道)",
+  MEMBER_COUNTER: "人數統計",
   MEMBER_COUNTER_NICKNAME: "人數統計 (暱稱)",
   PREFIX: "Prefix",
   REPORTS: "舉報",
@@ -52,7 +52,7 @@ exports.PAGE_TITLES = {
   WELCOMES_VARIABLES: "歡迎訊息變數",
   WELCOME_ROLE: "預設身分組",
   CLOUDFLARE: "Cloudflare",
-  COMMON_ERRORS: "常見問題"
+  COMMON_ERRORS: "常見錯誤"
 };
 
 exports.GENERAL = {
@@ -86,8 +86,8 @@ exports.GENERAL = {
 
 exports.ABOUT_WIKI = {
   TITLE: "歡迎來到 Filo 指南百科",
-  FILO_DESCRIPTION: "Filo 是個多功能且強大的 Discord 機器人。 高自訂性、多語言、檢舉系統、日誌、歡迎和離開訊息、人數統計、邀請連結偵測、前科制度、處罰者破解偵測，以及 +190 個指令",
-  WIKI_DESCRIPTION: " Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見問題，以及每個 Filo 指令的指令教學 ",
+  FILO_DESCRIPTION: "Filo 是個多功能且強大的 Discord 機器人。 高自訂性、多語言、檢舉系統、日誌、歡迎和離開訊息、人數統計、反邀請、前科制度、Anti-Evasion，以及 +190 個指令",
+  WIKI_DESCRIPTION: " Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見錯誤，以及每個 Filo 指令的指令教學 ",
   ASK_FOR_HELP: "如果本指南沒有解決您想要的問題，歡迎拜訪我們的 **[Discord 伺服器]({{link}})**",
   WIKI_KEYS: {
     TITLE: "指南小提示",
@@ -130,18 +130,18 @@ exports.NAVBAR = {
   MEMBER_COUNTER: "人數統計",
   MEMBER_COUNTER_NICKNAME: "人數統計 (暱稱)",
   LOGGING: "日誌",
-  ANTI_INVITES: "邀請偵測",
+  ANTI_INVITES: "反邀請",
   AUTO_MODERATION: "前科制度",
-  ANTI_EVASION: "處罰者破解偵測",
+  ANTI_EVASION: "Anti-Evasion",
   ANTI_SPAM: "洗版偵測",
-  ANTI_MASS_MENTIONS: "大量提及偵測",
+  ANTI_MASS_MENTIONS: "防止提及",
   ANTI_REPEATED_TEXT: "重複文字偵測",
   DISABLE_COMMANDS: "停用指令",
-  ANTI_BAD_WORDS: "髒話過濾",
+  ANTI_BAD_WORDS: "反壞話",
   COMMANDS: "指令",
   TOPICS: "主題",
   CLOUDFLARE: "Cloudflare",
-  COMMON_ERRORS: "常見問題"
+  COMMON_ERRORS: "常見錯誤"
 };
 
 exports.HOME = {
@@ -278,7 +278,7 @@ exports.MODULES = {
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "本模組可以自動刪除其他伺服器的邀請連結和警告連結發送者",
+    DESCRIPTION: "本模組可以自動刪除其他伺服器的邀請和警告連結發送者",
     SERVER_ID: "伺服器 ID",
     ALLOW_A_SERVER: {
       TITLE: "如何新增例外伺服器名單？",
@@ -428,10 +428,10 @@ exports.MODULES = {
     DESCRIPTION: "本模組可以給你一些有用的幫助",
     GUILD_INVITE: {
       ACTION: "設定一個永久的伺服器邀請",
-      DESCRIPTION: "本模組可以讓你設定一個永久的伺服器邀請連結",
+      DESCRIPTION: "本模組可以讓你設定一個永久的伺服器邀請",
       CREATE_A_INVITE: {
-        TITLE: "如何在頻道裡建立永久的伺服器邀請連結",
-        SUBTITLE: "在頻道裡建立永久的邀請連結"
+        TITLE: "如何在頻道裡建立永久的伺服器邀請",
+        SUBTITLE: "在頻道裡建立永久的邀請"
       },
       SET_A_INVITE: {
         TITLE: "如何從頻道設定現有的邀請？",
