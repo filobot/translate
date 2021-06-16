@@ -86,7 +86,7 @@ exports.GENERAL = {
 
 exports.ABOUT_WIKI = {
   TITLE: "歡迎來到 Filo 指南百科",
-  FILO_DESCRIPTION: "Filo 是個多功能且強大的 Discord 機器人。 高自訂性、多語言、檢舉系統、日誌、歡迎和離開訊息、人數統計、反邀請、前科制度、Anti-Evasion，以及 +190 個指令",
+  FILO_DESCRIPTION: "Filo 是個多功能且強大的 Discord 機器人。 高自訂性、多語言、檢舉系統、日誌、歡迎和離開訊息、人數統計、反邀請、前科制度、反規避，以及 +190 個指令",
   WIKI_DESCRIPTION: " Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見錯誤，以及每個 Filo 指令的指令教學 ",
   ASK_FOR_HELP: "如果本指南沒有解決您想要的問題，歡迎拜訪我們的 **[Discord 伺服器]({{link}})**",
   WIKI_KEYS: {
@@ -132,7 +132,7 @@ exports.NAVBAR = {
   LOGGING: "日誌",
   ANTI_INVITES: "反邀請",
   AUTO_MODERATION: "前科制度",
-  ANTI_EVASION: "Anti-Evasion",
+  ANTI_EVASION: "反規避",
   ANTI_SPAM: "洗版偵測",
   ANTI_MASS_MENTIONS: "防止提及",
   ANTI_REPEATED_TEXT: "重複文字偵測",
