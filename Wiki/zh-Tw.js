@@ -5,7 +5,7 @@ exports.LANGUAGE = {
   WIKI_CODE: "zh-Tw",
   CONTRIBUTORS: ["Kami-Sqmf", "iLxlo_"]
 };
-// 0614 Part
+
 exports.TIME = {
   SECOND: "秒",
   SECONDS: "秒",
@@ -64,14 +64,14 @@ exports.GENERAL = {
   CHECK_DISCORD_SUPPORT_ARTICLE: "點**[這裡]({{link}})**來查看Discord官方的說明",
   OPTIONAL: "可填",
   PERMANENT: "永久",
-  TEMPORAL: "Temporal", // Spain Word
+  TEMPORAL: "暫時",
   TEMPORARY: "暫時",
   PERMANENTLY: "永久",
   CHANNEL: "頻道l",
   CHANNEL_ID: "頻道 ID",
   ROLE: "身分組",
   ROLE_ID: "身分組 ID",
-  THRESHOLD: "進入點", // Not Sure
+  THRESHOLD: "進入點",
   TIME: "時間",
   IF_APPLICABLE: "如果適用",
   LEVEL: "等級",
@@ -90,7 +90,7 @@ exports.ABOUT_WIKI = {
   WIKI_DESCRIPTION: " Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見問題，以及每個 Filo 指令的指令教學 ",
   ASK_FOR_HELP: "如果本指南沒有解決您想要的問題，歡迎拜訪我們的 **[Discord 伺服器]({{link}})**",
   WIKI_KEYS: {
-    TITLE: "小提示",
+    TITLE: "指南小提示",
     DESCRIPTION: "在每個網頁會有一個小提示，它們可以讓您考慮一些重要的資訊。 您可以在下面範例找到這裡提到的一些小提示",
     SUCCESS_KEY: "說明或建議事項將會顯示在與此類小提示類似的框中",
     INFO_KEY: "信息或註解將會顯示在與此類小提示類似的框中",
@@ -99,7 +99,7 @@ exports.ABOUT_WIKI = {
   },
   REQUEST_TRANSLATION: {
     TITLE: "協助翻譯或修正內容！",
-    DESCRIPTION: "如果您需要，您可以要求 ** 更新 或 修改 ** 這份指南的任何主題。無論是為了改進還是為了更正過時或已棄用的用詞" + "\n" + "這份指南擁有著許多語言，這些語言都得來不易。如果您想要協助我們翻譯，**[請點擊這裡]({{link}})**"
+    DESCRIPTION: "如果您需要，您可以要求 更新 或 修改 這份指南的任何主題。無論是為了改進還是為了更正過時或已棄用的用詞" + "\n" + "這份指南擁有著許多語言，都是自願者提供的幫助。如果您想要協助我們翻譯，**[請點擊這裡]({{link}})**"
   }
 };
 
@@ -127,7 +127,7 @@ exports.NAVBAR = {
   WELCOMES: "歡迎",
   WELCOME_ROLE: "預設身分組",
   FAREWELLS: "離開訊息",
-  MEMBER_COUNTER: "人數統計 (頻道)",
+  MEMBER_COUNTER: "人數統計",
   MEMBER_COUNTER_NICKNAME: "人數統計 (暱稱)",
   LOGGING: "日誌",
   ANTI_INVITES: "邀請偵測",
@@ -160,7 +160,7 @@ exports.GETTING_STARTED = {
   INVITE_FILO: {
     DESCRIPTION: "接下來你會看到一個伺服器邀請的例子，還有我們建議的權限設定",
     PERMISSIONS_NEEDED: "你必須是伺服器 **擁有者** 或是擁有這些權限： {{permission_1}} 或 {{permission_2}} 才能將 Filo 邀請至伺服器",
-    SLASH_COMMAND_WARNING: "目前 Filo 將不支援沒有把**機器人斜線指令**權限開啟的伺服器，或是註冊 Filo 斜線指令但把 Filo 踢出的伺服器，如此一來你將會收到一個一般錯誤",
+    SLASH_COMMAND_WARNING: "目前 Filo 將不支援沒有把機器人斜線指令權限開啟的伺服器，或是註冊 Filo 斜線指令但把 Filo 踢出的伺服器，如此一來你將會收到一個一般錯誤",
     STEP_1: {
       TITLE: "打開瀏覽器中的邀請連結",
       DESCRIPTION: "**[點擊這裡]({{link}})** 我們將會為您導向到邀請頁面和斜線指令權限頁",
@@ -224,7 +224,6 @@ exports.MODULES = {
     SUBTITLE: "啟用模組",
     SUPPLEMENTARY_MODULE: "這個模組可以補充 **[{{module}}]({{link}})**"
   },
-  // 0615 Part
   DISABLE_MODULE: {
     TITLE: "如何停用本模組？",
     SUBTITLE: "停用模組"
@@ -235,7 +234,7 @@ exports.MODULES = {
     WARNING: "你必須謹慎考慮此操作。如果重置，您將無法恢復之前的設定"
   },
   ACTION_LIST: {
-    SANCTION_DESCRIPTION: "此處罰將從伺服器 {{time}} {{action}} 有問題的使用者" // Have Translating Lack
+    SANCTION_DESCRIPTION: "此處罰將從伺服器 {{time}} {{action}} 有問題的使用者"
   },
   VARIABLES_LIST: {
     USER_MENTION: "相關使用者的提及",
@@ -371,13 +370,13 @@ exports.MODULES = {
       TITLE: "如何設定離開訊息？",
       SUBTITLE: "設定離開訊息",
       MESSAGE_VARIABLES: "你可以在離開訊息裡添加變數，點擊**[這個連結]({{link}})**來查看 Filo 支援的變數",
-      MESSAGE_CODE: "訊息程式碼🔼",
-      RESULT_MESSAGE: "編譯結果🔼"
+      MESSAGE_CODE: "訊息程式碼",
+      RESULT_MESSAGE: "訊息結果"
     },
     SET_MESSAGE_TYPE: {
       TITLE: "如何設定訊息類型？",
       SUBTITLE: "設定訊息類型",
-      WARNING: "如果使用者關閉**嵌入內容**，他將看不到訊息",
+      WARNING: "如果使用者關閉嵌入內容，他將看不到訊息",
       SET_EMBED_COLOR: {
         SUBTITLE: "設定嵌入內容的顏色",
         WARNING: "目前 Filo 並沒有一個改變顏色的指令，如果需要你可以改變 Filo 身分組的顏色，嵌入內容顏色將會隨著身分組顏色一起改動"
@@ -398,13 +397,13 @@ exports.MODULES = {
       TITLE: "如何設定歡迎訊息？",
       SUBTITLE: "設定歡迎訊息",
       MESSAGE_VARIABLES: "你可以在歡迎訊息裡添加變數，點擊**[這個連結]({{link}})**來查看 Filo 支援的變數",
-      MESSAGE_CODE: "訊息程式碼🔼",
-      RESULT_MESSAGE: "編譯結果🔼"
+      MESSAGE_CODE: "訊息程式碼",
+      RESULT_MESSAGE: "訊息結果"
     },
     SET_MESSAGE_TYPE: {
       TITLE: "如何設定訊息類型？",
       SUBTITLE: "設定訊息類型",
-      WARNING: "如果使用者關閉**嵌入內容**，他將看不到訊息",
+      WARNING: "如果使用者關閉嵌入內容，他將看不到訊息",
       SET_EMBED_COLOR: {
         SUBTITLE: "設定嵌入內容的顏色",
         WARNING: "目前 Filo 並沒有一個改變顏色的指令，如果需要你可以改變 Filo 身分組的顏色，嵌入內容顏色將會隨著身分組顏色一起改動"
@@ -434,13 +433,13 @@ exports.MODULES = {
         TITLE: "如何在頻道裡建立永久的伺服器邀請連結",
         SUBTITLE: "在頻道裡建立永久的邀請連結"
       },
-      SET_A_INVITE: {   // Unknown Webpage??
+      SET_A_INVITE: {
         TITLE: "Steps to set a existing invite from a channel",
         SUBTITLE: "Set a existing invite from a channel",
         INVITE_URL: "Invite URL",
         INVITE_CODE: "Invite Code",
         WARNING: "The invite you set must be from the same guild"
-      } // Not translated because web page not found
+      }
     },
     MUTED_ROLE: {
       ACTION: "設定禁言身分組",
@@ -450,7 +449,7 @@ exports.MODULES = {
         SUBTITLE: "建立禁言身分組"
       },
       SET_THE_ROLE: {
-        TITLE: "或是綁定已經存在的禁言身分組？",
+        TITLE: "如何綁定已經存在的身分組？",
         SUBTITLE: "綁定禁言身分組"
       }
     }
@@ -464,16 +463,15 @@ exports.MODULES = {
       LANGUAGE_FULL_CODE: "語言名稱"
     },
     SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's 翻譯可能會有錯誤，畢竟我們也是人類！" + "\n" + "如果有任何錯誤的話，請在**[我們的伺服器]({{link_2}})**回報我們"+ "\n" + "請注意現在 Filo 本體並不支援中文，大力徵求翻譯合作！**[翻譯Repository]({{link}})**",
+      WARNING: "Filo's 翻譯可能會有錯誤，畢竟我們也是人類！" + "\n" + "如果有任何錯誤的話，請在**[翻譯 Repository]({{link}}) 或是 ****[我們的伺服器]({{link_2}})**回報我們",
       SHORT_CODE: "代碼",
       FULL_CODE: "語言名稱"
     }
   },
-    // 0616 Part
   LOGGING: {
     DESCRIPTION: "本模組可以讓您把所有伺服器的紀錄傳送到指定頻道",
     MODULE_EXCEPTIONS: {
-      WEBHOOK_REMOVED: "如果 Webhook 被停用",
+      WEBHOOK_REMOVED: "如果 Webhook 被刪除",
     },
     SET_CHANNEL: {
       TITLE: "如何設定日誌頻道？",
@@ -486,24 +484,24 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "如何創建一個以成員數量命名的語音頻道？",
       SUBTITLE: "創建成員數頻道",
-      INVALID_CHANNEL_WARNING: "您選擇的頻道必須是 **語音頻道** ，否則你只會拿到一個大大的~鴨蛋~"
+      INVALID_CHANNEL_WARNING: "您選擇的頻道必須是 **語音頻道** ，否則這個模組將不會正常運作"
     },
     SET_CHANNEL_NAME: {
-      TITLE: "如何設定頻道的名字？",
+      TITLE: "如何設定成員數頻道的名字？",
       SUBTITLE: "設定成員數頻道的名字",
       MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
     },
     NICKNAME: {
       DESCRIPTION: "本模組可以把 Filo 的名稱更改為成員數量",
       SET_NICKNAME: {
-        TITLE: "如何設定？",
+        TITLE: "如何設定暱稱？",
         SUBTITLE: "把 Filo 的名稱更改為成員數量",
         MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
       }
     }
   },
   PREFIX: {
-    DESCRIPTION: "本模組允許您更改或重置 Filo 的 Prefix (指令字首)!",
+    DESCRIPTION: "本模組允許您更改或重置 Filo 的 Prefix",
     SET_PREFIX: {
       TITLE: "如何設定新的 Prefix？",
       SUBTITLE: "設定新的 Prefix",
@@ -515,7 +513,7 @@ exports.MODULES = {
   REPORTS: {
     DESCRIPTION: "本模組允許您舉報其他使用者並將他們送往舉報頻道",
     MODULE_EXCEPTIONS: {
-      WEBHOOK_REMOVED: "如果 Webhook 被停用"
+      WEBHOOK_REMOVED: "如果 Webhook 被刪除"
     },
     SET_CHANNEL: {
       TITLE: "如何設定舉報頻道",
@@ -530,11 +528,11 @@ exports.CLOUDFLARE = {
   IP_ADDRESS: "IP 位址",
   YOUR_IP_ADDRESS: "您的 IP 位址",
   ISP: "ISP (AKA: 網路業者)",
-  YOUR_ISP: "您的 ISP (如：中華電信、凱擘大寬頻、台灣大寬頻，等......)",
+  YOUR_ISP: "您的 ISP (AKA: 網路業者)",
   IP_ADDRESS_RANGE: "IP 位址範圍",
   YOUR_IP_ADDRESS_RANGE: "您的 IP 位址範圍",
-  USER_AGENT: "[用戶代理字串](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Headers/User-Agent)",
-  YOUR_USER_AGENT: "您的用戶代理字串",
+  USER_AGENT: "User-Agent",
+  YOUR_USER_AGENT: "您的 User-Agent",
   COUNTRY: "國家",
   YOUR_COUNTRY: "您的國家",
   WHATS_CLOUDFLARE: {
@@ -542,7 +540,7 @@ exports.CLOUDFLARE = {
     DESCRIPTION: "Cloudflare 是互聯網上最大的網路之一。人們使用 Cloudflare 服務的目的是使其網站和服務更安全、更高效。"
   },
   CLOUDFLARE_HELP: {
-    TITLE: "那 Cloudflare 與 Filo 又有什麼關聯",
+    TITLE: "那 Cloudflare 與 Filo 又有什麼關聯？",
     DESCRIPTION: "Cloudflare 幫助 Filo 遠離惡意之人。它幫忙保護官方網站和 API 存取"
   },
   CLOUDFLARE_BANS: {
@@ -554,13 +552,13 @@ exports.CLOUDFLARE = {
     },
     HOW_TO_IDENTIFY_IT: {
       TITLE: "如何識別 Cloudflare Ban？",
-      DESCRIPTION: "您將能夠快速識別 Cloudflare Ban，因為您會收到 403 錯誤，或是標題為“拒絕訪問”的錯誤頁面",
-      EXAMPLE_DESCRIPTION: "一張顯示\"您的 IP 位址 已經被 Ban 並無法訪問內容\"的圖片"
+      DESCRIPTION: "您將能夠快速識別 Cloudflare Ban，因為您會收到 403 錯誤，或是標題為\"拒絕訪問\"的錯誤頁面",
+      EXAMPLE_DESCRIPTION: "一張顯示「您的 IP 位址 已經被 Ban 並無法訪問內容」的圖片範例"
     }
   },
   BANNED_ACTIONS: {
     TITLE: "什麼行為會被 Cloudflare Ban？",
-    DESCRIPTION: "下面指出了有關 Cloudflare 禁止的操作，但是出於安全原因，此文檔可能只有 87% 準確",
+    DESCRIPTION: "下面指出了有關 Cloudflare 禁止的操作，但是出於安全原因，此文檔可能沒有 100% 準確",
     EXPLANATION_ERROR_429: "429 錯誤將告訴瀏覽器和應用程序向我們的網站發出任何類型的請求，您的速率限制已被超出",
     INDIVIDUAL_OR_SPECIFIC: "個人或特定",
     GLOBAL_OR_COMMON: "全球或通用",
@@ -612,7 +610,7 @@ exports.CLOUDFLARE = {
       DESCRIPTION: "視情況而定，如果某個 IP 位址範圍已被永久禁止，在特殊情況下，可能不會執行任何類型的驗證碼來驗證請求。 同樣，我們團隊的首要任務是以拒絕惡意請求為主要措施"
     },
     USER_AGENT: {
-      TITLE: "用戶代理字串 Ban",
+      TITLE: "User-Agent Ban",
       DESCRIPTION: "通常，那些修改其瀏覽器或應用程序的用戶代理以向網站發出請求的人知道他們在做什麼。 對未知用戶代理的修改可能被解釋為威脅並受到我們的製裁" + ".\n\n" + "我們的建議是保留瀏覽器的默認 User-Agent 或指定一個已知的 User-Agent"
     },
     COUNTRY: {
@@ -623,7 +621,7 @@ exports.CLOUDFLARE = {
   HCAPTCHA: {
     TITLE: "hCaptcha",
     DESCRIPTION: "驗證碼由 **[hCaptcha]({{link_1}})** 管理，他們有著**[條款和條件]({{link_2}})**和**[隱私政策]({{link_3}})**",
-    EXAMPLE_CAPTCHA: "一張顯示\" hCaptcha \"的圖片"
+    EXAMPLE_CAPTCHA: "一張顯示「hCaptcha 」的範例圖片"
   }
 };
 
