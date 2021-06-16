@@ -204,7 +204,7 @@ exports.MODULES = {
     REQUIRES_BASIC_PERMISSIONS: "Filo 需要以下基礎權限: {{permissions}}",
     REQUIRES_USER_PERMISSION: "在執行本主題的指令前，你需要此項權限： {{permission}} ",
     REQUIRES_USER_PERMISSIONS: "在執行本主題的指令前，你需要以下權限： {{permission}}",
-    CUSTOM_PREFIX: "你需要取代 " + "<kbd>" + "f!" + "</kbd>" + " 成你設定的 PREFIX 。如果你需要更換它的教學，請**[點擊這裡]({{link}})**"
+    CUSTOM_PREFIX: "你需要取代 " + "<kbd>" + "f!" + "</kbd>" + " 成你設定的 Prefix 。如果你需要更換它的教學，請**[點擊這裡]({{link}})**"
   },
   MODULE_EXCEPTIONS: {
     TITLE: "常見錯誤",
@@ -455,7 +455,7 @@ exports.MODULES = {
     }
   },
   LANGUAGE: {
-    DESCRIPTION: "本模組允許您更改或重置 Filo 的語言。注意！這將影響所有的指令、模組和系統。",
+    DESCRIPTION: "本模組允許您更改或重置 Filo 的語言。注意！這將影響所有的指令、模組和系統",
     SET_A_LANGUAGE: {
       TITLE: "如何設定語言？",
       SUBTITLE: "設定語言",
@@ -463,7 +463,7 @@ exports.MODULES = {
       LANGUAGE_FULL_CODE: "語言名稱"
     },
     SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's 翻譯可能會有錯誤，畢竟我們也是人類！" + "\n" + "如果有任何錯誤的話，請在**[翻譯 Repository]({{link}}) 或是 ****[我們的伺服器]({{link_2}})**回報我們",
+      WARNING: "Filo's 翻譯可能會有錯誤，畢竟我們也是人類！" + "\n" + "如果有任何錯誤的話，請在**[翻譯 Repository]({{link}}) 或是 **[我們的伺服器]({{link_2}})**回報我們",
       SHORT_CODE: "代碼",
       FULL_CODE: "語言名稱"
     }
@@ -537,7 +537,7 @@ exports.CLOUDFLARE = {
   YOUR_COUNTRY: "您的國家",
   WHATS_CLOUDFLARE: {
     TITLE: "什麼是 Cloudflare？",
-    DESCRIPTION: "Cloudflare 是互聯網上最大的網路之一。人們使用 Cloudflare 服務的目的是使其網站和服務更安全、更高效。"
+    DESCRIPTION: "Cloudflare 是互聯網上最大的網路之一。人們使用 Cloudflare 服務的目的是使其網站和服務更安全、更高效"
   },
   CLOUDFLARE_HELP: {
     TITLE: "那 Cloudflare 與 Filo 又有什麼關聯？",
@@ -626,46 +626,46 @@ exports.CLOUDFLARE = {
 };
 
 exports.COMMON_ERRORS = {
-  DESCRIPTION: "在這裡，您將找到曾經是很多人的錯誤，及一些可能的解決方案。",
+  DESCRIPTION: "在這裡，您將找到曾經是很多人的錯誤，及一些可能的解決方案",
   SOLUTION: "解決方案",
   SOMETHING_WENT_WRONG: {
     TITLE: "嘗試執行操作時發生錯誤",
     WITHOUT_TRACKING_ID: {
-      TITLE: "無 TRACKING_ID 的錯誤",
-      DESCRIPTION: "只要您沒有開啟權限，就會出現此錯誤，例如：缺乏權限 Filo 的可能會導致發送此錯誤。",
+      TITLE: "無 Tracking ID",
+      DESCRIPTION: "只要您沒有開啟權限，就會出現此錯誤，例如：缺乏權限 Filo 的可能會導致發送此錯誤",
       SOLUTION: "檢查 Filo 權限是否正確，以及身分組的階級是否有符合模組需求"
     },
     WITH_TRACKING_ID: {
-      TITLE: "擁有 TRACKING_ID 的錯誤",
+      TITLE: "擁有 Tracking ID",
       DESCRIPTION: "我們的機器人伺服器 或 Discord API 有著暫時性的錯誤，是導致發生這個問題的原因",
       SOLUTION: "通知 Filo 開發團隊，並等待問題解決",
       DISCLAIMER_WARNING: "可能沒有明確的解決方案，取決於錯誤的原因"
     }
   },
   MODULE_DISABLED: {
-    TITLE: "The {{module}} module is disabled",
+    TITLE: "那個 {{module}} 模組是停用的",
     DESCRIPTION: "當您停用這個必要的模組時才會導致此問題的發生",
     SOLUTION: "啟用錯誤消息中指定的必要模組"
   },
   MODULE_DOES_NOT_WORK: {
-    TITLE: "The {{module}} module doesn't work even though it's enabled",
+    TITLE: "那個 {{module}} 模組雖然是啟用的但仍然無法運作",
     DESCRIPTION: "當出現此錯誤時， 其原因可能是：缺乏必要的權限、身分組層級問題的，或是必要的內容已不復存在。由模組發送的信息錯誤，網絡連接問題等......",
     SOLUTION: "檢查配置是否正確，權限是否正確，身分組層級是否正確",
     CONTACT_US: "如果您還是不確定模組出錯的原因，請**[聯絡我們]({{link}})**"
   },
   MISSING_USER_PERMISSIONS: {
-    TITLE: "You don't have permissions to run the {{command}} command",
+    TITLE: "你沒有執行 {{command}} 的權限",
     DESCRIPTION: "當您嘗試執行您無法訪問的指令時會出現此錯誤，例如，沒有伺服器的的指令使用權限",
     SOLUTION: "要求您的伺服器管理員為您授權相關指令的必要權限",
     CONTACT_US: "如果您無法確定您需要哪個權限，請**[聯絡我們]({{link}})**"
   },
   HIERARCHY_ERROR: {
-    TITLE: "You don't have permissions to run the command {{command}} to {{user}}",
+    TITLE: "你沒有對這個 {{user}} 執行 {{command}} 的權限",
     DESCRIPTION: "當您嘗試對身分組層級比您高的使用者執行指令時，會出現此錯誤",
     SOLUTION: "請伺服器管理員檢查您的身分組層級，以及指令對象的身分組層級"
   },
   AN_ERROR_OCURRED_API: {
-    TITLE: "An error occurred while trying to contact the API",
+    TITLE: "嘗試聯繫 API 時出錯",
     DESCRIPTION: "當使用的指令或模組使用第三方 API ，然而它並且未回應時，會出現此錯誤",
     SOLUTION: "嘗試稍後採取操作，如果錯誤持續出現，請**[聯絡我們]({{link}})**"
   },
