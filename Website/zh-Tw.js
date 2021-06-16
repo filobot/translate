@@ -2,7 +2,7 @@ exports.LANGUAGE = {
   CODE: "zh-Tw",
   STANDARD_CODE: "zh-Tw",
   FULL_CODE: "正體中文",
-  WIKI_CODE: "zh-Tw", // Traditional Added to Wiki
+  WIKI_CODE: "zh-Tw",
   CONTRIBUTORS: ["iLxlo_", "Kami-Sqmf"]
 };
 
@@ -20,7 +20,7 @@ exports.NAV_BAR = {
 
 exports.HEADER = {
   TITLE: "強大且多功能的 Discord 機器人",
-  SUBTITLE: "多語言且高自訂性，檢舉、日誌、歡迎和離開訊息、人數統計、邀請偵測、前科制度、處罰者破解偵測", // More suitable For Native Speaker
+  SUBTITLE: "多語言且高自訂性，檢舉、日誌、歡迎和離開訊息、人數統計、邀請偵測、前科制度、處罰者破解偵測",
   FEATURES: "功能",
   INVITE: "邀請"
 };
@@ -35,16 +35,16 @@ exports.FEATURES = {
   },
   ADMINISTRATION: {
     TITLE: "成員管理",
-    DESCRIPTION: "這可說是本機器人最物超所值的地方，功能包含：", // Bug Here, Fetch up { The features are }
+    DESCRIPTION: "這可說是本機器人最物超所值的地方，功能包含：",
     ITEMS: {
       WELCOMES: "歡迎訊息",
       FAREWELLS: "離開訊息",
-      REPORTS: "檢舉系統", // Same as Line 23
+      REPORTS: "檢舉系統",
       LOGGING: "日誌系統"
     }
   },
   MODERATION: {
-    TITLE: "審核系統", // Same as Line 23
+    TITLE: "審核系統",
     DESCRIPTION: "用幾個簡單的步驟就可以佈下天羅地網，把那些搗亂的人抓住！ 是時候教訓那些破壞規矩的人了。 Filo 擁有這些指令:",
   },
   MEMBER_COUNTER: {
@@ -75,27 +75,27 @@ exports.FEATURES = {
   },
   GAME_STATISTICS: {
     TITLE: "遊戲統計數據",
-    DESCRIPTION: "如果您的社群對電腦遊戲對遊戲有興趣，別再浪費時間多想，Filo 可以滿足您對", // Bug Fix, Fetch up, { For }
+    DESCRIPTION: "如果您的社群對電腦遊戲對遊戲有興趣，別再浪費時間多想，Filo 可以滿足您對",
     ITEMS: {
       GAME_STATISTICS: "遊戲統計數據的指令"
     }
   },
   MISCELLANEOUS: {
     TITLE: "Filo 小工具",
-    DESCRIPTION: "Filo 還擁有各種各樣有趣的指令，邀請至伺服器探索更多吧", // Bug Fix, Added some Modifier
+    DESCRIPTION: "Filo 還擁有各種各樣有趣的指令，邀請至伺服器探索更多吧",
     MORE_INFORMATION: "更多敘述"
   }
 };
 
 exports.STATISTICS = {
   TITLE: "目前 Filo's 的版圖",
-  GUILDS: "GUILDS", // Seems Website didn;t suppport this in Chinese
-  USERS: "USERS"
+  GUILDS: "Guilds",
+  USERS: "Users"
 };
 
 exports.DONATE = {
   TITLE: "捐款給我們",
-  SUBTITLE: "幫助 Filo 繼續維持成長，我們需要您的支持",  // Bug Fix, Added some Modifier {"We"}
+  SUBTITLE: "幫助 Filo 繼續維持成長，我們需要您的支持",
   TERMS_AND_CONDITIONS_WARNING: {
     DESCRIPTION: "捐款時，即代表您已同意 Filo 的捐贈條款及細則",
     MORE_INFORMATION: "更多敘述"
@@ -128,8 +128,8 @@ exports.VOTE = {
   PAGE: "投票網站",
   PLANS: {
     PRE_TITLE: "投票獎勵",
-    VOTES: "個投票",  // More suitable For Native Speaker
-    PER_MONTH: "每月累積",  // More suitable For Native Speaker
+    VOTES: "個投票",
+    PER_MONTH: "每月累積",
     CLAIM_NOW: "現在領取",
     PREVIOUS_REWARD: "前面等級的所有獎勵",
     ROLE_REWARD: "獨特的身分組",
@@ -146,8 +146,8 @@ exports.FRIENDLY_WEBSITES = {
 };
 
 exports.READY = {
-  TITLE: "準備加入 Filo 了嗎？", // Added Question Mark
-  SUBTITLE: "加入超過 {guilds} 多個信任 Filo 的伺服器！ !", //Fixed serious grammer problem
+  TITLE: "準備加入 Filo 了嗎？",
+  SUBTITLE: "加入超過 {guilds} 多個信任 Filo 的伺服器！",
   INVITE: "邀請",
   GETTING_STARTED: "入門指南"
 };
@@ -173,7 +173,7 @@ exports.FOOTER = {
 
 exports.THANKS = {
   PAGE: {
-    TITLE: "感謝您邀請 Filo！", // Added Exquotation Mark
+    TITLE: "感謝您邀請 Filo！",
     DESCRIPTION: "我們很高興你相信 Filo。",
     DESCRIPTION_2: "您將被重新導向到邀請頁面."
   }
