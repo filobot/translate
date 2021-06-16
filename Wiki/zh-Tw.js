@@ -32,7 +32,7 @@ exports.PAGE_TITLES = {
   ANTI_INVITES: "反邀請",
   ANTI_MASS_MENTIONS: "防止提及",
   ANTI_REPEATED_TEXT: "反重複文字",
-  AUTO_MODERATION: "AUTO MODERATION",
+  AUTO_MODERATION: "Auto Moderation",
   ANTI_SPAM: "反洗版",
   COMMANDS: "指令",
   DISABLE_COMMANDS: "停用指令",
@@ -67,7 +67,7 @@ exports.GENERAL = {
   TEMPORAL: "暫時",
   TEMPORARY: "暫時",
   PERMANENTLY: "永久",
-  CHANNEL: "頻道l",
+  CHANNEL: "頻道",
   CHANNEL_ID: "頻道 ID",
   ROLE: "身分組",
   ROLE_ID: "身分組 ID",
@@ -108,11 +108,11 @@ exports.HELPFUL_LINKS = {
 };
 
 exports.NAVBAR = {
-  HOME: "指南首頁",
+  HOME: "首頁",
   DISCORD_SERVER: "Discord 伺服器",
   PRIVACY_POLICY: "隱私政策",
   TERMS_AND_CONDITIONS: "條款及細則",
-  WEBSITE: "官方網站",
+  WEBSITE: "網站",
   DONATE: "捐款",
   BLOG: "部落格",
   TWITTER: "Twitter",
@@ -131,7 +131,7 @@ exports.NAVBAR = {
   MEMBER_COUNTER_NICKNAME: "人數統計 (暱稱)",
   LOGGING: "日誌",
   ANTI_INVITES: "反邀請",
-  AUTO_MODERATION: "AUTO MODERATION",
+  AUTO_MODERATION: "Auto Moderation",
   ANTI_EVASION: "反規避",
   ANTI_SPAM: "反洗版",
   ANTI_MASS_MENTIONS: "防止提及",
@@ -160,7 +160,7 @@ exports.GETTING_STARTED = {
   INVITE_FILO: {
     DESCRIPTION: "接下來你會看到一個伺服器邀請的例子，還有我們建議的權限設定",
     PERMISSIONS_NEEDED: "你必須是伺服器 **擁有者** 或是擁有這些權限： {{permission_1}} 或 {{permission_2}} 才能將 Filo 邀請至伺服器",
-    SLASH_COMMAND_WARNING: "目前 Filo 將不支援沒有把機器人斜線指令權限開啟的伺服器，或是註冊 Filo 斜線指令但把 Filo 踢出的伺服器，如此一來你將會收到一個一般錯誤",
+    SLASH_COMMAND_WARNING: "目前 Filo 不支援在邀請中沒有勾選 Scope bot 的情況下使用斜線命令。 如果添加斜線指令到你的伺服器，但沒有把 Filo 邀請到伺服器，斜線命令只會一直返回一個英文的語法錯誤",
     STEP_1: {
       TITLE: "打開瀏覽器中的邀請連結",
       DESCRIPTION: "**[點擊這裡]({{link}})** 我們將會為您導向到邀請頁面和斜線指令權限頁",
@@ -190,7 +190,7 @@ exports.GETTING_STARTED = {
 exports.MODULES = {
   ABOUT_THE_MODULE: "關於本模組",
   COMMUNITY_RECOMMENDATION: "我們強烈建議你使用本模組來管理社群",
-  TO_ACTION_COMMAND: "要 {{action}} 本模組，請輸入本指令： {{command}}",
+  TO_ACTION_COMMAND: "如果要 {{action}} ，您必須執行以下指令：{{command}}",
   MAX_AND_MIN_DURATION: "指令有效的持續時間必須在 **{{min}}** 到 **{{max}}** 之間 ",
   VALUE_GREATER_THAN: "數值必須大於 **{{number}}**",
   SUMMARY: "概要",
@@ -204,7 +204,7 @@ exports.MODULES = {
     REQUIRES_BASIC_PERMISSIONS: "Filo 需要以下基礎權限: {{permissions}}",
     REQUIRES_USER_PERMISSION: "在執行本主題的指令前，你需要此項權限： {{permission}} ",
     REQUIRES_USER_PERMISSIONS: "在執行本主題的指令前，你需要以下權限： {{permission}}",
-    CUSTOM_PREFIX: "你需要取代 " + "<kbd>" + "f!" + "</kbd>" + " 成你設定的 Prefix 。如果你需要更換它的教學，請**[點擊這裡]({{link}})**"
+    CUSTOM_PREFIX: "你需要取代 " + "<kbd>" + "f!" + "</kbd>" + " 成你設定的 prefix 。如果你需要更換它的教學，請**[點擊這裡]({{link}})**"
   },
   MODULE_EXCEPTIONS: {
     TITLE: "常見錯誤",
@@ -220,12 +220,12 @@ exports.MODULES = {
     MODULE_WILL_NOT_WORK: "如果滿足此要求或以下要求，則該模組將無法工作"
   },
   ENABLE_MODULE: {
-    TITLE: "如何啟用本模組？",
+    TITLE: "啟用本模組的步驟",
     SUBTITLE: "啟用模組",
     SUPPLEMENTARY_MODULE: "這個模組可以補充 **[{{module}}]({{link}})**"
   },
   DISABLE_MODULE: {
-    TITLE: "如何停用本模組？",
+    TITLE: "停用本模組的步驟",
     SUBTITLE: "停用模組"
   },
   RESET_MODULE: {
@@ -256,11 +256,11 @@ exports.MODULES = {
     DESCRIPTION: "本模組會殲滅成員說出的髒話",
     BAD_WORD: "髒話",
     BAN_A_BAD_WORD: {
-      TITLE: "如何新增髒話至辭典？",
+      TITLE: "新增髒話至辭典的步驟",
       SUBTITLE: "新增髒話"
     },
     UNBAN_A_BAD_WORD: {
-      TITLE: "如何從辭典移除髒話？",
+      TITLE: "從辭典移除髒話的步驟",
       SUBTITLE: "移除髒話"
     }
   },
@@ -268,12 +268,12 @@ exports.MODULES = {
     DESCRIPTION: "本模組會把想要繞過處罰機制的人抓出來，並恢復他們的處罰",
     ACTION: "規則",
     SET_A_ACTION: {
-      TITLE: "如何設定要處理的原則？",
+      TITLE: "設定要處理的原則的步驟",
       SUBTITLE: "設定原則",
       FULL_LIST_OF_ACTIONS: "你可以點擊**[這個連結]({{link}})**來查看 Filo 支援的原則"
     },
     SET_TIME: {
-      TITLE: "如何設定本原則處理期？",
+      TITLE: "設定本原則處理期的步驟",
       SUBTITLE: "為原則添加過期時間"
     }
   },
@@ -281,18 +281,18 @@ exports.MODULES = {
     DESCRIPTION: "本模組可以自動刪除其他伺服器的邀請和警告連結發送者",
     SERVER_ID: "伺服器 ID",
     ALLOW_A_SERVER: {
-      TITLE: "如何新增例外伺服器名單？",
+      TITLE: "新增例外伺服器名單的步驟",
       SUBTITLE: "新增例外伺服器至名單中",
     },
     DISALLOW_A_SERVER: {
-      TITLE: "如何從名單移除例外伺服器？",
+      TITLE: "從名單移除例外伺服器的步驟",
       SUBTITLE: "移除例外伺服器"
     }
   },
   ANTI_MASS_MENTIONS: {
     DESCRIPTION: "本模組可以制裁那些傳送大量無用提及的人",
     SET_THRESHOLD: {
-      TITLE: "如何設定提及數量？",
+      TITLE: "設定提及數量的步驟",
       SUBTITLE: "設定提及數量"
     }
   },
@@ -302,27 +302,27 @@ exports.MODULES = {
   ANTI_SPAM: {
     DESCRIPTION: "本模組可以自動刪除洗版訊息和警告洗版發送者",
     ALLOW_CHANNEL: {
-      TITLE: "如何新增例外頻道？",
+      TITLE: "新增例外頻道的步驟",
       SUBTITLE: "新增一個例外的頻道",
       WARNING: "如題所說，那些在本頻道洗版的人不會受到任何處罰"
     },
     DISALLOW_CHANNEL: {
-      TITLE: "如何移除例外頻道？",
+      TITLE: "移除例外頻道的步驟",
       SUBTITLE: "移除例外頻道",
       WARNING: "如題所說，那些在本頻道洗版的人將會重新受到處罰"
     },
     ALLOW_ROLE: {
-      TITLE: "如何新增例外身分組？",
+      TITLE: "新增例外身分組的步驟",
       SUBTITLE: "新增例外身分組",
       WARNING: "如題所說，那些擁有此身分組的人將不會受到洗版處罰"
     },
     DISALLOW_ROLE: {
-      TITLE: "如何移除例外身分組？",
+      TITLE: "移除例外身分組的步驟",
       SUBTITLE: "移除例外身分組",
       WARNING: "如題所說，那些擁有此身分組的人將會重新受到洗版處罰"
     },
     SET_THRESHOLD: {
-      TITLE: "如何設定數量和時間？",
+      TITLE: "設定數量和時間的步驟",
       SUBTITLE: "設定數量和時間",
       TIME: {
         SUBTITLE: "為相同的訊息設定洗版最低時間"
@@ -332,16 +332,16 @@ exports.MODULES = {
   AUTO_MODERATION: {
     DESCRIPTION: "本模組可以讓你把有前科的人抓出來，並訂製他們的處罰",
     SET_MAX_WARNINGS: {
-      TITLE: "如何設定最高前科次數？",
+      TITLE: "設定最高前科次數的步驟",
       SUBTITLE: "設定最高前科次數"
     },
     SET_ACTION: {
-      TITLE: "如何設定前科累加的處罰？",
+      TITLE: "設定前科累加的處罰的步驟",
       SUBTITLE: "設定前科累加的處罰",
       FULL_LIST_OF_ACTIONS: "你可以點擊**[這個連結]({{link}})**來查看 Filo 支援的處罰"
     },
     SET_TIME: {
-      TITLE: "如何設定前科紀錄的保留時間？",
+      TITLE: "設定前科紀錄的保留時間的步驟",
       SUBTITLE: "設定紀錄的保留時間"
     }
   },
@@ -351,11 +351,11 @@ exports.MODULES = {
       ACTION: "停用或重新啟用 Filo 指令",
       DESCRIPTION: "本模組將允許您停用您不會用到或不想使用的指令",
       DISABLE: {
-        TITLE: "如何停用指令？",
+        TITLE: "停用指令的步驟",
         SUBTITLE: "停用指令"
       },
       ENABLE: {
-        TITLE: "如何啟用指令？",
+        TITLE: "啟用指令的步驟",
         SUBTITLE: "啟用指令"
       }
     }
@@ -363,18 +363,18 @@ exports.MODULES = {
   FAREWELLS: {
     DESCRIPTION: "本模組可以為離開伺服器的人發佈一條訊息",
     SET_CHANNEL: {
-      TITLE: "如何設定離別訊息發佈頻道？",
+      TITLE: "設定離別訊息發佈頻道的步驟",
       SUBTITLE: "設定離別訊息發佈頻道"
     },
     SET_MESSAGE: {
-      TITLE: "如何設定離別訊息？",
+      TITLE: "設定離別訊息的步驟",
       SUBTITLE: "設定離別訊息",
       MESSAGE_VARIABLES: "你可以在離別訊息裡添加變數，點擊**[這個連結]({{link}})**來查看 Filo 支援的變數",
       MESSAGE_CODE: "訊息程式碼",
       RESULT_MESSAGE: "訊息結果"
     },
     SET_MESSAGE_TYPE: {
-      TITLE: "如何設定訊息類型？",
+      TITLE: "設定訊息類型的步驟",
       SUBTITLE: "設定訊息類型",
       WARNING: "如果使用者關閉嵌入內容，他將看不到訊息",
       SET_EMBED_COLOR: {
@@ -384,24 +384,24 @@ exports.MODULES = {
     },
     VARIABLES: {
       WARNING: "這些變數可能不會總是發送出您預期的信息",
-      VARIABLES: "{{variable}} variables"
+      VARIABLES: "{{variable}} 的變數們"
     }
   },
   WELCOMES: {
     DESCRIPTION: "本模組可以為剛進入伺服器的人發佈一條訊息",
     SET_CHANNEL: {
-      TITLE: "如何設定歡迎訊息發佈頻道？",
+      TITLE: "設定歡迎訊息發佈頻道的步驟",
       SUBTITLE: "設定歡迎訊息發佈頻道"
     },
     SET_MESSAGE: {
-      TITLE: "如何設定歡迎訊息？",
+      TITLE: "設定歡迎訊息的步驟",
       SUBTITLE: "設定歡迎訊息",
       MESSAGE_VARIABLES: "你可以在歡迎訊息裡添加變數，點擊**[這個連結]({{link}})**來查看 Filo 支援的變數",
       MESSAGE_CODE: "訊息程式碼",
       RESULT_MESSAGE: "訊息結果"
     },
     SET_MESSAGE_TYPE: {
-      TITLE: "如何設定訊息類型？",
+      TITLE: "設定訊息類型的步驟",
       SUBTITLE: "設定訊息類型",
       WARNING: "如果使用者關閉嵌入內容，他將看不到訊息",
       SET_EMBED_COLOR: {
@@ -419,7 +419,7 @@ exports.MODULES = {
         FILO_LOWER_WELCOME_ROLE: "如果 Filo 的身分組位階低於這個使用者",
         FILO_EQUAL_WELCOME_ROLE: "如果 Filo 的身分組位階等於這個使用者",
       },
-      TITLE: "如何設定預設身分組？",
+      TITLE: "設定預設身分組的步驟",
       SUBTITLE: "設定預設身分組",
       WARNING: "Filo 的身分組位階必須高於所選身分組，並且所選身分組不能是管理層級"
     }
@@ -434,7 +434,7 @@ exports.MODULES = {
         SUBTITLE: "在頻道裡建立永久的邀請"
       },
       SET_A_INVITE: {
-        TITLE: "如何從頻道設定現有的邀請？",
+        TITLE: "從頻道設定現有的邀請的步驟",
         SUBTITLE: "從頻道設定現有的邀請",
         INVITE_URL: "邀請連結",
         INVITE_CODE: "邀請代碼",
@@ -445,11 +445,11 @@ exports.MODULES = {
       ACTION: "設定禁言身分組",
       DESCRIPTION: "本模組可以將成員禁言 (需先設定禁言身分組)",
       CREATE_THE_ROLE: {
-        TITLE: "如何禁言身分組？",
+        TITLE: "禁言身分組的步驟",
         SUBTITLE: "建立禁言身分組"
       },
       SET_THE_ROLE: {
-        TITLE: "如何綁定已經存在的身分組？",
+        TITLE: "綁定已經存在的身分組的步驟",
         SUBTITLE: "綁定禁言身分組"
       }
     }
@@ -457,7 +457,7 @@ exports.MODULES = {
   LANGUAGE: {
     DESCRIPTION: "本模組允許您更改或重置 Filo 的語言。注意！這將影響所有的指令、模組和系統",
     SET_A_LANGUAGE: {
-      TITLE: "如何設定語言？",
+      TITLE: "設定語言的步驟",
       SUBTITLE: "設定語言",
       LANGUAGE_LIST: "點擊**[這個連結]({{link}})**來查看 Filo 所支援的語言",
       LANGUAGE_FULL_CODE: "語言名稱"
@@ -474,7 +474,7 @@ exports.MODULES = {
       WEBHOOK_REMOVED: "如果 Webhook 被刪除",
     },
     SET_CHANNEL: {
-      TITLE: "如何設定日誌頻道？",
+      TITLE: "設定日誌頻道的步驟",
       SUBTITLE: "設定日誌頻道",
       SUGGESTION: "您設定的頻道需要是不公開且伺服器管理員可以看到的"
     }
@@ -482,19 +482,19 @@ exports.MODULES = {
   MEMBER_COUNTER: {
     DESCRIPTION: "本模組可以讓您創建一個以成員數量命名的語音頻道",
     SET_CHANNEL: {
-      TITLE: "如何創建一個以成員數量命名的語音頻道？",
+      TITLE: "創建一個以成員數量命名的語音頻道的步驟",
       SUBTITLE: "創建成員數頻道",
       INVALID_CHANNEL_WARNING: "您選擇的頻道必須是 **語音頻道** ，否則這個模組將不會正常運作"
     },
     SET_CHANNEL_NAME: {
-      TITLE: "如何設定成員數頻道的名字？",
+      TITLE: "設定成員數頻道的名字的步驟",
       SUBTITLE: "設定成員數頻道的名字",
       MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
     },
     NICKNAME: {
       DESCRIPTION: "本模組可以把 Filo 的名稱更改為成員數量",
       SET_NICKNAME: {
-        TITLE: "如何設定暱稱？",
+        TITLE: "設定暱稱的步驟",
         SUBTITLE: "把 Filo 的名稱更改為成員數量",
         MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
       }
@@ -503,7 +503,7 @@ exports.MODULES = {
   PREFIX: {
     DESCRIPTION: "本模組允許您更改或重置 Filo 的 Prefix",
     SET_PREFIX: {
-      TITLE: "如何設定新的 Prefix？",
+      TITLE: "設定新 Prefix的步驟",
       SUBTITLE: "設定新的 Prefix",
       NEW_PREFIX: "Prefix",
       SLASH_PREFIX_WARNING: "Filo 不支援更改斜線字首 ",
@@ -551,7 +551,7 @@ exports.CLOUDFLARE = {
       DESCRIPTION: "Cloudflare Ban 是一項臨時或永久制裁，它將拒絕您訪問我們的網站。 它會通過以下方式發出禁令："
     },
     HOW_TO_IDENTIFY_IT: {
-      TITLE: "如何識別 Cloudflare Ban？",
+      TITLE: "識別 Cloudflare Ban的步驟",
       DESCRIPTION: "您將能夠快速識別 Cloudflare Ban，因為您會收到 403 錯誤，或是標題為\"拒絕訪問\"的錯誤頁面",
       EXAMPLE_DESCRIPTION: "一張顯示「您的 IP 位址 已經被 Ban 並無法訪問內容」的圖片範例"
     }
