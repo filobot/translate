@@ -3,7 +3,7 @@ exports.LANGUAGE = {
   STANDARD_CODE: "zh-Tw",
   FULL_CODE: "正體中文",
   WIKI_CODE: "zh-Tw",
-  CONTRIBUTORS: ["iLxlo_", "Kami-Sqmf"]
+  CONTRIBUTORS: ["Kami-Sqmf", "iLxlo_"]
 };
 // 0614 Part
 exports.TIME = {
@@ -422,7 +422,7 @@ exports.MODULES = {
       },
       TITLE: "如何設定預設身分組？",
       SUBTITLE: "設定預設身分組",
-      WARNING: "Filo 的身分組位階必須高於所選身分組，並且所選身分組不能是管理階層"
+      WARNING: "Filo 的身分組位階必須高於所選身分組，並且所選身分組不能是管理層級"
     }
   },
   GUILD: {
@@ -471,34 +471,34 @@ exports.MODULES = {
   },
     // 0616 Part
   LOGGING: {
-    DESCRIPTION: "This module will allow you to send all the server logs to a specific channel",
+    DESCRIPTION: "本模組可以讓您把所有伺服器的紀錄傳送到指定頻道",
     MODULE_EXCEPTIONS: {
-      WEBHOOK_REMOVED: "If the webhook has been removed",
+      WEBHOOK_REMOVED: "如果 Webhook 被停用",
     },
     SET_CHANNEL: {
-      TITLE: "Steps to set the logging channel",
-      SUBTITLE: "Set the logging channel",
-      SUGGESTION: "The channel you select should be private and accessible to server moderators"
+      TITLE: "如何設定日誌頻道？",
+      SUBTITLE: "設定日誌頻道",
+      SUGGESTION: "您設定的頻道需要是不公開且伺服器管理員可以看到的"
     }
   },
   MEMBER_COUNTER: {
-    DESCRIPTION: "This module will allow you to display the member count of your guild in a voice channel",
+    DESCRIPTION: "本模組可以讓您創建一個以成員數量命名的語音頻道",
     SET_CHANNEL: {
-      TITLE: "Steps to set the member-counter channel",
-      SUBTITLE: "Set the member-counter channel",
-      INVALID_CHANNEL_WARNING: "The channel you select must be **voice channel**, otherwise the module won't work"
+      TITLE: "如何創建一個以成員數量命名的語音頻道？",
+      SUBTITLE: "創建成員數頻道",
+      INVALID_CHANNEL_WARNING: "您選擇的頻道必須是 **語音頻道** ，否則你只會拿到一個大大的~鴨蛋~"
     },
     SET_CHANNEL_NAME: {
-      TITLE: "Steps to set the member-counter channel name",
-      SUBTITLE: "Set the member-counter channel name",
-      MAX_LENGTH: "The channel name can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
+      TITLE: "如何設定頻道的名字？",
+      SUBTITLE: "設定成員數頻道的名字",
+      MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
     },
     NICKNAME: {
-      DESCRIPTION: "This module will allow you to set a member counter on Filo's nickname",
+      DESCRIPTION: "本模組可以把 Filo 的名稱更改為成員數量",
       SET_NICKNAME: {
-        TITLE: "Steps to set the nickname",
-        SUBTITLE: "Set the nickname",
-        MAX_LENGTH: "The nickname can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
+        TITLE: "如何設定？",
+        SUBTITLE: "把 Filo 的名稱更改為成員數量",
+        MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
       }
     }
   },
@@ -526,155 +526,155 @@ exports.MODULES = {
 };
 
 exports.CLOUDFLARE = {
-  DESCRIPTION: "Here you'll find useful documentation on how Cloudflare works on the Filo service",
-  IP_ADDRESS: "IP address",
-  YOUR_IP_ADDRESS: "Your IP address",
-  ISP: "ISP (AKA: Internet Service Provider)",
-  YOUR_ISP: "Your ISP (AKA: Internet Service Provider)",
-  IP_ADDRESS_RANGE: "IP address range",
-  YOUR_IP_ADDRESS_RANGE: "Your IP address range",
-  USER_AGENT: "User-Agent",
-  YOUR_USER_AGENT: "Your User-Agent",
-  COUNTRY: "Country",
-  YOUR_COUNTRY: "Your country",
+  DESCRIPTION: "在這裡您將找到有關 Filo 與 Cloudflare 的關聯",
+  IP_ADDRESS: "IP 位址",
+  YOUR_IP_ADDRESS: "您的 IP 位址",
+  ISP: "ISP (AKA: 網路業者)",
+  YOUR_ISP: "您的 ISP (如：中華電信、凱擘大寬頻、台灣大寬頻，等......)",
+  IP_ADDRESS_RANGE: "IP 位址範圍",
+  YOUR_IP_ADDRESS_RANGE: "您的 IP 位址範圍",
+  USER_AGENT: "[用戶代理字串](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Headers/User-Agent)",
+  YOUR_USER_AGENT: "您的用戶代理字串",
+  COUNTRY: "國家",
+  YOUR_COUNTRY: "您的國家",
   WHATS_CLOUDFLARE: {
-    TITLE: "What's Cloudflare?",
-    DESCRIPTION: "Cloudflare is one of the biggest networks operating on the Internet. People use Cloudflare services for the purposes of increasing the security and performance of their web sites and services"
+    TITLE: "什麼是 Cloudflare？",
+    DESCRIPTION: "Cloudflare 是互聯網上最大的網路之一。人們使用 Cloudflare 服務的目的是使其網站和服務更安全、更高效。"
   },
   CLOUDFLARE_HELP: {
-    TITLE: "How does Cloudflare help Filo?",
-    DESCRIPTION: "Cloudflare helps Filo by protecting its website and API from malicious people"
+    TITLE: "那 Cloudflare 與 Filo 又有什麼關聯",
+    DESCRIPTION: "Cloudflare 幫助 Filo 遠離惡意之人。它幫忙保護官方網站和 API 存取"
   },
   CLOUDFLARE_BANS: {
     TITLE: "Cloudflare bans",
-    DESCRIPTION: "It's essential that we protect our website from people with malicious intent, for this we are using bans on Cloudflare. Below you'll find information about these bans and how they can affect you",
+    DESCRIPTION: "我們必須保護我們的網站免受惡意人士的侵害，為此我們 Cloudflare Ban。 您將在下方找到有關這些禁令以及它們如何影響您",
     WHATS_IT: {
-      TITLE: "What's a Cloudflare ban?",
-      DESCRIPTION: "A Cloudflare ban is a temporary or permanent sanction that will deny you access to our website. The ban can be given by:"
+      TITLE: "什麼是 Cloudflare Ban？",
+      DESCRIPTION: "Cloudflare Ban 是一項臨時或永久制裁，它將拒絕您訪問我們的網站。 它會通過以下方式發出禁令："
     },
     HOW_TO_IDENTIFY_IT: {
-      TITLE: "How can I identify a Cloudflare ban?",
-      DESCRIPTION: "You'll be able to quickly identify a Cloudflare ban, because you'll receive a 403 error followed by an error page titled \"Access Denied\"",
-      EXAMPLE_DESCRIPTION: "Example of a page that shows that your IP address has been banned and you can't access its content"
+      TITLE: "如何識別 Cloudflare Ban？",
+      DESCRIPTION: "您將能夠快速識別 Cloudflare Ban，因為您會收到 403 錯誤，或是標題為“拒絕訪問”的錯誤頁面",
+      EXAMPLE_DESCRIPTION: "一張顯示\"您的 IP 位址 已經被 Ban 並無法訪問內容\"的圖片"
     }
   },
   BANNED_ACTIONS: {
-    TITLE: "What actions are banned from Cloudflare?",
-    DESCRIPTION: "Information on what actions can be banned from Cloudflare is specified below, however this document may not be 100% accurate for security reasons",
-    EXPLANATION_ERROR_429: "429 errors tell browsers and applications making requests of any kind to our website that your rate limit is being exceeded",
-    INDIVIDUAL_OR_SPECIFIC: "Individual or specific",
-    GLOBAL_OR_COMMON: "Global or common",
-    INDIVIDUAL_EXPLANATION: "The individual or specific rate limits are more restrictive, but, as a consequence, exceeding this limit won't result in a ban on Cloudflare (although it would be advisable not to exceed these limits). These limits are specific to each API endpoint",
-    GLOBAL_EXPLANATION: "Global or common rate limits are restrictive in the long term, that's, if you make a large number of requests per minute, you'll likely receive a global rate limit (you won't be allowed to access any other API endpoints during a rate limit)" + ".\n\n" + "If you exceed 5 times the warning for exceeding the global request quota in less than 1 hour, your IP address will be temporarily banned for 1 hour",
-    CLARIFICATION: "Please note that Cloudflare bans affect all domains related to Filo",
+    TITLE: "什麼行為會被 Cloudflare Ban？",
+    DESCRIPTION: "下面指出了有關 Cloudflare 禁止的操作，但是出於安全原因，此文檔可能只有 87% 準確",
+    EXPLANATION_ERROR_429: "429 錯誤將告訴瀏覽器和應用程序向我們的網站發出任何類型的請求，您的速率限制已被超出",
+    INDIVIDUAL_OR_SPECIFIC: "個人或特定",
+    GLOBAL_OR_COMMON: "全球或通用",
+    INDIVIDUAL_EXPLANATION: "個人或特定的速率限制更加嚴格，但結果是超過此限制不會導致 Cloudflare Ban (不過最好不要超過這些限制)。 這些限制取至於每個 API 端點",
+    GLOBAL_EXPLANATION: "全球或通用的速率限制是從長遠來看的，也就是說，如果您每分鐘發出大量請求，您可能會收到全局速率限制（在速率限制期間，您將不被允許訪問任何其他 API 端點） " + ".\n\n" + "如果您在不到1小時內收到超過警告或超過全球請求配額的5倍，您的IP位地址將被暫時禁止1小時r",
+    CLARIFICATION: "請注意，Cloudflare Ban 會影響與 Filo 相關的所有功能",
     EXCESS_429_ERRORS_ONLY_API: {
-      TITLE: "Excess 429 errors in the API",
-      DESCRIPTION: "The API has two types of rate limits"
+      TITLE: "API 中的 429（過度請求）",
+      DESCRIPTION: "此 API 有兩種速率限制"
     },
     EXCESS_429_ERRORS: {
-      TITLE: "Excess 429 errors in the rest of the service",
-      DESCRIPTION: "The rest of the Filo service has two types of rate limits"
+      TITLE: "其餘服務中的 429（過度請求）",
+      DESCRIPTION: "其餘的 Filo 服務有兩種類型的速率限制"
     }
   },
   APPEAL_A_BAN: {
-    TITLE: "Appeal a ban on Cloudflare",
-    DESCRIPTION: "Below you'll find information on how to appeal a ban on Cloudflare",
+    TITLE: "對 Cloudflare Ban 提出上訴",
+    DESCRIPTION: "您將在下方找到有關如何對 Cloudflare Ban 提出上訴的方法",
     ACCORDING_TO_THE_TIME: {
-      TITLE: "Appeal according to the duration of the ban",
-      TEMPORAL: "Temporal",
-      PERMANENT: "Permanent",
-      PERMANENT_APPEAL: "You can appeal a permanent ban by **[clicking here]({{link}})**"
+      TITLE: "根據禁令期限上訴",
+      TEMPORAL: "暫時",
+      PERMANENT: "永久",
+      PERMANENT_APPEAL: "您可以通過**[點擊這裡]({{link}})**來對永久禁令提出上訴"
     },
     ACCORDING_TO_THE_TYPE: {
-      TITLE: "Appeal according to the type of ban",
-      DESCRIPTION: "Below you'll find information on how to appeal the type of ban",
-      WARNING: "Please note that some bans can't be appealed due to their nature",
-      IP_ADDRESS: "If you were banned by mistake as you got a banned IP address from Cloudflare, please turn off your router for 5 minutes for the IP address to be changed. Otherwise **[click here]({{link}})**",
-      ISP: "If you were banned because of your ISP, it's very likely that we received an excessive amount of requests that result in 429 errors and, therefore, we determined that your ISP should be banned. there's no appeal available",
-      IP_ADDRESS_RANGE: "If I was banned because of your IP address range, it's very likely that we received an excessive amount of requests that result in 429 errors and, therefore, we determined that your IP address range should be banned. Please turn off your router for 5 minutes for the IP address to be changed. Otherwise, there's no appeal available",
-      USER_AGENT: "If you were banned because of your User-Agent, it's very likely that we determined that your User-Agent is dangerous or related to harmful purposes. there's no appeal available",
-      NO_APPEALABLE: "there's no appeal available"
+      TITLE: "根據禁令類型上訴",
+      DESCRIPTION: "您將在下方找到有關如何對禁令類型提出上訴的信息",
+      WARNING: "請注意！某些禁令因其性質無法上訴",
+      IP_ADDRESS: "如果您因為從 Cloudflare 獲得了 IP 地址禁止訪問，請關閉您的路由器 5 分鐘以更改 IP 地址。 或是**[點擊這裡]({{link}})**",
+      ISP: "如果您因為您的 ISP 被禁止，很可能是我們收到了過多 429 錯誤。因此，我們將您的 ISP 禁止訪問。 沒有可用的上訴",
+      IP_ADDRESS_RANGE: "如果我因為您的 IP 位址範圍而被禁止，很可能我們收到了過多的請求，導致 429 錯誤，因此我們確定您的 IP 位址範圍應該被禁止。 請關閉路由器 5 分鐘以更改 IP 位址。 否則無法上訴",
+      USER_AGENT: "如果您因為您的用戶代理而被禁止，很可能我們確定您的用戶代理是危險的或與有害目的有關。 沒有可用的上訴，或是換到其他最新版的瀏覽器",
+      NO_APPEALABLE: "沒有可用的上訴"
     }
   },
   REPETITIVE_SANCTIONS: {
-    TITLE: "Repetitive sanctions",
-    DESCRIPTION: "The automatic sanctions of our service are always temporary, however, if an IP address or ISP receives constant sanctions, our team can permanently ban the following parameters:"
+    TITLE: "制裁次數過多",
+    DESCRIPTION: "我們自動制裁通常是暫時的，但是，如果 IP 位址或 ISP 受到持續制裁，我們的團隊可以永久禁止以下："
   },
   PERMANENT_BANS: {
-    TITLE: "Permanent bans on Cloudflare",
-    DESCRIPTION: "Permanent Cloudflare bans are granted as the last measure of protection for our service. While it's true that, in the event of an ISP ban, all of its clients are denied access to our website, it isn't entirely true",
+    TITLE: "永久的禁止訪問",
+    DESCRIPTION: "永久 Cloudflare 禁令是我們服務的最後一項保護措施。 雖然在 ISP 禁止的情況下，其所有客戶都被拒絕訪問我們的網站，但事實並非如此",
     ISP: {
-      TITLE: "ISP ban",
-      DESCRIPTION: "It isn't entirely true that to protect our website we ban an ISP, rather we force all clients of this ISP to perform a captcha. This validates requests and makes it possible to deny access to people with bad intentions"
+      TITLE: "ISP 禁令",
+      DESCRIPTION: "為了保護我們的網站，我們禁止 ISP 並不完全正確，而是強制該 ISP 的所有客戶執行驗證碼。 這會驗證請求，並可以拒絕有惡意的人訪問"
     },
     IP_ADDRESS_RANGE: {
-      TITLE: "IP address range ban",
-      DESCRIPTION: "Depending on the situation, if an IP address range has been permanently banned, on special occasions, it's possible that no type of captcha is performed to validate the requests. Likewise, the priority of our team is to reject requests with bad intentions as the main measure"
+      TITLE: "IP 位址範圍 Ban",
+      DESCRIPTION: "視情況而定，如果某個 IP 位址範圍已被永久禁止，在特殊情況下，可能不會執行任何類型的驗證碼來驗證請求。 同樣，我們團隊的首要任務是以拒絕惡意請求為主要措施"
     },
     USER_AGENT: {
-      TITLE: "User-Agent ban",
-      DESCRIPTION: "Typically, those who modify the User-Agent of their browser or application to make requests to a website know what they are doing. Modification to an unknown User-Agent can be interpreted as a threat and receive a sanction from us" + ".\n\n" + "Our recommendation is to leave the browser's default User-Agent or specify a known User-Agent"
+      TITLE: "用戶代理字串 Ban",
+      DESCRIPTION: "通常，那些修改其瀏覽器或應用程序的用戶代理以向網站發出請求的人知道他們在做什麼。 對未知用戶代理的修改可能被解釋為威脅並受到我們的製裁" + ".\n\n" + "我們的建議是保留瀏覽器的默認 User-Agent 或指定一個已知的 User-Agent"
     },
     COUNTRY: {
-      TITLE: "Country ban",
-      DESCRIPTION: "It isn't entirely true that we ban countries that make malicious requests (at least not if we consider the number of malicious requests tolerable). As a priority, we'll request a captcha to all requests from those countries and all requests with bad intentions will be rejected, to ensure that our service is accessible to people with good intentions"
+      TITLE: "國家 Ban",
+      DESCRIPTION: "我們禁止發出惡意請求的國家/地區並不完全正確（至少如果我們認為惡意請求的數量可以容忍的話）。 作為優先事項，我們將對來自這些國家/地區的所有請求請求驗證碼，並拒絕所有惡意請求，以確保善意的人可以訪問我們的服務"
     }
   },
   HCAPTCHA: {
     TITLE: "hCaptcha",
-    DESCRIPTION: "The captcha is managed by **[hCaptcha]({{link_1}})** and applies a **[Terms and Conditions]({{link_2}})** and **[Privacy Policy]({{link_3}})**",
-    EXAMPLE_CAPTCHA: "Example of a page that shows an hCaptcha to be able to access its content"
+    DESCRIPTION: "驗證碼由 **[hCaptcha]({{link_1}})** 管理，他們有著**[條款和條件]({{link_2}})**和**[隱私政策]({{link_3}})**",
+    EXAMPLE_CAPTCHA: "一張顯示\" hCaptcha \"的圖片"
   }
 };
 
 exports.COMMON_ERRORS = {
-  DESCRIPTION: "Here you'll find documented all Filo errors along with their possible solutions",
-  SOLUTION: "Solution",
+  DESCRIPTION: "在這裡，您將找到曾經是很多人的錯誤，及一些可能的解決方案。",
+  SOLUTION: "解決方案",
   SOMETHING_WENT_WRONG: {
-    TITLE: "Something went wrong when trying to execute that action",
+    TITLE: "嘗試執行操作時發生錯誤",
     WITHOUT_TRACKING_ID: {
-      TITLE: "Without Tracking ID",
-      DESCRIPTION: "This is an error that will be granted whenever something fails on your part, for example, the lack of permissions from Filo can cause this error to be sent",
-      SOLUTION: "Check that the Filo permissions are correctly placed and that the role hierarchy is appropriate for each situation"
+      TITLE: "無 TRACKING_ID 的錯誤",
+      DESCRIPTION: "只要您沒有開啟權限，就會出現此錯誤，例如：缺乏權限 Filo 的可能會導致發送此錯誤。",
+      SOLUTION: "檢查 Filo 權限是否正確，以及身分組的階級是否有符合模組需求"
     },
     WITH_TRACKING_ID: {
-      TITLE: "With Tracking ID",
-      DESCRIPTION: "This error occurs when something isn't working on our side or the Discord API doesn't return satisfactory responses",
-      SOLUTION: "Inform the Filo Development Team and wait for a solution to the problem",
-      DISCLAIMER_WARNING: "It's possible that there's no definitive solution, depending on the causes of the error"
+      TITLE: "擁有 TRACKING_ID 的錯誤",
+      DESCRIPTION: "我們的機器人伺服器 或 Discord API 有著暫時性的錯誤，是導致發生這個問題的原因",
+      SOLUTION: "通知 Filo 開發團隊，並等待問題解決",
+      DISCLAIMER_WARNING: "可能沒有明確的解決方案，取決於錯誤的原因"
     }
   },
   MODULE_DISABLED: {
     TITLE: "The {{module}} module is disabled",
-    DESCRIPTION: "This is an error that's sent when you try to use a command or functionality that's only available if you have the necessary module enabled",
-    SOLUTION: "Enable the necessary module that's specified in the error message"
+    DESCRIPTION: "當您停用這個必要的模組時才會導致此問題的發生",
+    SOLUTION: "啟用錯誤消息中指定的必要模組"
   },
   MODULE_DOES_NOT_WORK: {
     TITLE: "The {{module}} module doesn't work even though it's enabled",
-    DESCRIPTION: "This error is given when something in the module configuration does not work as it should; The causes could be: lack of necessary permissions, problems in the role hierarchy, the necessary channel ceased to exist, malformation of the information sent by the module, the webhook ceased to exist, etc",
-    SOLUTION: "Check that the configuration is correct, the permissions are correct and if the hierarchy is correct",
-    CONTACT_US: "If you can't determine the problem why the module doesn't work, **[contact us]({{link}})**"
+    DESCRIPTION: "當出現此錯誤時， 其原因可能是：缺乏必要的權限、身分組層級問題的，或是必要的內容已不復存在。由模組發送的信息錯誤，網絡連接問題等......",
+    SOLUTION: "檢查配置是否正確，權限是否正確，身分組層級是否正確",
+    CONTACT_US: "如果您還是不確定模組出錯的原因，請**[聯絡我們]({{link}})**"
   },
   MISSING_USER_PERMISSIONS: {
     TITLE: "You don't have permissions to run the {{command}} command",
-    DESCRIPTION: "This error is given when you try to execute a command that you shouldn't have access to, for example, a moderation command without being a server moderator",
-    SOLUTION: "Ask a superior of your server to establish the necessary permissions for the execution of the command in question",
-    CONTACT_US: "If you can't determine which permission is necessary, **[contact us]({{link}})**"
+    DESCRIPTION: "當您嘗試執行您無法訪問的指令時會出現此錯誤，例如，沒有伺服器的的指令使用權限",
+    SOLUTION: "要求您的伺服器管理員為您授權相關指令的必要權限",
+    CONTACT_US: "如果您無法確定您需要哪個權限，請**[聯絡我們]({{link}})**"
   },
   HIERARCHY_ERROR: {
     TITLE: "You don't have permissions to run the command {{command}} to {{user}}",
-    DESCRIPTION: "This error is given when you try to execute a command with a user who has a higher role hierarchy than yours",
-    SOLUTION: "Ask a superior to review your role hierarchy and that of the user with whom you want to run the command"
+    DESCRIPTION: "當您嘗試對身分組層級比您高的使用者執行指令時，會出現此錯誤",
+    SOLUTION: "請伺服器管理員檢查您的身分組層級，以及指令對象的身分組層級"
   },
   AN_ERROR_OCURRED_API: {
     TITLE: "An error occurred while trying to contact the API",
-    DESCRIPTION: "This error is given when the command or module depends on a third-party API and it doesn't return a successful response",
-    SOLUTION: "Try to try the action taken later, if it continues the same, **[contact us]({{link}})**"
+    DESCRIPTION: "當使用的指令或模組使用第三方 API ，然而它並且未回應時，會出現此錯誤",
+    SOLUTION: "嘗試稍後採取操作，如果錯誤持續出現，請**[聯絡我們]({{link}})**"
   },
   FILO_DOES_NOT_RESPOND: {
-    TITLE: "Filo doesn't respond to any command",
-    DESCRIPTION: "This error occurs when the Discord API doesn't send the necessary information about the permissions of Filo in the command execution channel",
-    SOLUTION: "Please try again later and if the problem persists, **[contact us]({{link}})**",
-    DISCLAIMER_WARNING: "There's currently no definitive solution to this error"
+    TITLE: "Filo 沒有回應您的指令",
+    DESCRIPTION: "當 Discord API 沒有在指令執行時，發送相關訊息給 Filo ，又或者是 Filo 沒有權限讀取內容",
+    SOLUTION: "請稍後再試，如果錯誤持續出現，請**[聯絡我們]({{link}})**",
+    DISCLAIMER_WARNING: "目前沒有針對此錯誤的明確解決方案"
   }
 };
