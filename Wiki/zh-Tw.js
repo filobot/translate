@@ -3,7 +3,7 @@ exports.LANGUAGE = {
   STANDARD_CODE: "zh-Tw",
   FULL_CODE: "正體中文",
   WIKI_CODE: "zh-Tw",
-  CONTRIBUTORS: ["Kami-Sqmf", "iLxlo_"]
+  CONTRIBUTORS: ["Kami-Sqmf","iLxlo_"]
 };
 
 exports.TIME = {
@@ -86,8 +86,8 @@ exports.GENERAL = {
 
 exports.ABOUT_WIKI = {
   TITLE: "歡迎來到 Filo 指南百科",
-  FILO_DESCRIPTION: "Filo 是個多功能且強大的 Discord 機器人。 高自訂性、多語言、檢舉系統、日誌、歡迎和離別訊息、人數統計、反邀請、AUTO MODERATION、反規避，以及 +190 個指令",
-  WIKI_DESCRIPTION: " Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見錯誤，以及每個 Filo 指令的指令教學 ",
+  FILO_DESCRIPTION: "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcome and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands",
+  WIKI_DESCRIPTION: " Filo 指南百科的內容會不斷改變以提高其品質 . 本指南涵蓋了一些常見錯誤，以及每個 Filo 指令的指令教學",
   ASK_FOR_HELP: "如果本指南沒有解決您想要的問題，歡迎拜訪我們的 **[Discord 伺服器]({{link}})**",
   WIKI_KEYS: {
     TITLE: "指南小提示",
@@ -109,14 +109,14 @@ exports.HELPFUL_LINKS = {
 
 exports.NAVBAR = {
   HOME: "Home",
-  DISCORD_SERVER :"Discord Server",
+  DISCORD_SERVER: "Discord Server",
   PRIVACY_POLICY: "Privacy Policy",
   TERMS_AND_CONDITIONS: "Terms and Conditions",
   WEBSITE: "Website",
-  DONATE :"Donate",
-  BLOG :"Blog",
-  TWITTER :"Twitter",
-  VOTE :"Vote",
+  DONATE: "Donate",
+  BLOG: "Blog",
+  TWITTER: "Twitter",
+  VOTE: "Vote",
   GETTING_STARTED: "Getting Started",
   INVITE_FILO: "Invite Filo",
   MODULES: "Modules",
@@ -177,7 +177,7 @@ exports.GETTING_STARTED = {
     STEP_3: {
       TITLE: "選擇權限 (可選可不選)",
       DESCRIPTION: "這個步驟可以讓您選擇 Filo 的伺服器權限 (非頻道權限). 如果沒有特別要求，請點擊 **繼續** 按鈕",
-      INTEGRATION_ROLE: "如果您全選了所有權限，Discord 會幫您建立一個 **Filo**的身分組。反之，Discord 會把權限單獨寫在他的身分裡",
+      INTEGRATION_ROLE: "如果您全選了所有權限，Discord 會幫您建立一個 **Filo** 的身分組。反之，Discord 會把權限單獨寫在他的身分裡",
       PERMISSIONS_NEEDED: "Filo 必須有這些指令才能正常工作: {{permission_1}}、 {{permission_2}}、{{permission_3}} 和 {{permission_4}}"
     },
     STEP_4: {
@@ -191,7 +191,7 @@ exports.MODULES = {
   ABOUT_THE_MODULE: "關於本模組",
   COMMUNITY_RECOMMENDATION: "我們強烈建議你使用本模組來管理社群",
   TO_ACTION_COMMAND: "如果要 {{action}} ，您必須執行以下指令：{{command}}",
-  MAX_AND_MIN_DURATION: "指令有效的持續時間必須在 **{{min}}** 到 **{{max}}** 之間 ",
+  MAX_AND_MIN_DURATION: "指令有效的持續時間必須在 **{{min}}** 到 **{{max}}** 之間",
   VALUE_GREATER_THAN: "數值必須大於 **{{number}}**",
   SUMMARY: "概要",
   IF_YOU_WANT_SETUP: "如果要 {{action}} 本模組，請**[點擊這裡]({{link}})**。我們將會帶你到另一個主題",
@@ -202,9 +202,9 @@ exports.MODULES = {
     REQUIRES_BASIC_PERMISSION: "Filo 需要要此項基礎權限: {{permission}}",
     REQUIRES_ADVANCED_PERMISSIONS: "Filo 需要以下進階權限: {{permissions}}",
     REQUIRES_BASIC_PERMISSIONS: "Filo 需要以下基礎權限: {{permissions}}",
-    REQUIRES_USER_PERMISSION: "在執行本主題的指令前，你需要此項權限： {{permission}} ",
+    REQUIRES_USER_PERMISSION: "在執行本主題的指令前，你需要此項權限： {{permission}}",
     REQUIRES_USER_PERMISSIONS: "在執行本主題的指令前，你需要以下權限： {{permission}}",
-    CUSTOM_PREFIX: "你需要取代 " + "<kbd>" + "f!" + "</kbd>" + " 成你設定的 prefix 。如果你需要更換它的教學，請**[點擊這裡]({{link}})**"
+    CUSTOM_PREFIX: "你需要取代" + "<kbd>" + "f!" + "</kbd>" + " 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡]({{link}})**"
   },
   MODULE_EXCEPTIONS: {
     TITLE: "常見錯誤",
@@ -270,7 +270,7 @@ exports.MODULES = {
     SET_A_ACTION: {
       TITLE: "設定要處理的原則的步驟",
       SUBTITLE: "設定原則",
-      FULL_LIST_OF_ACTIONS: "你可以點擊**[這個連結]({{link}})**來查看 Filo 支援的原則"
+      FULL_LIST_OF_ACTIONS: "你可以點擊 **[這個連結]({{link}})** 來查看 Filo 支援的原則"
     },
     SET_TIME: {
       TITLE: "設定本原則處理期的步驟",
@@ -338,7 +338,7 @@ exports.MODULES = {
     SET_ACTION: {
       TITLE: "設定前科累加的處罰的步驟",
       SUBTITLE: "設定前科累加的處罰",
-      FULL_LIST_OF_ACTIONS: "你可以點擊**[這個連結]({{link}})**來查看 Filo 支援的處罰"
+      FULL_LIST_OF_ACTIONS: "你可以點擊 **[這個連結]({{link}})** 來查看 Filo 支援的處罰"
     },
     SET_TIME: {
       TITLE: "設定前科紀錄的保留時間的步驟",
@@ -369,7 +369,7 @@ exports.MODULES = {
     SET_MESSAGE: {
       TITLE: "設定離別訊息的步驟",
       SUBTITLE: "設定離別訊息",
-      MESSAGE_VARIABLES: "你可以在離別訊息裡添加變數，點擊**[這個連結]({{link}})**來查看 Filo 支援的變數",
+      MESSAGE_VARIABLES: "你可以在離別訊息裡添加變數，點擊 **[這個連結]({{link}})** 來查看 Filo 支援的變數",
       MESSAGE_CODE: "訊息程式碼",
       RESULT_MESSAGE: "訊息結果"
     },
@@ -396,7 +396,7 @@ exports.MODULES = {
     SET_MESSAGE: {
       TITLE: "設定歡迎訊息的步驟",
       SUBTITLE: "設定歡迎訊息",
-      MESSAGE_VARIABLES: "你可以在歡迎訊息裡添加變數，點擊**[這個連結]({{link}})**來查看 Filo 支援的變數",
+      MESSAGE_VARIABLES: "你可以在歡迎訊息裡添加變數，點擊 **[這個連結]({{link}})** 來查看 Filo 支援的變數",
       MESSAGE_CODE: "訊息程式碼",
       RESULT_MESSAGE: "訊息結果"
     },
@@ -459,11 +459,11 @@ exports.MODULES = {
     SET_A_LANGUAGE: {
       TITLE: "設定語言的步驟",
       SUBTITLE: "設定語言",
-      LANGUAGE_LIST: "點擊**[這個連結]({{link}})**來查看 Filo 所支援的語言",
+      LANGUAGE_LIST: "點擊 **[這個連結]({{link}})** 來查看 Filo 所支援的語言",
       LANGUAGE_FULL_CODE: "語言名稱"
     },
     SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's 翻譯可能會有錯誤，畢竟我們也是人類！" + "\n" + "如果有任何錯誤的話，請在**[翻譯 Repository]({{link}}) 或是 **[我們的伺服器]({{link_2}})**回報我們",
+      WARNING: "Filo's 翻譯可能會有錯誤，畢竟我們也是人類！" + "\n" + "如果有任何錯誤的話，請在 **[翻譯 Repository]({{link}})** 或是 **[我們的伺服器]({{link_2}})**回報我們",
       SHORT_CODE: "代碼",
       FULL_CODE: "語言名稱"
     }
@@ -484,7 +484,7 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "創建一個以成員數量命名的語音頻道的步驟",
       SUBTITLE: "創建成員數頻道",
-      INVALID_CHANNEL_WARNING: "您選擇的頻道必須是 **語音頻道** ，否則這個模組將不會正常運作"
+      INVALID_CHANNEL_WARNING: "您選擇的頻道必須是 **語音頻道**，否則這個模組將不會正常運作"
     },
     SET_CHANNEL_NAME: {
       TITLE: "設定成員數頻道的名字的步驟",
@@ -506,8 +506,8 @@ exports.MODULES = {
       TITLE: "設定新 Prefix的步驟",
       SUBTITLE: "設定新的 Prefix",
       NEW_PREFIX: "Prefix",
-      SLASH_PREFIX_WARNING: "Filo 不支援更改斜線字首 ",
-      MAX_LENGTH: "Prefix 必須小於 **{{number}}** 個字 "
+      SLASH_PREFIX_WARNING: "Filo 不支援更改斜線字首",
+      MAX_LENGTH: "Prefix 必須小於 **{{number}}** 個字"
     }
   },
   REPORTS: {
@@ -563,7 +563,7 @@ exports.CLOUDFLARE = {
     INDIVIDUAL_OR_SPECIFIC: "個人或特定",
     GLOBAL_OR_COMMON: "全球或通用",
     INDIVIDUAL_EXPLANATION: "個人或特定的速率限制更加嚴格，但結果是超過此限制不會導致 Cloudflare Ban (不過最好不要超過這些限制)。 這些限制取至於每個 API 端點",
-    GLOBAL_EXPLANATION: "全球或通用的速率限制是從長遠來看的，也就是說，如果您每分鐘發出大量請求，您可能會收到全局速率限制（在速率限制期間，您將不被允許訪問任何其他 API 端點） " + ".\n\n" + "如果您在不到1小時內收到超過警告或超過全球請求配額的5倍，您的IP位地址將被暫時禁止1小時r",
+    GLOBAL_EXPLANATION: "全球或通用的速率限制是從長遠來看的，也就是說，如果您每分鐘發出大量請求，您可能會收到全局速率限制（在速率限制期間，您將不被允許訪問任何其他 API 端點）" + ".\n\n" + "如果您在不到1小時內收到超過警告或超過全球請求配額的5倍，您的IP位地址將被暫時禁止1小時r",
     CLARIFICATION: "請注意，Cloudflare Ban 會影響與 Filo 相關的所有功能",
     EXCESS_429_ERRORS_ONLY_API: {
       TITLE: "API 中的 429（過度請求）",
@@ -581,13 +581,13 @@ exports.CLOUDFLARE = {
       TITLE: "根據禁令期限上訴",
       TEMPORAL: "暫時",
       PERMANENT: "永久",
-      PERMANENT_APPEAL: "您可以通過**[點擊這裡]({{link}})**來對永久禁令提出上訴"
+      PERMANENT_APPEAL: "您可以通過 **[點擊這裡]({{link}})** 來對永久禁令提出上訴"
     },
     ACCORDING_TO_THE_TYPE: {
       TITLE: "根據禁令類型上訴",
       DESCRIPTION: "您將在下方找到有關如何對禁令類型提出上訴的信息",
       WARNING: "請注意！某些禁令因其性質無法上訴",
-      IP_ADDRESS: "如果您因為從 Cloudflare 獲得了 IP 地址禁止訪問，請關閉您的路由器 5 分鐘以更改 IP 地址。 或是**[點擊這裡]({{link}})**",
+      IP_ADDRESS: "如果您因為從 Cloudflare 獲得了 IP 地址禁止訪問，請關閉您的路由器 5 分鐘以更改 IP 地址。 或是 **[點擊這裡]({{link}})**",
       ISP: "如果您因為您的 ISP 被禁止，很可能是我們收到了過多 429 錯誤。因此，我們將您的 ISP 禁止訪問。 沒有可用的上訴",
       IP_ADDRESS_RANGE: "如果我因為您的 IP 位址範圍而被禁止，很可能我們收到了過多的請求，導致 429 錯誤，因此我們確定您的 IP 位址範圍應該被禁止。 請關閉路由器 5 分鐘以更改 IP 位址。 否則無法上訴",
       USER_AGENT: "如果您因為您的用戶代理而被禁止，很可能我們確定您的用戶代理是危險的或與有害目的有關。 沒有可用的上訴，或是換到其他最新版的瀏覽器",
@@ -620,7 +620,7 @@ exports.CLOUDFLARE = {
   },
   HCAPTCHA: {
     TITLE: "hCaptcha",
-    DESCRIPTION: "驗證碼由 **[hCaptcha]({{link_1}})** 管理，他們有著**[條款和條件]({{link_2}})**和**[隱私政策]({{link_3}})**",
+    DESCRIPTION: "驗證碼由 **[hCaptcha]({{link_1}})** 管理，他們有著 **[條款和條件]({{link_2}})** 和 **[隱私政策]({{link_3}})**",
     EXAMPLE_CAPTCHA: "一張顯示「hCaptcha 」的範例圖片"
   }
 };
