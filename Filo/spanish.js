@@ -1617,6 +1617,9 @@ exports.commands = {
       "nekogif": {
         description: "Envía un gif aleatorio de una neko al canal"
       },
+      "news": {
+        description: "Sigue las noticias que más te interesan de fuentes fiables (Solo en Inglés)."
+      },
       "nickname": {
         description: "Cambia el apodo de un miembro del gremio o de ti mismo"
       },
@@ -2078,6 +2081,45 @@ exports.commands = {
     permanently_muted: "silenciado permanentemente",
     mute_id: "ID del silencio",
     already_muted: "El usuario que has mencionado ya se encuentra silenciado."
+  },
+  "news": {
+    noArgs: "Debes especificar el tipo de noticia con la que quieres trabajar.",
+    invalidNewsType: "El tipo de noticia que has especificado no es válido.",
+    noArgs_2: "Debes especificar la acción que quieres llevar a cabo.",
+    invalidOption: "La opción que has especificado no es válida.",
+    info: {
+      announcements: {
+        title: "Anuncios de Filo",
+        description: "Anuncios Oficiales realizados por la Administración Filo que notifican cambios en el servicio, eventos especiales, mensajes importantes entre muchas otras cosas."
+      },
+      status: {
+        title: "Estado de Filo",
+        description: "Notificaciones del estado de nuestro servicio. Se enviará siempre que haya una interrupción o degradación de nuestro servicio."
+      },
+      updates: {
+        title: "Actualizaciones de los Desarrolladores de Filo",
+        description: "Notificaciones con información de parches recientes a Filo o servicios relacionados con Filo."
+      },
+      free_games: {
+        title: "Juegos Gratuitos",
+        description: "Notificaciones de JUEGOS GRATUITOS que se muestran públicamente en las tiendas. Se le notificará cuando sepamos de la existencia de un juego gratuito."
+      },
+      mal: {
+        title: "Feed de MyAnimeList",
+        description: "Bienvenido a MyAnimeList, la comunidad y base de datos de anime y manga en línea más activa del mundo. ¡Únase a la comunidad en línea, cree su lista de anime y manga, lea reseñas, explore los foros, siga las noticias y mucho más!"
+      }
+    },
+    follow: {
+      noArgs: "Debes especificar el canal al que quieres que se envíen todos los mensajes.",
+      invalidChannel: "El canal que has especificado es inválido.",
+      unknownChannel: "El canal que has especificado no existe.",
+      invalidChannelType: "El canal que especifiques debe ser un **canal de Texto**.",
+      maxWebhooksReached: "El canal que has especificado supera el límite de webhooks permitido.",
+      waiting: "Su solicitud se ha agregado a la cola.",
+      estimatedWaitingTime: "Tiempo de espera estimado: **{time}**.",
+      completed: "Se ha agregado un seguimiento al canal **{channel}** correctamente.",
+      cooldown: "Por favor espera **{time}** para realizar esta acción."
+    }
   },
   "nick": {
     noArgs: "Debes mencionar a la persona para cambiar su apodo en el servidor.",

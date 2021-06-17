@@ -399,7 +399,8 @@ exports.commands = {
       anti_repeated_text: "Anti Repeated Text",
       disable_commands: "Disable Commands",
       anti_bad_words: "Anti Bad Words",
-      muted_role: "Muted Role"
+      muted_role: "Muted Role",
+      anti_external_links: "Anti External Links"
     },
     args_1: {
       missing: "You must specify the action you want to carry out.",
@@ -887,6 +888,93 @@ exports.commands = {
           not_banned: "The bad word you specified isn't on the banned list."
         },
         completed: "You have successfully removed this bad word to the banned list."
+      }
+    },
+    anti_external_links: {
+      enable: {
+        tip: "**TIP**: Set the desired exceptions: **{command}**"
+      },
+      allow: {
+        url: {
+          add: {
+            args_1: {
+              missing: "You must specify the URL that you want to add to the allowed list.",
+              invalid: "The protocol you have specified is invalid.",
+              invalid_tip: "The URL must start with the following protocol: {protocol}",
+              invalid_2: "The URL you have specified is invalid.",
+              invalid_2_tip: "You can use asterisks to symbolize everything: {url}",
+              already_set: "The URL you have specified is already allowed.",
+              completed: "You have successfully added the URL to the allow list."
+            }
+          },
+          remove: {
+            args_1: {
+              missing: "You must specify the URL that you want to add to the allowed list.",
+              invalid: "The protocol you have specified is invalid.",
+              invalid_tip: "The URL must start with the following protocol: {protocol}",
+              invalid_2: "The URL you have specified is invalid.",
+              invalid_2_tip: "You can use asterisks to symbolize everything: {url}",
+              not_in_the_allowed_list: "The specified URL is not added to the allowed list."
+            },
+            completed: "You have successfully removed the URL from the allow list."
+          }
+        },
+        role: {
+          add: {
+            args_1: {
+              missing: "You must specify the role you want to add to the allowed list.",
+              invalid: "The role you have entered is invalid.",
+              tip: "**TIP**: The role should be like: {role}",
+              already_set: "The {role} role is already added to the allowed list."
+            },
+            completed: "You have added {role ({role_id}) role to the allowed list."
+          },
+          remove: {
+            args_1: {
+              missing: "You must specify the role you want to remove to the allowed list.",
+              invalid: "The role you have entered is invalid.",
+              tip: "**TIP**: The role should be like: {role}",
+              already_set: "The {role} role isn't added to the allowed list."
+            },
+            completed: "You have removed {role} ({role_id}) role to the allowed list."
+          },
+        },
+        channel: {
+          add: {
+            args_1: {
+              missing: "You must specify the channel you want to add to the allowed list.",
+              invalid: "The role you have entered is invalid.",
+              tip: "**TIP**: The channel should be like: {channel}",
+              already_set: "The {channel} channel is already added to the allowed list."
+            },
+            completed: "You have added {channel} channel to the allowed list."
+          },
+          remove: {
+            args_1: {
+              missing: "You must specify the channel you want to remove to the allowed list.",
+              invalid: "The role you have entered is invalid.",
+              tip: "**TIP**: The channel should be like: {channel}",
+              already_set: "The {channel} channel isn't added to the allowed list."
+            },
+            completed: "You have removed {channel} channel to the allowed list."
+          },
+        }
+      },
+      action: {
+        set: {
+          args_1: {
+            missing: "You must specify the action you want to set.",
+            invalid: "The action you have specified is invalid.",
+            invalid_tip: "Run this command: {command}",
+            completed: "You have set action **{number}** correctly."
+          }
+        },
+        list: {
+          title: "Viewing the available actions of the module",
+          description: "Below you will find a list of the actions available for this module along with their numbering.",
+          delete: "Delete the author's message",
+          warn: "Warn the author's message"
+        }
       }
     },
     view: {
@@ -1617,6 +1705,9 @@ exports.commands = {
       "nekogif": {
         description: "Send a random neko gif to the channel"
       },
+      "news": {
+        description: "Follow the news that interests you the most from reliable sources (Only in English)."
+      },
       "nickname": {
         description: "Change the nickname of a guild member or yourself"
       },
@@ -2078,6 +2169,45 @@ exports.commands = {
     mute_id: "Mute's ID",
     invalid_role: "The {role} role is managed by an integration.",
     already_muted: "The user you mentioned is already muted."
+  },
+  "news": {
+    noArgs: "You must specify the type of news you want to work with",
+    invalidNewsType: "The news type you have specified is invalid.",
+    noArgs_2: "You must specify the action you want to carry out.",
+    invalidOption: "The option you have specified is invalid.",
+    info: {
+      announcements: {
+        title: "Filo's Announcements",
+        description: "Official announcements made by the Filo Administration that notify changes in the service, special events, important messages among many other things."
+      },
+      status: {
+        title: "Filo's Status",
+        description: "Notifications of the status of our service. It will be sent whenever there is an outage or degradation of our service."
+      },
+      updates: {
+        title: "Filo's Developer Updates",
+        description: "Notifications with information of recent patches to Filo or services related to Filo."
+      },
+      free_games: {
+        title: "Free Games",
+        description: "Notifications of FREE GAMES that stores display publicly. You'll be notified when we learn of the existence of a free game."
+      },
+      mal: {
+        title: "MyAnimeList Feed",
+        description: "Welcome to MyAnimeList, the world's most active online anime and manga community and database. Join the online community, create your anime and manga list, read reviews, explore the forums, follow news, and so much more!"
+      }
+    },
+    follow: {
+      noArgs: "You must specify the channel where you want all messages to be sent.",
+      invalidChannel: "The channel you have specified is invalid.",
+      unknownChannel: "The channel you specified doesn't exist.",
+      invalidChannelType: "The channel you specify must be **Text channel**.",
+      maxWebhooksReached: "The specified channel has exceeded the allowed webhooks limit.",
+      waiting: "Your request has been added to the queue.",
+      estimatedWaitingTime: "Estimated waiting time: **{time}**.",
+      completed: "A follow has been added to the **{channel}** channel successfully.",
+      cooldown: "Please wait **{time}** to perform this action."
+    }
   },
   "nick": {
     noArgs: "You must mention the person to change their nickname on the guild.",
