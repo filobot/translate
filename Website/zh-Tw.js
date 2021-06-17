@@ -2,7 +2,7 @@ exports.LANGUAGE = {
   CODE: "zh-Tw",
   STANDARD_CODE: "zh-Tw",
   FULL_CODE: "正體中文",
-  WIKI_CODE: "en", // No Traditional Chinese Page in Wiki
+  WIKI_CODE: "zh-Tw",
   CONTRIBUTORS: ["iLxlo_", "Kami-Sqmf"]
 };
 
@@ -20,7 +20,7 @@ exports.NAV_BAR = {
 
 exports.HEADER = {
   TITLE: "強大且多功能的 Discord 機器人",
-  SUBTITLE: "多語言且高自訂性，檢舉、日誌、歡迎和離開訊息、人數統計、防邀請連結、自動審核、防停權者破解",
+  SUBTITLE: "多語言且高自訂性，檢舉、日誌、歡迎和離開訊息、人數統計、邀請偵測、前科制度、處罰者破解偵測",
   FEATURES: "功能",
   INVITE: "邀請"
 };
@@ -35,17 +35,17 @@ exports.FEATURES = {
   },
   ADMINISTRATION: {
     TITLE: "成員管理",
-    DESCRIPTION: "這可說是本機器人最物超所值的地方",
+    DESCRIPTION: "這可說是本機器人最物超所值的地方，功能包含：",
     ITEMS: {
       WELCOMES: "歡迎訊息",
       FAREWELLS: "離開訊息",
-      REPORTS: "舉報系統",
+      REPORTS: "檢舉系統",
       LOGGING: "日誌系統"
     }
   },
   MODERATION: {
-    TITLE: "小幫手制度",
-    DESCRIPTION: "用幾個簡單的步驟讓您可以更快的選出小幫手。 是時候教訓那些破壞規矩的人了。 Filo 擁有這些指令:",
+    TITLE: "審核系統",
+    DESCRIPTION: "用幾個簡單的步驟就可以佈下天羅地網，把那些搗亂的人抓住！ 是時候教訓那些破壞規矩的人了。 Filo 擁有這些指令:",
   },
   MEMBER_COUNTER: {
     TITLE: "人數統計",
@@ -68,34 +68,34 @@ exports.FEATURES = {
     AND: "和",
     DESCRIPTION_2: "用這些指令來幫助您服務器內的宅宅們吧！",
     ITEMS: {
-      ANIME: "動漫",
+      ANIME: "動漫 ", // Added a Space
       REACTION: "視覺化反應效果",
       INTERACTION: "視覺化互動效果"
     }
   },
   GAME_STATISTICS: {
     TITLE: "遊戲統計數據",
-    DESCRIPTION: "如果您的社群對電腦遊戲對遊戲有興趣，別再浪費時間多想，Filo 可以滿足您",
+    DESCRIPTION: "如果您的社群對電腦遊戲對遊戲有興趣，別再浪費時間多想，Filo 可以滿足您對",
     ITEMS: {
       GAME_STATISTICS: "遊戲統計數據的指令"
     }
   },
   MISCELLANEOUS: {
     TITLE: "Filo 小工具",
-    DESCRIPTION: "Filo 擁有各種各樣的指令，邀請至伺服器探索更多吧",
+    DESCRIPTION: "Filo 還擁有各種各樣有趣的指令，邀請至伺服器探索更多吧",
     MORE_INFORMATION: "更多敘述"
   }
 };
 
 exports.STATISTICS = {
   TITLE: "目前 Filo's 的版圖",
-  GUILDS: "伺服器",
-  USERS: "使用者"
+  GUILDS: "Guilds",
+  USERS: "Users"
 };
 
 exports.DONATE = {
   TITLE: "捐款給我們",
-  SUBTITLE: "幫助 Filo 繼續維持成長也需要您的支持",
+  SUBTITLE: "幫助 Filo 繼續維持成長，我們需要您的支持",
   TERMS_AND_CONDITIONS_WARNING: {
     DESCRIPTION: "捐款時，即代表您已同意 Filo 的捐贈條款及細則",
     MORE_INFORMATION: "更多敘述"
@@ -128,8 +128,8 @@ exports.VOTE = {
   PAGE: "投票網站",
   PLANS: {
     PRE_TITLE: "投票獎勵",
-    VOTES: "累積的投票數",
-    PER_MONTH: "每月",
+    VOTES: "個投票",
+    PER_MONTH: "每月累積",
     CLAIM_NOW: "現在領取",
     PREVIOUS_REWARD: "前面等級的所有獎勵",
     ROLE_REWARD: "獨特的身分組",
@@ -146,8 +146,8 @@ exports.FRIENDLY_WEBSITES = {
 };
 
 exports.READY = {
-  TITLE: "準備加入 Filo 了嗎?",
-  SUBTITLE: "加入超過 {guilds} 加入 10,000 多個信任 Filo 的伺服器！ !",
+  TITLE: "準備加入 Filo 了嗎？",
+  SUBTITLE: "加入超過 {guilds} 多個信任 Filo 的伺服器！",
   INVITE: "邀請",
   GETTING_STARTED: "入門指南"
 };
@@ -173,7 +173,7 @@ exports.FOOTER = {
 
 exports.THANKS = {
   PAGE: {
-    TITLE: "感謝您邀請 Filo!",
+    TITLE: "感謝您邀請 Filo！",
     DESCRIPTION: "我們很高興你相信 Filo。",
     DESCRIPTION_2: "您將被重新導向到邀請頁面."
   }
