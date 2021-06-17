@@ -64,7 +64,6 @@ exports.GENERAL = {
   CHECK_DISCORD_SUPPORT_ARTICLE: "Check out this article from the Discord support center by **[clicking here]({{link}})**",
   OPTIONAL: "Optional",
   PERMANENT: "Permanent",
-  TEMPORAL: "Temporal",
   TEMPORARY: "Temporary",
   PERMANENTLY: "Permanently",
   CHANNEL: "Channel",
@@ -579,7 +578,6 @@ exports.CLOUDFLARE = {
     DESCRIPTION: "Below you'll find information on how to appeal a ban on Cloudflare",
     ACCORDING_TO_THE_TIME: {
       TITLE: "Appeal according to the duration of the ban",
-      TEMPORAL: "Temporal",
       PERMANENT: "Permanent",
       PERMANENT_APPEAL: "You can appeal a permanent ban by **[clicking here]({{link}})**"
     },

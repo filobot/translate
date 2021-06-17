@@ -64,8 +64,7 @@ exports.GENERAL = {
   CHECK_DISCORD_SUPPORT_ARTICLE: "Consulta este artículo del centro de soporte de Discord haciendo **[clic aquí]({{link}})**",
   OPTIONAL: "Opcional",
   PERMANENT: "Permanente",
-  TEMPORAL: "Temporal",
-  TEMPORARY: "Temporalmente",
+  TEMPORARY: "Temporal",
   PERMANENTLY: "Permanentemente",
   CHANNEL: "Canal",
   CHANNEL_ID: "ID del Canal",
@@ -579,7 +578,6 @@ exports.CLOUDFLARE = {
     DESCRIPTION: "A continuación, encontrarás información sobre cómo apelar una prohibición de Cloudflare",
     ACCORDING_TO_THE_TIME: {
       TITLE: "Apelación según la duración de la prohibición",
-      TEMPORAL: "Temporal",
       PERMANENT: "Permanente",
       PERMANENT_APPEAL: "Puedes apelar una prohibición permanente haciendo **[clic aquí]({{link}})**"
     },

@@ -64,7 +64,6 @@ exports.GENERAL = {
   CHECK_DISCORD_SUPPORT_ARTICLE: "點**[這裡]({{link}})**來查看Discord官方的說明",
   OPTIONAL: "可填",
   PERMANENT: "永久",
-  TEMPORAL: "暫時",
   TEMPORARY: "暫時",
   PERMANENTLY: "永久",
   CHANNEL: "頻道",
@@ -579,7 +578,6 @@ exports.CLOUDFLARE = {
     DESCRIPTION: "您將在下方找到有關如何對 Cloudflare Ban 提出上訴的方法",
     ACCORDING_TO_THE_TIME: {
       TITLE: "根據禁令期限上訴",
-      TEMPORAL: "暫時",
       PERMANENT: "永久",
       PERMANENT_APPEAL: "您可以通過 **[點擊這裡]({{link}})** 來對永久禁令提出上訴"
     },
