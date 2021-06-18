@@ -28,6 +28,10 @@ exports.modules = {
   anti_bad_words: {
     reason_1: "The sent message contains bad words.",
     reason_2: "The updated message contains bad words."
+  },
+  anti_external_links: {
+    reason_1: "The sent message contains an external link.",
+    reason_2: "The updated message contains an external link.",
   }
 };
 
@@ -819,13 +823,6 @@ exports.commands = {
             },
             completed: "You have removed {channel} channel to the allowed list."
           },
-        },
-        bots: {
-          args_1: {
-            missing: "You must specify if you want to enable or disable immunity to bots.",
-            invalid: "The action you specified is invalid.",
-            tip: "**TIP**: Valid actions are: **{actions}**."
-          }
         }
       }
     },
@@ -903,17 +900,16 @@ exports.commands = {
               invalid_tip: "The URL must start with the following protocol: {protocol}",
               invalid_2: "The URL you have specified is invalid.",
               invalid_2_tip: "You can use asterisks to symbolize everything: {url}",
-              already_set: "The URL you have specified is already allowed.",
-              completed: "You have successfully added the URL to the allow list."
-            }
+              already_set: "The URL you have specified is already allowed."
+            },
+            completed: "You have successfully added the URL to the allow list."
           },
           remove: {
             args_1: {
-              missing: "You must specify the URL that you want to add to the allowed list.",
+              missing: "You must specify the URL that you want to remove to the allowed list.",
               invalid: "The protocol you have specified is invalid.",
               invalid_tip: "The URL must start with the following protocol: {protocol}",
               invalid_2: "The URL you have specified is invalid.",
-              invalid_2_tip: "You can use asterisks to symbolize everything: {url}",
               not_in_the_allowed_list: "The specified URL is not added to the allowed list."
             },
             completed: "You have successfully removed the URL from the allow list."
@@ -1081,6 +1077,15 @@ exports.commands = {
           empty_list: "Empty list.",
           title: "Banned words",
           field_limit: "This list exceeds **{limit}** characters in length."
+        }
+      },
+      anti_external_links: {
+        allow: {
+          urls: "Allowed URLs",
+          roles: "Allowed roles",
+          channels: "Allowed channels",
+          without_exceptions: "Without exceptions.",
+          field_limit: "This list of exceptions exceeds **{limit}** characters in length."
         }
       }
     },

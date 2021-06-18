@@ -1,5 +1,5 @@
 exports.language = {
-  wiki_code: "en",
+  wiki_code: "es",
   code: "es",
   full_code: "español",
   contributors: ["iLxlo_"]
@@ -28,6 +28,10 @@ exports.modules = {
   anti_bad_words: {
     reason_1: "El mensaje enviado contiene malas palabras.",
     reason_2: "El mensaje actualizado contiene malas palabras."
+  },
+  anti_external_links: {
+    reason_1: "El mensaje enviado contiene un enlace externo.",
+    reason_2: "El mensaje actualizado contiene un enlace externo.",
   }
 };
 
@@ -399,7 +403,8 @@ exports.commands = {
       anti_repeated_text: "Anti Texto Repetido",
       disable_commands: "Deshabilitar Comandos",
       anti_bad_words: "Anti Malas Palabras",
-      muted_role: "Muted Role"
+      muted_role: "Rol Muteado",
+      anti_external_links: "Anti Enlaces Externos"
     },
     args_1: {
       missing: "Debes especificar la acción que quieres llevar a cabo.",
@@ -818,13 +823,6 @@ exports.commands = {
             },
             completed: "Has eliminado el canal {channel} de la lista de permitidos."
           },
-        },
-        bots: {
-          args_1: {
-            missing: "Debes especificar si quieres habilitar o deshabilitar la inmunidad para los bots.",
-            invalid: "La acción que has especificado es inválida.",
-            tip: "**CONSEJO**: Las acciones válidas son: **{actions}**."
-          }
         }
       }
     },
@@ -887,6 +885,92 @@ exports.commands = {
           not_banned: "La mala palabra que has especificado no se encuentra en la lista de prohibidas."
         },
         completed: "Has eliminado esa palabra mal sonante de la lista de prohibidas correctamente."
+      }
+    },
+    anti_external_links: {
+      enable: {
+        tip: "**CONSEJO**: Establecer las excepciones deseadas: **{command}**"
+      },
+      allow: {
+        url: {
+          add: {
+            args_1: {
+              missing: "Debes especificar la URL que quieres agregar a la lista de permitidas.",
+              invalid: "El protocolo que has especificado no es válido.",
+              invalid_tip: "La URL debe empezar con el siguiente protocolo: {protocol}",
+              invalid_2: "La URL que has especificado no es válida.",
+              invalid_2_tip: "Puedes usar asteriscos para simbolizar todo: {url}",
+              already_set: "La URL que has especificado ya se encuentra permitida."
+            },
+            completed: "Has agregado correctamente la URL a la lista de permtidas."
+          },
+          remove: {
+            args_1: {
+              missing: "Debes especificar la URL que quieres eliminar de la lista de permitidas.",
+              invalid: "El protocolo que has especificado no es válido.",
+              invalid_tip: "La URL debe empezar con el siguiente protocolo: {protocol}",
+              invalid_2: "La URL que has especificado no es válida.",
+              not_in_the_allowed_list: "La URL que has especificado no se encuentra permitida."
+            },
+            completed: "Has eliminado correctamente la URL de la lista de permitidos."
+          }
+        },
+        role: {
+          add: {
+            args_1: {
+              missing: "Debes especificar el rol que quieres añadir a la lista de permitidos.",
+              invalid: "El rol que has especificado es inválido.",
+              tip: "**CONSEJO**: El rol debe ser así: {role}",
+              already_set: "El rol {role} ya se encuentra a la lista de permitidos."
+            },
+            completed: "Has añadido el rol {role} ({role_id}) a la lista de permitidos."
+          },
+          remove: {
+            args_1: {
+              missing: "Debes especificar el rol que quieres eliminar de la lista de permitidos.",
+              invalid: "El rol que has especificado es inválido.",
+              tip: "**CONSEJO**: El rol debe ser así: {role}",
+              already_set: "El rol {role} no se encuentra en la lista de permitidos."
+            },
+            completed: "Has eliminado el rol {role} ({role_id}) de la lista de permitidos."
+          },
+        },
+        channel: {
+          add: {
+            args_1: {
+              missing: "Debes especificar el canal que quieres añadir a la lista de permitidos.",
+              invalid: "El canal que has especificado es inválido.",
+              tip: "**CONSEJO**: El canal debe ser así: {channel}",
+              already_set: "El canal {channel} ya se encuentra en la lista de permitidos."
+            },
+            completed: "Has añadido el canal {channel} ({channel_id}) a la lista de permitidos."
+          },
+          remove: {
+            args_1: {
+              missing: "Debes especificar el canal que quieres eliminar de la lista de permitidos.",
+              invalid: "El canal que has especificado es inválido.",
+              tip: "**CONSEJO**: El canal debe ser así: {channel}",
+              already_set: "El canal {channel} no se encuentra en la lista de permitidos."
+            },
+            completed: "Has eliminado el canal {channel} de la lista de permitidos."
+          },
+        }
+      },
+      action: {
+        set: {
+          args_1: {
+            missing: "Debes especificar la acción que quieres establecer.",
+            invalid: "La acción que has especificado no es válida.",
+            invalid_tip: "Ejecuta este comando: {command}",
+            completed: "Has establecido la acción **{number}** correctamente."
+          }
+        },
+        list: {
+          title: "Viendo las acciones disponibles del módulo",
+          description: "A continuación encontrarás una lista de las acciones disponibles para este módulo junto con su numeración.",
+          delete: "Eliminar el mensaje del autor",
+          warn: "Advertir el mensaje del autor"
+        }
       }
     },
     view: {
@@ -992,6 +1076,15 @@ exports.commands = {
         banned_words: {
           empty_list: "Lista vacía.",
           title: "Palabras prohibidas",
+          field_limit: "Esta lista supera los **{limit}** caracteres de longitud."
+        }
+      },
+      anti_external_links: {
+        allow: {
+          urls: "URLs permitidas",
+          roles: "Roles permitidos",
+          channels: "Canales permitidos",
+          without_exceptions: "Sin excepciones.",
           field_limit: "Esta lista supera los **{limit}** caracteres de longitud."
         }
       }
