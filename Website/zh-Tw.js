@@ -1,6 +1,6 @@
 exports.LANGUAGE = {
   CODE: "zh-Tw",
-  STANDARD_CODE: "zh-Tw",
+  STANDARD_CODE: "zh-Hans",
   FULL_CODE: "正體中文",
   WIKI_CODE: "zh-Tw",
   CONTRIBUTORS: ["iLxlo_", "Kami-Sqmf"]
