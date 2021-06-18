@@ -89,8 +89,8 @@ exports.FEATURES = {
 
 exports.STATISTICS = {
   TITLE: "目前 Filo's 的版圖",
-  GUILDS: "伺服器",
-  USERS: "使用者"
+  GUILDS: "Guilds",
+  USERS: "Users"
 };
 
 exports.DONATE = {
