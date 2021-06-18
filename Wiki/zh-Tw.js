@@ -2,7 +2,7 @@ exports.LANGUAGE = {
   CODE: "zh-Tw",
   STANDARD_CODE: "zh-Tw",
   FULL_CODE: "正體中文",
-  WIKI_CODE: "zh-Tw",
+  WIKI_CODE: "zh-tw",
   CONTRIBUTORS: ["Kami-Sqmf","iLxlo_"]
 };
 

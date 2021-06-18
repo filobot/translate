@@ -68,7 +68,7 @@ exports.FEATURES = {
     AND: "和",
     DESCRIPTION_2: "用這些指令來幫助您服務器內的宅宅們吧！",
     ITEMS: {
-      ANIME: "動漫 ", // Added a Space
+      ANIME: "動漫",
       REACTION: "視覺化反應效果",
       INTERACTION: "視覺化互動效果"
     }
