@@ -523,24 +523,24 @@ exports.MODULES = {
     }
   },
   ANTI_EXTERNAL_LINKS: {
-    DESCRIPTION: "This module will allow you to delete the message and warn members to send external links",
+    DESCRIPTION: "本模組將可以刪除指定的外部鏈接消息並警告發送者",
     ALLOW_URL: {
-      TITLE: "Steps to add a URL to the allowed list",
-      WARNING_PROTOCOL: "It is mandatory that the URL has the **{{protocol}}** protocol enabled, otherwise it cannot be added to the allowed list",
-      MULTIPLE_CASES: "You can allow all links from a domain and its subdomains by replacing the subdomain and the path with an asterisk as described in this article.",
+      TITLE: "加入指定 URL 的步驟",
+      WARNING_PROTOCOL: "URL 必須啟用 **{{protocol}}** 協議，否則 URL 將無法添加至允許列表",
+      MULTIPLE_CASES: "如本文所述，您可以通過將子網域和路徑替換為星號使其子域的所有鏈接都有效",
       ADD_A_SUBDOMAIN: {
-        TITLE: "Steps to add a subdomain to the allowed list",
-        SUBTITLE: "Add a subdomain to the allowed list",
-        INFORMATION: "You can allow all subdomains of a domain by replacing the subdomain with an asterisk"
+        TITLE: "將子網域添加到允許清單的步驟",
+        SUBTITLE: "添加子網域到允許清單",
+        INFORMATION: "您可以透過用星號替換子網域，來指定所有子網域"
       },
       ADD_A_DOMAIN: {
-        TITLE: "Steps to add a domain to the allowed list",
-        SUBTITLE: "Add a domain to the allowed list"
+        TITLE: "將網域添加到允許清單的步驟",
+        SUBTITLE: "添加網域到允許清單"
       },
       ADD_A_PATH: {
-        TITLE: "Steps to add a path to the allowed list",
-        SUBTITLE: "Add a path to the allowed list",
-        INFORMATION: "You can allow all paths of a domain by replacing the path with an asterisk"
+        TITLE: "將路徑添加到允許清單的步驟",
+        SUBTITLE: "添加路徑到允許清單",
+        INFORMATION: "您可以透過用星號替換路徑，來指定所有的路徑"
       }
     },
     ALLOW_CHANNEL: {
