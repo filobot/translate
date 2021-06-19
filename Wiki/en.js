@@ -51,6 +51,7 @@ exports.PAGE_TITLES = {
   WELCOMES: "Welcomes",
   WELCOMES_VARIABLES: "Welcomes Variables",
   WELCOME_ROLE: "Welcome Role",
+  ANTI_EXTERNAL_LINKS: "Anti External Links",
   CLOUDFLARE: "Cloudflare",
   COMMON_ERRORS: "Common Errors"
 };
@@ -80,7 +81,8 @@ exports.GENERAL = {
   MESSAGE: "Message",
   USER: "User",
   SERVER: "Server",
-  NAME: "Name"
+  NAME: "Name",
+  URL: "URL"
 };
 
 exports.ABOUT_WIKI = {
@@ -518,6 +520,48 @@ exports.MODULES = {
       TITLE: "Steps to set the reports channel",
       SUBTITLE: "Set the reports channel",
       SUGGESTION: "The channel you select should be private and accessible to server moderators"
+    }
+  },
+  ANTI_EXTERNAL_LINKS: {
+    DESCRIPTION: "This module will allow you to delete the message and warn members to send external links",
+    ALLOW_URL: {
+      TITLE: "Steps to add a URL to the allowed list",
+      WARNING_PROTOCOL: "It is mandatory that the URL has the **{{protocol}}** protocol enabled, otherwise it cannot be added to the allowed list",
+      MULTIPLE_CASES: "You can allow all links from a domain and its subdomains by replacing the subdomain and the path with an asterisk as described in this article.",
+      ADD_A_SUBDOMAIN: {
+        TITLE: "Steps to add a subdomain to the allowed list",
+        SUBTITLE: "Add a subdomain to the allowed list",
+        INFORMATION: "You can allow all subdomains of a domain by replacing the subdomain with an asterisk"
+      },
+      ADD_A_DOMAIN: {
+        TITLE: "Steps to add a domain to the allowed list",
+        SUBTITLE: "Add a domain to the allowed list"
+      },
+      ADD_A_PATH: {
+        TITLE: "Steps to add a path to the allowed list",
+        SUBTITLE: "Add a path to the allowed list",
+        INFORMATION: "You can allow all paths of a domain by replacing the path with an asterisk"
+      }
+    },
+    ALLOW_CHANNEL: {
+      TITLE: "Steps to add a channel to the allowed list",
+      SUBTITLE: "Add a channel to the allowed list",
+      WARNING: "If you add a channel to the allowed list, a warn won't be granted to those users who spam on those channels"
+    },
+    DISALLOW_CHANNEL: {
+      TITLE: "Steps to remove a channel to the allowed list",
+      SUBTITLE: "Remove a channel to the allowed list",
+      WARNING: "If you remove a channel to the allowed list, a warn will be granted to those users who spam on those channels"
+    },
+    ALLOW_ROLE: {
+      TITLE: "Steps to add a role to the allowed list",
+      SUBTITLE: "Add a role to the allowed list",
+      WARNING: "If you add a role to the allowed list, users who have that role assigned won't be warned if they spam"
+    },
+    DISALLOW_ROLE: {
+      TITLE: "Steps to remove a role to the allowed list",
+      SUBTITLE: "Remove a role to the allowed list",
+      WARNING: "If you remove a role to the allowed list, users who have that role assigned will be warned if they spam"
     }
   }
 };
