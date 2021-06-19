@@ -51,6 +51,7 @@ exports.PAGE_TITLES = {
   WELCOMES: "Bienvenidas",
   WELCOMES_VARIABLES: "Variables de Bienvenida",
   WELCOME_ROLE: "Rol de Bienvenida",
+  ANTI_EXTERNAL_LINKS: "Anti Enlaces Externos",
   CLOUDFLARE: "Cloudflare",
   COMMON_ERRORS: "Errores Comunes"
 };
@@ -80,7 +81,8 @@ exports.GENERAL = {
   MESSAGE: "Mensaje",
   USER: "Usuario",
   SERVER: "Servidor",
-  NAME: "Nombre"
+  NAME: "Nombre",
+  URL: "URL"
 };
 
 exports.ABOUT_WIKI = {
@@ -519,7 +521,48 @@ exports.MODULES = {
       SUBTITLE: "Establecer el canal de reportes",
       SUGGESTION: "El canal que selecciones debe ser privado y accesible para los moderadores del servidor"
     }
-  }
+  },
+  ANTI_EXTERNAL_LINKS: {
+    DESCRIPTION: "Este módulo te permitirá eliminar los mensajes y advertir a los miembros que envíen enlaces externos",
+    ALLOW_URL: {
+      TITLE: "Pasos para agregar una URL a la lista de permitidas",
+      WARNING_PROTOCOL: "Es obligatorio que la URL tenga el protocolo **{{protocol}}** habilitado, de lo contrario no podrá ser añadida a la lista de permitidas",
+      MULTIPLE_CASES: "Puedes permitir todos los enlaces de un dominio y sus subdominios sustituyendo el subdominio y el path por asterísco tal y como se describe en este artículo",
+      ADD_A_SUBDOMAIN: {
+        TITLE: "Pasos para añadir un subdominio a la lista de permitidos",
+        SUBTITLE: "Añadir un subdominio a la lista de permitidos",
+        INFORMATION: "Puedes permitir todos los subdominios de un dominio reemplazando el subdominio por un asterisco"
+      },
+      ADD_A_DOMAIN: {
+        TITLE: "Pasos para añadir un dominio a la lista de permitidos",
+        SUBTITLE: "Añadir un dominio a la lista de permitidos"
+      },
+      ADD_A_PATH: {
+        TITLE: "Pasos para añadir una ruta a la lista de permitidos",
+        SUBTITLE: "Añadir una ruta a la lista de permitidos",
+        INFORMATION: "Puedes permitir todas las rutas de un dominio reemplazando la ruta por un asterisco"
+      }
+    },
+    ALLOW_CHANNEL: {
+      TITLE: "Pasos para añadir un canal a la lista de permtiidos",
+      SUBTITLE: "Añadir un canal a la lista de permitidos",
+      WARNING: "Si agregas un canal a la lista de permitidos, no se otorgará una advertencia a los usuarios que envíen spam en esos canales"
+    },
+    DISALLOW_CHANNEL: {
+      TITLE: "Pasos para eliminar un canal de la lista de permitidos",
+      SUBTITLE: "Eliminar un canal de la lista de permitidos",
+      WARNING: "Si eliminas un canal de la lista de permitidos, se otorgará una advertencia a los usuarios que envíen spam en esos canales"
+    },
+    ALLOW_ROLE: {
+      TITLE: "Pasos para añadir un rol a la lista de permitidos",
+      SUBTITLE: "Añadir un rol a la lista de permitidos",
+      WARNING: "Si agregas un rol a la lista de permitidos, los usuarios que tengan ese rol asignado no recibirán una advertencia si envían spam"
+    },
+    DISALLOW_ROLE: {
+      TITLE: "Pasos para eliminar un rol de la lista de permitidos",
+      SUBTITLE: "Eliminar un rol de la lista de permitidos",
+      WARNING: "Si eliminas un rol de la lista de permitidos, los usuarios que tengan ese rol asignado recibirán una advertencia si envían spam"
+    }
 };
 
 exports.CLOUDFLARE = {
