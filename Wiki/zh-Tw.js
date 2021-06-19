@@ -51,6 +51,7 @@ exports.PAGE_TITLES = {
   WELCOMES: "Welcomes",
   WELCOMES_VARIABLES: "Welcomes Variables",
   WELCOME_ROLE: "Welcome Role",
+  ANTI_EXTERNAL_LINKS: "Anti External Links",
   CLOUDFLARE: "Cloudflare",
   COMMON_ERRORS: "Common Errors"
 };
@@ -80,7 +81,8 @@ exports.GENERAL = {
   MESSAGE: "訊息",
   USER: "使用者",
   SERVER: "伺服器",
-  NAME: "名稱"
+  NAME: "名稱",
+  URL: "URL"
 };
 
 exports.ABOUT_WIKI = {
@@ -518,6 +520,48 @@ exports.MODULES = {
       TITLE: "如何設定舉報頻道",
       SUBTITLE: "設定舉報頻道",
       SUGGESTION: "您設定的頻道需要是不公開且伺服器管理員可以看到的"
+    }
+  },
+  ANTI_EXTERNAL_LINKS: {
+    DESCRIPTION: "This module will allow you to delete the message and warn members to send external links",
+    ALLOW_URL: {
+      TITLE: "Steps to add a URL to the allowed list",
+      WARNING_PROTOCOL: "It is mandatory that the URL has the **{{protocol}}** protocol enabled, otherwise it cannot be added to the allowed list",
+      MULTIPLE_CASES: "You can allow all links from a domain and its subdomains by replacing the subdomain and the path with an asterisk as described in this article.",
+      ADD_A_SUBDOMAIN: {
+        TITLE: "Steps to add a subdomain to the allowed list",
+        SUBTITLE: "Add a subdomain to the allowed list",
+        INFORMATION: "You can allow all subdomains of a domain by replacing the subdomain with an asterisk"
+      },
+      ADD_A_DOMAIN: {
+        TITLE: "Steps to add a domain to the allowed list",
+        SUBTITLE: "Add a domain to the allowed list"
+      },
+      ADD_A_PATH: {
+        TITLE: "Steps to add a path to the allowed list",
+        SUBTITLE: "Add a path to the allowed list",
+        INFORMATION: "You can allow all paths of a domain by replacing the path with an asterisk"
+      }
+    },
+    ALLOW_CHANNEL: {
+      TITLE: "新增例外頻道的步驟",
+      SUBTITLE: "新增一個例外的頻道",
+      WARNING: "如題所說，那些在本頻道洗版的人不會受到任何處罰"
+    },
+    DISALLOW_CHANNEL: {
+      TITLE: "移除例外頻道的步驟",
+      SUBTITLE: "移除例外頻道",
+      WARNING: "如題所說，那些在本頻道洗版的人將會重新受到處罰"
+    },
+    ALLOW_ROLE: {
+      TITLE: "新增例外身分組的步驟",
+      SUBTITLE: "新增例外身分組",
+      WARNING: "如題所說，那些擁有此身分組的人將不會受到洗版處罰"
+    },
+    DISALLOW_ROLE: {
+      TITLE: "移除例外身分組的步驟",
+      SUBTITLE: "移除例外身分組",
+      WARNING: "如題所說，那些擁有此身分組的人將會重新受到洗版處罰"
     }
   }
 };
