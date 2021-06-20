@@ -524,6 +524,7 @@ exports.MODULES = {
   },
   ANTI_EXTERNAL_LINKS: {
     DESCRIPTION: "Este módulo te permitirá eliminar los mensajes y advertir a los miembros que envíen enlaces externos",
+    DISCORD_LINKS_BYPASS: "Todos los enlaces de Discord harán bypass a este módulo",
     ALLOW_URL: {
       TITLE: "Pasos para agregar una URL a la lista de permitidas",
       WARNING_PROTOCOL: "Es obligatorio que la URL tenga el protocolo **{{protocol}}** habilitado, de lo contrario no podrá ser añadida a la lista de permitidas",
@@ -542,6 +543,10 @@ exports.MODULES = {
         SUBTITLE: "Añadir una ruta a la lista de permitidos",
         INFORMATION: "Puedes permitir todas las rutas de un dominio reemplazando la ruta por un asterisco"
       }
+    },
+    DISALLOW_URL: {
+      TITLE: "Pasos para eliminar una URL de la lista de permitidas",
+      SUBTITLE: "Eliminar una URL de la lista de permitidas"
     },
     ALLOW_CHANNEL: {
       TITLE: "Pasos para añadir un canal a la lista de permtiidos",
