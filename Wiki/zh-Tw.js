@@ -524,7 +524,7 @@ exports.MODULES = {
   },
   ANTI_EXTERNAL_LINKS: {
     DESCRIPTION: "本模組將可以刪除指定的外部鏈接消息並警告發送者",
-    DISCORD_LINKS_BYPASS: "All Discord links will bypass this module",
+    DISCORD_LINKS_BYPASS: "所有 Discord 的連結將會繞過這個模組",
     ALLOW_URL: {
       TITLE: "加入指定 URL 的步驟",
       WARNING_PROTOCOL: "URL 必須啟用 **{{protocol}}** 協議，否則 URL 將無法添加至允許列表",
@@ -545,8 +545,8 @@ exports.MODULES = {
       }
     },
     DISALLOW_URL: {
-      TITLE: "Steps to remove a URL from the allowed list",
-      SUBTITLE: "Remove a URL from the allowed list"
+      TITLE: "從允許清單中移除 URL 的步驟",
+      SUBTITLE: "移除允許清單中的 URL"
     },
     ALLOW_CHANNEL: {
       TITLE: "新增例外頻道的步驟",
