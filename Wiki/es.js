@@ -568,6 +568,7 @@ exports.MODULES = {
       SUBTITLE: "Eliminar un rol de la lista de permitidos",
       WARNING: "Si eliminas un rol de la lista de permitidos, los usuarios que tengan ese rol asignado recibirán una advertencia si envían spam"
     }
+  }
 };
 
 exports.CLOUDFLARE = {
