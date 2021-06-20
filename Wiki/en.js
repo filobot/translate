@@ -528,7 +528,7 @@ exports.MODULES = {
     ALLOW_URL: {
       TITLE: "Steps to add a URL to the allowed list",
       WARNING_PROTOCOL: "It is mandatory that the URL has the **{{protocol}}** protocol enabled, otherwise it cannot be added to the allowed list",
-      MULTIPLE_CASES: "You can allow all links from a domain and its subdomains by replacing the subdomain and the path with an asterisk as described in this article.",
+      MULTIPLE_CASES: "You can allow all links from a domain and its subdomains by replacing the subdomain and the path with an asterisk as described in this article",
       ADD_A_SUBDOMAIN: {
         TITLE: "Steps to add a subdomain to the allowed list",
         SUBTITLE: "Add a subdomain to the allowed list",
