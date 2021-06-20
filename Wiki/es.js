@@ -139,6 +139,7 @@ exports.NAVBAR = {
   ANTI_REPEATED_TEXT: "Anti Texto Repetido",
   DISABLE_COMMANDS: "Deshabilitar Comandos",
   ANTI_BAD_WORDS: "Anti Malas Palabras",
+  ANTI_EXTERNAL_LINKS: "Anti Enlaces Externos",
   COMMANDS: "Comandos",
   TOPICS: "Temas",
   CLOUDFLARE: "Cloudflare",
