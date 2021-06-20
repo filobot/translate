@@ -51,6 +51,7 @@ exports.PAGE_TITLES = {
   WELCOMES: "Welcomes",
   WELCOMES_VARIABLES: "Welcomes Variables",
   WELCOME_ROLE: "Welcome Role",
+  ANTI_EXTERNAL_LINKS: "Anti External Links",
   CLOUDFLARE: "Cloudflare",
   COMMON_ERRORS: "Common Errors"
 };
@@ -80,7 +81,8 @@ exports.GENERAL = {
   MESSAGE: "訊息",
   USER: "使用者",
   SERVER: "伺服器",
-  NAME: "名稱"
+  NAME: "名稱",
+  URL: "URL"
 };
 
 exports.ABOUT_WIKI = {
@@ -518,6 +520,53 @@ exports.MODULES = {
       TITLE: "如何設定舉報頻道",
       SUBTITLE: "設定舉報頻道",
       SUGGESTION: "您設定的頻道需要是不公開且伺服器管理員可以看到的"
+    }
+  },
+  ANTI_EXTERNAL_LINKS: {
+    DESCRIPTION: "本模組將可以刪除指定的外部鏈接消息並警告發送者",
+    DISCORD_LINKS_BYPASS: "所有 Discord 的連結將會繞過這個模組",
+    ALLOW_URL: {
+      TITLE: "加入指定 URL 的步驟",
+      WARNING_PROTOCOL: "URL 必須啟用 **{{protocol}}** 協議，否則 URL 將無法添加至允許列表",
+      MULTIPLE_CASES: "如本文所述，您可以通過將子網域和路徑替換為星號使其子域的所有鏈接都有效",
+      ADD_A_SUBDOMAIN: {
+        TITLE: "將子網域添加到允許清單的步驟",
+        SUBTITLE: "添加子網域到允許清單",
+        INFORMATION: "您可以透過用星號替換子網域，來指定所有子網域"
+      },
+      ADD_A_DOMAIN: {
+        TITLE: "將網域添加到允許清單的步驟",
+        SUBTITLE: "添加網域到允許清單"
+      },
+      ADD_A_PATH: {
+        TITLE: "將路徑添加到允許清單的步驟",
+        SUBTITLE: "添加路徑到允許清單",
+        INFORMATION: "您可以透過用星號替換路徑，來指定所有的路徑"
+      }
+    },
+    DISALLOW_URL: {
+      TITLE: "從允許清單中移除 URL 的步驟",
+      SUBTITLE: "移除允許清單中的 URL"
+    },
+    ALLOW_CHANNEL: {
+      TITLE: "新增例外頻道的步驟",
+      SUBTITLE: "新增一個例外的頻道",
+      WARNING: "如題所說，那些在本頻道洗版的人不會受到任何處罰"
+    },
+    DISALLOW_CHANNEL: {
+      TITLE: "移除例外頻道的步驟",
+      SUBTITLE: "移除例外頻道",
+      WARNING: "如題所說，那些在本頻道洗版的人將會重新受到處罰"
+    },
+    ALLOW_ROLE: {
+      TITLE: "新增例外身分組的步驟",
+      SUBTITLE: "新增例外身分組",
+      WARNING: "如題所說，那些擁有此身分組的人將不會受到洗版處罰"
+    },
+    DISALLOW_ROLE: {
+      TITLE: "移除例外身分組的步驟",
+      SUBTITLE: "移除例外身分組",
+      WARNING: "如題所說，那些擁有此身分組的人將會重新受到洗版處罰"
     }
   }
 };
