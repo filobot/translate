@@ -524,10 +524,11 @@ exports.MODULES = {
   },
   ANTI_EXTERNAL_LINKS: {
     DESCRIPTION: "This module will allow you to delete the message and warn members to send external links",
+    DISCORD_LINKS_BYPASS: "All Discord links will bypass this module",
     ALLOW_URL: {
       TITLE: "Steps to add a URL to the allowed list",
       WARNING_PROTOCOL: "It is mandatory that the URL has the **{{protocol}}** protocol enabled, otherwise it cannot be added to the allowed list",
-      MULTIPLE_CASES: "You can allow all links from a domain and its subdomains by replacing the subdomain and the path with an asterisk as described in this article",
+      MULTIPLE_CASES: "You can allow all links from a domain and its subdomains by replacing the subdomain and the path with an asterisk as described in this article.",
       ADD_A_SUBDOMAIN: {
         TITLE: "Steps to add a subdomain to the allowed list",
         SUBTITLE: "Add a subdomain to the allowed list",
@@ -542,6 +543,10 @@ exports.MODULES = {
         SUBTITLE: "Add a path to the allowed list",
         INFORMATION: "You can allow all paths of a domain by replacing the path with an asterisk"
       }
+    },
+    DISALLOW_URL: {
+      TITLE: "Steps to remove a URL from the allowed list",
+      SUBTITLE: "Remove a URL from the allowed list"
     },
     ALLOW_CHANNEL: {
       TITLE: "Steps to add a channel to the allowed list",
