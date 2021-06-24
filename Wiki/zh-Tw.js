@@ -82,7 +82,8 @@ exports.GENERAL = {
   USER: "使用者",
   SERVER: "伺服器",
   NAME: "名稱",
-  URL: "URL"
+  URL: "URL",
+  EVENT: "Event"
 };
 
 exports.ABOUT_WIKI = {
@@ -478,7 +479,24 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "設定日誌頻道的步驟",
       SUBTITLE: "設定日誌頻道",
+      WARNING: "All events will be reconfigured to the same logging channel.",
       SUGGESTION: "您設定的頻道需要是不公開且伺服器管理員可以看到的"
+    },
+    CONFIGURE_EVENTS: {
+      TITLE: "Steps to configure module events",
+      EVENT_LIST_INFO: "You can get a complete list of available events by running the following command: **{{command}}**",
+      ENABLE_AN_EVENT: {
+        TITLE: "Steps to enable an event",
+        SUBTITLE: "Enable an event"
+      },
+      DISABLE_AN_EVENT: {
+        TITLE: "Steps to disable an event",
+        SUBTITLE: "Disable an event"
+      },
+      SET_CHANNEL: {
+        TITLE: "Steps to set the channel of an event",
+        SUBTITLE: "Set the channel of an event"
+      }
     }
   },
   MEMBER_COUNTER: {
