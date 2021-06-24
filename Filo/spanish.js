@@ -15,7 +15,7 @@ exports.general = {
     error_contact: "contacto",
     error_description: "Póngase en **{contact}** con nuestro equipo de soporte para obtener más instrucciones de que ha sucedido.",
     error_permissions_commands: "No tienes permisos para ejecutar el comando **{command}**.",
-    error_permissions_command: "No tienes permisos para ejecutar el comando **{command}**.\nRequieres el permiso `{permission}`.",
+    error_permissions_command: "No tienes permisos para ejecutar el comando **{command}**.\nNecesitas el permiso `{permission}`.",
     cooldown_commands: "Por favor espera **{time}** {unit} para poder ejecutar este comando otra vez.",
     error_permissions_description: "Este error ha sido causado debido a que no tengo el permiso `{permission}`.",
     only_guild: "Debes estar en un servidor para poder ejecutar el comando **{command}**.",
@@ -308,8 +308,9 @@ exports.commands = {
     completed_title: "Conversión del texto \"{args}\" a ASCII"
   },
   "avatar": {
-    noAvatar: "Se produjo un error al intentar obtener el avatar de {user}.",
-    completed_title: "Viendo el avatar de {user}"
+    unknown_member: "El miembro que has especificado no existe.",
+    noAvatar: "Se produjo un error al intentar obtener el avatar de **{member}**.",
+    completed_title: "Viendo el avatar de **{member}**"
   },
   "baka": {
     noArgs: "Debes @Mencionar a otra persona para llamarle baka.",

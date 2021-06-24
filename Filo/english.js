@@ -308,8 +308,9 @@ exports.commands = {
     completed_title: "Conversion of the text \"{args}\" to ASCII"
   },
   "avatar": {
-    noAvatar: "An error occurred while trying to get {user}'s avatar.",
-    completed_title: "Watching {user}'s avatar"
+    unknown_member: "The member you specified does not exist.",
+    without_avatar: "An error occurred while trying to get **{member}**'s avatar.",
+    completed_title: "Watching **{member}**'s avatar"
   },
   "baka": {
     noArgs: "You must @Mention the person you want to call baka.",
