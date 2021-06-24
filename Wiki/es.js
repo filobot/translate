@@ -479,7 +479,7 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "Pasos para establecer el canal de registros",
       SUBTITLE: "Establecer el canal de registros",
-      WARNING: "Todos los eventos se reconfigurarán al mismo canal de registros.",
+      WARNING: "Todos los eventos se reconfigurarán al mismo canal de registros",
       SUGGESTION: "El canal que selecciones debe ser privado y accesible para los moderadores del servidor"
     },
     CONFIGURE_EVENTS: {

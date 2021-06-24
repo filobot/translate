@@ -479,7 +479,7 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "Steps to set the logging channel",
       SUBTITLE: "Set the logging channel",
-      WARNING: "All events will be reconfigured to the same logging channel.",
+      WARNING: "All events will be reconfigured to the same logging channel",
       SUGGESTION: "The channel you select should be private and accessible to server moderators"
     },
     CONFIGURE_EVENTS: {

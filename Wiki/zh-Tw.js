@@ -479,7 +479,7 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "設定日誌頻道的步驟",
       SUBTITLE: "設定日誌頻道",
-      WARNING: "All events will be reconfigured to the same logging channel.",
+      WARNING: "All events will be reconfigured to the same logging channel",
       SUGGESTION: "您設定的頻道需要是不公開且伺服器管理員可以看到的"
     },
     CONFIGURE_EVENTS: {
