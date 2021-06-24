@@ -113,20 +113,25 @@ exports.log = {
     news: "Canal de noticias",
     store: "Canal de comercio",
     category: "Categoría",
+    rules: "Canal de reglas",
     unknown_category: "Categoría desconocida",
     unknown_channel: "Canal desconocido",
     type: "Tipo de canal",
     position: "Posición del canal",
     nsfw: "NSFW",
     slowmode: "Tiempo de recuperación",
+    without_slowmode: "Sin tiempo de recuperación.",
     topic: "Tema del canal",
-    default_topic: "Canal sin tema definido"
+    default_topic: "Canal sin tema definido",
+    region: "Región del canal"
   },
   sanction: {
     title: "Registro de sanción",
     guildMemberWarn: "Miembro advertido",
     guildBanAdd: "Miembro baneado",
     guildBanRemove: "Miembro desbaneado",
+    guildWarnAdd: "Advertencia añadida a un miembro",
+    guildWarnRemove: "Advertencias eliminadas a un miembro",
   },
   message: {
     title: "Registro de mensaje",
@@ -137,7 +142,9 @@ exports.log = {
     oldMessage: "Mensaje antiguo",
     newMessage: "Mensaje nuevo",
     messagePinned: "Mensaje fijado actualizado",
-    channel: "Canal"
+    channel: "Canal",
+    error: "Error",
+    hastebin_error: "Ocurrió un error al intentar contactar con el servidor de Hastebin de Filo."
   },
   member: {
     title: "Registro de miembro",
@@ -639,6 +646,40 @@ exports.commands = {
           another_owned_webhook_tip: "**CONSEJO**: Elimina o cambia el canal de un webhook."
         },
         webhook_created_and_established: "Los registros se enviarán al canal {channel} ({channel_id})."
+      },
+      events: {
+        args_1: {
+          missing: "Debes especificar un evento para continuar.",
+          invalid: "El evento que has especificado es inválido.",
+          invalid_tip: "Ejecuta este comando: **{command}**",
+          list: {
+            title: "Lista de eventos disponibles del módulo"
+          }
+        },
+        enable: {
+          already_enabled: "El evento **{event}** ya se encuentra habilitado.",
+          completed: "El evento **{event}** ha sido habilitado correctamente."
+        },
+        disable: {
+          already_disabled: "El evento **{event}** ya se encuentra deshabilitado.",
+          completed: "El evento **{event}** ha sido deshabilitado correctamente."
+        },
+        set: {
+          args_1: {
+            missing: "Debes especificar el canal donde quieres que se envíen los registros del evento **{event}**.",
+            invalid: "La ID del canal que has introducido es inválida.",
+            tip: "**CONSEJO**: Menciona el canal así: {channel}",
+            unknown: "El canal que has especificado no existe."
+          },
+          errors: {
+            too_many_webhooks: "El canal {channel} ha alcanzado el limite de **{limit}** webhooks.",
+            webhook_limit_tip: "**CONSEJO**: Elimina al menos **1** webhook del canal especificado.",
+            webhook_generation: "El webhook no ha podido crearse, por favor inténtalo de nuevo.",
+            another_owned_webhook: "Hay otro webhook creado por mi en el canal {channel}.",
+            another_owned_webhook_tip: "**CONSEJO**: Elimina o cambia el canal de un webhook."
+          },
+          webhook_created_and_established: "Los registros del evento **{event}** serán enviados al canal {channel} ({channel_id})."
+        },
       }
     },
     anti_invites: {
@@ -961,7 +1002,7 @@ exports.commands = {
           args_1: {
             missing: "Debes especificar la acción que quieres establecer.",
             invalid: "La acción que has especificado no es válida.",
-            invalid_tip: "Ejecuta este comando: {command}",
+            invalid_tip: "Ejecuta este comando: **{command}**",
             completed: "Has establecido la acción **{number}** correctamente."
           }
         },
@@ -969,7 +1010,7 @@ exports.commands = {
           title: "Viendo las acciones disponibles del módulo",
           description: "A continuación encontrarás una lista de las acciones disponibles para este módulo junto con su numeración.",
           delete: "Eliminar el mensaje del autor",
-          warn: "Advertir el mensaje del autor"
+          warn: "Advertir al autor del mensaje"
         }
       }
     },
@@ -1086,6 +1127,11 @@ exports.commands = {
           channels: "Canales permitidos",
           without_exceptions: "Sin excepciones.",
           field_limit: "Esta lista supera los **{limit}** caracteres de longitud."
+        },
+        action: {
+          title: "Acción",
+          delete: "Eliminar el mensaje del autor",
+          warn: "Advertir al autor del mensaje"
         }
       }
     },
@@ -2533,6 +2579,7 @@ exports.commands = {
       dubai: "Dubái",
       amsterdam: "Ámsterdam",
       frankfurt: "Frankfurt",
+      auto: "Región automática"
     },
     not_set: "No establecido",
     level: "Nivel",

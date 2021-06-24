@@ -113,20 +113,25 @@ exports.log = {
     news: "News channel",
     store: "Store channel",
     category: "Category",
+    rules: "Rules channel",
     unknown_category: "Unknown category",
     unknown_channel: "Unknown channel",
     type: "Channel type",
     position: "Channel position",
     nsfw: "NSFW",
     slowmode: "Slowmode",
+    without_slowmode: "Without slowmode.",
     topic: "Channel topic",
-    default_topic: "There is no defined topic."
+    default_topic: "There is no defined topic.",
+    region: "Channel region"
   },
   sanction: {
     title: "Sanction log",
     guildMemberWarn: "Warned member",
     guildBanAdd: "Banned member",
     guildBanRemove: "Unbanned member",
+    guildWarnAdd: "Warning added to a member",
+    guildWarnRemove: "Warnings removed to a member",
   },
   message: {
     title: "Message log",
@@ -137,7 +142,9 @@ exports.log = {
     oldMessage: "Old message",
     newMessage: "New message",
     messagePinned: "Pinned message updated",
-    channel: "Channel"
+    channel: "Channel",
+    error: "Error",
+    hastebin_error: "An error occurred while trying to contact Filo's Hastebin server."
   },
   member: {
     title: "Member log",
@@ -639,6 +646,40 @@ exports.commands = {
           another_owned_webhook_tip: "**TIP**: Delete or change the webhook channel."
         },
         webhook_created_and_established: "The logs will be sent to the {channel} ({channel_id}) channel."
+      },
+      events: {
+        args_1: {
+          missing: "You must specify an event in order to continue.",
+          invalid: "The event you have specified is invalid.",
+          invalid_tip: "Run this command: **{command}**",
+          list: {
+            title: "List of module available events"
+          }
+        },
+        enable: {
+          already_enabled: "The **{event}** event is already enabled.",
+          completed: "The **{event}** event has been successfully enabled."
+        },
+        disable: {
+          already_disabled: "The **{event}** event is already disabled.",
+          completed: "The **{event}** event has been successfully disabled."
+        },
+        set: {
+          args_1: {
+            missing: "You must specify the channel where you want the **{event}** event logs to be sent.",
+            invalid: "The channel ID you have entered is invalid.",
+            tip: "**TIP**: Mention the channel like this: {channel}",
+            unknown: "The channel you specified doesn't exist."
+          },
+          errors: {
+            too_many_webhooks: "The {channel} channel has reached the limit of **{limit}** webhooks.",
+            webhook_limit_tip: "**TIP**: Remove at least **1** webhook from the specified channel.",
+            webhook_generation: "The webhook could not be created, please try again.",
+            another_owned_webhook: "There is another webhook created by me on the {channel} channel.",
+            another_owned_webhook_tip: "**TIP**: Delete or change the webhook channel."
+          },
+          webhook_created_and_established: "The logs of the **{event}** event will be sent to the {channel} ({channel_id}) channel."
+        },
       }
     },
     anti_invites: {
@@ -961,7 +1002,7 @@ exports.commands = {
           args_1: {
             missing: "You must specify the action you want to set.",
             invalid: "The action you have specified is invalid.",
-            invalid_tip: "Run this command: {command}",
+            invalid_tip: "Run this command: **{command}**",
             completed: "You have set action **{number}** correctly."
           }
         },
@@ -969,7 +1010,7 @@ exports.commands = {
           title: "Viewing the available actions of the module",
           description: "Below you will find a list of the actions available for this module along with their numbering.",
           delete: "Delete the author's message",
-          warn: "Warn the author's message"
+          warn: "Warn the message's author"
         }
       }
     },
@@ -1086,6 +1127,11 @@ exports.commands = {
           channels: "Allowed channels",
           without_exceptions: "Without exceptions.",
           field_limit: "This list of exceptions exceeds **{limit}** characters in length."
+        },
+        action: {
+          title: "Action",
+          delete: "Delete the author's message",
+          warn: "Warn the message's author"
         }
       }
     },
@@ -2533,6 +2579,7 @@ exports.commands = {
       dubai: "Dubai",
       amsterdam: "Amsterdam",
       frankfurt: "Frankfurt",
+      auto: "Automatic region"
     },
     not_set: "Not set",
     level: "Level",
