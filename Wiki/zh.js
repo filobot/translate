@@ -62,11 +62,11 @@ exports.PAGE_TITLES = {
 
 exports.GENERAL = {
   NOT_AVAILABLE: "不可用",
-  STEP: "步奏 {{数字}}",
+  STEP: "步奏 {{number}}",
   EXAMPLE: "例子",
   AND: "和",
   DO_NOT_INCLUDE_THIS: "不包括 ``<>`` 当你运行命令时",
-  CHECK_DISCORD_SUPPORT_ARTICLE: "查看更多关于这个作品，在 Discord 帮助中心 **[点击这里]({{网页地址}})**",
+  CHECK_DISCORD_SUPPORT_ARTICLE: "查看更多关于这个作品，在 Discord 帮助中心 **[点击这里]({{link}})**",
   OPTIONAL: "可选",
   PERMANENT: "永久",
   TEMPORARY: "暂时性",
