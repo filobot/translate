@@ -1,7 +1,7 @@
 exports.LANGUAGE = {
   CODE: "zh",
   STANDARD_CODE: "zh",
-  FULL_CODE: "chinese", // RELI!!!!!!!!!!!!!!!! TRADUCE ESTO PLZ
+  FULL_CODE: "中文", // RELI!!!!!!!!!!!!!!!! TRADUCE ESTO PLZ
   WIKI_CODE: "zh",
   CONTRIBUTORS: ["Reli-Galliard"]
 };
@@ -61,33 +61,33 @@ exports.PAGE_TITLES = {
 // Fin de la sección que no hay que traducir. A partir de aquí si debes traducir :)
 
 exports.GENERAL = {
-  NOT_AVAILABLE: "Not available",
-  STEP: "Step {{number}}",
-  EXAMPLE: "Example",
-  AND: "And",
-  DO_NOT_INCLUDE_THIS: "Don't include ``<>`` when you're running the command",
-  CHECK_DISCORD_SUPPORT_ARTICLE: "Check out this article from the Discord support center by **[clicking here]({{link}})**",
-  OPTIONAL: "Optional",
-  PERMANENT: "Permanent",
-  TEMPORARY: "Temporary",
-  PERMANENTLY: "Permanently",
-  CHANNEL: "Channel",
-  CHANNEL_ID: "Channel ID",
-  ROLE: "Role",
-  ROLE_ID: "Role ID",
-  THRESHOLD: "Threshold",
-  TIME: "Time",
-  IF_APPLICABLE: "If applicable",
-  LEVEL: "Level",
-  NUMBER: "Number",
-  ACTION: "Action",
-  COMMAND: "Command",
-  MESSAGE: "Message",
-  USER: "User",
-  SERVER: "Server",
-  NAME: "Name",
-  URL: "URL",
-  EVENT: "Event"
+  NOT_AVAILABLE: "不可用",
+  STEP: "步奏 {{数字}}",
+  EXAMPLE: "例子",
+  AND: "和",
+  DO_NOT_INCLUDE_THIS: "不包括 ``<>`` 当你运行命令时",
+  CHECK_DISCORD_SUPPORT_ARTICLE: "查看更多关于这个作品，在 Discord 帮助中心 **[点击这里]({{网页地址}})**",
+  OPTIONAL: "可选",
+  PERMANENT: "永久",
+  TEMPORARY: "暂时性",
+  PERMANENTLY: "永久性",
+  CHANNEL: "频道",
+  CHANNEL_ID: "频道 ID",
+  ROLE: "角色",
+  ROLE_ID: "角色 ID",
+  THRESHOLD: "门槛",
+  TIME: "时间",
+  IF_APPLICABLE: "如能适用",
+  LEVEL: "等级",
+  NUMBER: "数字",
+  ACTION: "行动",
+  COMMAND: "命令",
+  MESSAGE: "信息",
+  USER: "用户",
+  SERVER: "服务器",
+  NAME: "名字",
+  URL: "网址",
+  EVENT: "活动"
 };
 
 exports.ABOUT_WIKI = {
