@@ -41,6 +41,8 @@ exports.PAGE_TITLES = {
   GUILD: "Gremio",
   GUILD_INVITE: "Invitación del Gremio",
   MUTED_ROLE: "Rol Silenciado",
+  SETUP_A_ROLE: "Configurar un Rol",
+  PRESET_PERMISSIONS_PACKAGES: "Paquetes de Permisos Preestablecidos",
   LANGUAGE: "Idioma",
   SUPPORTED_LANGUAGES: "Idiomas Soportados",
   LOGGING: "Registros",
@@ -84,6 +86,8 @@ exports.GENERAL = {
   NAME: "Nombre",
   URL: "URL",
   EVENT: "Evento"
+  BITFIELD: "Campo de bits",
+  PERMISSION: "Permiso"
 };
 
 exports.ABOUT_WIKI = {
@@ -428,7 +432,7 @@ exports.MODULES = {
     }
   },
   GUILD: {
-    DESCRIPTION: "Este módulo te permitirá establecer ciertas configuraciones que pueden ayudarnos a ayudarlo",
+    DESCRIPTION: "Este módulo te permitirá configurar algunos aspectos de Filo en el gremio",
     GUILD_INVITE: {
       ACTION: "Configurar una invitación de gremio permanente",
       DESCRIPTION: "Este módulo te permitirá establecer una invitación permanente del gremio",
@@ -454,6 +458,40 @@ exports.MODULES = {
       SET_THE_ROLE: {
         TITLE: "Pasos para establecer el rol Silenciado",
         SUBTITLE: "Establecer el rol Silenciado"
+      }
+    },
+    SETUP_A_ROLE: {
+      ACTION: "Configurar un rol",
+      DESCRIPTION: "Este módulo te permitirá configurar las propiedades y permisos de un rol en Filo",
+      PERMISSIONS: {
+        TITLE: "Pasos para configurar los permisos del rol",
+        DESCRIPTION: "Configurar los permisos de un rol te permitirá flexibilizar los permisos que otorgas en el servidor a un rol determinado",
+        CALCULATOR_INFORMATION: "Puede ver la calculadora de permisos de Filo haciendo **[clic aquí]({{link}})**",
+        PERMISSION_LIST_INFO: "Puedes ver una lista completa de permisos ejecutando el siguiente comando: **{{command}}**",
+        SET: {
+          TITLE: "Pasos para establecer el campo de bits de permisos para un rol",
+          SUBTITLE: "Establecer el campo de bits de permisos para un rol",
+          PRESET_PERMISSIONS_PACKAGES_INFO: "Puedes consultar nuestros paquetes de permisos preestablecidos haciendo **[clic aquí]({{link}})**"
+        },
+        ADD: {
+          TITLE: "Pasos para añadir un permiso a un rol",
+          SUBTITLE: "Añadir un permiso a un rol"
+        },
+        REMOVE: {
+          TITLE: "Pasos para eliminar un permiso a un rol",
+          SUBTITLE: "Eliminar un permiso a un rol"
+        }
+      },
+      PRESET_PERMISSIONS_PACKAGES: {
+        TITLE: "Paquetes de Permisos Preestablecidos",
+        ROLES: {
+          HELPER: "Ayudante",
+          TRIAL_MODERATOR: "Moderador en Pruebas",
+          MODERATOR: "Moderador",
+          SENIOR_MODERATOR: "Señor Moderador",
+          ADMINISTRATOR: "Administrador"
+        },
+        DESCRIPTION: "Haciendo **[clic aquí]({{link}})** podrás ver los permisos preestablecidos para el rol **{{role}}**"
       }
     }
   },

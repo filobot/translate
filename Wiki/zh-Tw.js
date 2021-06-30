@@ -41,6 +41,8 @@ exports.PAGE_TITLES = {
   GUILD: "Guild",
   GUILD_INVITE: "Guild Invite",
   MUTED_ROLE: "Muted Role",
+  SETUP_A_ROLE: "Setup a Role",
+  PRESET_PERMISSIONS_PACKAGES: "Preset Permissions Packages",
   LANGUAGE: "Language",
   SUPPORTED_LANGUAGES: "Supported Languages",
   LOGGING: "Logging",
@@ -83,7 +85,9 @@ exports.GENERAL = {
   SERVER: "伺服器",
   NAME: "名稱",
   URL: "URL",
-  EVENT: "事件"
+  EVENT: "事件",
+  BITFIELD: "Bitfield",
+  PERMISSION: "Permission"
 };
 
 exports.ABOUT_WIKI = {
@@ -428,7 +432,7 @@ exports.MODULES = {
     }
   },
   GUILD: {
-    DESCRIPTION: "本模組可以給你一些有用的幫助",
+    DESCRIPTION: "This module will allow you to configure some aspects of Filo in the guild",
     GUILD_INVITE: {
       ACTION: "設定一個永久的伺服器邀請",
       DESCRIPTION: "本模組可以讓你設定一個永久的伺服器邀請",
@@ -454,6 +458,40 @@ exports.MODULES = {
       SET_THE_ROLE: {
         TITLE: "綁定已經存在的身分組的步驟",
         SUBTITLE: "綁定禁言身分組"
+      }
+    },
+    SETUP_A_ROLE: {
+      ACTION: "Setup a role",
+      DESCRIPTION: "This module will allow you to configure the properties and permissions of a role in Filo",
+      PERMISSIONS: {
+        TITLE: "Steps to configure role permissions",
+        DESCRIPTION: "Configuring the permissions of a role will allow you to make more flexible the permissions that you grant on the server to a specific role",
+        CALCULATOR_INFORMATION: "You can view Filo's permissions calculator by **[clicking here]({{link}})**",
+        PERMISSION_LIST_INFO: "You can see a complete list of permissions by running the following command: **{{command}}**",
+        SET: {
+          TITLE: "Steps to set the permissions bitfield to a role",
+          SUBTITLE: "Set the permissions bitfield to a role",
+          PRESET_PERMISSIONS_PACKAGES_INFO: "You can check our Preset Permission Packages by **[clicking here]({{link}})**"
+        },
+        ADD: {
+          TITLE: "Steps to add a permission to a role",
+          SUBTITLE: "Add a permission to a role"
+        },
+        REMOVE: {
+          TITLE: "Steps to add a permission to a role",
+          SUBTITLE: "Add a permission to a role"
+        }
+      },
+      PRESET_PERMISSIONS_PACKAGES: {
+        TITLE: "Preset Permission Packages",
+        ROLES: {
+          HELPER: "Helper",
+          TRIAL_MODERATOR: "Trial Moderator",
+          MODERATOR: "Moderator",
+          SENIOR_MODERATOR: "Senior Moderator",
+          ADMINISTRATOR: "Administrator"
+        },
+        DESCRIPTION: "By **[clicking here]({{link}})** you will see the preset permissions for the **{{role}}** role"
       }
     }
   },
