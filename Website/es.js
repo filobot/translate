@@ -177,4 +177,34 @@ exports.THANKS = {
     DESCRIPTION: "Estamos muy agradecidos de que hayas decidido confiar en Filo.",
     DESCRIPTION_2: "Serás redirigido mágicamente a nuestro servidor de Discord."
   }
-}
+};
+
+exports.CALCULATOR = {
+  HEADER: {
+    TITLE: "Calculadora de Permisos de Filo"
+  },
+  PERMISSIONS: {
+    VIEW_CASES: "Ver Casos",
+    EDIT_CASES: "Editar Casos",
+    MANAGE_CASES: "Gestionar Casos",
+    ADMINISTRATOR: "Administrador",
+    BAN_MEMBERS: "Banear Miembros",
+    TEMPBAN_MEMBERS: "Banear Temporalmente Miembros",
+    SOFTBAN_MEMBERS: "Banear Suavemente Miembros",
+    UNBAN_MEMBERS: "Desbanear Miembros",
+    KICK_MEMBERS: "Expulsar Miembros",
+    MUTE_MEMBERS: "Silenciar Miembros",
+    TEMPMUTE_MEMBERS: "Silenciar Temporalmente Miembros",
+    UNMUTE_MEMBERS: "Desilenciar Miembros",
+    WARN_MEMBERS: "Advertir Miembros",
+    UNWARN_MEMBERS: "Desadvertir Miembros",
+    PURGE_WARNS: "Limpiar Advertencias",
+    ADD_ROLES: "Añadir Roles",
+    REMOVE_ROLES: "Eliminar Roles",
+    PURGE_MESSAGES: "Limpiar Mensajes",
+    MANAGE_NICKNAMES: "Gestionar Apodos",
+    MANAGE_CHANNELS: "Gestionar Canales",
+    PIN_MESSAGES: "Fijar Mensajes",
+    UNPIN_MESSAGES: "Desfijar Mensajes"
+  }
+};

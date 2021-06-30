@@ -177,4 +177,34 @@ exports.THANKS = {
     DESCRIPTION: "我們很高興你相信 Filo。",
     DESCRIPTION_2: "您將被重新導向到邀請頁面."
   }
-}
+};
+
+exports.CALCULATOR = {
+  HEADER: {
+    TITLE: "Filo's Permissions Calculator"
+  },
+  PERMISSIONS: {
+    VIEW_CASES: "View Cases",
+    EDIT_CASES: "Edit Cases",
+    MANAGE_CASES: "Manage Cases",
+    ADMINISTRATOR: "Administrator",
+    BAN_MEMBERS: "Ban Members",
+    TEMPBAN_MEMBERS: "Tempban Members",
+    SOFTBAN_MEMBERS: "Softban Members",
+    UNBAN_MEMBERS: "Unban Members",
+    KICK_MEMBERS: "Kick Members",
+    MUTE_MEMBERS: "Mute Members",
+    TEMPMUTE_MEMBERS: "Tempmute Members",
+    UNMUTE_MEMBERS: "Unmute Members",
+    WARN_MEMBERS: "Warn Members",
+    UNWARN_MEMBERS: "Unwarn Members",
+    PURGE_WARNS: "Purge Warns",
+    ADD_ROLES: "Add Roles",
+    REMOVE_ROLES: "Remove Roles",
+    PURGE_MESSAGES: "Purge Messages",
+    MANAGE_NICKNAMES: "Manage Nicknames",
+    MANAGE_CHANNELS: "Manage Channels",
+    PIN_MESSAGES: "Pin Messages",
+    UNPIN_MESSAGES: "Unpin Messages"
+  }
+};
