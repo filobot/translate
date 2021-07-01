@@ -41,6 +41,8 @@ exports.PAGE_TITLES = {
   GUILD: "Guild",
   GUILD_INVITE: "Guild Invite",
   MUTED_ROLE: "Muted Role",
+  SETUP_A_ROLE: "Setup a Role",
+  PRESET_PERMISSIONS_PACKAGES: "Preset Permissions Packages",
   LANGUAGE: "Language",
   SUPPORTED_LANGUAGES: "Supported Languages",
   LOGGING: "Logging",
@@ -83,7 +85,9 @@ exports.GENERAL = {
   SERVER: "伺服器",
   NAME: "名稱",
   URL: "URL",
-  EVENT: "事件"
+  EVENT: "事件",
+  BITFIELD: "數字位域",
+  PERMISSION: "權限"
 };
 
 exports.ABOUT_WIKI = {
@@ -428,7 +432,7 @@ exports.MODULES = {
     }
   },
   GUILD: {
-    DESCRIPTION: "本模組可以給你一些有用的幫助",
+    DESCRIPTION: "該模組將允許您在伺服器中配置Filo的某些事項”",
     GUILD_INVITE: {
       ACTION: "設定一個永久的伺服器邀請",
       DESCRIPTION: "本模組可以讓你設定一個永久的伺服器邀請",
@@ -454,6 +458,40 @@ exports.MODULES = {
       SET_THE_ROLE: {
         TITLE: "綁定已經存在的身分組的步驟",
         SUBTITLE: "綁定禁言身分組"
+      }
+    },
+    SETUP_A_ROLE: {
+      ACTION: "設定一個身分組",
+      DESCRIPTION: "該模組將允許您在 Filo 中配置身分組的屬性和權限",
+      PERMISSIONS: {
+        TITLE: "配置身分組權限的步驟",
+        DESCRIPTION: "配置身分組的權限將可以使您更靈活地在您的伺服器上授予特定身分組權限",
+        CALCULATOR_INFORMATION: "**[點擊這裡]({{link}})**以查看 Filo 的權限計算機",
+        PERMISSION_LIST_INFO: "您也可以通過運行以下指令查看完整的權限列表: **{{command}}**",
+        SET: {
+          TITLE: "設定數字位域權限的步驟",
+          SUBTITLE: "為身分組設定特定的權限",
+          PRESET_PERMISSIONS_PACKAGES_INFO: "**[點擊這裡]({{link}})**以查看預設的權限"
+        },
+        ADD: {
+          TITLE: "新增權限到身分組的步驟",
+          SUBTITLE: "新增權限到身分組"
+        },
+        REMOVE: {
+          TITLE: "移除身分組權限的步驟",
+          SUBTITLE: "移除身分組權限"
+        }
+      },
+      PRESET_PERMISSIONS_PACKAGES: {
+        TITLE: "預設權限包",
+        ROLES: {
+          HELPER: "小幫手",
+          TRIAL_MODERATOR: "試用版主",
+          MODERATOR: "版主",
+          SENIOR_MODERATOR: "資深版主",
+          ADMINISTRATOR: "管理員"
+        },
+        DESCRIPTION: "**[點擊這裡]({{link}})** 以查看 **{{role}}** 的權限 "
       }
     }
   },
