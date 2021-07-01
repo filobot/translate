@@ -86,8 +86,8 @@ exports.GENERAL = {
   NAME: "名稱",
   URL: "URL",
   EVENT: "事件",
-  BITFIELD: "Bitfield",
-  PERMISSION: "Permission"
+  BITFIELD: "數字位域",
+  PERMISSION: "權限"
 };
 
 exports.ABOUT_WIKI = {
@@ -432,7 +432,7 @@ exports.MODULES = {
     }
   },
   GUILD: {
-    DESCRIPTION: "This module will allow you to configure some aspects of Filo in the guild",
+    DESCRIPTION: "該模組將允許您在伺服器中配置Filo的某些事項”",
     GUILD_INVITE: {
       ACTION: "設定一個永久的伺服器邀請",
       DESCRIPTION: "本模組可以讓你設定一個永久的伺服器邀請",
@@ -461,37 +461,37 @@ exports.MODULES = {
       }
     },
     SETUP_A_ROLE: {
-      ACTION: "Setup a role",
-      DESCRIPTION: "This module will allow you to configure the properties and permissions of a role in Filo",
+      ACTION: "設定一個身分組",
+      DESCRIPTION: "該模組將允許您在 Filo 中配置身分組的屬性和權限",
       PERMISSIONS: {
-        TITLE: "Steps to configure role permissions",
-        DESCRIPTION: "Configuring the permissions of a role will allow you to make more flexible the permissions that you grant on the server to a specific role",
-        CALCULATOR_INFORMATION: "You can view Filo's permissions calculator by **[clicking here]({{link}})**",
-        PERMISSION_LIST_INFO: "You can see a complete list of permissions by running the following command: **{{command}}**",
+        TITLE: "配置身分組權限的步驟",
+        DESCRIPTION: "配置身分組的權限將可以使您更靈活地在您的伺服器上授予特定身分組權限",
+        CALCULATOR_INFORMATION: "**[點擊這裡]({{link}})**以查看 Filo 的權限計算機",
+        PERMISSION_LIST_INFO: "您也可以通過運行以下指令查看完整的權限列表: **{{command}}**",
         SET: {
-          TITLE: "Steps to set the permissions bitfield to a role",
-          SUBTITLE: "Set the permissions bitfield to a role",
-          PRESET_PERMISSIONS_PACKAGES_INFO: "You can check our Preset Permission Packages by **[clicking here]({{link}})**"
+          TITLE: "設定數字位域權限的步驟",
+          SUBTITLE: "為身分組設定特定的權限",
+          PRESET_PERMISSIONS_PACKAGES_INFO: "**[點擊這裡]({{link}})**以查看預設的權限"
         },
         ADD: {
-          TITLE: "Steps to add a permission to a role",
-          SUBTITLE: "Add a permission to a role"
+          TITLE: "新增權限到身分組的步驟",
+          SUBTITLE: "新增權限到身分組"
         },
         REMOVE: {
-          TITLE: "Steps to add a permission to a role",
-          SUBTITLE: "Add a permission to a role"
+          TITLE: "移除身分組權限的步驟",
+          SUBTITLE: "移除身分組權限"
         }
       },
       PRESET_PERMISSIONS_PACKAGES: {
-        TITLE: "Preset Permission Packages",
+        TITLE: "預設權限包",
         ROLES: {
-          HELPER: "Helper",
-          TRIAL_MODERATOR: "Trial Moderator",
-          MODERATOR: "Moderator",
-          SENIOR_MODERATOR: "Senior Moderator",
-          ADMINISTRATOR: "Administrator"
+          HELPER: "小幫手",
+          TRIAL_MODERATOR: "試用版主",
+          MODERATOR: "版主",
+          SENIOR_MODERATOR: "資深版主",
+          ADMINISTRATOR: "管理員"
         },
-        DESCRIPTION: "By **[clicking here]({{link}})** you will see the preset permissions for the **{{role}}** role"
+        DESCRIPTION: "**[點擊這裡]({{link}})** 以查看 **{{role}}** 的權限 "
       }
     }
   },
