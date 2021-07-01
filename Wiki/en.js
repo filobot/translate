@@ -478,8 +478,8 @@ exports.MODULES = {
           SUBTITLE: "Add a permission to a role"
         },
         REMOVE: {
-          TITLE: "Steps to add a permission to a role",
-          SUBTITLE: "Add a permission to a role"
+          TITLE: "Steps to remove a permission to a role",
+          SUBTITLE: "Remove a permission to a role"
         }
       },
       PRESET_PERMISSIONS_PACKAGES: {
