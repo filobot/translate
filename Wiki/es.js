@@ -85,7 +85,7 @@ exports.GENERAL = {
   SERVER: "Servidor",
   NAME: "Nombre",
   URL: "URL",
-  EVENT: "Evento"
+  EVENT: "Evento",
   BITFIELD: "Campo de bits",
   PERMISSION: "Permiso"
 };
