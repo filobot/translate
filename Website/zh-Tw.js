@@ -177,4 +177,34 @@ exports.THANKS = {
     DESCRIPTION: "我們很高興你相信 Filo。",
     DESCRIPTION_2: "您將被重新導向到邀請頁面."
   }
-}
+};
+
+exports.CALCULATOR = {
+  HEADER: {
+    TITLE: "Filo's 權限計算機"
+  },
+  PERMISSIONS: {
+    VIEW_CASES: "查看",
+    EDIT_CASES: "編輯",
+    MANAGE_CASES: "管理",
+    ADMINISTRATOR: "管理員",
+    BAN_MEMBERS: "Ban成員",
+    TEMPBAN_MEMBERS: "暫時Ban成員",
+    SOFTBAN_MEMBERS: "Softban成員",
+    UNBAN_MEMBERS: "解除成員Ban",
+    KICK_MEMBERS: "提出成員",
+    MUTE_MEMBERS: "靜音成員",
+    TEMPMUTE_MEMBERS: "暫時靜音成員",
+    UNMUTE_MEMBERS: "解除成員靜音",
+    WARN_MEMBERS: "警告成員",
+    UNWARN_MEMBERS: "解除成員警告",
+    PURGE_WARNS: "清除警告",
+    ADD_ROLES: "新增身分組",
+    REMOVE_ROLES: "移增身分組",
+    PURGE_MESSAGES: "清除訊息",
+    MANAGE_NICKNAMES: "管理暱稱",
+    MANAGE_CHANNELS: "管理頻道",
+    PIN_MESSAGES: "釘選頻道",
+    UNPIN_MESSAGES: "取消釘選頻道"
+  }
+};
