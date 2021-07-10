@@ -205,6 +205,7 @@ exports.CALCULATOR = {
     MANAGE_NICKNAMES: "管理暱稱",
     MANAGE_CHANNELS: "管理頻道",
     PIN_MESSAGES: "釘選頻道",
-    UNPIN_MESSAGES: "取消釘選頻道"
+    UNPIN_MESSAGES: "取消釘選頻道",
+    VIEW_HISTORY: "查看歷史"
   }
 };
