@@ -205,6 +205,7 @@ exports.CALCULATOR = {
     MANAGE_NICKNAMES: "Manage Nicknames",
     MANAGE_CHANNELS: "Manage Channels",
     PIN_MESSAGES: "Pin Messages",
-    UNPIN_MESSAGES: "Unpin Messages"
+    UNPIN_MESSAGES: "Unpin Messages",
+    VIEW_HISTORY: "View History"
   }
 };
