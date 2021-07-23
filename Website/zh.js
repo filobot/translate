@@ -181,31 +181,31 @@ exports.THANKS = {
 
 exports.CALCULATOR = {
   HEADER: {
-    TITLE: "Filo's Permissions Calculator"
+    TITLE: "Filo's 权力计算机"
   },
   PERMISSIONS: {
-    VIEW_CASES: "View Cases",
-    EDIT_CASES: "Edit Cases",
-    MANAGE_CASES: "Manage Cases",
-    ADMINISTRATOR: "Administrator",
-    BAN_MEMBERS: "Ban Members",
-    TEMPBAN_MEMBERS: "Tempban Members",
-    SOFTBAN_MEMBERS: "Softban Members",
-    UNBAN_MEMBERS: "Unban Members",
-    KICK_MEMBERS: "Kick Members",
-    MUTE_MEMBERS: "Mute Members",
-    TEMPMUTE_MEMBERS: "Tempmute Members",
-    UNMUTE_MEMBERS: "Unmute Members",
-    WARN_MEMBERS: "Warn Members",
-    UNWARN_MEMBERS: "Unwarn Members",
-    PURGE_WARNS: "Purge Warns",
-    ADD_ROLES: "Add Roles",
-    REMOVE_ROLES: "Remove Roles",
-    PURGE_MESSAGES: "Purge Messages",
-    MANAGE_NICKNAMES: "Manage Nicknames",
-    MANAGE_CHANNELS: "Manage Channels",
-    PIN_MESSAGES: "Pin Messages",
-    UNPIN_MESSAGES: "Unpin Messages",
-    VIEW_HISTORY: "View History"
+    VIEW_CASES: "查看案例",
+    EDIT_CASES: "编辑案例",
+    MANAGE_CASES: "管理案例",
+    ADMINISTRATOR: "管理人员",
+    BAN_MEMBERS: "屏蔽成员",
+    TEMPBAN_MEMBERS: "暂时性屏蔽成员",
+    SOFTBAN_MEMBERS: "软禁成员",
+    UNBAN_MEMBERS: "解禁成员",
+    KICK_MEMBERS: "踢成员",
+    MUTE_MEMBERS: "静音成员",
+    TEMPMUTE_MEMBERS: "暂时性静音成员",
+    UNMUTE_MEMBERS: "取消静音成员",
+    WARN_MEMBERS: "警告成员",
+    UNWARN_MEMBERS: "取消警告成员",
+    PURGE_WARNS: "清除警告",
+    ADD_ROLES: "添加角色",
+    REMOVE_ROLES: "去掉角色",
+    PURGE_MESSAGES: "清除信息",
+    MANAGE_NICKNAMES: "管理名字",
+    MANAGE_CHANNELS: "管理频道",
+    PIN_MESSAGES: "标注信息",
+    UNPIN_MESSAGES: "取消标注信息",
+    VIEW_HISTORY: "查看历史"
   }
 };
