@@ -15,15 +15,18 @@ exports.ERROR_MESSAGES = {
   MISSING_CLIENT_PERMISSION: "This error has been caused because I don't have the [``{{permission}}``]({{url}}) permission.",
   MISSING_USER_PERMISSION: "This error has been caused because you don't have the ``{{permission}}`` permission.",
   MISSING_USER_PERMISSION_2: "You don't have permissions to carry out this action with **{{user}}** ({{user.id}}).",
-  INVALID_MEMBER: "The member you specified is invalid.",
-  UNKNOWN_MEMBER: "The member you specified doesn't exist or isn't on the server.",
+  INVALID_USER: "The user you specified is invalid.",
+  UNKNOWN_USER: "The user you specified doesn't exist or isn't on the server.",
   INVALID_ROLE: "The role you have specified is invalid.",
   UNKNOWN_ROLE: "The role you specified doesn't exist.",
   MANAGED_ROLE: "The role you have specified is managed by an integration.",
-  MEMBER_ALREADY_HAS_THE_ROLE: "**{{user}}** ({{user.id}}) already has the {{role}} role assigned.",
+  USER_ALREADY_HAS_THE_ROLE: "**{{user}}** ({{user.id}}) already has the {{role}} role assigned.",
+  USER_ALREADY_HAS_THAT_NICKNAME: "**{{user}}** ({{user.id}}) already has that nickname established.",
   INVALID_NUMBER: "The number you have specified is invalid.",
   MAX_NUMBER_REACHED: "The number you specified is greater than **{{number}}**.",
   MIN_NUMBER_REACHED: "The number you specified is less than **{{number}}**.",
+  MAX_ARGUMENT_REACHED: "The arguments you have specified exceed **{{number}}** characters in length.",
+  MIN_ARGUMENT_REACHED: "The arguments you have specified are less than **{{number}}** characters in length.",
   INVALID_CHANNEL: "The channel you have specified is invalid.",
   UNKNOWN_CHANNEL: "The channel you specified doesn't exist.",
   INVALID_CHANNEL_TYPE: "This action does not support the type of the channel that you specified. ({{valid_types}})"
@@ -64,12 +67,17 @@ exports.GENERAL = {
 
 exports.COMMANDS = {
   ADDROLE: {
-    MISSING_MEMBER: "You must @Mention the member to add a role.",
+    MISSING_USER: "You must @Mention the user to add a role.",
     MISSING_ROLE: "You must specify the role you want to grant.",
     COMPLETED: "You have added the {{role}} role to **{{user}}** ({{user.id}})."
   },
   CLEAR: {
     MISSING_NUMBER_OF_MESSAGES: "You must specify the number of messages you want to purge.",
     COMPLETED: "You have purged **{{number}}** messages from the {{channel}} channel."
+  },
+  NICKNAME: {
+    MISSING_USER: "You must @Mention the user to change the nickname.",
+    MISSING_NICKNAME: "You must specify the new nickname that you want to set.",
+    COMPLETED: "You have established the nickname of **{{user}}** ({{user.id}}) for **{{nickname}}**."
   }
 };

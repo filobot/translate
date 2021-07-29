@@ -15,15 +15,18 @@ exports.ERROR_MESSAGES = {
   MISSING_CLIENT_PERMISSION: "Este error se debe a que no tengo el permiso [``{{permission}}``]({{url}}).",
   MISSING_USER_PERMISSION: "Este error se debe a que no tienes el permiso ``{{permission}}``.",
   MISSING_USER_PERMISSION_2: "No tienes permisos para realizar esta acción con **{{user}}** ({{user.id}}).",
-  INVALID_MEMBER: "El miembro que has especificado es inválido.",
-  UNKNOWN_MEMBER: "El miembro que has especificado no existe o no está en el servidor.",
+  INVALID_USER: "El usuario que has especificado es inválido.",
+  UNKNOWN_USER: "El usuario que has especificado no existe o no está en el servidor.",
   INVALID_ROLE: "El rol que has especificado es inválido.",
   UNKNOWN_ROLE: "El rol que has especificado no existe.",
   MANAGED_ROLE: "El rol que has especificado está gestionado por una integración.",
-  MEMBER_ALREADY_HAS_THE_ROLE: "**{{user}}** ({{user.id}}) ya tiene el rol {{role}} asignado.",
+  USER_ALREADY_HAS_THE_ROLE: "**{{user}}** ({{user.id}}) ya tiene el rol {{role}} asignado.",
+  USER_ALREADY_HAS_THAT_NICKNAME: "**{{user}}** ({{user.id}}) ya tiene ese apodo establecido.",
   INVALID_NUMBER: "El número que has especificado es inválido.",
   MAX_NUMBER_REACHED: "El número que has especificado es mayor de **{{number}}**.",
   MIN_NUMBER_REACHED: "El número que has especificado es menor de **{{number}}**.",
+  MAX_ARGUMENT_REACHED: "Los argumentos que has especificado exceden los **{{number}}** caracteres de longitud.",
+  MIN_ARGUMENT_REACHED: "Los argumentos que has especificado son inferiores a **{{number}}** caracteres de longitud.",//here
   INVALID_CHANNEL: "El canal que has especificado es inválido.",
   UNKNOWN_CHANNEL: "El canal que has especificado no existe.",
   INVALID_CHANNEL_TYPE: "Esta acción no admite el tipo del canal que has especificado. ({{valid_types}})"
@@ -64,12 +67,17 @@ exports.GENERAL = {
 
 exports.COMMANDS = {
   ADDROLE: {
-    MISSING_MEMBER: "Debes @Mencionar al miembro para añadirle un rol.",
+    MISSING_USER: "Debes @Mencionar al usuario para añadirle un rol.",
     MISSING_ROLE: "Debes especificar el rol que quieres añadir.",
     COMPLETED: "Has añadido el rol {{role}} a **{{user}}** ({{user.id}})."
   },
   CLEAR: {
     MISSING_NUMBER_OF_MESSAGES: "Debes especificar el número de mensajes que quieres purgar.",
     COMPLETED: "Has purgado **{{number}}** mensajes del canal {{channel}}."
+  },
+  NICKNAME: {
+    MISSING_USER: "Debes @Mencionar al usuario para cambiar el apodo.",
+    MISSING_NICKNAME: "Debes especificar el apodo que quieres establecer.",
+    COMPLETED: "Has establecido el apodo de **{{user}}** ({{user.id}}) por **{{nickname}}**."
   }
 };
