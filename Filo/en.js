@@ -1,3 +1,5 @@
+"use strict";
+
 exports.LANGUAGE = {
   CODE: "en",
   STANDARD_CODE: "en-US",
@@ -8,8 +10,18 @@ exports.LANGUAGE = {
 
 exports.ERROR_MESSAGES = {
   SOMETHING_WENT_WRONG: "Something went wrong while trying to execute that action",
-  GENERIC_DESCRIPTION: "**[Contact us]({{url}})** for further instructions on what happened.",
+  GENERIC_ERROR: "**[Contact us]({{url}})** for further instructions on what happened.",
+  GUILD_REQUIRED: "This action requires the bot to be added to the guild.",
   ERROR_ID: "Error ID: {{error_id}}",
+  MAINTENANCE_ENABLED: "A maintenance task is currently being carried out on this system.",
+
+  INTERACTION_FAILED: "The interaction didn't receive a response after a while.",
+  INTERACTION_CANCELLED: "The interaction has been canceled.",
+
+  DISABLED_COMMAND: "The **{{command}}** command has been disabled by the Filo's Development Team.",
+  UNKNOWN_COMMAND: "The **{{command}}** command doesn't exist or isn't currently supported.",
+  DISCORD_MISSING_INFORMATION: "This interaction has been canceled due to Discord not providing the necessary information to continue.",
+
   ALTERNATIVE_PERMISSION: "Alternative permission",
   ALTERNATIVE_PERMISSIONS: "Alternative permissions",
   MISSING_CLIENT_PERMISSION: "This error has been caused because I don't have the [``{{permission}}``]({{url}}) permission.",
@@ -29,7 +41,20 @@ exports.ERROR_MESSAGES = {
   MIN_ARGUMENT_REACHED: "The arguments you have specified are less than **{{number}}** characters in length.",
   INVALID_CHANNEL: "The channel you have specified is invalid.",
   UNKNOWN_CHANNEL: "The channel you specified doesn't exist.",
-  INVALID_CHANNEL_TYPE: "This action does not support the type of the channel that you specified. ({{valid_types}})"
+  INVALID_CHANNEL_TYPE: "This action doesn't support the type of the channel that you specified. ({{valid_types}})"
+};
+
+exports.ANNOUNCEMENTS = {
+  VOTE_INCENTIVE: "**Do you like the features of Filo?**" + "\n" + "Support Filo by voting for her and win some free rewards!",
+  DONATE_INCENTIVE: "**Do you like the features of Filo?**" + "\n" + "Support Filo by donating and earn rewards!"
+};
+
+exports.BUTTON_LABELS = {
+  SERVICE_STATUS: "Service status",
+  CONTACT_US: "Contact us",
+  INVITE_FILO: "Invite Filo",
+  VOTE_NOW: "Vote now!",
+  DONATE_NOW: "Donate now!"
 };
 
 exports.AUDIT_LOGS = {

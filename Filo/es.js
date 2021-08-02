@@ -1,3 +1,5 @@
+"use strict";
+
 exports.LANGUAGE = {
   CODE: "es",
   STANDARD_CODE: "es-ES",
@@ -8,8 +10,18 @@ exports.LANGUAGE = {
 
 exports.ERROR_MESSAGES = {
   SOMETHING_WENT_WRONG: "Algo salió mal al intentar ejecutar esa acción",
-  GENERIC_DESCRIPTION: "**[Contáctanos]({{url}})** para obtener más instrucciones sobre lo que sucedió.",
+  GENERIC_ERROR: "**[Contáctanos]({{url}})** para obtener más instrucciones sobre lo que sucedió.",
+  GUILD_REQUIRED: "Esta acción requiere que el bot esté añadido en el gremio. **[``Invitar a Filo``]({{url}})",
   ERROR_ID: "ID del error: {{error_id}}",
+  MAINTENANCE_ENABLED: "Actualmente se está llevando una tarea de mantenimiento en este sistema.",
+
+  INTERACTION_FAILED: "La interacción no ha recibido una respuesta después de transcurrir un tiempo.",
+  INTERACTION_CANCELLED: "La interacción ha sido cancelada.",
+
+  DISABLED_COMMAND: "El comando **{{command}}** ha sido deshabilitado por el Equipo de Desarrollo de Filo.",
+  UNKNOWN_COMMAND: "El comando **{{command}}** no existe o no está actualmente soportado.",
+  DISCORD_MISSING_INFORMATION: "Esta interacción ha sido cancelada debido a que Discord no proporcionó la información necesaria para continuar.",
+
   ALTERNATIVE_PERMISSION: "Permiso alternativo",
   ALTERNATIVE_PERMISSIONS: "Permisos alternativos",
   MISSING_CLIENT_PERMISSION: "Este error se debe a que no tengo el permiso [``{{permission}}``]({{url}}).",
@@ -30,6 +42,19 @@ exports.ERROR_MESSAGES = {
   INVALID_CHANNEL: "El canal que has especificado es inválido.",
   UNKNOWN_CHANNEL: "El canal que has especificado no existe.",
   INVALID_CHANNEL_TYPE: "Esta acción no admite el tipo del canal que has especificado. ({{valid_types}})"
+};
+
+exports.ANNOUNCEMENTS = {
+  VOTE_INCENTIVE: "**¿Te gusta las características de Filo?**" + "\n" + "¡Apoya a Filo votando por ella y gana algunas recompensas gratis!",
+  DONATE_INCENTIVE: "**¿Te gusta las características de Filo?**" + "\n" + "¡Apoya a Filo donando y gana recompensas!",
+};
+
+exports.BUTTON_LABELS = {
+  SERVICE_STATUS: "Estado del servicio",
+  CONTACT_US: "Contáctanos",
+  INVITE_FILO: "Invite Filo",
+  VOTE_NOW: "¡Votar ahora!",
+  DONATE_NOW: "¡Donar ahora!"
 };
 
 exports.AUDIT_LOGS = {
