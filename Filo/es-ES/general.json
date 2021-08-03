@@ -1,0 +1,4 @@
+{
+  "EXAMPLE": "Example",
+  "COOLDOWN": "You must wait **{{time}}** to be able to execute this action."
+}

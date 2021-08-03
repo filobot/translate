@@ -1,0 +1,5 @@
+{
+  "MISSING_USER": "You must @Mention the user to add a role.",
+  "MISSING_ROLE": "You must specify the role you want to grant.",
+  "COMPLETED": "You have added the {{role}} role to **{{user}}** ({{user.id}})."
+}
