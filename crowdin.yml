@@ -1,0 +1,5 @@
+files:
+  - source: /Filo/en-US/*.json
+    translation: /Filo/%locale%/%original_file_name%
+  - source: /Filo/en-US/administration/*.json
+    translation: /Filo/%locale%/administration/%original_file_name%
