@@ -1,0 +1,5 @@
+{
+  "MISSING_USER": "You must @Mention the user to change the nickname.",
+  "MISSING_NICKNAME": "You must specify the new nickname that you want to set.",
+  "COMPLETED": "You have established the nickname of **{{user}}** ({{user.id}}) for **{{nickname}}**."
+}
