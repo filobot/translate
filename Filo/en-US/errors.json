@@ -4,14 +4,11 @@
   "GUILD_REQUIRED": "This action requires the bot to be added to the guild.",
   "ERROR_ID": "Error ID: {{error_id}}",
   "MAINTENANCE_ENABLED": "A maintenance task is currently being carried out on this system.",
-
   "INTERACTION_FAILED": "The interaction didn't receive a response after a while.",
   "INTERACTION_CANCELLED": "The interaction has been canceled.",
-
   "DISABLED_COMMAND": "The **{{command}}** command has been disabled by the Filo's Development Team.",
   "UNKNOWN_COMMAND": "The **{{command}}** command doesn't exist or isn't currently supported.",
   "DISCORD_MISSING_INFORMATION": "This interaction has been canceled due to Discord not providing the necessary information to continue.",
-
   "ALTERNATIVE_PERMISSION": "Alternative permission",
   "ALTERNATIVE_PERMISSIONS": "Alternative permissions",
   "MISSING_CLIENT_PERMISSION": "This error has been caused because I don't have the [``{{permission}}``]({{url}}) permission.",
