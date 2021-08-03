@@ -10,5 +10,6 @@ This repository aims to provide the various translation files for Filo and the l
 #### Sumary
 - [Folder with Filo's translations](https://github.com/filobot/translate/tree/master/Filo)
 - [Folder with the translations of the Filo's website](https://github.com/filobot/translate/tree/master/Website)
+- [Folder with the translations of the Filo's wiki](https://github.com/filobot/translate/tree/master/Wiki)
 
 If you have any questions, don't hesitate to **[contact us](https://filobot.xyz/discord)**.
