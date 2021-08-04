@@ -1,4 +1,9 @@
 {
-  "EXAMPLE": "Example",
-  "COOLDOWN": "You must wait **{{time}}** to be able to execute this action."
+  "EXAMPLE": "Ejemplo",
+  "ADDED": "Añadido",
+  "OR": "O",
+  "COMMAND": "Comando",
+  "COOLDOWN": "Debes esperar **{{time}}** para poder ejecutar esta acción.",
+  "DATE": "Fecha",
+  "REASON": "Razón"
 }
