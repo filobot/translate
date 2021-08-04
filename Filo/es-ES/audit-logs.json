@@ -1,7 +1,7 @@
 {
-  "RESPONSIBLE": "Responsible",
-  "REASON": "Reason",
+  "RESPONSIBLE": "Responsable",
+  "REASON": "Razón",
   "DEFAULT_REASONS": {
-    "ROLE_VIA": "Role {{action}} via {{method}}."
+    "ROLE_VIA": "Rol {{action}} vía {{method}}."
   }
 }
