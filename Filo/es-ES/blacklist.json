@@ -1,7 +1,10 @@
 {
   "WATCHING_THE_BAN_INFO": "Watching the ban information",
   "BLACKLIST_CASE_ID": "Blacklist case ID",
-  "WARNING_BEFORE_APPEAL": "If you submit too many appeals or share your guild's ban information, you'll lose the ability to appeal.",
+  "APPEAL_STATUS": "Appeal status",
+  "APPEAL_DATE": "Appeal date",
+  "WARNING_BEFORE_APPEAL": "If you submit too many appeals or share your ban information, you'll lose the ability to appeal.",
+  "WARNING_APPEAL_COOLDOWN": "We received your appeal **{{time}}**, which has been denied. You'll not be able to appeal again until **{{expiration_date}}**.",
   "USER_BANNED_TITLE": "You are banned from using Filo!",
   "USER_BANNED_DESCRIPTION": "If you want to appeal this ban, click the **Appeal ban** button.",
   "GUILD_BANNED_TITLE": "This guild is banned from using Filo!",
