@@ -1,9 +1,9 @@
 {
-  "WATCHING_THE_BAN_INFO": "Watching the ban information",
+  "WATCHING_THE_BAN_INFO": "Viendo la información de la prohibición",
   "BLACKLIST_CASE_ID": "Blacklist case ID",
-  "APPEAL_STATUS": "Appeal status",
-  "APPEAL_DATE": "Appeal date",
-  "WARNING_BEFORE_APPEAL": "If you submit too many appeals or share your ban information, you'll lose the ability to appeal.",
+  "APPEAL_STATUS": "Estado de la apelación",
+  "APPEAL_DATE": "Fecha de apelación",
+  "WARNING_BEFORE_APPEAL": "Si envías demasiadas apelaciones o comparte la información de su prohibición, perderá la posibilidad de apelar.",
   "WARNING_APPEAL_COOLDOWN": "We received your appeal **{{time}}**, which has been denied. You'll not be able to appeal again until **{{expiration_date}}**.",
   "USER_BANNED_TITLE": "You are banned from using Filo!",
   "USER_BANNED_DESCRIPTION": "If you want to appeal this ban, click the **Appeal ban** button.",
