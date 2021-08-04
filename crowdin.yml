@@ -3,3 +3,5 @@ files:
     translation: /Filo/%locale%/%original_file_name%
   - source: /Filo/en-US/administration/*.json
     translation: /Filo/%locale%/administration/%original_file_name%
+  - source: /Filo/en-US/core/*.json
+    translation: /Filo/%locale%/core/%original_file_name%
