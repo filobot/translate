@@ -5,7 +5,7 @@
   "COMMAND": "Comando",
   "COOLDOWN": "Debes esperar **{{time}}** para poder ejecutar esta acción.",
   "DATE": "Fecha",
-  "APPROVED": "Approved",
+  "APPROVED": "Aprobado",
   "DENIED": "Denied",
   "TEST": "Test!"
 }
