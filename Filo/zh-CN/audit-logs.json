@@ -1,6 +1,6 @@
 {
-  "RESPONSIBLE": "Responsible: {{user}} ({{user_id}})",
-  "RESPONSIBLE_WITH_REASON": "Responsible: {{user}} ({{user_id}}). Reason: {{reason}}",
+  "RESPONSIBLE": "Responsible",
+  "REASON": "Reason",
   "DEFAULT_REASONS": {
     "ROLE_VIA": "Role {{action}} via {{method}}."
   }
