@@ -4,9 +4,9 @@
   "APPEAL_STATUS": "Estado de la apelación",
   "APPEAL_DATE": "Fecha de apelación",
   "WARNING_BEFORE_APPEAL": "Si envías demasiadas apelaciones o comparte la información de su prohibición, perderá la posibilidad de apelar.",
-  "WARNING_APPEAL_COOLDOWN": "We received your appeal **{{time}}**, which has been denied. You'll not be able to appeal again until **{{expiration_date}}**.",
-  "USER_BANNED_TITLE": "You are banned from using Filo!",
-  "USER_BANNED_DESCRIPTION": "If you want to appeal this ban, click the **Appeal ban** button.",
-  "GUILD_BANNED_TITLE": "This guild is banned from using Filo!",
-  "GUILD_BANNED_DESCRIPTION": "If you are the owner of the server and want information on how to appeal, click the **Appeal ban** button."
+  "WARNING_APPEAL_COOLDOWN": "Hemos recibido tu apelación **{{time}}**, que ha sido denegada. No podrás volver a apelar hasta **{{expiration_date}}**.",
+  "USER_BANNED_TITLE": "¡Tienes prohibido usar Filo!",
+  "USER_BANNED_DESCRIPTION": "Si quieres apelar esta prohibición, haz clic en el botón **Apelar prohibición**.",
+  "GUILD_BANNED_TITLE": "¡Este gremio tiene prohibido usar Filo!",
+  "GUILD_BANNED_DESCRIPTION": "Si eres el propietario del servidor y quieres información sobre cómo apelar, haz clic en el botón **Apelar prohibición**."
 }
