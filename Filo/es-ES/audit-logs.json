@@ -1,6 +1,7 @@
 {
   "RESPONSIBLE": "Responsable",
   "REASON": "Razón",
+  "UNKNOWN_REASON": "Unknown reason",
   "DEFAULT_REASONS": {
     "ROLE_VIA": "Rol {{action}} vía {{method}}."
   }
