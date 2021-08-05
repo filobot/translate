@@ -1,0 +1,11 @@
+{
+  "EVENT_TRIGGERED": "Event triggered",
+  "EVENTS": {
+    "CHANNEL_CREATE": "Channel created",
+    "CHANNEL_UPDATE": "Channel updated",
+    "CHANNEL_DELETE": "Channel deleted"
+  },
+  "TITLES": {
+    "CHANNEL_LOG": "Channel log"
+  }
+}
