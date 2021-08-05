@@ -1,9 +1,9 @@
 {
-  "SERVICE_STATUS": "Service status",
-  "CONTACT_US": "Contact us",
-  "INVITE_FILO": "Invite Filo",
-  "VOTE_NOW": "Vote now!",
-  "DONATE_NOW": "Donate now!",
-  "JOIN_NOW": "Join now!",
-  "APPEAL_BAN": "Appeal ban"
+  "SERVICE_STATUS": "Estado del servicio",
+  "CONTACT_US": "Contáctenos",
+  "INVITE_FILO": "Invitar a Filo",
+  "VOTE_NOW": "¡Votar ahora!",
+  "DONATE_NOW": "¡Donar ahora!",
+  "JOIN_NOW": "¡Únete ahora!",
+  "APPEAL_BAN": "Apelar prohibición"
 }
