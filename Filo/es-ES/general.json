@@ -6,6 +6,5 @@
   "COOLDOWN": "Debes esperar **{{time}}** para poder ejecutar esta acción.",
   "DATE": "Fecha",
   "APPROVED": "Aprobado",
-  "DENIED": "Denegado",
-  "TEST": "Test!"
+  "DENIED": "Denegado"
 }
