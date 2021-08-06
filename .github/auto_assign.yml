@@ -3,7 +3,7 @@ addReviewers: true
 addAssignees: true
 
 reviewers: 
-  - filobot/translators
+  - xXLoloGameplayXx
 
 skipKeywords:
   - wip
