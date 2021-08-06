@@ -1,0 +1,11 @@
+addReviewers: true
+
+addAssignees: true
+
+reviewers: 
+  - filobot/translators
+
+skipKeywords:
+  - wip
+
+numberOfReviewers: 0
