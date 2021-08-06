@@ -1,5 +1,5 @@
 {
-  "SOMETHING_WENT_WRONG": "Something went wrong while trying to execute that action",
+  "SOMETHING_WENT_WRONG": "Algo salió mal al intentar ejecutar esa acción",
   "GENERIC_ERROR": "**[Contact us]({{url}})** for further instructions on what happened.",
   "GUILD_REQUIRED": "This action requires the bot to be added to the guild.",
   "ERROR_ID": "ID del error: {{error_id}}",
