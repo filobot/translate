@@ -12,12 +12,12 @@
     "MEMBER_ADD": "Miembro unido",
     "MEMBER_KICK": "Miembro expulsado",
     "MEMBER_UPDATE": "Miembro actualizado",
-    "MEMBER_REMOVE": "Leaved member"
+    "MEMBER_REMOVE": "Miembro sale"
   },
   "TITLES": {
-    "CHANNEL_LOG": "Channel log",
-    "EMOJI_LOG": "Emoji log",
-    "BAN_LOG": "Ban log",
-    "MEMBER_LOG": "Member log"
+    "CHANNEL_LOG": "Registro de canales",
+    "EMOJI_LOG": "Registro de emojis",
+    "BAN_LOG": "Registro de prohibiciones",
+    "MEMBER_LOG": "Registro de miembros"
   }
 }
