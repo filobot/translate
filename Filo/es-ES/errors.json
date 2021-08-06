@@ -2,7 +2,7 @@
   "SOMETHING_WENT_WRONG": "Something went wrong while trying to execute that action",
   "GENERIC_ERROR": "**[Contact us]({{url}})** for further instructions on what happened.",
   "GUILD_REQUIRED": "This action requires the bot to be added to the guild.",
-  "ERROR_ID": "Error ID: {{error_id}}",
+  "ERROR_ID": "ID del error: {{error_id}}",
   "MAINTENANCE_ENABLED": "A maintenance task is currently being carried out on this system.",
   "INTERACTION_FAILED": "The interaction didn't receive a response after a while.",
   "INTERACTION_CANCELLED": "The interaction has been canceled.",

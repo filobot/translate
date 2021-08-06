@@ -12,7 +12,7 @@
     "GUILD_PUBLIC_THREAD": "Hilo público de un canal",
     "GUILD_PRIVATE_THREAD": "Hilo privado de un canal",
     "GUILD_STAGE_VOICE": "Canal escenario",
-    "UNKNOWN": "Unknown channel type"
+    "UNKNOWN": "Tipo de canal desconocido"
   },
   "CHANNEL_POSITION": "Posición del canal",
   "CATEGORY": "Categoría",
@@ -28,7 +28,7 @@
   "UNKNOWN_BITRATE": "Tasa de bits desconocida",
   "CHANNEL_USER_LIMIT": "Límite de usuarios del canal",
   "WITHOUT_USER_LIMIT": "Sin límite de usuarios",
-  "TIME_TO_ARCHIVING": "Time to archiving",
+  "TIME_TO_ARCHIVING": "Tiempo para archivar",
   "THREAD_MEMBER_COUNTER": "Contador de miembros del hilo",
   "THREAD_MESSAGE_COUNTER": "Número de mensajes del hilo",
   "CHANNEL_LOCKED_TRUE": "El canal está bloqueado",
