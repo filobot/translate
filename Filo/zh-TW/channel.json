@@ -12,7 +12,7 @@
     "GUILD_PUBLIC_THREAD": "Public thread channel",
     "GUILD_PRIVATE_THREAD": "Private thread channel",
     "GUILD_STAGE_VOICE": "Stage channel",
-    "UNKNOWN": "Unknown channel type."
+    "UNKNOWN": "Unknown channel type"
   },
   "CHANNEL_POSITION": "Channel position",
   "CATEGORY": "Category",
@@ -28,7 +28,7 @@
   "UNKNOWN_BITRATE": "Unknown bitrate",
   "CHANNEL_USER_LIMIT": "Channel user limit",
   "WITHOUT_USER_LIMIT": "Without user limit",
-  "ARCHIVING_DATE": "Archiving date",
+  "TIME_TO_ARCHIVING": "Time to archiving",
   "THREAD_MEMBER_COUNTER": "Thread member counter",
   "THREAD_MESSAGE_COUNTER": "Thread message count",
   "CHANNEL_LOCKED_TRUE": "The channel is locked",
