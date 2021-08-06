@@ -7,13 +7,13 @@
   "DATE": "Fecha",
   "APPROVED": "Aprobado",
   "DENIED": "Denegado",
-  "ENABLED": "Enabled",
-  "DISABLED": "Disabled",
-  "MESSAGES": "Messages",
-  "OWNER": "Owner",
-  "YES": "Yes",
+  "ENABLED": "Habilitado",
+  "DISABLED": "Deshabilitado",
+  "MESSAGES": "Mensajes",
+  "OWNER": "Propietario",
+  "YES": "Sí",
   "NO": "No",
-  "CREATION_DATE": "Creation date",
-  "AUTHOR": "Author",
-  "ADDITIONAL_INFORMATION": "Additional information"
+  "CREATION_DATE": "Fecha de creación",
+  "AUTHOR": "Autor",
+  "ADDITIONAL_INFORMATION": "Información adicional"
 }
