@@ -9,7 +9,11 @@
   "DENIED": "Denegado",
   "ENABLED": "Enabled",
   "DISABLED": "Disabled",
-  "USERS": "Users",
+  "MESSAGES": "Messages",
+  "OWNER": "Owner",
   "YES": "Yes",
-  "NO": "No"
+  "NO": "No",
+  "CREATION_DATE": "Creation date",
+  "AUTHOR": "Author",
+  "ADDITIONAL_INFORMATION": "Additional information"
 }
