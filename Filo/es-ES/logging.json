@@ -1,23 +1,23 @@
 {
-  "EVENT_TRIGGERED": "Event triggered",
+  "EVENT_TRIGGERED": "Evento emitido",
   "EVENTS": {
-    "CHANNEL_CREATE": "Channel created",
-    "CHANNEL_UPDATE": "Channel updated",
-    "CHANNEL_DELETE": "Channel deleted",
-    "EMOJI_CREATE": "Emoji created",
-    "EMOJI_UPDATE": "Emoji updated",
-    "EMOJI_DELETE": "Emoji deleted",
-    "MEMBER_BAN_ADD": "Banned member",
-    "MEMBER_BAN_REMOVE": "Unbanned member",
-    "MEMBER_ADD": "Joined member",
-    "MEMBER_KICK": "Kicked member",
-    "MEMBER_UPDATE": "Updated member",
-    "MEMBER_REMOVE": "Leaved member"
+    "CHANNEL_CREATE": "Canal creado",
+    "CHANNEL_UPDATE": "Canal actualizado",
+    "CHANNEL_DELETE": "Canal eliminado",
+    "EMOJI_CREATE": "Emoji creado",
+    "EMOJI_UPDATE": "Emoji actualizado",
+    "EMOJI_DELETE": "Emoji eliminado",
+    "MEMBER_BAN_ADD": "Miembro prohibido",
+    "MEMBER_BAN_REMOVE": "Miembro unprohibido",
+    "MEMBER_ADD": "Miembro unido",
+    "MEMBER_KICK": "Miembro expulsado",
+    "MEMBER_UPDATE": "Miembro actualizado",
+    "MEMBER_REMOVE": "Miembro sale"
   },
   "TITLES": {
-    "CHANNEL_LOG": "Channel log",
-    "EMOJI_LOG": "Emoji log",
-    "BAN_LOG": "Ban log",
-    "MEMBER_LOG": "Member log"
+    "CHANNEL_LOG": "Registro de canales",
+    "EMOJI_LOG": "Registro de emojis",
+    "BAN_LOG": "Registro de prohibiciones",
+    "MEMBER_LOG": "Registro de miembros"
   }
 }

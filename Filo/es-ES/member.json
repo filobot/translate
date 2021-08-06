@@ -1,0 +1,16 @@
+{
+  "MEMBER": "Miembro",
+  "MEMBERS": "Miembros",
+  "USER": "Usuario",
+  "USERS": "Usuarios",
+  "BOT_ACCOUNT": "Cuenta de bot",
+  "USER_ACCOUNT": "Cuenta de usuario",
+  "REGISTRATION_DATE": "Fecha de registro",
+  "JOINED_DATE": "Fecha de unión",
+  "MEMBER_ROLES": "Roles del miembro",
+  "WITHOUT_ROLES": "Sin roles",
+  "MEMBER_NICKNAME": "Apodo del miembro",
+  "WITHOUT_NICKNAME": "Sin apodo",
+  "MEMBER_PENDING_TRUE": "El miembro está pendiente de verificación.",
+  "MEMBER_PENDING_FALSE": "El miembro ha pasado la verificación."
+}
