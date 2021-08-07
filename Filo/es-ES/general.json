@@ -14,6 +14,10 @@
   "YES": "Sí",
   "NO": "No",
   "CREATION_DATE": "Fecha de creación",
+  "EDITION_DATE": "Edition date",
+  "EXPIRATION_DATE": "Expiration date",
   "AUTHOR": "Autor",
-  "ADDITIONAL_INFORMATION": "Información adicional"
+  "ADDITIONAL_INFORMATION": "Información adicional",
+  "USE": "Use",
+  "USES": "Uses"
 }
