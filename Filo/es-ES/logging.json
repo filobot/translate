@@ -12,12 +12,23 @@
     "MEMBER_ADD": "Miembro unido",
     "MEMBER_KICK": "Miembro expulsado",
     "MEMBER_UPDATE": "Miembro actualizado",
-    "MEMBER_REMOVE": "Miembro sale"
+    "MEMBER_REMOVE": "Miembro sale",
+    "INVITE_ADD": "Invite created",
+    "INVITE_REMOVE": "Invite removed",
+    "MESSAGE_DELETE": "Deleted message",
+    "MESSAGE_UPDATE": "Updated message",
+    "MESSAGE_BULK_DELETE": "Purged messages",
+    "ROLE_CREATE": "Role created",
+    "ROLE_UPDATE": "Role updated",
+    "ROLE_DELETE": "Role deleted"
   },
   "TITLES": {
     "CHANNEL_LOG": "Registro de canales",
     "EMOJI_LOG": "Registro de emojis",
     "BAN_LOG": "Registro de prohibiciones",
-    "MEMBER_LOG": "Registro de miembros"
+    "MEMBER_LOG": "Registro de miembros",
+    "INVITE_LOG": "Invite log",
+    "MESSAGE_LOG": "Message log",
+    "ROLE_LOG": "Role log"
   }
 }
