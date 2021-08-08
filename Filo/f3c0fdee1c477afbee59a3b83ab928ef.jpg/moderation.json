@@ -2,7 +2,5 @@
   "RESPONSIBLE": "Responsible",
   "REASON": "Reason",
   "UNKNOWN_REASON": "Unknown reason",
-  "DEFAULT_REASONS": {
-    "ROLE_VIA": "Role {{action}} via {{method}}."
-  }
+  "CASE_ID": "Case ID"
 }

@@ -1,0 +1,5 @@
+{
+  "DEFAULT_REASONS": {
+    "ROLE_VIA": "Role {{action}} via {{method}}."
+  }
+}
