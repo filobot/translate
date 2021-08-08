@@ -14,10 +14,10 @@
   "YES": "Sí",
   "NO": "No",
   "CREATION_DATE": "Fecha de creación",
-  "EDITION_DATE": "Edition date",
-  "EXPIRATION_DATE": "Expiration date",
+  "EDITION_DATE": "Fecha de modificación",
+  "EXPIRATION_DATE": "Fecha de expiración",
   "AUTHOR": "Autor",
   "ADDITIONAL_INFORMATION": "Información adicional",
-  "USE": "Use",
-  "USES": "Uses"
+  "USE": "Uso",
+  "USES": "Usos"
 }
