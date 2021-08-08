@@ -1,6 +1,6 @@
 {
-  "RESPONSIBLE": "Responsible",
-  "REASON": "Reason",
-  "UNKNOWN_REASON": "Unknown reason",
-  "CASE_ID": "Case ID"
+  "RESPONSIBLE": "Responsable",
+  "REASON": "Razón",
+  "UNKNOWN_REASON": "Razón desconocida",
+  "CASE_ID": "ID del caso"
 }
