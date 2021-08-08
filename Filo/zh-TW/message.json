@@ -3,6 +3,6 @@
   "MESSAGES": "Messages",
   "MESSAGE_INFORMATION": "Message information",
   "MESSAGE_LINK": "Message URL",
-  "WITHOUT_MESSAGE_CONTENT": "Without message content",
+  "MESSAGE_WITHOUT_CONTENT": "Message without content",
   "NUMBER_OF_PURGED_MESSAGES": "Number of messages purged"
 }
