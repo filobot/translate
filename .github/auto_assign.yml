@@ -1,0 +1,11 @@
+addReviewers: true
+
+addAssignees: true
+
+reviewers: 
+  - xXLoloGameplayXx
+
+skipKeywords:
+  - wip
+
+numberOfReviewers: 0
