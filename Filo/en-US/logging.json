@@ -20,7 +20,13 @@
     "MESSAGE_BULK_DELETE": "Purged messages",
     "ROLE_CREATE": "Role created",
     "ROLE_UPDATE": "Role updated",
-    "ROLE_DELETE": "Role deleted"
+    "ROLE_DELETE": "Role deleted",
+    "STAGE_INSTANCE_CREATE": "Stage instance created",
+    "STAGE_INSTANCE_UPDATE": "Stage instance updated",
+    "STAGE_INSTANCE_DELETE": "Stage instance deleted",
+    "THREAD_CREATE": "Thread created",
+    "THREAD_UPDATE": "Thread updated",
+    "THREAD_DELETE": "Thread deleted"
   },
   "TITLES": {
     "CHANNEL_LOG": "Channel log",
@@ -29,6 +35,8 @@
     "MEMBER_LOG": "Member log",
     "INVITE_LOG": "Invite log",
     "MESSAGE_LOG": "Message log",
-    "ROLE_LOG": "Role log"
+    "ROLE_LOG": "Role log",
+    "STAGE_INSTANCE_LOG": "Stage instance log",
+    "THREAD_LOG": "Thread log"
   }
 }
