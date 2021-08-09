@@ -17,18 +17,18 @@
     "INVITE_REMOVE": "刪除邀請",
     "MESSAGE_DELETE": "訊息刪除",
     "MESSAGE_UPDATE": "訊息更新",
-    "MESSAGE_BULK_DELETE": "Purged messages",
-    "ROLE_CREATE": "Role created",
-    "ROLE_UPDATE": "Role updated",
-    "ROLE_DELETE": "Role deleted"
+    "MESSAGE_BULK_DELETE": "多個訊息被刪除",
+    "ROLE_CREATE": "身分組建立",
+    "ROLE_UPDATE": "身分組更新",
+    "ROLE_DELETE": "身分組刪除"
   },
   "TITLES": {
-    "CHANNEL_LOG": "Channel log",
-    "EMOJI_LOG": "Emoji log",
-    "BAN_LOG": "Ban log",
-    "MEMBER_LOG": "Member log",
-    "INVITE_LOG": "Invite log",
-    "MESSAGE_LOG": "Message log",
-    "ROLE_LOG": "Role log"
+    "CHANNEL_LOG": "頻道記錄",
+    "EMOJI_LOG": "表情符號記錄",
+    "BAN_LOG": "封鎖記錄",
+    "MEMBER_LOG": "成員記錄",
+    "INVITE_LOG": "邀請記錄",
+    "MESSAGE_LOG": "訊息記錄",
+    "ROLE_LOG": "身分組紀錄"
   }
 }
