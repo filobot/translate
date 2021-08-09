@@ -1,5 +1,5 @@
 {
   "DEFAULT_REASONS": {
-    "ROLE_VIA": "Role {{action}} via {{method}}."
+    "ROLE_VIA": "身分組 {{action}} 經過 {{method}}."
   }
 }
