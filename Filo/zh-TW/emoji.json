@@ -1,11 +1,12 @@
 {
-  "EMOJI": "Emoji",
-  "EMOJI_TYPE": "Emoji type",
+  "EMOJI": "表情符號",
+  "EMOJIS": "Emojis",
+  "EMOJI_TYPE": "表情符號類型",
   "EMOJI_TYPES": {
-    "NORMAL_EMOJI": "Normal emoji",
-    "ANIMATED_EMOJI": "Animated emoji"
+    "NORMAL_EMOJI": "普通表情符號",
+    "ANIMATED_EMOJI": "動畫表情符號"
   },
-  "UNKNOWN_EMOJI_AUTHOR": "Unknown emoji author",
-  "EMOJI_MANAGED_TRUE": "This emoji is managed by an integration",
-  "EMOJI_MANAGED_FALSE": "This emoji isn't managed by an integration"
+  "UNKNOWN_EMOJI_AUTHOR": "未知的表情符號作者",
+  "EMOJI_MANAGED_TRUE": "這個表情符號是被一體化管理的",
+  "EMOJI_MANAGED_FALSE": "這個表情符號不是被一體化管理的"
 }

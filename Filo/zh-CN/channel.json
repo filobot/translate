@@ -21,6 +21,7 @@
   "NSFW": "NSFW",
   "SLOWMODE": "Slowmode",
   "TOPIC": "Topic",
+  "THREAD": "Thread",
   "DISCORD_DEFAULT_TOPIC": "There is no defined topic",
   "CHANNEL_REGION": "Channel region",
   "AUTOMATIC_REGION": "Automatic region",

@@ -1,5 +1,5 @@
 {
-  "MISSING_USER": "You must @Mention the user to change the nickname.",
-  "MISSING_NICKNAME": "You must specify the new nickname that you want to set.",
-  "COMPLETED": "You have established the nickname of **{{user}}** ({{user_id}}) for **{{nickname}}**."
+  "MISSING_USER": "你必須提及成員來更改暱稱",
+  "MISSING_NICKNAME": "你必須明確指派你想設定的新暱稱",
+  "COMPLETED": "你已經建立了 **{{user}}** ({{user_id}}) 的暱稱：**{{nickname}}**."
 }

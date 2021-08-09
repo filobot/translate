@@ -1,6 +1,6 @@
 {
-  "RESPONSIBLE": "Responsible",
-  "REASON": "Reason",
-  "UNKNOWN_REASON": "Unknown reason",
-  "CASE_ID": "Case ID"
+  "RESPONSIBLE": "負責人",
+  "REASON": "原因",
+  "UNKNOWN_REASON": "原因不明",
+  "CASE_ID": "個案 ID"
 }
