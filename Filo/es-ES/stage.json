@@ -4,6 +4,6 @@
   "STAGE_INSTANCE_PRIVACY_LEVEL": "Nivel de privacidad",
   "PUBLIC_STAGE_INSTANCE": "Instancia de escenario pública",
   "PRIVATE_STAGE_INSTANCE": "Instancia de escenario privada",
-  "DISCOVERABLE_DISABLED_TRUE": "The stage instance isn't discoverable",
-  "DISCOVERABLE_DISABLED_FALSE": "The stage instance is discoverable"
+  "DISCOVERABLE_DISABLED_TRUE": "La instancia de escenario no se puede descubrir",
+  "DISCOVERABLE_DISABLED_FALSE": "La instancia de escenario se puede descubrir"
 }
