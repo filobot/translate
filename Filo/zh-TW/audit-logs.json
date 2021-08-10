@@ -1,5 +1,7 @@
 {
   "DEFAULT_REASONS": {
-    "ROLE_VIA": "身分組 {{action}} 經過 {{method}}."
+    "ROLE_VIA": "身分組 {{action}} 經過 {{method}}.",
+    "ANTI_EXTERNAL_LINKS_1": "The message you have sent contains a link.",
+    "ANTI_EXTERNAL_LINKS_2": "The message you have updated contains a link."
   }
 }
