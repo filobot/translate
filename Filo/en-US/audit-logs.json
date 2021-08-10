@@ -1,5 +1,7 @@
 {
   "DEFAULT_REASONS": {
-    "ROLE_VIA": "Role {{action}} via {{method}}."
+    "ROLE_VIA": "Role {{action}} via {{method}}.",
+    "ANTI_EXTERNAL_LINKS_1": "The message you have sent contains a link.",
+    "ANTI_EXTERNAL_LINKS_2": "The message you have updated contains a link."
   }
 }
