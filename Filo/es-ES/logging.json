@@ -21,12 +21,12 @@
     "ROLE_CREATE": "Rol creado",
     "ROLE_UPDATE": "Rol actualizado",
     "ROLE_DELETE": "Rol eliminado",
-    "STAGE_INSTANCE_CREATE": "Stage instance created",
-    "STAGE_INSTANCE_UPDATE": "Stage instance updated",
-    "STAGE_INSTANCE_DELETE": "Stage instance deleted",
-    "THREAD_CREATE": "Thread created",
-    "THREAD_UPDATE": "Thread updated",
-    "THREAD_DELETE": "Thread deleted"
+    "STAGE_INSTANCE_CREATE": "Instancia de escenario creada",
+    "STAGE_INSTANCE_UPDATE": "Instancia de escenario actualizada",
+    "STAGE_INSTANCE_DELETE": "Instancia de escenario eliminada",
+    "THREAD_CREATE": "Hilo creado",
+    "THREAD_UPDATE": "Hilo actualizado",
+    "THREAD_DELETE": "Hilo eliminado"
   },
   "TITLES": {
     "CHANNEL_LOG": "Registro de canales",
@@ -36,7 +36,7 @@
     "INVITE_LOG": "Registro de invitaciones",
     "MESSAGE_LOG": "Registro de mensajes",
     "ROLE_LOG": "Registro de roles",
-    "STAGE_INSTANCE_LOG": "Stage instance log",
-    "THREAD_LOG": "Thread log"
+    "STAGE_INSTANCE_LOG": "Registro de instancias de escenarios",
+    "THREAD_LOG": "Registros de hilos"
   }
 }
