@@ -2,5 +2,31 @@
   "RESPONSIBLE": "Responsable",
   "REASON": "Razón",
   "UNKNOWN_REASON": "Razón desconocida",
-  "CASE_ID": "ID del caso"
+  "CASE_ID": "ID del caso",
+  "SANCTION_RESPONSE": "You have {{sanction}} **{{user}}** ({{user_id}}) correctly.",
+  "SANCTION_RESPONSE_ALTERNATIVE": "**{{user}}** ({{user_id}}) has been {{sanction}} from the guild.",
+  "SANCTION_NOTIFICATION": {
+    "TITLE": "You have been {{sanction}} from the **{{guild}}** guild!",
+    "DESCRIPTION": "You have received this notification because you have been {{sanction}} from the **{{guild}}** guild."
+  },
+  "SANCTIONS": {
+    "WARN": "Warn",
+    "WARNED": "Warned",
+    "KICK": "Kick",
+    "KICKED": "Kicked",
+    "BAN": "Ban",
+    "BANNED": "Banned",
+    "TEMPORARY_BAN": "Temporary ban",
+    "TEMPORARILY_BANNED": "Temporarily banned",
+    "SOFTBAN": "Softban",
+    "SOFTBANNED": "Softbanned",
+    "UNBAN": "Unban",
+    "UNBANNED": "Unbanned",
+    "MUTE": "Mute",
+    "MUTED": "Muted",
+    "TEMPORARY_MUTE": "Temporary mute",
+    "TEMPORARILY_MUTED": "Temporarily muted",
+    "UNMUTE": "Unmute",
+    "UNMUTED": "Unmuted"
+  }
 }
