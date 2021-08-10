@@ -1,13 +1,13 @@
 {
-  "ROLE": "Role",
+  "ROLE": "Rol",
   "ROLES": "Roles",
-  "ROLE_COLOR": "Role color",
-  "ROLE_POSITION": "Role position",
-  "ROLE_PERMISSIONS": "Role permissions",
-  "ROLE_MANAGED_TRUE": "The role is managed by an integration",
-  "ROLE_MANAGED_FALSE": "The role isn't managed by an integration",
-  "ROLE_HOIST_TRUE": "The role is hoist",
-  "ROLE_HOIST_FALSE": "The role isn't hoist",
-  "ROLE_MENTIONABLE_TRUE": "The role can be mentioned by everyone",
-  "ROLE_MENTIONABLE_FALSE": "The role can only be mentioned by users with the ``{{permission}}`` permission"
+  "ROLE_COLOR": "Color del rol",
+  "ROLE_POSITION": "Posición del rol",
+  "ROLE_PERMISSIONS": "Permisos del rol",
+  "ROLE_MANAGED_TRUE": "Este rol está gestionado por una integración",
+  "ROLE_MANAGED_FALSE": "El rol no está gestionado por una integración",
+  "ROLE_HOIST_TRUE": "El rol se eleva",
+  "ROLE_HOIST_FALSE": "El rol no se eleva",
+  "ROLE_MENTIONABLE_TRUE": "El rol puede ser mencionado por todos",
+  "ROLE_MENTIONABLE_FALSE": "El rol sólo puede ser mencionado por los usuarios con el permiso ``{{permission}}``"
 }
