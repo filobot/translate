@@ -18,5 +18,7 @@
   "AUTHOR": "Author",
   "ADDITIONAL_INFORMATION": "Additional information",
   "USE": "Use",
-  "USES": "Uses"
+  "USES": "Uses",
+  "ALTERNATIVE_PERMISSION": "Alternative permission",
+  "ALTERNATIVE_PERMISSIONS": "Alternative permissions"
 }
