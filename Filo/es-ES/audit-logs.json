@@ -1,5 +1,6 @@
 {
   "DEFAULT_REASONS": {
+    "SANCTION_EXPIRED": "The sanction has expired.",
     "ROLE_VIA": "Rol {{action}} vía {{method}}.",
     "ANTI_EXTERNAL_LINKS_1": "El mensaje que has enviado contiene un enlace.",
     "ANTI_EXTERNAL_LINKS_2": "El mensaje que has actualizado contiene un enlace."
