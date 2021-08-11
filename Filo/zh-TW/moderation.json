@@ -3,12 +3,14 @@
   "REASON": "原因",
   "UNKNOWN_REASON": "原因不明",
   "CASE_ID": "個案 ID",
+  "PROOF": "Proof",
   "SANCTION_RESPONSE": "You have {{sanction}} **{{user}}** ({{user_id}}) correctly.",
   "SANCTION_RESPONSE_ALTERNATIVE": "**{{user}}** ({{user_id}}) has been {{sanction}} from the guild.",
   "SANCTION_NOTIFICATION": {
     "TITLE": "You have been {{sanction}} from the **{{guild}}** guild!",
     "DESCRIPTION": "You have received this notification because you have been {{sanction}} from the **{{guild}}** guild."
   },
+  "PERMANENT_SANCTION": "Permanent sanction",
   "SANCTIONS": {
     "WARN": "Warn",
     "WARNED": "Warned",
