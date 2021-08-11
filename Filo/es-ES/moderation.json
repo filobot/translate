@@ -2,5 +2,31 @@
   "RESPONSIBLE": "Responsable",
   "REASON": "Razón",
   "UNKNOWN_REASON": "Razón desconocida",
-  "CASE_ID": "ID del caso"
+  "CASE_ID": "ID del caso",
+  "SANCTION_RESPONSE": "Has {{sanction}} a {{user}} ({{user_id}}) correctamente.",
+  "SANCTION_RESPONSE_ALTERNATIVE": "**{{user}}** ({{user_id}}) ha sido {{sanction}} del gremio.",
+  "SANCTION_NOTIFICATION": {
+    "TITLE": "¡Has sido {{sanction}} del gremio **{{guild}}**!",
+    "DESCRIPTION": "Has recibido esta notificación porque has sido {{sanction}} del gremio **{{guild}}**."
+  },
+  "SANCTIONS": {
+    "WARN": "Advertir",
+    "WARNED": "Advertido",
+    "KICK": "Expulsar",
+    "KICKED": "Expulsado",
+    "BAN": "Prohibir",
+    "BANNED": "Prohibido",
+    "TEMPORARY_BAN": "Prohibir temporalmente",
+    "TEMPORARILY_BANNED": "Prohibido temporalmente",
+    "SOFTBAN": "Prohibir suavemente",
+    "SOFTBANNED": "Prohibido suavemente",
+    "UNBAN": "Desprohibir",
+    "UNBANNED": "Desprohibido",
+    "MUTE": "Silenciar",
+    "MUTED": "Silenciado",
+    "TEMPORARY_MUTE": "Silenciar temporalmente",
+    "TEMPORARILY_MUTED": "Silenciado temporalmente",
+    "UNMUTE": "Dessilenciar",
+    "UNMUTED": "Dessilenciado"
+  }
 }
