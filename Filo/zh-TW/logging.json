@@ -9,6 +9,12 @@
     "EMOJI_DELETE": "表情符號刪除",
     "MEMBER_BAN_ADD": "封鎖成員",
     "MEMBER_BAN_REMOVE": "解封成員",
+    "MEMBER_TEMPBAN_ADD": "Tempbanned member",
+    "MEMBER_SOFTBAN_ADD": "Softbanned member",
+    "MEMBER_WARN_ADD": "Warned member",
+    "MEMBER_WARN_REMOVE": "Unwarned member",
+    "MEMBER_MUTE_REMOVE": "Unmuted member",
+    "MEMBER_TEMPMUTE_REMOVE": "Tempmuted member",
     "MEMBER_ADD": "成員加入",
     "MEMBER_KICK": "踢出成員",
     "MEMBER_UPDATE": "成員更新",
@@ -37,6 +43,7 @@
     "MESSAGE_LOG": "訊息記錄",
     "ROLE_LOG": "身分組紀錄",
     "STAGE_INSTANCE_LOG": "Stage instance log",
-    "THREAD_LOG": "Thread log"
+    "THREAD_LOG": "Thread log",
+    "SANCTION_LOG": "Sanction log"
   }
 }
