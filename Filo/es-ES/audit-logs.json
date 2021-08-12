@@ -1,8 +1,14 @@
 {
   "DEFAULT_REASONS": {
-    "SANCTION_EXPIRED": "The sanction has expired.",
+    "SANCTION_EXPIRED": "La sanción ha expirado.",
     "ROLE_VIA": "Rol {{action}} vía {{method}}.",
     "ANTI_EXTERNAL_LINKS_1": "El mensaje que has enviado contiene un enlace.",
-    "ANTI_EXTERNAL_LINKS_2": "El mensaje que has actualizado contiene un enlace."
+    "ANTI_EXTERNAL_LINKS_2": "El mensaje que has actualizado contiene un enlace.",
+    "ANTI_INVITES_1": "El mensaje que has enviado contiene una invitación de gremio.",
+    "ANTI_INVITES_2": "El mensaje que has actualizado contiene una invitación del gremio.",
+    "ANTI_REPEATED_TEXT_1": "El mensaje que has enviado contiene texto repetido.",
+    "ANTI_REPEATED_TEXT_2": "El mensaje que has actualizado contiene texto repetido.",
+    "ANTI_MASS_MENTIONS_1": "El mensaje que has enviado contiene demasiadas menciones.",
+    "ANTI_MASS_MENTIONS_2": "El mensaje que has actualizado contiene demasiadas menciones."
   }
 }

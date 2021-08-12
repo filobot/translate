@@ -9,12 +9,13 @@
     "EMOJI_DELETE": "Emoji eliminado",
     "MEMBER_BAN_ADD": "Miembro prohibido",
     "MEMBER_BAN_REMOVE": "Miembro desprohibido",
-    "MEMBER_TEMPBAN_ADD": "Tempbanned member",
-    "MEMBER_SOFTBAN_ADD": "Softbanned member",
-    "MEMBER_WARN_ADD": "Warned member",
-    "MEMBER_WARN_REMOVE": "Unwarned member",
-    "MEMBER_MUTE_REMOVE": "Unmuted member",
-    "MEMBER_TEMPMUTE_REMOVE": "Tempmuted member",
+    "MEMBER_TEMPBAN_ADD": "Miembro prohibido temporalmente",
+    "MEMBER_SOFTBAN_ADD": "Miembro prohibido suavemente",
+    "MEMBER_WARN_ADD": "Miembro advertido",
+    "MEMBER_WARN_REMOVE": "Miembro desadvertido",
+    "MEMBER_MUTE_ADD": "Miembro silenciado",
+    "MEMBER_TEMPMUTE_ADD": "Miembro silenciado temporalmente",
+    "MEMBER_MUTE_REMOVE": "Miembro desilenciado",
     "MEMBER_ADD": "Miembro unido",
     "MEMBER_KICK": "Miembro expulsado",
     "MEMBER_UPDATE": "Miembro actualizado",
@@ -44,6 +45,6 @@
     "ROLE_LOG": "Registro de roles",
     "STAGE_INSTANCE_LOG": "Registro de instancias de escenarios",
     "THREAD_LOG": "Registros de hilos",
-    "SANCTION_LOG": "Sanction log"
+    "SANCTION_LOG": "Registro de sanciones"
   }
 }
