@@ -9,6 +9,10 @@
     "ANTI_REPEATED_TEXT_1": "The message you have sent contains repeated text.",
     "ANTI_REPEATED_TEXT_2": "The message you have updated contains repeated text.",
     "ANTI_MASS_MENTIONS_1": "The message you have sent contains too many mentions.",
-    "ANTI_MASS_MENTIONS_2": "The message you have updated contains too many mentions."
+    "ANTI_MASS_MENTIONS_2": "The message you have updated contains too many mentions.",
+    "ANTI_SPAM_1": "The message you have sent is very similar to the previous ones.",
+    "ANTI_SPAM_2": "Sending too many messages in a short time.",
+    "ANTI_BAD_WORDS_1": "The message you have sent contains bad words.",
+    "ANTI_BAD_WORDS_2": "The message you have updated contains bad words."
   }
 }
