@@ -1,0 +1,32 @@
+{
+  "GUILD": "Guild",
+  "GUILDS": "Guilds",
+  "VERIFICATION_LEVEL": {
+    "NONE": "None",
+    "LOW": "Low",
+    "MEDIUM": "Medium",
+    "HIGH": "High",
+    "VERY_HIGH": "Very high"
+  },
+  "NSFW_LEVEL": {
+    "DEFAULT": "Default",
+    "EXPLICIT": "Explicit",
+    "SAFE": "Safe",
+    "AGE_RESTRICTED": "Age restricted"
+  },
+  "PREMIUM_TIER": {
+    "NONE": "None",
+    "TIER_1": "Tier 1",
+    "TIER_2": "Tier 2",
+    "TIER_3": "Tier 3"
+  },
+  "EXPLICIT_CONTENT_FILTER": {
+    "DISABLED": "Disabled",
+    "MEMBERS_WITHOUT_ROLES": "Members without roles",
+    "ALL_MEMBERS": "All members"
+  },
+  "MFA_LEVEL": {
+    "NONE": "None",
+    "ELEVATED": "Elevated"
+  }
+}
