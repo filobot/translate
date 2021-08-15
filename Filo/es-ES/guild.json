@@ -1,32 +1,32 @@
 {
-  "GUILD": "Guild",
-  "GUILDS": "Guilds",
+  "GUILD": "Gremio",
+  "GUILDS": "Gremios",
   "VERIFICATION_LEVEL": {
-    "NONE": "None",
-    "LOW": "Low",
-    "MEDIUM": "Medium",
-    "HIGH": "High",
-    "VERY_HIGH": "Very high"
+    "NONE": "Nada",
+    "LOW": "Bajo",
+    "MEDIUM": "Medio",
+    "HIGH": "Alto",
+    "VERY_HIGH": "Muy alto"
   },
   "NSFW_LEVEL": {
-    "DEFAULT": "Default",
-    "EXPLICIT": "Explicit",
-    "SAFE": "Safe",
-    "AGE_RESTRICTED": "Age restricted"
+    "DEFAULT": "Predeterminado",
+    "EXPLICIT": "Explícito",
+    "SAFE": "Seguro",
+    "AGE_RESTRICTED": "Edad restringida"
   },
   "PREMIUM_TIER": {
-    "NONE": "None",
-    "TIER_1": "Tier 1",
-    "TIER_2": "Tier 2",
-    "TIER_3": "Tier 3"
+    "NONE": "Ninguno",
+    "TIER_1": "Nivel 1",
+    "TIER_2": "Nivel 2",
+    "TIER_3": "Nivel 3"
   },
   "EXPLICIT_CONTENT_FILTER": {
-    "DISABLED": "Disabled",
-    "MEMBERS_WITHOUT_ROLES": "Members without roles",
-    "ALL_MEMBERS": "All members"
+    "DISABLED": "Deshabilitado",
+    "MEMBERS_WITHOUT_ROLES": "Miembros sin roles",
+    "ALL_MEMBERS": "Todos los miembros"
   },
   "MFA_LEVEL": {
-    "NONE": "None",
-    "ELEVATED": "Elevated"
+    "NONE": "No",
+    "ELEVATED": "Elevado"
   }
 }
