@@ -20,5 +20,15 @@
   "USE": "Uso",
   "USES": "Usos",
   "ALTERNATIVE_PERMISSION": "Permiso alternativo",
-  "ALTERNATIVE_PERMISSIONS": "Permisos alternativos"
+  "ALTERNATIVE_PERMISSIONS": "Permisos alternativos",
+  "NONE": "None",
+  "LOW": "Low",
+  "MEDIUM": "Medium",
+  "HIGH": "High",
+  "VERY_HIGH": "Very high",
+  "DEFAULT": "Default",
+  "EXPLICIT": "Explicit",
+  "SAFE": "Safe",
+  "AGE_RESTRICTED": "Age restricted",
+  "TIER": "Tier"
 }
