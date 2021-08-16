@@ -1,11 +1,11 @@
 {
   "GUILD": "Gremio",
   "GUILDS": "Gremios",
-  "VERIFICATION_LEVEL": "Verification level",
-  "NSFW_LEVEL": "NSFW level",
-  "PREMIUM_TIER": "Premium tier",
-  "EXPLICIT_CONTENT_FILTER": "Explicit content filter",
-  "MEMBERS_WITHOUT_ROLES": "Members without roles",
-  "ALL_MEMBERS": "All members",
-  "MFA_LEVEL": "MFA level"
+  "VERIFICATION_LEVEL": "Nivel de verificación",
+  "NSFW_LEVEL": "Nivel NSFW",
+  "PREMIUM_TIER": "Nivel premium",
+  "EXPLICIT_CONTENT_FILTER": "Filtro de contenido explícito",
+  "MEMBERS_WITHOUT_ROLES": "Miembros sin roles",
+  "ALL_MEMBERS": "Todos los miembros",
+  "MFA_LEVEL": "Nivel MFA"
 }
