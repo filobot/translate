@@ -34,7 +34,7 @@
     "THREAD_CREATE": "Hilo creado",
     "THREAD_UPDATE": "Hilo actualizado",
     "THREAD_DELETE": "Hilo eliminado",
-    "REPORT_CREATE": "Reported Member"
+    "REPORT_CREATE": "Miembro reportado"
   },
   "TITLES": {
     "CHANNEL_LOG": "Registro de canales",
@@ -47,6 +47,6 @@
     "STAGE_INSTANCE_LOG": "Registro de instancias de escenarios",
     "THREAD_LOG": "Registros de hilos",
     "SANCTION_LOG": "Registro de sanciones",
-    "REPORT_LOG": "Report log"
+    "REPORT_LOG": "Registro de reportes"
   }
 }
