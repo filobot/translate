@@ -1,4 +1,3 @@
 {
-  "MISSING_NUMBER_OF_MESSAGES": "You must specify the number of messages you want to purge.",
-  "COMPLETED": "You have purged **{{number}}** messages from the {{channel}} channel."
+  "COMPLETED": "You have purged **{{messages}}** messages from the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
 }
