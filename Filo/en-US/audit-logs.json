@@ -2,6 +2,8 @@
   "DEFAULT_REASONS": {
     "SANCTION_EXPIRED": "The sanction has expired.",
     "ROLE_VIA": "Role {{action}} via {{method}}.",
+    "CHANNEL_VIA": "Channel {{action}} via {{method}}.",
+    "NICKNAME_VIA": "Nickname {{action}} via {{method}}.",
     "ANTI_EXTERNAL_LINKS_1": "The message you have sent contains a link.",
     "ANTI_EXTERNAL_LINKS_2": "The message you have updated contains a link.",
     "ANTI_INVITES_1": "The message you have sent contains a guild invite.",
