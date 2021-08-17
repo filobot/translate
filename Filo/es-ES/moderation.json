@@ -4,11 +4,11 @@
   "UNKNOWN_REASON": "Razón desconocida",
   "CASE_ID": "ID del caso",
   "PROOF": "Prueba",
-  "SANCTION_RESPONSE": "You have {{sanction}} **{{@user}}** ({{user.id}}) correctly.",
-  "SANCTION_RESPONSE_ALTERNATIVE": "**{{@user}}** ({{user.id}}) has been {{sanction}} from the guild.",
+  "SANCTION_RESPONSE": "Has {{sanction}} a {{@user}} ({{user.id}}) correctamente.",
+  "SANCTION_RESPONSE_ALTERNATIVE": "**{{@user}}** ({{user.id}}) ha sido {{sanction}} del gremio.",
   "SANCTION_NOTIFICATION": {
-    "TITLE": "You have been {{sanction}} from the **{{guild.name}}** guild!",
-    "DESCRIPTION": "You have received this notification because you have been {{sanction}} from the **{{guild.name}}** guild."
+    "TITLE": "¡Has sido {{sanction}} del gremio **{{guild.name}}**!",
+    "DESCRIPTION": "Has recibido esta notificación porque has sido {{sanction}} del gremio **{{guild.name}}**."
   },
   "PERMANENT_SANCTION": "Sanción permanente",
   "SANCTIONS": {
