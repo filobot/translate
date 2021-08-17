@@ -1,8 +1,11 @@
 {
   "EXAMPLE": "Example",
   "ADDED": "Added",
+  "REMOVED": "Removed",
+  "UPDATED": "Updated",
   "OR": "Or",
   "COMMAND": "Command",
+  "MODULE": "Module",
   "COOLDOWN": "You must wait **{{time}}** to be able to execute this action.",
   "DATE": "Date",
   "APPROVED": "Approved",
@@ -30,5 +33,6 @@
   "EXPLICIT": "Explicit",
   "SAFE": "Safe",
   "AGE_RESTRICTED": "Age restricted",
-  "TIER": "Tier"
+  "TIER": "Tier",
+  "PROTECTED": "Protected"
 }
