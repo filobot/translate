@@ -2,8 +2,8 @@
   "DEFAULT_REASONS": {
     "SANCTION_EXPIRED": "La sanción ha expirado.",
     "ROLE_VIA": "Rol {{action}} vía {{method}}.",
-    "CHANNEL_VIA": "Channel {{action}} via {{method}}.",
-    "NICKNAME_VIA": "Nickname {{action}} via {{method}}.",
+    "CHANNEL_VIA": "Canal {{action}} vía {{method}}.",
+    "NICKNAME_VIA": "Apodo {{action}} vía {{method}}.",
     "ANTI_EXTERNAL_LINKS_1": "El mensaje que has enviado contiene un enlace.",
     "ANTI_EXTERNAL_LINKS_2": "El mensaje que has actualizado contiene un enlace.",
     "ANTI_INVITES_1": "El mensaje que has enviado contiene una invitación de gremio.",
