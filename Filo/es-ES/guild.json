@@ -1,32 +1,11 @@
 {
   "GUILD": "Gremio",
   "GUILDS": "Gremios",
-  "VERIFICATION_LEVEL": {
-    "NONE": "Nada",
-    "LOW": "Bajo",
-    "MEDIUM": "Medio",
-    "HIGH": "Alto",
-    "VERY_HIGH": "Muy alto"
-  },
-  "NSFW_LEVEL": {
-    "DEFAULT": "Predeterminado",
-    "EXPLICIT": "Explícito",
-    "SAFE": "Seguro",
-    "AGE_RESTRICTED": "Edad restringida"
-  },
-  "PREMIUM_TIER": {
-    "NONE": "Ninguno",
-    "TIER_1": "Nivel 1",
-    "TIER_2": "Nivel 2",
-    "TIER_3": "Nivel 3"
-  },
-  "EXPLICIT_CONTENT_FILTER": {
-    "DISABLED": "Deshabilitado",
-    "MEMBERS_WITHOUT_ROLES": "Miembros sin roles",
-    "ALL_MEMBERS": "Todos los miembros"
-  },
-  "MFA_LEVEL": {
-    "NONE": "No",
-    "ELEVATED": "Elevado"
-  }
+  "VERIFICATION_LEVEL": "Nivel de verificación",
+  "NSFW_LEVEL": "Nivel NSFW",
+  "PREMIUM_TIER": "Nivel premium",
+  "EXPLICIT_CONTENT_FILTER": "Filtro de contenido explícito",
+  "MEMBERS_WITHOUT_ROLES": "Miembros sin roles",
+  "ALL_MEMBERS": "Todos los miembros",
+  "MFA_LEVEL": "Nivel MFA"
 }
