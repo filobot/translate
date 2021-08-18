@@ -4,8 +4,8 @@
   "UNKNOWN_REASON": "原因不明",
   "CASE_ID": "個案 ID",
   "PROOF": "Proof",
-  "SANCTION_RESPONSE": "You have {{sanction}} **{{@user}}** ({{user.id}}) correctly.",
-  "SANCTION_RESPONSE_ALTERNATIVE": "**{{@user}}** ({{user.id}}) has been {{sanction}} from the guild.",
+  "SANCTION_RESPONSE": "You have {{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) correctly.",
+  "SANCTION_RESPONSE_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}) has been {{sanction}} from the guild.",
   "SANCTION_NOTIFICATION": {
     "TITLE": "You have been {{sanction}} from the **{{guild.name}}** guild!",
     "DESCRIPTION": "You have received this notification because you have been {{sanction}} from the **{{guild.name}}** guild."
