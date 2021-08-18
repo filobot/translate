@@ -16,7 +16,7 @@
   "MISSING_CLIENT_PERMISSION": "Este error ha sido causado debido a que no tengo el permiso [``{{permission}}``]({{url}}).",
   "MISSING_USER_PERMISSION": "Este error ha sido causado debido a que no tienes el permiso [``{{permission}}``]({{url}}).",
   "MISSING_USER_PERMISSION_2": "No tienes permisos para realizar esta acción con **[{{user.tag}}]({{url}})** ({{user.id}}).",
-  "CONGESTED_QUEUE": "The queue for this request is now full of requests. Try again later.",
+  "CONGESTED_QUEUE": "La cola de esta solicitud está llena. Por favor inténtalo de nuevo más tarde o **[contáctenos]({{url}})** si recibes este error con frecuencia.",
   "USER_DOES_NOT_APPLY": "El usuario que has especificado no aplica a esta acción.",
   "UNKNOWN_USER": "El usuario que has especificado no existe o no está en el servidor.",
   "CANNOT_LOAD_THE_USER_PROFILE": "Imposible de obtener el perfil de **[{{user.tag}}]({{url}})** ({{user.id}}).",
