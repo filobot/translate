@@ -6,6 +6,7 @@
   "OR": "Or",
   "COMMAND": "Command",
   "MODULE": "Module",
+  "QUEUED_REQUEST": "Your request has been added to the queue and will take approximately **{{time}}** to process.",
   "COOLDOWN": "You'll be able to execute this action **{{time}}**.",
   "RESPONSE_DELETED": "You have successfully deleted the response.",
   "DATE": "Date",
