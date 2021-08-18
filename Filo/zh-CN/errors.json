@@ -16,6 +16,7 @@
   "MISSING_CLIENT_PERMISSION": "This error has been caused because I don't have the [``{{permission}}``]({{url}}) permission.",
   "MISSING_USER_PERMISSION": "This error has been caused because you don't have the [``{{permission}}``]({{url}}) permission.",
   "MISSING_USER_PERMISSION_2": "You don't have permissions to carry out this action with **[{{user.tag}}]({{url}})** ({{user.id}}).",
+  "CONGESTED_QUEUE": "The queue for this request is now full of requests. Try again later.",
   "USER_DOES_NOT_APPLY": "The user you have specified doesn't apply to this action.",
   "UNKNOWN_USER": "The user you specified doesn't exist or isn't on the server.",
   "CANNOT_LOAD_THE_USER_PROFILE": "Unable to get **[{{user.tag}}]({{url}})** ({{user.id}})'s profile.",
