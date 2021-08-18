@@ -33,7 +33,8 @@
     "STAGE_INSTANCE_DELETE": "Stage instance deleted",
     "THREAD_CREATE": "Thread created",
     "THREAD_UPDATE": "Thread updated",
-    "THREAD_DELETE": "Thread deleted"
+    "THREAD_DELETE": "Thread deleted",
+    "REPORT_CREATE": "Reported Member"
   },
   "TITLES": {
     "CHANNEL_LOG": "Channel log",
@@ -45,6 +46,7 @@
     "ROLE_LOG": "Role log",
     "STAGE_INSTANCE_LOG": "Stage instance log",
     "THREAD_LOG": "Thread log",
-    "SANCTION_LOG": "Sanction log"
+    "SANCTION_LOG": "Sanction log",
+    "REPORT_LOG": "Report log"
   }
 }

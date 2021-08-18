@@ -1,9 +1,13 @@
 {
   "EXAMPLE": "Ejemplo",
   "ADDED": "Añadido",
+  "REMOVED": "Eliminado",
+  "UPDATED": "Actualizado",
   "OR": "O",
   "COMMAND": "Comando",
-  "COOLDOWN": "Debes esperar **{{time}}** para poder ejecutar esta acción.",
+  "MODULE": "Módulo",
+  "COOLDOWN": "Podrás ejecutar esta acción **{{time}}**.",
+  "RESPONSE_DELETED": "Has eliminado satisfactoriamente la respuesta.",
   "DATE": "Fecha",
   "APPROVED": "Aprobado",
   "DENIED": "Denegado",
@@ -30,5 +34,6 @@
   "EXPLICIT": "Explícito",
   "SAFE": "Seguro",
   "AGE_RESTRICTED": "Edad restringida",
-  "TIER": "Nivel"
+  "TIER": "Nivel",
+  "PROTECTED": "Protegido"
 }

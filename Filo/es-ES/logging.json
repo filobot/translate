@@ -33,7 +33,8 @@
     "STAGE_INSTANCE_DELETE": "Instancia de escenario eliminada",
     "THREAD_CREATE": "Hilo creado",
     "THREAD_UPDATE": "Hilo actualizado",
-    "THREAD_DELETE": "Hilo eliminado"
+    "THREAD_DELETE": "Hilo eliminado",
+    "REPORT_CREATE": "Miembro reportado"
   },
   "TITLES": {
     "CHANNEL_LOG": "Registro de canales",
@@ -45,6 +46,7 @@
     "ROLE_LOG": "Registro de roles",
     "STAGE_INSTANCE_LOG": "Registro de instancias de escenarios",
     "THREAD_LOG": "Registros de hilos",
-    "SANCTION_LOG": "Registro de sanciones"
+    "SANCTION_LOG": "Registro de sanciones",
+    "REPORT_LOG": "Registro de reportes"
   }
 }

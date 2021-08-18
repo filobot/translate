@@ -1,4 +1,3 @@
 {
-  "MISSING_NUMBER_OF_MESSAGES": "你必須明確指派你想刪除的訊息數量",
-  "COMPLETED": "你已經刪除 {{channel}} 裡的 **{{number}}** 則訊息"
+  "COMPLETED": "You have purged **{{messages}}** messages from the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
 }
