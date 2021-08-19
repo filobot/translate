@@ -36,5 +36,11 @@
   "SAFE": "Safe",
   "AGE_RESTRICTED": "Age restricted",
   "TIER": "Tier",
-  "PROTECTED": "Protected"
+  "PROTECTED": "Protected",
+  "LOADING_DATA": "Please wait while the requested data is obtained.",
+  "UNKNOWN": "Unknown",
+  "STATUS": "Status",
+  "POPULARITY": "Popularity",
+  "SCORE": "Score",
+  "RANK": "Rank"
 }
