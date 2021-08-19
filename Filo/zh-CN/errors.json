@@ -39,5 +39,7 @@
   "MESSAGE_NOT_PINNED": "The message you specified isn't pinned.",
   "INVALID_TIME": "The time you have specified is invalid.",
   "MIN_TIME_REACHED": "The time you have specified is less than **{{time}}**.",
-  "MAX_TIME_REACHED": "The time you have specified is greater than **{{time}}**."
+  "MAX_TIME_REACHED": "The time you have specified is greater than **{{time}}**.",
+  "DATA_NOT_FOUND": "The data you were looking for wan't found. Please review the information provided and try again later.",
+  "NSFW_MODE_REQUIRED": "This action requires the channel to have NSFW mode enabled."
 }
