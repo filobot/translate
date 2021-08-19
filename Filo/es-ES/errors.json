@@ -32,5 +32,6 @@
   "MAX_ARGUMENT_REACHED": "Los argumentos que has especificado exceden **{{number}}** caracteres de longitud.",
   "MIN_ARGUMENT_REACHED": "Los argumentos que has especificado tienen menos de **{{number}}** caracteres de longitud.",
   "UNKNOWN_CHANNEL": "El canal que has especificado no existe.",
-  "INVALID_CHANNEL_TYPE": "Esta acción no es compatible con el tipo de canal que has especificado. ({{valid_types}})"
+  "INVALID_CHANNEL_TYPE": "Esta acción no es compatible con el tipo de canal que has especificado. ({{valid_types}})",
+  "VALUE_ALREADY_SET": "The value of this action is currently already set."
 }
