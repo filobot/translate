@@ -7,7 +7,7 @@
   "INTERACTION_FAILED": "The interaction didn't receive a response after a while.",
   "INTERACTION_CANCELLED": "The interaction has been canceled.",
   "DISABLED_COMMAND": "The **{{command}}** command has been disabled by the Filo's Development Team.",
-  "UNKNOWN_COMMAND": "The **{{command}}** command doesn't exist or isn't currently supported.",
+  "UNKNOWN_COMMAND": "The **{{command}}** ({{category}}) command doesn't exist or isn't currently supported.",
   "COMMAND_DISABLED_BY_GUILD": "The **{{command}}** command has been disabled by the Guild Administrators.",
   "COMMAND_CATEGORY_DISABLED_BY_GUILD": "The **{{command}}** command belongs to the **{{category}}** category that is disabled by the Guild Administrators.",
   "DISCORD_MISSING_INFORMATION": "This interaction has been canceled due to Discord not providing the necessary information to continue.",
