@@ -32,5 +32,12 @@
   "MAX_ARGUMENT_REACHED": "Los argumentos que has especificado exceden **{{number}}** caracteres de longitud.",
   "MIN_ARGUMENT_REACHED": "Los argumentos que has especificado tienen menos de **{{number}}** caracteres de longitud.",
   "UNKNOWN_CHANNEL": "El canal que has especificado no existe.",
-  "INVALID_CHANNEL_TYPE": "Esta acción no es compatible con el tipo de canal que has especificado. ({{valid_types}})"
+  "INVALID_CHANNEL_TYPE": "Esta acción no es compatible con el tipo de canal que has especificado. ({{valid_types}})",
+  "VALUE_ALREADY_SET": "El valor especificado ya está establecido.",
+  "UNKNOWN_MESSAGE": "El mensaje que has especificado no existe o ha sido eliminado.",
+  "MAX_PINNED_MESSAGES_REACHED": "Este canal ha alcanzado el número máximo de mensajes fijados.",
+  "MESSAGE_NOT_PINNED": "El mensaje especificado no está fijado.",
+  "INVALID_TIME": "El tiempo que has especificado no es válido.",
+  "MIN_TIME_REACHED": "El tiempo que has especificado es inferior a **{{time}}**.",
+  "MAX_TIME_REACHED": "El tiempo que ha especificado es superior a **{{time}}**."
 }

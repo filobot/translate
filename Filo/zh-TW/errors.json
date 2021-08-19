@@ -32,5 +32,12 @@
   "MAX_ARGUMENT_REACHED": "The arguments you have specified exceed **{{number}}** characters in length.",
   "MIN_ARGUMENT_REACHED": "The arguments you have specified are less than **{{number}}** characters in length.",
   "UNKNOWN_CHANNEL": "The channel you specified doesn't exist.",
-  "INVALID_CHANNEL_TYPE": "This action doesn't support the type of the channel that you specified. ({{valid_types}})"
+  "INVALID_CHANNEL_TYPE": "This action doesn't support the type of the channel that you specified. ({{valid_types}})",
+  "VALUE_ALREADY_SET": "The specified value is already set.",
+  "UNKNOWN_MESSAGE": "The message you specified doesn't exist or has been deleted.",
+  "MAX_PINNED_MESSAGES_REACHED": "This channel has reached the maximum number of pinned messages.",
+  "MESSAGE_NOT_PINNED": "The message you specified isn't pinned.",
+  "INVALID_TIME": "The time you have specified is invalid.",
+  "MIN_TIME_REACHED": "The time you have specified is less than **{{time}}**.",
+  "MAX_TIME_REACHED": "The time you have specified is greater than **{{time}}**."
 }

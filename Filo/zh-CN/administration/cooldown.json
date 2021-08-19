@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "You have set **{{time}}** as the cooldown time on the **[#{{channel.name}}]({{url}})** channel."
+}
