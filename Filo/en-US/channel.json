@@ -19,7 +19,7 @@
   "WITHOUT_CATEGORY": "Without category",
   "UNKNOWN_CATEGORY": "Unknown category",
   "NSFW": "NSFW",
-  "SLOWMODE": "Slowmode",
+  "COOLDOWN": "Cooldown",
   "TOPIC": "Topic",
   "THREAD": "Thread",
   "DISCORD_DEFAULT_TOPIC": "There is no defined topic",
