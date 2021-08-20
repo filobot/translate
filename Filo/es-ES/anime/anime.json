@@ -5,13 +5,13 @@
   "ANIME_TYPES": {
     "TV": "TV",
     "OVA": "OVA",
-    "MOVIE": "Movie",
-    "SPECIAL": "Special",
+    "MOVIE": "Película",
+    "SPECIAL": "Especial",
     "ONA": "ONA",
-    "MUSIC": "Music"
+    "MUSIC": "Música"
   },
   "ANIME_STATUS": {
-    "CURRENTLY_AIRING": "Currently airing",
+    "CURRENTLY_AIRING": "Actualmente emitiéndose",
     "FINISHED_AIRING": "Finished airing",
     "NOT_YET_AIRED": "Not yet aired"
   },
