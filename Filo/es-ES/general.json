@@ -43,5 +43,7 @@
   "STATUS": "Estado",
   "POPULARITY": "Popularidad",
   "SCORE": "Calificación",
-  "RANK": "Rango"
+  "RANK": "Rango",
+  "TERMS_OF_SERVICE": "Terms of Service",
+  "PRIVACY_POLICY": "Privacy Policy"
 }
