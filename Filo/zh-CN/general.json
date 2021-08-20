@@ -43,5 +43,7 @@
   "STATUS": "Status",
   "POPULARITY": "Popularity",
   "SCORE": "Score",
-  "RANK": "Rank"
+  "RANK": "Rank",
+  "TERMS_OF_SERVICE": "Terms of Service",
+  "PRIVACY_POLICY": "Privacy Policy"
 }
