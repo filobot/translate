@@ -21,6 +21,7 @@
   "EDITION_DATE": "Fecha de modificación",
   "EXPIRATION_DATE": "Fecha de expiración",
   "AUTHOR": "Autor",
+  "AUTHORS": "Autores",
   "ADDITIONAL_INFORMATION": "Información adicional",
   "USE": "Uso",
   "USES": "Usos",
@@ -36,5 +37,13 @@
   "SAFE": "Seguro",
   "AGE_RESTRICTED": "Edad restringida",
   "TIER": "Nivel",
-  "PROTECTED": "Protegido"
+  "PROTECTED": "Protegido",
+  "LOADING_DATA": "Por favor espera mientras se obtienen los datos solicitados.",
+  "UNKNOWN": "Desconocido",
+  "STATUS": "Estado",
+  "POPULARITY": "Popularidad",
+  "SCORE": "Calificación",
+  "RANK": "Rango",
+  "TERMS_OF_SERVICE": "Terms of Service",
+  "PRIVACY_POLICY": "Política de Privacidad"
 }
