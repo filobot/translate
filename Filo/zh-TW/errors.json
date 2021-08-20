@@ -41,5 +41,6 @@
   "MIN_TIME_REACHED": "The time you have specified is less than **{{time}}**.",
   "MAX_TIME_REACHED": "The time you have specified is greater than **{{time}}**.",
   "DATA_NOT_FOUND": "The data you were looking for wan't found. Please review the information provided and try again later.",
-  "NSFW_MODE_REQUIRED": "This action requires the channel to have NSFW mode enabled."
+  "NSFW_MODE_REQUIRED": "This action requires the channel to have NSFW mode enabled.",
+  "INVALID_TYPE": "The type of **{{word}}** you have specified is invalid."
 }
