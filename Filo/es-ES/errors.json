@@ -7,7 +7,7 @@
   "INTERACTION_FAILED": "La interacción no recibió una respuesta después de un tiempo.",
   "INTERACTION_CANCELLED": "La interacción ha sido cancelada.",
   "DISABLED_COMMAND": "El comando **{{command}}** ha sido deshabilitado por el Equipo de Desarrollo de Filo.",
-  "UNKNOWN_COMMAND": "The **{{command}}** ({{category}}) command doesn't exist or isn't currently supported.",
+  "UNKNOWN_COMMAND": "El comando **{{command}}** ({{category}}) no existe o no está soportado actualmente.",
   "COMMAND_DISABLED_BY_GUILD": "El comando **{{command}}** ha sido deshabilitado por los Administradores del Gremio.",
   "COMMAND_CATEGORY_DISABLED_BY_GUILD": "El comando **{{command}}** pertenece a la categoría **{{category}}** que está deshabilitada por los Administradores del Gremio.",
   "DISCORD_MISSING_INFORMATION": "Esta interacción ha sido cancelada debido a que Discord no ha proporcionado la información necesaria para continuar.",
