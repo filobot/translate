@@ -5,6 +5,7 @@
   "UPDATED": "Updated",
   "OR": "Or",
   "COMMAND": "Command",
+  "CATEGORY": "Category",
   "MODULE": "Module",
   "QUEUED_REQUEST": "Your request has been added to the queue and will be processed **{{time}}**.",
   "COOLDOWN": "You'll be able to execute this action **{{time}}**.",
@@ -44,6 +45,7 @@
   "POPULARITY": "Popularity",
   "SCORE": "Score",
   "RANK": "Rank",
-  "TERMS_OF_SERVICE": "Terms of Service",
-  "PRIVACY_POLICY": "Privacy Policy"
+  "TERMS_AND_CONDITIONS": "Terms and Conditions",
+  "PRIVACY_POLICY": "Privacy Policy",
+  "WITHOUT_RESTRICTIONS": "Without restrictions"
 }
