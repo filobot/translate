@@ -1,0 +1,39 @@
+{
+  "HELP_TITLE": "Viendo la lista de comandos de Filo",
+  "COMMAND_CATEGORIES": {
+    "ADMINISTRATION": "‫Administración",
+    "ANIMALS": "Animales",
+    "ANIME": "Anime",
+    "CORE": "Core",
+    "FUN": "Diversión",
+    "ECONOMY": "Economía",
+    "GAME_STATISTICS": "Estadísticas en Juegos",
+    "INTERACTION": "Interacción",
+    "GAMES": "Juegos",
+    "MINECRAFT": "Minecraft",
+    "MISCELLANEOUS": "Misceláneos",
+    "MODERATION": "Moderación",
+    "NSFW": "NSFW",
+    "REACTION": "Reacción",
+    "SERVER": "Servidor",
+    "SOCIAL": "Social",
+    "TEMPORARY_COMMANDS": "Comandos Temporales",
+    "DEVELOPER": "Desarrollador",
+    "PRIVATE": "Privado"
+  },
+  "NSFW_NEEDED": "Necesitas activar el modo NSFW para poder verlos.",
+  "MULTIPLE_COMMANDS": "Se han encontrado varios comandos con el mismo nombre. Seleccione el comando que quieres consultar a continuación.",
+  "SELECT_A_COMMAND": "Seleccione el comando que quieres consultar.",
+  "COMMAND_SELECTED": "Has seleccionado correctamente el comando.",
+  "COMMAND_DESCRIPTIONS": {
+    "ROLE": "Administrar los roles de un usuario"
+  },
+  "REQUIRED_FILO_PERMISSIONS": "Permisos necesarios de Filo",
+  "REQUIRED_USER_PERMISSIONS": "Permisos requeridos del usuario",
+  "ALTERNATIVE_USER_PERMISSIONS": "Permisos de usuarios alternativos",
+  "NO_PERMISSIONS_ARE_NEEDED": "No se necesitan permisos.",
+  "COMMAND_RESTRICTIONS": "Restricciones del comando",
+  "ONLY_IN_A_SERVER": "Este comando solo puede ejecutarse en un servidor.",
+  "REQUIRED_FLAG": "Bandera necesaria",
+  "COMMAND_USAGE": "Uso del comando"
+}
