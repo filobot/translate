@@ -5,7 +5,7 @@
   "UPDATED": "Actualizado",
   "OR": "O",
   "COMMAND": "Comando",
-  "CATEGORY": "Category",
+  "CATEGORY": "Categoría",
   "MODULE": "Módulo",
   "QUEUED_REQUEST": "Tu solicitud ha sido añadida a la cola y será procesada **{{time}}**.",
   "COOLDOWN": "Podrás ejecutar esta acción **{{time}}**.",
@@ -45,7 +45,7 @@
   "POPULARITY": "Popularidad",
   "SCORE": "Calificación",
   "RANK": "Rango",
-  "TERMS_AND_CONDITIONS": "Terms and Conditions",
+  "TERMS_AND_CONDITIONS": "Términos y Condiciones",
   "PRIVACY_POLICY": "Política de Privacidad",
-  "WITHOUT_RESTRICTIONS": "Without restrictions"
+  "WITHOUT_RESTRICTIONS": "Sin restricciones"
 }
