@@ -1,0 +1,39 @@
+{
+  "HELP_TITLE": "Viewing Filo's command list",
+  "COMMAND_CATEGORIES": {
+    "ADMINISTRATION": "Administration",
+    "ANIMALS": "Animals",
+    "ANIME": "Anime",
+    "CORE": "Core",
+    "FUN": "Fun",
+    "ECONOMY": "Economy",
+    "GAME_STATISTICS": "Game Statistics",
+    "INTERACTION": "Interaction",
+    "GAMES": "Games",
+    "MINECRAFT": "Minecraft",
+    "MISCELLANEOUS": "Miscellaneous",
+    "MODERATION": "Moderation",
+    "NSFW": "NSFW",
+    "REACTION": "Reaction",
+    "SERVER": "Server",
+    "SOCIAL": "Social",
+    "TEMPORARY_COMMANDS": "Temporary Commands",
+    "DEVELOPER": "Developer",
+    "PRIVATE": "Private"
+  },
+  "NSFW_NEEDED": "You need NSFW mode enabled to be able to see them.",
+  "MULTIPLE_COMMANDS": "Multiple commands with the same name have been found. Select the command you want to consult below.",
+  "SELECT_A_COMMAND": "Select the command you want to consult.",
+  "COMMAND_SELECTED": "You have successfully selected the command.",
+  "COMMAND_DESCRIPTIONS": {
+    "ROLE": "asdasd"
+  },
+  "REQUIRED_FILO_PERMISSIONS": "Required Filo permissions",
+  "REQUIRED_USER_PERMISSIONS": "Required user permissions",
+  "ALTERNATIVE_USER_PERMISSIONS": "Alternative user permissions",
+  "NO_PERMISSIONS_ARE_NEEDED": "No permissions are needed.",
+  "COMMAND_RESTRICTIONS": "Command restrictions",
+  "ONLY_IN_A_SERVER": "This command can only be executed on a server.",
+  "REQUIRED_FLAG": "Required flag",
+  "COMMAND_USAGE": "Command usage"
+}
