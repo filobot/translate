@@ -26,7 +26,7 @@
   "SELECT_A_COMMAND": "Select the command you want to consult.",
   "COMMAND_SELECTED": "You have successfully selected the command.",
   "COMMAND_DESCRIPTIONS": {
-    "ROLE": "asdasd"
+    "ROLE": "Manage the roles of a user"
   },
   "REQUIRED_FILO_PERMISSIONS": "Required Filo permissions",
   "REQUIRED_USER_PERMISSIONS": "Required user permissions",
