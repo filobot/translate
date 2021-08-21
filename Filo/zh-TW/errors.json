@@ -7,7 +7,7 @@
   "INTERACTION_FAILED": "The interaction didn't receive a response after a while.",
   "INTERACTION_CANCELLED": "The interaction has been canceled.",
   "DISABLED_COMMAND": "The **{{command}}** command has been disabled by the Filo's Development Team.",
-  "UNKNOWN_COMMAND": "The **{{command}}** command doesn't exist or isn't currently supported.",
+  "UNKNOWN_COMMAND": "The **{{command}}** ({{category}}) command doesn't exist or isn't currently supported.",
   "COMMAND_DISABLED_BY_GUILD": "The **{{command}}** command has been disabled by the Guild Administrators.",
   "COMMAND_CATEGORY_DISABLED_BY_GUILD": "The **{{command}}** command belongs to the **{{category}}** category that is disabled by the Guild Administrators.",
   "DISCORD_MISSING_INFORMATION": "This interaction has been canceled due to Discord not providing the necessary information to continue.",
@@ -39,5 +39,8 @@
   "MESSAGE_NOT_PINNED": "The message you specified isn't pinned.",
   "INVALID_TIME": "The time you have specified is invalid.",
   "MIN_TIME_REACHED": "The time you have specified is less than **{{time}}**.",
-  "MAX_TIME_REACHED": "The time you have specified is greater than **{{time}}**."
+  "MAX_TIME_REACHED": "The time you have specified is greater than **{{time}}**.",
+  "DATA_NOT_FOUND": "The data you were looking for wan't found. Please review the information provided and try again later.",
+  "NSFW_MODE_REQUIRED": "This action requires the channel to have NSFW mode enabled.",
+  "INVALID_TYPE": "The type of **{{word}}** you have specified is invalid."
 }
