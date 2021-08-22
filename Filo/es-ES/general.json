@@ -5,7 +5,7 @@
   "UPDATED": "Actualizado",
   "OR": "O",
   "COMMAND": "Comando",
-  "COMMANDS": "Commands",
+  "COMMANDS": "Comandos",
   "CATEGORY": "Categoría",
   "MODULE": "Módulo",
   "QUEUED_REQUEST": "Tu solicitud ha sido añadida a la cola y será procesada **{{time}}**.",
@@ -49,5 +49,5 @@
   "TERMS_AND_CONDITIONS": "Términos y Condiciones",
   "PRIVACY_POLICY": "Política de Privacidad",
   "WITHOUT_RESTRICTIONS": "Sin restricciones",
-  "ACTION_SELECTED": "You have successfully selected an action."
+  "ACTION_SELECTED": "Has seleccionado correctamente una acción."
 }
