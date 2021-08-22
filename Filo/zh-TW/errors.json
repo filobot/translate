@@ -43,5 +43,6 @@
   "DATA_NOT_FOUND": "The data you were looking for wan't found. Please review the information provided and try again later.",
   "NSFW_MODE_REQUIRED": "This action requires the channel to have NSFW mode enabled.",
   "INVALID_TYPE": "The type of **{{word}}** you have specified is invalid.",
-  "ACTION_CANCELLED_TIMEOUT": "The action was canceled because it timed out."
+  "ACTION_CANCELLED_TIMEOUT": "The action was canceled because it timed out.",
+  "API_MISSING_INFORMATION": "The information couldn't be obtained due to an API error."
 }
