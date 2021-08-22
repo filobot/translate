@@ -44,5 +44,5 @@
   "NSFW_MODE_REQUIRED": "Esta acción requiere que el canal tenga activado el modo NSFW.",
   "INVALID_TYPE": "El tipo de **{{word}}** que has especificado no es válido.",
   "ACTION_CANCELLED_TIMEOUT": "La acción fue cancelada porque expiró el tiempo.",
-  "API_MISSING_INFORMATION": "The information couldn't be obtained due to an API error."
+  "API_MISSING_INFORMATION": "La información no se pudo obtener debido a un error de la API."
 }
