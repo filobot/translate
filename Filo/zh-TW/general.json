@@ -5,6 +5,7 @@
   "UPDATED": "Updated",
   "OR": "Or",
   "COMMAND": "Command",
+  "COMMANDS": "Commands",
   "CATEGORY": "Category",
   "MODULE": "Module",
   "QUEUED_REQUEST": "Your request has been added to the queue and will be processed **{{time}}**.",
@@ -47,5 +48,6 @@
   "RANK": "Rank",
   "TERMS_AND_CONDITIONS": "Terms and Conditions",
   "PRIVACY_POLICY": "Privacy Policy",
-  "WITHOUT_RESTRICTIONS": "Without restrictions"
+  "WITHOUT_RESTRICTIONS": "Without restrictions",
+  "ACTION_SELECTED": "You have successfully selected an action."
 }
