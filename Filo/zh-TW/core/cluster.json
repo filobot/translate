@@ -1,0 +1,15 @@
+{
+  "CLUSTER": "Cluster",
+  "SHARD": "Shard",
+  "SHARDS": "Shards",
+  "PING": "Ping",
+  "AVERANGE_CPU_LOAD": "Averange CPU load",
+  "CLUSTER_UPTIME": "Cluster uptime",
+  "OPERATIVE_SYSTEM": "Operative system",
+  "TOTAL_SERVERS": "Total servers",
+  "TOTAL_USERS": "Total users",
+  "TOTAL_CACHED_CHANNELS": "Total cached channels",
+  "SERVERS": "Servers",
+  "USERS": "Users",
+  "CACHED_CHANNELS": "Cached channels"
+}
