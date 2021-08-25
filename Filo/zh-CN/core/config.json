@@ -1,0 +1,25 @@
+{
+  "NAME_OF_MODULES": {
+    "LANGUAGE": "Language",
+    "DISABLE_COMMANDS": "Disable commands",
+    "REPORTS": "Reports"
+  },
+  "SELECT_A_LANGUAGE": "Select the language you want to set for Filo.",
+  "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
+  "SELECT_THE_LANGUAGE": "Select {{language}} as Filo's language.",
+  "LANGUAGE_SELECTED": "You have successfully selected **{{language}}** as Filo's language.",
+  "COMMAND_OR_CATEGORY_ALREADY_ENABLED_OR_DISABLED": "The **{{value}}** {{target}} is already {{status}}.",
+  "COMMAND_OR_CATEGORY_ENABLED_OR_DISABLED": "The **{{value}}** {{target}} has been successfully {{status}}.",
+  "UNKNOWN_COMMAND_OR_CATEGORY": "The **{{value}}** {{target}} doesn't exist.",
+  "PROTECTED_COMMAND_OR_CATEGORY": "The **{{value}}** {{target}} is protected by the Filo's Administration and can't be disabled.",
+  "SELECT_A_COMMAND_TO_ENABLE_OR_DISABLE": "You must specify a command below to {{status}} it.",
+  "SELECT_A_COMMAND_TO_ENABLE_OR_DISABLE_MENU": "Select a command to {{status}} it.",
+  "MODULE_ALREADY_ENABLED": "The **{{module}}** module is already enabled.",
+  "MODULE_ALREADY_DISABLED": "The **{{module}}** module is already disabled.",
+  "MODULE_ENABLED": "The **{{module}}** module has been successfully enabled.",
+  "MODULE_DISABLED": "The **{{module}}** module has been successfully disabled.",
+  "MODULE_NEEDS_TO_BE_ENABLED": "The **{{module}}** module needs to be enabled before.",
+  "MODULE_NEEDS_TO_BE_ENABLED_PROTIP": "Enable this module by executing this command: **{{command}}**.",
+  "REPORTS_ENABLED_PROTIP": "Set the channel for sending reports by executing this command: **{{command}}**.",
+  "CHANNEL_SET": "You have set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module."
+}
