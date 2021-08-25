@@ -44,5 +44,8 @@
   "NSFW_MODE_REQUIRED": "This action requires the channel to have NSFW mode enabled.",
   "INVALID_TYPE": "The type of **{{word}}** you have specified is invalid.",
   "ACTION_CANCELLED_TIMEOUT": "The action was canceled because it timed out.",
-  "API_MISSING_INFORMATION": "The information couldn't be obtained due to an API error."
+  "API_MISSING_INFORMATION": "The information couldn't be obtained due to an API error.",
+  "TOO_MANY_WEBHOOKS": "This channel has too many webhooks. Delete or move any channel to perform this action.",
+  "ANOTHER_OWNED_WEBHOOK": "In this channel there is a webhook which I own. Delete this webhook or move it from the channel.",
+  "CAN_NOT_CREATE_THE_WEBHOOK": "An error occurred while trying to create the webhook."
 }
