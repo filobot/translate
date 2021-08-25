@@ -5,6 +5,8 @@
   "PING": "Latencia",
   "AVERANGE_CPU_LOAD": "Carga media de la CPU",
   "CLUSTER_UPTIME": "Tiempo de actividad del clúster",
+  "LIBRARY": "Library",
+  "NODE_VERSION": "Node version",
   "OPERATIVE_SYSTEM": "Sistema operativo",
   "TOTAL_SERVERS": "Servidores totales",
   "TOTAL_USERS": "Usuarios totales",
