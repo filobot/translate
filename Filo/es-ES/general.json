@@ -16,8 +16,8 @@
   "DENIED": "Denegado",
   "ENABLED": "Habilitado",
   "DISABLED": "Deshabilitado",
-  "ENABLE": "Enable",
-  "DISABLE": "Disable",
+  "ENABLE": "Habilitar",
+  "DISABLE": "Deshabilitar",
   "OWNER": "Propietario",
   "YES": "Sí",
   "NO": "No",
@@ -52,7 +52,7 @@
   "PRIVACY_POLICY": "Política de Privacidad",
   "WITHOUT_RESTRICTIONS": "Sin restricciones",
   "ACTION_SELECTED": "Has seleccionado correctamente una acción.",
-  "VALUE_SELECTED": "You have successfully selected a value.",
-  "PAGE": "Page",
-  "TIP": "TIP"
+  "VALUE_SELECTED": "Ha seleccionado correctamente un valor.",
+  "PAGE": "Página",
+  "TIP": "CONSEJO"
 }
