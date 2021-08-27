@@ -28,10 +28,10 @@
   "WELCOMES_ENABLED_PROTIP": "Establece el canal de bienvenidas ejecutando este comando: **{{command}}**.",
   "FAREWELLS_ENABLED_PROTIP": "Establece el canal de despedidas ejecutando este comando: **{{command}}**.",
   "CHANNEL_NOT_CONFIGURED": "El módulo **{{module}}** necesita que le configres un canal antes de continuar.",
-  "CHANNEL_NOT_CONFIGURED_TIP": "Configura el canal ejecutando este comando: **{{command}}**.",
-  "MODULE_RESET_SUCCESSFULLY": "The **{{module}}** module data has been reset successfully.",
-  "WAITING_MESSAGE": "Waiting for you to send a message to set it in the **{{module}}** module.",
-  "MESSAGE_SET": "You have successfully set the **{{module}}** module message.",
-  "MESSAGE_TYPE_SET": "You have set the message type for the **{{module}}** module.",
-  "ROLE_SET": "You have set the {{role.mention}} ({{role.id}}) role for the **{{module}}** module."
+  "CHANNEL_NOT_CONFIGURED_TIP": "Configure the channel by executing this command: **{{command}}**.",
+  "MODULE_RESET_SUCCESSFULLY": "Los datos del módulo **{{module}}** se han restablecido correctamente.",
+  "WAITING_MESSAGE": "Esperando a que envíes un mensaje para establecerlo en el módulo **{{module}}.",
+  "MESSAGE_SET": "Has configurado correctamente el mensaje del módulo **{{module}}**.",
+  "MESSAGE_TYPE_SET": "Has establecido el tipo de mensaje para el módulo **{{module}}.",
+  "ROLE_SET": "Has establecido el rol {{role.mention}} ({{role.id}}) para el módulo **{{module}}."
 }
