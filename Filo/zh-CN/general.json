@@ -16,6 +16,8 @@
   "DENIED": "Denied",
   "ENABLED": "Enabled",
   "DISABLED": "Disabled",
+  "ENABLE": "Enable",
+  "DISABLE": "Disable",
   "OWNER": "Owner",
   "YES": "Yes",
   "NO": "No",
@@ -50,5 +52,7 @@
   "PRIVACY_POLICY": "Privacy Policy",
   "WITHOUT_RESTRICTIONS": "Without restrictions",
   "ACTION_SELECTED": "You have successfully selected an action.",
-  "PAGE": "Page"
+  "VALUE_SELECTED": "You have successfully selected a value.",
+  "PAGE": "Page",
+  "TIP": "TIP"
 }

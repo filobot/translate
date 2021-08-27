@@ -1,0 +1,17 @@
+{
+  "CLUSTER": "Clúster",
+  "SHARD": "Fragmento",
+  "SHARDS": "Fragmentos",
+  "PING": "Latencia",
+  "AVERANGE_CPU_LOAD": "Carga media de la CPU",
+  "CLUSTER_UPTIME": "Tiempo de actividad del clúster",
+  "LIBRARY": "Librería",
+  "NODE_VERSION": "Versión de Node",
+  "OPERATIVE_SYSTEM": "Sistema operativo",
+  "TOTAL_SERVERS": "Servidores totales",
+  "TOTAL_USERS": "Usuarios totales",
+  "TOTAL_CACHED_CHANNELS": "Canales cacheados totales",
+  "SERVERS": "Servidores",
+  "USERS": "Usuarios",
+  "CACHED_CHANNELS": "Canales en caché"
+}
