@@ -2,7 +2,10 @@
   "NAME_OF_MODULES": {
     "LANGUAGE": "Language",
     "DISABLE_COMMANDS": "Disable commands",
-    "REPORTS": "Reports"
+    "REPORTS": "Reports",
+    "WELCOMES": "Welcomes",
+    "WELCOME_ROLE": "Welcome role",
+    "FAREWELLS": "Farewells"
   },
   "SELECT_A_LANGUAGE": "Select the language you want to set for Filo.",
   "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
@@ -21,5 +24,14 @@
   "MODULE_NEEDS_TO_BE_ENABLED": "The **{{module}}** module needs to be enabled before.",
   "MODULE_NEEDS_TO_BE_ENABLED_PROTIP": "Enable this module by executing this command: **{{command}}**.",
   "REPORTS_ENABLED_PROTIP": "Set the channel for sending reports by executing this command: **{{command}}**.",
-  "CHANNEL_SET": "You have set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module."
+  "CHANNEL_SET": "You have set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
+  "WELCOMES_ENABLED_PROTIP": "Set the welcome channel by executing this command: **{{command}}**.",
+  "FAREWELLS_ENABLED_PROTIP": "Set the farewell channel by executing this command: **{{command}}**.",
+  "CHANNEL_NOT_CONFIGURED": "The **{{module}}** module needs you to configure a channel before continuing.",
+  "CHANNEL_NOT_CONFIGURED_TIP": "Configure the channel by executing this command: **{{command}}**",
+  "MODULE_RESET_SUCCESSFULLY": "The **{{module}}** module data has been reset successfully.",
+  "WAITING_MESSAGE": "Waiting for you to send a message to set it in the **{{module}}** module.",
+  "MESSAGE_SET": "You have successfully set the **{{module}}** module message.",
+  "MESSAGE_TYPE_SET": "You have set the message type for the **{{module}}** module.",
+  "ROLE_SET": "You have set the {{role.mention}} ({{role.id}}) role for the **{{module}}** module."
 }
