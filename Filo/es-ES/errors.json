@@ -43,10 +43,10 @@
   "DATA_NOT_FOUND": "Los datos que estás buscando no se encontraron. Revisa la información proporcionada e inténtalo de nuevo más tarde.",
   "NSFW_MODE_REQUIRED": "Esta acción requiere que el canal tenga activado el modo NSFW.",
   "INVALID_TYPE": "El tipo de **{{word}}** que has especificado no es válido.",
-  "ACTION_CANCELLED": "The action has been canceled.",
+  "ACTION_CANCELLED": "La acción ha sido cancelada.",
   "ACTION_CANCELLED_TIMEOUT": "La acción fue cancelada porque expiró el tiempo.",
   "API_MISSING_INFORMATION": "La información no se pudo obtener debido a un error de la API.",
-  "TOO_MANY_WEBHOOKS": "This channel has too many webhooks. Delete or move any channel to perform this action.",
+  "TOO_MANY_WEBHOOKS": "This channel has too many webhooks. Delete the webhook or move it to another channel to do this.",
   "ANOTHER_OWNED_WEBHOOK": "In this channel there is a webhook which I own. Delete this webhook or move it from the channel.",
   "CAN_NOT_CREATE_THE_WEBHOOK": "An error occurred while trying to create the webhook."
 }
