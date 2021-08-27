@@ -28,7 +28,7 @@
   "WELCOMES_ENABLED_PROTIP": "Establece el canal de bienvenidas ejecutando este comando: **{{command}}**.",
   "FAREWELLS_ENABLED_PROTIP": "Establece el canal de despedidas ejecutando este comando: **{{command}}**.",
   "CHANNEL_NOT_CONFIGURED": "El módulo **{{module}}** necesita que le configres un canal antes de continuar.",
-  "CHANNEL_NOT_CONFIGURED_TIP": "Configure the channel by executing this command: **{{command}}**.",
+  "CHANNEL_NOT_CONFIGURED_TIP": "Configura el canal ejecutando este comando: **{{command}}**.",
   "MODULE_RESET_SUCCESSFULLY": "Los datos del módulo **{{module}}** se han restablecido correctamente.",
   "WAITING_MESSAGE": "Esperando a que envíes un mensaje para establecerlo en el módulo **{{module}}.",
   "MESSAGE_SET": "Has configurado correctamente el mensaje del módulo **{{module}}**.",
