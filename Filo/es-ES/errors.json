@@ -46,7 +46,7 @@
   "ACTION_CANCELLED": "La acción ha sido cancelada.",
   "ACTION_CANCELLED_TIMEOUT": "La acción fue cancelada porque expiró el tiempo.",
   "API_MISSING_INFORMATION": "La información no se pudo obtener debido a un error de la API.",
-  "TOO_MANY_WEBHOOKS": "This channel has too many webhooks. Delete a webhook or move it to another channel to do this.",
+  "TOO_MANY_WEBHOOKS": "Este canal tiene demasiados webhooks. Elimina un webhook o muévelo a otro canal para hacer esto.",
   "ANOTHER_OWNED_WEBHOOK": "En este canal hay un webhook que poseo. Elimine este webhook o muévelo del canal.",
-  "CAN_NOT_CREATE_THE_WEBHOOK": "An error occurred while trying to create the webhook."
+  "CAN_NOT_CREATE_THE_WEBHOOK": "Un error ocurrió mientras se intentaba de crear el webhook."
 }
