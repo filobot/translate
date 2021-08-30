@@ -55,9 +55,9 @@
   "VALUE_SELECTED": "Ha seleccionado correctamente un valor.",
   "PAGE": "Página",
   "TIP": "CONSEJO",
-  "PREVIOUS_PAGE": "Previous page",
-  "NEXT_PAGE": "Next page",
-  "WITHOUT_DATA": "Without data",
+  "PREVIOUS_PAGE": "Página anterior",
+  "NEXT_PAGE": "Página siguiente",
+  "WITHOUT_DATA": "Sin datos",
   "EMBED": "Embed",
   "NORMAL": "Normal"
 }
