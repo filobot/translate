@@ -54,5 +54,10 @@
   "ACTION_SELECTED": "You have successfully selected an action.",
   "VALUE_SELECTED": "You have successfully selected a value.",
   "PAGE": "Page",
-  "TIP": "TIP"
+  "TIP": "TIP",
+  "PREVIOUS_PAGE": "Previous page",
+  "NEXT_PAGE": "Next page",
+  "WITHOUT_DATA": "Without data",
+  "EMBED": "Embed",
+  "NORMAL": "Normal"
 }
