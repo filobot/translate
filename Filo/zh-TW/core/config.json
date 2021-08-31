@@ -7,7 +7,8 @@
     "WELCOME_ROLE": "Welcome role",
     "FAREWELLS": "Farewells",
     "MEMBER_COUNTER": "Member counter",
-    "MEMBER_COUNTER_NICKNAME": "Member counter nickname"
+    "MEMBER_COUNTER_NICKNAME": "Member counter nickname",
+    "LOGGING": "Logging"
   },
   "SELECT_A_LANGUAGE": "Select the language you want to set for Filo.",
   "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
@@ -49,5 +50,8 @@
   "MEMBER_COUNTER_NAME_SET": "You have set the name of the member counter channel successfully.",
   "MEMBER_COUNTER_NICKNAME_ENABLED_PROTIP": "Set the nickname of the member counter nickname by executing this command: **{{command}}**.",
   "MEMBER_COUNTER_NICKNAME_MISSING_VARIABLE": "The nickname of the member counter nickname must contain this variable: **{{variable}}**.",
-  "MEMBER_COUNTER_NICKNAME_SET": "You have set the nickname of the member counter nickname successfully."
+  "MEMBER_COUNTER_NICKNAME_SET": "You have set the nickname of the member counter nickname successfully.",
+  "LOGGING_ENABLED_PROTIP": "Enable or disable events by executing this command: **{{command}}**.",
+  "LOGGING_ALL_EVENTS_ENABLED_OR_DISABLED": "You have {{status}} all logging events successfully.",
+  "LOGGING_EVENT_ENABLED_OR_DISABLED": "You have successfully {{status}} the **{{event}}** logging event."
 }
