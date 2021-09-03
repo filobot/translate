@@ -11,7 +11,7 @@
     "DESCRIPTION": "Has recibido esta notificación porque has sido {{sanction}} del gremio **{{guild.name}}**."
   },
   "PERMANENT_SANCTION": "Sanción permanente",
-  "SANCTION": "Sanction",
+  "SANCTION": "Sanción",
   "SANCTIONS": {
     "DELETE_MESSAGE": "Delete message",
     "WARN": "Advertir",
