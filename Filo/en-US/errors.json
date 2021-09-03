@@ -20,6 +20,7 @@
   "USER_DOES_NOT_APPLY": "The user you have specified doesn't apply to this action.",
   "UNKNOWN_USER": "The user you specified doesn't exist or isn't on the server.",
   "CANNOT_LOAD_THE_USER_PROFILE": "Unable to get **[{{user.tag}}]({{url}})** ({{user.id}})'s profile.",
+  "INVALID_ROLE": "The role ID you specified is invalid.",
   "UNKNOWN_ROLE": "The role you specified doesn't exist.",
   "MANAGED_ROLE": "The role you have specified is managed by an integration.",
   "USER_ALREADY_HAS_THE_ROLE": "**[{{user.tag}}]({{url}})** ({{user.id}}) already has the {{role.mention}} role assigned.",
@@ -32,8 +33,10 @@
   "MAX_ARGUMENT_REACHED": "The arguments you have specified exceed **{{number}}** characters in length.",
   "MIN_ARGUMENT_REACHED": "The arguments you have specified are less than **{{number}}** characters in length.",
   "UNKNOWN_CHANNEL": "The channel you specified doesn't exist.",
+  "INVALID_CHANNEL": "The channel ID you specified is invalid.",
   "INVALID_CHANNEL_TYPE": "This action doesn't support the type of the channel that you specified. ({{valid_types}})",
   "VALUE_ALREADY_SET": "The specified value is already set.",
+  "VALUE_NOT_FOUND": "The value doesn't exist.",
   "UNKNOWN_MESSAGE": "The message you specified doesn't exist or has been deleted.",
   "MAX_PINNED_MESSAGES_REACHED": "This channel has reached the maximum number of pinned messages.",
   "MESSAGE_NOT_PINNED": "The message you specified isn't pinned.",
@@ -48,5 +51,7 @@
   "API_MISSING_INFORMATION": "The information couldn't be obtained due to an API error.",
   "TOO_MANY_WEBHOOKS": "This channel has too many webhooks. Delete a webhook or move it to another channel to do this.",
   "ANOTHER_OWNED_WEBHOOK": "In this channel there is a webhook which I own. Delete this webhook or move it from the channel.",
-  "CAN_NOT_CREATE_THE_WEBHOOK": "An error occurred while trying to create the webhook."
+  "CAN_NOT_CREATE_THE_WEBHOOK": "An error occurred while trying to create the webhook.",
+  "INVALID_GUILD": "The server you specified is invalid.",
+  "MAX_VALUES_REACHED": "This action doesn't support more than **{{values}}** values."
 }
