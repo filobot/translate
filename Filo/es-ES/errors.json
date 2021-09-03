@@ -53,5 +53,5 @@
   "ANOTHER_OWNED_WEBHOOK": "En este canal hay un webhook que poseo. Elimine este webhook o muévelo del canal.",
   "CAN_NOT_CREATE_THE_WEBHOOK": "Un error ocurrió mientras se intentaba de crear el webhook.",
   "INVALID_GUILD": "The server you specified is invalid.",
-  "MAX_VALUES_REACHED": "This action doesn't support more than **{{values}}** values."
+  "MAX_VALUES_REACHED": "Esta acción no admite más de **{{values}}** valores."
 }
