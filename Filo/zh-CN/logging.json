@@ -20,6 +20,8 @@
     "MEMBER_ADD": "Joined member",
     "MEMBER_UPDATE": "Updated member",
     "MEMBER_REMOVE": "Leaved member",
+    "INVITE_ADD": "Invite created",
+    "INVITE_REMOVE": "Invite removed",
     "MESSAGE_UPDATE": "Updated message",
     "MESSAGE_DELETE": "Deleted message",
     "MESSAGE_BULK_DELETE": "Purged messages",
@@ -40,7 +42,9 @@
   "TITLES": {
     "CHANNEL_LOG": "Channel log",
     "EMOJI_LOG": "Emoji log",
+    "BAN_LOG": "Ban log",
     "MEMBER_LOG": "Member log",
+    "INVITE_LOG": "Invite log",
     "MESSAGE_LOG": "Message log",
     "ROLE_LOG": "Role log",
     "STAGE_INSTANCE_LOG": "Stage instance log",
