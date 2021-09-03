@@ -20,6 +20,8 @@
     "MEMBER_ADD": "成員加入",
     "MEMBER_UPDATE": "成員更新",
     "MEMBER_REMOVE": "成員退出",
+    "INVITE_ADD": "Invite created",
+    "INVITE_REMOVE": "Invite removed",
     "MESSAGE_UPDATE": "訊息更新",
     "MESSAGE_DELETE": "訊息刪除",
     "MESSAGE_BULK_DELETE": "多個訊息被刪除",
@@ -40,7 +42,9 @@
   "TITLES": {
     "CHANNEL_LOG": "頻道記錄",
     "EMOJI_LOG": "表情符號記錄",
+    "BAN_LOG": "Ban log",
     "MEMBER_LOG": "成員記錄",
+    "INVITE_LOG": "Invite log",
     "MESSAGE_LOG": "訊息記錄",
     "ROLE_LOG": "身分組紀錄",
     "STAGE_INSTANCE_LOG": "Stage instance log",
