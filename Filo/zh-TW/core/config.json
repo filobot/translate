@@ -5,7 +5,10 @@
     "REPORTS": "Reports",
     "WELCOMES": "Welcomes",
     "WELCOME_ROLE": "Welcome role",
-    "FAREWELLS": "Farewells"
+    "FAREWELLS": "Farewells",
+    "MEMBER_COUNTER": "Member counter",
+    "MEMBER_COUNTER_NICKNAME": "Member counter nickname",
+    "LOGGING": "Logging"
   },
   "SELECT_A_LANGUAGE": "Select the language you want to set for Filo.",
   "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
@@ -32,6 +35,7 @@
   "REPORTS_ENABLED_PROTIP": "Set the channel for sending reports by executing this command: **{{command}}**.",
   "CHANNEL_SET": "You have set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
   "WELCOMES_ENABLED_PROTIP": "Set the welcome channel by executing this command: **{{command}}**.",
+  "WELCOME_ROLE_ENABLED_PROTIP": "Set the welcome role by executing this command: **{{command}}**.",
   "FAREWELLS_ENABLED_PROTIP": "Set the farewell channel by executing this command: **{{command}}**.",
   "CHANNEL_NOT_CONFIGURED": "The **{{module}}** module needs you to configure a channel before continuing.",
   "CHANNEL_NOT_CONFIGURED_TIP": "Configure the channel by executing this command: **{{command}}**.",
@@ -40,5 +44,14 @@
   "MESSAGE_SET": "You have successfully set the **{{module}}** module message.",
   "MESSAGE_TYPE_SET": "You have set the message type for the **{{module}}** module.",
   "MESSAGE_TYPE": "Message type",
-  "ROLE_SET": "You have set the {{role.mention}} ({{role.id}}) role for the **{{module}}** module."
+  "ROLE_SET": "You have set the {{role.mention}} ({{role.id}}) role for the **{{module}}** module.",
+  "MEMBER_COUNTER_ENABLED_PROTIP": "Set the channel member counter by executing this command: **{{command}}**.",
+  "MEMBER_COUNTER_NAME_MISSING_VARIABLE": "The name of the member counter channel must contain this variable: **{{variable}}**.",
+  "MEMBER_COUNTER_NAME_SET": "You have set the name of the member counter channel successfully.",
+  "MEMBER_COUNTER_NICKNAME_ENABLED_PROTIP": "Set the nickname of the member counter nickname by executing this command: **{{command}}**.",
+  "MEMBER_COUNTER_NICKNAME_MISSING_VARIABLE": "The nickname of the member counter nickname must contain this variable: **{{variable}}**.",
+  "MEMBER_COUNTER_NICKNAME_SET": "You have set the nickname of the member counter nickname successfully.",
+  "LOGGING_ENABLED_PROTIP": "Enable or disable events by executing this command: **{{command}}**.",
+  "LOGGING_ALL_EVENTS_ENABLED_OR_DISABLED": "You have {{status}} all logging events successfully.",
+  "LOGGING_EVENT_ENABLED_OR_DISABLED": "You have successfully {{status}} the **{{event}}** logging event."
 }
