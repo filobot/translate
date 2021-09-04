@@ -56,7 +56,7 @@
   "MEMBER_COUNTER_NICKNAME_SET": "You have set the nickname of the member counter nickname successfully.",
   "LOGGING_ENABLED_PROTIP": "Enable or disable events by executing this command: **{{command}}**.",
   "SELECT_A_LOGGING_EVENT_CATEGORY": "Select the category of logging events you want to {{status}}.",
-  "SELECT_A_LOGGING_EVENT_CATEGORY_SET_CHANNEL": "Select the category of events that you want to be the channel for.",
+  "SELECT_A_LOGGING_EVENT_CATEGORY_SET_CHANNEL": "Select the event category you want to assign to this channel.",
   "LOGGING_EVENTS_CATEGORY_MENU": {
     "ALL_EVENTS": "All events",
     "CHANNEL_EVENTS": "Channel events",
