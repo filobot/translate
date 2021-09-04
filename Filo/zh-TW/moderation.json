@@ -11,7 +11,9 @@
     "DESCRIPTION": "You have received this notification because you have been {{sanction}} from the **{{guild.name}}** guild."
   },
   "PERMANENT_SANCTION": "Permanent sanction",
+  "SANCTION": "Sanction",
   "SANCTIONS": {
+    "DELETE_MESSAGE": "Delete message",
     "WARN": "Warn",
     "WARNED": "Warned",
     "KICK": "Kick",

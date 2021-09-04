@@ -20,6 +20,8 @@
     "MEMBER_ADD": "Miembro unido",
     "MEMBER_UPDATE": "Miembro actualizado",
     "MEMBER_REMOVE": "Miembro sale",
+    "INVITE_ADD": "Invitación creada",
+    "INVITE_REMOVE": "Invitación eliminada",
     "MESSAGE_UPDATE": "Mensaje actualizado",
     "MESSAGE_DELETE": "Mensaje borrado",
     "MESSAGE_BULK_DELETE": "Mensajes borrados",
@@ -40,7 +42,9 @@
   "TITLES": {
     "CHANNEL_LOG": "Registro de canales",
     "EMOJI_LOG": "Registro de emojis",
+    "BAN_LOG": "Registro de prohibiciones",
     "MEMBER_LOG": "Registro de miembros",
+    "INVITE_LOG": "Registro de invitaciones",
     "MESSAGE_LOG": "Registro de mensajes",
     "ROLE_LOG": "Registro de roles",
     "STAGE_INSTANCE_LOG": "Registro de instancias de escenarios",
