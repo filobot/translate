@@ -109,7 +109,7 @@
   "LOGGING_ALL_SPECIFIC_EVENTS_SET_CHANNEL": "Has establecido el canal **[#{{channel.name}}]({{url}})** para todos los eventos de **{{target}}**.",
   "LOGGING_EVENT_ENABLED_OR_DISABLED": "Has {{status}} el evento **{{event}}** correctamente.",
   "LOGGING_EVENT_SET_CHANNEL": "Has establecido el canal **[#{{channel.name}}]({{url}})** para el evento **{{event}}.",
-  "SET_ACTION_PROTIP": "Set the action by executing this command: **{{command}}**.",
+  "SET_ACTION_PROTIP": "Establece la acción ejecutando este comando: **{{command}}**.",
   "ACTION_SET": "Ha establecido la acción **{{action}}** para el módulo **{{module}}**.",
   "DISCORD_INVITES_IGNORE_ENABLE": "Invites from official Discord servers will now be ignored.",
   "DISCORD_INVITES_IGNORE_DISABLE": "Invites from official Discord servers will now not be ignored.",
