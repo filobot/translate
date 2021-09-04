@@ -20,7 +20,7 @@
   "USER_DOES_NOT_APPLY": "El usuario que has especificado no aplica a esta acción.",
   "UNKNOWN_USER": "El usuario que has especificado no existe o no está en el servidor.",
   "CANNOT_LOAD_THE_USER_PROFILE": "Imposible de obtener el perfil de **[{{user.tag}}]({{url}})** ({{user.id}}).",
-  "INVALID_ROLE": "La ID del rol que has especificado no es válida.",
+  "INVALID_ROLE_ID": "The role ID you specified is invalid.",
   "UNKNOWN_ROLE": "El rol que has especificado no existe.",
   "MANAGED_ROLE": "El rol que has especificado está gestionado por una integración.",
   "USER_ALREADY_HAS_THE_ROLE": "**[{{user.tag}}]({{url}})** ({{user.id}}) ya tiene el rol {{role.mention}} asignado.",
@@ -33,7 +33,7 @@
   "MAX_ARGUMENT_REACHED": "Los argumentos que has especificado exceden **{{number}}** caracteres de longitud.",
   "MIN_ARGUMENT_REACHED": "Los argumentos que has especificado tienen menos de **{{number}}** caracteres de longitud.",
   "UNKNOWN_CHANNEL": "El canal que has especificado no existe.",
-  "INVALID_CHANNEL": "La ID del canal que has especificado no es válida.",
+  "INVALID_CHANNEL_ID": "The channel ID you specified is invalid.",
   "INVALID_CHANNEL_TYPE": "Esta acción no es compatible con el tipo de canal que has especificado. ({{valid_types}})",
   "VALUE_ALREADY_SET": "El valor especificado ya está establecido.",
   "VALUE_NOT_FOUND": "El valor no existe.",
@@ -52,6 +52,6 @@
   "TOO_MANY_WEBHOOKS": "Este canal tiene demasiados webhooks. Elimina un webhook o muévelo a otro canal para hacer esto.",
   "ANOTHER_OWNED_WEBHOOK": "En este canal hay un webhook que poseo. Elimine este webhook o muévelo del canal.",
   "CAN_NOT_CREATE_THE_WEBHOOK": "Un error ocurrió mientras se intentaba de crear el webhook.",
-  "INVALID_GUILD": "The server you specified is invalid.",
+  "INVALID_GUILD_ID": "The guild ID you specified is invalid.",
   "MAX_VALUES_REACHED": "Esta acción no admite más de **{{values}}** valores."
 }
