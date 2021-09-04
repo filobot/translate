@@ -56,7 +56,7 @@
   "MEMBER_COUNTER_NICKNAME_SET": "Ha establecido el apodo del apodo contador de miembros correctamente.",
   "LOGGING_ENABLED_PROTIP": "Habilita o deshabilita eventos ejecutando este comando: **{{command}}**.",
   "SELECT_A_LOGGING_EVENT_CATEGORY": "Selecciona la categoría de eventos de registro que quieres {{status}}.",
-  "SELECT_A_LOGGING_EVENT_CATEGORY_SET_CHANNEL": "Select the event category you want to assign to this channel.",
+  "SELECT_A_LOGGING_EVENT_CATEGORY_SET_CHANNEL": "Selecciona la categoría de eventos que quieres asignar a este canal.",
   "LOGGING_EVENTS_CATEGORY_MENU": {
     "ALL_EVENTS": "Todos los eventos",
     "CHANNEL_EVENTS": "Eventos de canal",
