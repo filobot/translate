@@ -128,5 +128,8 @@
   "MISSING_TIME": "La acción que has especificado es temporal y requiere que se especifique el tiempo.",
   "LEVEL_ADDED_OR_REMOVED": "Has {{status}} correctamente el nivel **{{level}}**.",
   "TIME_SET": "Has establecido **{{time}}** ** para la acción del módulo **{{module}}**.",
-  "ACTION_DOES_NOT_APPLY": "La acción actual del módulo **{{module}}** no soporta esta configuración."
+  "ACTION_DOES_NOT_APPLY": "La acción actual del módulo **{{module}}** no soporta esta configuración.",
+  "UNKNOWN_LEVEL": "The level **{{level}}** doesn't exist.",
+  "LEVEL": "Level **{{level}}**",
+  "REQUIRES_WARNINGS": "Requires **{{warnings}}** warnings."
 }

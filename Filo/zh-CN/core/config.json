@@ -128,5 +128,8 @@
   "MISSING_TIME": "The action you specified is temporary and requires the time to be specified.",
   "LEVEL_ADDED_OR_REMOVED": "You have successfully {{status}} the level **{{level}}**.",
   "TIME_SET": "You have set **{{time}}** for the **{{module}}** module action.",
-  "ACTION_DOES_NOT_APPLY": "The current action of the **{{module}}** module doesn't support this configuration."
+  "ACTION_DOES_NOT_APPLY": "The current action of the **{{module}}** module doesn't support this configuration.",
+  "UNKNOWN_LEVEL": "The level **{{level}}** doesn't exist.",
+  "LEVEL": "Level **{{level}}**",
+  "REQUIRES_WARNINGS": "Requires **{{warnings}}** warnings."
 }
