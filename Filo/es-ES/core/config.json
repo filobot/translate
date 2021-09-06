@@ -11,7 +11,8 @@
     "LOGGING": "Registros",
     "ANTI_INVITES": "Anti invitaciones",
     "AUTO_MODERATION": "Auto moderación",
-    "ANTI_EVASION": "Anti evasión"
+    "ANTI_EVASION": "Anti evasión",
+    "ANTI_SPAM": "Anti Spam"
   },
   "SELECT_A_LANGUAGE": "Seleccione el idioma que quieres establecer para Filo.",
   "SELECT_A_LANGUAGE_MENU": "Selecciona el idioma de Filo.",
@@ -127,9 +128,12 @@
   "EXISTING_LEVEL": "Ya existe un nivel con el mismo número de advertencias.",
   "MISSING_TIME": "La acción que has especificado es temporal y requiere que se especifique el tiempo.",
   "LEVEL_ADDED_OR_REMOVED": "Has {{status}} correctamente el nivel **{{level}}**.",
-  "TIME_SET": "Has establecido **{{time}}** ** para la acción del módulo **{{module}}**.",
+  "LEVEL_DATA_SET": "You have modified the data of the level **{{level}}**.",
   "ACTION_DOES_NOT_APPLY": "La acción actual del módulo **{{module}}** no soporta esta configuración.",
   "UNKNOWN_LEVEL": "The level **{{level}}** doesn't exist.",
   "LEVEL": "Level **{{level}}**",
-  "REQUIRES_WARNINGS": "Requires **{{warnings}}** warnings."
+  "REQUIRES_WARNINGS": "Requires **{{warnings}}** warnings.",
+  "DUPLICATES_DATA_SET": "You have set that only **{{threshold}}** messages can be sent every **{{time}}**.",
+  "DUPLICATE_MESSAGES": "Duplicate messages",
+  "MESSAGES_ALLOWED_TIME": "**{{threshold}}** messages are allowed in **{{time}}**."
 }
