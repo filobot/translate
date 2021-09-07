@@ -11,7 +11,8 @@
     "LOGGING": "Logging",
     "ANTI_INVITES": "Anti invites",
     "AUTO_MODERATION": "Auto moderation",
-    "ANTI_EVASION": "Anti evasion"
+    "ANTI_EVASION": "Anti evasion",
+    "ANTI_SPAM": "Anti Spam"
   },
   "SELECT_A_LANGUAGE": "Select the language you want to set for Filo.",
   "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
@@ -127,9 +128,12 @@
   "EXISTING_LEVEL": "There is already a level with the same number of warnings.",
   "MISSING_TIME": "The action you specified is temporary and requires the time to be specified.",
   "LEVEL_ADDED_OR_REMOVED": "You have successfully {{status}} the level **{{level}}**.",
-  "TIME_SET": "You have set **{{time}}** for the **{{module}}** module action.",
+  "LEVEL_DATA_SET": "You have modified the data of the level **{{level}}**.",
   "ACTION_DOES_NOT_APPLY": "The current action of the **{{module}}** module doesn't support this configuration.",
   "UNKNOWN_LEVEL": "The level **{{level}}** doesn't exist.",
   "LEVEL": "Level **{{level}}**",
-  "REQUIRES_WARNINGS": "Requires **{{warnings}}** warnings."
+  "REQUIRES_WARNINGS": "Requires **{{warnings}}** warnings.",
+  "DUPLICATES_DATA_SET": "You have set that only **{{threshold}}** messages can be sent every **{{time}}**.",
+  "DUPLICATE_MESSAGES": "Duplicate messages",
+  "MESSAGES_ALLOWED_TIME": "**{{threshold}}** messages are allowed in **{{time}}**."
 }
