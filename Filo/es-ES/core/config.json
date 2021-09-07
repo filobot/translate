@@ -128,12 +128,12 @@
   "EXISTING_LEVEL": "Ya existe un nivel con el mismo número de advertencias.",
   "MISSING_TIME": "La acción que has especificado es temporal y requiere que se especifique el tiempo.",
   "LEVEL_ADDED_OR_REMOVED": "Has {{status}} correctamente el nivel **{{level}}**.",
-  "LEVEL_DATA_SET": "You have modified the data of the level **{{level}}**.",
+  "LEVEL_DATA_SET": "Has modificado los datos del nivel **{{level}}**.",
   "ACTION_DOES_NOT_APPLY": "La acción actual del módulo **{{module}}** no soporta esta configuración.",
-  "UNKNOWN_LEVEL": "The level **{{level}}** doesn't exist.",
-  "LEVEL": "Level **{{level}}**",
-  "REQUIRES_WARNINGS": "Requires **{{warnings}}** warnings.",
-  "DUPLICATES_DATA_SET": "You have set that only **{{threshold}}** messages can be sent every **{{time}}**.",
-  "DUPLICATE_MESSAGES": "Duplicate messages",
-  "MESSAGES_ALLOWED_TIME": "**{{threshold}}** messages are allowed in **{{time}}**."
+  "UNKNOWN_LEVEL": "El nivel **{{level}}** no existe.",
+  "LEVEL": "Nivel **{{level}}**",
+  "REQUIRES_WARNINGS": "Requiere **{{warnings}}** advertencias.",
+  "DUPLICATES_DATA_SET": "Has establecido que sólo **{{threshold}}** mensajes pueden ser enviados cada **{{time}}**.",
+  "DUPLICATE_MESSAGES": "Mensajes duplicados",
+  "MESSAGES_ALLOWED_TIME": "Se permiten **{{threshold}}** mensajes cada **{{time}}**."
 }
