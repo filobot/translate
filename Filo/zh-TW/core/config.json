@@ -1,18 +1,20 @@
 {
   "NAME_OF_MODULES": {
     "LANGUAGE": "Language",
-    "DISABLE_COMMANDS": "Disable commands",
+    "DISABLE_COMMANDS": "Disable Commands",
     "REPORTS": "Reports",
     "WELCOMES": "Welcomes",
-    "WELCOME_ROLE": "Welcome role",
+    "WELCOME_ROLE": "Welcome Role",
     "FAREWELLS": "Farewells",
-    "MEMBER_COUNTER": "Member counter",
-    "MEMBER_COUNTER_NICKNAME": "Member counter nickname",
+    "MEMBER_COUNTER": "Member Counter",
+    "MEMBER_COUNTER_NICKNAME": "Member Counter Nickname",
     "LOGGING": "Logging",
-    "ANTI_INVITES": "Anti invites",
-    "AUTO_MODERATION": "Auto moderation",
-    "ANTI_EVASION": "Anti evasion",
-    "ANTI_SPAM": "Anti Spam"
+    "ANTI_INVITES": "Anti Invites",
+    "AUTO_MODERATION": "Auto Moderation",
+    "ANTI_EVASION": "Anti Evasion",
+    "ANTI_SPAM": "Anti Spam",
+    "ANTI_MASS_MENTIONS": "Anti Mass Mentions",
+    "ANTI_REPEATED_TEXT": "Anti Repeated Text"
   },
   "SELECT_A_LANGUAGE": "Select the language you want to set for Filo.",
   "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
@@ -135,5 +137,8 @@
   "REQUIRES_WARNINGS": "Requires **{{warnings}}** warnings.",
   "DUPLICATES_DATA_SET": "You have set that only **{{threshold}}** messages can be sent every **{{time}}**.",
   "DUPLICATE_MESSAGES": "Duplicate messages",
-  "MESSAGES_ALLOWED_TIME": "**{{threshold}}** messages are allowed in **{{time}}**."
+  "MESSAGES_ALLOWED_TIME": "**{{threshold}}** messages are allowed in **{{time}}**.",
+  "MASS_MENTIONS_SET": "You have set **{{threshold}}** allowed mentions.",
+  "ALLOWED_MENTIONS": "Allowed mentions",
+  "MENTIONS_ARE_ALLOWED": "**{{threshold}}** mentions are allowed."
 }
