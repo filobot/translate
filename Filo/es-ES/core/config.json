@@ -14,7 +14,9 @@
     "ANTI_EVASION": "Anti Evasion",
     "ANTI_SPAM": "Anti Spam",
     "ANTI_MASS_MENTIONS": "Anti Mass Mentions",
-    "ANTI_REPEATED_TEXT": "Anti Repeated Text"
+    "ANTI_REPEATED_TEXT": "Anti Repeated Text",
+    "ANTI_BAD_WORDS": "Anti Bad Words",
+    "ANTI_EXTERNAL_LINKS": "Anti External Links"
   },
   "SELECT_A_LANGUAGE": "Seleccione el idioma que quieres establecer para Filo.",
   "SELECT_A_LANGUAGE_MENU": "Selecciona el idioma de Filo.",
@@ -140,5 +142,21 @@
   "MESSAGES_ALLOWED_TIME": "Se permiten **{{threshold}}** mensajes cada **{{time}}**.",
   "MASS_MENTIONS_SET": "You have set **{{threshold}}** allowed mentions.",
   "ALLOWED_MENTIONS": "Allowed mentions",
-  "MENTIONS_ARE_ALLOWED": "**{{threshold}}** mentions are allowed."
+  "MENTIONS_ARE_ALLOWED": "**{{threshold}}** mentions are allowed.",
+  "BAD_WORD_ADDED_OR_REMOVED": "You have {{status}} the word **{{word}}** as a bad word.",
+  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "You have **{{status}}** the aggressive bad word detection filter.",
+  "BAD_WORDS": "Bad words",
+  "AGGRESSIVE_FILTER": "Aggressive filter",
+  "DISCORD_LINKS_IGNORE_DISABLE": "Links from Discord-managed domains will not be ignored now.",
+  "DISCORD_LINKS_IGNORE_ENABLE": "Links from Discord-managed domains will now be ignored.",
+  "FILO_LINKS_IGNORE_DISABLE": "Links from Filo-managed domains will not be ignored now.",
+  "FILO_LINKS_IGNORE_ENABLE": "Links from Filo-managed domains will now be ignored.",
+  "ENABLE_FILO_LINKS_BYPASS": "Enable the bypass to Filo links by executing this command: **{{command}}**.",
+  "ENABLE_DISCORD_LINKS_BYPASS": "Enable the bypass to Discord links by executing this command: **{{command}}**.",
+  "DISABLE_FILO_LINKS_BYPASS": "Disable the bypass to Filo links by executing this command: **{{command}}**.",
+  "DISABLE_DISCORD_LINKS_BYPASS": "Disable the bypass to Discord links by executing this command: **{{command}}**.",
+  "LINK_BYPASS_ADDED_OR_REMOVED": "You have {{status}} the **{{link}}** link to the list of ignored links.",
+  "IGNORE_DISCORD_LINKS": "Ignore Discord links",
+  "IGNORE_FILO_LINKS": "Ignore Filo links",
+  "IGNORED_LINKS": "Ignored links"
 }
