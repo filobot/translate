@@ -53,5 +53,8 @@
   "ANOTHER_OWNED_WEBHOOK": "In this channel there is a webhook which I own. Delete this webhook or move it from the channel.",
   "CAN_NOT_CREATE_THE_WEBHOOK": "An error occurred while trying to create the webhook.",
   "INVALID_GUILD_ID": "The guild ID you specified is invalid.",
-  "MAX_VALUES_REACHED": "This action doesn't support more than **{{values}}** values."
+  "MAX_VALUES_REACHED": "This action doesn't support more than **{{values}}** values.",
+  "INVALID_PROTOCOL": "The protocol of this link isn't supported. Make sure to specify the **{{protocol}}** protocol.",
+  "INVALID_LINK": "The link you have specified isn't valid.",
+  "PROTECTED_DOMAIN": "This domain is protected and doesn't allow this action."
 }
