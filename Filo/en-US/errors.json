@@ -56,5 +56,6 @@
   "MAX_VALUES_REACHED": "This action doesn't support more than **{{values}}** values.",
   "INVALID_PROTOCOL": "The protocol of this link isn't supported. Make sure to specify the **{{protocol}}** protocol.",
   "INVALID_LINK": "The link you have specified isn't valid.",
-  "PROTECTED_DOMAIN": "This domain is protected and doesn't allow this action."
+  "PROTECTED_DOMAIN": "This domain is protected and doesn't allow this action.",
+  "NOT_ENOUGH_CREDITS": "You don't have enough credits to perform this action."
 }
