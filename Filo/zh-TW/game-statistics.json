@@ -1,0 +1,21 @@
+{
+  "VIEWING_THE_PLAYER_STATISTICS": "Viewing **{{ign}}**'s statistics",
+  "IGN": "In Game Nick",
+  "UUID": "UUID",
+  "ARCHIVEMENTS_UNLOCKED": "Achievements unlocked",
+  "GENERAL_STATISTICS": "General statistics",
+  "KILLS": "Kills",
+  "MELEE_KILLS": "Melee kills",
+  "DEATHS": "Deaths",
+  "HEADSHOTS": "Headshots",
+  "WINS": "Wins",
+  "MVP": "MVP",
+  "ROUNDS_PLAYED": "Rounds played",
+  "TOTAL_DAMAGE_INFLICTED": "Total damage inflicted",
+  "PLANTED_BOMBS": "Planted bombs",
+  "DEACTIVATED_BOMBS": "Deactivated bombs",
+  "HOSTAGE_EXTRACTIONS": "Hostage extractions",
+  "KILL_STATISTICS": "Kill statistics",
+  "HE_GRENADES": "HE grenades",
+  "ENEMY_WEAPONS": "Enemy weapons"
+}
