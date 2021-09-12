@@ -57,5 +57,5 @@
   "INVALID_PROTOCOL": "El protocolo de este enlace no es compatible. Asegúrate de especificar el protocolo **{{protocol}}.",
   "INVALID_LINK": "El enlace que has especificado no es válido.",
   "PROTECTED_DOMAIN": "Este dominio está protegido y no permite esta acción.",
-  "NOT_ENOUGH_CREDITS": "You don't have enough credits to perform this action."
+  "NOT_ENOUGH_CREDITS": "No tienes créditos suficientes para realizar esta acción."
 }
