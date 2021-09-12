@@ -24,6 +24,7 @@
   "CREATION_DATE": "Creation date",
   "EDITION_DATE": "Edition date",
   "EXPIRATION_DATE": "Expiration date",
+  "TIME": "Time",
   "AUTHOR": "Author",
   "AUTHORS": "Authors",
   "ADDITIONAL_INFORMATION": "Additional information",
@@ -61,5 +62,6 @@
   "EMBED": "Embed",
   "NORMAL": "Normal",
   "AND": "And",
-  "NAME": "Name"
+  "NAME": "Name",
+  "THRESHOLD": "Threshold"
 }
