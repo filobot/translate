@@ -3,8 +3,6 @@ files:
     translation: /Filo/%locale%/%original_file_name%
   - source: /Filo/en-US/administration/*.json
     translation: /Filo/%locale%/administration/%original_file_name%
-  #- source: /Filo/en-US/animals/*.json
-  #  translation: /Filo/%locale%/animals/%original_file_name%
   - source: /Filo/en-US/anime/*.json
     translation: /Filo/%locale%/anime/%original_file_name%
   - source: /Filo/en-US/core/*.json
@@ -13,25 +11,3 @@ files:
     translation: /Filo/%locale%/fun/%original_file_name%
   - source: /Filo/en-US/economy/*.json
     translation: /Filo/%locale%/economy/%original_file_name%
-  #- source: /Filo/en-US/game-statistics/*.json
-  #  translation: /Filo/%locale%/game-statistics/%original_file_name%
-  #- source: /Filo/en-US/games/*.json
-  #  translation: /Filo/%locale%/games/%original_file_name%
-  #- source: /Filo/en-US/interaction/*.json
-  #  translation: /Filo/%locale%/interaction/%original_file_name%
-  #- source: /Filo/en-US/minecraft/*.json
-  #  translation: /Filo/%locale%/minecraft/%original_file_name%
-  #- source: /Filo/en-US/miscellaneous/*.json
-  #  translation: /Filo/%locale%/miscellaneous/%original_file_name%
-  #- source: /Filo/en-US/moderation/*.json
-  #  translation: /Filo/%locale%/moderation/%original_file_name%
-  #- source: /Filo/en-US/reaction/*.json
-  #  translation: /Filo/%locale%/reaction/%original_file_name%
-  #- source: /Filo/en-US/server/*.json
-  #  translation: /Filo/%locale%/server/%original_file_name%
-  #- source: /Filo/en-US/social/*.json
-  #  translation: /Filo/%locale%/social/%original_file_name%
-  #- source: /Filo/en-US/temporary-commands/*.json
-  #  translation: /Filo/%locale%/temporary-commands/%original_file_name%
-  #- source: /Filo/en-US/nsfw/*.json
-  #  translation: /Filo/%locale%/nsfw/%original_file_name%
