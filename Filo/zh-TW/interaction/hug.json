@@ -1,0 +1,3 @@
+{
+  "INTERACTION_SENT": "**{{user.username}}** hugs **{{user2.username}}**!"
+}
