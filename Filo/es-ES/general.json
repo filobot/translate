@@ -64,8 +64,8 @@
   "AND": "Y",
   "NAME": "Nombre",
   "THRESHOLD": "Umbral",
-  "QUESTION": "Question",
-  "ANSWER": "Answer",
-  "WON": "Won",
-  "LOST": "Lost"
+  "QUESTION": "Pregunta",
+  "ANSWER": "Respuesta",
+  "WON": "Ganado",
+  "LOST": "Perdido"
 }
