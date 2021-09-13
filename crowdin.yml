@@ -15,10 +15,10 @@ files:
     translation: /Filo/%locale%/economy/%original_file_name%
   #- source: /Filo/en-US/game-statistics/*.json
   #  translation: /Filo/%locale%/game-statistics/%original_file_name%
-  #- source: /Filo/en-US/interaction/*.json
-  #  translation: /Filo/%locale%/interaction/%original_file_name%
-  #  - source: /Filo/en-US/games/*.json
-  #  translation: /Filo/%locale%/games/%original_file_name%
+  - source: /Filo/en-US/games/*.json
+  translation: /Filo/%locale%/games/%original_file_name%
+  - source: /Filo/en-US/interaction/*.json
+    translation: /Filo/%locale%/interaction/%original_file_name%
   #- source: /Filo/en-US/minecraft/*.json
   #  translation: /Filo/%locale%/minecraft/%original_file_name%
   #- source: /Filo/en-US/miscellaneous/*.json
