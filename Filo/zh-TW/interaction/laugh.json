@@ -1,0 +1,3 @@
+{
+  "INTERACTION_SENT": "**{{user.username}}** laughed at **{{user2.username}}**!"
+}
