@@ -1,0 +1,3 @@
+{
+  "INTERACTION_SENT": "¡**{{user.username}}** ha usado una carta inversa con **{{user2.username}}**!"
+}

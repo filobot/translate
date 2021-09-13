@@ -1,0 +1,3 @@
+{
+  "INTERACTION_SENT": "¡**{{user.username}}** hace cosquillas a **{{user2.username}}**!"
+}
