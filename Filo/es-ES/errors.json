@@ -53,5 +53,9 @@
   "ANOTHER_OWNED_WEBHOOK": "En este canal hay un webhook que poseo. Elimine este webhook o muévelo del canal.",
   "CAN_NOT_CREATE_THE_WEBHOOK": "Un error ocurrió mientras se intentaba de crear el webhook.",
   "INVALID_GUILD_ID": "La ID del gremio que has especificado no es válida.",
-  "MAX_VALUES_REACHED": "Esta acción no admite más de **{{values}}** valores."
+  "MAX_VALUES_REACHED": "Esta acción no admite más de **{{values}}** valores.",
+  "INVALID_PROTOCOL": "El protocolo de este enlace no es compatible. Asegúrate de especificar el protocolo **{{protocol}}.",
+  "INVALID_LINK": "El enlace que has especificado no es válido.",
+  "PROTECTED_DOMAIN": "Este dominio está protegido y no permite esta acción.",
+  "NOT_ENOUGH_CREDITS": "No tienes créditos suficientes para realizar esta acción."
 }
