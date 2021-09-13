@@ -63,5 +63,9 @@
   "NORMAL": "Normal",
   "AND": "And",
   "NAME": "Name",
-  "THRESHOLD": "Threshold"
+  "THRESHOLD": "Threshold",
+  "QUESTION": "Question",
+  "ANSWER": "Answer",
+  "WON": "Won",
+  "LOST": "Lost"
 }
