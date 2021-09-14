@@ -1,0 +1,3 @@
+{
+  "INTERACTION_SENT": "**{{user.username}}** bites **{{user2.username}}**!"
+}

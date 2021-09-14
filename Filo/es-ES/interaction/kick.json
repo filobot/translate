@@ -1,0 +1,3 @@
+{
+  "INTERACTION_SENT": "¡**{{user.username}}** patea a **{{user2.username}}**!"
+}
