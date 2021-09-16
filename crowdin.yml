@@ -21,10 +21,12 @@ files:
     translation: /Filo/%locale%/interaction/%original_file_name%
   - source: /Filo/en-US/minecraft/*.json
     translation: /Filo/%locale%/minecraft/%original_file_name%
-  #- source: /Filo/en-US/miscellaneous/*.json
-  #  translation: /Filo/%locale%/miscellaneous/%original_file_name%
+  - source: /Filo/en-US/miscellaneous/*.json
+    translation: /Filo/%locale%/miscellaneous/%original_file_name%
   #- source: /Filo/en-US/moderation/*.json
   #  translation: /Filo/%locale%/moderation/%original_file_name%
+  - source: /Filo/en-US/nsfw/*.json
+    translation: /Filo/%locale%/nsfw/%original_file_name%
   #- source: /Filo/en-US/reaction/*.json
   #  translation: /Filo/%locale%/reaction/%original_file_name%
   #- source: /Filo/en-US/server/*.json
@@ -33,5 +35,3 @@ files:
   #  translation: /Filo/%locale%/social/%original_file_name%
   #- source: /Filo/en-US/temporary-commands/*.json
   #  translation: /Filo/%locale%/temporary-commands/%original_file_name%
-  #- source: /Filo/en-US/nsfw/*.json
-  #  translation: /Filo/%locale%/nsfw/%original_file_name%
