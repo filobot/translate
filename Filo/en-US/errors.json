@@ -57,5 +57,6 @@
   "INVALID_PROTOCOL": "The protocol of this link isn't supported. Make sure to specify the **{{protocol}}** protocol.",
   "INVALID_LINK": "The link you have specified isn't valid.",
   "PROTECTED_DOMAIN": "This domain is protected and doesn't allow this action.",
-  "NOT_ENOUGH_CREDITS": "You don't have enough credits to perform this action."
+  "NOT_ENOUGH_CREDITS": "You don't have enough credits to perform this action.",
+  "MAX_CHARACTERS_REACHED": "The result of this action exceeds the **{{limit}}** character limit."
 }
