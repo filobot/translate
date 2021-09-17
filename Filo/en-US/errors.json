@@ -58,5 +58,9 @@
   "INVALID_LINK": "The link you have specified isn't valid.",
   "PROTECTED_DOMAIN": "This domain is protected and doesn't allow this action.",
   "NOT_ENOUGH_CREDITS": "You don't have enough credits to perform this action.",
-  "MAX_CHARACTERS_REACHED": "The result of this action exceeds the **{{limit}}** character limit."
+  "MAX_CHARACTERS_REACHED": "The result of this action exceeds the **{{limit}}** character limit.",
+  "MISSING_ARGUMENTS": "You must specify at least **{{number}}** optional arguments to continue.",
+  "MUTED_ROLE_NOT_CONFIGURED": "The **muted role** isn't configured.",
+  "MUTED_ROLE_NOT_CONFIGURED_TIP": "Configure it by executing this command: **{{command}}**.",
+  "UNKNOWN_MUTED_ROLE": "The **muted role** could not be found. Check the Filo settings and try again later."
 }
