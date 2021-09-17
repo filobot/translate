@@ -16,7 +16,9 @@
     "ANTI_MASS_MENTIONS": "Anti Menciones Masivas",
     "ANTI_REPEATED_TEXT": "Anti Texto Repetido",
     "ANTI_BAD_WORDS": "Anti Malas Palabras",
-    "ANTI_EXTERNAL_LINKS": "Anti Enlaces Externos"
+    "ANTI_EXTERNAL_LINKS": "Anti Enlaces Externos",
+    "GUILD_ROLES": "Guild roles",
+    "MUTED_ROLE": "Muted role"
   },
   "SELECT_A_LANGUAGE": "Seleccione el idioma que quieres establecer para Filo.",
   "SELECT_A_LANGUAGE_MENU": "Selecciona el idioma de Filo.",
@@ -158,5 +160,8 @@
   "LINK_BYPASS_ADDED_OR_REMOVED": "Has {{status}} el enlace **{{link}}** a la lista de enlaces ignorados.",
   "IGNORE_DISCORD_LINKS": "Ignorar enlaces de Discord",
   "IGNORE_FILO_LINKS": "Ignorar enlaces de Filo",
-  "IGNORED_LINKS": "Enlaces ignorados"
+  "IGNORED_LINKS": "Enlaces ignorados",
+  "MUTED_ROLE_SET": "You have successfully set the **Muted** role.",
+  "ROLE_REMOVED": "You have removed all the parameters from the **{{role.mention}}** ({{role.id}}) role.",
+  "BITFIELD_SET": "You have set the **[permissions]({{url}})** for the **{{role.mention}}** ({{role.id}}) role."
 }
