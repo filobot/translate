@@ -60,7 +60,9 @@
   "NOT_ENOUGH_CREDITS": "You don't have enough credits to perform this action.",
   "MAX_CHARACTERS_REACHED": "The result of this action exceeds the **{{limit}}** character limit.",
   "MISSING_ARGUMENTS": "You must specify at least **{{number}}** optional arguments to continue.",
-  "MUTED_ROLE_NOT_CONFIGURED": "The **muted role** isn't configured.",
+  "MUTED_ROLE_NOT_CONFIGURED": "The **muted** role isn't configured.",
   "MUTED_ROLE_NOT_CONFIGURED_TIP": "Configure it by executing this command: **{{command}}**.",
-  "UNKNOWN_MUTED_ROLE": "The **muted role** could not be found. Check the Filo settings and try again later."
+  "UNKNOWN_MUTED_ROLE": "The **muted** role could not be found. Check the Filo settings and try again later.",
+  "ROLE_DOES_NOT_APPLY": "This role can't be used for this action.",
+  "INVALID_BITFIELD": "The permission bits you specified are invalid."
 }
