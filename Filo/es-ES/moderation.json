@@ -2,6 +2,7 @@
   "RESPONSIBLE": "Responsable",
   "REASON": "Razón",
   "UNKNOWN_REASON": "Razón desconocida",
+  "DEFAULT_REASON": "The moderator hasn't specified any reason.",
   "CASE_ID": "ID del caso",
   "PROOF": "Prueba",
   "SANCTION_RESPONSE": "Has {{sanction}} a **[{{user.tag}}]({{url}})** ({{user.id}}) correctamente.",
@@ -32,5 +33,10 @@
     "TEMPORARILY_MUTED": "Silenciado temporalmente",
     "UNMUTE": "Dessilenciar",
     "UNMUTED": "Dessilenciado"
-  }
+  },
+  "CASE_NUMBER": "Case **#{{case.case}}**",
+  "SANCTIONED_USER": "Sanctioned user",
+  "SANCTION_TYPE": "Sanction type",
+  "NO_EXPIRES": "No expires",
+  "CASE_REMOVED": "Case removed"
 }
