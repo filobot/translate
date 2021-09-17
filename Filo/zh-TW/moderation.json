@@ -2,6 +2,7 @@
   "RESPONSIBLE": "負責人",
   "REASON": "原因",
   "UNKNOWN_REASON": "原因不明",
+  "DEFAULT_REASON": "The moderator hasn't specified any reason.",
   "CASE_ID": "個案 ID",
   "PROOF": "Proof",
   "SANCTION_RESPONSE": "You have {{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) correctly.",
@@ -32,5 +33,10 @@
     "TEMPORARILY_MUTED": "Temporarily muted",
     "UNMUTE": "Unmute",
     "UNMUTED": "Unmuted"
-  }
+  },
+  "CASE_NUMBER": "Case **#{{case.case}}**",
+  "SANCTIONED_USER": "Sanctioned user",
+  "SANCTION_TYPE": "Sanction type",
+  "NO_EXPIRES": "No expires",
+  "CASE_REMOVED": "Case removed"
 }
