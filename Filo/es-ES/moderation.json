@@ -5,7 +5,7 @@
   "DEFAULT_REASON": "The moderator hasn't specified any reason.",
   "CASE_ID": "ID del caso",
   "PROOF": "Prueba",
-  "SANCTION_RESPONSE": "Has {{sanction}} a **[{{user.tag}}]({{url}})** ({{user.id}}) correctamente.",
+  "SANCTION_RESPONSE": "You have {{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) successfully.",
   "SANCTION_RESPONSE_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}) ha sido {{sanction}} del gremio.",
   "SANCTION_NOTIFICATION": {
     "TITLE": "¡Has sido {{sanction}} del gremio **{{guild.name}}**!",
