@@ -17,6 +17,8 @@
     "DELETE_MESSAGE": "Eliminar mensaje",
     "WARN": "Advertir",
     "WARNED": "Advertido",
+    "UNWARN": "Unwarn",
+    "UNWARNED": "Unwarned",
     "KICK": "Expulsar",
     "KICKED": "Expulsado",
     "BAN": "Prohibir",
