@@ -2,10 +2,10 @@
   "RESPONSIBLE": "Responsable",
   "REASON": "Razón",
   "UNKNOWN_REASON": "Razón desconocida",
-  "DEFAULT_REASON": "The moderator hasn't specified any reason.",
+  "DEFAULT_REASON": "El moderador no ha especificado ninguna razón.",
   "CASE_ID": "ID del caso",
   "PROOF": "Prueba",
-  "SANCTION_RESPONSE": "You have {{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) successfully.",
+  "SANCTION_RESPONSE": "Has {{sanction}} a **[{{user.tag}}]({{url}})** ({{user.id}}) correctamente.",
   "SANCTION_RESPONSE_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}) ha sido {{sanction}} del gremio.",
   "SANCTION_NOTIFICATION": {
     "TITLE": "¡Has sido {{sanction}} del gremio **{{guild.name}}**!",
@@ -17,8 +17,8 @@
     "DELETE_MESSAGE": "Eliminar mensaje",
     "WARN": "Advertir",
     "WARNED": "Advertido",
-    "UNWARN": "Unwarn",
-    "UNWARNED": "Unwarned",
+    "UNWARN": "Desadvertir",
+    "UNWARNED": "Desadvertido",
     "KICK": "Expulsar",
     "KICKED": "Expulsado",
     "BAN": "Prohibir",
@@ -36,9 +36,9 @@
     "UNMUTE": "Dessilenciar",
     "UNMUTED": "Dessilenciado"
   },
-  "CASE_NUMBER": "Case **#{{case.case}}**",
-  "SANCTIONED_USER": "Sanctioned user",
-  "SANCTION_TYPE": "Sanction type",
-  "NO_EXPIRES": "No expires",
-  "CASE_REMOVED": "Case removed"
+  "CASE_NUMBER": "Caso **#{{case.case}}**",
+  "SANCTIONED_USER": "Usuario sancionado",
+  "SANCTION_TYPE": "Tipo de sanción",
+  "NO_EXPIRES": "No expira",
+  "CASE_REMOVED": "Caso eliminado"
 }
