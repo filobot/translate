@@ -67,5 +67,6 @@
   "QUESTION": "Question",
   "ANSWER": "Answer",
   "WON": "Won",
-  "LOST": "Lost"
+  "LOST": "Lost",
+  "RATING": "Rating"
 }

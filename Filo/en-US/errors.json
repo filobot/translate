@@ -68,5 +68,6 @@
   "USER_ALREADY_SANCTIONED": "**{{user.tag}}** ({{user.id}}) already has a sanction of the same type active.",
   "USER_IS_NOT_SANCTIONED": "**{{user.tag}}** ({{user.id}}) has no active sanction of this type.",
   "UNKNOWN_SANCTION": "No such sanction could be found in the database.",
-  "UNKNOWN_SANCTION_REMOVE_TIP": "Force removal of this sanction by executing this command: **{{command}}**."
+  "UNKNOWN_SANCTION_REMOVE_TIP": "Force removal of this sanction by executing this command: **{{command}}**.",
+  "MAX_NUMBER_OF_ROLES_REACHED": "This server has reached the limit of **{{roles}}** roles."
 }
