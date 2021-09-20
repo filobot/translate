@@ -57,5 +57,17 @@
   "INVALID_PROTOCOL": "The protocol of this link isn't supported. Make sure to specify the **{{protocol}}** protocol.",
   "INVALID_LINK": "The link you have specified isn't valid.",
   "PROTECTED_DOMAIN": "This domain is protected and doesn't allow this action.",
-  "NOT_ENOUGH_CREDITS": "You don't have enough credits to perform this action."
+  "NOT_ENOUGH_CREDITS": "You don't have enough credits to perform this action.",
+  "MAX_CHARACTERS_REACHED": "The result of this action exceeds the **{{limit}}** character limit.",
+  "MISSING_ARGUMENTS": "You must specify at least **{{number}}** optional arguments to continue.",
+  "MUTED_ROLE_NOT_CONFIGURED": "The **muted** role isn't configured.",
+  "MUTED_ROLE_NOT_CONFIGURED_TIP": "Configure it by executing this command: **{{command}}**.",
+  "UNKNOWN_MUTED_ROLE": "The **muted** role couldn't be found. Check the Filo settings and try again later.",
+  "ROLE_DOES_NOT_APPLY": "This role can't be used for this action.",
+  "INVALID_BITFIELD": "The permission bits you specified are invalid.",
+  "USER_ALREADY_SANCTIONED": "**{{user.tag}}** ({{user.id}}) already has a sanction of the same type active.",
+  "USER_IS_NOT_SANCTIONED": "**{{user.tag}}** ({{user.id}}) has no active sanction of this type.",
+  "UNKNOWN_SANCTION": "No such sanction could be found in the database.",
+  "UNKNOWN_SANCTION_REMOVE_TIP": "Force removal of this sanction by executing this command: **{{command}}**.",
+  "MAX_NUMBER_OF_ROLES_REACHED": "This server has reached the limit of **{{roles}}** roles."
 }

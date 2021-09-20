@@ -2,9 +2,10 @@
   "RESPONSIBLE": "Responsible",
   "REASON": "Reason",
   "UNKNOWN_REASON": "Unknown reason",
+  "DEFAULT_REASON": "The moderator hasn't specified any reason.",
   "CASE_ID": "Case ID",
   "PROOF": "Proof",
-  "SANCTION_RESPONSE": "You have {{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) correctly.",
+  "SANCTION_RESPONSE": "You have {{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) successfully.",
   "SANCTION_RESPONSE_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}) has been {{sanction}} from the guild.",
   "SANCTION_NOTIFICATION": {
     "TITLE": "You have been {{sanction}} from the **{{guild.name}}** guild!",
@@ -16,6 +17,8 @@
     "DELETE_MESSAGE": "Delete message",
     "WARN": "Warn",
     "WARNED": "Warned",
+    "UNWARN": "Unwarn",
+    "UNWARNED": "Unwarned",
     "KICK": "Kick",
     "KICKED": "Kicked",
     "BAN": "Ban",
@@ -32,5 +35,10 @@
     "TEMPORARILY_MUTED": "Temporarily muted",
     "UNMUTE": "Unmute",
     "UNMUTED": "Unmuted"
-  }
+  },
+  "CASE_NUMBER": "Case **#{{case.case}}**",
+  "SANCTIONED_USER": "Sanctioned user",
+  "SANCTION_TYPE": "Sanction type",
+  "NO_EXPIRES": "No expires",
+  "CASE_REMOVED": "Case removed"
 }

@@ -2,6 +2,7 @@
   "RESPONSIBLE": "Responsable",
   "REASON": "Razón",
   "UNKNOWN_REASON": "Razón desconocida",
+  "DEFAULT_REASON": "El moderador no ha especificado ninguna razón.",
   "CASE_ID": "ID del caso",
   "PROOF": "Prueba",
   "SANCTION_RESPONSE": "Has {{sanction}} a **[{{user.tag}}]({{url}})** ({{user.id}}) correctamente.",
@@ -16,6 +17,8 @@
     "DELETE_MESSAGE": "Eliminar mensaje",
     "WARN": "Advertir",
     "WARNED": "Advertido",
+    "UNWARN": "Desadvertir",
+    "UNWARNED": "Desadvertido",
     "KICK": "Expulsar",
     "KICKED": "Expulsado",
     "BAN": "Prohibir",
@@ -32,5 +35,10 @@
     "TEMPORARILY_MUTED": "Silenciado temporalmente",
     "UNMUTE": "Dessilenciar",
     "UNMUTED": "Dessilenciado"
-  }
+  },
+  "CASE_NUMBER": "Caso **#{{case.case}}**",
+  "SANCTIONED_USER": "Usuario sancionado",
+  "SANCTION_TYPE": "Tipo de sanción",
+  "NO_EXPIRES": "No expira",
+  "CASE_REMOVED": "Caso eliminado"
 }

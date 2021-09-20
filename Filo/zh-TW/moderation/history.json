@@ -1,0 +1,5 @@
+{
+  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) doesn't have any sanction reflected in his history.",
+  "VIEWING_USER_HISTORY": "Viewing **{{user.username}}**'s sanction history",
+  "SANCITON_REMOVED": "This sanction was removed in case #**{{case.case}}**."
+}

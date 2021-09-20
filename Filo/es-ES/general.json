@@ -67,5 +67,6 @@
   "QUESTION": "Pregunta",
   "ANSWER": "Respuesta",
   "WON": "Ganado",
-  "LOST": "Perdido"
+  "LOST": "Perdido",
+  "RATING": "Calificación"
 }
