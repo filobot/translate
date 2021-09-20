@@ -27,10 +27,10 @@ files:
     translation: /Filo/%locale%/moderation/%original_file_name%
   - source: /Filo/en-US/nsfw/*.json
     translation: /Filo/%locale%/nsfw/%original_file_name%
-  #- source: /Filo/en-US/reaction/*.json
-  #  translation: /Filo/%locale%/reaction/%original_file_name%
-  #- source: /Filo/en-US/server/*.json
-  #  translation: /Filo/%locale%/server/%original_file_name%
+  - source: /Filo/en-US/reaction/*.json
+    translation: /Filo/%locale%/reaction/%original_file_name%
+  - source: /Filo/en-US/server/*.json
+    translation: /Filo/%locale%/server/%original_file_name%
   #- source: /Filo/en-US/social/*.json
   #  translation: /Filo/%locale%/social/%original_file_name%
   #- source: /Filo/en-US/temporary-commands/*.json
