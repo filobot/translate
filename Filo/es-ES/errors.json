@@ -62,7 +62,7 @@
   "MISSING_ARGUMENTS": "Debes especificar al menos **{{number}}** ** argumentos opcionales para continuar.",
   "MUTED_ROLE_NOT_CONFIGURED": "El rol **silenciado** no está configurado.",
   "MUTED_ROLE_NOT_CONFIGURED_TIP": "Configúralo ejecutando este comando: **{{command}}**.",
-  "UNKNOWN_MUTED_ROLE": "El rol **silenciado** no se ha encontrado. Comprueba la configuración de Filo e inténtalo de nuevo más tarde.",
+  "UNKNOWN_MUTED_ROLE": "The **muted** role couldn't be found. Check the Filo settings and try again later.",
   "ROLE_DOES_NOT_APPLY": "Este rol no puede ser usado para esta acción.",
   "INVALID_BITFIELD": "Los bits de permisos que especificaste no son válidos.",
   "USER_ALREADY_SANCTIONED": "**{{user.tag}}** ({{user.id}}) ya tiene una sanción del mismo tipo activa.",
