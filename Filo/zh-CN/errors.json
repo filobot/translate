@@ -62,7 +62,7 @@
   "MISSING_ARGUMENTS": "You must specify at least **{{number}}** optional arguments to continue.",
   "MUTED_ROLE_NOT_CONFIGURED": "The **muted** role isn't configured.",
   "MUTED_ROLE_NOT_CONFIGURED_TIP": "Configure it by executing this command: **{{command}}**.",
-  "UNKNOWN_MUTED_ROLE": "The **muted** role could not be found. Check the Filo settings and try again later.",
+  "UNKNOWN_MUTED_ROLE": "The **muted** role couldn't be found. Check the Filo settings and try again later.",
   "ROLE_DOES_NOT_APPLY": "This role can't be used for this action.",
   "INVALID_BITFIELD": "The permission bits you specified are invalid.",
   "USER_ALREADY_SANCTIONED": "**{{user.tag}}** ({{user.id}}) already has a sanction of the same type active.",
