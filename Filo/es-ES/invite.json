@@ -6,5 +6,6 @@
   "TEMPORARY_TRUE": "La invitación tiene una membresía temporal",
   "TEMPORARY_FALSE": "La invitación tiene una membresía completa",
   "ACTIVITY_TRUE": "La invitación pertenece a una actividad",
-  "ACTIVITY_FALSE": "La invitación no pertenece a una actividad"
+  "ACTIVITY_FALSE": "La invitación no pertenece a una actividad",
+  "MAXIMUM_PARTICIPANTS": "Maximum participants"
 }
