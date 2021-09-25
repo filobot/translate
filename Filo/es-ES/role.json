@@ -9,5 +9,10 @@
   "ROLE_HOIST_TRUE": "El rol se eleva",
   "ROLE_HOIST_FALSE": "El rol no se eleva",
   "ROLE_MENTIONABLE_TRUE": "El rol puede ser mencionado por todos",
-  "ROLE_MENTIONABLE_FALSE": "El rol sólo puede ser mencionado por los usuarios con el permiso ``{{permission}}``"
+  "ROLE_MENTIONABLE_FALSE": "El rol sólo puede ser mencionado por los usuarios con el permiso ``{{permission}}``",
+  "ROLE_TYPE": "Role type",
+  "NORMAL_ROLE": "Normal role",
+  "BOT_ROLE": "Bot role",
+  "INTEGRATION_ROLE": "Integration role",
+  "PREMIUM_ROLE": "Premium subcriber role"
 }
