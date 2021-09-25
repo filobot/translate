@@ -1,8 +1,10 @@
 {
   "CHANNEL": "Channel",
+  "CHANNELS": "Channels",
   "CHANNEL_TYPE": "Channel type",
   "CHANNEL_TYPES": {
     "GUILD_RULES": "Rules channel",
+    "GUILD_NEWS_DISCORD": "Discord news",
     "GUILD_TEXT": "Text channel",
     "GUILD_VOICE": "Voice channel",
     "GUILD_CATEGORY": "Category channel",
@@ -12,6 +14,7 @@
     "GUILD_PUBLIC_THREAD": "Public thread channel",
     "GUILD_PRIVATE_THREAD": "Private thread channel",
     "GUILD_STAGE_VOICE": "Stage channel",
+    "GUILD_AFK": "AFK channel",
     "UNKNOWN": "Unknown channel type"
   },
   "CHANNEL_POSITION": "Channel position",
