@@ -31,7 +31,7 @@ files:
     translation: /Filo/%locale%/reaction/%original_file_name%
   - source: /Filo/en-US/server/*.json
     translation: /Filo/%locale%/server/%original_file_name%
-  #- source: /Filo/en-US/social/*.json
-  #  translation: /Filo/%locale%/social/%original_file_name%
-  #- source: /Filo/en-US/temporary-commands/*.json
-  #  translation: /Filo/%locale%/temporary-commands/%original_file_name%
+  - source: /Filo/en-US/social/*.json
+    translation: /Filo/%locale%/social/%original_file_name%
+  - source: /Filo/en-US/utilities/*.json
+    translation: /Filo/%locale%/utilities/%original_file_name%
