@@ -1,6 +1,6 @@
 {
   "CHANNEL": "Canal",
-  "CHANNELS": "Channels",
+  "CHANNELS": "Canales",
   "CHANNEL_TYPE": "Tipo de canal",
   "CHANNEL_TYPES": {
     "GUILD_RULES": "Canal de reglas",
