@@ -69,8 +69,8 @@
   "WON": "Ganado",
   "LOST": "Perdido",
   "RATING": "Calificación",
-  "PERKS": "Perks",
-  "WITHOUT_PERKS": "Without perks",
-  "NOT_SETTED": "Not setted",
-  "TEXT": "Text"
+  "PERKS": "Ventajas",
+  "WITHOUT_PERKS": "Sin ventajas",
+  "NOT_SETTED": "No establecido",
+  "TEXT": "Texto"
 }
