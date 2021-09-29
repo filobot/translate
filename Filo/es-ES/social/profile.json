@@ -1,6 +1,6 @@
 {
-  "VIEWING_USER_PROFILE": "Viewing **{{user.username}}**'s profile",
-  "BADGES": "Badges",
-  "PREMIUM_DATE": "Premium date",
-  "CREDITS": "Credits"
+  "VIEWING_USER_PROFILE": "Viendo el perfil de **{{user.username}}**",
+  "BADGES": "Insignias",
+  "PREMIUM_DATE": "Fecha de premium",
+  "CREDITS": "Créditos"
 }
