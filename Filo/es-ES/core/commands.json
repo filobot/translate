@@ -163,7 +163,7 @@
       "HEAD": "Envía una render de la cara del jugador especificado",
       "SERVER": "Obtén el estado de un servidor de Minecraft",
       "SKIN": "Envía una render de la skin del jugador especificado",
-      "UUID": "Obtén el UUID de un jugador de minecraft"
+      "UUID": "Obtén el UUID de un jugador de Minecraft"
     },
     "MISCELLANEOUS": {
       "ASCII": "Convierta su texto a texto ASCII",
@@ -173,7 +173,7 @@
       "POLL": "Crea una encuesta en el canal actual",
       "RANDOM-COLOR": "Obtén la información básica de un color aleatorio",
       "RANDOM-NUMBER": "Obtén un número aleatorio",
-      "SAY": "Envía un mensaje usando Filo",
+      "SAY": "Envía un mensaje usando a Filo",
       "WEATHER": "Obtén el tiempo de una ubicación"
     },
     "MODERATION": {
@@ -249,7 +249,7 @@
     },
     "SETTINGS": {
       "ANTI-BAD-WORDS": "Módulo que te permite sancionar a los usuarios que envían malas palabras",
-      "ANTI-EVASION": "Módulo que te permite banear a los usuarios que intentan evadir una sanción activa",
+      "ANTI-EVASION": "Módulo que te permite prohibir a los usuarios que intentan evadir una sanción activa",
       "ANTI-EXTERNAL-LINKS": "Módulo que te permite sancionar a los usuarios que envían enlaces",
       "ANTI-INVITES": "Módulo que te permite sancionar a los usuarios que envían invitaciones de otros servidores",
       "ANTI-MASS-MENTIONS": "Módulo que te permite sancionar que los usuarios mencionen a demasiados usuarios",
