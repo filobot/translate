@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "You have purged **{{messages}}** messages from the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+}
