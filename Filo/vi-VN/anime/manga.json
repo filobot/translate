@@ -1,0 +1,22 @@
+{
+  "MANGA": "Manga",
+  "MANGAS": "Mangas",
+  "MANGA_TYPE": "Manga type",
+  "MANGA_TYPES": {
+    "MANGA": "Manga",
+    "NOVEL": "Novel",
+    "ONE_SHOT": "One-shot",
+    "DOUJINSHI": "Doujinshi",
+    "MANHWA": "Manhwa",
+    "MANHUA": "Manhua"
+  },
+  "MANGA_STATUS": {
+    "PUBLISHING": "Currently publishing",
+    "FINISHED": "Finished publishing",
+    "NOT_YET_PUBLISHED": "Not yet published"
+  },
+  "MANGA_VOLUMES": "Manga volumes",
+  "VOLUMES": "Volumes",
+  "CHAPTERS": "Chapters",
+  "PUBLISHED_DATE": "Published date"
+}
