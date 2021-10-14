@@ -88,14 +88,14 @@
       "RANDOM": "Hiện thông tin của một anime bất kì hoặc truyện tranh bất kì từ tìm kiếm của bạn",
       "TITAN": "Gửi một hình ảnh bất kì của một titan tới kênh hiện tại",
       "TRAP": "Gửi một hình ảnh bất kì của một trap tới kênh hiện tại",
-      "WAIFU": "Send a random image of a waifu on the current channel",
-      "WAIFUNEKO": "Send a random image of a waifu neko on the current channel"
+      "WAIFU": "Gửi một hình ảnh bất kì của một waifu tới kênh hiện tại",
+      "WAIFUNEKO": "Gửi một hình ảnh của một waifu neko tới kênh hiện tại"
     },
     "CORE": {
-      "CLUSTER": "Get information about the current Filo's cluster",
-      "COMMANDS": "Get the list of bot commands or information about a command",
-      "DISCORD": "Get the link to Filo's Discord Server",
-      "DONATE": "Get information about donations for the bot",
+      "CLUSTER": "Xem thông tin về cluster của Filo",
+      "COMMANDS": "Xem tất cả các lệnh của Filo hoặc thông tin về một lệnh",
+      "DISCORD": "Xem link dẫn tới server của Filo",
+      "DONATE": "Xem thông tin về việc quyên góp của Filo",
       "FLAGS": "Show your flags or that of another specific user",
       "GITHUB": "Get the link to Filo's GitHub",
       "HELP": "Get basic help on the bot",
