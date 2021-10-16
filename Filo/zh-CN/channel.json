@@ -12,7 +12,7 @@
     "GUILD_STORE": "Store channel",
     "GUILD_NEWS_THREAD": "News thread channel",
     "GUILD_PUBLIC_THREAD": "Public thread channel",
-    "GUILD_PRIVATE_THREAD": "Private thread channel",
+    "GUILD_PRIVATE_THREAD": "私有线程频道",
     "GUILD_STAGE_VOICE": "Stage channel",
     "GUILD_AFK": "AFK channel",
     "UNKNOWN": "Unknown channel type"
