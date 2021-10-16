@@ -1,7 +1,7 @@
 {
   "DEFAULT_REASONS": {
     "SANCTION_EXPIRED": "The sanction has expired.",
-    "ROLE_VIA": "身分組 {{action}} 經過 {{method}}.",
+    "ROLE_VIA": "Role {{action}} via {{method}}.",
     "CHANNEL_VIA": "Channel {{action}} via {{method}}.",
     "NICKNAME_VIA": "Nickname {{action}} via {{method}}.",
     "ANTI_EXTERNAL_LINKS_1": "The message you have sent contains a link.",
