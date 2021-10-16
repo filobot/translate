@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "Has {{action}} el modo NSFW en el canal **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+}

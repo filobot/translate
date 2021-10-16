@@ -1,0 +1,3 @@
+{
+  "INTERACTION_SENT": "¡**{{user.username}}** pega a **{{user2.username}}**!"
+}

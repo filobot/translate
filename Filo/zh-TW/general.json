@@ -68,5 +68,9 @@
   "ANSWER": "Answer",
   "WON": "Won",
   "LOST": "Lost",
-  "RATING": "Rating"
+  "RATING": "Rating",
+  "PERKS": "Perks",
+  "WITHOUT_PERKS": "Without perks",
+  "NOT_SETTED": "Not setted",
+  "TEXT": "Text"
 }

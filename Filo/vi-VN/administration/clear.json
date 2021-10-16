@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "Bạn đã xoá **{{messages}}** tin nhắn từ kênh **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+}

@@ -1,0 +1,9 @@
+{
+  "STAGE_INSTANCE": "Instancia de escenario",
+  "STAGE_INSTANCES": "Instancias de escenarios",
+  "STAGE_INSTANCE_PRIVACY_LEVEL": "Nivel de privacidad",
+  "PUBLIC_STAGE_INSTANCE": "Instancia de escenario pública",
+  "PRIVATE_STAGE_INSTANCE": "Instancia de escenario privada",
+  "DISCOVERABLE_DISABLED_TRUE": "La instancia de escenario no se puede descubrir",
+  "DISCOVERABLE_DISABLED_FALSE": "La instancia de escenario se puede descubrir"
+}

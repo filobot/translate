@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "Bạn đã {{action}} chế độ NSFW ở kênh **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+}

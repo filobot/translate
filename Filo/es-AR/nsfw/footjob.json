@@ -1,0 +1,3 @@
+{
+  "INTERACTION_RESPONSE": "**{{user.username}}** le hace una paja con los pies a **{{user2.username}}**"
+}
