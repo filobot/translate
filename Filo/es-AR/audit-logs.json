@@ -1,0 +1,22 @@
+{
+  "DEFAULT_REASONS": {
+    "SANCTION_EXPIRED": "The sanction has expired.",
+    "ROLE_VIA": "Role {{action}} via {{method}}.",
+    "CHANNEL_VIA": "Channel {{action}} via {{method}}.",
+    "NICKNAME_VIA": "Nickname {{action}} via {{method}}.",
+    "ANTI_EXTERNAL_LINKS_1": "The message you have sent contains a link.",
+    "ANTI_EXTERNAL_LINKS_2": "The message you have updated contains a link.",
+    "ANTI_INVITES_1": "The message you have sent contains a guild invite.",
+    "ANTI_INVITES_2": "The message you have updated contains a guild invite.",
+    "ANTI_REPEATED_TEXT_1": "The message you have sent contains repeated text.",
+    "ANTI_REPEATED_TEXT_2": "The message you have updated contains repeated text.",
+    "ANTI_MASS_MENTIONS_1": "The message you have sent contains too many mentions.",
+    "ANTI_MASS_MENTIONS_2": "The message you have updated contains too many mentions.",
+    "ANTI_SPAM_1": "The message you have sent is very similar to the previous ones.",
+    "ANTI_SPAM_2": "Sending too many messages in a short time.",
+    "ANTI_BAD_WORDS_1": "The message you have sent contains bad words.",
+    "ANTI_BAD_WORDS_2": "The message you have updated contains bad words.",
+    "ANTI_EVASION": "The user has left the guild to evade an active sanction.",
+    "AUTO_MODERATION": "Reach **{{warns}}** active warnings."
+  }
+}
