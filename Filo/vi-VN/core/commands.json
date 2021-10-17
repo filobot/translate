@@ -18,6 +18,7 @@
     "PRIVATE": "Riêng tư",
     "REACTION": "Biểu cảm",
     "SERVER": "Server",
+    "SETTINGS": "Settings",
     "SOCIAL": "Cộng đồng",
     "UTILITIES": "Tiện ích"
   },
@@ -37,6 +38,7 @@
     "NSFW": "Những lệnh hay cho người dùng.",
     "REACTION": "Những lệnh để biểu thị cảm xúc thông qua hình động.",
     "SERVER": "Những lệnh về thông tin hoặc tiện ích của server.",
+    "SETTINGS": "Commands to configure Filo.",
     "SOCIAL": "Những lệnh dành cho cộng đồng.",
     "UTILITIES": "Những lệnh về tiện ích.",
     "DEVELOPER": "Những lệnh dành cho nhà phát triển.",
