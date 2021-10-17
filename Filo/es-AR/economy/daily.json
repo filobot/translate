@@ -1,4 +1,0 @@
-{
-  "DAILY_CLAIMED": "**{{user.tag}}** ({{user.id}}), ¡has recibido tus **{{credits}}** créditos diarios!",
-  "DAILY_CLAIMED_ALTERNATIVE": "**{{user.tag}}** ({{user.id}}), has dado tu **{{credits}}** créditos diarios a **{{user2.tag}}** ({{user2.id}})."
-}

@@ -1,3 +1,0 @@
-{
-  "COMPLETED": "Has establecido **{{time}}** como el tiempo de espera en el canal **[#{{channel.name}}]({{url}})**."
-}
