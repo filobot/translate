@@ -156,7 +156,7 @@
       "TICKLE": "Biểu cảm thọc lét"
     },
     "MINECRAFT": {
-      "BODY": "Send a render of the specified player's body",
+      "BODY": "Gửi một hình ảnh của body của một người chơi trong Minecraft",
       "BUST": "Gửi một hình ảnh của bust của một người chơi Minecraft",
       "FACE": "Gửi một hình ảnh của mặt của một người chơi Minecraft",
       "FRONT": "Gửi một hình ảnh phần trước của một người chơi trong Minecraft",
