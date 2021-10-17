@@ -18,7 +18,7 @@
     "PRIVATE": "Privado",
     "REACTION": "Reacción",
     "SERVER": "Servidor",
-    "SETTINGS": "Settings",
+    "SETTINGS": "Configuraciones",
     "SOCIAL": "Social",
     "UTILITIES": "Utilidades"
   },
@@ -38,7 +38,7 @@
     "NSFW": "Comandos picantes para los usuarios.",
     "REACTION": "Comandos para reaccionar a través de gifs de anime.",
     "SERVER": "Comandos de información o utilidades del servidor.",
-    "SETTINGS": "Commands to configure Filo.",
+    "SETTINGS": "Comandos para configurar a Filo.",
     "SOCIAL": "Comandos sociales.",
     "UTILITIES": "Comandos de utilidad.",
     "DEVELOPER": "Comandos del desarrollador.",
