@@ -16,6 +16,7 @@
     "ANTI_SPAM_2": "Sending too many messages in a short time.",
     "ANTI_BAD_WORDS_1": "The message you have sent contains bad words.",
     "ANTI_BAD_WORDS_2": "The message you have updated contains bad words.",
-    "ANTI_EVASION": "The user has left the guild to evade an active sanction."
+    "ANTI_EVASION": "The user has left the guild to evade an active sanction.",
+    "AUTO_MODERATION": "Reach {{warns}} active warnings."
   }
 }
