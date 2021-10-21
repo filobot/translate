@@ -1,3 +1,3 @@
 {
-  "INTERACTION_SENT": "**{{user.username}}** feeds **{{user2.username}}**!"
+  "INTERACTION_SENT": "**{{user.username}}** đút **{{user2.username}}** ăn!"
 }

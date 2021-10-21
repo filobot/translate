@@ -1,4 +1,4 @@
 {
-  "DAILY_CLAIMED": "**{{user.tag}}** ({{user.id}}), you have received your **{{credits}}** daily credits!",
-  "DAILY_CLAIMED_ALTERNATIVE": "**{{user.tag}}** ({{user.id}}), you have given away your **{{credits}}** daily credits to **{{user2.tag}}** ({{user2.id}})."
+  "DAILY_CLAIMED": "**{{user.tag}}** ({{user.id}}), bạn đã nhận được **{{credits}}** tiền hàng ngày!",
+  "DAILY_CLAIMED_ALTERNATIVE": "**{{user.tag}}** ({{user.id}}), bạn đã cho đi **{{credits}}** tiền hằng ngày cho **{{user2.tag}}** ({{user2.id}})."
 }

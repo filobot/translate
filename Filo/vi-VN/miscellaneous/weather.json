@@ -1,11 +1,11 @@
 {
-  "WATCHING_THE_WEATHER": "Watching the weather of **{{location.name}}**",
-  "LATITUDE": "Latitude",
-  "LONGITUDE": "Longitude",
-  "TIME_ZONE": "Time zone",
-  "TEMPERATURE": "Temperature",
-  "ACTUAL_TEMPERATURE": "Actual temperature",
-  "WEATHER": "Weather",
-  "HUMIDITY": "Humidity",
-  "WIND": "Wind"
+  "WATCHING_THE_WEATHER": "Đang xem thời tiết của **{{location.name}}**",
+  "LATITUDE": "Vĩ độ",
+  "LONGITUDE": "Kinh độ",
+  "TIME_ZONE": "Múi giờ",
+  "TEMPERATURE": "Nhiệt độ",
+  "ACTUAL_TEMPERATURE": "Nhiệt độ chính xác",
+  "WEATHER": "Thời tiết",
+  "HUMIDITY": "Độ ẩm",
+  "WIND": "Gió"
 }

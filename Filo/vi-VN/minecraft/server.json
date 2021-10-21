@@ -1,7 +1,7 @@
 {
-  "SERVER_OFFLINE": "The server you specified is offline.",
-  "IP_ADRESS": "IP adress",
-  "PORT": "Port",
-  "PLAYERS": "Players",
-  "VERSION": "Version"
+  "SERVER_OFFLINE": "Server bạn đã nêu hiện tại đang không hoạt động.",
+  "IP_ADRESS": "Địa chỉ IP",
+  "PORT": "Cổng",
+  "PLAYERS": "Số người chơi",
+  "VERSION": "Phiên bản"
 }
