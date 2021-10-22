@@ -1,11 +1,11 @@
 {
-  "WATCHING_THE_BAN_INFO": "Watching the ban information",
-  "APPEAL_STATUS": "Appeal status",
-  "APPEAL_DATE": "Appeal date",
-  "WARNING_BEFORE_APPEAL": "If you submit too many appeals or share your ban information, you'll lose the ability to appeal.",
-  "WARNING_APPEAL_COOLDOWN": "We received your appeal **{{time}}**, which has been denied. You'll not be able to appeal again until **{{expiration_date}}**.",
-  "USER_BANNED_TITLE": "You are banned from using Filo!",
-  "USER_BANNED_DESCRIPTION": "If you want to appeal this ban, click the **Appeal ban** button.",
-  "GUILD_BANNED_TITLE": "This guild is banned from using Filo!",
-  "GUILD_BANNED_DESCRIPTION": "If you are the owner of the server and want information on how to appeal, click the **Appeal ban** button."
+  "WATCHING_THE_BAN_INFO": "Đang theo dõi thông tin về ban",
+  "APPEAL_STATUS": "Tình trạng của đơn khiếu nại",
+  "APPEAL_DATE": "Ngày khiếu nại",
+  "WARNING_BEFORE_APPEAL": "Nếu bạn khiếu nại quá nhiều lần hoặc chia sẻ thông tin ban của bạn, bạn sẽ bị truất quyền khiếu nại.",
+  "WARNING_APPEAL_COOLDOWN": "Chúng tôi đã nhận được đơn khiếu nại của bạn **{{time}}**, và đã được từ chối. Bạn sẽ không thể tiếp tục khiếu nại cho đến **{{expiration_date}}**.",
+  "USER_BANNED_TITLE": "Bạn đã bị cấm khỏi Filo!",
+  "USER_BANNED_DESCRIPTION": "Nếu bạn muốn khiếu nại, nhấn vào nút **Khiếu nại về ban**.",
+  "GUILD_BANNED_TITLE": "Server này đã bị cấm khỏi Filo!",
+  "GUILD_BANNED_DESCRIPTION": "Nếu bạn là chủ sở hữu của server và muốn được cung cấp thông tin về việc khiếu nại, hãy nhấn nút **Appeal ban**."
 }
