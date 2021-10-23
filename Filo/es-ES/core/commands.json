@@ -91,7 +91,8 @@
       "TITAN": "Envía una imagen aleatoria de un titan al canal actual",
       "TRAP": "Envía una imagen aleatoria de un trapo al canal actual",
       "WAIFU": "Envía una imagen aleatoria de una waifu al canal actual",
-      "WAIFUNEKO": "Envía una imagen aleatoria de una waifu neko al canal actual"
+      "WAIFUNEKO": "Envía una imagen aleatoria de una waifu neko al canal actual",
+      "WALLPAPER": "Enviar un fondo de pantalla aleatorio de la categoría que especifiques"
     },
     "CORE": {
       "CLUSTER": "Obtén información sobre el clúster actual de Filo",
