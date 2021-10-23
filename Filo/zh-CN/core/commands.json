@@ -91,7 +91,8 @@
       "TITAN": "Send a random image of a titan on the current channel",
       "TRAP": "Send a random image of a trap on the current channel",
       "WAIFU": "Send a random image of a waifu on the current channel",
-      "WAIFUNEKO": "Send a random image of a waifu neko on the current channel"
+      "WAIFUNEKO": "Send a random image of a waifu neko on the current channel",
+      "WALLPAPER": "Send a random wallpaper from the category you specify"
     },
     "CORE": {
       "CLUSTER": "Get information about the current Filo's cluster",
