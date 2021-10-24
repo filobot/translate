@@ -465,14 +465,6 @@ exports.MODULES = {
           TITLE: "Pasos para establecer el campo de bits de permisos para un rol",
           SUBTITLE: "Establecer el campo de bits de permisos para un rol",
           PRESET_PERMISSIONS_PACKAGES_INFO: "Puedes consultar nuestros paquetes de permisos preestablecidos haciendo **[clic aquí]({{link}})**"
-        },
-        ADD: {
-          TITLE: "Pasos para añadir un permiso a un rol",
-          SUBTITLE: "Añadir un permiso a un rol"
-        },
-        REMOVE: {
-          TITLE: "Pasos para eliminar un permiso a un rol",
-          SUBTITLE: "Eliminar un permiso a un rol"
         }
       },
       PRESET_PERMISSIONS_PACKAGES: {

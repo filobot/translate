@@ -465,14 +465,6 @@ exports.MODULES = {
           TITLE: "Steps to set the permissions bitfield to a role",
           SUBTITLE: "Set the permissions bitfield to a role",
           PRESET_PERMISSIONS_PACKAGES_INFO: "You can check our Preset Permission Packages by **[clicking here]({{link}})**"
-        },
-        ADD: {
-          TITLE: "Steps to add a permission to a role",
-          SUBTITLE: "Add a permission to a role"
-        },
-        REMOVE: {
-          TITLE: "Steps to remove a permission to a role",
-          SUBTITLE: "Remove a permission to a role"
         }
       },
       PRESET_PERMISSIONS_PACKAGES: {

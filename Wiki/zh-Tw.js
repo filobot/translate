@@ -465,14 +465,6 @@ exports.MODULES = {
           TITLE: "設定數字位域權限的步驟",
           SUBTITLE: "為身分組設定特定的權限",
           PRESET_PERMISSIONS_PACKAGES_INFO: "**[點擊這裡]({{link}})**以查看預設的權限"
-        },
-        ADD: {
-          TITLE: "新增權限到身分組的步驟",
-          SUBTITLE: "新增權限到身分組"
-        },
-        REMOVE: {
-          TITLE: "移除身分組權限的步驟",
-          SUBTITLE: "移除身分組權限"
         }
       },
       PRESET_PERMISSIONS_PACKAGES: {
