@@ -39,7 +39,6 @@ exports.PAGE_TITLES = {
   FAREWELLS: "Farewells",
   FAREWELLS_VARIABLES: "Farewells Variables",
   GUILD: "Guild",
-  GUILD_INVITE: "Guild Invite",
   MUTED_ROLE: "Muted Role",
   SETUP_A_ROLE: "Setup a Role",
   PRESET_PERMISSIONS_PACKAGES: "Preset Permissions Packages",
@@ -442,21 +441,6 @@ exports.MODULES = {
   },
   GUILD: {
     DESCRIPTION: "該模組將允許您在伺服器中配置Filo的某些事項”",
-    GUILD_INVITE: {
-      ACTION: "設定一個永久的伺服器邀請",
-      DESCRIPTION: "本模組可以讓你設定一個永久的伺服器邀請",
-      CREATE_A_INVITE: {
-        TITLE: "如何在頻道裡建立永久的伺服器邀請",
-        SUBTITLE: "在頻道裡建立永久的邀請"
-      },
-      SET_A_INVITE: {
-        TITLE: "從頻道設定現有的邀請的步驟",
-        SUBTITLE: "從頻道設定現有的邀請",
-        INVITE_URL: "邀請連結",
-        INVITE_CODE: "邀請代碼",
-        WARNING: "你設置的邀請必須來自同一個伺服器"
-      }
-    },
     MUTED_ROLE: {
       ACTION: "設定禁言身分組",
       DESCRIPTION: "本模組可以將成員禁言 (需先設定禁言身分組)",

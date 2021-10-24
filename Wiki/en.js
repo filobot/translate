@@ -39,7 +39,6 @@ exports.PAGE_TITLES = {
   FAREWELLS: "Farewells",
   FAREWELLS_VARIABLES: "Farewells Variables",
   GUILD: "Guild",
-  GUILD_INVITE: "Guild Invite",
   MUTED_ROLE: "Muted Role",
   SETUP_A_ROLE: "Setup a Role",
   PRESET_PERMISSIONS_PACKAGES: "Preset Permissions Packages",
@@ -442,21 +441,6 @@ exports.MODULES = {
   },
   GUILD: {
     DESCRIPTION: "This module will allow you to configure some aspects of Filo in the guild",
-    GUILD_INVITE: {
-      ACTION: "Set up a permanent guild invite",
-      DESCRIPTION: "This module will allow you to set a permanent invite from the guild",
-      CREATE_A_INVITE: {
-        TITLE: "Steps to create the invite on a channel",
-        SUBTITLE: "Create the invite on a channel"
-      },
-      SET_A_INVITE: {
-        TITLE: "Steps to set a existing invite from a channel",
-        SUBTITLE: "Set a existing invite from a channel",
-        INVITE_URL: "Invite URL",
-        INVITE_CODE: "Invite Code",
-        WARNING: "The invite you set must be from the same guild"
-      }
-    },
     MUTED_ROLE: {
       ACTION: "Set up the Muted role",
       DESCRIPTION: "This module will allow you to set the Muted role",

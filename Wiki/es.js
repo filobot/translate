@@ -39,7 +39,6 @@ exports.PAGE_TITLES = {
   FAREWELLS: "Despedidas",
   FAREWELLS_VARIABLES: "Variables de Despedida",
   GUILD: "Gremio",
-  GUILD_INVITE: "Invitación del Gremio",
   MUTED_ROLE: "Rol Silenciado",
   SETUP_A_ROLE: "Configurar un Rol",
   PRESET_PERMISSIONS_PACKAGES: "Paquetes de Permisos Preestablecidos",
@@ -442,21 +441,6 @@ exports.MODULES = {
   },
   GUILD: {
     DESCRIPTION: "Este módulo te permitirá configurar algunos aspectos de Filo en el gremio",
-    GUILD_INVITE: {
-      ACTION: "Configurar una invitación de gremio permanente",
-      DESCRIPTION: "Este módulo te permitirá establecer una invitación permanente del gremio",
-      CREATE_A_INVITE: {
-        TITLE: "Pasos para crear la invitación en un canal",
-        SUBTITLE: "Crear la invitación en un canal"
-      },
-      SET_A_INVITE: {
-        TITLE: "Pasos para configurar una invitación existente desde un canal",
-        SUBTITLE: "Establecer una invitación existente de un canal",
-        INVITE_URL: "URL de la Invitación",
-        INVITE_CODE: "Código de la Invitación",
-        WARNING: "La invitación que establezcas debe ser del mismo gremio"
-      }
-    },
     MUTED_ROLE: {
       ACTION: "Configurar el rol Silenciado",
       DESCRIPTION: "Este módulo le permitirá configurar el rol Silenciado",
