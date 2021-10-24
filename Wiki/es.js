@@ -48,7 +48,6 @@ exports.PAGE_TITLES = {
   LOGGING: "Registros",
   MEMBER_COUNTER: "Contador de Miembros",
   MEMBER_COUNTER_NICKNAME: "Apodo Contador de Miembros",
-  PREFIX: "Prefijo",
   REPORTS: "Reportes",
   WELCOMES: "Bienvenidas",
   WELCOMES_VARIABLES: "Variables de Bienvenida",
@@ -127,7 +126,6 @@ exports.NAVBAR = {
   INVITE_FILO: "Invitar a Filo",
   MODULES: "Módulos",
   LANGUAGE: "Idioma",
-  PREFIX: "Prefijo",
   GUILD: "Gremio",
   REPORTS: "Reportes",
   WELCOMES: "Bienvenidas",
@@ -549,16 +547,6 @@ exports.MODULES = {
         SUBTITLE: "Establecer el apodo",
         MAX_LENGTH: "El apodo no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{members}` en el contenido"
       }
-    }
-  },
-  PREFIX: {
-    DESCRIPTION: "Este módulo te permitirá configurar o restablecer el prefijo de Filo",
-    SET_PREFIX: {
-      TITLE: "Pasos para establecer un nuevo prefijo",
-      SUBTITLE: "Establecer un nuevo prefijo",
-      NEW_PREFIX: "Prefijo",
-      SLASH_PREFIX_WARNING: "Los prefijos de barra no son compatibles con Filo",
-      MAX_LENGTH: "No puede establecer un prefijo que tenga más de **{{number}}** caracteres"
     }
   },
   REPORTS: {

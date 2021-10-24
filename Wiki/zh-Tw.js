@@ -48,7 +48,6 @@ exports.PAGE_TITLES = {
   LOGGING: "Logging",
   MEMBER_COUNTER: "Member Counter",
   MEMBER_COUNTER_NICKNAME: "Member Counter Nickname",
-  PREFIX: "Prefix",
   REPORTS: "Reports",
   WELCOMES: "Welcomes",
   WELCOMES_VARIABLES: "Welcomes Variables",
@@ -127,7 +126,6 @@ exports.NAVBAR = {
   INVITE_FILO: "Invite Filo",
   MODULES: "Modules",
   LANGUAGE: "Language",
-  PREFIX: "Prefix",
   GUILD: "Guild",
   REPORTS: "Reports",
   WELCOMES: "Welcomes",
@@ -549,16 +547,6 @@ exports.MODULES = {
         SUBTITLE: "把 Filo 的名稱更改為成員數量",
         MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
       }
-    }
-  },
-  PREFIX: {
-    DESCRIPTION: "本模組允許您更改或重置 Filo 的 Prefix",
-    SET_PREFIX: {
-      TITLE: "設定新 Prefix的步驟",
-      SUBTITLE: "設定新的 Prefix",
-      NEW_PREFIX: "Prefix",
-      SLASH_PREFIX_WARNING: "Filo 不支援更改斜線字首",
-      MAX_LENGTH: "Prefix 必須小於 **{{number}}** 個字"
     }
   },
   REPORTS: {

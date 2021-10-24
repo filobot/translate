@@ -48,7 +48,6 @@ exports.PAGE_TITLES = {
   LOGGING: "Logging",
   MEMBER_COUNTER: "Member Counter",
   MEMBER_COUNTER_NICKNAME: "Member Counter Nickname",
-  PREFIX: "Prefix",
   REPORTS: "Reports",
   WELCOMES: "Welcomes",
   WELCOMES_VARIABLES: "Welcomes Variables",
@@ -127,7 +126,6 @@ exports.NAVBAR = {
   INVITE_FILO: "Invite Filo",
   MODULES: "Modules",
   LANGUAGE: "Language",
-  PREFIX: "Prefix",
   GUILD: "Guild",
   REPORTS: "Reports",
   WELCOMES: "Welcomes",
@@ -549,16 +547,6 @@ exports.MODULES = {
         SUBTITLE: "Set the nickname",
         MAX_LENGTH: "The nickname can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
       }
-    }
-  },
-  PREFIX: {
-    DESCRIPTION: "This module will allow you to set or reset the Filo's prefix",
-    SET_PREFIX: {
-      TITLE: "Steps to set a new prefix",
-      SUBTITLE: "Set a new prefix",
-      NEW_PREFIX: "Prefix",
-      SLASH_PREFIX_WARNING: "Slash prefixes aren't supported by Filo",
-      MAX_LENGTH: "You can't set a prefix that is longer than **{{number}}** characters"
     }
   },
   REPORTS: {
