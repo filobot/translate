@@ -79,6 +79,7 @@ exports.GENERAL = {
   NUMBER: "數字",
   ACTION: "動作",
   COMMAND: "指令",
+  CATEGORY: "Category",
   MESSAGE: "訊息",
   USER: "使用者",
   SERVER: "伺服器",
@@ -362,6 +363,16 @@ exports.MODULES = {
       ENABLE: {
         TITLE: "啟用指令的步驟",
         SUBTITLE: "啟用指令"
+      }
+    },
+    DISABLE_CATEGORIES: {
+      DISABLE: {
+        TITLE: "Steps to disable a category of commands",
+        SUBTITLE: "Disable a category of commands"
+      },
+      ENABLE: {
+        TITLE: "Steps to enable a category of commands",
+        SUBTITLE: "Enable a category of commands"
       }
     }
   },

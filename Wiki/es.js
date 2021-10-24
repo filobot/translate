@@ -79,6 +79,7 @@ exports.GENERAL = {
   NUMBER: "Número",
   ACTION: "Acción",
   COMMAND: "Comando",
+  CATEGORY: "Categoría",
   MESSAGE: "Mensaje",
   USER: "Usuario",
   SERVER: "Servidor",
@@ -362,6 +363,16 @@ exports.MODULES = {
       ENABLE: {
         TITLE: "Pasos para habilitar un comando",
         SUBTITLE: "Habilitar un comando"
+      }
+    },
+    DISABLE_CATEGORIES: {
+      DISABLE: {
+        TITLE: "Pasos paraa deshabilitar una categoría de comandos",
+        SUBTITLE: "Deshabilitar una categoría de comandos"
+      },
+      ENABLE: {
+        TITLE: "Pasos paraa habilitar una categoría de comandos",
+        SUBTITLE: "Habilitar una categoría de comandos"
       }
     }
   },
