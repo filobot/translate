@@ -79,7 +79,6 @@ exports.GENERAL = {
   ACTION: "Action",
   COMMAND: "Command",
   CATEGORY: "Category",
-  MESSAGE: "Message",
   USER: "User",
   SERVER: "Server",
   NAME: "Name",

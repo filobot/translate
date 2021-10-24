@@ -79,7 +79,6 @@ exports.GENERAL = {
   ACTION: "動作",
   COMMAND: "指令",
   CATEGORY: "Category",
-  MESSAGE: "訊息",
   USER: "使用者",
   SERVER: "伺服器",
   NAME: "名稱",
