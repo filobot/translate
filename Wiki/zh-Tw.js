@@ -421,11 +421,7 @@ exports.MODULES = {
     SET_MESSAGE_TYPE: {
       TITLE: "設定訊息類型的步驟",
       SUBTITLE: "設定訊息類型",
-      WARNING: "如果使用者關閉嵌入內容，他將看不到訊息",
-      SET_EMBED_COLOR: {
-        SUBTITLE: "設定嵌入內容的顏色",
-        WARNING: "目前 Filo 並沒有一個改變顏色的指令，如果需要你可以改變 Filo 身分組的顏色，嵌入內容顏色將會隨著身分組顏色一起改動"
-      }
+      WARNING: "如果使用者關閉嵌入內容，他將看不到訊息"
     },
     VARIABLES: {
       WARNING: "這些變數可能不會總是發送出您預期的信息",

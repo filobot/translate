@@ -421,11 +421,7 @@ exports.MODULES = {
     SET_MESSAGE_TYPE: {
       TITLE: "Pasos para establecer el tipo de mensaje",
       SUBTITLE: "Establecer el tipo de mensaje",
-      WARNING: "Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de despedida",
-      SET_EMBED_COLOR: {
-        SUBTITLE: "Establecer el color del embed",
-        WARNING: "Actualmente, Filo no tiene un comando para establecer el color del embed, sin embargo, hay una forma de cambiarlo. Cuando Filo va a enviar el mensaje de despedida a través de un embed, obtiene la información del rol más alto que ella tiene asignado. Si dicho rol tiene un color personalizado, el color del embed será el mismo que dicho rol"
-      }
+      WARNING: "Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de despedida"
     },
     VARIABLES: {
       WARNING: "Es posible que estas variables no siempre envíen la información esperada",

@@ -421,11 +421,7 @@ exports.MODULES = {
     SET_MESSAGE_TYPE: {
       TITLE: "Steps to set the message type",
       SUBTITLE: "Set the message type",
-      WARNING: "If users have disabled the display of embeds, they won't see the farewell message",
-      SET_EMBED_COLOR: {
-        SUBTITLE: "Set the embed color",
-        WARNING: "Currently Filo doesn't have a command to set the embed color, however there is a way to change it. When Filo is going to send the farewell message through an embed, it obtains the information of the highest role assigned to it. If said role has a custom color, the color of the embed will be the same as said role"
-      }
+      WARNING: "If users have disabled the display of embeds, they won't see the farewell message"
     },
     VARIABLES: {
       WARNING: "These variables may not always send the expected information",
