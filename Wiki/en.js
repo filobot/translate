@@ -201,6 +201,7 @@ exports.MODULES = {
   SUMMARY: "Summary",
   IF_YOU_WANT_SETUP: "If you want to {{action}}, **[click here]({{link}})** and we'll take you to the guided article in no time",
   VARIABLE_WILL_RETURN: "This variable will return the {{data}}",
+  TIME_LIMIT: "You'll have **{{time}}** to perform this action.",
   GETTING_STARTED: {
     DESCRIPTION: "Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page",
     REQUIRES_ADVANCED_PERMISSION: "Filo requires the following advanced permission: {{permission}}",
@@ -418,11 +419,7 @@ exports.MODULES = {
     SET_MESSAGE_TYPE: {
       TITLE: "Steps to set the message type",
       SUBTITLE: "Set the message type",
-      WARNING: "If users have disabled the display of embeds, they won't see the welcome message",
-      SET_EMBED_COLOR: {
-        SUBTITLE: "Set the embed color",
-        WARNING: "Currently Filo doesn't have a command to set the embed color, however there is a way to change it. When Filo is going to send the welcome message through an embed, it obtains the information of the highest role assigned to it. If said role has a custom color, the color of the embed will be the same as said role"
-      }
+      WARNING: "If users have disabled the display of embeds, they won't see the welcome message"
     },
     VARIABLES: {
       WARNING: "These variables may not always send the expected information",

@@ -201,6 +201,7 @@ exports.MODULES = {
   SUMMARY: "Índice",
   IF_YOU_WANT_SETUP: "Si quieres {{action}}, haz **[clic aquí]({{link}})** y lo llevaremos al artículo guiado en poco tiempo",
   VARIABLE_WILL_RETURN: "Esta variable devolverá el {{data}}",
+  TIME_LIMIT: "Dispondrás de **{{time}}** para realizar esta acción.",
   GETTING_STARTED: {
     DESCRIPTION: "Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página",
     REQUIRES_ADVANCED_PERMISSION: "Filo requiere el siguiente permiso avanzado: {{permission}}",
@@ -418,11 +419,7 @@ exports.MODULES = {
     SET_MESSAGE_TYPE: {
       TITLE: "Pasos para establecer el tipo de mensaje",
       SUBTITLE: "Establecer el tipo de mensaje",
-      WARNING: "Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de bienvenida",
-      SET_EMBED_COLOR: {
-        SUBTITLE: "Establecer el color del embed",
-        WARNING: "Actualmente, Filo no tiene un comando para establecer el color del embed, sin embargo, hay una forma de cambiarlo. Cuando Filo va a enviar el mensaje de bienvenida a través de un embed, obtiene la información del rol más alto que ella tiene asignado. Si dicho rol tiene un color personalizado, el color del embed será el mismo que dicho rol"
-      }
+      WARNING: "Si los usuarios han desactivado la visualización de embeds, no verán el mensaje de bienvenida"
     },
     VARIABLES: {
       WARNING: "Es posible que estas variables no siempre envíen la información esperada",

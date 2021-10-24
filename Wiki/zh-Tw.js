@@ -201,6 +201,7 @@ exports.MODULES = {
   SUMMARY: "概要",
   IF_YOU_WANT_SETUP: "如果要 {{action}} 本模組，請**[點擊這裡]({{link}})**。我們將會帶你到另一個主題",
   VARIABLE_WILL_RETURN: "這個變數會傳回 {{data}}",
+  TIME_LIMIT: "You'll have **{{time}}** to perform this action.",
   GETTING_STARTED: {
     DESCRIPTION: "在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素",
     REQUIRES_ADVANCED_PERMISSION: "Filo 需要要此項進階權限： {{permission}}",
@@ -418,11 +419,7 @@ exports.MODULES = {
     SET_MESSAGE_TYPE: {
       TITLE: "設定訊息類型的步驟",
       SUBTITLE: "設定訊息類型",
-      WARNING: "如果使用者關閉嵌入內容，他將看不到訊息",
-      SET_EMBED_COLOR: {
-        SUBTITLE: "設定嵌入內容的顏色",
-        WARNING: "目前 Filo 並沒有一個改變顏色的指令，如果需要你可以改變 Filo 身分組的顏色，嵌入內容顏色將會隨著身分組顏色一起改動"
-      }
+      WARNING: "如果使用者關閉嵌入內容，他將看不到訊息"
     },
     VARIABLES: {
       WARNING: "這些變數可能不會總是發送出您預期的信息",
