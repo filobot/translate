@@ -497,16 +497,9 @@ exports.MODULES = {
   },
   LANGUAGE: {
     DESCRIPTION: "This module will allow you to set or reset the Filo's language; this will affect all current and future commands, modules and systems",
-    SET_A_LANGUAGE: {
-      TITLE: "Steps to set a language",
-      SUBTITLE: "Set a language",
-      LANGUAGE_LIST: "You can see a complete list of languages supported by Filo by **[clicking here]({{link}})**",
-      LANGUAGE_FULL_CODE: "Language Full Code"
-    },
-    SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's translations may contain errors, we are human!" + "\n" + "If you find any errors, please report them in **[our translation repository]({{link}})** or **[contact us]({{link_2}})**",
-      SHORT_CODE: "Short code",
-      FULL_CODE: "Full code"
+    SELECT_A_LANGUAGE: {
+      TITLE: "Steps to select a language",
+      SUBTITLE: "Select a language"
     }
   },
   LOGGING: {

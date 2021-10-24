@@ -497,16 +497,9 @@ exports.MODULES = {
   },
   LANGUAGE: {
     DESCRIPTION: "Este módulo te permitirá configurar o estabke el idioma de Filo; esto afectará a todos los comandos, módulos y sistemas actuales y futuros",
-    SET_A_LANGUAGE: {
-      TITLE: "Pasos para establecer el idioma",
-      SUBTITLE: "Establecer el idioma",
-      LANGUAGE_LIST: "Puedes ver una lista completa de los idiomas admitidos por Filo haciendo **[clic aquí]({{link}})**",
-      LANGUAGE_FULL_CODE: "Código Completo del Idioma"
-    },
-    SUPPORTED_LANGUAGES: {
-      WARNING: "Las traducciones de Filo pueden contener errores, ¡somos humanos!" + "\n" + "Si encuentra algún error, infórmelo en **[nuestro repositorio de traducción]({{link}})** o **[contáctanos]({{link_2}})**",
-      SHORT_CODE: "Código Corto",
-      FULL_CODE: "Código Completo"
+    SELECT_A_LANGUAGE: {
+      TITLE: "Pasos para seleccionar un idioma",
+      SUBTITLE: "Seleccionar un idioma"
     }
   },
   LOGGING: {

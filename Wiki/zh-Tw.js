@@ -497,16 +497,9 @@ exports.MODULES = {
   },
   LANGUAGE: {
     DESCRIPTION: "本模組允許您更改或重置 Filo 的語言。注意！這將影響所有的指令、模組和系統",
-    SET_A_LANGUAGE: {
-      TITLE: "設定語言的步驟",
-      SUBTITLE: "設定語言",
-      LANGUAGE_LIST: "點擊 **[這個連結]({{link}})** 來查看 Filo 所支援的語言",
-      LANGUAGE_FULL_CODE: "語言名稱"
-    },
-    SUPPORTED_LANGUAGES: {
-      WARNING: "Filo's 翻譯可能會有錯誤，畢竟我們也是人類！" + "\n" + "如果有任何錯誤的話，請在 **[翻譯 Repository]({{link}})** 或是 **[我們的伺服器]({{link_2}})**回報我們",
-      SHORT_CODE: "代碼",
-      FULL_CODE: "語言名稱"
+    SELECT_A_LANGUAGE: {
+      TITLE: "Steps to select a language",
+      SUBTITLE: "Select a language"
     }
   },
   LOGGING: {
