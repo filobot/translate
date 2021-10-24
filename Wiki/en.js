@@ -201,7 +201,7 @@ exports.MODULES = {
   SUMMARY: "Summary",
   IF_YOU_WANT_SETUP: "If you want to {{action}}, **[click here]({{link}})** and we'll take you to the guided article in no time",
   VARIABLE_WILL_RETURN: "This variable will return the {{data}}",
-  TIME_LIMIT: "You'll have **{{time}}** to perform this action.",
+  TIME_LIMIT: "You'll have **{{time}}** to perform this action",
   GETTING_STARTED: {
     DESCRIPTION: "Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page",
     REQUIRES_ADVANCED_PERMISSION: "Filo requires the following advanced permission: {{permission}}",

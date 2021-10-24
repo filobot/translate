@@ -201,7 +201,7 @@ exports.MODULES = {
   SUMMARY: "概要",
   IF_YOU_WANT_SETUP: "如果要 {{action}} 本模組，請**[點擊這裡]({{link}})**。我們將會帶你到另一個主題",
   VARIABLE_WILL_RETURN: "這個變數會傳回 {{data}}",
-  TIME_LIMIT: "You'll have **{{time}}** to perform this action.",
+  TIME_LIMIT: "You'll have **{{time}}** to perform this action",
   GETTING_STARTED: {
     DESCRIPTION: "在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素",
     REQUIRES_ADVANCED_PERMISSION: "Filo 需要要此項進階權限： {{permission}}",

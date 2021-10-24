@@ -201,7 +201,7 @@ exports.MODULES = {
   SUMMARY: "Índice",
   IF_YOU_WANT_SETUP: "Si quieres {{action}}, haz **[clic aquí]({{link}})** y lo llevaremos al artículo guiado en poco tiempo",
   VARIABLE_WILL_RETURN: "Esta variable devolverá el {{data}}",
-  TIME_LIMIT: "Dispondrás de **{{time}}** para realizar esta acción.",
+  TIME_LIMIT: "Dispondrás de **{{time}}** para realizar esta acción",
   GETTING_STARTED: {
     DESCRIPTION: "Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página",
     REQUIRES_ADVANCED_PERMISSION: "Filo requiere el siguiente permiso avanzado: {{permission}}",
