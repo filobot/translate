@@ -92,7 +92,7 @@
       "TRAP": "Gửi một hình ảnh bất kì của một trap tới kênh hiện tại",
       "WAIFU": "Gửi một hình ảnh bất kì của một waifu tới kênh hiện tại",
       "WAIFUNEKO": "Gửi một hình ảnh của một waifu neko tới kênh hiện tại",
-      "WALLPAPER": "Send a random wallpaper from the category you specify"
+      "WALLPAPER": "Gửi một hình nền bất kì từ danh mục bạn đã nêu"
     },
     "CORE": {
       "CLUSTER": "Xem thông tin về cluster của Filo",
