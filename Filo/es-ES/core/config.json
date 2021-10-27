@@ -68,7 +68,7 @@
     "ALL_EVENTS": "Todos los eventos",
     "CHANNEL_EVENTS": "Eventos de canal",
     "EMOJI_EVENTS": "Eventos de emoji",
-    "MEMBER_EVENTS": "Member events",
+    "MEMBER_EVENTS": "Eventos de miembro",
     "MESSAGE_EVENTS": "Evento de mensaje",
     "ROLE_EVENTS": "Eventos de rol",
     "SANCTION_EVENTS": "Eventos de sanción"
@@ -93,9 +93,9 @@
       "EMOJI_DELETE": "Emoji eliminado"
     },
     "MEMBER_EVENTS": {
-      "MEMBER_ADD": "Member add",
-      "MEMBER_UPDATE": "Member update",
-      "MEMBER_REMOVE": "Member remove"
+      "MEMBER_ADD": "Miembro añadido",
+      "MEMBER_UPDATE": "Miembro actualizado",
+      "MEMBER_REMOVE": "Miembro eliminado"
     },
     "MESSAGE_EVENTS": {
       "MESSAGE_UPDATE": "Mensaje actualizado",
