@@ -68,9 +68,10 @@
     "ALL_EVENTS": "All events",
     "CHANNEL_EVENTS": "Channel events",
     "EMOJI_EVENTS": "Emoji events",
-    "SANCTION_EVENTS": "Sanction events",
+    "MEMBER_EVENTS": "Member events",
     "MESSAGE_EVENTS": "Message events",
-    "ROLE_EVENTS": "Role events"
+    "ROLE_EVENTS": "Role events",
+    "SANCTION_EVENTS": "Sanction events"
   },
   "LOGGING_EVENTS_MENU": {
     "CHANNEL_EVENTS": {
@@ -91,12 +92,10 @@
       "EMOJI_UPDATE": "Emoji update",
       "EMOJI_DELETE": "Emoji delete"
     },
-    "SANCTION_EVENTS": {
-      "MEMBER_BAN": "Member ban",
-      "MEMBER_UNBAN": "Member unban",
-      "SANCTION_CREATE": "Sanction create",
-      "SANCTION_UPDATE": "Sanction update",
-      "SANCTION_DELETE": "Sanction delete"
+    "MEMBER_EVENTS": {
+      "MEMBER_ADD": "Member add",
+      "MEMBER_UPDATE": "Member update",
+      "MEMBER_REMOVE": "Member remove"
     },
     "MESSAGE_EVENTS": {
       "MESSAGE_UPDATE": "Message update",
@@ -107,6 +106,13 @@
       "ROLE_CREATE": "Role create",
       "ROLE_UPDATE": "Role update",
       "ROLE_DELETE": "Role delete"
+    },
+    "SANCTION_EVENTS": {
+      "MEMBER_BAN": "Member ban",
+      "MEMBER_UNBAN": "Member unban",
+      "SANCTION_CREATE": "Sanction create",
+      "SANCTION_UPDATE": "Sanction update",
+      "SANCTION_DELETE": "Sanction delete"
     }
   },
   "SELECT_A_LOGGING_EVENT": "Select the event you want to manage.",
