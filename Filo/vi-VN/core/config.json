@@ -68,9 +68,10 @@
     "ALL_EVENTS": "Tất cả sự kiện",
     "CHANNEL_EVENTS": "Sự kiện cho kênh",
     "EMOJI_EVENTS": "Sự kiện biểu cảm",
-    "SANCTION_EVENTS": "Sự kiện hình phạt",
+    "MEMBER_EVENTS": "Member events",
     "MESSAGE_EVENTS": "Sự kiện tin nhắn",
-    "ROLE_EVENTS": "Sự kiện role"
+    "ROLE_EVENTS": "Sự kiện role",
+    "SANCTION_EVENTS": "Sự kiện hình phạt"
   },
   "LOGGING_EVENTS_MENU": {
     "CHANNEL_EVENTS": {
@@ -91,12 +92,10 @@
       "EMOJI_UPDATE": "Cập nhật biểu cảm",
       "EMOJI_DELETE": "Biểu cảm được xoá"
     },
-    "SANCTION_EVENTS": {
-      "MEMBER_BAN": "Ban một người dùng",
-      "MEMBER_UNBAN": "Bỏ ban một người dùng",
-      "SANCTION_CREATE": "Hình phạt được tạo",
-      "SANCTION_UPDATE": "Cập nhật hình phạt",
-      "SANCTION_DELETE": "Hình phạt được xoá"
+    "MEMBER_EVENTS": {
+      "MEMBER_ADD": "Member add",
+      "MEMBER_UPDATE": "Member update",
+      "MEMBER_REMOVE": "Member remove"
     },
     "MESSAGE_EVENTS": {
       "MESSAGE_UPDATE": "Tin nhắn đã được cập nhật",
@@ -107,6 +106,13 @@
       "ROLE_CREATE": "Role đã được tạo",
       "ROLE_UPDATE": "Cập nhật role",
       "ROLE_DELETE": "Role đã được xoá"
+    },
+    "SANCTION_EVENTS": {
+      "MEMBER_BAN": "Ban một người dùng",
+      "MEMBER_UNBAN": "Bỏ ban một người dùng",
+      "SANCTION_CREATE": "Hình phạt được tạo",
+      "SANCTION_UPDATE": "Cập nhật hình phạt",
+      "SANCTION_DELETE": "Hình phạt được xoá"
     }
   },
   "SELECT_A_LOGGING_EVENT": "Vui lòng chọn sự kiện bạn muốn quản lý.",

@@ -68,9 +68,10 @@
     "ALL_EVENTS": "Todos los eventos",
     "CHANNEL_EVENTS": "Eventos de canal",
     "EMOJI_EVENTS": "Eventos de emoji",
-    "SANCTION_EVENTS": "Eventos de sanción",
+    "MEMBER_EVENTS": "Eventos de miembro",
     "MESSAGE_EVENTS": "Evento de mensaje",
-    "ROLE_EVENTS": "Eventos de rol"
+    "ROLE_EVENTS": "Eventos de rol",
+    "SANCTION_EVENTS": "Eventos de sanción"
   },
   "LOGGING_EVENTS_MENU": {
     "CHANNEL_EVENTS": {
@@ -91,12 +92,10 @@
       "EMOJI_UPDATE": "Emoji actualizado",
       "EMOJI_DELETE": "Emoji eliminado"
     },
-    "SANCTION_EVENTS": {
-      "MEMBER_BAN": "Miembro prohibido",
-      "MEMBER_UNBAN": "Miembro desprohibido",
-      "SANCTION_CREATE": "Sanción creada",
-      "SANCTION_UPDATE": "Sanción actualizada",
-      "SANCTION_DELETE": "Sanción eliminada"
+    "MEMBER_EVENTS": {
+      "MEMBER_ADD": "Miembro añadido",
+      "MEMBER_UPDATE": "Miembro actualizado",
+      "MEMBER_REMOVE": "Miembro eliminado"
     },
     "MESSAGE_EVENTS": {
       "MESSAGE_UPDATE": "Mensaje actualizado",
@@ -107,6 +106,13 @@
       "ROLE_CREATE": "Rol creado",
       "ROLE_UPDATE": "Rol actualizado",
       "ROLE_DELETE": "Rol eliminado"
+    },
+    "SANCTION_EVENTS": {
+      "MEMBER_BAN": "Miembro prohibido",
+      "MEMBER_UNBAN": "Miembro desprohibido",
+      "SANCTION_CREATE": "Sanción creada",
+      "SANCTION_UPDATE": "Sanción actualizada",
+      "SANCTION_DELETE": "Sanción eliminada"
     }
   },
   "SELECT_A_LOGGING_EVENT": "Selecciona el evento que quieres gestionar.",
