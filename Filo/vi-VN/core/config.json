@@ -68,7 +68,7 @@
     "ALL_EVENTS": "Tất cả sự kiện",
     "CHANNEL_EVENTS": "Sự kiện cho kênh",
     "EMOJI_EVENTS": "Sự kiện biểu cảm",
-    "MEMBER_EVENTS": "Member events",
+    "MEMBER_EVENTS": "Các sự kiện của thành viên",
     "MESSAGE_EVENTS": "Sự kiện tin nhắn",
     "ROLE_EVENTS": "Sự kiện role",
     "SANCTION_EVENTS": "Sự kiện hình phạt"
@@ -93,9 +93,9 @@
       "EMOJI_DELETE": "Biểu cảm được xoá"
     },
     "MEMBER_EVENTS": {
-      "MEMBER_ADD": "Member add",
-      "MEMBER_UPDATE": "Member update",
-      "MEMBER_REMOVE": "Member remove"
+      "MEMBER_ADD": "Thành viên được thêm vào",
+      "MEMBER_UPDATE": "Thành viên được cập nhật",
+      "MEMBER_REMOVE": "Thành viên được loại bỏ"
     },
     "MESSAGE_EVENTS": {
       "MESSAGE_UPDATE": "Tin nhắn đã được cập nhật",
