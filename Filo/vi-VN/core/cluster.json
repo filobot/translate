@@ -3,8 +3,6 @@
   "SHARD": "Shard",
   "SHARDS": "Các shard",
   "PING": "Ping",
-  "AVERANGE_CPU_LOAD": "Số tải trung bình của CPU",
-  "CLUSTER_UPTIME": "Thời gian chạy của dữ liệu",
   "LIBRARY": "Thư viện",
   "NODE_VERSION": "Phiên bản Node",
   "OPERATIVE_SYSTEM": "Hệ điều hành",
