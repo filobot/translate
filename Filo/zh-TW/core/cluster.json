@@ -3,8 +3,6 @@
   "SHARD": "Shard",
   "SHARDS": "Shards",
   "PING": "Ping",
-  "AVERANGE_CPU_LOAD": "Averange CPU load",
-  "CLUSTER_UPTIME": "Cluster uptime",
   "LIBRARY": "Library",
   "NODE_VERSION": "Node version",
   "OPERATIVE_SYSTEM": "Operative system",
