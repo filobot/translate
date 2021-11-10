@@ -164,12 +164,10 @@ exports.GETTING_STARTED = {
   INVITE_FILO: {
     DESCRIPTION: "A continuación, encontrará una explicación guiada de cómo invitar a Filo y los permisos que recomendamos",
     PERMISSIONS_NEEDED: "Debe ser el **propietario** del servidor al que desea agregar Filo o tener uno de estos permisos: {{permission_1}} o {{permission_2}}",
-    SLASH_COMMAND_WARNING: "Actualmente, Filo no admite el uso de comandos de barra sin el bot de alcance en la invitación. Si agrega la integración de comandos de barra a su servidor y no agrega a Filo al servidor también, los comandos de barra siempre devolverán un error genérico en inglés",
     STEP_1: {
       TITLE: "Abra la invitación de Filo en el navegador",
       DESCRIPTION: "Haciendo **[clic aquí]({{link}})** se le redirigirá a la invitación con los permisos recomendados y el scope de los comandos de barra como un extra",
-      EXAMPLE: "Ejemplo de lo importante de la pantalla de invitación de Filo",
-      ALTERNATIVE_INVITE: "Si no desea tener los comandos de barra inclinada de Filo, puede optar por utilizar esta **[invitación]({{link}})**"
+      EXAMPLE: "Ejemplo de lo importante de la pantalla de invitación de Filo"
     },
     STEP_2: {
       TITLE: "Seleccione el servidor donde agregar a Filo",
@@ -182,7 +180,7 @@ exports.GETTING_STARTED = {
       TITLE: "Seleccionar permisos (opcional)",
       DESCRIPTION: "En esta sección podrá personalizar los permisos que desea otorgar a Filo globalmente (no por canal). Si no desea cambiarlos, simplemente haga clic en el botón **Continuar**",
       INTEGRATION_ROLE: "Si dejas algún permiso activo en la invitación, Discord creará automáticamente un rol llamado **Filo**, sin embargo, si el servidor excede el límite de roles, es posible que el rol no se pueda crear y tenga que asignar manualmente los permisos para Filo",
-      PERMISSIONS_NEEDED: "Los permisos necesarios que Filo debe tener siempre son: {{permission_1}}, {{permission_2}}, {{permission_3}} u {{permission_4}}"
+      PERMISSIONS_NEEDED: "El permiso necesario que Filo debe tener siempre es: {{permission}}"
     },
     STEP_4: {
       TITLE: "Autorizar la invitación",

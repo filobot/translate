@@ -164,12 +164,10 @@ exports.GETTING_STARTED = {
   INVITE_FILO: {
     DESCRIPTION: "接下來你會看到一個伺服器邀請的例子，還有我們建議的權限設定",
     PERMISSIONS_NEEDED: "你必須是伺服器 **擁有者** 或是擁有這些權限： {{permission_1}} 或 {{permission_2}} 才能將 Filo 邀請至伺服器",
-    SLASH_COMMAND_WARNING: "目前 Filo 不支援在邀請中沒有勾選 Scope bot 的情況下使用斜線命令。 如果添加斜線指令到你的伺服器，但沒有把 Filo 邀請到伺服器，斜線命令只會一直返回一個英文的語法錯誤",
     STEP_1: {
       TITLE: "打開瀏覽器中的邀請連結",
       DESCRIPTION: "**[點擊這裡]({{link}})** 我們將會為您導向到邀請頁面和斜線指令權限頁",
-      EXAMPLE: "邀請頁面",
-      ALTERNATIVE_INVITE: "如果你不需要斜線指令的話請點擊 **[這裡的邀請連結]({{link}})**"
+      EXAMPLE: "邀請頁面"
     },
     STEP_2: {
       TITLE: "選擇 Filo 要落腳的伺服器",
@@ -182,7 +180,7 @@ exports.GETTING_STARTED = {
       TITLE: "選擇權限 (可選可不選)",
       DESCRIPTION: "這個步驟可以讓您選擇 Filo 的伺服器權限 (非頻道權限). 如果沒有特別要求，請點擊 **繼續** 按鈕",
       INTEGRATION_ROLE: "如果您全選了所有權限，Discord 會幫您建立一個 **Filo** 的身分組。反之，Discord 會把權限單獨寫在他的身分裡",
-      PERMISSIONS_NEEDED: "Filo 必須有這些指令才能正常工作: {{permission_1}}、 {{permission_2}}、{{permission_3}} 和 {{permission_4}}"
+      PERMISSIONS_NEEDED: "Filo 必須有這些指令才能正常工作: {{permission}}"
     },
     STEP_4: {
       TITLE: "授權邀請",

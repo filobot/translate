@@ -164,12 +164,10 @@ exports.GETTING_STARTED = {
   INVITE_FILO: {
     DESCRIPTION: "Below you'll find a guided explanation of how to invite Filo and the permissions that we recommend",
     PERMISSIONS_NEEDED: "You must be the **owner** of the server you want to add Filo to or have one of these permissions: {{permission_1}} or {{permission_2}}",
-    SLASH_COMMAND_WARNING: "Currently Filo doesn't support the use of Slash Commands without the scope bot in the invitation. If you add the Slash Commands integration to your server and don't add Filo to the server as well, the Slash Commands will always return a generic error in English",
     STEP_1: {
       TITLE: "Open the Filo invite in the browser",
       DESCRIPTION: "**[Clicking here]({{link}})** will redirect you to the invite with the recommended permissions and the scope of slash commands as an extra",
-      EXAMPLE: "Example of the important Filo invite screen",
-      ALTERNATIVE_INVITE: "If you don't want to have Filo's Slash Commands, you can choose to use this **[invite]({{link}})**"
+      EXAMPLE: "Example of the important Filo invite screen"
     },
     STEP_2: {
       TITLE: "Select the server where to add Filo",
@@ -182,7 +180,7 @@ exports.GETTING_STARTED = {
       TITLE: "Select permissions (optional)",
       DESCRIPTION: "In this section you'll be able to customize the permissions you want to grant to Filo globally (not by channel). If you don't want to change them, just click the **Continue** button",
       INTEGRATION_ROLE: "If you leave any permission active in the invite, Discord will automatically create a role called **Filo**, however, if the server exceeds the role limit it is possible that the role cannot be created and you'll have to manually assign the permissions to Filo",
-      PERMISSIONS_NEEDED: "The necessary permissions that Filo must always have are: {{permission_1}}, {{permission_2}}, {{permission_3}} and {{permission_4}}"
+      PERMISSIONS_NEEDED: "The necessary permission that Filo must always have are: {{permission}}"
     },
     STEP_4: {
       TITLE: "Authorize the invite",
