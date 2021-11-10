@@ -544,14 +544,14 @@ exports.MODULES = {
     SET_CHANNEL_NAME: {
       TITLE: "Steps to set the member-counter channel name",
       SUBTITLE: "Set the member-counter channel name",
-      MAX_LENGTH: "The channel name can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
+      MAX_LENGTH: "The channel name can't exceed **{{number}} characters** in length and must include the variable `{{members}}` in the content"
     },
     NICKNAME: {
       DESCRIPTION: "This module will allow you to set a member counter on Filo's nickname",
       SET_NICKNAME: {
         TITLE: "Steps to set the nickname",
         SUBTITLE: "Set the nickname",
-        MAX_LENGTH: "The nickname can't exceed **{{number}} characters** in length and must include the variable `{members}` in the content"
+        MAX_LENGTH: "The nickname can't exceed **{{number}} characters** in length and must include the variable `{{members}}` in the content"
       }
     }
   },

@@ -544,14 +544,14 @@ exports.MODULES = {
     SET_CHANNEL_NAME: {
       TITLE: "設定成員數頻道的名字的步驟",
       SUBTITLE: "設定成員數頻道的名字",
-      MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
+      MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{{members}}` 在您的新名稱內"
     },
     NICKNAME: {
       DESCRIPTION: "本模組可以把 Filo 的名稱更改為成員數量",
       SET_NICKNAME: {
         TITLE: "設定暱稱的步驟",
         SUBTITLE: "把 Filo 的名稱更改為成員數量",
-        MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{members}` 在您的新名稱內"
+        MAX_LENGTH: "頻道名稱必須小於 **{{number}} 個字**，而且需要包含 `{{members}}` 在您的新名稱內"
       }
     }
   },

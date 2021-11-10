@@ -544,14 +544,14 @@ exports.MODULES = {
     SET_CHANNEL_NAME: {
       TITLE: "Pasos para establecer el nombre del canal contador de miembros",
       SUBTITLE: "Establecer el nombre del canal contador de miembros",
-      MAX_LENGTH: "El nombre del canal no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{members}` en el contenido"
+      MAX_LENGTH: "El nombre del canal no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{{members}}` en el contenido"
     },
     NICKNAME: {
       DESCRIPTION: "Este módulo te permitirá establecer un contador de miembros en el apodo de Filo",
       SET_NICKNAME: {
         TITLE: "Pasos para establecer el apodo",
         SUBTITLE: "Establecer el apodo",
-        MAX_LENGTH: "El apodo no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{members}` en el contenido"
+        MAX_LENGTH: "El apodo no puede exceder los **{{number}} caracteres** de longitud y debe incluir la variable `{{members}}` en el contenido"
       }
     }
   },
