@@ -206,6 +206,7 @@ exports.CALCULATOR = {
     MANAGE_CHANNELS: "管理頻道",
     PIN_MESSAGES: "釘選頻道",
     UNPIN_MESSAGES: "取消釘選頻道",
-    VIEW_HISTORY: "查看歷史"
+    VIEW_HISTORY: "查看歷史",
+    EVADE_SANCTIONS: "Evade Sanctions"
   }
 };

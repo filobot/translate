@@ -206,6 +206,7 @@ exports.CALCULATOR = {
     MANAGE_CHANNELS: "Manage Channels",
     PIN_MESSAGES: "Pin Messages",
     UNPIN_MESSAGES: "Unpin Messages",
-    VIEW_HISTORY: "View History"
+    VIEW_HISTORY: "View History",
+    EVADE_SANCTIONS: "Evade Sanctions"
   }
 };
