@@ -222,6 +222,26 @@ exports.MODULES = {
     SETTINGS_WILL_RESET: "Si se cumple este requisito, la configuración del módulo se restablecerá",
     MODULE_WILL_NOT_WORK: "Si se cumplen estos o algunos de los requisitos, el módulo no funcionará"
   },
+  ALLOW_CHANNEL: {
+    TITLE: "Steps to add a channel to the allowed list",
+    SUBTITLE: "Add a channel to the allowed list",
+    WARNING: "Si añades un canal a la lista de permitidos, este módulo no funcionará en dicho canal"
+  },
+  DISALLOW_CHANNEL: {
+    TITLE: "Steps to remove a channel to the allowed list",
+    SUBTITLE: "Remove a channel to the allowed list",
+    WARNING: "Si eliminas un canal de la lista de permitidos, este módulo funcionará en dicho canal"
+  },
+  ALLOW_ROLE: {
+    TITLE: "Steps to add a role to the allowed list",
+    SUBTITLE: "Add a role to the allowed list",
+    WARNING: "Si añades un rol a la lista de permitidos, cualquier que tenga este rol estará exento del funcionamiento de este módulo"
+  },
+  DISALLOW_ROLE: {
+    TITLE: "Steps to remove a role to the allowed list",
+    SUBTITLE: "Remove a role to the allowed list",
+    WARNING: "Si eliminas un rol de la lista de permitidos, cualquier que tenga este rol ya no estará exento del funcionamiento de este módulo"
+  },
   ENABLE_MODULE: {
     TITLE: "Pasos para habilitar el módulo",
     SUBTITLE: "Habilitar el módulo",
@@ -312,6 +332,22 @@ exports.MODULES = {
   ANTI_INVITES: {
     DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían invitaciones ajenas a su servidor o de los servidores permitidos",
     SERVER_ID: "ID del servidor",
+    ALLOW_FILO_INVITES: {
+      TITLE: "Pasos para habilitar el ignorar el servidor de Filo",
+      SUBTITLE: "Ignorar el servidor de Filo"
+    },
+    DISALLOW_FILO_INVITES: {
+      TITLE: "Pasos para no ignorar el servidor de Filo",
+      SUBTITLE: "No ignorar el servidor de Filo"
+    },
+    ALLOW_DISCORD_INVITES: {
+      TITLE: "Pasos para ignorar los servidores oficiales de Discord",
+      SUBTITLE: "Ignorar los servidores oficiales de Discord"
+    },
+    DISALLOW_DISCORD_INVITES: {
+      TITLE: "Pasos para no ignorar los servidores oficiales de Discord",
+      SUBTITLE: "No ignorar los servidores oficiales de Discord"
+    },
     ALLOW_A_SERVER: {
       TITLE: "Pasos para añadir un servidor a la lista de permitidos",
       SUBTITLE: "Añadir un servidor a la lista de permitidos",

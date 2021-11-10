@@ -222,6 +222,26 @@ exports.MODULES = {
     SETTINGS_WILL_RESET: "If this requirement is met, the module settings will be reset",
     MODULE_WILL_NOT_WORK: "If this or some of the requirements are met, the module won't work"
   },
+  ALLOW_CHANNEL: {
+    TITLE: "Steps to add a channel to the allowed list",
+    SUBTITLE: "Add a channel to the allowed list",
+    WARNING: "If you add a channel to the allow list, this module will not work on that channel"
+  },
+  DISALLOW_CHANNEL: {
+    TITLE: "Steps to remove a channel to the allowed list",
+    SUBTITLE: "Remove a channel to the allowed list",
+    WARNING: "If you remove a channel from the allowed list, this module will work on that channel"
+  },
+  ALLOW_ROLE: {
+    TITLE: "Steps to add a role to the allowed list",
+    SUBTITLE: "Add a role to the allowed list",
+    WARNING: "If you add a role to the allowed list, anyone who has this role will be exempt from the operation of this module"
+  },
+  DISALLOW_ROLE: {
+    TITLE: "Steps to remove a role to the allowed list",
+    SUBTITLE: "Remove a role to the allowed list",
+    WARNING: "If you remove a role from the allowed list, anyone who has this role will no longer be exempt from the operation of this module"
+  },
   ENABLE_MODULE: {
     TITLE: "Steps to enable the module",
     SUBTITLE: "Enable the module",
@@ -312,6 +332,22 @@ exports.MODULES = {
   ANTI_INVITES: {
     DESCRIPTION: "This module will allow you to delete and warn users who send invites outside your server or the allowed servers",
     SERVER_ID: "Server ID",
+    ALLOW_FILO_INVITES: {
+      TITLE: "Steps to enable Filo server bypass",
+      SUBTITLE: "Enable Filo server bypass"
+    },
+    DISALLOW_FILO_INVITES: {
+      TITLE: "Steps to disable Filo server bypass",
+      SUBTITLE: "Disable Filo server bypass"
+    },
+    ALLOW_DISCORD_INVITES: {
+      TITLE: "Steps to enable Discord official servers bypass",
+      SUBTITLE: "Enable Discord official servers bypass"
+    },
+    DISALLOW_DISCORD_INVITES: {
+      TITLE: "Steps to disable Discord official servers bypass",
+      SUBTITLE: "Disable Discord official servers bypass"
+    },
     ALLOW_A_SERVER: {
       TITLE: "Steps to add a server to the allowed list",
       SUBTITLE: "Add a server to the allowed list",
@@ -585,26 +621,6 @@ exports.MODULES = {
     DISALLOW_URL: {
       TITLE: "Steps to remove a URL from the allowed list",
       SUBTITLE: "Remove a URL from the allowed list"
-    },
-    ALLOW_CHANNEL: {
-      TITLE: "Steps to add a channel to the allowed list",
-      SUBTITLE: "Add a channel to the allowed list",
-      WARNING: "If you add a channel to the allowed list, a warn won't be granted to those users who spam on those channels"
-    },
-    DISALLOW_CHANNEL: {
-      TITLE: "Steps to remove a channel to the allowed list",
-      SUBTITLE: "Remove a channel to the allowed list",
-      WARNING: "If you remove a channel to the allowed list, a warn will be granted to those users who spam on those channels"
-    },
-    ALLOW_ROLE: {
-      TITLE: "Steps to add a role to the allowed list",
-      SUBTITLE: "Add a role to the allowed list",
-      WARNING: "If you add a role to the allowed list, users who have that role assigned won't be warned if they spam"
-    },
-    DISALLOW_ROLE: {
-      TITLE: "Steps to remove a role to the allowed list",
-      SUBTITLE: "Remove a role to the allowed list",
-      WARNING: "If you remove a role to the allowed list, users who have that role assigned will be warned if they spam"
     }
   }
 };

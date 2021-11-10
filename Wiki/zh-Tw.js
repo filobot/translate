@@ -222,6 +222,26 @@ exports.MODULES = {
     SETTINGS_WILL_RESET: "如果要滿足此要求，模組設置將被重置",
     MODULE_WILL_NOT_WORK: "如果滿足此要求或以下要求，則該模組將無法工作"
   },
+  ALLOW_CHANNEL: {
+    TITLE: "新增例外頻道的步驟",
+    SUBTITLE: "新增一個例外的頻道",
+    WARNING: "If you add a channel to the allow list, this module will not work on that channel"
+  },
+  DISALLOW_CHANNEL: {
+    TITLE: "移除例外頻道的步驟",
+    SUBTITLE: "移除例外頻道",
+    WARNING: "If you remove a channel from the allowed list, this module will work on that channel"
+  },
+  ALLOW_ROLE: {
+    TITLE: "新增例外身分組的步驟",
+    SUBTITLE: "新增例外身分組",
+    WARNING: "If you add a role to the allowed list, anyone who has this role will be exempt from the operation of this module"
+  },
+  DISALLOW_ROLE: {
+    TITLE: "移除例外身分組的步驟",
+    SUBTITLE: "移除例外身分組",
+    WARNING: "If you remove a role from the allowed list, anyone who has this role will no longer be exempt from the operation of this module"
+  },
   ENABLE_MODULE: {
     TITLE: "啟用本模組的步驟",
     SUBTITLE: "啟用模組",
@@ -312,6 +332,22 @@ exports.MODULES = {
   ANTI_INVITES: {
     DESCRIPTION: "本模組可以自動刪除其他伺服器的邀請和警告連結發送者",
     SERVER_ID: "伺服器 ID",
+    ALLOW_FILO_INVITES: {
+      TITLE: "Steps to enable Filo server bypass",
+      SUBTITLE: "Enable Filo server bypass"
+    },
+    DISALLOW_FILO_INVITES: {
+      TITLE: "Steps to disable Filo server bypass",
+      SUBTITLE: "Disable Filo server bypass"
+    },
+    ALLOW_DISCORD_INVITES: {
+      TITLE: "Steps to enable Discord official servers bypass",
+      SUBTITLE: "Enable Discord official servers bypass"
+    },
+    DISALLOW_DISCORD_INVITES: {
+      TITLE: "Steps to disable Discord official servers bypass",
+      SUBTITLE: "Disable Discord official servers bypass"
+    },
     ALLOW_A_SERVER: {
       TITLE: "新增例外伺服器名單的步驟",
       SUBTITLE: "新增例外伺服器至名單中",
