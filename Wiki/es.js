@@ -514,12 +514,10 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "Pasos para establecer el canal de registros",
       SUBTITLE: "Establecer el canal de registros",
-      WARNING: "Todos los eventos se reconfigurarán al mismo canal de registros",
       SUGGESTION: "El canal que selecciones debe ser privado y accesible para los moderadores del servidor"
     },
     CONFIGURE_EVENTS: {
       TITLE: "Pasos para configurar los eventos del módulo",
-      EVENT_LIST_INFO: "Puedes obtener una lista completa de los eventos disponibles ejecutando el siguiente comando: **{{command}}**",
       ENABLE_AN_EVENT: {
         TITLE: "Pasos para habilitar un evento",
         SUBTITLE: "Habilitar un evento"
@@ -527,10 +525,6 @@ exports.MODULES = {
       DISABLE_AN_EVENT: {
         TITLE: "Pasos para deshabilitar un evento",
         SUBTITLE: "Deshabilitar un evento"
-      },
-      SET_CHANNEL: {
-        TITLE: "Pasos para establecer el canal de un evento",
-        SUBTITLE: "Establecer el canal de un evento"
       }
     }
   },

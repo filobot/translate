@@ -514,12 +514,10 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "設定日誌頻道的步驟",
       SUBTITLE: "設定日誌頻道",
-      WARNING: "所有類型的事件將會被重新配置到相同的日誌頻道",
       SUGGESTION: "您設定的頻道需要是不公開且伺服器管理員可以看到的"
     },
     CONFIGURE_EVENTS: {
       TITLE: "配置模組事件的步驟",
-      EVENT_LIST_INFO: "您可以通過運行以下指令來獲取所有支援事件的列表: **{{command}}**",
       ENABLE_AN_EVENT: {
         TITLE: "啟用事件的步驟",
         SUBTITLE: "啟用事件"
@@ -527,10 +525,6 @@ exports.MODULES = {
       DISABLE_AN_EVENT: {
         TITLE: "停用事件的步驟",
         SUBTITLE: "停用事件"
-      },
-      SET_CHANNEL: {
-        TITLE: "設置事件頻道的步驟",
-        SUBTITLE: "設置事件頻道"
       }
     }
   },

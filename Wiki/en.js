@@ -514,12 +514,10 @@ exports.MODULES = {
     SET_CHANNEL: {
       TITLE: "Steps to set the logging channel",
       SUBTITLE: "Set the logging channel",
-      WARNING: "All events will be reconfigured to the same logging channel",
       SUGGESTION: "The channel you select should be private and accessible to server moderators"
     },
     CONFIGURE_EVENTS: {
       TITLE: "Steps to configure module events",
-      EVENT_LIST_INFO: "You can get a complete list of available events by running the following command: **{{command}}**",
       ENABLE_AN_EVENT: {
         TITLE: "Steps to enable an event",
         SUBTITLE: "Enable an event"
@@ -527,10 +525,6 @@ exports.MODULES = {
       DISABLE_AN_EVENT: {
         TITLE: "Steps to disable an event",
         SUBTITLE: "Disable an event"
-      },
-      SET_CHANNEL: {
-        TITLE: "Steps to set the channel of an event",
-        SUBTITLE: "Set the channel of an event"
       }
     }
   },
