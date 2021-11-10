@@ -621,6 +621,26 @@ exports.MODULES = {
     DISALLOW_URL: {
       TITLE: "Steps to remove a URL from the allowed list",
       SUBTITLE: "Remove a URL from the allowed list"
+    },
+    ALLOW_CHANNEL: {
+      TITLE: "Steps to add a channel to the allowed list",
+      SUBTITLE: "Add a channel to the allowed list",
+      WARNING: "If you add a channel to the allowed list, a warn won't be granted to those users who spam on those channels"
+    },
+    DISALLOW_CHANNEL: {
+      TITLE: "Steps to remove a channel to the allowed list",
+      SUBTITLE: "Remove a channel to the allowed list",
+      WARNING: "If you remove a channel to the allowed list, a warn will be granted to those users who spam on those channels"
+    },
+    ALLOW_ROLE: {
+      TITLE: "Steps to add a role to the allowed list",
+      SUBTITLE: "Add a role to the allowed list",
+      WARNING: "If you add a role to the allowed list, users who have that role assigned won't be warned if they spam"
+    },
+    DISALLOW_ROLE: {
+      TITLE: "Steps to remove a role to the allowed list",
+      SUBTITLE: "Remove a role to the allowed list",
+      WARNING: "If you remove a role to the allowed list, users who have that role assigned will be warned if they spam"
     }
   }
 };
