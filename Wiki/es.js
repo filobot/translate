@@ -256,6 +256,10 @@ exports.MODULES = {
     SUBTITLE: "Restablecer las configuraciones del módulo",
     WARNING: "Te verás obligado a confirmar la acción que estas a punto de realizar. Una vez la hayas confirmado, no podrás recuperar los datos anteriores"
   },
+  SET_SANCTION: {
+    TITLE: "Pasos para establecer una sanción",
+    SUBTITLE: "Establecer una sanción"
+  },
   ACTION_LIST: {
     SANCTION_DESCRIPTION: "La sanción {{action}} {{time}} al usuario en cuestión del servidor"
   },

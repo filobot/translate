@@ -256,6 +256,10 @@ exports.MODULES = {
     SUBTITLE: "Reset the module settings",
     WARNING: "You'll be forced to confirm the action you are about to take. Once you have confirmed the action, you won't be able to recover the previous data"
   },
+  SET_SANCTION: {
+    TITLE: "Steps to set a sanction",
+    SUBTITLE: "Set a sanction"
+  },
   ACTION_LIST: {
     SANCTION_DESCRIPTION: "This sanction will {{time}} {{action}} the user in question from the server"
   },

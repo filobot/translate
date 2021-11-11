@@ -256,6 +256,10 @@ exports.MODULES = {
     SUBTITLE: "重置模組",
     WARNING: "你必須謹慎考慮此操作。如果重置，您將無法恢復之前的設定"
   },
+  SET_SANCTION: {
+    TITLE: "Steps to set a sanction",
+    SUBTITLE: "Set a sanction"
+  },
   ACTION_LIST: {
     SANCTION_DESCRIPTION: "此處罰將從伺服器 {{time}} {{action}} 有問題的使用者"
   },
