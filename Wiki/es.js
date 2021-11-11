@@ -85,7 +85,9 @@ exports.GENERAL = {
   URL: "URL",
   EVENT: "Evento",
   BITFIELD: "Campo de bits",
-  PERMISSION: "Permiso"
+  PERMISSION: "Permiso",
+  WARNINGS: "Advertencias",
+  LEVEL: "Nivel"
 };
 
 exports.ABOUT_WIKI = {
@@ -199,6 +201,7 @@ exports.MODULES = {
   IF_YOU_WANT_SETUP: "Si quieres {{action}}, haz **[clic aquí]({{link}})** y lo llevaremos al artículo guiado en poco tiempo",
   VARIABLE_WILL_RETURN: "Esta variable devolverá el {{data}}",
   TIME_LIMIT: "Dispondrás de **{{time}}** para realizar esta acción",
+  FULL_LIST_OF_ACTIONS: "Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí]({{link}})**",
   GETTING_STARTED: {
     DESCRIPTION: "Antes de continuar con este artículo, debes tener en cuenta una serie de elementos que pueden influir cuando vayas a realizar alguna acción descrita en esta página",
     REQUIRES_ADVANCED_PERMISSION: "Filo requiere el siguiente permiso avanzado: {{permission}}",
@@ -403,18 +406,17 @@ exports.MODULES = {
   },
   AUTO_MODERATION: {
     DESCRIPTION: "Este módulo te permitirá sancionar automáticamente a aquellos usuarios que tengan repetidamente un comportamiento incorrecto",
-    SET_MAX_WARNINGS: {
-      TITLE: "Pasos para establecer las advertencias máximas por nivel",
-      SUBTITLE: "Establecer las advertencias máximas por nivel"
+    ADD_A_LEVEL: {
+      TITLE: "Pasos para añadir un nivel",
+      SUBTITLE: "Añadir un nivel"
     },
-    SET_ACTION: {
-      TITLE: "Pasos para establecer la acción por nivel",
-      SUBTITLE: "Establecer la acción por nivel",
-      FULL_LIST_OF_ACTIONS: "Puedes ver una lista completa de las acciones que admite Filo haciendo **[clic aquí]({{link}})**"
+    REMOVE_A_LEVEL: {
+      TITLE: "Pasos para eliminar un nivel",
+      SUBTITLE: "Eliminar un nivel"
     },
-    SET_TIME: {
-      TITLE: "Pasos para establecer el tiempo de la acción por nivel",
-      SUBTITLE: "Establecer el tiempo de la acción por nivel"
+    SET_LEVEL_INFO: {
+      TITLE: "Pasos para establecer la información de un nivel",
+      SUBTITLE: "Establecer la información de un nivel"
     }
   },
   COMMANDS: {

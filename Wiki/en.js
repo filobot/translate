@@ -85,7 +85,9 @@ exports.GENERAL = {
   URL: "URL",
   EVENT: "Event",
   BITFIELD: "Bitfield",
-  PERMISSION: "Permission"
+  PERMISSION: "Permission",
+  WARNINGS: "Warnings",
+  LEVEL: "Level"
 };
 
 exports.ABOUT_WIKI = {
@@ -199,6 +201,7 @@ exports.MODULES = {
   IF_YOU_WANT_SETUP: "If you want to {{action}}, **[click here]({{link}})** and we'll take you to the guided article in no time",
   VARIABLE_WILL_RETURN: "This variable will return the {{data}}",
   TIME_LIMIT: "You'll have **{{time}}** to perform this action",
+  FULL_LIST_OF_ACTIONS: "You can see a full list of actions that Filo supports by **[clicking here]({{link}})**",
   GETTING_STARTED: {
     DESCRIPTION: "Before proceeding with this article, you must take into account a series of elements that can influence when you are going to carry out any action described on this page",
     REQUIRES_ADVANCED_PERMISSION: "Filo requires the following advanced permission: {{permission}}",
@@ -403,18 +406,17 @@ exports.MODULES = {
   },
   AUTO_MODERATION: {
     DESCRIPTION: "This module will allow you to automatically sanction those users who repeatedly have incorrect behavior",
-    SET_MAX_WARNINGS: {
-      TITLE: "Steps to set maximum warnings per level",
-      SUBTITLE: "Set maximum warnings per level"
+    ADD_A_LEVEL: {
+      TITLE: "Steps to add a level",
+      SUBTITLE: "Add a level"
     },
-    SET_ACTION: {
-      TITLE: "Steps to set a action per level",
-      SUBTITLE: "Set a action per level",
-      FULL_LIST_OF_ACTIONS: "You can see a full list of actions that Filo supports by **[clicking here]({{link}})**"
+    REMOVE_A_LEVEL: {
+      TITLE: "Steps to remove a level",
+      SUBTITLE: "Remove a level"
     },
-    SET_TIME: {
-      TITLE: "Steps to set the time of a action per level",
-      SUBTITLE: "Set the time of a action per level"
+    SET_LEVEL_INFO: {
+      TITLE: "Steps to set the information of a level",
+      SUBTITLE: "Set the information of a level"
     }
   },
   COMMANDS: {

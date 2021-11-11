@@ -85,7 +85,9 @@ exports.GENERAL = {
   URL: "URL",
   EVENT: "事件",
   BITFIELD: "數字位域",
-  PERMISSION: "權限"
+  PERMISSION: "權限",
+  WARNINGS: "Warnings",
+  LEVEL: "Level"
 };
 
 exports.ABOUT_WIKI = {
@@ -199,6 +201,7 @@ exports.MODULES = {
   IF_YOU_WANT_SETUP: "如果要 {{action}} 本模組，請**[點擊這裡]({{link}})**。我們將會帶你到另一個主題",
   VARIABLE_WILL_RETURN: "這個變數會傳回 {{data}}",
   TIME_LIMIT: "You'll have **{{time}}** to perform this action",
+  FULL_LIST_OF_ACTIONS: "你可以點擊 **[這個連結]({{link}})** 來查看 Filo 支援的處罰",
   GETTING_STARTED: {
     DESCRIPTION: "在繼續之前，您必須考慮一系列可能影響您執行的任何操作因素",
     REQUIRES_ADVANCED_PERMISSION: "Filo 需要要此項進階權限： {{permission}}",
@@ -403,18 +406,17 @@ exports.MODULES = {
   },
   AUTO_MODERATION: {
     DESCRIPTION: "本模組可以讓你把有前科的人抓出來，並訂製他們的處罰",
-    SET_MAX_WARNINGS: {
-      TITLE: "設定最高前科次數的步驟",
-      SUBTITLE: "設定最高前科次數"
+    ADD_A_LEVEL: {
+      TITLE: "Steps to add a level",
+      SUBTITLE: "Add a level"
     },
-    SET_ACTION: {
-      TITLE: "設定前科累加的處罰的步驟",
-      SUBTITLE: "設定前科累加的處罰",
-      FULL_LIST_OF_ACTIONS: "你可以點擊 **[這個連結]({{link}})** 來查看 Filo 支援的處罰"
+    REMOVE_A_LEVEL: {
+      TITLE: "Steps to remove a level",
+      SUBTITLE: "Remove a level"
     },
-    SET_TIME: {
-      TITLE: "設定前科紀錄的保留時間的步驟",
-      SUBTITLE: "設定紀錄的保留時間"
+    SET_LEVEL_INFO: {
+      TITLE: "Steps to set the information of a level",
+      SUBTITLE: "Set the information of a level"
     }
   },
   COMMANDS: {
