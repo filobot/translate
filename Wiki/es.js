@@ -264,7 +264,16 @@ exports.MODULES = {
     SUBTITLE: "Establecer una sanción"
   },
   ACTION_LIST: {
-    SANCTION_DESCRIPTION: "La sanción {{action}} {{time}} al usuario en cuestión del servidor"
+    NOT_AVAILABLE_IN_SOME_MODULES: "Algunas de las sanciones descritas a continuación no se encuentran disponibles en todos los módulos",
+    DELETE_THE_MESSAGE: "Eliminar el mensaje",
+    WARN_THE_USER: "Advertir al usuario",
+    KICK_THE_USER: "Expulsar al usuario",
+    PERMANENTLY_MUTE_THE_USER: "Silenciar permanentemente al usuario",
+    TEMPORARILY_MUTE_THE_USER: "Silenciar temporalmente al usuario",
+    PERMANENTLY_BAN_THE_USER: "Prohibir permanentemente al usuario",
+    TEMPORARILY_BAN_THE_USER: "Prohibir temporalmente al usuario",
+    SOFTBAN_THE_USER: "Prohibir suavemente al usuario",
+    SANCTION_DESCRIPTION: "Esta acción va a {{action}} al usuario en cuestión del servidor"
   },
   VARIABLE_LIST: {    
     USER_MENTION: "Mención del usuario en cuestión",
