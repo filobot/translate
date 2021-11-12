@@ -334,7 +334,7 @@ exports.MODULES = {
     }
   },
   ANTI_EVASION: {
-    DESCRIPTION: "Este módulo sancionará a aquellos usuarios que tengan una sanción activa (mute) y hayan abandonado el servidor",
+    DESCRIPTION: "Este módulo sancionará a aquellos usuarios que tengan una sanción activa (silencio) y hayan abandonado el servidor",
     ACTION: "Acción",
     SET_A_ACTION: {
       TITLE: "Pasos para establecer la acción",
@@ -381,32 +381,9 @@ exports.MODULES = {
   },
   ANTI_SPAM: {
     DESCRIPTION: "Este módulo te permitirá eliminar y advertir a aquellos usuarios que realicen spam",
-    ALLOW_CHANNEL: {
-      TITLE: "Pasos para añadir un canal a la lista de permtiidos",
-      SUBTITLE: "Añadir un canal a la lista de permitidos",
-      WARNING: "Si agregas un canal a la lista de permitidos, no se otorgará una advertencia a los usuarios que envíen spam en esos canales"
-    },
-    DISALLOW_CHANNEL: {
-      TITLE: "Pasos para eliminar un canal de la lista de permitidos",
-      SUBTITLE: "Eliminar un canal de la lista de permitidos",
-      WARNING: "Si eliminas un canal de la lista de permitidos, se otorgará una advertencia a los usuarios que envíen spam en esos canales"
-    },
-    ALLOW_ROLE: {
-      TITLE: "Pasos para añadir un rol a la lista de permitidos",
-      SUBTITLE: "Añadir un rol a la lista de permitidos",
-      WARNING: "Si agregas un rol a la lista de permitidos, los usuarios que tengan ese rol asignado no recibirán una advertencia si envían spam"
-    },
-    DISALLOW_ROLE: {
-      TITLE: "Pasos para eliminar un rol de la lista de permitidos",
-      SUBTITLE: "Eliminar un rol de la lista de permitidos",
-      WARNING: "Si eliminas un rol de la lista de permitidos, los usuarios que tengan ese rol asignado recibirán una advertencia si envían spam"
-    },
     SET_THRESHOLD: {
       TITLE: "Pasos para establecer el umbral de mensajes duplicados y el tiempo",
-      SUBTITLE: "Establecer el umbral de mensajes duplicados",
-      TIME: {
-        SUBTITLE: "Establecer el tiempo para mensajes duplicados"
-      }
+      SUBTITLE: "Establecer el umbral de mensajes duplicados"
     }
   },
   AUTO_MODERATION: {

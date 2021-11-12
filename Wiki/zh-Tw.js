@@ -381,32 +381,9 @@ exports.MODULES = {
   },
   ANTI_SPAM: {
     DESCRIPTION: "本模組可以自動刪除洗版訊息和警告洗版發送者",
-    ALLOW_CHANNEL: {
-      TITLE: "新增例外頻道的步驟",
-      SUBTITLE: "新增一個例外的頻道",
-      WARNING: "如題所說，那些在本頻道洗版的人不會受到任何處罰"
-    },
-    DISALLOW_CHANNEL: {
-      TITLE: "移除例外頻道的步驟",
-      SUBTITLE: "移除例外頻道",
-      WARNING: "如題所說，那些在本頻道洗版的人將會重新受到處罰"
-    },
-    ALLOW_ROLE: {
-      TITLE: "新增例外身分組的步驟",
-      SUBTITLE: "新增例外身分組",
-      WARNING: "如題所說，那些擁有此身分組的人將不會受到洗版處罰"
-    },
-    DISALLOW_ROLE: {
-      TITLE: "移除例外身分組的步驟",
-      SUBTITLE: "移除例外身分組",
-      WARNING: "如題所說，那些擁有此身分組的人將會重新受到洗版處罰"
-    },
     SET_THRESHOLD: {
       TITLE: "設定數量和時間的步驟",
-      SUBTITLE: "設定數量和時間",
-      TIME: {
-        SUBTITLE: "為相同的訊息設定洗版最低時間"
-      }
+      SUBTITLE: "設定數量和時間"
     }
   },
   AUTO_MODERATION: {
