@@ -322,7 +322,7 @@ exports.MODULES = {
     SERVER_FEATURES: "Features of the server in question"
   },
   ANTI_BAD_WORDS: {
-    DESCRIPTION: "This module will allow you to eliminate and warn users who send bad words",
+    DESCRIPTION: "This module will sanction those users who send messages with bad words",
     BAD_WORD: "Bad word",
     BAN_A_BAD_WORD: {
       TITLE: "Steps to ban a bad word",
@@ -331,6 +331,14 @@ exports.MODULES = {
     UNBAN_A_BAD_WORD: {
       TITLE: "Steps to unban a bad word",
       SUBTITLE: "Unban a bad word"
+    },
+    ENABLE_AGGRESIVE_FILTER: {
+      TITLE: "Steps to enable the aggressive filter",
+      SUBTITLE: "Enable the aggressive filter"
+    },
+    DISABLE_AGGRESIVE_FILTER: {
+      TITLE: "Steps to disable the aggressive filter",
+      SUBTITLE: "Disable the aggressive filter"
     }
   },
   ANTI_EVASION: {
@@ -342,7 +350,7 @@ exports.MODULES = {
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "This module will allow you to prevent users from spamming invites from servers other than yours",
+    DESCRIPTION: "This module will sanction users who spam invitations from servers other than yours",
     SERVER_ID: "Server ID",
     ALLOW_FILO_INVITES: {
       TITLE: "Steps to enable Filo server bypass",
@@ -387,7 +395,7 @@ exports.MODULES = {
     }
   },
   AUTO_MODERATION: {
-    DESCRIPTION: "This module will allow you to automatically sanction a user when they reach a previously established level of moderation",
+    DESCRIPTION: "This module will automatically sanction a user when he reaches a previously established level of moderation",
     ADD_A_LEVEL: {
       TITLE: "Steps to add a level",
       SUBTITLE: "Add a level"

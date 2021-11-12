@@ -322,7 +322,7 @@ exports.MODULES = {
     SERVER_FEATURES: "Ventajas del servidor en cuestión"
   },
   ANTI_BAD_WORDS: {
-    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían malas palabras",
+    DESCRIPTION: "Este módulo sancionará a aquellos usuarios que envíen mensajes con palabras malas",
     BAD_WORD: "Mala palabra",
     BAN_A_BAD_WORD: {
       TITLE: "Pasos para banear una mala palabra",
@@ -331,6 +331,14 @@ exports.MODULES = {
     UNBAN_A_BAD_WORD: {
       TITLE: "Pasos para desbanear una mala palabra",
       SUBTITLE: "Desbanear una mala palabra"
+    },
+    ENABLE_AGGRESIVE_FILTER: {
+      TITLE: "Pasos para activar el filtro agresivo",
+      SUBTITLE: "Activar el filtro agresivo"
+    },
+    DISABLE_AGGRESIVE_FILTER: {
+      TITLE: "Pasos para desactivar el filtro agresivo",
+      SUBTITLE: "Desactivar el filtro agresivo"
     }
   },
   ANTI_EVASION: {
@@ -342,7 +350,7 @@ exports.MODULES = {
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "Este módulo te permitirá evitar que los usuarios hagan spam de invitaciones de servidores ajeno al de usted",
+    DESCRIPTION: "Este módulo sancionará a los usuarios hagan spam de invitaciones de servidores ajeno al de usted",
     SERVER_ID: "ID del servidor",
     ALLOW_FILO_INVITES: {
       TITLE: "Pasos para habilitar el ignorar el servidor de Filo",
@@ -387,7 +395,7 @@ exports.MODULES = {
     }
   },
   AUTO_MODERATION: {
-    DESCRIPTION: "Este módulo te permitirá sancionar automáticamente a un usuario cuando alcance un nivel de moderación previamente establecido",
+    DESCRIPTION: "Este módulo sancionará automáticamente a un usuario cuando alcance un nivel de moderación previamente establecido",
     ADD_A_LEVEL: {
       TITLE: "Pasos para añadir un nivel",
       SUBTITLE: "Añadir un nivel"

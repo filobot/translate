@@ -322,7 +322,7 @@ exports.MODULES = {
     SERVER_FEATURES: "Features of the server in question"
   },
   ANTI_BAD_WORDS: {
-    DESCRIPTION: "本模組會殲滅成員說出的髒話",
+    DESCRIPTION: "This module will sanction those users who send messages with bad words",
     BAD_WORD: "髒話",
     BAN_A_BAD_WORD: {
       TITLE: "新增髒話至辭典的步驟",
@@ -331,6 +331,14 @@ exports.MODULES = {
     UNBAN_A_BAD_WORD: {
       TITLE: "從辭典移除髒話的步驟",
       SUBTITLE: "移除髒話"
+    },
+    ENABLE_AGGRESIVE_FILTER: {
+      TITLE: "Steps to enable the aggressive filter",
+      SUBTITLE: "Enable the aggressive filter"
+    },
+    DISABLE_AGGRESIVE_FILTER: {
+      TITLE: "Steps to disable the aggressive filter",
+      SUBTITLE: "Disable the aggressive filter"
     }
   },
   ANTI_EVASION: {
@@ -342,7 +350,7 @@ exports.MODULES = {
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "This module will allow you to prevent users from spamming invites from servers other than yours",
+    DESCRIPTION: "This module will sanction users who spam invitations from servers other than yours",
     SERVER_ID: "伺服器 ID",
     ALLOW_FILO_INVITES: {
       TITLE: "Steps to enable Filo server bypass",
@@ -387,7 +395,7 @@ exports.MODULES = {
     }
   },
   AUTO_MODERATION: {
-    DESCRIPTION: "This module will allow you to automatically sanction a user when they reach a previously established level of moderation",
+    DESCRIPTION: "This module will automatically sanction a user when he reaches a previously established level of moderation",
     ADD_A_LEVEL: {
       TITLE: "Steps to add a level",
       SUBTITLE: "Add a level"
