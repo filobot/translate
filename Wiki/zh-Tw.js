@@ -273,7 +273,8 @@ exports.MODULES = {
     PERMANENTLY_BAN_THE_USER: "Permanently ban the user",
     TEMPORARILY_BAN_THE_USER: "Temporarily ban the user",
     SOFTBAN_THE_USER: "Softban the user",
-    SANCTION_DESCRIPTION: "This action will {{action}} the user in question from the server"
+    SANCTION_DESCRIPTION: "This action will {{action}} the user in question from the server",
+    MAX_TIME_ALLOWED: "The maximum time allowed is {{time}}"
   },
   VARIABLE_LIST: {    
     USER_MENTION: "Mention of the user in question",
