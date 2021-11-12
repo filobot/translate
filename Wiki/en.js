@@ -380,7 +380,7 @@ exports.MODULES = {
     DESCRIPTION: "This module will allow you to eliminate and warn those users who send messages with repeated text"
   },
   ANTI_SPAM: {
-    DESCRIPTION: "This module will allow you to delete and warn a user who does spam",
+    DESCRIPTION: "This module will sanction those users who send too many messages in a short time or identical messages in a short time.",
     SET_THRESHOLD: {
       TITLE: "Steps to set the threshold and time for duplicate messages",
       SUBTITLE: "Set the threshold for duplicate messages"

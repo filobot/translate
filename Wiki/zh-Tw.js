@@ -380,7 +380,7 @@ exports.MODULES = {
     DESCRIPTION: "本模組可以處罰或警告傳送重複文字的人"
   },
   ANTI_SPAM: {
-    DESCRIPTION: "本模組可以自動刪除洗版訊息和警告洗版發送者",
+    DESCRIPTION: "This module will sanction those users who send too many messages in a short time or identical messages in a short time",
     SET_THRESHOLD: {
       TITLE: "設定數量和時間的步驟",
       SUBTITLE: "設定數量和時間"

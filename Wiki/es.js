@@ -380,7 +380,7 @@ exports.MODULES = {
     DESCRIPTION: "Este módulo te permitirá eliminar y advertir a aquellos usuarios que envíen mensajes con texto repetido"
   },
   ANTI_SPAM: {
-    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a aquellos usuarios que realicen spam",
+    DESCRIPTION: "Este módulo sancionará a aquellos usuarios que envíen demasiados mensajes en poco tiempo o mensajes idénticos en poco tiempo",
     SET_THRESHOLD: {
       TITLE: "Pasos para establecer el umbral de mensajes duplicados y el tiempo",
       SUBTITLE: "Establecer el umbral de mensajes duplicados"
