@@ -334,7 +334,8 @@ exports.MODULES = {
     },
     ENABLE_AGGRESIVE_FILTER: {
       TITLE: "Steps to enable the aggressive filter",
-      SUBTITLE: "Enable the aggressive filter"
+      SUBTITLE: "Enable the aggressive filter",
+      WARNING: "Enabling the aggressive filter can cause a higher number of false positives"
     },
     DISABLE_AGGRESIVE_FILTER: {
       TITLE: "Steps to disable the aggressive filter",

@@ -334,7 +334,8 @@ exports.MODULES = {
     },
     ENABLE_AGGRESIVE_FILTER: {
       TITLE: "Pasos para activar el filtro agresivo",
-      SUBTITLE: "Activar el filtro agresivo"
+      SUBTITLE: "Activar el filtro agresivo",
+      WARNING: "Activar el filtro agresivo puede ocasionar una mayor cantidad de falsos positivos"
     },
     DISABLE_AGGRESIVE_FILTER: {
       TITLE: "Pasos para desactivar el filtro agresivo",
