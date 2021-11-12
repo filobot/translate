@@ -618,6 +618,22 @@ exports.MODULES = {
     DISALLOW_URL: {
       TITLE: "Pasos para eliminar una URL de la lista de permitidas",
       SUBTITLE: "Eliminar una URL de la lista de permitidas"
+    },
+    ALLOW_FILO_LINKS: {
+      TITLE: "Pasos para activar el ignorar los enlaces de Filo",
+      SUBTITLE: "Activar el ignorar los enlaces de Filo"
+    },
+    DISALLOW_FILO_LINKS: {
+      TITLE: "Pasos para desactivar el ignorar los enlaces de Filo",
+      SUBTITLE: "Desactivar el ignorar los enlaces de Filo"
+    },
+    ALLOW_DISCORD_LINKS: {
+      TITLE: "Pasos para activar el ignorar los enlaces de Discord",
+      SUBTITLE: "Pasos para activar el ignorar los enlaces de Discord"
+    },
+    DISALLOW_DISCORD_LINKS: {
+      TITLE: "Pasos para desactivar el ignorar los enlaces de Discord",
+      SUBTITLE: "Desactivar el ignorar los enlaces de Discord"
     }
   }
 };

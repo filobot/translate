@@ -618,6 +618,22 @@ exports.MODULES = {
     DISALLOW_URL: {
       TITLE: "Steps to remove a URL from the allowed list",
       SUBTITLE: "Remove a URL from the allowed list"
+    },
+    ALLOW_FILO_LINKS: {
+      TITLE: "Steps to enable bypassing of Filo links",
+      SUBTITLE: "Enable bypassing of Filo links"
+    },
+    DISALLOW_FILO_LINKS: {
+      TITLE: "Steps to disable bypassing of Filo links",
+      SUBTITLE: "Disable bypassing of Filo links"
+    },
+    ALLOW_DISCORD_LINKS: {
+      TITLE: "Steps to enable bypassing of Discord links",
+      SUBTITLE: "Enable bypassing of Discord links"
+    },
+    DISALLOW_DISCORD_LINKS: {
+      TITLE: "Steps to disable bypassing of Discord links",
+      SUBTITLE: "Disable bypassing of Discord links"
     }
   }
 };

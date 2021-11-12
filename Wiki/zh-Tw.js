@@ -618,6 +618,22 @@ exports.MODULES = {
     DISALLOW_URL: {
       TITLE: "從允許清單中移除 URL 的步驟",
       SUBTITLE: "移除允許清單中的 URL"
+    },
+    ALLOW_FILO_LINKS: {
+      TITLE: "Steps to enable bypassing of Filo links",
+      SUBTITLE: "Enable bypassing of Filo links"
+    },
+    DISALLOW_FILO_LINKS: {
+      TITLE: "Steps to disable bypassing of Filo links",
+      SUBTITLE: "Disable bypassing of Filo links"
+    },
+    ALLOW_DISCORD_LINKS: {
+      TITLE: "Steps to enable bypassing of Discord links",
+      SUBTITLE: "Enable bypassing of Discord links"
+    },
+    DISALLOW_DISCORD_LINKS: {
+      TITLE: "Steps to disable bypassing of Discord links",
+      SUBTITLE: "Disable bypassing of Discord links"
     }
   }
 };
