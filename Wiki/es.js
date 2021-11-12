@@ -594,7 +594,7 @@ exports.MODULES = {
     }
   },
   ANTI_EXTERNAL_LINKS: {
-    DESCRIPTION: "Este módulo te permitirá eliminar los mensajes y advertir a los miembros que envíen enlaces externos",
+    DESCRIPTION: "Este módulo sancionará a aquellos usuarios que envíen en su mensaje algún tipo de enlace",
     DISCORD_LINKS_BYPASS: "Todos los enlaces de Discord harán bypass a este módulo",
     ALLOW_URL: {
       TITLE: "Pasos para agregar una URL a la lista de permitidas",
@@ -618,26 +618,6 @@ exports.MODULES = {
     DISALLOW_URL: {
       TITLE: "Pasos para eliminar una URL de la lista de permitidas",
       SUBTITLE: "Eliminar una URL de la lista de permitidas"
-    },
-    ALLOW_CHANNEL: {
-      TITLE: "Pasos para añadir un canal a la lista de permtiidos",
-      SUBTITLE: "Añadir un canal a la lista de permitidos",
-      WARNING: "Si agregas un canal a la lista de permitidos, no se otorgará una advertencia a los usuarios que envíen spam en esos canales"
-    },
-    DISALLOW_CHANNEL: {
-      TITLE: "Pasos para eliminar un canal de la lista de permitidos",
-      SUBTITLE: "Eliminar un canal de la lista de permitidos",
-      WARNING: "Si eliminas un canal de la lista de permitidos, se otorgará una advertencia a los usuarios que envíen spam en esos canales"
-    },
-    ALLOW_ROLE: {
-      TITLE: "Pasos para añadir un rol a la lista de permitidos",
-      SUBTITLE: "Añadir un rol a la lista de permitidos",
-      WARNING: "Si agregas un rol a la lista de permitidos, los usuarios que tengan ese rol asignado no recibirán una advertencia si envían spam"
-    },
-    DISALLOW_ROLE: {
-      TITLE: "Pasos para eliminar un rol de la lista de permitidos",
-      SUBTITLE: "Eliminar un rol de la lista de permitidos",
-      WARNING: "Si eliminas un rol de la lista de permitidos, los usuarios que tengan ese rol asignado recibirán una advertencia si envían spam"
     }
   }
 };

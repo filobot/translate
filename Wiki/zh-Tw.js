@@ -594,7 +594,7 @@ exports.MODULES = {
     }
   },
   ANTI_EXTERNAL_LINKS: {
-    DESCRIPTION: "本模組將可以刪除指定的外部鏈接消息並警告發送者",
+    DESCRIPTION: "This module will sanction those users who send some type of link in their message",
     DISCORD_LINKS_BYPASS: "所有 Discord 的連結將會繞過這個模組",
     ALLOW_URL: {
       TITLE: "加入指定 URL 的步驟",
@@ -618,26 +618,6 @@ exports.MODULES = {
     DISALLOW_URL: {
       TITLE: "從允許清單中移除 URL 的步驟",
       SUBTITLE: "移除允許清單中的 URL"
-    },
-    ALLOW_CHANNEL: {
-      TITLE: "新增例外頻道的步驟",
-      SUBTITLE: "新增一個例外的頻道",
-      WARNING: "如題所說，那些在本頻道洗版的人不會受到任何處罰"
-    },
-    DISALLOW_CHANNEL: {
-      TITLE: "移除例外頻道的步驟",
-      SUBTITLE: "移除例外頻道",
-      WARNING: "如題所說，那些在本頻道洗版的人將會重新受到處罰"
-    },
-    ALLOW_ROLE: {
-      TITLE: "新增例外身分組的步驟",
-      SUBTITLE: "新增例外身分組",
-      WARNING: "如題所說，那些擁有此身分組的人將不會受到洗版處罰"
-    },
-    DISALLOW_ROLE: {
-      TITLE: "移除例外身分組的步驟",
-      SUBTITLE: "移除例外身分組",
-      WARNING: "如題所說，那些擁有此身分組的人將會重新受到洗版處罰"
     }
   }
 };
