@@ -334,7 +334,7 @@ exports.MODULES = {
     }
   },
   ANTI_EVASION: {
-    DESCRIPTION: "本模組會把想要繞過處罰機制的人抓出來，並恢復他們的處罰",
+    DESCRIPTION: "This module will sanction those users who have an active sanction (mute) and have left the server",
     ACTION: "規則",
     SET_A_ACTION: {
       TITLE: "設定要處理的原則的步驟",
@@ -342,7 +342,7 @@ exports.MODULES = {
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "本模組可以自動刪除其他伺服器的邀請和警告連結發送者",
+    DESCRIPTION: "This module will allow you to prevent users from spamming invites from servers other than yours",
     SERVER_ID: "伺服器 ID",
     ALLOW_FILO_INVITES: {
       TITLE: "Steps to enable Filo server bypass",
@@ -410,7 +410,7 @@ exports.MODULES = {
     }
   },
   AUTO_MODERATION: {
-    DESCRIPTION: "本模組可以讓你把有前科的人抓出來，並訂製他們的處罰",
+    DESCRIPTION: "This module will allow you to automatically sanction a user when they reach a previously established level of moderation",
     ADD_A_LEVEL: {
       TITLE: "Steps to add a level",
       SUBTITLE: "Add a level"
@@ -428,7 +428,7 @@ exports.MODULES = {
     DESCRIPTION: "本模組將允許您啟用或停用 Filo 指令",
     DISABLE_COMMANDS: {
       ACTION: "停用或重新啟用 Filo 指令",
-      DESCRIPTION: "本模組將允許您停用您不會用到或不想使用的指令",
+      DESCRIPTION: "This module will allow you to disable Filo commands for all members of the server (including you)",
       DISABLE: {
         TITLE: "停用指令的步驟",
         SUBTITLE: "停用指令"
@@ -547,14 +547,14 @@ exports.MODULES = {
     }
   },
   LANGUAGE: {
-    DESCRIPTION: "本模組允許您更改或重置 Filo 的語言。注意！這將影響所有的指令、模組和系統",
+    DESCRIPTION: "This module will allow you to change the language of Filo and its modules to whatever is currently actively maintained",
     SELECT_A_LANGUAGE: {
       TITLE: "Steps to select a language",
       SUBTITLE: "Select a language"
     }
   },
   LOGGING: {
-    DESCRIPTION: "本模組可以讓您把所有伺服器的紀錄傳送到指定頻道",
+    DESCRIPTION: "This module will allow you to receive the audit records through messages on a specific channel",
     MODULE_EXCEPTIONS: {
       WEBHOOK_REMOVED: "如果 Webhook 被刪除",
     },
@@ -597,7 +597,7 @@ exports.MODULES = {
     }
   },
   REPORTS: {
-    DESCRIPTION: "本模組允許您舉報其他使用者並將他們送往舉報頻道",
+    DESCRIPTION: "This module will allow users to report the bad behavior of other users of the server",
     MODULE_EXCEPTIONS: {
       WEBHOOK_REMOVED: "如果 Webhook 被刪除"
     },

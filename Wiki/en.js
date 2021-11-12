@@ -334,7 +334,7 @@ exports.MODULES = {
     }
   },
   ANTI_EVASION: {
-    DESCRIPTION: "This module allows you to automatically ban those users who were sanctioned in your server and tried to evade the sanction",
+    DESCRIPTION: "This module will sanction those users who have an active sanction (mute) and have left the server",
     ACTION: "Action",
     SET_A_ACTION: {
       TITLE: "Steps to set a action",
@@ -342,7 +342,7 @@ exports.MODULES = {
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "This module will allow you to delete and warn users who send invites outside your server or the allowed servers",
+    DESCRIPTION: "This module will allow you to prevent users from spamming invites from servers other than yours",
     SERVER_ID: "Server ID",
     ALLOW_FILO_INVITES: {
       TITLE: "Steps to enable Filo server bypass",
@@ -410,7 +410,7 @@ exports.MODULES = {
     }
   },
   AUTO_MODERATION: {
-    DESCRIPTION: "This module will allow you to automatically sanction those users who repeatedly have incorrect behavior",
+    DESCRIPTION: "This module will allow you to automatically sanction a user when they reach a previously established level of moderation",
     ADD_A_LEVEL: {
       TITLE: "Steps to add a level",
       SUBTITLE: "Add a level"
@@ -428,7 +428,7 @@ exports.MODULES = {
     DESCRIPTION: "This module will allow you to partially customize the behavior of the Filo's commands",
     DISABLE_COMMANDS: {
       ACTION: "Disable a Filo's command or re-enable it",
-      DESCRIPTION: "This module will allow you to disable the Filo commands that you don't want to be used on your server",
+      DESCRIPTION: "This module will allow you to disable Filo commands for all members of the server (including you)",
       DISABLE: {
         TITLE: "Steps to disable a command",
         SUBTITLE: "Disable a command"
@@ -547,14 +547,14 @@ exports.MODULES = {
     }
   },
   LANGUAGE: {
-    DESCRIPTION: "This module will allow you to set or reset the Filo's language; this will affect all current and future commands, modules and systems",
+    DESCRIPTION: "This module will allow you to change the language of Filo and its modules to whatever is currently actively maintained",
     SELECT_A_LANGUAGE: {
       TITLE: "Steps to select a language",
       SUBTITLE: "Select a language"
     }
   },
   LOGGING: {
-    DESCRIPTION: "This module will allow you to send all the server logs to a specific channel",
+    DESCRIPTION: "This module will allow you to receive the audit records through messages on a specific channel",
     MODULE_EXCEPTIONS: {
       WEBHOOK_REMOVED: "If the webhook has been removed",
     },
@@ -597,7 +597,7 @@ exports.MODULES = {
     }
   },
   REPORTS: {
-    DESCRIPTION: "This module will allow you to report to other members and send them to a report channel",
+    DESCRIPTION: "This module will allow users to report the bad behavior of other users of the server",
     MODULE_EXCEPTIONS: {
       WEBHOOK_REMOVED: "If the webhook has been removed"
     },

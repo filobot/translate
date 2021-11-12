@@ -334,7 +334,7 @@ exports.MODULES = {
     }
   },
   ANTI_EVASION: {
-    DESCRIPTION: "Este módulo te permitirá banear automáticamente a aquellos usuarios que fueron sancionados en tu servidor e intentaron evadir la sanción",
+    DESCRIPTION: "Este módulo sancionará a aquellos usuarios que tengan una sanción activa (mute) y hayan abandonado el servidor",
     ACTION: "Acción",
     SET_A_ACTION: {
       TITLE: "Pasos para establecer la acción",
@@ -342,7 +342,7 @@ exports.MODULES = {
     }
   },
   ANTI_INVITES: {
-    DESCRIPTION: "Este módulo te permitirá eliminar y advertir a los usuarios que envían invitaciones ajenas a su servidor o de los servidores permitidos",
+    DESCRIPTION: "Este módulo te permitirá evitar que los usuarios hagan spam de invitaciones de servidores ajeno al de usted",
     SERVER_ID: "ID del servidor",
     ALLOW_FILO_INVITES: {
       TITLE: "Pasos para habilitar el ignorar el servidor de Filo",
@@ -410,7 +410,7 @@ exports.MODULES = {
     }
   },
   AUTO_MODERATION: {
-    DESCRIPTION: "Este módulo te permitirá sancionar automáticamente a aquellos usuarios que tengan repetidamente un comportamiento incorrecto",
+    DESCRIPTION: "Este módulo te permitirá sancionar automáticamente a un usuario cuando alcance un nivel de moderación previamente establecido",
     ADD_A_LEVEL: {
       TITLE: "Pasos para añadir un nivel",
       SUBTITLE: "Añadir un nivel"
@@ -428,7 +428,7 @@ exports.MODULES = {
     DESCRIPTION: "Este módulo te permitirá personalizar parcialmente el comportamiento de los comandos de Filo",
     DISABLE_COMMANDS: {
       ACTION: "Deshabilitar un comando de Filo o volver a habilitarlo",
-      DESCRIPTION: "Este módulo le permitirá deshabilitar los comandos de Filo que no desea que se usen en su servidor",
+      DESCRIPTION: "Este módulo te permitirá desactivar los comandos de Filo para todos los miembros del servidor (incluido tú)",
       DISABLE: {
         TITLE: "Pasos para deshabilitar un comando",
         SUBTITLE: "Deshabilitar un comando"
@@ -547,14 +547,14 @@ exports.MODULES = {
     }
   },
   LANGUAGE: {
-    DESCRIPTION: "Este módulo te permitirá configurar o estabke el idioma de Filo; esto afectará a todos los comandos, módulos y sistemas actuales y futuros",
+    DESCRIPTION: "Este módulo te permitirá cambiar el idioma de Filo y de sus módulos a cualquiera que esté actualmente mantenido de forma activa",
     SELECT_A_LANGUAGE: {
       TITLE: "Pasos para seleccionar un idioma",
       SUBTITLE: "Seleccionar un idioma"
     }
   },
   LOGGING: {
-    DESCRIPTION: "Este módulo te permitirá enviar todos los registros del servidor a un canal específico",
+    DESCRIPTION: "Este módulo te permitirá recibir los registros de auditoría a través de mensajes en un canal específico",
     MODULE_EXCEPTIONS: {
       WEBHOOK_REMOVED: "Si se ha eliminado el webhook",
     },
@@ -597,7 +597,7 @@ exports.MODULES = {
     }
   },
   REPORTS: {
-    DESCRIPTION: "Este módulo te permitirá reportar a otros miembros y enviarlos a un canal de reportes",
+    DESCRIPTION: "Este módulo permitirá que los usuarios puedan informar del mal comportamiento de otros usuarios del servidor",
     MODULE_EXCEPTIONS: {
       WEBHOOK_REMOVED: "Si se ha eliminado el webhook"
     },
