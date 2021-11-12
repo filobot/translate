@@ -370,7 +370,7 @@ exports.MODULES = {
     }
   },
   ANTI_MASS_MENTIONS: {
-    DESCRIPTION: "This module will allow you to sanction those users who make massive mentions",
+    DESCRIPTION: "This module will sanction those users who mention too many users in the same message",
     SET_THRESHOLD: {
       TITLE: "Steps to set the mentions threshold",
       SUBTITLE: "Set the mentions threshold"

@@ -370,7 +370,7 @@ exports.MODULES = {
     }
   },
   ANTI_MASS_MENTIONS: {
-    DESCRIPTION: "Este módulo te permitirá sancionar a aquellos usuarios que realicen menciones masivas",
+    DESCRIPTION: "Este módulo sancionará a aquellos usuarios que mencionen a demasiados usuarios en un mismo mensaje",
     SET_THRESHOLD: {
       TITLE: "Pasos para establecer el umbral de menciones",
       SUBTITLE: "Establecer el umbral de menciones"

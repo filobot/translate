@@ -370,7 +370,7 @@ exports.MODULES = {
     }
   },
   ANTI_MASS_MENTIONS: {
-    DESCRIPTION: "本模組可以制裁那些傳送大量無用提及的人",
+    DESCRIPTION: "This module will sanction those users who mention too many users in the same message",
     SET_THRESHOLD: {
       TITLE: "設定提及數量的步驟",
       SUBTITLE: "設定提及數量"
