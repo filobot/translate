@@ -209,8 +209,7 @@ exports.MODULES = {
     REQUIRES_ADVANCED_PERMISSIONS: "Filo 需要以下進階權限: {{permissions}}",
     REQUIRES_BASIC_PERMISSIONS: "Filo 需要以下基礎權限: {{permissions}}",
     REQUIRES_USER_PERMISSION: "在執行本主題的指令前，你需要此項權限： {{permission}}",
-    REQUIRES_USER_PERMISSIONS: "在執行本主題的指令前，你需要以下權限： {{permission}}",
-    CUSTOM_PREFIX: "你需要取代" + "<kbd>" + "f!" + "</kbd>" + " 成你設定的 prefix 。如果你需要更換它的教學，請 **[點擊這裡]({{link}})**"
+    REQUIRES_USER_PERMISSIONS: "在執行本主題的指令前，你需要以下權限： {{permission}}"
   },
   MODULE_EXCEPTIONS: {
     TITLE: "常見錯誤",

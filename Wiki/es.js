@@ -209,8 +209,7 @@ exports.MODULES = {
     REQUIRES_ADVANCED_PERMISSIONS: "Filo requiere los siguientes permisos avanzados: {{permissions}}",
     REQUIRES_BASIC_PERMISSIONS: "Filo requiere los siguientes permisos básicos: {{permissions}}",
     REQUIRES_USER_PERMISSION: "Necesitas el permiso {{permission}} para realizar la mayoría de las acciones de este artículo",
-    REQUIRES_USER_PERMISSIONS: "Necesitas los permisos {{permissions}} para realizar la mayoría de las acciones de este artículo",
-    CUSTOM_PREFIX: "Debes reemplazar " + "<kbd>" + "f!" + "</kbd>" + " con el prefijo actual que hayas establecido. Más información sobre cómo cambiar el prefijo haciendo **[clic aquí]({{link}})**"
+    REQUIRES_USER_PERMISSIONS: "Necesitas los permisos {{permissions}} para realizar la mayoría de las acciones de este artículo"
   },
   MODULE_EXCEPTIONS: {
     TITLE: "Excepciones del módulo",
