@@ -337,12 +337,7 @@ exports.MODULES = {
     ACTION: "Acción",
     SET_A_ACTION: {
       TITLE: "Pasos para establecer la acción",
-      SUBTITLE: "Establecer la acción",
-      FULL_LIST_OF_ACTIONS: "Puede ver una lista completa de las acciones que admite Filo haciendo **[clic aquí]({{link}})**"
-    },
-    SET_TIME: {
-      TITLE: "Pasos para establecer el tiempo de la acción",
-      SUBTITLE: "Establecer el tiempo de la acción"
+      SUBTITLE: "Establecer la acción"
     }
   },
   ANTI_INVITES: {

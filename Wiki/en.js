@@ -337,12 +337,7 @@ exports.MODULES = {
     ACTION: "Action",
     SET_A_ACTION: {
       TITLE: "Steps to set a action",
-      SUBTITLE: "Set a action",
-      FULL_LIST_OF_ACTIONS: "You can see a full list of actions that Filo supports by **[clicking here]({{link}})**"
-    },
-    SET_TIME: {
-      TITLE: "Steps to set the time of a action",
-      SUBTITLE: "Set the time of a action"
+      SUBTITLE: "Set a action"
     }
   },
   ANTI_INVITES: {

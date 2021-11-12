@@ -337,12 +337,7 @@ exports.MODULES = {
     ACTION: "規則",
     SET_A_ACTION: {
       TITLE: "設定要處理的原則的步驟",
-      SUBTITLE: "設定原則",
-      FULL_LIST_OF_ACTIONS: "你可以點擊 **[這個連結]({{link}})** 來查看 Filo 支援的原則"
-    },
-    SET_TIME: {
-      TITLE: "設定本原則處理期的步驟",
-      SUBTITLE: "為原則添加過期時間"
+      SUBTITLE: "設定原則"
     }
   },
   ANTI_INVITES: {
