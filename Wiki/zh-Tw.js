@@ -377,7 +377,7 @@ exports.MODULES = {
     }
   },
   ANTI_REPEATED_TEXT: {
-    DESCRIPTION: "本模組可以處罰或警告傳送重複文字的人"
+    DESCRIPTION: "This module will sanction those users who send repeated text in the same message"
   },
   ANTI_SPAM: {
     DESCRIPTION: "This module will sanction those users who send too many messages in a short time or identical messages in a short time",

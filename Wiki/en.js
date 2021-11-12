@@ -377,7 +377,7 @@ exports.MODULES = {
     }
   },
   ANTI_REPEATED_TEXT: {
-    DESCRIPTION: "This module will allow you to eliminate and warn those users who send messages with repeated text"
+    DESCRIPTION: "This module will sanction those users who send repeated text in the same message"
   },
   ANTI_SPAM: {
     DESCRIPTION: "This module will sanction those users who send too many messages in a short time or identical messages in a short time",
