@@ -20,7 +20,8 @@
     "GUILD_ROLES": "Guild roles",
     "MUTED_ROLE": "Muted role",
     "MODERATION_PARAMETERS": "Moderation Parameters",
-    "DM_NOTIFICATIONS": "DM Notifications"
+    "DM_NOTIFICATIONS": "DM Notifications",
+    "ANTI_SCAM_LINKS": "Anti Scam Links"
   },
   "SELECT_A_LANGUAGE": "Select the language you want to set for Filo.",
   "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
