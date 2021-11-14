@@ -19,8 +19,8 @@
     "ANTI_EXTERNAL_LINKS": "Anti Enlaces Externos",
     "GUILD_ROLES": "Roles del gremio",
     "MUTED_ROLE": "Rol silenciado",
-    "MODERATION_PARAMETERS": "Moderation Parameters",
-    "DM_NOTIFICATIONS": "DM Notifications"
+    "MODERATION_PARAMETERS": "Parámetros de Moderación",
+    "DM_NOTIFICATIONS": "Notificaciones por MD"
   },
   "SELECT_A_LANGUAGE": "Seleccione el idioma que quieres establecer para Filo.",
   "SELECT_A_LANGUAGE_MENU": "Selecciona el idioma de Filo.",
@@ -172,5 +172,5 @@
   "MUTED_ROLE_SET": "Has establecido el rol **Silenciado** correctamente.",
   "ROLE_REMOVED": "Ha eliminado todos los parámetros del rol **{{role.mention}}** ({{role.id}}).",
   "BITFIELD_SET": "Has establecido los **[permisos]({{url}})** para el rol **{{role.mention}}** ({{role.id}}).",
-  "DM_NOTIFICATIONS_ENABLED_OR_DISABLED": "You have successfully **{{status}}** the direct messages notifications."
+  "DM_NOTIFICATIONS_ENABLED_OR_DISABLED": "Has **{{status}}** correctamente las notificaciones de mensajes directos."
 }
