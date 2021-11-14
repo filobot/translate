@@ -54,6 +54,7 @@ exports.PAGE_TITLES = {
   ANTI_EXTERNAL_LINKS: "Anti Enlaces Externos",
   MODERATION_PARAMETERS: "Parámetros de Moderación",
   DM_NOTIFICATIONS: "Notificaciones por MD",
+  ANTI_SCAM_LINKS: "Anti Enlaces Estafadores",
   CLOUDFLARE: "Cloudflare",
   COMMON_ERRORS: "Errores Comunes"
 };
@@ -148,6 +149,7 @@ exports.NAVBAR = {
   ANTI_BAD_WORDS: "Anti Malas Palabras",
   ANTI_EXTERNAL_LINKS: "Anti Enlaces Externos",
   COMMANDS: "Comandos",
+  ANTI_SCAM_LINKS: "Anti Enlaces Estafadores",
   TOPICS: "Temas",
   CLOUDFLARE: "Cloudflare",
   COMMON_ERRORS: "Errores Comunes"
@@ -651,6 +653,18 @@ exports.MODULES = {
     DISALLOW_DISCORD_LINKS: {
       TITLE: "Pasos para desactivar el ignorar los enlaces de Discord",
       SUBTITLE: "Desactivar el ignorar los enlaces de Discord"
+    }
+  },
+  ANTI_SCAM_LINKS: {
+    DESCRIPTION: "Este módulo sancionará a aquellos usuarios que envíen enlaces estafadores en sus mensajes",
+    ENABLE_AGGRESIVE_FILTER: {
+      TITLE: "Pasos para activar el filtro agresivo",
+      SUBTITLE: "Activar el filtro agresivo",
+      WARNING: "Activar el filtro agresivo puede provocar un mayor número de falsos positivos"
+    },
+    DISABLE_AGGRESIVE_FILTER: {
+      TITLE: "Pasos para desactivar el filtro agresivo",
+      SUBTITLE: "Desactivar el filtro agresivo"
     }
   }
 };
