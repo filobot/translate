@@ -52,6 +52,8 @@ exports.PAGE_TITLES = {
   WELCOMES_VARIABLES: "Welcomes Variables",
   WELCOME_ROLE: "Welcome Role",
   ANTI_EXTERNAL_LINKS: "Anti External Links",
+  MODERATION_PARAMETERS: "Moderation Parameters",
+  DM_NOTIFICATIONS: "DM Notifications",
   CLOUDFLARE: "Cloudflare",
   COMMON_ERRORS: "Common Errors"
 };
@@ -128,6 +130,7 @@ exports.NAVBAR = {
   MODULES: "Modules",
   LANGUAGE: "Language",
   GUILD: "Guild",
+  MODERATION_PARAMETERS: "Moderation Parameters",
   REPORTS: "Reports",
   WELCOMES: "Welcomes",
   WELCOME_ROLE: "Welcome Role",
@@ -528,6 +531,21 @@ exports.MODULES = {
           ADMINISTRATOR: "管理員"
         },
         DESCRIPTION: "**[點擊這裡]({{link}})** 以查看 **{{role}}** 的權限 "
+      }
+    }
+  },
+  MODERATION_PARAMETERS: {
+    DESCRIPTION: "This module will allow you to manage some Filo moderation parameters",
+    DM_NOTIFICATIONS: {
+      ACTION: "Enable or disable DM notifications of sanctions",
+      DESCRIPTION: "This module will allow you to enable or disable the notifications that Filo sends by DM when someone is sanctioned",
+      ENABLE_DM_NOTIFICATIONS: {
+        TITLE: "Steps to enable DM notifications",
+        SUBTITLE: "Enable DM notifications"
+      },
+      DISABLE_DM_NOTIFICATIONS: {
+        TITLE: "Steps to disable DM notifications",
+        SUBTITLE: "Disable DM notifications"
       }
     }
   },

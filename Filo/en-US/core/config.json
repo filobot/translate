@@ -18,7 +18,9 @@
     "ANTI_BAD_WORDS": "Anti Bad Words",
     "ANTI_EXTERNAL_LINKS": "Anti External Links",
     "GUILD_ROLES": "Guild roles",
-    "MUTED_ROLE": "Muted role"
+    "MUTED_ROLE": "Muted role",
+    "MODERATION_PARAMETERS": "Moderation Parameters",
+    "DM_NOTIFICATIONS": "DM Notifications"
   },
   "SELECT_A_LANGUAGE": "Select the language you want to set for Filo.",
   "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
@@ -169,5 +171,6 @@
   "IGNORED_LINKS": "Ignored links",
   "MUTED_ROLE_SET": "You have successfully set the **Muted** role.",
   "ROLE_REMOVED": "You have removed all the parameters from the **{{role.mention}}** ({{role.id}}) role.",
-  "BITFIELD_SET": "You have set the **[permissions]({{url}})** for the **{{role.mention}}** ({{role.id}}) role."
+  "BITFIELD_SET": "You have set the **[permissions]({{url}})** for the **{{role.mention}}** ({{role.id}}) role.",
+  "DM_NOTIFICATIONS_ENABLED_OR_DISABLED": "You have successfully **{{status}}** the direct messages notifications."
 }

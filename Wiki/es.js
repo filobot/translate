@@ -52,6 +52,8 @@ exports.PAGE_TITLES = {
   WELCOMES_VARIABLES: "Variables de Bienvenida",
   WELCOME_ROLE: "Rol de Bienvenida",
   ANTI_EXTERNAL_LINKS: "Anti Enlaces Externos",
+  MODERATION_PARAMETERS: "Parámetros de Moderación",
+  DM_NOTIFICATIONS: "Notificaciones por MD",
   CLOUDFLARE: "Cloudflare",
   COMMON_ERRORS: "Errores Comunes"
 };
@@ -128,6 +130,7 @@ exports.NAVBAR = {
   MODULES: "Módulos",
   LANGUAGE: "Idioma",
   GUILD: "Gremio",
+  MODERATION_PARAMETERS: "Parámetros de Moderación",
   REPORTS: "Reportes",
   WELCOMES: "Bienvenidas",
   WELCOME_ROLE: "Rol de Bienvenida",
@@ -528,6 +531,21 @@ exports.MODULES = {
           ADMINISTRATOR: "Administrador"
         },
         DESCRIPTION: "Haciendo **[clic aquí]({{link}})** podrás ver los permisos preestablecidos para el rol **{{role}}**"
+      }
+    }
+  },
+  MODERATION_PARAMETERS: {
+    DESCRIPTION: "Este módulo te permitirá gestionar algunos parámetros de moderación de Filo",
+    DM_NOTIFICATIONS: {
+      ACTION: "Activa o desactivar las notificaciones por MD de las sanciones",
+      DESCRIPTION: "Este módulo te permitirá activar o desactivar las notificaciones que Filo envía por MD cuando alguien es sancionado",
+      ENABLE_DM_NOTIFICATIONS: {
+        TITLE: "Pasos para activar las notificaciones por MD",
+        SUBTITLE: "Activar las notificaciones por MD"
+      },
+      DISABLE_DM_NOTIFICATIONS: {
+        TITLE: "Pasos para desactivar las notificaciones por MD",
+        SUBTITLE: "Desactivar las notificaciones por MD"
       }
     }
   },
