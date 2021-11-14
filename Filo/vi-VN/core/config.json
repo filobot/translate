@@ -20,7 +20,8 @@
     "GUILD_ROLES": "Roles của server",
     "MUTED_ROLE": "Role Muted",
     "MODERATION_PARAMETERS": "Moderation Parameters",
-    "DM_NOTIFICATIONS": "DM Notifications"
+    "DM_NOTIFICATIONS": "DM Notifications",
+    "ANTI_SCAM_LINKS": "Anti Scam Links"
   },
   "SELECT_A_LANGUAGE": "Chọn ngôn ngữ bạn muốn cho Filo.",
   "SELECT_A_LANGUAGE_MENU": "Chọn ngôn ngữ của Filo.",
