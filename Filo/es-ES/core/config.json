@@ -20,7 +20,8 @@
     "GUILD_ROLES": "Roles del gremio",
     "MUTED_ROLE": "Rol silenciado",
     "MODERATION_PARAMETERS": "Parámetros de Moderación",
-    "DM_NOTIFICATIONS": "Notificaciones por MD"
+    "DM_NOTIFICATIONS": "Notificaciones por MD",
+    "ANTI_SCAM_LINKS": "Anti Enlaces Estafadores"
   },
   "SELECT_A_LANGUAGE": "Seleccione el idioma que quieres establecer para Filo.",
   "SELECT_A_LANGUAGE_MENU": "Selecciona el idioma de Filo.",
