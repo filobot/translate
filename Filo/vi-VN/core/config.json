@@ -19,9 +19,9 @@
     "ANTI_EXTERNAL_LINKS": "Chống liên kết ngoài",
     "GUILD_ROLES": "Roles của server",
     "MUTED_ROLE": "Role Muted",
-    "MODERATION_PARAMETERS": "Moderation Parameters",
-    "DM_NOTIFICATIONS": "DM Notifications",
-    "ANTI_SCAM_LINKS": "Anti Scam Links"
+    "MODERATION_PARAMETERS": "Những parameter cần thiết dành cho quản lý",
+    "DM_NOTIFICATIONS": "Tin nhắn trực tiếp",
+    "ANTI_SCAM_LINKS": "Chống link lừa đảo"
   },
   "SELECT_A_LANGUAGE": "Chọn ngôn ngữ bạn muốn cho Filo.",
   "SELECT_A_LANGUAGE_MENU": "Chọn ngôn ngữ của Filo.",
@@ -173,5 +173,5 @@
   "MUTED_ROLE_SET": "Bạn đã điều chỉnh role **Muted** thành công.",
   "ROLE_REMOVED": "Bạn đã bỏ hết tất cả quyền hạn từ role **{{role.mention}}** ({{role.id}}).",
   "BITFIELD_SET": "Bạn đã thêm quyền hạn **[permissions]({{url}})** cho role **{{role.mention}}** ({{role.id}}).",
-  "DM_NOTIFICATIONS_ENABLED_OR_DISABLED": "You have successfully **{{status}}** the direct messages notifications."
+  "DM_NOTIFICATIONS_ENABLED_OR_DISABLED": "Bạn đã **{{status}}** tin nhắn trực tiếp thành công."
 }
