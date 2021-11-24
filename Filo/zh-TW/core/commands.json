@@ -1,5 +1,9 @@
 {
   "HELP_TITLE": "Viewing Filo's command list",
+  "COMMAND_SYNTAX": {
+    "TITLE": "Do you know how to use the commands?",
+    "DESCRIPTION": "To use a command you must type a slash followed by the name of the category of the command and followed by the name of the command. **All in lowercase!**\n\n**{{translator.syntax}}**: /<{{translator.category}}> <{{translator.command}}>\n**{{translator.example}}**: {{command}}\n\n*In the commands of the Settings category, it won't be necessary to write the name of the category before the command, so that only the name of the command would have to be written*."
+  },
   "COMMAND_CATEGORIES": {
     "ADMINISTRATION": "Administration",
     "ANIMALS": "Animals",
