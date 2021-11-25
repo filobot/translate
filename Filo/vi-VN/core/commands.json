@@ -1,8 +1,8 @@
 {
   "HELP_TITLE": "Xem tất cả các lệnh của Filo",
   "COMMAND_SYNTAX": {
-    "TITLE": "Do you know how to use the commands?",
-    "DESCRIPTION": "To use a command you must type a slash followed by the name of the category of the command and followed by the name of the command. **All in lowercase!**\n\n**{{translator.syntax}}**: /<{{translator.category}}> <{{translator.command}}>\n**{{translator.example}}**: {{command}}\n\n*In the commands of the Settings category, it won't be necessary to write the name of the category before the command, so that only the name of the command would have to be written*."
+    "TITLE": "Bạn có biết cách dùng lệnh không?",
+    "DESCRIPTION": "Để dùng một lệnh bạn phải ghi dấu gạch chéo, tiếp đến là tên của danh mục và sau đó là tên của lệnh. **Tất cả phải viết thường!**\n\n**{{translator.syntax}}**: /<{{translator.category}}> <{{translator.command}}>\n**{{translator.example}}**: {{command}}\n\n*Các lệnh của danh mục Settings không cần phải ghi tên danh mục trước trên lệnh, cho nên chỉ cần viết tên lệnh là đủ*."
   },
   "COMMAND_CATEGORIES": {
     "ADMINISTRATION": "Quản lý",
