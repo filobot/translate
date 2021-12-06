@@ -13,13 +13,13 @@
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
       "SHOW_USER_AVATAR_TITLE": "Mostrar avatar del usuario",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user."
+      "SHOW_USER_AVATAR_DESCRIPTION": "Mostrar el avatar de este usuario."
     },
     "MODERATE_THIS_USER": {
       "PERMANENTLY_BAN_THIS_USER_TITLE": "Prohibir permanentemente a este usuario",
       "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Prohibir permanentemente a este usuario del servidor.",
       "VIEW_USER_HISTORY_TITLE": "Ver historial del usuario",
-      "VIEW_USER_HISTORY_DESCRIPTION": "View the user's sanctions history.",
+      "VIEW_USER_HISTORY_DESCRIPTION": "Ver el historial de sanciones del usuario.",
       "KICK_THIS_USER_TITLE": "Expulsar a este usuario",
       "KICK_THIS_USER_DESCRIPTION": "Expulsar a este usuario del servidor.",
       "PERMANENTLY_MUTE_THIS_USER_TITLE": "Silenciar permanentemente a este usuario",
