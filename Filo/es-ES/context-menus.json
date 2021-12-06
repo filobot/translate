@@ -5,27 +5,27 @@
   "MESSAGE": {
     "MANAGE_THIS_MESSAGE": {
       "PIN_MESSAGE_TITLE": "Fijar mensaje",
-      "PIN_MESSAGE_DESCRIPTION": "Fijar este mensaje en este canal.",
+      "PIN_MESSAGE_DESCRIPTION": "Fija este mensaje en este canal.",
       "UNPIN_MESSAGE_TITLE": "Desfijar mensaje",
-      "UNPIN_MESSAGE_DESCRIPTION": "Desfijar este mensaje de este canal."
+      "UNPIN_MESSAGE_DESCRIPTION": "Desfija este mensaje de este canal."
     }
   },
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
       "SHOW_USER_AVATAR_TITLE": "Mostrar avatar del usuario",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Mostrar el avatar de este usuario."
+      "SHOW_USER_AVATAR_DESCRIPTION": "Muestra el avatar de este usuario."
     },
     "MODERATE_THIS_USER": {
       "PERMANENTLY_BAN_THIS_USER_TITLE": "Prohibir permanentemente a este usuario",
-      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Prohibir permanentemente a este usuario del servidor.",
-      "VIEW_USER_HISTORY_TITLE": "Ver historial del usuario",
-      "VIEW_USER_HISTORY_DESCRIPTION": "Ver el historial de sanciones del usuario.",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Prohibe permanentemente a este usuario del servidor.",
+      "SHOW_USER_HISTORY_TITLE": "Mostrar el historial del usuario",
+      "SHOW_USER_HISTORY_DESCRIPTION": "Muestra el historial de sanciones del usuario.",
       "KICK_THIS_USER_TITLE": "Expulsar a este usuario",
-      "KICK_THIS_USER_DESCRIPTION": "Expulsar a este usuario del servidor.",
+      "KICK_THIS_USER_DESCRIPTION": "Expulsa a este usuario del servidor.",
       "PERMANENTLY_MUTE_THIS_USER_TITLE": "Silenciar permanentemente a este usuario",
-      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Silenciar permanentemente a este usuario del servidor.",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Silencia permanentemente a este usuario del servidor.",
       "SOFTBAN_THIS_USER_TITLE": "Prohibir suavemente a este usuario",
-      "SOFTBAN_THIS_USER_DESCRIPTION": "Prohibir suavemente a este usuario del servidor."
+      "SOFTBAN_THIS_USER_DESCRIPTION": "Prohíbe suavemente a este usuario del servidor."
     }
   }
 }
