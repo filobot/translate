@@ -13,7 +13,7 @@
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
       "SHOW_USER_AVATAR_TITLE": "Show user avatar",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Send this user's avatar."
+      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user."
     },
     "MODERATE_THIS_USER": {
       "PERMANENTLY_BAN_THIS_USER_TITLE": "Permanently ban this user",
