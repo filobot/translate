@@ -1,0 +1,31 @@
+{
+  "SELECT_THE_ACTION": "Select the action you want to carry out.",
+  "SELECT_THE_ACTION_PLACEHOLDER": "Select the action",
+  "LOADING_ACTION": "Please wait while the requested action loads.",
+  "MESSAGE": {
+    "MANAGE_THIS_MESSAGE": {
+      "PIN_MESSAGE_TITLE": "Pin message",
+      "PIN_MESSAGE_DESCRIPTION": "Pin this message on this channel.",
+      "UNPIN_MESSAGE_TITLE": "Unpin message",
+      "UNPIN_MESSAGE_DESCRIPTION": "Unpin this message from this channel."
+    }
+  },
+  "USER": {
+    "MISCELLANEOUS_ACTIONS": {
+      "SHOW_USER_AVATAR_TITLE": "Show user avatar",
+      "SHOW_USER_AVATAR_DESCRIPTION": "Send this user's avatar."
+    },
+    "MODERATE_THIS_USER": {
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "Permanently ban this user",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Permanently ban this user from the server.",
+      "VIEW_USER_HISTORY_TITLE": "View user's history",
+      "VIEW_USER_HISTORY_DESCRIPTION": "Send the user's sanctions history.",
+      "KICK_THIS_USER_TITLE": "Kick this user",
+      "KICK_THIS_USER_DESCRIPTION": "Kick this user from the server.",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Permanently mute this user",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Permanently mute this user from the server.",
+      "SOFTBAN_THIS_USER_TITLE": "Softban this user",
+      "SOFTBAN_THIS_USER_DESCRIPTION": "Softban this user from the server."
+    }
+  }
+}
