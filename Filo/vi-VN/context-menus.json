@@ -1,31 +1,31 @@
 {
-  "SELECT_THE_ACTION": "Select the action you want to carry out.",
-  "SELECT_THE_ACTION_PLACEHOLDER": "Select the action",
-  "LOADING_ACTION": "Please wait while the requested action loads.",
+  "SELECT_THE_ACTION": "Hãy chọn hành động bạn muốn thực hiện.",
+  "SELECT_THE_ACTION_PLACEHOLDER": "Chọn hành động",
+  "LOADING_ACTION": "Vui lòng chờ trong lúc hành động được xử lý.",
   "MESSAGE": {
     "MANAGE_THIS_MESSAGE": {
-      "PIN_MESSAGE_TITLE": "Pin message",
-      "PIN_MESSAGE_DESCRIPTION": "Pin this message on this channel.",
-      "UNPIN_MESSAGE_TITLE": "Unpin message",
-      "UNPIN_MESSAGE_DESCRIPTION": "Unpin this message from this channel."
+      "PIN_MESSAGE_TITLE": "Ghim tin nhắn",
+      "PIN_MESSAGE_DESCRIPTION": "Ghim tin nhắn ở kênh này.",
+      "UNPIN_MESSAGE_TITLE": "Bỏ ghim tin nhắn",
+      "UNPIN_MESSAGE_DESCRIPTION": "Bỏ ghim tin nhắn ở kênh này."
     }
   },
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
-      "SHOW_USER_AVATAR_TITLE": "Show user avatar",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user."
+      "SHOW_USER_AVATAR_TITLE": "Xem ảnh đại diện của người dùng",
+      "SHOW_USER_AVATAR_DESCRIPTION": "Xem ảnh đại diện của người dùng."
     },
     "MODERATE_THIS_USER": {
-      "PERMANENTLY_BAN_THIS_USER_TITLE": "Permanently ban this user",
-      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Permanently ban this user from the server.",
-      "SHOW_USER_HISTORY_TITLE": "Show user's history",
-      "SHOW_USER_HISTORY_DESCRIPTION": "Show the user's sanctions history.",
-      "KICK_THIS_USER_TITLE": "Kick this user",
-      "KICK_THIS_USER_DESCRIPTION": "Kick this user from the server.",
-      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Permanently mute this user",
-      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Permanently mute this user from the server.",
-      "SOFTBAN_THIS_USER_TITLE": "Softban this user",
-      "SOFTBAN_THIS_USER_DESCRIPTION": "Softban this user from the server."
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "Ban người dùng vĩnh viễn",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Ban người dùng này vĩnh viễn khỏi server.",
+      "SHOW_USER_HISTORY_TITLE": "Xem lịch sử của người dùng",
+      "SHOW_USER_HISTORY_DESCRIPTION": "Xem lịch sử hình phạt của người dùng.",
+      "KICK_THIS_USER_TITLE": "Đá người dùng",
+      "KICK_THIS_USER_DESCRIPTION": "Đá người dùng ra khỏi server.",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Mute người dùng vĩnh viễn",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Mute người dùng này vĩnh viễn.",
+      "SOFTBAN_THIS_USER_TITLE": "Ban nhẹ tay người dùng",
+      "SOFTBAN_THIS_USER_DESCRIPTION": "Ban nhẹ tay người dùng này."
     }
   }
 }
