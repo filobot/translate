@@ -1,6 +1,6 @@
 {
   "SERVER_OFFLINE": "El servidor que especificaste está fuera de línea.",
-  "IP_ADRESS": "Direccion IP",
+  "IP_ADDRESS": "Dirección IP",
   "PORT": "Puerto",
   "PLAYERS": "Jugadores",
   "VERSION": "Versión"
