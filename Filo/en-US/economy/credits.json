@@ -1,3 +1,3 @@
 {
-  "USER_CREDITS": "**{{user.tag}}** ({{user.id}}) has **{{credits}}** credits in the bank."
+  "USER_CREDITS": "**[{{user.tag}}]({{url}})** ({{user.id}}) has **{{credits}}** credits in the bank."
 }
