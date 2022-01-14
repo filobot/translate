@@ -1,5 +1,0 @@
-{
-  "MISSING_USER": "你必須提及成員來授予身分組",
-  "MISSING_ROLE": "你必須明確指派你想授予的身分組",
-  "COMPLETED": "你已經授予 **{{user}}** ({{user_id}}) {{role}} 身分組"
-}

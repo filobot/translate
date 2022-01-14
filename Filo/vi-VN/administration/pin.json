@@ -1,3 +1,0 @@
-{
-  "COMPLETED": "Bạn đã ghim tin nhắn **[{{message.id}}]({{message.url}})** ở kênh **[#{{channel.name}}]({{url}})**."
-}
