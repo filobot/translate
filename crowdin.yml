@@ -1,3 +1,3 @@
 files:
-  - source: '%locale%.json'
+  - source: en-US.json
     translation: '%locale%.json'
