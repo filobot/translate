@@ -194,29 +194,8 @@
       "WARN": "Cảnh báo một người dùng"
     },
     "NSFW": {
-      "AHEGAO": "Gửi một hình ảnh về ahegao",
-      "ANAL": "Địt một người dùng theo cách anal",
-      "BOOBS": "Finger another user's boobs",
-      "CUM": "Xuất tinh lên body của một người dùng",
-      "EROFEET": "Send an image of an erotic feet",
-      "ERONEKO": "Send an image of an erotic neko",
-      "FEMDOM": "Gửi một hình ảnh về femdom",
-      "FOOTJOB": "Foot job với một người dùng",
-      "FUCK": "Địt một người dùng",
-      "FUTANARI": "Gửi một hình ảnh về futanari",
-      "HENTAI": "Send an image of hentai",
-      "HNEKO": "Send an image of neko hentai",
-      "HOLOERO": "Send a image of Holo erotic",
-      "KUNI": "Liếm âm đạo của một người dùng",
-      "LEWD": "Send a lewd image",
-      "LEWDKEMO": "Send a lewd kemo image",
-      "MASTURBATE": "Gửi một hình ảnh động thủ dâm",
-      "NEKO": "Gửi một hình ảnh động về NSFW neko",
-      "PUSSY": "Gửi một hình ảnh động của một âm đạo",
-      "SUCK": "Suck a user's penis",
-      "TITS": "Gửi một hình ảnh về vú",
-      "URBAN": "Tìm định nghĩa ở trong từ điển",
-      "WALLPAPER": "Send a NSFW wallpaper"
+      "NSFW": "Sends NSFW content to the channel",
+      "URBAN": "Tìm định nghĩa ở trong từ điển"
     },
     "REACTION": {
       "ANGRY": "Gửi một biểu cảm giận dữ",
