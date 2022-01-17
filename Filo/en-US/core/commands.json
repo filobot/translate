@@ -194,26 +194,8 @@
       "WARN": "Warn a user from the server"
     },
     "NSFW": {
-      "AHEGAO": "Send an image of ahegao",
-      "ANAL": "Fuck a user anally",
-      "BOOBS": "Touch another user's boobs",
-      "CUM": "Make a cum on another user's body",
-      "EROTIC": "Send erotic content to the channel",
-      "FEMDOM": "Send an image of femdom",
-      "FOOTJOB": "Give a user a foot job",
-      "FUCK": "Fuck a user",
-      "FUTANARI": "Send an image of a futanari",
-      "HENTAI": "Send hentai content to the channel",
-      "KUNI": "Lick a user's pussy",
-      "LEWD": "Send lewd content to the channel",
-      "MASTURBATE": "Send a gif masturbating",
-      "NEKO": "Send a gif of a NSFW neko",
-      "ORGASM": "Send a image of a character having an orgasm",
-      "PUSSY": "Send a gif of a pussy",
-      "SUCK": "Suck a user's dick",
-      "TITS": "Send an image of tits",
-      "URBAN": "Search definitions and terms in the urban dictionary",
-      "WALLPAPER": "Send a random NSFW wallpaper"
+      "NSFW": "Sends NSFW content to the channel",
+      "URBAN": "Search definitions and terms in the urban dictionary"
     },
     "REACTION": {
       "ANGRY": "Send an angry reaction",
