@@ -1,9 +1,5 @@
 {
   "HELP_TITLE": "Viendo la lista de comandos de Filo",
-  "COMMAND_SYNTAX": {
-    "TITLE": "¿Sabes cómo usar los comandos?",
-    "DESCRIPTION": "Para usar un comando debes escribir una barra diagonal seguida del nombre de la categoría del comando y seguido del nombre del comando. **¡Todo en minúsculas!**\n\n**{{translator.syntax}}**: /<{{translator.category}}> <{{translator.command}}>\n**{{translator.example}}**: {{command}}\n\n*En los comandos de la categoría Configuraciones, no será necesario escribir el nombre de la categoría antes del comando, de manera que solo se tendría que escribir el nombre del comando*."
-  },
   "COMMAND_CATEGORIES": {
     "ADMINISTRATION": "Administración",
     "ANIMALS": "Animales",
