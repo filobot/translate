@@ -1,9 +1,5 @@
 {
   "HELP_TITLE": "Xem tất cả các lệnh của Filo",
-  "COMMAND_SYNTAX": {
-    "TITLE": "Bạn có biết cách dùng lệnh không?",
-    "DESCRIPTION": "Để dùng một lệnh bạn phải ghi dấu gạch chéo, tiếp đến là tên của danh mục và sau đó là tên của lệnh. **Tất cả phải viết thường!**\n\n**{{translator.syntax}}**: /<{{translator.category}}> <{{translator.command}}>\n**{{translator.example}}**: {{command}}\n\n*Các lệnh của danh mục Settings không cần phải ghi tên danh mục trước trên lệnh, cho nên chỉ cần viết tên lệnh là đủ*."
-  },
   "COMMAND_CATEGORIES": {
     "ADMINISTRATION": "Quản lý",
     "ANIMALS": "Động vật",
@@ -200,27 +196,27 @@
     "NSFW": {
       "AHEGAO": "Gửi một hình ảnh về ahegao",
       "ANAL": "Địt một người dùng theo cách anal",
-      "BOOBS": "Chơi với vú của một người dùng bằng ngón tay",
+      "BOOBS": "Finger another user's boobs",
       "CUM": "Xuất tinh lên body của một người dùng",
-      "EROFEET": "Gửi một hình ảnh của bàn chân quyến rũ",
-      "ERONEKO": "Gửi một hình ảnh của một erotic neko",
+      "EROFEET": "Send an image of an erotic feet",
+      "ERONEKO": "Send an image of an erotic neko",
       "FEMDOM": "Gửi một hình ảnh về femdom",
       "FOOTJOB": "Foot job với một người dùng",
       "FUCK": "Địt một người dùng",
       "FUTANARI": "Gửi một hình ảnh về futanari",
-      "HENTAI": "Gửi một hình ảnh hentai",
-      "HNEKO": "Gửi một hình ảnh neko hentai",
-      "HOLOERO": "Gửi một hình ảnh holo erotic",
+      "HENTAI": "Send an image of hentai",
+      "HNEKO": "Send an image of neko hentai",
+      "HOLOERO": "Send a image of Holo erotic",
       "KUNI": "Liếm âm đạo của một người dùng",
-      "LEWD": "Gửi một hình ảnh dâm dục",
-      "LEWDKEMO": "Gửi một hình ảnh kemo dâm dục",
+      "LEWD": "Send a lewd image",
+      "LEWDKEMO": "Send a lewd kemo image",
       "MASTURBATE": "Gửi một hình ảnh động thủ dâm",
       "NEKO": "Gửi một hình ảnh động về NSFW neko",
       "PUSSY": "Gửi một hình ảnh động của một âm đạo",
-      "SUCK": "Mút chim của một người dùng",
+      "SUCK": "Suck a user's penis",
       "TITS": "Gửi một hình ảnh về vú",
       "URBAN": "Tìm định nghĩa ở trong từ điển",
-      "WALLPAPER": "Gửi một hình nền NSFW"
+      "WALLPAPER": "Send a NSFW wallpaper"
     },
     "REACTION": {
       "ANGRY": "Gửi một biểu cảm giận dữ",

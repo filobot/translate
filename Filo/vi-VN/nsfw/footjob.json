@@ -1,3 +1,3 @@
 {
-  "INTERACTION_RESPONSE": "**{{user.username}}** đã làm footjob với **{{user2.username}}**"
+  "INTERACTION_RESPONSE": "**{{user.username}}** gives **{{user2.username}}** a footjob"
 }

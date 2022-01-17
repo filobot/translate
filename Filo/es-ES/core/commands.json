@@ -1,9 +1,5 @@
 {
   "HELP_TITLE": "Viendo la lista de comandos de Filo",
-  "COMMAND_SYNTAX": {
-    "TITLE": "¿Sabes cómo usar los comandos?",
-    "DESCRIPTION": "Para usar un comando debes escribir una barra diagonal seguida del nombre de la categoría del comando y seguido del nombre del comando. **¡Todo en minúsculas!**\n\n**{{translator.syntax}}**: /<{{translator.category}}> <{{translator.command}}>\n**{{translator.example}}**: {{command}}\n\n*En los comandos de la categoría Configuraciones, no será necesario escribir el nombre de la categoría antes del comando, de manera que solo se tendría que escribir el nombre del comando*."
-  },
   "COMMAND_CATEGORIES": {
     "ADMINISTRATION": "Administración",
     "ANIMALS": "Animales",
@@ -200,27 +196,27 @@
     "NSFW": {
       "AHEGAO": "Envía una imagen de ahegao",
       "ANAL": "Folla a un usuario analmente",
-      "BOOBS": "Manosea las tetas de otro usuario",
+      "BOOBS": "Finger another user's boobs",
       "CUM": "Vente encima del cuerpo de otro usuario",
-      "EROFEET": "Envía una imagen de piernas eróticas",
-      "ERONEKO": "Enviar una imagen de un neko erótico",
+      "EROFEET": "Send an image of an erotic feet",
+      "ERONEKO": "Send an image of an erotic neko",
       "FEMDOM": "Enviar una imagen de femdom",
       "FOOTJOB": "Hacerle un foot job a un usuario",
       "FUCK": "Folla a un usuario",
       "FUTANARI": "Enviar una imagen de un futanari",
-      "HENTAI": "Enviar una imagen de un hentai",
-      "HNEKO": "Envía una imagen de un neko hentai",
-      "HOLOERO": "Envía una imagen erótica de Holo",
+      "HENTAI": "Send an image of hentai",
+      "HNEKO": "Send an image of neko hentai",
+      "HOLOERO": "Send a image of Holo erotic",
       "KUNI": "Lame el coño de un usuario",
-      "LEWD": "Envía una imagen lewd",
-      "LEWDKEMO": "Envía una imagen lewd de un kemo",
+      "LEWD": "Send a lewd image",
+      "LEWDKEMO": "Send a lewd kemo image",
       "MASTURBATE": "Envía un gif masturbándote",
       "NEKO": "Enviar un gif NSFW de un neko",
       "PUSSY": "Envía un gif de un coño",
-      "SUCK": "Chupa el pene de un usuario",
+      "SUCK": "Suck a user's penis",
       "TITS": "Envía una imagen de tetas",
       "URBAN": "Busca una definición o término en el diccionario urbano",
-      "WALLPAPER": "Envía un fondo de pantalla NSFW"
+      "WALLPAPER": "Send a NSFW wallpaper"
     },
     "REACTION": {
       "ANGRY": "Envía una reacción de enfado",
