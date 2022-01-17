@@ -1,9 +1,5 @@
 {
   "HELP_TITLE": "Xem tất cả các lệnh của Filo",
-  "COMMAND_SYNTAX": {
-    "TITLE": "Bạn có biết cách dùng lệnh không?",
-    "DESCRIPTION": "Để dùng một lệnh bạn phải ghi dấu gạch chéo, tiếp đến là tên của danh mục và sau đó là tên của lệnh. **Tất cả phải viết thường!**\n\n**{{translator.syntax}}**: /<{{translator.category}}> <{{translator.command}}>\n**{{translator.example}}**: {{command}}\n\n*Các lệnh của danh mục Settings không cần phải ghi tên danh mục trước trên lệnh, cho nên chỉ cần viết tên lệnh là đủ*."
-  },
   "COMMAND_CATEGORIES": {
     "ADMINISTRATION": "Quản lý",
     "ANIMALS": "Động vật",
