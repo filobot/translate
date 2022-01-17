@@ -194,26 +194,8 @@
       "WARN": "Advierte a un usuario del servidor"
     },
     "NSFW": {
-      "AHEGAO": "Envía una imagen de ahegao",
-      "ANAL": "Folla a un usuario analmente",
-      "BOOBS": "Manosea las tetas de otro usuario",
-      "CUM": "Vente encima del cuerpo de otro usuario",
-      "EROTIC": "Envía contenido erótico al canal",
-      "FEMDOM": "Enviar una imagen de femdom",
-      "FOOTJOB": "Hacerle un foot job a un usuario",
-      "FUCK": "Folla a un usuario",
-      "FUTANARI": "Enviar una imagen de un futanari",
-      "HENTAI": "Envía contenido hentai al canal",
-      "KUNI": "Lame el coño de un usuario",
-      "LEWD": "Envía contenido lewd al canal",
-      "MASTURBATE": "Envía un gif masturbándote",
-      "NEKO": "Enviar un gif NSFW de un neko",
-      "ORGASM": "Envía una imagen de un personaje teniendo un orgasmo",
-      "PUSSY": "Envía un gif de un coño",
-      "SUCK": "Chupa la polla de un usuario",
-      "TITS": "Envía una imagen de tetas",
-      "URBAN": "Busca una definición o término en el diccionario urbano",
-      "WALLPAPER": "Envía un fondo de pantalla NSFW"
+      "NSFW": "Sends NSFW content to the channel",
+      "URBAN": "Busca una definición o término en el diccionario urbano"
     },
     "REACTION": {
       "ANGRY": "Envía una reacción de enfado",
