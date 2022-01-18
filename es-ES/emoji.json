@@ -1,12 +1,12 @@
 {
   "EMOJI": "Emoji",
   "EMOJIS": "Emojis",
-  "EMOJI_TYPE": "Tipo de emoji",
+  "EMOJI_TYPE": "Emoji type",
   "EMOJI_TYPES": {
-    "NORMAL_EMOJI": "Emoji normal",
-    "ANIMATED_EMOJI": "Emoji animado"
+    "NORMAL_EMOJI": "Normal emoji",
+    "ANIMATED_EMOJI": "Animated emoji"
   },
-  "UNKNOWN_EMOJI_AUTHOR": "Autor del emoji desconocido",
-  "EMOJI_MANAGED_TRUE": "Este emoji está gestionado por una integración",
-  "EMOJI_MANAGED_FALSE": "Este emoji no está gestionado por una integración"
+  "UNKNOWN_EMOJI_AUTHOR": "Unknown emoji author",
+  "EMOJI_MANAGED_TRUE": "This emoji is managed by an integration",
+  "EMOJI_MANAGED_FALSE": "This emoji isn't managed by an integration"
 }
