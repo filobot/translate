@@ -1,3 +1,3 @@
 {
-  "INTERACTION_SENT": "¡**{{user.username}}** abofetea a **{{user2.username}}**!"
+  "INTERACTION_SENT": "**{{user.username}}** slaps **{{user2.username}}**!"
 }

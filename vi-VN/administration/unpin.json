@@ -1,3 +1,3 @@
 {
-  "COMPLETED": "Bạn đã bỏ ghim tin nhắn **[{{message.id}}]({{message.url}})** ở kênh **[#{{channel.name}}]({{url}})**."
+  "COMPLETED": "You have unpinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
 }

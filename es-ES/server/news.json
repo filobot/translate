@@ -1,16 +1,16 @@
 {
   "SOURCE_FEED_TITLES": {
-    "ANNOUNCEMENTS": "Anuncios de Filo",
-    "STATUS": "Informes de Estado de Filo",
-    "UPDATES": "Actualizaciones de Desarrollador de Filo",
-    "FREE_GAMES": "Juegos Gratis",
-    "MAL": "Feed de MyAnimeList"
+    "ANNOUNCEMENTS": "Filo's Announcements",
+    "STATUS": "Filo's Status Reports",
+    "UPDATES": "Filo's Developer Updates",
+    "FREE_GAMES": "Free Games",
+    "MAL": "MyAnimeList Feed"
   },
   "SOURCE_FEED_DETAILS": {
-    "ANNOUNCEMENTS": "Anuncios oficiales realizados por la Administración Filo sobre cambios en el servicio, eventos especiales o cualquier otro mensaje importante.",
-    "STATUS": "Notificaciones sobre el estado de nuestro servicio. Las notificaciones se enviarán cuando haya una interrupción en nuestro servicio o mantenimiento programado.",
-    "UPDATES": "Notificaciones con información sobre parches recientes de Filo o servicios relacionados con Filo.",
-    "FREE_GAMES": "¡Notificaciones de JUEGOS GRATUITO! Cuando nos enteremos de la existencia de un juego gratuito, te notificaremos inmediatamente.",
-    "MAL": "Bienvenido a MyAnimeList, la comunidad y base de datos de anime y manga en línea más activa del mundo. Únete a la comunidad en línea, crea tu lista de anime y manga, lee comentarios, explora los foros, sigue las noticias y ¡mucho más!"
+    "ANNOUNCEMENTS": "Official announcements made by the Filo Administration about changes in the service, special events or any other important message.",
+    "STATUS": "Notifications of the status of our service. Notifications will be sent when there is an outage in our service or scheduled maintenance.",
+    "UPDATES": "Notifications with information about recent Filo patches or services related to Filo.",
+    "FREE_GAMES": "Notifications for FREE GAMES! When we learn of the existence of a free game we'll notify you immediately.",
+    "MAL": "Welcome to MyAnimeList, the world's most active online anime and manga community and database. Join the online community, create your anime and manga list, read reviews, explore the forums, follow news, and so much more!"
   }
 }

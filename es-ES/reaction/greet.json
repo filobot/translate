@@ -1,3 +1,3 @@
 {
-  "INTERACTION_RESPONSE": "**{{user.username}}** saluda a alguien"
+  "INTERACTION_RESPONSE": "**{{user.username}}** greets someone"
 }

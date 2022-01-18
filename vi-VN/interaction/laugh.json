@@ -1,3 +1,3 @@
 {
-  "INTERACTION_SENT": "**{{user.username}}** đã cười vào **{{user2.username}}**!"
+  "INTERACTION_SENT": "**{{user.username}}** laughed at **{{user2.username}}**!"
 }

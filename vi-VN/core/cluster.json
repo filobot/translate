@@ -1,15 +1,15 @@
 {
-  "CLUSTER": "Cụm dữ liệu",
+  "CLUSTER": "Cluster",
   "SHARD": "Shard",
-  "SHARDS": "Các shard",
+  "SHARDS": "Shards",
   "PING": "Ping",
-  "LIBRARY": "Thư viện",
-  "NODE_VERSION": "Phiên bản Node",
-  "OPERATIVE_SYSTEM": "Hệ điều hành",
-  "TOTAL_SERVERS": "Tổng số server",
-  "TOTAL_USERS": "Tổng số người dùng",
-  "TOTAL_CACHED_CHANNELS": "Tổng số kênh",
-  "SERVERS": "Các server",
-  "USERS": "Các người dùng",
-  "CACHED_CHANNELS": "Các kênh"
+  "LIBRARY": "Library",
+  "NODE_VERSION": "Node version",
+  "OPERATIVE_SYSTEM": "Operative system",
+  "TOTAL_SERVERS": "Total servers",
+  "TOTAL_USERS": "Total users",
+  "TOTAL_CACHED_CHANNELS": "Total cached channels",
+  "SERVERS": "Servers",
+  "USERS": "Users",
+  "CACHED_CHANNELS": "Cached channels"
 }

@@ -1,3 +1,3 @@
 {
-  "INTERACTION_SENT": "¡**{{user.username}}** le ha dado a **{{user2.username}}** una cookie!"
+  "INTERACTION_SENT": "**{{user.username}}** has given **{{user2.username}}** a cookie!"
 }
