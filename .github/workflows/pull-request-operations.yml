@@ -1,8 +1,7 @@
 name: "Pull Request Operations"
 on:
   pull_request_target:
-    types:
-    - opened
+    types: [ opened ]
 jobs:
   label:
     runs-on: ubuntu-latest
