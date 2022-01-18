@@ -1,3 +1,3 @@
 {
-  "USER_REPORTED": "Has informado con éxito de [**{{user.tag}}**]({{url}}) ({{user.id}})."
+  "USER_REPORTED": "You have successfully reported [**{{user.tag}}**]({{url}}) ({{user.id}})."
 }
