@@ -3,7 +3,7 @@
     "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã quan hệ tình dục vào lỗ đít của **[{{user2.username}}]({{url2}})**"
   },
   "BOOBS": {
-    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** gropes **[{{user2.username}}]({{url2}})**'s boobs"
+    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã mò mẫm vú của **[{{user2.username}}]({{url2}})**"
   },
   "CUM  ": {
     "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** has made himself cum on top of **[{{user2.username}}]({{url2}})**"
