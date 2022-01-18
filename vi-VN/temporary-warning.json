@@ -1,0 +1,4 @@
+{
+  "TITLE": "COMMANDS THROUGH MESSAGES ARE IN DEPRECATED",
+  "DESCRIPTION": "As of Filo v4, message commands are deprecated and will therefore no longer be responded to.\n\n**Now you must use Filo's Slash Commands!**\nTry the first command of this type by typing this in the chat: **{{command}}**.\n\n**The command doesn't appear?**\nMake sure you have the Slash Commands integration added on your server! **[Click here]({{url2}})** if you don't have it yet.\n\nMore information about this change by **[clicking here]({{url}})**."
+}
