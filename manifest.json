@@ -1,0 +1,32 @@
+[
+  {
+    "name": "en-US",
+    "nativeName": "English",
+    "wikiCode": "en",
+    "flag": "🇺🇸",
+    "default": true,
+    "contributors": [
+      "266103595949096960"
+    ]
+  },
+  {
+    "name": "es-ES",
+    "nativeName": "Español",
+    "wikiCode": "es",
+    "flag": "🇪🇸",
+    "default": false,
+    "contributors": [
+      "266103595949096960"
+    ]
+  },
+  {
+    "name": "vi-VN",
+    "nativeName": "Tiếng Việt",
+    "wikiCode": "en",
+    "flag": "🇻🇳",
+    "default": false,
+    "contributors": [
+      "754982406393430098"
+    ]
+  }
+]
