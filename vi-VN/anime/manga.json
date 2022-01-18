@@ -1,22 +1,22 @@
 {
-  "MANGA": "Truyện tranh",
-  "MANGAS": "Các truyện tranh",
-  "MANGA_TYPE": "Loại truyện tranh",
+  "MANGA": "Manga",
+  "MANGAS": "Mangas",
+  "MANGA_TYPE": "Manga type",
   "MANGA_TYPES": {
-    "MANGA": "Truyện tranh",
-    "NOVEL": "Tiểu thuyết",
-    "ONE_SHOT": "Làm một lần",
-    "DOUJINSHI": "Của tác giả không chuyên",
-    "MANHWA": "Truyện tranh Hàn Quốc",
-    "MANHUA": "Truyện tranh Hoa Ngữ"
+    "MANGA": "Manga",
+    "NOVEL": "Novel",
+    "ONE_SHOT": "One-shot",
+    "DOUJINSHI": "Doujinshi",
+    "MANHWA": "Manhwa",
+    "MANHUA": "Manhua"
   },
   "MANGA_STATUS": {
-    "PUBLISHING": "Đang xuất bản",
-    "FINISHED": "Đã xuất bản",
-    "NOT_YET_PUBLISHED": "Chưa xuất bản"
+    "PUBLISHING": "Currently publishing",
+    "FINISHED": "Finished publishing",
+    "NOT_YET_PUBLISHED": "Not yet published"
   },
-  "MANGA_VOLUMES": "Số phần của truyện tranh",
-  "VOLUMES": "Các phần",
-  "CHAPTERS": "Các chương",
-  "PUBLISHED_DATE": "Ngày xuất bản"
+  "MANGA_VOLUMES": "Manga volumes",
+  "VOLUMES": "Volumes",
+  "CHAPTERS": "Chapters",
+  "PUBLISHED_DATE": "Published date"
 }
