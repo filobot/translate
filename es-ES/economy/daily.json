@@ -1,4 +1,4 @@
 {
-  "DAILY_CLAIMED": "**[{{user.tag}}]({{url}})** ({{user.id}}), you have received your **{{credits}}** daily credits!",
-  "DAILY_CLAIMED_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}), you have given away your **{{credits}}** daily credits to **[{{user2.tag}}]({{url2}})** ({{user2.id}})."
+  "DAILY_CLAIMED": "**[{{user.tag}}]({{url}})** ({{user.id}}), ¡has recibido tus **{{credits}}** créditos diarios!",
+  "DAILY_CLAIMED_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}), has dado tu **{{credits}}** créditos diarios a **[{{user2.tag}}]({{url2}})** ({{user2.id}})."
 }
