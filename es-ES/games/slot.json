@@ -1,4 +1,4 @@
 {
-  "SLOT_MACHINE": "Slot machine",
-  "GAME_RESULT": "**{{user.tag}}** ({{user.id}}) has paid **{{bet}}** credits and has **{{status}}** {{credits}} credits."
+  "SLOT_MACHINE": "Máquina tragaperras",
+  "GAME_RESULT": "**{{user.tag}}** ({{user.id}}) ha pagado **{{bet}}** créditos y ha **{{status}}** {{credits}} créditos."
 }
