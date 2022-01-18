@@ -1,15 +1,15 @@
 {
-  "CLUSTER": "Cluster",
-  "SHARD": "Shard",
-  "SHARDS": "Shards",
-  "PING": "Ping",
-  "LIBRARY": "Library",
-  "NODE_VERSION": "Node version",
-  "OPERATIVE_SYSTEM": "Operative system",
-  "TOTAL_SERVERS": "Total servers",
-  "TOTAL_USERS": "Total users",
-  "TOTAL_CACHED_CHANNELS": "Total cached channels",
-  "SERVERS": "Servers",
-  "USERS": "Users",
-  "CACHED_CHANNELS": "Cached channels"
+  "CLUSTER": "Clúster",
+  "SHARD": "Fragmento",
+  "SHARDS": "Fragmentos",
+  "PING": "Latencia",
+  "LIBRARY": "Librería",
+  "NODE_VERSION": "Versión de Node",
+  "OPERATIVE_SYSTEM": "Sistema operativo",
+  "TOTAL_SERVERS": "Servidores totales",
+  "TOTAL_USERS": "Usuarios totales",
+  "TOTAL_CACHED_CHANNELS": "Canales cacheados totales",
+  "SERVERS": "Servidores",
+  "USERS": "Usuarios",
+  "CACHED_CHANNELS": "Canales en caché"
 }

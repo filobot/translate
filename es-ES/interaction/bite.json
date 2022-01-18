@@ -1,3 +1,3 @@
 {
-  "INTERACTION_SENT": "**{{user.username}}** bites **{{user2.username}}**!"
+  "INTERACTION_SENT": "¡**{{user.username}}** muerde a **{{user2.username}}**!"
 }

@@ -1,11 +1,11 @@
 {
-  "INVITE": "Invite",
-  "INVITES": "Invites",
-  "INVITE_CODE": "Invite code",
-  "MAXIMUM_USES": "Maximum uses of the invite",
-  "TEMPORARY_TRUE": "The invite has temporary membership",
-  "TEMPORARY_FALSE": "The invite has full membership",
-  "ACTIVITY_TRUE": "The invite belongs to an activity",
-  "ACTIVITY_FALSE": "The invite doesn't belong to an activity",
-  "MAXIMUM_PARTICIPANTS": "Maximum participants"
+  "INVITE": "Mời",
+  "INVITES": "Các link mời",
+  "INVITE_CODE": "Mã link mời",
+  "MAXIMUM_USES": "Số lần sử dụng giới hạn của link mời",
+  "TEMPORARY_TRUE": "Link mời này bao gồm thành viên tạm thời",
+  "TEMPORARY_FALSE": "Link mời này bao gồm thành viên trọn vẹn",
+  "ACTIVITY_TRUE": "Link mời này từ một hoạt động",
+  "ACTIVITY_FALSE": "Link mời này không từ một hoạt động",
+  "MAXIMUM_PARTICIPANTS": "Số người tham gia nhiều nhất"
 }

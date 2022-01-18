@@ -1,5 +1,5 @@
 {
-  "WATCHING_FILO_LATENCY": "Watching Filo's latency",
-  "WS_LATENCY": "WS latency",
-  "API_LATENCY": "API latency"
+  "WATCHING_FILO_LATENCY": "Viendo la latencia de Filo",
+  "WS_LATENCY": "Latencia del WS",
+  "API_LATENCY": "Latencia de la API"
 }

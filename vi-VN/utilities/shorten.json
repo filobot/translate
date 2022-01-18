@@ -1,5 +1,5 @@
 {
-  "URL_SHORTENED_SUCCESSFULLY": "You have shortened this **[URL]({{url}})** successfully.",
-  "ORIGINAL_URL": "Original URL",
-  "SHORTENED_URL": "Shortened URL"
+  "URL_SHORTENED_SUCCESSFULLY": "Bạn đã rút ngắn link **[URL]({{url}})** thành công.",
+  "ORIGINAL_URL": "Link gốc",
+  "SHORTENED_URL": "Link đã rút ngắn"
 }

@@ -1,14 +1,14 @@
 {
-  "SERVICE_STATUS": "Service status",
-  "CONTACT_US": "Contact us",
-  "INVITE_FILO": "Invite Filo",
-  "VOTE_NOW": "Vote now!",
-  "DONATE_NOW": "Donate now!",
-  "JOIN_NOW": "Join now!",
-  "APPEAL_BAN": "Appeal ban",
-  "VIEW_COMMAND_LIST": "View command list",
+  "SERVICE_STATUS": "Tình trạng dịch vụ",
+  "CONTACT_US": "Liên hệ với chúng tôi",
+  "INVITE_FILO": "Mời Filo",
+  "VOTE_NOW": "Bình chọn ngay!",
+  "DONATE_NOW": "Quyên góp ngay!",
+  "JOIN_NOW": "Tham gia ngay!",
+  "APPEAL_BAN": "Khiếu nại về ban",
+  "VIEW_COMMAND_LIST": "Xem danh sách tất cả các lệnh",
   "WIKI": "Wiki",
-  "HELP": "Help",
-  "INVITE_NOW": "Invite now!",
-  "PERMISSIONS_CALCULATOR": "Permissions calculator"
+  "HELP": "Trợ giúp",
+  "INVITE_NOW": "Mời ngay!",
+  "PERMISSIONS_CALCULATOR": "Máy tính quyền hạn"
 }

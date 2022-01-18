@@ -1,3 +1,3 @@
 {
-  "INTERACTION_RESPONSE": "**{{user.username}}** is sick"
+  "INTERACTION_RESPONSE": "**{{user.username}}** está enfermo"
 }
