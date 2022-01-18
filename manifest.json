@@ -22,7 +22,7 @@
   {
     "name": "vi-VN",
     "nativeName": "Tiếng Việt",
-    "wikiCode": "en",
+    "wikiCode": null,
     "flag": "🇻🇳",
     "default": false,
     "contributors": [
