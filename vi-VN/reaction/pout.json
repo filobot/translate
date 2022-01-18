@@ -1,3 +1,3 @@
 {
-  "INTERACTION_RESPONSE": "**{{user.username}}** đang bĩu môi"
+  "INTERACTION_RESPONSE": "**{{user.username}}** pouts"
 }
