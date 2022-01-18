@@ -1,0 +1,3 @@
+{
+  "INTERACTION_SENT": "**{{user.username}}** has called **{{user2.username}}** a baka!"
+}
