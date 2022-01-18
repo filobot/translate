@@ -1,8 +1,38 @@
-{
-  "LANGUAGES_NAME": {
-    "en-US": "English",
-    "es-ES": "Español",
-    "zh-TW": "正體中文",
-    "zh-CN": "简体中文"
+[
+  {
+    "name": "en-US",
+    "nativeName": "English",
+    "wikiCode": "en",
+    "flag": "🇺🇸",
+    "default": true,
+    "contributors": [
+      "266103595949096960"
+    ]
+  },
+  {
+    "name": "es-ES",
+    "nativeName": "Español",
+    "wikiCode": "es",
+    "flag": "🇪🇸",
+    "default": false,
+    "contributors": [
+      "266103595949096960"
+    ]
+  },
+  {
+    "name": "zh-TW",
+    "nativeName": "正體中文",
+    "wikiCode": null,
+    "flag": "🇹🇼",
+    "default": false,
+    "contributors": []
+  },
+  {
+    "name": "zh-CN",
+    "nativeName": "简体中文",
+    "wikiCode": null,
+    "flag": "🇨🇳",
+    "default": false,
+    "contributors": []
   }
-}
+]
