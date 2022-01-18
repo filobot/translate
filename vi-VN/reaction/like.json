@@ -1,3 +1,3 @@
 {
-  "INTERACTION_RESPONSE": "**{{user.username}}** thích cái này"
+  "INTERACTION_RESPONSE": "**{{user.username}}** likes this"
 }
