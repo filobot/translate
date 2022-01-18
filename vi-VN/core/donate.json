@@ -1,4 +1,4 @@
 {
-  "DONATE_TITLE": "Hãy ủng hộ Filo bằng cách quyên góp!",
-  "DONATE_DESCRIPTION": "Số lượng bao nhiêu, chúng tôi đều cảm ơn. Cho tất cả các số tiền quyên góp trên 1 đô la, bạn sẽ nhận một phần thưởng **[reward]({{url}})** ở trong server của chúng tôi.\n\nTất cả quyên góp sẽ được dùng để cải thiện dịch vụ."
+  "DONATE_TITLE": "Support Filo by donating!",
+  "DONATE_DESCRIPTION": "Any amount is welcome and will be greatly appreciated. For any donation over $1 you'll receive a **[reward]({{url}})** on our server.\n\nAll donations you make will be used in order to improve the service and maintain it."
 }
