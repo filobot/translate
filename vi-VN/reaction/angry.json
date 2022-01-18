@@ -1,3 +1,3 @@
 {
-  "INTERACTION_RESPONSE": "**{{user.username}}** đang rất giận"
+  "INTERACTION_RESPONSE": "**{{user.username}}** is very angry"
 }
