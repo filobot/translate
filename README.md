@@ -19,5 +19,5 @@ No need to request access or anything like that, just register with Crowdin and 
 #### Rewards?
 If you actively participate in the Filobot translation program, you'll receive a badge along with an exclusive role on our **[Discord server](https://filobot.xyz/discord)**.
 
-#### Proofleader
-If you are interested in the idea of being a Proofleader of a specific language, don't hesitate to let us know on our **[Discord server](https://filobot.xyz/discord)**.
+#### Proofreader
+If you are interested in the idea of being a Proofreader of a specific language, don't hesitate to let us know on our **[Discord server](https://filobot.xyz/discord)**.
