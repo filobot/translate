@@ -9,18 +9,18 @@
     "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã xuất tinh lên người của **[{{user2.username}}]({{url2}})**"
   },
   "FOOTJOB": {
-    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** gives **[{{user2.username}}]({{url2}})** a footjob"
+    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã làm footjob với **[{{user2.username}}]({{url2}})**"
   },
   "FUCK": {
-    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** fucks **[{{user2.username}}]({{url2}})**"
+    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã quan hệ tình dục với **[{{user2.username}}]({{url2}})**"
   },
   "KUNI": {
-    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** licked **[{{user2.username}}]({{url2}})**'s pussy"
+    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã liếm âm đạo của **[{{user2.username}}]({{url2}})**"
   },
   "MASTURBATE": {
-    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** masturbates"
+    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã thủ dâm"
   },
   "SUCK": {
-    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** sucks **[{{user2.username}}]({{url2}})**'s dick"
+    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã bú dương vật của **[{{user2.username}}]({{url2}})**"
   }
 }
