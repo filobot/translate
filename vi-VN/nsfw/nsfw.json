@@ -6,7 +6,7 @@
     "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã mò mẫm vú của **[{{user2.username}}]({{url2}})**"
   },
   "CUM  ": {
-    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** has made himself cum on top of **[{{user2.username}}]({{url2}})**"
+    "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã xuất tinh lên người của **[{{user2.username}}]({{url2}})**"
   },
   "FOOTJOB": {
     "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** gives **[{{user2.username}}]({{url2}})** a footjob"
