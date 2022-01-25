@@ -194,7 +194,7 @@
       "WARN": "Warn a user from the server"
     },
     "NSFW": {
-      "NSFW": "Sends NSFW content to the channel",
+      "NSFW": "Send NSFW content to the channel",
       "URBAN": "Search definitions and terms in the urban dictionary"
     },
     "REACTION": {
