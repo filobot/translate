@@ -132,10 +132,10 @@
       "OWOIFY": "Convertir texto a owo"
     },
     "GAME_STATISTICS": {
-      "CSGO": "Watch the statistics of a CSGO player",
-      "FORTNITE": "Watch the statistics of a Fortnite player",
-      "OSU": "Watch the statistics of a osu! player",
-      "R6S": "Watch the statistics of a R6S player"
+      "CSGO": "Mira las estadísticas de un jugador de CSGO",
+      "FORTNITE": "Mira las estadísticas de un jugador de Fortnite",
+      "OSU": "Mira las estadísticas de un jugador de osu!",
+      "R6S": "Mira las estadísticas de un jugador de R6S"
     },
     "GAMES": {
       "COINFLIP": "Juego clásico de giro de moneda",
@@ -194,7 +194,7 @@
       "WARN": "Advierte a un usuario del servidor"
     },
     "NSFW": {
-      "NSFW": "Send NSFW content to the channel",
+      "NSFW": "Envía contenido NSFW al canal",
       "URBAN": "Busca una definición o término en el diccionario urbano"
     },
     "REACTION": {
