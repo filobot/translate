@@ -132,10 +132,10 @@
       "OWOIFY": "Hoán đổi chữ thành owo"
     },
     "GAME_STATISTICS": {
-      "CSGO": "Xem thông tin của một người chơi CSGO",
-      "FORTNITE": "Xem thông tin của một người chơi Fortnite",
-      "OSU": "Xem thông tin của một người chơi osu!",
-      "R6S": "Xem thông tin của một người chơi Rainbow Six Siege"
+      "CSGO": "Watch the statistics of a CSGO player",
+      "FORTNITE": "Watch the statistics of a Fortnite player",
+      "OSU": "Watch the statistics of a osu! player",
+      "R6S": "Watch the statistics of a R6S player"
     },
     "GAMES": {
       "COINFLIP": "Trò chơi lật đồng tiền",
