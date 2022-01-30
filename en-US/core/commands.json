@@ -132,10 +132,10 @@
       "OWOIFY": "Convert text to owo"
     },
     "GAME_STATISTICS": {
-      "CSGO": "Get the statistics of a CSGO player",
-      "FORTNITE": "Get the statistics of a Fortnite player",
-      "OSU": "Get the statistics of a osu! player",
-      "R6S": "Get the statistics of a Rainbow Six Siege player"
+      "CSGO": "Watch the statistics of a CSGO player",
+      "FORTNITE": "Watch the statistics of a Fortnite player",
+      "OSU": "Watch the statistics of a osu! player",
+      "R6S": "Watch the statistics of a R6S player"
     },
     "GAMES": {
       "COINFLIP": "Classic coin flip game",
