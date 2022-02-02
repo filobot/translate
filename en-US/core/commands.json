@@ -24,7 +24,7 @@
   },
   "CATEGORIES_DESCRIPTION": {
     "ADMINISTRATION": "Commands that manage or modify important parameters of the server or a user.",
-    "ANIMALS": "Animal's commands.",
+    "ANIMALS": "Animals's commands.",
     "ANIME": "Anime's commands.",
     "CORE": "Filo's information and management commands.",
     "FUN": "Funny commands like memes among other things.",
@@ -61,15 +61,9 @@
       "UNPIN": "Unpin a message on the current channel"
     },
     "ANIMALS": {
-      "BEAR": "Send a random image of a bear to the current channel",
-      "BIRD": "Send a random image of a bird to the current channel",
-      "CAT": "Send a random image of a cat to the current channel",
-      "DOG": "Send a random image of a dog to the current channel",
-      "KOALA": "Send a random image of a koala to the current channel",
-      "PANDA": "Send a random image of a panda to the current channel",
-      "RANDOM": "Send a random image of a random animal to the current channel",
-      "SNAKE": "Send a random image of a snake to the current channel",
-      "WOLF": "Send a random image of a wolf to the current channel"
+      "BIRDS": "Send a image of birds to the channel",
+      "MAMMALS": "Send a image of mammals to the channel",
+      "REPTILES": "Send a image of reptiles to the channel"
     },
     "ANIME": {
       "ANIME": "Search the information of an anime",
