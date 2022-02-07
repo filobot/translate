@@ -112,7 +112,7 @@
       "WIKI": "Get the link to Filo's Wiki"
     },
     "ECONOMY": {
-      "CREDITS": "Get your current credits or a user's credits",
+      "CREDITS": "Show your credits or another user's credits",
       "DAILY": "Claim your daily credits or gift them to a user",
       "PAY": "Pay an amount of credits to another user"
     },
@@ -241,7 +241,7 @@
       "WELCOMES": "Welcome module that allows you to send a message to new members and assign them a role"
     },
     "SOCIAL": {
-      "PROFILE": "Get your profile or a user's profile"
+      "PROFILE": "Show your profile or the profile of another user"
     },
     "UTILITIES": {
       "BINARY": "Encode binary or decode binary code",
