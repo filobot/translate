@@ -112,7 +112,7 @@
       "WIKI": "Obtén el enlace de la Wiki de Filo"
     },
     "ECONOMY": {
-      "CREDITS": "Obtén tus créditos actuales o los créditos de un usuario",
+      "CREDITS": "Show your credits or another user's credits",
       "DAILY": "Reclama tus créditos diarios o regálalos a un usuario",
       "PAY": "Paga una cantidad de créditos a otro usuario"
     },
@@ -241,7 +241,7 @@
       "WELCOMES": "Módulo de bienvenida que te permite enviar un mensaje a nuevos miembros y asignarles un rol"
     },
     "SOCIAL": {
-      "PROFILE": "Obtén tu perfil o el perfil de un usuario"
+      "PROFILE": "Show your profile or the profile of another user"
     },
     "UTILITIES": {
       "BINARY": "Codifica el binario o decodifica el código binario",
