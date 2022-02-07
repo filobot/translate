@@ -112,7 +112,7 @@
       "WIKI": "Xem link tới wiki của Filo"
     },
     "ECONOMY": {
-      "CREDITS": "Xem số tiền của bạn hoặc số tiền của người dùng khác",
+      "CREDITS": "Show your credits or another user's credits",
       "DAILY": "Nhận số tiền hằng ngày của bạn hoặc tặng cho người dùng khác",
       "PAY": "Cho một số tiền cho người dùng khác"
     },
@@ -241,7 +241,7 @@
       "WELCOMES": "Chương trình này cho phép bạn gửi tin nhắn chào mừng tới một người dùng và thêm role"
     },
     "SOCIAL": {
-      "PROFILE": "Xem profile của mình hoặc một người dùng"
+      "PROFILE": "Show your profile or the profile of another user"
     },
     "UTILITIES": {
       "BINARY": "Hoán đổi thành số nhị phân hoặc ngược lại",
