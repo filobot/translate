@@ -24,7 +24,7 @@
   },
   "CATEGORIES_DESCRIPTION": {
     "ADMINISTRATION": "Comandos que administran o modifican parámetros importantes del servidor o de un usuario.",
-    "ANIMALS": "Comandos de animales.",
+    "ANIMALS": "Animals's commands.",
     "ANIME": "Comandos de anime.",
     "CORE": "Comandos de información y gestión de Filo.",
     "FUN": "Comandos divertidos como memes entre otras cosas.",
@@ -61,15 +61,9 @@
       "UNPIN": "Desfija un mensaje en el canal actual"
     },
     "ANIMALS": {
-      "BEAR": "Envía una imagen aleatoria de un oso al canal actual",
-      "BIRD": "Envía una imagen aleatoria de un pájaro al canal actual",
-      "CAT": "Envía una imagen aleatoria de un gato al canal actual",
-      "DOG": "Envía una imagen aleatoria de un perro al canal actual",
-      "KOALA": "Envía una imagen aleatoria de un koala al canal actual",
-      "PANDA": "Envía una imagen aleatoria de un panda al canal actual",
-      "RANDOM": "Envía una imagen aleatoria de un animal aleatorio al canal actual",
-      "SNAKE": "Envía una imagen aleatoria de una serpiente al canal actual",
-      "WOLF": "Envía una imagen aleatoria de un lobo al canal actual"
+      "BIRDS": "Send a image of birds to the channel",
+      "MAMMALS": "Send a image of mammals to the channel",
+      "REPTILES": "Send a image of reptiles to the channel"
     },
     "ANIME": {
       "ANIME": "Busca la información de un anime",
@@ -132,10 +126,10 @@
       "OWOIFY": "Convertir texto a owo"
     },
     "GAME_STATISTICS": {
-      "CSGO": "Obtén las estadísticas de un jugador de CSGO",
-      "FORTNITE": "Obtén las estadísticas de un jugador de Fortnite",
-      "OSU": "Obtén las estadísticas de un jugador de osu!",
-      "R6S": "Obtén las estadísticas de un jugador de Rainbow Six Siege"
+      "CSGO": "Mira las estadísticas de un jugador de CSGO",
+      "FORTNITE": "Mira las estadísticas de un jugador de Fortnite",
+      "OSU": "Mira las estadísticas de un jugador de osu!",
+      "R6S": "Mira las estadísticas de un jugador de R6S"
     },
     "GAMES": {
       "COINFLIP": "Juego clásico de giro de moneda",
@@ -194,7 +188,7 @@
       "WARN": "Advierte a un usuario del servidor"
     },
     "NSFW": {
-      "NSFW": "Send NSFW content to the channel",
+      "NSFW": "Envía contenido NSFW al canal",
       "URBAN": "Busca una definición o término en el diccionario urbano"
     },
     "REACTION": {

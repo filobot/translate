@@ -24,7 +24,7 @@
   },
   "CATEGORIES_DESCRIPTION": {
     "ADMINISTRATION": "Các lệnh có chức năng thay đổi tính cách hoạt động của một server hoặc một người dùng.",
-    "ANIMALS": "Các lệnh của nhóm Động Vật.",
+    "ANIMALS": "Animals's commands.",
     "ANIME": "Các lệnh của nhóm Anime.",
     "CORE": "Thông tin của Filo và các lệnh quản lý.",
     "FUN": "Những lệnh hài hước như là meme hoặc nhiều thứ khác.",
@@ -61,15 +61,9 @@
       "UNPIN": "Bỏ ghim một tin nhắn ở kênh hiện tại"
     },
     "ANIMALS": {
-      "BEAR": "Gửi một hình ảnh bất kì của Gấu tới kênh hiện tại",
-      "BIRD": "Gửi một hình ảnh bất kì của Chim tới kênh hiện tại",
-      "CAT": "Gửi một hình ảnh bất kì của Mèo tới kênh hiện tại",
-      "DOG": "Gửi một hình ảnh bất kì của Chó tới kênh hiện tại",
-      "KOALA": "Gửi một hình ảnh bất kì của Koala tới kênh hiện tại",
-      "PANDA": "Gửi một hình ảnh bất kì của Gấu Trúc tới kênh hiện tại",
-      "RANDOM": "Gửi một hình ảnh bất kì của một loài động vật bất kì tới kênh hiện tại",
-      "SNAKE": "Gửi một hình ảnh của Rắn tới kênh hiện tại",
-      "WOLF": "Gửi một hình ảnh bất kì của Chó Sói tới kênh hiện tại"
+      "BIRDS": "Send a image of birds to the channel",
+      "MAMMALS": "Send a image of mammals to the channel",
+      "REPTILES": "Send a image of reptiles to the channel"
     },
     "ANIME": {
       "ANIME": "Tìm thông tin của Anime",
@@ -132,10 +126,10 @@
       "OWOIFY": "Hoán đổi chữ thành owo"
     },
     "GAME_STATISTICS": {
-      "CSGO": "Xem thông tin của một người chơi CSGO",
-      "FORTNITE": "Xem thông tin của một người chơi Fortnite",
-      "OSU": "Xem thông tin của một người chơi osu!",
-      "R6S": "Xem thông tin của một người chơi Rainbow Six Siege"
+      "CSGO": "Watch the statistics of a CSGO player",
+      "FORTNITE": "Watch the statistics of a Fortnite player",
+      "OSU": "Watch the statistics of a osu! player",
+      "R6S": "Watch the statistics of a R6S player"
     },
     "GAMES": {
       "COINFLIP": "Trò chơi lật đồng tiền",
