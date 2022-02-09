@@ -36,7 +36,7 @@
     "501": "No Implementado",
     "502": "Puerta de Enlace Incorrecta",
     "503": "Servicio no Disponible",
-    "504": "Tiempo de Espera de Puerta de Enlace",
+    "504": "Tiempo de Espera de Puerta de Enlace Agotado",
     "505": "Versión HTTP no Compatible",
     "506": "Variantes También Negociable",
     "507": "Almacenamiento Insuficiente",
