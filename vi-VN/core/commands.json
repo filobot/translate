@@ -24,7 +24,7 @@
   },
   "CATEGORIES_DESCRIPTION": {
     "ADMINISTRATION": "Các lệnh có chức năng thay đổi tính cách hoạt động của một server hoặc một người dùng.",
-    "ANIMALS": "Animals's commands.",
+    "ANIMALS": "Các lệnh của nhóm Động Vật.",
     "ANIME": "Các lệnh của nhóm Anime.",
     "CORE": "Thông tin của Filo và các lệnh quản lý.",
     "FUN": "Những lệnh hài hước như là meme hoặc nhiều thứ khác.",
@@ -61,9 +61,9 @@
       "UNPIN": "Bỏ ghim một tin nhắn ở kênh hiện tại"
     },
     "ANIMALS": {
-      "BIRDS": "Send a image of birds to the channel",
-      "MAMMALS": "Send a image of mammals to the channel",
-      "REPTILES": "Send a image of reptiles to the channel"
+      "BIRDS": "Gửi một hình ảnh của một con chim vào kênh hiện tại",
+      "MAMMALS": "Gửi một hình của động vật có vú bất kì vào kênh hiện tại",
+      "REPTILES": "Gửi một hình ảnh của động vật bò sát bất kì vào kênh hiện tại"
     },
     "ANIME": {
       "ANIME": "Tìm thông tin của Anime",
@@ -112,7 +112,7 @@
       "WIKI": "Xem link tới wiki của Filo"
     },
     "ECONOMY": {
-      "CREDITS": "Get your current credits or a user's credits",
+      "CREDITS": "Xem số tiền của bạn hoặc số tiền của người dùng khác",
       "DAILY": "Nhận số tiền hằng ngày của bạn hoặc tặng cho người dùng khác",
       "PAY": "Cho một số tiền cho người dùng khác"
     },
@@ -126,10 +126,10 @@
       "OWOIFY": "Hoán đổi chữ thành owo"
     },
     "GAME_STATISTICS": {
-      "CSGO": "Watch the statistics of a CSGO player",
-      "FORTNITE": "Watch the statistics of a Fortnite player",
-      "OSU": "Watch the statistics of a osu! player",
-      "R6S": "Watch the statistics of a R6S player"
+      "CSGO": "Xem thông tin của một người chơi CSGO",
+      "FORTNITE": "Xem thông tin của một người chơi Fortnite",
+      "OSU": "Xem thông tin của một người chơi osu!",
+      "R6S": "Xem thông tin của một người chơi R6S"
     },
     "GAMES": {
       "COINFLIP": "Trò chơi lật đồng tiền",
@@ -241,7 +241,7 @@
       "WELCOMES": "Chương trình này cho phép bạn gửi tin nhắn chào mừng tới một người dùng và thêm role"
     },
     "SOCIAL": {
-      "PROFILE": "Get your profile or a user's profile"
+      "PROFILE": "Xem profile của mình hoặc một người dùng khác"
     },
     "UTILITIES": {
       "BINARY": "Hoán đổi thành số nhị phân hoặc ngược lại",
