@@ -20,6 +20,16 @@
     ]
   },
   {
+    "name": "vi-VN",
+    "nativeName": "Tiếng Việt",
+    "wikiCode": null,
+    "flag": "🇻🇳",
+    "default": false,
+    "contributors": [
+      "754982406393430098"
+    ]
+  },
+  {
     "name": "zh-TW",
     "nativeName": "正體中文",
     "wikiCode": null,
