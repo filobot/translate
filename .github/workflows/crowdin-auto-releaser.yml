@@ -1,0 +1,14 @@
+name: Crowdin Auto-Releaser
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  labeler:
+    name: Create the Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch API Data 📦
+        uses: JamesIves/fetch-api-data-action@v2.1.0
+        with:
+          endpoint: https://api.crowdin.com/api/v2/projects/494497/distributions/d2aa3e0229d07c83af29db8cmm4/release
+          configuration: '{ "method": "POST", "headers": { "Authorization": "Bearer ${{ secrets.CROWDIN_API_TOKEN }}", "Content-Type": "application/json" } }'
