@@ -46,8 +46,8 @@
     "599": "Error de Conexión a la Red"
   },
   "FILO": {
-    "CLASSIC_DESCRIPTION": "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.",
-    "DESCRIPTION": "Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you."
+    "CLASSIC_DESCRIPTION": "Filo es un potente bot de Discord multipropósito. Personalizable, múltiples idiomas, reportes, registros, bienvenidas y despedidas, contador de miembros, anti-invitaciones, auto-mod, anti-evasión. +190 comandos.",
+    "DESCRIPTION": "Filo es una potente bot multipropósito de Discord que sirve a los gremios de Discord desde 2019. Contando con una amplia gama de módulos de administración y moderación para facilitarte las cosas."
   },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
