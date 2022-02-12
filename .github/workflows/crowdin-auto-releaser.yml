@@ -2,6 +2,8 @@ name: Crowdin Auto-Releaser
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
 jobs:
   labeler:
     name: Create the Release
