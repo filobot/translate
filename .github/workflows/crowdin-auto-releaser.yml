@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - "website/master"
 jobs:
   release:
     name: Create the Release
