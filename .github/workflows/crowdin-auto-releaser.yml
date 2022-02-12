@@ -5,7 +5,7 @@ on:
     branches:
       - master
 jobs:
-  labeler:
+  release:
     name: Create the Release
     runs-on: ubuntu-latest
     steps:
