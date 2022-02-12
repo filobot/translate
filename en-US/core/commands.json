@@ -176,7 +176,7 @@
     "MODERATION": {
       "BAN": "Permanently ban a user from the server",
       "CASE": "Manage a sanction case",
-      "HISTORY": "Get the sanction history of a user",
+      "HISTORY": "Show a user's sanction history",
       "KICK": "Kick a user from the server",
       "MUTE": "Permanently mute a user from the server",
       "SOFTBAN": "Soft ban a user from the server",
