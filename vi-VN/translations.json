@@ -46,8 +46,8 @@
     "599": "Lỗi kết nối mạng"
   },
   "FILO": {
-    "CLASSIC_DESCRIPTION": "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.",
-    "DESCRIPTION": "Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you."
+    "CLASSIC_DESCRIPTION": "Filo là một Discord bot đa chức năng. Có thể thay đổi tuỳ ý, nhiều ngôn ngữ, báo cáo, ghi chép nhật ký, chào mừng và tạm biệt, máy đếm số thành viên, ngăn chặn link mời, quản lý tự động, ngăn chặn, chống trốn tránh. Hơn 190 lệnh.",
+    "DESCRIPTION": "Filo là một Bot Discord đa chức năng mạnh mẽ phục vụ các server Discord từ 2019. Filo có hàng loạt tính năng và chương trình quản lý để làm cho công cuộc quản lý server của bạn dễ hơn."
   },
   "FOOTER": {
     "HELPFUL_LINKS": "Các đường dẫn hữu ích",
