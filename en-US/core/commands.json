@@ -52,13 +52,9 @@
   "COMMAND_SELECTED": "You have successfully selected the command.",
   "COMMAND_DESCRIPTIONS": {
     "ADMINISTRATION": {
-      "CLEAR": "Purge a number of messages on the current channel or the channel you specify",
-      "COOLDOWN": "Manage the cooldown of the current channel or the channel you specify",
+      "CHANNEL": "Manage a channel",
       "NICKNAME": "Manage the nickname of a user",
-      "NSFW": "Switches NSFW mode on current channel or specified channel",
-      "PIN": "Pin a message on the current channel",
-      "ROLE": "Manage the roles of a user",
-      "UNPIN": "Unpin a message on the current channel"
+      "ROLE": "Manage the roles of a user"
     },
     "ANIMALS": {
       "BIRDS": "Send a image of birds to the channel",

@@ -1,3 +1,0 @@
-{
-  "COMPLETED": "You have pinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
-}
