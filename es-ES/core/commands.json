@@ -52,13 +52,9 @@
   "COMMAND_SELECTED": "Has seleccionado correctamente el comando.",
   "COMMAND_DESCRIPTIONS": {
     "ADMINISTRATION": {
-      "CLEAR": "Purgar un número de mensajes en el canal actual o en el canal que especifiques",
-      "COOLDOWN": "Administra el tiempo de espera del canal actual o el canal que especifiques",
+      "CHANNEL": "Manage a channel",
       "NICKNAME": "Administra el apodo de un usuario",
-      "NSFW": "Cambia el modo NSFW en el canal actual o en el canal especificado",
-      "PIN": "Fija un mensaje en el canal actual",
-      "ROLE": "Administrar los roles de un usuario",
-      "UNPIN": "Desfija un mensaje en el canal actual"
+      "ROLE": "Administrar los roles de un usuario"
     },
     "ANIMALS": {
       "BIRDS": "Envía una imagen de pájaros al canal",
@@ -176,7 +172,7 @@
     "MODERATION": {
       "BAN": "Prohíbe permanente a un usuario del servidor",
       "CASE": "Administra un caso de sanción",
-      "HISTORY": "Obtén el historial de sanciones de un usuario",
+      "HISTORY": "Show a user's sanction history",
       "KICK": "Expulsa a un usuario del servidor",
       "MUTE": "Silencia permanentemente a un usuario del servidor",
       "SOFTBAN": "Prohíbe suavemente a un usuario del servidor",
