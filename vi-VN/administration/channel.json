@@ -1,19 +1,19 @@
 {
   "COOLDOWN": {
-    "COMPLETED": "You have set **{{time}}** as the cooldown time on the **[#{{channel.name}}]({{url}})** channel."
+    "COMPLETED": "Bạn đã chỉnh thời gian cooldown là **{{time}}** cho kênh **[#{{channel.name}}]({{url}})**."
   },
   "MESSAGES": {
     "PIN": {
-      "COMPLETED": "You have pinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
+      "COMPLETED": "Bạn đã ghim tin nhắn **[{{message.id}}]({{message.url}})** ở kênh **[#{{channel.name}}]({{url}})**."
     },
     "PURGE": {
-      "COMPLETED": "You have purged **{{messages}}** messages from the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+      "COMPLETED": "Bạn đã xoá **{{messages}}** tin nhắn từ kênh **[#{{channel.name}}]({{url}})** ({{channel.id}})."
     },
     "UNPIN": {
-      "COMPLETED": "You have unpinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
+      "COMPLETED": "Bạn đã bỏ ghim tin nhắn **[{{message.id}}]({{message.url}})** ở kênh **[#{{channel.name}}]({{url}})**."
     }
   },
   "NSFW": {
-    "COMPLETED": "You have {{action}} NSFW mode on the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+    "COMPLETED": "Bạn đã {{action}} chế độ NSFW ở kênh **[#{{channel.name}}]({{url}})** ({{channel.id}})."
   }
 }
