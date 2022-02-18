@@ -52,7 +52,7 @@
   "COMMAND_SELECTED": "Has seleccionado correctamente el comando.",
   "COMMAND_DESCRIPTIONS": {
     "ADMINISTRATION": {
-      "CHANNEL": "Manage a channel",
+      "CHANNEL": "Gestiona un canal",
       "NICKNAME": "Administra el apodo de un usuario",
       "ROLE": "Administrar los roles de un usuario"
     },
@@ -172,7 +172,7 @@
     "MODERATION": {
       "BAN": "Prohíbe permanente a un usuario del servidor",
       "CASE": "Administra un caso de sanción",
-      "HISTORY": "Show a user's sanction history",
+      "HISTORY": "Muestra el historial de sanciones de un usuario",
       "KICK": "Expulsa a un usuario del servidor",
       "MUTE": "Silencia permanentemente a un usuario del servidor",
       "SOFTBAN": "Prohíbe suavemente a un usuario del servidor",
