@@ -1,0 +1,19 @@
+{
+  "COOLDOWN": {
+    "COMPLETED": "Bạn đã chỉnh thời gian cooldown là **{{time}}** cho kênh **[#{{channel.name}}]({{url}})**."
+  },
+  "MESSAGES": {
+    "PIN": {
+      "COMPLETED": "Bạn đã ghim tin nhắn **[{{message.id}}]({{message.url}})** ở kênh **[#{{channel.name}}]({{url}})**."
+    },
+    "PURGE": {
+      "COMPLETED": "Bạn đã xoá **{{messages}}** tin nhắn từ kênh **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+    },
+    "UNPIN": {
+      "COMPLETED": "Bạn đã bỏ ghim tin nhắn **[{{message.id}}]({{message.url}})** ở kênh **[#{{channel.name}}]({{url}})**."
+    }
+  },
+  "NSFW": {
+    "COMPLETED": "Bạn đã {{action}} chế độ NSFW ở kênh **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+  }
+}

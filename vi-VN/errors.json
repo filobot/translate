@@ -2,7 +2,6 @@
   "SOMETHING_WENT_WRONG": "Đã có lỗi khi thực hiện hành động này",
   "GENERIC_ERROR": "Hãy **[Liên hệ]({{url}})** với chúng tôi về những cách xử lý cho những gì vừa xảy ra.",
   "GUILD_REQUIRED": "Hành động này yêu cầu Filo phải được thêm vào server.",
-  "ERROR_ID": "ID lỗi: {{error_id}}",
   "MAINTENANCE_ENABLED": "Hệ thống này hiện tại đang được bảo trì.",
   "INTERACTION_FAILED": "Tương tác này chưa được trả lời sau một thời gian.",
   "INTERACTION_CANCELLED": "Tương tác này đã bị huỷ.",

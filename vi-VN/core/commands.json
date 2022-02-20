@@ -52,13 +52,9 @@
   "COMMAND_SELECTED": "Bạn đã chọn lệnh thành công.",
   "COMMAND_DESCRIPTIONS": {
     "ADMINISTRATION": {
-      "CLEAR": "Xóa số tin nhắn ở trong kênh hiện tại hoặc kênh bạn đã nêu",
-      "COOLDOWN": "Điều chỉnh thời gian hồi của kênh hiện tại hoặc kênh bạn đã nêu",
+      "CHANNEL": "Quản lý một kênh",
       "NICKNAME": "Thay đổi biệt danh của người dùng",
-      "NSFW": "Chuyển đổi chế đọ NSFW ở kênh hiện tại hoặc kênh bạn đã nêu",
-      "PIN": "Ghim một tin nhắn ở kênh hiện tại",
-      "ROLE": "Điều chỉnh roles của người dùng",
-      "UNPIN": "Bỏ ghim một tin nhắn ở kênh hiện tại"
+      "ROLE": "Điều chỉnh roles của người dùng"
     },
     "ANIMALS": {
       "BIRDS": "Gửi một hình ảnh của một con chim vào kênh hiện tại",
@@ -176,7 +172,7 @@
     "MODERATION": {
       "BAN": "Ban một người dùng vĩnh viễn",
       "CASE": "Quản lý một hình phạt",
-      "HISTORY": "Xem lịch sử hình phạt của một người dùng",
+      "HISTORY": "Xem lịch sử hình phạt của người dùng",
       "KICK": "Đá một người dùng ra khỏi server",
       "MUTE": "Mute một người dùng vĩnh viễn",
       "SOFTBAN": "Ban nhẹ tay một người",

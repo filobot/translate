@@ -52,13 +52,9 @@
   "COMMAND_SELECTED": "Has seleccionado correctamente el comando.",
   "COMMAND_DESCRIPTIONS": {
     "ADMINISTRATION": {
-      "CLEAR": "Purgar un número de mensajes en el canal actual o en el canal que especifiques",
-      "COOLDOWN": "Administra el tiempo de espera del canal actual o el canal que especifiques",
+      "CHANNEL": "Gestiona un canal",
       "NICKNAME": "Administra el apodo de un usuario",
-      "NSFW": "Cambia el modo NSFW en el canal actual o en el canal especificado",
-      "PIN": "Fija un mensaje en el canal actual",
-      "ROLE": "Administrar los roles de un usuario",
-      "UNPIN": "Desfija un mensaje en el canal actual"
+      "ROLE": "Administrar los roles de un usuario"
     },
     "ANIMALS": {
       "BIRDS": "Envía una imagen de pájaros al canal",
@@ -112,7 +108,7 @@
       "WIKI": "Obtén el enlace de la Wiki de Filo"
     },
     "ECONOMY": {
-      "CREDITS": "Get your current credits or a user's credits",
+      "CREDITS": "Obtén tus créditos actuales o los créditos de un usuario",
       "DAILY": "Reclama tus créditos diarios o regálalos a un usuario",
       "PAY": "Paga una cantidad de créditos a otro usuario"
     },
@@ -176,7 +172,7 @@
     "MODERATION": {
       "BAN": "Prohíbe permanente a un usuario del servidor",
       "CASE": "Administra un caso de sanción",
-      "HISTORY": "Obtén el historial de sanciones de un usuario",
+      "HISTORY": "Muestra el historial de sanciones de un usuario",
       "KICK": "Expulsa a un usuario del servidor",
       "MUTE": "Silencia permanentemente a un usuario del servidor",
       "SOFTBAN": "Prohíbe suavemente a un usuario del servidor",
@@ -241,7 +237,7 @@
       "WELCOMES": "Módulo de bienvenida que te permite enviar un mensaje a nuevos miembros y asignarles un rol"
     },
     "SOCIAL": {
-      "PROFILE": "Get your profile or a user's profile"
+      "PROFILE": "Obtén tu perfil o el perfil de un usuario"
     },
     "UTILITIES": {
       "BINARY": "Codifica el binario o decodifica el código binario",
