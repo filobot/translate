@@ -1,0 +1,12 @@
+{
+  "SERVER": {
+    "SERVER_OFFLINE": "Server bạn đã nêu hiện tại đang không hoạt động.",
+    "IP_ADDRESS": "Địa chỉ IP",
+    "PORT": "Cổng",
+    "PLAYERS": "Số người chơi",
+    "VERSION": "Phiên bản"
+  },
+  "UUID": {
+    "WATCHING_PLAYER_UUID": "Mã uuid của người chơi **{{player}}** là **{{uuid}}**."
+  }
+}
