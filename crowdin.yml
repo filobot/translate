@@ -19,8 +19,6 @@ files:
     translation: /%locale%/games/%original_file_name%
   - source: /en-US/interaction/*.json
     translation: /%locale%/interaction/%original_file_name%
-  - source: /en-US/minecraft/*.json
-    translation: /%locale%/minecraft/%original_file_name%
   - source: /en-US/miscellaneous/*.json
     translation: /%locale%/miscellaneous/%original_file_name%
   - source: /en-US/moderation/*.json

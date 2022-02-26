@@ -148,21 +148,12 @@
       "SLAP": "Slap interaction",
       "TICKLE": "Tickle interaction"
     },
-    "MINECRAFT": {
-      "BODY": "Send a render of the specified player's body",
-      "BUST": "Send a render of the specified player's bust",
-      "FACE": "Send a render of the specified player's face",
-      "FRONT": "Send a render of the specified player's front or front body",
-      "HEAD": "Send a render of the specified player's head",
-      "SERVER": "Get the status of a Minecraft server",
-      "SKIN": "Send a render of the specified player's skin",
-      "UUID": "Get the UUID of a minecraft player"
-    },
     "MISCELLANEOUS": {
       "ASCII": "Convert your text to ASCII text",
-      "AVATAR": "Get your avatar or that of a user",
+      "AVATAR": "Show your avatar or that of a user",
       "FORTNITE-STORE": "Get a random item from the Fortnite store",
       "LYRICS": "Get the lyrics of a song",
+      "MINECRAFT": "Minecraft utility commands",
       "POLL": "Create a poll on the current channel",
       "RANDOM-COLOR": "Get the basic information of a random color",
       "RANDOM-NUMBER": "Get a random number",
