@@ -1,6 +1,6 @@
 {
   "ERROR_DESCRIPTIONS": {
-    "200": "OK",
+    "200": "确定",
     "400": "Bad Request",
     "401": "Unauthorized",
     "402": "Payment Required",
