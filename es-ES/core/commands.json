@@ -11,7 +11,6 @@
     "GAME_STATISTICS": "Estadísticas en Juegos",
     "INTERACTION": "Interacción",
     "GAMES": "Juegos",
-    "MINECRAFT": "Minecraft",
     "MISCELLANEOUS": "Misceláneos",
     "MODERATION": "Moderación",
     "NSFW": "NSFW",
@@ -148,21 +147,12 @@
       "SLAP": "Interacción de tortazo",
       "TICKLE": "Interacción de cosquillas"
     },
-    "MINECRAFT": {
-      "BODY": "Envía una render del cuerpo del jugador especificado",
-      "BUST": "Envía una render del busto del jugador especificado",
-      "FACE": "Envía una render de la cabeza del jugador especificado",
-      "FRONT": "Envía una render del cuerpo frontal o frente del jugador especificado",
-      "HEAD": "Envía una render de la cara del jugador especificado",
-      "SERVER": "Obtén el estado de un servidor de Minecraft",
-      "SKIN": "Envía una render de la skin del jugador especificado",
-      "UUID": "Obtén el UUID de un jugador de Minecraft"
-    },
     "MISCELLANEOUS": {
       "ASCII": "Convierta su texto a texto ASCII",
-      "AVATAR": "Obtén tu avatar o el de un usuario",
+      "AVATAR": "Muestra tu avatar o el de un usuario",
       "FORTNITE-STORE": "Obtén un artículo aleatorio de la tienda Fortnite",
       "LYRICS": "Obtén la letra de una canción",
+      "MINECRAFT": "Comandos de utilidad de Minecraft",
       "POLL": "Crea una encuesta en el canal actual",
       "RANDOM-COLOR": "Obtén la información básica de un color aleatorio",
       "RANDOM-NUMBER": "Obtén un número aleatorio",

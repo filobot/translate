@@ -11,7 +11,6 @@
     "GAME_STATISTICS": "Số liệu thống kê trò chơi",
     "INTERACTION": "Tương tác",
     "GAMES": "Trò chơi",
-    "MINECRAFT": "Minecraft",
     "MISCELLANEOUS": "Những thứ khác",
     "MODERATION": "Điều hành",
     "NSFW": "NSFW",
@@ -148,21 +147,12 @@
       "SLAP": "Biểu cảm tát",
       "TICKLE": "Biểu cảm thọc lét"
     },
-    "MINECRAFT": {
-      "BODY": "Gửi một hình ảnh của body của một người chơi trong Minecraft",
-      "BUST": "Gửi một hình ảnh của bust của một người chơi Minecraft",
-      "FACE": "Gửi một hình ảnh của mặt của một người chơi Minecraft",
-      "FRONT": "Gửi một hình ảnh phần trước của một người chơi trong Minecraft",
-      "HEAD": "Gửi một hình ảnh đầu của một người chơi Minecraft",
-      "SERVER": "Xem thông tin của một server Minecraft",
-      "SKIN": "Gửi một hình ảnh skin của một người chơi Minecraft",
-      "UUID": "Xem UUID của một người chơi Minecraft"
-    },
     "MISCELLANEOUS": {
       "ASCII": "Hoán đổi chữ của bạn thành chữ ASCII",
-      "AVATAR": "Xem avatar của bạn hoặc của một người dùng khác",
+      "AVATAR": "Show your avatar or that of a user",
       "FORTNITE-STORE": "Lấy một món đồ bất kì từ cửa hàng của Fortnite",
       "LYRICS": "Xem lời của một bài hát",
+      "MINECRAFT": "Minecraft utility commands",
       "POLL": "Tạo một cuộc thăm dò ý kiến ở kênh hiện tại",
       "RANDOM-COLOR": "Xem thông tin cơ bản của một màu bất kì",
       "RANDOM-NUMBER": "Lấy một số bất kì",
