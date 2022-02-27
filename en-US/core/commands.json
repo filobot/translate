@@ -10,7 +10,6 @@
     "ECONOMY": "Economy",
     "GAME_STATISTICS": "Game Statistics",
     "GAMES": "Games",
-    "MINECRAFT": "Minecraft",
     "MISCELLANEOUS": "Miscellaneous",
     "MODERATION": "Moderation",
     "NSFW": "NSFW",
@@ -120,6 +119,23 @@
       "COINFLIP": "Classic coin flip game",
       "SLOT": "Classic slot machine game"
     },
+    "INTERACTION": {
+      "BAKA": "Baka interaction",
+      "BITE": "Bite interaction",
+      "COOKIE": "Cookie interaction",
+      "CUDDLE": "Cuddle interaction",
+      "FEED": "Feed interaction",
+      "HUG": "Hug interaction",
+      "KICK": "Kick interaction",
+      "KISS": "Kiss interaction",
+      "LAUGH": "Laugh interaction",
+      "PAT": "Pat interaction",
+      "POKE": "Poke interaction",
+      "PUNCH": "Punch interaction",
+      "REVERSECARD": "Reversecard interaction",
+      "SLAP": "Slap interaction",
+      "TICKLE": "Tickle interaction"
+    },
     "MINECRAFT": {
       "BODY": "Send a render of the specified player's body",
       "BUST": "Send a render of the specified player's bust",
@@ -132,9 +148,10 @@
     },
     "MISCELLANEOUS": {
       "ASCII": "Convert your text to ASCII text",
-      "AVATAR": "Get your avatar or that of a user",
+      "AVATAR": "Show your avatar or that of a user",
       "FORTNITE-STORE": "Get a random item from the Fortnite store",
       "LYRICS": "Get the lyrics of a song",
+      "MINECRAFT": "Minecraft utility commands",
       "POLL": "Create a poll on the current channel",
       "RANDOM-COLOR": "Get the basic information of a random color",
       "RANDOM-NUMBER": "Get a random number",
