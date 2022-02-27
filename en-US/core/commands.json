@@ -119,23 +119,6 @@
       "COINFLIP": "Classic coin flip game",
       "SLOT": "Classic slot machine game"
     },
-    "INTERACTION": {
-      "BAKA": "Baka interaction",
-      "BITE": "Bite interaction",
-      "COOKIE": "Cookie interaction",
-      "CUDDLE": "Cuddle interaction",
-      "FEED": "Feed interaction",
-      "HUG": "Hug interaction",
-      "KICK": "Kick interaction",
-      "KISS": "Kiss interaction",
-      "LAUGH": "Laugh interaction",
-      "PAT": "Pat interaction",
-      "POKE": "Poke interaction",
-      "PUNCH": "Punch interaction",
-      "REVERSECARD": "Reversecard interaction",
-      "SLAP": "Slap interaction",
-      "TICKLE": "Tickle interaction"
-    },
     "MINECRAFT": {
       "BODY": "Send a render of the specified player's body",
       "BUST": "Send a render of the specified player's bust",
