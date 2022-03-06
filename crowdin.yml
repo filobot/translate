@@ -17,16 +17,12 @@ files:
   #  translation: /%locale%/game-statistics/%original_file_name%
   - source: /en-US/games/*.json
     translation: /%locale%/games/%original_file_name%
-  - source: /en-US/interaction/*.json
-    translation: /%locale%/interaction/%original_file_name%
   - source: /en-US/miscellaneous/*.json
     translation: /%locale%/miscellaneous/%original_file_name%
   - source: /en-US/moderation/*.json
     translation: /%locale%/moderation/%original_file_name%
   - source: /en-US/nsfw/*.json
     translation: /%locale%/nsfw/%original_file_name%
-  - source: /en-US/reaction/*.json
-    translation: /%locale%/reaction/%original_file_name%
   - source: /en-US/server/*.json
     translation: /%locale%/server/%original_file_name%
   - source: /en-US/social/*.json
