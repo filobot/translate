@@ -1,48 +1,48 @@
 {
   "HOME": {
-    "PRE_START": "Before continuing you must click on the **{{button}}** button.",
-    "DESCRIPTION": "Start configuring Filo by selecting the category of modules you want to configure and then select the module you want to operate with.\n\n**Do you need a reference guide? Don't worry!**\nBy **[clicking here]({{url}})**, you'll redirect to the Filo's Wiki, which contains information on how to configure anything.\n\n**Too complicated?**\n**[Contact us]({{url2}})** if you have any questions or require any additional clarification.",
+    "PRE_START": "Antes de continuar, debes hacer clic en el botón **{{button}}**.",
+    "DESCRIPTION": "Empieza a configurar Filo seleccionando la categoría de módulos que quieres configurar y luego selecciona el módulo con el que desea operar.\n\n**¿Necesitas una guía de referencia? ¡No te preocupes! *\nHaciendo **[clic aquí]({{url}})**, te redirigiremos a la Wiki de Filo, la cual contiene información sobre cómo configurar cualquier cosa.\n\n**¿Demasiado complicado?**\n**[Contáctanos]({{url2}})** si tienes alguna pregunta o necesitas alguna aclaración adicional.",
     "SELECT_A_MODULE_CATEGORY": {
-      "PLACEHOLDER": "Select a module category",
+      "PLACEHOLDER": "Selecciona una categoría de módulos",
       "ADMINISTRATION": {
-        "LABEL": "Administration",
-        "DESCRIPTION": "Modules to help you in the administration of your server."
+        "LABEL": "Módulos de administración",
+        "DESCRIPTION": "Módulos para ayudarte en la administración de tu servidor."
       },
       "COMMUNITY": {
-        "LABEL": "Community Modules",
-        "DESCRIPTION": "Modules to help you improve the experience in your community."
+        "LABEL": "Módulos de comunidad",
+        "DESCRIPTION": "Módulos para ayudarte a mejorar la experiencia de tu comunidad."
       },
       "MODERATION": {
-        "LABEL": "Moderation Modules",
-        "DESCRIPTION": "Modules to help you moderate your server."
+        "LABEL": "Módulos de moderación",
+        "DESCRIPTION": "Módulos para ayudarte a moderar tu servidor."
       }
     },
-    "TITLE": "Filo Setup Menu"
+    "TITLE": "Menú de Configuración de Filo"
   },
-  "LOADING_DATA": "Please wait while the necessary data is loaded.",
+  "LOADING_DATA": "Por favor espera mientras se cargan los datos necesarios.",
   "MODULES": {
-    "SELECT_A_MODULE": "You must select the module from the **{{module}}** category that you want to configure.",
-    "PLACEHOLDER": "Select a module",
-    "SELECT_THE_ACTION": "You must select the action you want to perform on the module.",
-    "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
-    "RESET_REQUEST_WARNING": "Are you sure you want to reset the **{{module}}** module? This action can't be undone!",
-    "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
+    "SELECT_A_MODULE": "Debes seleccionar el módulo de la categoría **{{module}}** que quieres configurar.",
+    "PLACEHOLDER": "Selecciona un módulo",
+    "SELECT_THE_ACTION": "Debes seleccionar la acción que quieres llevar a cabo en el módulo.",
+    "MODULE_ENABLED_OR_DISABLED": "El módulo **{{module}}** se ha {{action}} correctamente.",
+    "RESET_REQUEST_WARNING": "¿Estás seguro de que quieres el módulo **{{module}}**? ¡Esta acción no se puede deshacer!",
+    "MODULE_RESET": "El módulo **{{module}}** se ha restablecido correctamente.",
     "COMMUNITY": {
-      "NAME": "Community",
+      "NAME": "Comunidad",
       "LANGUAGE": {
-        "LABEL": "Language",
-        "DESCRIPTION": "Change the language of Filo on this server.",
-        "SELECT_A_LANGUAGE": "You must select the language you want to set.",
-        "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
-        "LANGUAGE_SET": "The language has been set to **{{language}}**."
+        "LABEL": "Idioma",
+        "DESCRIPTION": "Cambia el idioma de Filo en este servidor.",
+        "SELECT_A_LANGUAGE": "Debes seleccionar el idioma que quieres establecer.",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Selecciona un idioma",
+        "LANGUAGE_SET": "Has establecido el idioma **{{language}}** correctamente."
       }
     },
     "VIEW": {
-      "TITLE": "Viewing the settings of the **{{module}}** module",
+      "TITLE": "Viendo las configuraciones del módulo **{{module}}**",
       "MODULES": {
         "LANGUAGE": {
-          "NATIVE_NAME": "Native name",
-          "LANGUAGE_CODE": "Language code"
+          "NATIVE_NAME": "Nombre nativo",
+          "LANGUAGE_CODE": "Código del idioma"
         }
       }
     }
