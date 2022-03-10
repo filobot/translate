@@ -5,15 +5,15 @@
     "SELECT_A_MODULE_CATEGORY": {
       "PLACEHOLDER": "Select a module category",
       "ADMINISTRATION": {
-        "LABEL": "Administration",
+        "LABEL": "Administration modules",
         "DESCRIPTION": "Modules to help you in the administration of your server."
       },
       "COMMUNITY": {
-        "LABEL": "Community Modules",
+        "LABEL": "Community modules",
         "DESCRIPTION": "Modules to help you improve the experience in your community."
       },
       "MODERATION": {
-        "LABEL": "Moderation Modules",
+        "LABEL": "Moderation modules",
         "DESCRIPTION": "Modules to help you moderate your server."
       }
     },
