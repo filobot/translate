@@ -1,7 +1,7 @@
 {
   "HOME": {
     "PRE_START": "Antes de continuar, debes hacer clic en el botón **{{button}}**.",
-    "DESCRIPTION": "Empieza a configurar Filo seleccionando la categoría de módulos que quieres configurar y luego selecciona el módulo con el que desea operar.\n\n**¿Necesitas una guía de referencia? ¡No te preocupes! *\nHaciendo **[clic aquí]({{url}})**, te redirigiremos a la Wiki de Filo, la cual contiene información sobre cómo configurar cualquier cosa.\n\n**¿Demasiado complicado?**\n**[Contáctanos]({{url2}})** si tienes alguna pregunta o necesitas alguna aclaración adicional.",
+    "DESCRIPTION": "Empieza a configurar Filo seleccionando la categoría de módulos que quieres configurar y luego selecciona el módulo con el que desea operar.\n\n**¿Necesitas una guía de referencia? ¡No te preocupes! **\nHaciendo **[clic aquí]({{url}})**, te redirigiremos a la Wiki de Filo, la cual contiene información sobre cómo configurar cualquier cosa.\n\n**¿Demasiado complicado?**\n**[Contáctanos]({{url2}})** si tienes alguna pregunta o necesitas alguna aclaración adicional.",
     "SELECT_A_MODULE_CATEGORY": {
       "PLACEHOLDER": "Selecciona una categoría de módulos",
       "ADMINISTRATION": {
