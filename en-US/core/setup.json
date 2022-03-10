@@ -1,0 +1,50 @@
+{
+  "HOME": {
+    "PRE_START": "Before continuing you must click on the **{{button}}** button.",
+    "DESCRIPTION": "Start configuring Filo by selecting the category of modules you want to configure and then select the module you want to operate with.\n\n**Do you need a reference guide? Don't worry!**\nBy **[clicking here]({{url}})**, you'll redirect to the Filo's Wiki, which contains information on how to configure anything.\n\n**Too complicated?**\n**[Contact us]({{url2}})** if you have any questions or require any additional clarification.",
+    "SELECT_A_MODULE_CATEGORY": {
+      "PLACEHOLDER": "Select a module category",
+      "ADMINISTRATION": {
+        "LABEL": "Administration",
+        "DESCRIPTION": "Modules to help you in the administration of your server."
+      },
+      "COMMUNITY": {
+        "LABEL": "Community Modules",
+        "DESCRIPTION": "Modules to help you improve the experience in your community."
+      },
+      "MODERATION": {
+        "LABEL": "Moderation Modules",
+        "DESCRIPTION": "Modules to help you moderate your server."
+      }
+    },
+    "TITLE": "Filo Setup Menu"
+  },
+  "LOADING_DATA": "Please wait while the necessary data is loaded.",
+  "MODULES": {
+    "SELECT_A_MODULE": "You must select the module from the **{{module}}** category that you want to configure.",
+    "PLACEHOLDER": "Select a module",
+    "SELECT_THE_ACTION": "You must select the action you want to perform on the module.",
+    "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
+    "RESET_REQUEST_WARNING": "Are you sure you want to reset the **{{module}}** module? This action can't be undone!",
+    "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
+    "COMMUNITY": {
+      "NAME": "Community",
+      "LANGUAGE": {
+        "LABEL": "Language",
+        "DESCRIPTION": "Change the language of Filo on this server.",
+        "SELECT_A_LANGUAGE": "You must select the language you want to set.",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
+        "LANGUAGE_SET": "The language has been set to **{{language}}**."
+      }
+    },
+    "VIEW": {
+      "TITLE": "Viewing the settings of the **{{module}}** module",
+      "MODULES": {
+        "LANGUAGE": {
+          "NATIVE_NAME": "Native name",
+          "LANGUAGE_CODE": "Language code"
+        }
+      }
+    }
+  }
+}
