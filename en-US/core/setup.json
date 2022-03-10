@@ -34,7 +34,7 @@
         "DESCRIPTION": "Change the language of Filo on this server.",
         "SELECT_A_LANGUAGE": "You must select the language you want to set.",
         "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
-        "LANGUAGE_SET": "The language has been set to **{{language}}**."
+        "LANGUAGE_SET": "You have set the **{{language}}** language correctly."
       }
     },
     "VIEW": {
