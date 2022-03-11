@@ -25,7 +25,7 @@
     "PLACEHOLDER": "Selecciona un módulo",
     "SELECT_THE_ACTION": "Debes seleccionar la acción que quieres llevar a cabo en el módulo.",
     "MODULE_ENABLED_OR_DISABLED": "El módulo **{{module}}** se ha {{action}} correctamente.",
-    "RESET_REQUEST_WARNING": "¿Estás seguro de que quieres el módulo **{{module}}**? ¡Esta acción no se puede deshacer!",
+    "RESET_REQUEST_WARNING": "¿Estás seguro de que quieres restablecer el módulo **{{module}}**? ¡Esta acción no se puede deshacer!",
     "MODULE_RESET": "El módulo **{{module}}** se ha restablecido correctamente.",
     "COMMUNITY": {
       "NAME": "Comunidad",
