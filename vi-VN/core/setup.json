@@ -1,48 +1,48 @@
 {
   "HOME": {
-    "PRE_START": "Before continuing you must click on the **{{button}}** button.",
-    "DESCRIPTION": "Start configuring Filo by selecting the category of modules you want to configure and then select the module you want to operate with.\n\n**Do you need a reference guide? Don't worry!**\nBy **[clicking here]({{url}})**, you'll redirect to the Filo's Wiki, which contains information on how to configure anything.\n\n**Too complicated?**\n**[Contact us]({{url2}})** if you have any questions or require any additional clarification.",
+    "PRE_START": "Trước khi tiếp tục bạn phải nhấn nút **{{button}}**.",
+    "DESCRIPTION": "Bắt đầu thiết lập Filo bằng cách chọn những module bạn muốn thiết lập và sau đó chọn module bạn muốn hoạt động.\n\n**Bạn cần hướng dẫn? Đừng lo!**\nBằng cách nhấn vào **[đây]({{url}})**, bạn sẽ được chuyển hướng tới Wiki của Filo, nơi chứa thông tin về cách thiết lập mọi thứ của Filo.\n\n**Quá khó đối với bạn?**\nHãy **[liên lạc với chúng tôi]({{url2}})** nếu bạn có câu hỏi hoặc cần giải thích thêm.",
     "SELECT_A_MODULE_CATEGORY": {
-      "PLACEHOLDER": "Select a module category",
+      "PLACEHOLDER": "Chọn một thể loại module",
       "ADMINISTRATION": {
-        "LABEL": "Administration modules",
-        "DESCRIPTION": "Modules to help you in the administration of your server."
+        "LABEL": "Các module quản lý",
+        "DESCRIPTION": "Các module để giúp bạn quản lý server."
       },
       "COMMUNITY": {
-        "LABEL": "Community modules",
-        "DESCRIPTION": "Modules to help you improve the experience in your community."
+        "LABEL": "Các module cộng đồng",
+        "DESCRIPTION": "Các module để giúp bạn cải thiện trải nghiệm của người dùng ở trong cộng đồng của bạn."
       },
       "MODERATION": {
-        "LABEL": "Moderation modules",
-        "DESCRIPTION": "Modules to help you moderate your server."
+        "LABEL": "Các module kiểm duyệt",
+        "DESCRIPTION": "Các module để giúp bạn kiểm duyệt server của bạn."
       }
     },
-    "TITLE": "Filo Setup Menu"
+    "TITLE": "Menu Setup của Filo"
   },
-  "LOADING_DATA": "Please wait while the necessary data is loaded.",
+  "LOADING_DATA": "Vui lòng chờ trong lúc dữ liệu được xử lý.",
   "MODULES": {
-    "SELECT_A_MODULE": "You must select the module from the **{{module}}** category that you want to configure.",
-    "PLACEHOLDER": "Select a module",
-    "SELECT_THE_ACTION": "You must select the action you want to perform on the module.",
-    "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
-    "RESET_REQUEST_WARNING": "Are you sure you want to reset the **{{module}}** module? This action can't be undone!",
-    "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
+    "SELECT_A_MODULE": "Bạn phải chọn module từ danh sách **{{module}}** mà bạn muốn thiết lập.",
+    "PLACEHOLDER": "Chọn một module",
+    "SELECT_THE_ACTION": "Bạn phải chọn hành động bạn muốn thực hiện lên module.",
+    "MODULE_ENABLED_OR_DISABLED": "Module **{{module}}** đã được {{action}} thành công.",
+    "RESET_REQUEST_WARNING": "Bạn có chắc chắn muốn đặt lại module **{{module}}**? Hành động này sẽ không thể hoàn tác!",
+    "MODULE_RESET": "Module **{{module}}** đã được đặt lại thành công.",
     "COMMUNITY": {
-      "NAME": "Community",
+      "NAME": "Cộng đồng",
       "LANGUAGE": {
-        "LABEL": "Language",
-        "DESCRIPTION": "Change the language of Filo on this server.",
-        "SELECT_A_LANGUAGE": "You must select the language you want to set.",
-        "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
-        "LANGUAGE_SET": "You have set the **{{language}}** language correctly."
+        "LABEL": "Ngôn ngữ",
+        "DESCRIPTION": "Đổi ngôn ngữ của Filo ở trong server này.",
+        "SELECT_A_LANGUAGE": "Bạn phải chọn ngôn ngữ bạn muốn đặt.",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Chọn một ngôn ngữ",
+        "LANGUAGE_SET": "Bạn đã chọn ngôn ngữ **{{language}}** thành công."
       }
     },
     "VIEW": {
-      "TITLE": "Viewing the settings of the **{{module}}** module",
+      "TITLE": "Đang xem cài đặt của module **{{module}}**",
       "MODULES": {
         "LANGUAGE": {
-          "NATIVE_NAME": "Native name",
-          "LANGUAGE_CODE": "Language code"
+          "NATIVE_NAME": "Tên địa phương",
+          "LANGUAGE_CODE": "Mã ngôn ngữ"
         }
       }
     }
