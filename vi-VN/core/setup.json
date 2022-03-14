@@ -41,7 +41,7 @@
       "TITLE": "Đang xem cài đặt của module **{{module}}**",
       "COMMUNITY": {
         "LANGUAGE": {
-          "LANGUAGE_CODE": "Language code"
+          "LANGUAGE_CODE": "Mã ngôn ngữ"
         }
       }
     }
