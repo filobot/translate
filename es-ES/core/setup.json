@@ -41,7 +41,7 @@
       "TITLE": "Viendo las configuraciones del módulo **{{module}}**",
       "COMMUNITY": {
         "LANGUAGE": {
-          "LANGUAGE_CODE": "Language code"
+          "LANGUAGE_CODE": "Código del idioma"
         }
       }
     }
