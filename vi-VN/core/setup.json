@@ -39,10 +39,9 @@
     },
     "VIEW": {
       "TITLE": "Đang xem cài đặt của module **{{module}}**",
-      "MODULES": {
+      "COMMUNITY": {
         "LANGUAGE": {
-          "NATIVE_NAME": "Tên địa phương",
-          "LANGUAGE_CODE": "Mã ngôn ngữ"
+          "LANGUAGE_CODE": "Language code"
         }
       }
     }
