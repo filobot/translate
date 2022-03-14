@@ -70,5 +70,6 @@
   "UNKNOWN_SANCTION_REMOVE_TIP": "Fuerza la eliminación de esta sanción ejecutando este comando: **{{command}}**.",
   "MAX_NUMBER_OF_ROLES_REACHED": "Este servidor ha alcanzado el límite de **{{roles}}** roles.",
   "MODULE_DISABLED": "El módulo **[{{module}}]({{url}})** está desactivado y por lo tanto esta acción no se puede realizar.",
-  "INVALID_MORSE_CODE": "El código morse que has especificado no es válido."
+  "INVALID_MORSE_CODE": "El código morse que has especificado no es válido.",
+  "SETUP_MENU_EXPIRED": "El menú de configuración ha expirado, esto puede ser porque se ha abierto otro menú de configuración, en caso contrario **[contáctanos]({{url}})**."
 }
