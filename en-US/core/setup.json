@@ -39,9 +39,8 @@
     },
     "VIEW": {
       "TITLE": "Viewing the settings of the **{{module}}** module",
-      "MODULES": {
+      "COMMUNITY": {
         "LANGUAGE": {
-          "NATIVE_NAME": "Native name",
           "LANGUAGE_CODE": "Language code"
         }
       }
