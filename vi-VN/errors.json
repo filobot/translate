@@ -71,5 +71,5 @@
   "MAX_NUMBER_OF_ROLES_REACHED": "Server này đã đạt giới hạn số role là **{{roles}}**.",
   "MODULE_DISABLED": "Chương trình **[{{module}}]({{url}})** đã được vô hiệu hoá cho nên hành động này không thể thực hiện.",
   "INVALID_MORSE_CODE": "Mã morse bạn đã nêu không tồn tại.",
-  "SETUP_MENU_EXPIRED": "The setup menu has expired, this may be because another setup menu has been opened, otherwise **[contact us]({{url}})**."
+  "SETUP_MENU_EXPIRED": "Menu cài đặt đã hết hạn, điều này có thể là do đã có menu khác được mở, nếu không thì **[liên hệ với chúng tôi]({{url}})**."
 }
