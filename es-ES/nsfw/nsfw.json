@@ -23,5 +23,5 @@
   "SUCK": {
     "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** chupa la polla de **[{{user2.username}}]({{url2}})**"
   },
-  "TEMPORARY_WARNING": "Due to a Discord limitation, NSFW commands will be removed from Filo after March 31, 2022. More information: {{url}}"
+  "TEMPORARY_WARNING": "Debido a una limitación de Discord, los comandos NSFW se eliminarán de Filo después del 31 de Marzo de 2022. Más información: {{url}}"
 }
