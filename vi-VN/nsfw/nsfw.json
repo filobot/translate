@@ -23,5 +23,5 @@
   "SUCK": {
     "INTERACTION_RESPONSE": "**[{{user.username}}]({{url}})** đã bú dương vật của **[{{user2.username}}]({{url2}})**"
   },
-  "TEMPORARY_WARNING": "Due to a Discord limitation, NSFW commands will be removed from Filo after March 31, 2022. More information: {{url}}"
+  "TEMPORARY_WARNING": "Bởi vì giới hạn của Discord, các lệnh NSFW sẽ được loại bỏ khỏi Filo sau ngày 31 Tháng 3, 2022. Xem thêm: {{url}}"
 }
