@@ -29,6 +29,27 @@
     "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
     "COMMUNITY": {
       "NAME": "Community",
+      "COMMANDS": {
+        "LABEL": "Commands",
+        "DESCRIPTION": "Change the behavior of Filo's commands.",
+        "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+        "CONFIGURE": {
+          "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
+          "DISABLE_COMMANDS": {
+            "LABEL": "Disable commands",
+            "DESCRIPTION": "Disable Filo's commands.",
+            "NO_COMMANDS_TO_DISABLE": "There's no command to disable.",
+            "COMMANDS_DISABLED": "You have disabled **{{commands}}** commands successfully."
+          },
+          "ENABLE_COMMANDS": {
+            "LABEL": "Enable commands",
+            "DESCRIPTION": "Enable Filo's commands.",
+            "NO_COMMANDS_TO_ENABLE": "There's no command to enable.",
+            "COMMANDS_ENABLED": "You have enabled **{{commands}}** commands successfully."
+          }
+        }
+      },
       "LANGUAGE": {
         "LABEL": "Language",
         "DESCRIPTION": "Change the language of Filo on this server.",
