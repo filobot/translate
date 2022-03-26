@@ -44,9 +44,7 @@
           },
           "ENABLE_COMMANDS": {
             "LABEL": "Enable commands",
-            "DESCRIPTION": "Enable Filo's commands.",
-            "NO_COMMANDS_TO_ENABLE": "There's no command to enable.",
-            "COMMANDS_ENABLED": "You have enabled **{{commands}}** commands successfully."
+            "DESCRIPTION": "Enable Filo's commands."
           }
         }
       },
