@@ -35,7 +35,8 @@
         "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
         "CONFIGURE": {
           "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
-          "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
+          "SELECT_THE_CATEGORIES": "You must select the categories you want to {{action}}.",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Select the categories",
           "DISABLE_COMMANDS": {
             "LABEL": "Disable commands",
             "DESCRIPTION": "Disable Filo's commands.",
@@ -47,6 +48,18 @@
             "DESCRIPTION": "Enable Filo's commands.",
             "NO_COMMANDS_TO_ENABLE": "There's no command to enable.",
             "COMMANDS_ENABLED": "You have enabled **{{commands}}** commands successfully."
+          },
+          "DISABLE_CATEGORIES": {
+            "LABEL": "Disable categories",
+            "DESCRIPTION": "Disable Filo's categories.",
+            "NO_CATEGORIES_TO_DISABLE": "There's no command to disable.",
+            "CATEGORIES_DISABLED": "You have disabled **{{categories}}** categories successfully."
+          },
+          "ENABLE_CATEGORIES": {
+            "LABEL": "Enable categories",
+            "DESCRIPTION": "Enable Filo's categories.",
+            "NO_CATEGORIES_TO_ENABLE": "There's no command to enable.",
+            "CATEGORIES_ENABLED": "You have enabled **{{categories}}** categories successfully."
           }
         }
       },
