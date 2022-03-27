@@ -31,35 +31,35 @@
       "NAME": "Comunidad",
       "COMMANDS": {
         "LABEL": "Comandos",
-        "DESCRIPTION": "Change the behavior of Filo's commands.",
-        "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+        "DESCRIPTION": "Cambia el comportamiento de los comandos de Filo.",
+        "SELECT_THE_ACTION_PLACEHOLDER": "Selecciona una acción",
         "CONFIGURE": {
-          "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
-          "SELECT_THE_CATEGORIES": "You must select the categories you want to {{action}}.",
-          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Select the categories",
+          "SELECT_THE_COMMANDS": "Debes seleccionar los comandos que quieres {{action}}.",
+          "SELECT_THE_CATEGORIES": "Debes seleccionar las categorías que quieres {{action}}.",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Selecciona las categorías",
           "DISABLE_COMMANDS": {
-            "LABEL": "Disable commands",
-            "DESCRIPTION": "Disable Filo's commands.",
-            "NO_COMMANDS_TO_DISABLE": "All available commands have been disabled.",
-            "COMMANDS_DISABLED": "You have disabled **{{commands}}** commands successfully."
+            "LABEL": "Desactivar comandos",
+            "DESCRIPTION": "Desactiva los comandos de Filo.",
+            "NO_COMMANDS_TO_DISABLE": "Todos los comandos disponibles han sido desactivados.",
+            "COMMANDS_DISABLED": "Has desactivado **{{commands}}** comandos correctamente."
           },
           "ENABLE_COMMANDS": {
-            "LABEL": "Enable commands",
-            "DESCRIPTION": "Enable Filo's commands.",
-            "NO_COMMANDS_TO_ENABLE": "All available commands are currently enabled.",
-            "COMMANDS_ENABLED": "You have enabled **{{commands}}** commands successfully."
+            "LABEL": "Activar comandos",
+            "DESCRIPTION": "Activa los comandos de Filo.",
+            "NO_COMMANDS_TO_ENABLE": "Todos los comandos disponibles están activados actualmente.",
+            "COMMANDS_ENABLED": "Has activado **{{commands}}** comandos correctamente."
           },
           "DISABLE_CATEGORIES": {
-            "LABEL": "Disable categories",
-            "DESCRIPTION": "Disable Filo's categories.",
-            "NO_CATEGORIES_TO_DISABLE": "All available categories have been disabled.",
-            "CATEGORIES_DISABLED": "You have disabled **{{categories}}** categories successfully."
+            "LABEL": "Desactivar categorias",
+            "DESCRIPTION": "Desactiva las categorías de Filo.",
+            "NO_CATEGORIES_TO_DISABLE": "Todas las categorías disponibles han sido desactivadas.",
+            "CATEGORIES_DISABLED": "Has desactivado **{{categories}}** categorías correctamente."
           },
           "ENABLE_CATEGORIES": {
-            "LABEL": "Enable categories",
-            "DESCRIPTION": "Enable Filo's categories.",
-            "NO_CATEGORIES_TO_ENABLE": "All available categories are currently enabled.",
-            "CATEGORIES_ENABLED": "You have enabled **{{categories}}** categories successfully."
+            "LABEL": "Activar categorías",
+            "DESCRIPTION": "Activa las categorías de Filo.",
+            "NO_CATEGORIES_TO_ENABLE": "Todas las categorías disponibles están activadas actualmente.",
+            "CATEGORIES_ENABLED": "Has activado **{{categories}}** categorías correctamente."
           }
         }
       },
