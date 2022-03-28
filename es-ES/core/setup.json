@@ -74,9 +74,14 @@
     },
     "VIEW": {
       "TITLE": "Viendo las configuraciones del módulo **{{module}}**",
+      "NO_DATA": "No data",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "Código del idioma"
+        },
+        "COMMANDS": {
+          "DISABLED_COMMANDS": "Comandos deshabilitados",
+          "DISABLED_CATEGORIES": "Categorías deshabilitadas"
         }
       }
     }
