@@ -74,9 +74,14 @@
     },
     "VIEW": {
       "TITLE": "Đang xem cài đặt của module **{{module}}**",
+      "NO_DATA": "No data",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "Mã ngôn ngữ"
+        },
+        "COMMANDS": {
+          "DISABLED_COMMANDS": "Các lệnh bị vô hiệu hoá",
+          "DISABLED_CATEGORIES": "Các nhóm lệnh bị vô hiệu hoá"
         }
       }
     }
