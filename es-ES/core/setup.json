@@ -36,7 +36,7 @@
         "CONFIGURE": {
           "SELECT_THE_COMMANDS": "Debes seleccionar los comandos que quieres {{action}}.",
           "SELECT_THE_CATEGORIES": "Debes seleccionar las categorías que quieres {{action}}.",
-          "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Selecciona los comandos",
           "SELECT_THE_CATEGORIES_PLACEHOLDER": "Selecciona las categorías",
           "DISABLE_COMMANDS": {
             "LABEL": "Desactivar comandos",
@@ -74,9 +74,9 @@
     },
     "VIEW": {
       "TITLE": "Viendo las configuraciones del módulo **{{module}}**",
-      "NO_DATA": "No data",
-      "SELECT_THE_DATA": "Select the data to view",
-      "VIEW_ALL": "View all {{data}}.",
+      "NO_DATA": "Sin datos",
+      "SELECT_THE_DATA": "Selecciona los datos a ver",
+      "VIEW_ALL": "Ver todos los {{data}}.",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "Código del idioma"
