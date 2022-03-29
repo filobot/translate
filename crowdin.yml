@@ -23,8 +23,6 @@ files:
     translation: /%locale%/miscellaneous/%original_file_name%
   - source: /en-US/moderation/*.json
     translation: /%locale%/moderation/%original_file_name%
-  - source: /en-US/nsfw/*.json
-    translation: /%locale%/nsfw/%original_file_name%
   - source: /en-US/server/*.json
     translation: /%locale%/server/%original_file_name%
   - source: /en-US/social/*.json
