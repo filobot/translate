@@ -82,8 +82,8 @@
           "LANGUAGE_CODE": "Código del idioma"
         },
         "COMMANDS": {
-          "DISABLED_COMMANDS": "Comandos deshabilitados",
-          "DISABLED_CATEGORIES": "Categorías deshabilitadas"
+          "DISABLED_COMMANDS": "Comandos desactivados",
+          "DISABLED_CATEGORIES": "Categorías desactivadas"
         }
       }
     }
