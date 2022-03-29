@@ -75,6 +75,8 @@
     "VIEW": {
       "TITLE": "Viendo las configuraciones del módulo **{{module}}**",
       "NO_DATA": "No data",
+      "SELECT_THE_DATA": "Select the data to view",
+      "VIEW_ALL": "View all {{data}}.",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "Código del idioma"
