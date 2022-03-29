@@ -75,6 +75,8 @@
     "VIEW": {
       "TITLE": "Đang xem cài đặt của module **{{module}}**",
       "NO_DATA": "No data",
+      "SELECT_THE_DATA": "Select the data to view",
+      "VIEW_ALL": "View all {{data}}.",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "Mã ngôn ngữ"
