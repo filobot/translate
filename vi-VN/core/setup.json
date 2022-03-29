@@ -36,6 +36,7 @@
         "CONFIGURE": {
           "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
           "SELECT_THE_CATEGORIES": "You must select the categories you want to {{action}}.",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
           "SELECT_THE_CATEGORIES_PLACEHOLDER": "Select the categories",
           "DISABLE_COMMANDS": {
             "LABEL": "Disable commands",
@@ -73,9 +74,16 @@
     },
     "VIEW": {
       "TITLE": "Đang xem cài đặt của module **{{module}}**",
+      "NO_DATA": "No data",
+      "SELECT_THE_DATA": "Select the data to view",
+      "VIEW_ALL": "View all {{data}}.",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "Mã ngôn ngữ"
+        },
+        "COMMANDS": {
+          "DISABLED_COMMANDS": "Các lệnh bị vô hiệu hoá",
+          "DISABLED_CATEGORIES": "Các nhóm lệnh bị vô hiệu hoá"
         }
       }
     }
