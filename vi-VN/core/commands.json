@@ -12,7 +12,6 @@
     "GAMES": "Trò chơi",
     "MISCELLANEOUS": "Những thứ khác",
     "MODERATION": "Điều hành",
-    "NSFW": "NSFW",
     "PRIVATE": "Riêng tư",
     "SERVER": "Server",
     "SETTINGS": "Cài đặt",
@@ -30,7 +29,6 @@
     "GAMES": "Các lệnh với trò chơi nho nhỏ để rút ngắn thời gian.",
     "MISCELLANEOUS": "Những lệnh mà không được phân loại. Bạn có thể tìm thấy mọi thứ.",
     "MODERATION": "Những lệnh để điều khiển người dùng.",
-    "NSFW": "Những lệnh hay cho người dùng.",
     "SERVER": "Những lệnh về thông tin hoặc tiện ích của server.",
     "SETTINGS": "Những lệnh để cài đặt Filo.",
     "SOCIAL": "Những lệnh dành cho cộng đồng.",
@@ -39,7 +37,6 @@
     "PRIVATE": "Những lệnh riêng tư."
   },
   "GENERIC_CATEGORY_DESCRIPTION": "Những lệnh từ nhóm {{category}}.",
-  "NSFW_NEEDED": "Bạn cần bật chế độ NSFW để xem tất cả các lệnh NSFW.",
   "MULTIPLE_COMMANDS": "Có một số lệnh với tên giống nhau đã được tìm thấy. Vui lòng chọn lệnh bạn muốn xem thông tin ở bên dưới.",
   "SELECT_A_COMMAND": "Vui lòng chọn lệnh bạn muốn xem thêm thông tin.",
   "SELECT_A_CATEGORY": "Vui lòng chọn nhóm lệnh bạn muốn xem thêm thông tin.",
@@ -144,10 +141,6 @@
       "UNMUTE": "Bỏ mute một người dùng",
       "UNWARN": "Bỏ cảnh báo từ một người dùng",
       "WARN": "Cảnh báo một người dùng"
-    },
-    "NSFW": {
-      "NSFW": "Gửi nội dung NSFW tới kênh hiện tại",
-      "URBAN": "Tìm định nghĩa ở trong từ điển"
     },
     "SERVER": {
       "ACTIVITY": "Bắt đầu một hoạt động ở trong một kênh thoại",
