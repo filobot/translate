@@ -12,7 +12,6 @@
     "GAMES": "Games",
     "MISCELLANEOUS": "Miscellaneous",
     "MODERATION": "Moderation",
-    "NSFW": "NSFW",
     "PRIVATE": "Private",
     "SERVER": "Server",
     "SETTINGS": "Settings",
@@ -30,7 +29,6 @@
     "GAMES": "Commands with minigames to pass the time.",
     "MISCELLANEOUS": "Commands that cannot be categorized elsewhere. You'll find everything.",
     "MODERATION": "Commands to manage moderation of users.",
-    "NSFW": "Spicy commands for users.",
     "SERVER": "Information commands or server utilities.",
     "SETTINGS": "Commands to configure Filo.",
     "SOCIAL": "Social's commands.",
@@ -39,7 +37,6 @@
     "PRIVATE": "Private's commands."
   },
   "GENERIC_CATEGORY_DESCRIPTION": "Commands from the {{category}} category.",
-  "NSFW_NEEDED": "You need NSFW mode enabled to be able to see them.",
   "MULTIPLE_COMMANDS": "Multiple commands with the same name have been found. Select the command you want to consult below.",
   "SELECT_A_COMMAND": "Select the command you want to consult.",
   "SELECT_A_CATEGORY": "Select the category you want to consult.",
@@ -144,10 +141,6 @@
       "UNMUTE": "Remove the mute from a user",
       "UNWARN": "Remove a warn from a user",
       "WARN": "Warn a user from the server"
-    },
-    "NSFW": {
-      "NSFW": "Send NSFW content to the channel",
-      "URBAN": "Search definitions and terms in the urban dictionary"
     },
     "SERVER": {
       "ACTIVITY": "Start an activity on a voice channel",
