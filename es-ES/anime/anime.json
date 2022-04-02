@@ -21,9 +21,9 @@
     "G": "Todas las edades",
     "PG": "Niños",
     "PG-13": "Adolescentes de 13 años o más",
-    "R": "Adolescentes de 17 años o más (Violencia & Palabrotas)",
-    "R+": "Adolescentes de 18 años o más (Desnudez leve)",
-    "RX": "Adolescentes de 18 años o más (Hentai)"
+    "R": "Teens 17 or older (R)",
+    "R+": "Teens 18 or older (R+)",
+    "RX": "Teens 18 or older (Rx)"
   },
   "ANIME_TRAILER": "Trailer del anime",
   "WATCH_TRAILER": "Ver trailer",
