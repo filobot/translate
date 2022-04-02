@@ -21,9 +21,9 @@
     "G": "Mọi lứa tuổi",
     "PG": "Trẻ em",
     "PG-13": "Thanh thiếu niên từ 13 tuổi trở lên",
-    "R": "Thanh thiếu niên từ 17 tuổi trở lên (Có yếu tố bạo lực & Thô tục)",
-    "R+": "Thanh niên từ 18 tuổi trở lên (Có yếu tố tình dục)",
-    "RX": "Thanh niên từ 18 tuổi trở lên (Hentai Anime)"
+    "R": "Teens 17 or older (R)",
+    "R+": "Teens 18 or older (R+)",
+    "RX": "Teens 18 or older (Rx)"
   },
   "ANIME_TRAILER": "Đoạn phim giới thiệu",
   "WATCH_TRAILER": "Xem đoạn phim giới thiệu",
