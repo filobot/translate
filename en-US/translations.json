@@ -49,6 +49,10 @@
     "CLASSIC_DESCRIPTION": "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.",
     "DESCRIPTION": "Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you."
   },
+  "MAIN_HEADER": {
+    "TITLE": "Filo is a powerful multipurpose Discord bot",
+    "SUBTITLE": "Featuring a wide range of admin and moderation modules to make things easier for you"
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Helpful Links",
     "IMPORTANT_LINKS": "Important Links",
@@ -58,6 +62,7 @@
     "BLOG": "Blog",
     "DISCORD_SERVER": "Discord Server",
     "DONATE": "Donate",
+    "FEATURES": "Features",
     "HOME": "Home",
     "INVITE": "Invite",
     "PRIVACY_POLICY": "Privacy Policy",
