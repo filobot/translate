@@ -2,8 +2,10 @@ name: Crowdin Auto-Releaser
 on:
   workflow_dispatch:
   push:
+    branches:
+      - website/stable
 jobs:
-  labeler:
+  release:
     name: Create the Release
     runs-on: ubuntu-latest
     steps:

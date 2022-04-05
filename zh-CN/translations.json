@@ -1,6 +1,6 @@
 {
   "ERROR_DESCRIPTIONS": {
-    "200": "OK",
+    "200": "确定",
     "400": "Bad Request",
     "401": "Unauthorized",
     "402": "Payment Required",
@@ -46,25 +46,26 @@
     "599": "Network Connect Timeout Error"
   },
   "FILO": {
-    "CLASSIC_DESCRIPTION": "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands."
+    "CLASSIC_DESCRIPTION": "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.",
+    "DESCRIPTION": "自从2019以来，Filo 一款功能强大的多功能Discord机器人，为Discord公会提供服务. 具有广泛的管理和审核模块，使您的工作更轻松."
   },
   "FOOTER": {
-    "HELPFUL_LINKS": "Helpful Links",
-    "IMPORTANT_LINKS": "Important Links",
-    "ABOUT_FILO": "About Filo"
+    "HELPFUL_LINKS": "有用的网址",
+    "IMPORTANT_LINKS": "重要的网址",
+    "ABOUT_FILO": "关于 Filo"
   },
   "GENERAL": {
-    "BLOG": "Blog",
-    "DISCORD_SERVER": "Discord Server",
-    "DONATE": "Donate",
-    "HOME": "Home",
-    "INVITE": "Invite",
-    "PRIVACY_POLICY": "Privacy Policy",
-    "STATUS": "Status",
-    "TERMS": "Terms",
-    "TERMS_AND_CONDITIONS": "Terms and Conditions",
-    "VOTE": "Vote",
-    "WIKI": "Wiki"
+    "BLOG": "博客",
+    "DISCORD_SERVER": "Discord服务器",
+    "DONATE": "捐款",
+    "HOME": "主页",
+    "INVITE": "邀请",
+    "PRIVACY_POLICY": "隐私政策",
+    "STATUS": "状态",
+    "TERMS": "条款",
+    "TERMS_AND_CONDITIONS": "条款和条约",
+    "VOTE": "投票",
+    "WIKI": "维基"
   },
   "PAGE_TITLES": {
     "A_DISCORD_BOT": "Discord 机器人",
