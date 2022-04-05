@@ -49,6 +49,10 @@
     "CLASSIC_DESCRIPTION": "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.",
     "DESCRIPTION": "Filo 是一個功能強大且多用途的 Discord 機器人，自 2019 年以來就一直努力不懈的在 Discord 伺服器上服務。她擁有廣泛的管理和審核模塊，讓您工作更輕鬆。"
   },
+  "MAIN_HEADER": {
+    "TITLE": "Filo is a powerful multipurpose Discord bot",
+    "SUBTITLE": "Featuring a wide range of admin and moderation modules to make things easier for you"
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "實用連結",
     "IMPORTANT_LINKS": "公司",
@@ -58,6 +62,7 @@
     "BLOG": "部落格",
     "DISCORD_SERVER": "Discord伺服器",
     "DONATE": "捐款",
+    "FEATURES": "Features",
     "HOME": "主頁",
     "INVITE": "邀請",
     "PRIVACY_POLICY": "隱私政策",
