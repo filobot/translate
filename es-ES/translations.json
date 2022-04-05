@@ -50,8 +50,8 @@
     "DESCRIPTION": "Filo es una potente bot multipropósito de Discord que sirve a los gremios de Discord desde 2019. Contando con una amplia gama de módulos de administración y moderación para facilitarte las cosas."
   },
   "MAIN_HEADER": {
-    "TITLE": "Filo is a powerful multipurpose Discord bot",
-    "SUBTITLE": "Featuring a wide range of admin and moderation modules to make things easier for you"
+    "TITLE": "Filo es una potente bot multipropósito de Discord",
+    "SUBTITLE": "Contando con una amplia gama de módulos de administración y moderación para facilitarte las cosas"
   },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
@@ -62,7 +62,7 @@
     "BLOG": "Blog",
     "DISCORD_SERVER": "Servidor de Discord",
     "DONATE": "Donar",
-    "FEATURES": "Features",
+    "FEATURES": "Características",
     "HOME": "Inicio",
     "INVITE": "Invitar",
     "PRIVACY_POLICY": "Política de Privacidad",
