@@ -49,6 +49,10 @@
     "CLASSIC_DESCRIPTION": "Filo là một Discord bot đa chức năng. Có thể thay đổi tuỳ ý, nhiều ngôn ngữ, báo cáo, ghi chép nhật ký, chào mừng và tạm biệt, máy đếm số thành viên, ngăn chặn link mời, quản lý tự động, ngăn chặn, chống trốn tránh. Hơn 190 lệnh.",
     "DESCRIPTION": "Filo là một Bot Discord đa chức năng mạnh mẽ phục vụ các server Discord từ 2019. Filo có hàng loạt tính năng và chương trình quản lý để làm cho công cuộc quản lý server của bạn dễ hơn."
   },
+  "MAIN_HEADER": {
+    "TITLE": "Filo is a powerful multipurpose Discord bot",
+    "SUBTITLE": "Featuring a wide range of admin and moderation modules to make things easier for you"
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Các đường dẫn hữu ích",
     "IMPORTANT_LINKS": "Các đường dẫn quan trọng",
@@ -58,6 +62,7 @@
     "BLOG": "Blog",
     "DISCORD_SERVER": "Server Discord",
     "DONATE": "Ủng hộ",
+    "FEATURES": "Features",
     "HOME": "Trang chủ",
     "INVITE": "Mời",
     "PRIVACY_POLICY": "Chính sách Bảo mật",
