@@ -66,7 +66,7 @@
     },
     "ANTI_INVITES": {
       "TITLE": "Anti Invites",
-      "DESCRIPTION": "Prevent users from inviting other servers to your server by automatically sanctioning them!"
+      "DESCRIPTION": "Prevent users from sending invites from your servers to yours by automatically sanctioning them!"
     },
     "ANTI_SPAM": {
       "TITLE": "Anti Spam",
