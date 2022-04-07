@@ -89,6 +89,11 @@
       "DESCRIPTION": "Have you muted several users and they have left the server? No problem! Let Filo automatically ban these users!"
     }
   },
+  "STATISTICS": {
+    "TITLE": "Filo's Statistics",
+    "GUILDS": "Guilds",
+    "USERS": "Users"
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Helpful Links",
     "IMPORTANT_LINKS": "Important Links",
