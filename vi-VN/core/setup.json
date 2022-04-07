@@ -31,36 +31,36 @@
       "NAME": "Cộng đồng",
       "COMMANDS": {
         "LABEL": "Các lệnh",
-        "DESCRIPTION": "Change the behavior of Filo's commands.",
-        "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+        "DESCRIPTION": "Đổi hành vi của các lệnh của Filo.",
+        "SELECT_THE_ACTION_PLACEHOLDER": "Chọn một hành động",
         "CONFIGURE": {
-          "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
-          "SELECT_THE_CATEGORIES": "You must select the categories you want to {{action}}.",
-          "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
-          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Select the categories",
+          "SELECT_THE_COMMANDS": "Bạn phải chọn các lệnh mà bạn muốn {{action}}.",
+          "SELECT_THE_CATEGORIES": "Bạn phải chọn các danh mục mà bạn muốn {{action}}.",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Chọn các lệnh",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Chọn các danh mục",
           "DISABLE_COMMANDS": {
-            "LABEL": "Disable commands",
-            "DESCRIPTION": "Disable Filo's commands.",
-            "NO_COMMANDS_TO_DISABLE": "All available commands have been disabled.",
-            "COMMANDS_DISABLED": "You have disabled **{{commands}}** commands successfully."
+            "LABEL": "Vô hiệu hoá các lệnh",
+            "DESCRIPTION": "Vô hiệu hoá các lệnh của Filo.",
+            "NO_COMMANDS_TO_DISABLE": "Tất cả các lệnh đã được vô hiệu hoá.",
+            "COMMANDS_DISABLED": "Bạn đã vô hiệu hoá các lệnh **{{commands}}** thành công."
           },
           "ENABLE_COMMANDS": {
-            "LABEL": "Enable commands",
-            "DESCRIPTION": "Enable Filo's commands.",
-            "NO_COMMANDS_TO_ENABLE": "All available commands are currently enabled.",
-            "COMMANDS_ENABLED": "You have enabled **{{commands}}** commands successfully."
+            "LABEL": "Bật lệnh",
+            "DESCRIPTION": "Bật các lệnh của Filo.",
+            "NO_COMMANDS_TO_ENABLE": "Tất cả các lệnh đã được bật.",
+            "COMMANDS_ENABLED": "Bạn đã bật các lệnh **{{commands}}** thành công."
           },
           "DISABLE_CATEGORIES": {
-            "LABEL": "Disable categories",
-            "DESCRIPTION": "Disable Filo's categories.",
-            "NO_CATEGORIES_TO_DISABLE": "All available categories have been disabled.",
-            "CATEGORIES_DISABLED": "You have disabled **{{categories}}** categories successfully."
+            "LABEL": "Vô hiệu hoá các danh mục",
+            "DESCRIPTION": "Vô hiệu hoá các danh mục của Filo.",
+            "NO_CATEGORIES_TO_DISABLE": "Tất cả các danh mục đã được vô hiệu hoá.",
+            "CATEGORIES_DISABLED": "Bạn đã vô hiệu hoá các danh mục **{{categories}}** thành công."
           },
           "ENABLE_CATEGORIES": {
-            "LABEL": "Enable categories",
-            "DESCRIPTION": "Enable Filo's categories.",
-            "NO_CATEGORIES_TO_ENABLE": "All available categories are currently enabled.",
-            "CATEGORIES_ENABLED": "You have enabled **{{categories}}** categories successfully."
+            "LABEL": "Bật các danh mục",
+            "DESCRIPTION": "Bật các danh mục của Filo.",
+            "NO_CATEGORIES_TO_ENABLE": "Tất cả các danh mục đã được bật.",
+            "CATEGORIES_ENABLED": "Bạn đã bật các danh mục **{{categories}}** thành công."
           }
         }
       },
@@ -74,9 +74,9 @@
     },
     "VIEW": {
       "TITLE": "Đang xem cài đặt của module **{{module}}**",
-      "NO_DATA": "No data",
-      "SELECT_THE_DATA": "Select the data to view",
-      "VIEW_ALL": "View all {{data}}.",
+      "NO_DATA": "Không có dữ liệu",
+      "SELECT_THE_DATA": "Vui lòng chọn dữ liệu để xem",
+      "VIEW_ALL": "Xem tất cả dữ liệu {{data}}.",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "Mã ngôn ngữ"
