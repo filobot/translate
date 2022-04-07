@@ -53,6 +53,42 @@
     "TITLE": "Filo es una potente bot multipropósito de Discord",
     "SUBTITLE": "Contando con una amplia gama de módulos de administración y moderación para facilitarte las cosas"
   },
+  "FEATURES": {
+    "DESCRIPTION": "¡Las mejores características para mejorar tu servidor!",
+    "MORE_INFO": "Más información sobre esta característica",
+    "REPORTS": {
+      "TITLE": "Reportes",
+      "DESCRIPTION": "¡Mejora la experiencia y profesionaliza la moderación de tu servidor permitiendo a los usuarios reportar comportamientos inapropiados!"
+    },
+    "LOGGING": {
+      "TITLE": "Registros",
+      "DESCRIPTION": "¡Registra todas las acciones realizadas por los usuarios en su servidor en un canal, lo que le permite revisarlas y filtrarlas fácilmente!"
+    },
+    "ANTI_INVITES": {
+      "TITLE": "Anti Invitaciones",
+      "DESCRIPTION": "¡Evita que los usuarios envíen invitaciones de sus servidores en el suyo sancionándolos automáticamente!"
+    },
+    "ANTI_SPAM": {
+      "TITLE": "Anti Spam",
+      "DESCRIPTION": "¿Cansado de spammers? ¿Tus moderadores no son suficientes? ¡Deja que Filo trate con esta clase de usuarios y tómate un poco de té mientras tanto!"
+    },
+    "ANTI_BAD_WORDS": {
+      "TITLE": "Anti Malas Palabras",
+      "DESCRIPTION": "Evita que los usuarios usen malas palabras en sus mensajes... ¡A nadie le gusta tener que leer esas palabras!"
+    },
+    "ANTI_SCAM_LINKS": {
+      "TITLE": "Anti Enlaces Estafadores",
+      "DESCRIPTION": "Estafadores, que personas más cansinas... ¡Ahora Filo te puede ayudar a combatir contra ese tipo de personas!"
+    },
+    "AUTO_MODERATION": {
+      "TITLE": "Auto Moderación",
+      "DESCRIPTION": "No permitas que existan usuarios conflictivos en su servidor, ¡esto puede afectar negativamente a la experiencia de los usuarios legítimos!"
+    },
+    "ANTI_EVASION": {
+      "TITLE": "Anti Evasión",
+      "DESCRIPTION": "¿Has silenciado a varios usuarios y ellos han abandonado el servidor? ¡No hay problema! ¡Deja que Filo los prohíba automáticamente!"
+    }
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
     "IMPORTANT_LINKS": "Enlaces Importantes",
