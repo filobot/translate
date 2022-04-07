@@ -89,6 +89,11 @@
       "DESCRIPTION": "¿Has silenciado a varios usuarios y ellos han abandonado el servidor? ¡No hay problema! ¡Deja que Filo los prohíba automáticamente!"
     }
   },
+  "STATISTICS": {
+    "TITLE": "Filo's Statistics",
+    "GUILDS": "Guilds",
+    "USERS": "Users"
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
     "IMPORTANT_LINKS": "Enlaces Importantes",
