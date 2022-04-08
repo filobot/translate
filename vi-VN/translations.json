@@ -89,6 +89,25 @@
       "DESCRIPTION": "Have you muted several users and they have left the server? No problem! Let Filo automatically ban these users!"
     }
   },
+  "STATISTICS": {
+    "TITLE": "Filo's Statistics",
+    "GUILDS": "Guilds",
+    "USERS": "Users"
+  },
+  "DONATE": {
+    "TITLE": "Donate to Filo",
+    "SUBTITLE": "Help us keep Filo online by making a donation!",
+    "WARNING": "All donations are subject to Terms and Conditions.",
+    "PER_MONTH": "Per month",
+    "VAT_NOT_INCLUDED": "VAT not included",
+    "SUBSCRIBE": "Subscribe",
+    "ROLE_REWARD": "Symbolic role on our server",
+    "FILO_SUPPORT": "Show your support for Filo",
+    "SOON_MORE": "Soon™ more",
+    "PREVIOUS_PLAN_REWARD": "Everything from the previous plan",
+    "NICKNAME_REWARD": "Customizable nickname on our server",
+    "EMOJIS_REWARD": "Use of external emojis on our server"
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Các đường dẫn hữu ích",
     "IMPORTANT_LINKS": "Các đường dẫn quan trọng",
@@ -101,6 +120,7 @@
     "FEATURES": "Features",
     "HOME": "Trang chủ",
     "INVITE": "Mời",
+    "MORE_INFO": "More information",
     "PRIVACY_POLICY": "Chính sách Bảo mật",
     "STATUS": "Trạng thái",
     "TERMS": "Điều khoản",
