@@ -89,6 +89,25 @@
       "DESCRIPTION": "¿Has silenciado a varios usuarios y ellos han abandonado el servidor? ¡No hay problema! ¡Deja que Filo los prohíba automáticamente!"
     }
   },
+  "STATISTICS": {
+    "TITLE": "Estadísticas de Filo",
+    "GUILDS": "Gremios",
+    "USERS": "Usuarios"
+  },
+  "DONATE": {
+    "TITLE": "Donar a Filo",
+    "SUBTITLE": "¡Ayúdanos a mantener a Filo en línea haciendo una donación!",
+    "WARNING": "Todas las donaciones están sujetas a Términos y Condiciones.",
+    "PER_MONTH": "Por mes",
+    "VAT_NOT_INCLUDED": "IVA no incluido",
+    "SUBSCRIBE": "Suscribir",
+    "ROLE_REWARD": "Rol simbólico en nuestro servidor",
+    "FILO_SUPPORT": "Muestra tu apoyo a Filo",
+    "SOON_MORE": "Pronto™ más",
+    "PREVIOUS_PLAN_REWARD": "Todo lo del plan anterior",
+    "NICKNAME_REWARD": "Apodo personalizable en nuestro servidor",
+    "EMOJIS_REWARD": "Uso de emojis externos en nuestro servidor"
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
     "IMPORTANT_LINKS": "Enlaces Importantes",
@@ -101,6 +120,7 @@
     "FEATURES": "Características",
     "HOME": "Inicio",
     "INVITE": "Invitar",
+    "MORE_INFO": "Más información",
     "PRIVACY_POLICY": "Política de Privacidad",
     "STATUS": "Estado",
     "TERMS": "Términos",
