@@ -108,6 +108,24 @@
     "NICKNAME_REWARD": "Apodo personalizable en nuestro servidor",
     "EMOJIS_REWARD": "Uso de emojis externos en nuestro servidor"
   },
+  "REVIEW": {
+    "TITLE": "Leave us a review",
+    "SUBTITLE": "Show how much you love Filo and her service!"
+  },
+  "VOTE": {
+    "TITLE": "Vote for Filo",
+    "SUBTITLE": "Show your support for Filo by voting for her!"
+  },
+  "FRIENDLY_WEBSITES": {
+    "TITLE": "Friendly websites",
+    "SUBTITLE": "Friendly websites that help Filo grow!"
+  },
+  "READY": {
+    "TITLE": "Ready to take the next step?",
+    "SUBTITLE": "Enhance the experience and professionalize your server with Filo today!",
+    "INVITE": "Let's do it!",
+    "GETTING_STARTED": "Getting Started"
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
     "IMPORTANT_LINKS": "Enlaces Importantes",
