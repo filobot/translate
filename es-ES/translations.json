@@ -126,6 +126,38 @@
     "INVITE": "¡Hagámoslo!",
     "GETTING_STARTED": "Empezando"
   },
+  "CALCULATOR": {
+    "TITLE": "Calculadora de permisos de Filo",
+    "VIEW_CASES": "Ver casos",
+    "EDIT_CASES": "Editar casos",
+    "MANAGE_CASES": "Gestionar casos",
+    "ADMINISTRATOR": "Administrador",
+    "BAN_MEMBERS": "Prohibir miembros",
+    "TEMPBAN_MEMBERS": "Prohibir miembros temporalmente",
+    "SOFTBAN_MEMBERS": "Prohibir suavemente miembros",
+    "UNBAN_MEMBERS": "Desprohibir miembros",
+    "KICK_MEMBERS": "Expulsar miembros",
+    "MUTE_MEMBERS": "Silenciar miembros",
+    "TEMPMUTE_MEMBERS": "Silenciar miembros temporalmente",
+    "UNMUTE_MEMBERS": "Desilenciar miembros",
+    "WARN_MEMBERS": "Advertir miembros",
+    "UNWARN_MEMBERS": "Desadvertir miembros",
+    "PURGE_WARNS": "Purgar advertencias",
+    "ADD_ROLES": "Agregar roles",
+    "REMOVE_ROLES": "Eliminar roles",
+    "PURGE_MESSAGES": "Purgar mensajes",
+    "MANAGE_NICKNAMES": "Administrar apodos",
+    "MANAGE_CHANNELS": "Administrar canales",
+    "PIN_MESSAGES": "Fijar mensajes",
+    "UNPIN_MESSAGES": "Desfijar mensaje",
+    "VIEW_HISTORY": "Ver historial",
+    "EVADE_SANCTIONS": "Evadir sanciones"
+  },
+  "THANKS": {
+    "TITLE": "¡Gracias por añadir a Filo!",
+    "SUBTITLE": "Estamos muy agradecidos de que hayas decidido confiar en Filo.",
+    "DISCORD_REDIRECT_INFO": "Serás redirigido a nuestro servidor de Discord."
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
     "IMPORTANT_LINKS": "Enlaces Importantes",
@@ -149,6 +181,7 @@
   "PAGE_TITLES": {
     "A_DISCORD_BOT": "Un Bot de Discord",
     "CALCULATOR": "Calculadora",
-    "STATISTICS": "Estadísticas"
+    "STATISTICS": "Estadísticas",
+    "THANKS": "Gracias"
   }
 }
