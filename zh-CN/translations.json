@@ -51,11 +51,11 @@
   },
   "MAIN_HEADER": {
     "TITLE": "Filo is a powerful multipurpose Discord bot",
-    "SUBTITLE": "Featuring a wide range of admin and moderation modules to make things easier for you"
+    "SUBTITLE": "具有广泛的管理和审核模块，使您的工作更轻松"
   },
   "FEATURES": {
     "DESCRIPTION": "The best features to improve your server!",
-    "MORE_INFO": "More information about this feature",
+    "MORE_INFO": "更多信息关于这个特征",
     "REPORTS": {
       "TITLE": "Reports",
       "DESCRIPTION": "Enhance the experience and professionalize your server moderation by allowing users to report inappropriate behavior!"
