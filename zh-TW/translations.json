@@ -51,11 +51,11 @@
   },
   "MAIN_HEADER": {
     "TITLE": "Filo is a powerful multipurpose Discord bot",
-    "SUBTITLE": "Featuring a wide range of admin and moderation modules to make things easier for you"
+    "SUBTITLE": "她擁有廣泛的管理和審核模塊，讓您工作更輕鬆"
   },
   "FEATURES": {
     "DESCRIPTION": "The best features to improve your server!",
-    "MORE_INFO": "More information about this feature",
+    "MORE_INFO": "更多敘述",
     "REPORTS": {
       "TITLE": "Reports",
       "DESCRIPTION": "Enhance the experience and professionalize your server moderation by allowing users to report inappropriate behavior!"
@@ -90,73 +90,73 @@
     }
   },
   "STATISTICS": {
-    "TITLE": "Filo's Statistics",
+    "TITLE": "目前 Filo's 的版圖",
     "GUILDS": "Guilds",
     "USERS": "Users"
   },
   "DONATE": {
-    "TITLE": "Donate to Filo",
-    "SUBTITLE": "Help us keep Filo online by making a donation!",
-    "WARNING": "All donations are subject to Terms and Conditions.",
-    "PER_MONTH": "Per month",
-    "VAT_NOT_INCLUDED": "VAT not included",
-    "SUBSCRIBE": "Subscribe",
-    "ROLE_REWARD": "Symbolic role on our server",
-    "FILO_SUPPORT": "Show your support for Filo",
-    "SOON_MORE": "Soon™ more",
-    "PREVIOUS_PLAN_REWARD": "Everything from the previous plan",
-    "NICKNAME_REWARD": "Customizable nickname on our server",
-    "EMOJIS_REWARD": "Use of external emojis on our server"
+    "TITLE": "捐款給我們",
+    "SUBTITLE": "幫助 Filo 繼續維持成長，我們需要您的支持",
+    "WARNING": "捐款時，即代表您已同意 Filo 的捐贈條款及細則",
+    "PER_MONTH": "每月",
+    "VAT_NOT_INCLUDED": "不含稅",
+    "SUBSCRIBE": "訂閱",
+    "ROLE_REWARD": "伺服器的專屬徽章",
+    "FILO_SUPPORT": "展示出您對 Filo 的支持",
+    "SOON_MORE": "即將到來 Soon™",
+    "PREVIOUS_PLAN_REWARD": "本訂閱會包含前面等級的所有福利",
+    "NICKNAME_REWARD": "在 Filo 官方伺服器更改暱稱",
+    "EMOJIS_REWARD": "在我們的伺服器使用外部表情符號"
   },
   "REVIEW": {
-    "TITLE": "Leave us a review",
-    "SUBTITLE": "Show how much you love Filo and her service!"
+    "TITLE": "留個評論給我們吧！",
+    "SUBTITLE": "顯示您對 Filo 有著多少的好感"
   },
   "VOTE": {
-    "TITLE": "Vote for Filo",
-    "SUBTITLE": "Show your support for Filo by voting for her!"
+    "TITLE": "為 Filo 投下寶貴的一票",
+    "SUBTITLE": "每日投票即可獲得大量投票獎勵"
   },
   "FRIENDLY_WEBSITES": {
-    "TITLE": "Friendly websites",
-    "SUBTITLE": "Friendly websites that help Filo grow!"
+    "TITLE": "友情網站",
+    "SUBTITLE": "他們都是讓 Filo 壯大的網站"
   },
   "READY": {
     "TITLE": "Ready to take the next step?",
     "SUBTITLE": "Enhance the experience and professionalize your server with Filo today!",
     "INVITE": "Let's do it!",
-    "GETTING_STARTED": "Getting Started"
+    "GETTING_STARTED": "入門指南"
   },
   "CALCULATOR": {
-    "TITLE": "Filo's Permissions Calculator",
-    "VIEW_CASES": "View cases",
-    "EDIT_CASES": "Edit cases",
-    "MANAGE_CASES": "Manage cases",
-    "ADMINISTRATOR": "Administrator",
-    "BAN_MEMBERS": "Ban members",
-    "TEMPBAN_MEMBERS": "Tempban members",
-    "SOFTBAN_MEMBERS": "Softban members",
-    "UNBAN_MEMBERS": "Unban members",
-    "KICK_MEMBERS": "Kick members",
-    "MUTE_MEMBERS": "Mute members",
-    "TEMPMUTE_MEMBERS": "Tempmute members",
-    "UNMUTE_MEMBERS": "Unmute members",
-    "WARN_MEMBERS": "Warn members",
-    "UNWARN_MEMBERS": "Unwarn members",
-    "PURGE_WARNS": "Purge warns",
-    "ADD_ROLES": "Add roles",
-    "REMOVE_ROLES": "Remove roles",
-    "PURGE_MESSAGES": "Purge messages",
-    "MANAGE_NICKNAMES": "Manage nicknames",
-    "MANAGE_CHANNELS": "Manage channels",
-    "PIN_MESSAGES": "Pin messages",
-    "UNPIN_MESSAGES": "Unpin messages",
-    "VIEW_HISTORY": "View history",
+    "TITLE": "Filo's 權限計算機",
+    "VIEW_CASES": "查看",
+    "EDIT_CASES": "編輯",
+    "MANAGE_CASES": "管理",
+    "ADMINISTRATOR": "管理員",
+    "BAN_MEMBERS": "Ban成員",
+    "TEMPBAN_MEMBERS": "暫時Ban成員",
+    "SOFTBAN_MEMBERS": "Softban成員",
+    "UNBAN_MEMBERS": "解除成員Ban",
+    "KICK_MEMBERS": "提出成員",
+    "MUTE_MEMBERS": "靜音成員",
+    "TEMPMUTE_MEMBERS": "暫時靜音成員",
+    "UNMUTE_MEMBERS": "解除成員靜音",
+    "WARN_MEMBERS": "警告成員",
+    "UNWARN_MEMBERS": "解除成員警告",
+    "PURGE_WARNS": "清除警告",
+    "ADD_ROLES": "新增身分組",
+    "REMOVE_ROLES": "移增身分組",
+    "PURGE_MESSAGES": "清除訊息",
+    "MANAGE_NICKNAMES": "管理暱稱",
+    "MANAGE_CHANNELS": "管理頻道",
+    "PIN_MESSAGES": "釘選頻道",
+    "UNPIN_MESSAGES": "取消釘選頻道",
+    "VIEW_HISTORY": "查看歷史",
     "EVADE_SANCTIONS": "Evade sanctions"
   },
   "THANKS": {
-    "TITLE": "Thanks for adding Filo!",
-    "SUBTITLE": "We are very grateful that you have decided to trust Filo.",
-    "DISCORD_REDIRECT_INFO": "You'll be redirected to our Discord server."
+    "TITLE": "感謝您邀請 Filo！",
+    "SUBTITLE": "我們很高興你相信 Filo。",
+    "DISCORD_REDIRECT_INFO": "您將被重新導向到邀請頁面."
   },
   "FOOTER": {
     "HELPFUL_LINKS": "實用連結",
@@ -167,10 +167,10 @@
     "BLOG": "部落格",
     "DISCORD_SERVER": "Discord伺服器",
     "DONATE": "捐款",
-    "FEATURES": "Features",
+    "FEATURES": "功能",
     "HOME": "主頁",
     "INVITE": "邀請",
-    "MORE_INFO": "More information",
+    "MORE_INFO": "更多敘述",
     "PRIVACY_POLICY": "隱私政策",
     "STATUS": "狀態",
     "TERMS": "條款",
