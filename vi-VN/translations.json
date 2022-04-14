@@ -153,6 +153,11 @@
     "VIEW_HISTORY": "View history",
     "EVADE_SANCTIONS": "Evade sanctions"
   },
+  "THANKS": {
+    "TITLE": "Thanks for adding Filo!",
+    "SUBTITLE": "We are very grateful that you have decided to trust Filo.",
+    "DISCORD_REDIRECT_INFO": "You'll be redirected to our Discord server."
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Các đường dẫn hữu ích",
     "IMPORTANT_LINKS": "Các đường dẫn quan trọng",
