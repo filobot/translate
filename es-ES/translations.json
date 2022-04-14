@@ -154,9 +154,9 @@
     "EVADE_SANCTIONS": "Evadir sanciones"
   },
   "THANKS": {
-    "TITLE": "Thanks for adding Filo!",
-    "SUBTITLE": "We are very grateful that you have decided to trust Filo.",
-    "DISCORD_REDIRECT_INFO": "You'll be redirected to our Discord server."
+    "TITLE": "¡Gracias por añadir a Filo!",
+    "SUBTITLE": "Estamos muy agradecidos de que hayas decidido confiar en Filo.",
+    "DISCORD_REDIRECT_INFO": "Serás redirigido a nuestro servidor de Discord."
   },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
@@ -181,6 +181,7 @@
   "PAGE_TITLES": {
     "A_DISCORD_BOT": "Un Bot de Discord",
     "CALCULATOR": "Calculadora",
-    "STATISTICS": "Estadísticas"
+    "STATISTICS": "Estadísticas",
+    "THANKS": "Thanks"
   }
 }
