@@ -153,6 +153,11 @@
     "VIEW_HISTORY": "Ver historial",
     "EVADE_SANCTIONS": "Evadir sanciones"
   },
+  "THANKS": {
+    "TITLE": "Thanks for adding Filo!",
+    "SUBTITLE": "We are very grateful that you have decided to trust Filo.",
+    "DISCORD_REDIRECT_INFO": "You'll be redirected to our Discord server."
+  },
   "FOOTER": {
     "HELPFUL_LINKS": "Enlaces Útiles",
     "IMPORTANT_LINKS": "Enlaces Importantes",
