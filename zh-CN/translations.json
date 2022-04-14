@@ -90,72 +90,72 @@
     }
   },
   "STATISTICS": {
-    "TITLE": "Filo's Statistics",
-    "GUILDS": "Guilds",
-    "USERS": "Users"
+    "TITLE": "Filo's 统计数据",
+    "GUILDS": "行会",
+    "USERS": "用户"
   },
   "DONATE": {
-    "TITLE": "Donate to Filo",
-    "SUBTITLE": "Help us keep Filo online by making a donation!",
-    "WARNING": "All donations are subject to Terms and Conditions.",
-    "PER_MONTH": "Per month",
-    "VAT_NOT_INCLUDED": "VAT not included",
-    "SUBSCRIBE": "Subscribe",
-    "ROLE_REWARD": "Symbolic role on our server",
-    "FILO_SUPPORT": "Show your support for Filo",
-    "SOON_MORE": "Soon™ more",
-    "PREVIOUS_PLAN_REWARD": "Everything from the previous plan",
-    "NICKNAME_REWARD": "Customizable nickname on our server",
-    "EMOJIS_REWARD": "Use of external emojis on our server"
+    "TITLE": "捐款给Filo",
+    "SUBTITLE": "用捐款帮助 Filo 继续在成长!",
+    "WARNING": "所有捐款受条款及细则约束.",
+    "PER_MONTH": "每月",
+    "VAT_NOT_INCLUDED": "不包括增值税",
+    "SUBSCRIBE": "订阅",
+    "ROLE_REWARD": "服务器上的象征的角色",
+    "FILO_SUPPORT": "表示你给 Filo 支持",
+    "SOON_MORE": "以后更多",
+    "PREVIOUS_PLAN_REWARD": "所有跟之前的计划",
+    "NICKNAME_REWARD": "我们服务器上可定制名称",
+    "EMOJIS_REWARD": "使用外部表情符号在我们的服务器里"
   },
   "REVIEW": {
-    "TITLE": "Leave us a review",
-    "SUBTITLE": "Show how much you love Filo and her service!"
+    "TITLE": "给我们留个评价",
+    "SUBTITLE": "展示你多喜欢 Filo 的服务!"
   },
   "VOTE": {
-    "TITLE": "Vote for Filo",
-    "SUBTITLE": "Show your support for Filo by voting for her!"
+    "TITLE": "为 Filo 投票",
+    "SUBTITLE": "给 Filo 每天获得大量奖励!"
   },
   "FRIENDLY_WEBSITES": {
-    "TITLE": "Friendly websites",
-    "SUBTITLE": "Friendly websites that help Filo grow!"
+    "TITLE": "有好的网页",
+    "SUBTITLE": "Filo 的有好网页帮助 Filo 继续在成长!"
   },
   "READY": {
     "TITLE": "Ready to take the next step?",
     "SUBTITLE": "Enhance the experience and professionalize your server with Filo today!",
     "INVITE": "Let's do it!",
-    "GETTING_STARTED": "Getting Started"
+    "GETTING_STARTED": "入门"
   },
   "CALCULATOR": {
-    "TITLE": "Filo's Permissions Calculator",
-    "VIEW_CASES": "View cases",
-    "EDIT_CASES": "Edit cases",
-    "MANAGE_CASES": "Manage cases",
-    "ADMINISTRATOR": "Administrator",
-    "BAN_MEMBERS": "Ban members",
-    "TEMPBAN_MEMBERS": "Tempban members",
-    "SOFTBAN_MEMBERS": "Softban members",
-    "UNBAN_MEMBERS": "Unban members",
-    "KICK_MEMBERS": "Kick members",
-    "MUTE_MEMBERS": "Mute members",
-    "TEMPMUTE_MEMBERS": "Tempmute members",
-    "UNMUTE_MEMBERS": "Unmute members",
-    "WARN_MEMBERS": "Warn members",
-    "UNWARN_MEMBERS": "Unwarn members",
-    "PURGE_WARNS": "Purge warns",
-    "ADD_ROLES": "Add roles",
-    "REMOVE_ROLES": "Remove roles",
-    "PURGE_MESSAGES": "Purge messages",
-    "MANAGE_NICKNAMES": "Manage nicknames",
-    "MANAGE_CHANNELS": "Manage channels",
-    "PIN_MESSAGES": "Pin messages",
-    "UNPIN_MESSAGES": "Unpin messages",
-    "VIEW_HISTORY": "View history",
+    "TITLE": "Filo's 权力计算机",
+    "VIEW_CASES": "查看案例",
+    "EDIT_CASES": "编辑案例",
+    "MANAGE_CASES": "管理案例",
+    "ADMINISTRATOR": "管理人员",
+    "BAN_MEMBERS": "屏蔽成员",
+    "TEMPBAN_MEMBERS": "暂时性屏蔽成员",
+    "SOFTBAN_MEMBERS": "软禁成员",
+    "UNBAN_MEMBERS": "解禁成员",
+    "KICK_MEMBERS": "踢成员",
+    "MUTE_MEMBERS": "静音成员",
+    "TEMPMUTE_MEMBERS": "暂时性静音成员",
+    "UNMUTE_MEMBERS": "取消静音成员",
+    "WARN_MEMBERS": "警告成员",
+    "UNWARN_MEMBERS": "取消警告成员",
+    "PURGE_WARNS": "清除警告",
+    "ADD_ROLES": "添加角色",
+    "REMOVE_ROLES": "去掉角色",
+    "PURGE_MESSAGES": "清除信息",
+    "MANAGE_NICKNAMES": "管理名字",
+    "MANAGE_CHANNELS": "管理频道",
+    "PIN_MESSAGES": "标注信息",
+    "UNPIN_MESSAGES": "取消标注信息",
+    "VIEW_HISTORY": "查看历史",
     "EVADE_SANCTIONS": "Evade sanctions"
   },
   "THANKS": {
-    "TITLE": "Thanks for adding Filo!",
-    "SUBTITLE": "We are very grateful that you have decided to trust Filo.",
+    "TITLE": "感谢添加 Filo!",
+    "SUBTITLE": "我们非常感谢您相信 Filo.",
     "DISCORD_REDIRECT_INFO": "You'll be redirected to our Discord server."
   },
   "FOOTER": {
@@ -167,10 +167,10 @@
     "BLOG": "博客",
     "DISCORD_SERVER": "Discord服务器",
     "DONATE": "捐款",
-    "FEATURES": "Features",
+    "FEATURES": "标题",
     "HOME": "主页",
     "INVITE": "邀请",
-    "MORE_INFO": "More information",
+    "MORE_INFO": "更多信息",
     "PRIVACY_POLICY": "隐私政策",
     "STATUS": "状态",
     "TERMS": "条款",
