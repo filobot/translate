@@ -18,31 +18,5 @@
     "contributors": [
       "266103595949096960"
     ]
-  },
-  {
-    "name": "vi-VN",
-    "nativeName": "Tiếng Việt",
-    "wikiCode": null,
-    "flag": "🇻🇳",
-    "default": false,
-    "contributors": [
-      "754982406393430098"
-    ]
-  },
-  {
-    "name": "zh-TW",
-    "nativeName": "正體中文",
-    "wikiCode": null,
-    "flag": "🇹🇼",
-    "default": false,
-    "contributors": []
-  },
-  {
-    "name": "zh-CN",
-    "nativeName": "简体中文",
-    "wikiCode": null,
-    "flag": "🇨🇳",
-    "default": false,
-    "contributors": []
   }
 ]
