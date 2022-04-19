@@ -18,5 +18,15 @@
     "contributors": [
       "266103595949096960"
     ]
+  },
+  {
+    "name": "vi-VN",
+    "nativeName": "Tiếng Việt",
+    "wikiCode": null,
+    "flag": "🇻🇳",
+    "default": false,
+    "contributors": [
+      "754982406393430098"
+    ]
   }
 ]
