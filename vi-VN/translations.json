@@ -104,59 +104,59 @@
     "ROLE_REWARD": "Một role đặc biệt ở trong server của chúng tôi",
     "FILO_SUPPORT": "Hãy thể hiện sự ủng hộ của bạn dành cho Filo",
     "SOON_MORE": "Sẽ có nhiều hơn trong thời gian tới™",
-    "PREVIOUS_PLAN_REWARD": "Everything from the previous plan",
-    "NICKNAME_REWARD": "Customizable nickname on our server",
-    "EMOJIS_REWARD": "Use of external emojis on our server"
+    "PREVIOUS_PLAN_REWARD": "Tất cả từ gói trước",
+    "NICKNAME_REWARD": "Biệt danh riêng ở trong server của chúng tôi",
+    "EMOJIS_REWARD": "Sử dụng các biểu cảm ở ngoài server ở trong server của chúng tôi"
   },
   "REVIEW": {
-    "TITLE": "Leave us a review",
-    "SUBTITLE": "Show how much you love Filo and her service!"
+    "TITLE": "Viết bài đánh giá về chúng tôi",
+    "SUBTITLE": "Thể hiện tình yêu của bạn dành cho Filo và dịch vụ của cô ấy!"
   },
   "VOTE": {
-    "TITLE": "Vote for Filo",
-    "SUBTITLE": "Show your support for Filo by voting for her!"
+    "TITLE": "Bình chọn cho Filo",
+    "SUBTITLE": "Thể hiện sự ủng hộ của bạn dành cho Filo bằng cách bình chọn cho cô ấy!"
   },
   "FRIENDLY_WEBSITES": {
-    "TITLE": "Friendly websites",
-    "SUBTITLE": "Friendly websites that help Filo grow!"
+    "TITLE": "Các website thân thiện",
+    "SUBTITLE": "Các website thân thiện để giúp Filo phát triển!"
   },
   "READY": {
-    "TITLE": "Ready to take the next step?",
-    "SUBTITLE": "Enhance the experience and professionalize your server with Filo today!",
-    "INVITE": "Let's do it!",
-    "GETTING_STARTED": "Getting Started"
+    "TITLE": "Bạn đã sẫn sàng để bước tiếp?",
+    "SUBTITLE": "Nâng cao trải nghiệm của người dùng và chuyên nghiệp hoá server của bạn với Filo ngay hôm nay!",
+    "INVITE": "Bắt đầu thôi!",
+    "GETTING_STARTED": "Bắt đầu"
   },
   "CALCULATOR": {
-    "TITLE": "Filo's Permissions Calculator",
-    "VIEW_CASES": "View cases",
-    "EDIT_CASES": "Edit cases",
-    "MANAGE_CASES": "Manage cases",
-    "ADMINISTRATOR": "Administrator",
-    "BAN_MEMBERS": "Ban members",
-    "TEMPBAN_MEMBERS": "Tempban members",
-    "SOFTBAN_MEMBERS": "Softban members",
-    "UNBAN_MEMBERS": "Unban members",
-    "KICK_MEMBERS": "Kick members",
-    "MUTE_MEMBERS": "Mute members",
-    "TEMPMUTE_MEMBERS": "Tempmute members",
-    "UNMUTE_MEMBERS": "Unmute members",
-    "WARN_MEMBERS": "Warn members",
-    "UNWARN_MEMBERS": "Unwarn members",
-    "PURGE_WARNS": "Purge warns",
-    "ADD_ROLES": "Add roles",
-    "REMOVE_ROLES": "Remove roles",
-    "PURGE_MESSAGES": "Purge messages",
-    "MANAGE_NICKNAMES": "Manage nicknames",
-    "MANAGE_CHANNELS": "Manage channels",
-    "PIN_MESSAGES": "Pin messages",
-    "UNPIN_MESSAGES": "Unpin messages",
-    "VIEW_HISTORY": "View history",
-    "EVADE_SANCTIONS": "Evade sanctions"
+    "TITLE": "Máy tính quyền hạn của Filo",
+    "VIEW_CASES": "Xem các vụ án",
+    "EDIT_CASES": "Sửa các vụ án",
+    "MANAGE_CASES": "Quản lý các vụ án",
+    "ADMINISTRATOR": "Người quản lý",
+    "BAN_MEMBERS": "Ban thành viên",
+    "TEMPBAN_MEMBERS": "Ban thành viên tạm thời",
+    "SOFTBAN_MEMBERS": "Bạn thành viên nhẹ tay",
+    "UNBAN_MEMBERS": "Gỡ ban thành viên",
+    "KICK_MEMBERS": "Đá thành viên",
+    "MUTE_MEMBERS": "Mute thành viên",
+    "TEMPMUTE_MEMBERS": "Mute thành viên tạm thời",
+    "UNMUTE_MEMBERS": "Bỏ mute thành viên",
+    "WARN_MEMBERS": "Cảnh cáo thành viên",
+    "UNWARN_MEMBERS": "Bỏ cảnh cáo thành viên",
+    "PURGE_WARNS": "Xoá cảnh cáo",
+    "ADD_ROLES": "Thêm role",
+    "REMOVE_ROLES": "Bỏ role",
+    "PURGE_MESSAGES": "Xoá tin nhắn",
+    "MANAGE_NICKNAMES": "Quản lý biệt danh",
+    "MANAGE_CHANNELS": "Quản lý kênh",
+    "PIN_MESSAGES": "Ghim tin nhắn",
+    "UNPIN_MESSAGES": "Bỏ ghim tin nhắn",
+    "VIEW_HISTORY": "Xem lịch sử",
+    "EVADE_SANCTIONS": "Trốn tránh hình phạt"
   },
   "THANKS": {
-    "TITLE": "Thanks for adding Filo!",
-    "SUBTITLE": "We are very grateful that you have decided to trust Filo.",
-    "DISCORD_REDIRECT_INFO": "You'll be redirected to our Discord server."
+    "TITLE": "Cảm ơn vì đã thêm Filo!",
+    "SUBTITLE": "Chúng tôi rất biết ơn vì bạn đã lựa chọn và tin tưởng Filo.",
+    "DISCORD_REDIRECT_INFO": "Bạn sẽ được chuyển hướng tới server Discord của chúng tôi."
   },
   "FOOTER": {
     "HELPFUL_LINKS": "Các đường dẫn hữu ích",
@@ -167,10 +167,10 @@
     "BLOG": "Blog",
     "DISCORD_SERVER": "Server Discord",
     "DONATE": "Ủng hộ",
-    "FEATURES": "Features",
+    "FEATURES": "Các tính năng",
     "HOME": "Trang chủ",
     "INVITE": "Mời",
-    "MORE_INFO": "More information",
+    "MORE_INFO": "Thông tin chi tiết",
     "PRIVACY_POLICY": "Chính sách Bảo mật",
     "STATUS": "Trạng thái",
     "TERMS": "Điều khoản",
@@ -180,8 +180,8 @@
   },
   "PAGE_TITLES": {
     "A_DISCORD_BOT": "Một Bot Discord",
-    "CALCULATOR": "Calculator",
+    "CALCULATOR": "Máy tính",
     "STATISTICS": "Thống kê",
-    "THANKS": "Thanks"
+    "THANKS": "Cảm ơn"
   }
 }
