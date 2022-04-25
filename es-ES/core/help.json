@@ -1,0 +1,5 @@
+{
+  "HELP_TITLE": "Menú de ayuda rápida",
+  "HELP_DESCRIPTION": "Aquí encontrarás ayuda básica sobre cómo usar el bot, pero si lo encuentras insuficiente y necesitas más ayuda, no dudes en **[contactarnos]({{url}})** a través de nuestro servidor de Discord.\n\n**Idioma actual**: {{language}}.",
+  "MESSAGE_HELP": "¿Estás buscando el menú de ayuda secreto? Hemos movido este menú a un comando, pero ¡puedes ejecutar el comando pulsando el botón de abajo!"
+}
