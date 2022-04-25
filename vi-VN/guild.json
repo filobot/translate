@@ -1,0 +1,27 @@
+{
+  "GUILD": "Server",
+  "GUILDS": "Các server",
+  "GUILD_ID": "ID của server",
+  "VERIFICATION_LEVEL": {
+    "NONE": "Không có hạn chế.",
+    "LOW": "Thấp: Email của người dùng phải được xác nhận.",
+    "MEDIUM": "Trung bình: Phải cách năm phút từ lúc đăng kí tài khoản Discord.",
+    "HIGH": "Cao: Phải cách 10 phút từ lúc là thành viên của server.",
+    "VERY_HIGH": "Rất cao: Phải có một số điện thoại được xác nhận."
+  },
+  "NSFW_LEVEL": "Cấp độ NSFW",
+  "PREMIUM_TIER": "Hạng premium",
+  "EXPLICIT_CONTENT_FILTER": "Lọc nội dung không phù hợp",
+  "MEMBERS_WITHOUT_ROLES": "Các thành viên không có role",
+  "ALL_MEMBERS": "Tất cả thành viên",
+  "MFA_LEVEL": "Cấp độ MFA",
+  "GUILD_OWNER": "Chủ sở hữu của server",
+  "BOOSTS": "Các lần boost",
+  "MODERATION_LEVEL": "Cấp độ quản lý",
+  "DEFAULT_NOTIFICATIONS": "Thông báo mặc định",
+  "ALL_MESSAGES": "Tất cả tin nhắn",
+  "ONLY_MENTIONS": "Chỉ @mentions",
+  "SYSTEM_CHANNEL": "Kênh của hệ thống",
+  "2FA_DISABLED": "2FA đã được vô hiệu hoá",
+  "2FA_ENABLED": "2FA đã được bật cho các moderators"
+}
