@@ -1,0 +1,15 @@
+{
+  "CLUSTER": "Clúster",
+  "SHARD": "Fragmento",
+  "SHARDS": "Fragmentos",
+  "PING": "Latencia",
+  "LIBRARY": "Librería",
+  "NODE_VERSION": "Versión de Node",
+  "OPERATIVE_SYSTEM": "Sistema operativo",
+  "TOTAL_SERVERS": "Servidores totales",
+  "TOTAL_USERS": "Usuarios totales",
+  "TOTAL_CACHED_CHANNELS": "Canales cacheados totales",
+  "SERVERS": "Servidores",
+  "USERS": "Usuarios",
+  "CACHED_CHANNELS": "Canales en caché"
+}
