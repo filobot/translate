@@ -1,0 +1,187 @@
+{
+  "HELP_TITLE": "Viendo la lista de comandos de Filo",
+  "COMMAND_CATEGORIES": {
+    "ADMINISTRATION": "Administración",
+    "ANIMALS": "Animales",
+    "ANIME": "Anime",
+    "CORE": "Core",
+    "DEVELOPER": "Desarrollador",
+    "FUN": "Diversión",
+    "ECONOMY": "Economía",
+    "GAME_STATISTICS": "Estadísticas en Juegos",
+    "GAMES": "Juegos",
+    "MISCELLANEOUS": "Misceláneos",
+    "MODERATION": "Moderación",
+    "PRIVATE": "Privado",
+    "SERVER": "Servidor",
+    "SETTINGS": "Configuraciones",
+    "SOCIAL": "Social",
+    "UTILITIES": "Utilidades"
+  },
+  "CATEGORIES_DESCRIPTION": {
+    "ADMINISTRATION": "Comandos que administran o modifican parámetros importantes del servidor o de un usuario.",
+    "ANIMALS": "Comandos de animales.",
+    "ANIME": "Comandos de anime.",
+    "CORE": "Comandos de información y gestión de Filo.",
+    "FUN": "Comandos divertidos como memes entre otras cosas.",
+    "ECONOMY": "Comandos de economía.",
+    "GAME_STATISTICS": "Comandos para extraer las estadísticas de un jugador en un determinado juego.",
+    "GAMES": "Comandos con minijuegos para pasar el tiempo.",
+    "MISCELLANEOUS": "Comandos que no pueden ser categorizados en otro sitio. Encontrarás de todo.",
+    "MODERATION": "Comandos para administrar la moderación de los usuarios.",
+    "SERVER": "Comandos de información o utilidades del servidor.",
+    "SETTINGS": "Comandos para configurar a Filo.",
+    "SOCIAL": "Comandos sociales.",
+    "UTILITIES": "Comandos de utilidad.",
+    "DEVELOPER": "Comandos del desarrollador.",
+    "PRIVATE": "Comandos privados."
+  },
+  "GENERIC_CATEGORY_DESCRIPTION": "Comandos de la categoría {{category}}.",
+  "MULTIPLE_COMMANDS": "Se han encontrado varios comandos con el mismo nombre. Seleccione el comando que quieres consultar a continuación.",
+  "SELECT_A_COMMAND": "Seleccione el comando que quieres consultar.",
+  "SELECT_A_CATEGORY": "Seleccionar la categoría que quieres consultar.",
+  "COMMAND_SELECTED": "Has seleccionado correctamente el comando.",
+  "COMMAND_DESCRIPTIONS": {
+    "ADMINISTRATION": {
+      "CHANNEL": "Gestiona un canal",
+      "NICKNAME": "Administra el apodo de un usuario",
+      "ROLE": "Administrar los roles de un usuario"
+    },
+    "ANIMALS": {
+      "BIRDS": "Envía una imagen de pájaros al canal",
+      "MAMMALS": "Envía una imagen de mamíferos al canal",
+      "REPTILES": "Envía una imagen de reptiles al canal"
+    },
+    "ANIME": {
+      "ANIME": "Utilidades de Anime",
+      "COFFEE": "Envía un gif aleatorio de un café",
+      "FAN-ART": "Envía un arte de fan aleatorio",
+      "FOOD": "Envía un gif aleatorio de comida",
+      "GECG": "Envía una imagen aleatoria de un gecg",
+      "GENSHIN-IMPACT": "Envía un fondo de pantalla aleatorio de Genshin Impact",
+      "INTERACTION": "Interactúa con otros usuarios con gifs y acciones",
+      "HUSBAND": "Envía una imagen aleatoria de un husbando",
+      "MANGA": "Utilidades de Manga",
+      "NEKO": "Envía una imagen aleatoria de un neko",
+      "REACTION": "Reacciona para otros usuarios usando gifs",
+      "TRAP": "Envía una imagen aleatoria de un trapito",
+      "WAIFU": "Envía una imagen aleatoria de una waifu"
+    },
+    "CORE": {
+      "CLUSTER": "Obtén información sobre el clúster actual de Filo",
+      "COMMANDS": "Obtén la lista de comandos del bot o la información sobre un comando",
+      "DISCORD": "Obtén el enlace al Servidor Discord de Filo",
+      "DONATE": "Obtén información sobre las donaciones del bot",
+      "FLAGS": "Muestra tus banderas o las del usuario especificado",
+      "GITHUB": "Obtén el enlace del GitHub de Filo",
+      "HELP": "Obtén ayuda básica del bot",
+      "INFO": "Obtén información acerca del bot",
+      "INVITE": "Obtén la invitación recomendada de Filo",
+      "PING": "Obtén la latencia de Filo y de la API de Discord",
+      "PRIVACY": "Obtén el enlace a la Política de Privacidad de Filo",
+      "ROLES": "Administra los roles de una manera avanzada",
+      "STATISTICS": "Obtén las estadísticas globales de Filo",
+      "STATUS": "Obtén el enlace hacia la página de estado de Filo",
+      "SETUP": "Configura los módulos y el comportamiento de Filo",
+      "SUPPORT": "Obtén información sobre cómo recibir soporte",
+      "TERMS": "Obtén el enlace a los Términos y Condiciones de Filo",
+      "TWITTER": "Obtén el enlace del Twitter de Filo",
+      "VOTE": "Obtén el enlace de las páginas de voto de Filo",
+      "VOTES": "Obtén el contador de votos de todas las páginas de voto de Filo",
+      "WEBSITE": "Obtén el enlace del sitio web de Filo",
+      "WIKI": "Obtén el enlace de la Wiki de Filo"
+    },
+    "ECONOMY": {
+      "CREDITS": "Obtén tus créditos actuales o los créditos de un usuario",
+      "DAILY": "Reclama tus créditos diarios o regálalos a un usuario",
+      "PAY": "Paga una cantidad de créditos a otro usuario"
+    },
+    "FUN": {
+      "8BALL": "Haz una pregunta a la bola 8 y te responderá sabiamente",
+      "CHUCKNORRIS": "Envía un meme de Chuck Norris al canal actual",
+      "DRAKE": "Envía un meme de Drake al canal actual",
+      "JOKE": "Envía un chiste aleatorio al canal actual",
+      "LOVE": "Envía una imagen mostrando el amor que tienes con otro usuario al canal actual",
+      "MEME": "Envía un meme aleatorio al canal actual",
+      "OWOIFY": "Convertir texto a owo"
+    },
+    "GAME_STATISTICS": {
+      "CSGO": "Mira las estadísticas de un jugador de CSGO",
+      "FORTNITE": "Mira las estadísticas de un jugador de Fortnite",
+      "OSU": "Mira las estadísticas de un jugador de osu!",
+      "R6S": "Mira las estadísticas de un jugador de R6S"
+    },
+    "GAMES": {
+      "COINFLIP": "Juego clásico de giro de moneda",
+      "SLOT": "Juego clásico de la máquina tragaperras"
+    },
+    "MISCELLANEOUS": {
+      "ASCII": "Convierta su texto a texto ASCII",
+      "AVATAR": "Muestra tu avatar o el de un usuario",
+      "FORTNITE-STORE": "Obtén un artículo aleatorio de la tienda Fortnite",
+      "LYRICS": "Obtén la letra de una canción",
+      "MINECRAFT": "Comandos de utilidad de Minecraft",
+      "POLL": "Crea una encuesta en el canal actual",
+      "RANDOM-COLOR": "Obtén la información básica de un color aleatorio",
+      "RANDOM-NUMBER": "Obtén un número aleatorio",
+      "SAY": "Envía un mensaje usando a Filo",
+      "WEATHER": "Obtén el tiempo de una ubicación"
+    },
+    "MODERATION": {
+      "BAN": "Prohíbe permanente a un usuario del servidor",
+      "CASE": "Administra un caso de sanción",
+      "HISTORY": "Muestra el historial de sanciones de un usuario",
+      "KICK": "Expulsa a un usuario del servidor",
+      "MUTE": "Silencia permanentemente a un usuario del servidor",
+      "SOFTBAN": "Prohíbe suavemente a un usuario del servidor",
+      "TEMPBAN": "Prohíbe temporalmente a un usuario del servidor.",
+      "TEMPMUTE": "Silencia temporalmente a un usuario del servidor",
+      "UNBAN": "Elimina la prohibición de un usuario",
+      "UNMUTE": "Elimina el silencio de un usuario",
+      "UNWARN": "Elimina un advertencia de un usuario",
+      "WARN": "Advierte a un usuario del servidor"
+    },
+    "SERVER": {
+      "ACTIVITY": "Inicia una actividad en un canal de voz",
+      "CHANNEL": "Obtén la información de un canal",
+      "INVITE": "Genera una invitación para un canal",
+      "NEWS": "Sigue u obtén información sobre nuestros canales de noticias",
+      "REPORT": "Informa del comportamiento de un usuario a un moderador del servidor",
+      "ROLE": "Obtén la información de un rol",
+      "SERVER": "Obtén información acerca del servidor"
+    },
+    "SETTINGS": {
+      "ANTI-BAD-WORDS": "Módulo que te permite sancionar a los usuarios que envían malas palabras",
+      "ANTI-EVASION": "Módulo que te permite prohibir a los usuarios que intentan evadir una sanción activa",
+      "ANTI-EXTERNAL-LINKS": "Módulo que te permite sancionar a los usuarios que envían enlaces",
+      "ANTI-INVITES": "Módulo que te permite sancionar a los usuarios que envían invitaciones de otros servidores",
+      "ANTI-MASS-MENTIONS": "Módulo que te permite sancionar que los usuarios mencionen a demasiados usuarios",
+      "ANTI-REPEATED-TEXT": "Módulo que te permite sancionar a los usuarios que envían texto repetido en el mensaje",
+      "ANTI-SPAM": "Módulo que te permite evitar spam de usuarios",
+      "AUTO-MODERATION": "Módulo que te permite sancionar automáticamente a los usuarios con una cierta cantidad de advertencias",
+      "COMMANDS": "Administra los comandos de Filo activándolos o desactivándolos",
+      "FAREWELLS": "Módulo que te permite enviar un mensaje de despedida a los antiguos miembros",
+      "LANGUAGE": "Módulo que te permite establecer el idioma de Filo",
+      "LOGGING": "Módulo que permite enviar los registros del servidor a un canal",
+      "MEMBER-COUNTER": "Módulo que permite configurar un canal como un contador de miembros del servidor",
+      "REPORTS": "Módulo que permite a los usuarios informar de un mal comportamiento a los moderadores del servidor",
+      "WELCOMES": "Módulo de bienvenida que te permite enviar un mensaje a nuevos miembros y asignarles un rol"
+    },
+    "SOCIAL": {
+      "PROFILE": "Obtén tu perfil o el perfil de un usuario"
+    },
+    "UTILITIES": {
+      "BINARY": "Codifica el binario o decodifica el código binario",
+      "MORSE": "Codifica morse o decodifica código morse",
+      "SHORTEN": "Acorta una URL"
+    }
+  },
+  "REQUIRED_FILO_PERMISSIONS": "Permisos necesarios de Filo",
+  "REQUIRED_USER_PERMISSIONS": "Permisos requeridos del usuario",
+  "ALTERNATIVE_USER_PERMISSIONS": "Permisos de usuarios alternativos",
+  "NO_PERMISSIONS_ARE_NEEDED": "No se necesitan permisos.",
+  "COMMAND_RESTRICTIONS": "Restricciones del comando",
+  "ONLY_IN_A_SERVER": "Este comando solo puede ejecutarse en un servidor.",
+  "REQUIRED_FLAG": "Bandera necesaria",
+  "COMMAND_USAGE": "Uso del comando"
+}

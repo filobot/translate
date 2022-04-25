@@ -1,0 +1,27 @@
+{
+  "GUILD": "Gremio",
+  "GUILDS": "Gremios",
+  "GUILD_ID": "ID del gremio",
+  "VERIFICATION_LEVEL": {
+    "NONE": "Ninguno: Sin restricciones.",
+    "LOW": "Bajo: Debe tener un correo electrónico verificado en su cuenta de Discord.",
+    "MEDIUM": "Medio: También debe estar registrado en Discord por más de 5 minutos.",
+    "HIGH": "Alto: También debe ser miembro de este servidor por más de 10 minutos.",
+    "VERY_HIGH": "Muy alto: Debe tener un teléfono verificado en su cuenta de Discord."
+  },
+  "NSFW_LEVEL": "Nivel NSFW",
+  "PREMIUM_TIER": "Nivel premium",
+  "EXPLICIT_CONTENT_FILTER": "Filtro de contenido explícito",
+  "MEMBERS_WITHOUT_ROLES": "Miembros sin roles",
+  "ALL_MEMBERS": "Todos los miembros",
+  "MFA_LEVEL": "Nivel MFA",
+  "GUILD_OWNER": "Propietario del gremio",
+  "BOOSTS": "Mejoras",
+  "MODERATION_LEVEL": "Nivel de moderación",
+  "DEFAULT_NOTIFICATIONS": "Notificaciones predeterminadas",
+  "ALL_MESSAGES": "Todos los mensajes",
+  "ONLY_MENTIONS": "Solo @menciones",
+  "SYSTEM_CHANNEL": "Canal del sistema",
+  "2FA_DISABLED": "2FA desactivada",
+  "2FA_ENABLED": "2FA activado para moderadores"
+}

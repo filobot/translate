@@ -1,0 +1,91 @@
+{
+  "HOME": {
+    "PRE_START": "Antes de continuar, debes hacer clic en el botón **{{button}}**.",
+    "DESCRIPTION": "Empieza a configurar Filo seleccionando la categoría de módulos que quieres configurar y luego selecciona el módulo con el que desea operar.\n\n**¿Necesitas una guía de referencia? ¡No te preocupes! **\nHaciendo **[clic aquí]({{url}})**, te redirigiremos a la Wiki de Filo, la cuál contiene información sobre cómo configurar cualquier cosa.\n\n**¿Demasiado complicado?**\n**[Contáctanos]({{url2}})** si tienes alguna pregunta o necesitas alguna aclaración adicional.",
+    "SELECT_A_MODULE_CATEGORY": {
+      "PLACEHOLDER": "Selecciona una categoría de módulos",
+      "ADMINISTRATION": {
+        "LABEL": "Módulos de administración",
+        "DESCRIPTION": "Módulos para ayudarte en la administración de tu servidor."
+      },
+      "COMMUNITY": {
+        "LABEL": "Módulos de comunidad",
+        "DESCRIPTION": "Módulos para ayudarte a mejorar la experiencia de tu comunidad."
+      },
+      "MODERATION": {
+        "LABEL": "Módulos de moderación",
+        "DESCRIPTION": "Módulos para ayudarte a moderar tu servidor."
+      }
+    },
+    "TITLE": "Menú de Configuración de Filo"
+  },
+  "LOADING_DATA": "Por favor espera mientras se cargan los datos necesarios.",
+  "MODULES": {
+    "SELECT_A_MODULE": "Debes seleccionar el módulo de la categoría **{{module}}** que quieres configurar.",
+    "PLACEHOLDER": "Selecciona un módulo",
+    "SELECT_THE_ACTION": "Debes seleccionar la acción que quieres llevar a cabo en el módulo.",
+    "MODULE_ENABLED_OR_DISABLED": "El módulo **{{module}}** se ha {{action}} correctamente.",
+    "RESET_REQUEST_WARNING": "¿Estás seguro de que quieres restablecer el módulo **{{module}}**? ¡Esta acción no se puede deshacer!",
+    "MODULE_RESET": "El módulo **{{module}}** se ha restablecido correctamente.",
+    "COMMUNITY": {
+      "NAME": "Comunidad",
+      "COMMANDS": {
+        "LABEL": "Comandos",
+        "DESCRIPTION": "Cambia el comportamiento de los comandos de Filo.",
+        "SELECT_THE_ACTION_PLACEHOLDER": "Selecciona una acción",
+        "CONFIGURE": {
+          "SELECT_THE_COMMANDS": "Debes seleccionar los comandos que quieres {{action}}.",
+          "SELECT_THE_CATEGORIES": "Debes seleccionar las categorías que quieres {{action}}.",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Selecciona los comandos",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Selecciona las categorías",
+          "DISABLE_COMMANDS": {
+            "LABEL": "Desactivar comandos",
+            "DESCRIPTION": "Desactiva los comandos de Filo.",
+            "NO_COMMANDS_TO_DISABLE": "Todos los comandos disponibles han sido desactivados.",
+            "COMMANDS_DISABLED": "Has desactivado **{{commands}}** comandos correctamente."
+          },
+          "ENABLE_COMMANDS": {
+            "LABEL": "Activar comandos",
+            "DESCRIPTION": "Activa los comandos de Filo.",
+            "NO_COMMANDS_TO_ENABLE": "Todos los comandos disponibles están activados actualmente.",
+            "COMMANDS_ENABLED": "Has activado **{{commands}}** comandos correctamente."
+          },
+          "DISABLE_CATEGORIES": {
+            "LABEL": "Desactivar categorias",
+            "DESCRIPTION": "Desactiva las categorías de Filo.",
+            "NO_CATEGORIES_TO_DISABLE": "Todas las categorías disponibles han sido desactivadas.",
+            "CATEGORIES_DISABLED": "Has desactivado **{{categories}}** categorías correctamente."
+          },
+          "ENABLE_CATEGORIES": {
+            "LABEL": "Activar categorías",
+            "DESCRIPTION": "Activa las categorías de Filo.",
+            "NO_CATEGORIES_TO_ENABLE": "Todas las categorías disponibles están activadas actualmente.",
+            "CATEGORIES_ENABLED": "Has activado **{{categories}}** categorías correctamente."
+          }
+        }
+      },
+      "LANGUAGE": {
+        "LABEL": "Idioma",
+        "DESCRIPTION": "Cambia el idioma de Filo en este servidor.",
+        "SELECT_A_LANGUAGE": "Debes seleccionar el idioma que quieres establecer.",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Selecciona un idioma",
+        "LANGUAGE_SET": "Has establecido el idioma **{{language}}** correctamente."
+      }
+    },
+    "VIEW": {
+      "TITLE": "Viendo las configuraciones del módulo **{{module}}**",
+      "NO_DATA": "Sin datos",
+      "SELECT_THE_DATA": "Selecciona los datos a ver",
+      "VIEW_ALL": "Ver todos los {{data}}.",
+      "COMMUNITY": {
+        "LANGUAGE": {
+          "LANGUAGE_CODE": "Código del idioma"
+        },
+        "COMMANDS": {
+          "DISABLED_COMMANDS": "Comandos desactivados",
+          "DISABLED_CATEGORIES": "Categorías desactivadas"
+        }
+      }
+    }
+  }
+}

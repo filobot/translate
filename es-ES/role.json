@@ -1,0 +1,18 @@
+{
+  "ROLE": "Rol",
+  "ROLES": "Roles",
+  "ROLE_COLOR": "Color del rol",
+  "ROLE_POSITION": "Posición del rol",
+  "ROLE_PERMISSIONS": "Permisos del rol",
+  "ROLE_MANAGED_TRUE": "Este rol está gestionado por una integración",
+  "ROLE_MANAGED_FALSE": "El rol no está gestionado por una integración",
+  "ROLE_HOIST_TRUE": "El rol se eleva",
+  "ROLE_HOIST_FALSE": "El rol no se eleva",
+  "ROLE_MENTIONABLE_TRUE": "El rol puede ser mencionado por todos",
+  "ROLE_MENTIONABLE_FALSE": "El rol sólo puede ser mencionado por los usuarios con el permiso ``{{permission}}``",
+  "ROLE_TYPE": "Tipo de rol",
+  "NORMAL_ROLE": "Rol normal",
+  "BOT_ROLE": "Rol de bot",
+  "INTEGRATION_ROLE": "Rol de integración",
+  "PREMIUM_ROLE": "Rol de suscriptor premium"
+}

@@ -1,0 +1,9 @@
+{
+  "STAGE_INSTANCE": "Sân khấu",
+  "STAGE_INSTANCES": "Các sân khấu",
+  "STAGE_INSTANCE_PRIVACY_LEVEL": "Mức độ riêng tư",
+  "PUBLIC_STAGE_INSTANCE": "Sân khấu cộng đồng",
+  "PRIVATE_STAGE_INSTANCE": "Sân khấu riêng tư",
+  "DISCOVERABLE_DISABLED_TRUE": "Sân khấu này không tồn tại",
+  "DISCOVERABLE_DISABLED_FALSE": "Sân khấu này có tồn tại"
+}

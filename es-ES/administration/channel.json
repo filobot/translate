@@ -1,0 +1,19 @@
+{
+  "COOLDOWN": {
+    "COMPLETED": "Has establecido **{{time}}** como el tiempo de espera en el canal **[#{{channel.name}}]({{url}})**."
+  },
+  "MESSAGES": {
+    "PIN": {
+      "COMPLETED": "Has fijado el mensaje **[{{message.id}}]({{message.url}})** en el canal **[#{{channel.name}}]({{url}})**."
+    },
+    "PURGE": {
+      "COMPLETED": "Has purgado **{{messages}}** mensajes del canal **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+    },
+    "UNPIN": {
+      "COMPLETED": "Has desfijado el mensaje **[{{message.id}}]({{message.url}})** en el canal **[#{{channel.name}}]({{url}})**."
+    }
+  },
+  "NSFW": {
+    "COMPLETED": "Has {{action}} el modo NSFW en el canal **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+  }
+}
