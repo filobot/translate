@@ -1,3 +1,0 @@
-{
-  "COMPLETED": "Bạn đã chỉnh thời gian cooldown là **{{time}}** cho kênh **[#{{channel.name}}]({{url}})**."
-}

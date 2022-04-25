@@ -1,3 +1,0 @@
-{
-  "INVITE_GENERATED": "Has generado una invitación para el canal **[#{{channel.name}}]({{url}})**."
-}

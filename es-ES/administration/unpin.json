@@ -1,3 +1,0 @@
-{
-  "COMPLETED": "Has desfijado el mensaje **[{{message.id}}]({{message.url}})** en el canal **[#{{channel.name}}]({{url}})**."
-}
