@@ -1,3 +1,0 @@
-{
-  "COMPLETED": "You have {{action}} the {{role.mention}} ({{role.id}}) role to **[{{user.tag}}]({{url}})** ({{user.id}})."
-}
