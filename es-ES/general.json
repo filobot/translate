@@ -73,5 +73,6 @@
   "WITHOUT_PERKS": "Sin ventajas",
   "NOT_SETTED": "No establecido",
   "TEXT": "Texto",
-  "SYNTAX": "Sintaxis"
+  "SYNTAX": "Sintaxis",
+  "SANCTION_PENDING_PROCESSING": "La sanción ha sido añadida a la cola y está pendiente de procesarse."
 }
