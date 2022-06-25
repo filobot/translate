@@ -73,5 +73,6 @@
   "WITHOUT_PERKS": "Without perks",
   "NOT_SETTED": "Not setted",
   "TEXT": "Text",
-  "SYNTAX": "Syntax"
+  "SYNTAX": "Syntax",
+  "SANCTION_PENDING_PROCESSING": "The sanction has been added to the queue and is pending processing."
 }
