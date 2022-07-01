@@ -64,12 +64,13 @@
   "UNKNOWN_MUTED_ROLE": "El rol **silenciado** no se ha encontrado. Comprueba la configuración de Filo e inténtalo de nuevo más tarde.",
   "ROLE_DOES_NOT_APPLY": "Este rol no puede ser usado para esta acción.",
   "INVALID_BITFIELD": "Los bits de permisos que especificaste no son válidos.",
-  "USER_ALREADY_SANCTIONED": "**{{user.tag}}** ({{user.id}}) ya tiene una sanción del mismo tipo activa.",
-  "USER_IS_NOT_SANCTIONED": "**{{user.tag}}** ({{user.id}}) no tiene ninguna sanción activa de este tipo.",
+  "USER_ALREADY_SANCTIONED": "**[{{user.tag}}]({{url}})** ({{user.id}}) already has a sanction of the same type active.",
+  "USER_IS_NOT_SANCTIONED": "**[{{user.tag}}]({{url}})** ({{user.id}}) has no active sanction of this type.",
   "UNKNOWN_SANCTION": "No se pudo encontrar esa sanción en la base de datos.",
   "UNKNOWN_SANCTION_REMOVE_TIP": "Fuerza la eliminación de esta sanción ejecutando este comando: **{{command}}**.",
   "MAX_NUMBER_OF_ROLES_REACHED": "Este servidor ha alcanzado el límite de **{{roles}}** roles.",
   "MODULE_DISABLED": "El módulo **[{{module}}]({{url}})** está desactivado y por lo tanto esta acción no se puede realizar.",
   "INVALID_MORSE_CODE": "El código morse que has especificado no es válido.",
-  "SETUP_MENU_EXPIRED": "El menú de configuración ha expirado, esto puede ser porque se ha abierto otro menú de configuración, en caso contrario **[contáctanos]({{url}})**."
+  "SETUP_MENU_EXPIRED": "El menú de configuración ha expirado, esto puede ser porque se ha abierto otro menú de configuración, en caso contrario **[contáctanos]({{url}})**.",
+  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) has one or more sanctions pending processing."
 }
