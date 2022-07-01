@@ -73,5 +73,6 @@
   "WITHOUT_PERKS": "Không có đặc quyền",
   "NOT_SETTED": "Chưa đặt",
   "TEXT": "Văn bản",
-  "SYNTAX": "Cú pháp"
+  "SYNTAX": "Cú pháp",
+  "SANCTION_PENDING_PROCESSING": "The sanction has been added to the queue and is pending processing."
 }
