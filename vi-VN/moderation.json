@@ -40,5 +40,7 @@
   "SANCTIONED_USER": "Người dùng đã bị phạt",
   "SANCTION_TYPE": "Loại hình phạt",
   "NO_EXPIRES": "Không hết hạn",
-  "CASE_REMOVED": "Vụ án đã được gỡ bỏ"
+  "CASE_REMOVED": "Vụ án đã được gỡ bỏ",
+  "SANCTION_DATA": "Sanction data",
+  "EXAMPLE_REASON": "Being too Kawaii!"
 }
