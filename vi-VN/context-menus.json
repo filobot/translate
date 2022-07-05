@@ -25,7 +25,19 @@
       "PERMANENTLY_MUTE_THIS_USER_TITLE": "Mute người dùng vĩnh viễn",
       "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Mute người dùng này vĩnh viễn.",
       "SOFTBAN_THIS_USER_TITLE": "Ban nhẹ tay người dùng",
-      "SOFTBAN_THIS_USER_DESCRIPTION": "Ban nhẹ tay người dùng này."
+      "SOFTBAN_THIS_USER_DESCRIPTION": "Ban nhẹ tay người dùng này.",
+      "TEMPORARILY_BAN_THIS_USER_TITLE": "Temporarily ban this user",
+      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Temporarily ban this user from the server.",
+      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Temporarily mute this user",
+      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Temporarily mute this user from the server.",
+      "UNBAN_THIS_USER_TITLE": "Unban this user",
+      "UNBAN_THIS_USER_DESCRIPTION": "Unban this user from the server.",
+      "UNMUTE_THIS_USER_TITLE": "Unmute this user",
+      "UNMUTE_THIS_USER_DESCRIPTION": "Unmute this user from the server.",
+      "UNWARN_THIS_USER_TITLE": "Unwarn this user",
+      "UNWARN_THIS_USER_DESCRIPTION": "Unwarn this user from the server.",
+      "WARN_THIS_USER_TITLE": "Warn this user",
+      "WARN_THIS_USER_DESCRIPTION": "Warn this user from the server."
     }
   }
 }
