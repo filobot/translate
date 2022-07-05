@@ -40,5 +40,7 @@
   "SANCTIONED_USER": "Usuario sancionado",
   "SANCTION_TYPE": "Tipo de sanción",
   "NO_EXPIRES": "No expira",
-  "CASE_REMOVED": "Caso eliminado"
+  "CASE_REMOVED": "Caso eliminado",
+  "SANCTION_DATA": "Sanction data",
+  "EXAMPLE_REASON": "Being too Kawaii!"
 }
