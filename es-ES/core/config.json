@@ -57,7 +57,7 @@
   "MESSAGE_SET": "Has configurado el mensaje del módulo **{{module}}** correctamente.",
   "MESSAGE_TYPE_SET": "Has establecido el tipo de mensaje para el módulo **{{module}}.",
   "MESSAGE_TYPE": "Tipo de mensaje",
-  "ROLE_SET": "Has establecido el rol {{role.mention}} ({{role.id}}) para el módulo **{{module}}.",
+  "ROLE_SET": "Has establecido el rol {{role.mention}} ({{role.id}}) para el módulo **{{module}}**.",
   "MEMBER_COUNTER_ENABLED_PROTIP": "Establece el canal contador de miembros ejecutando este comando: **{{command}}**.",
   "MEMBER_COUNTER_NAME_MISSING_VARIABLE": "El nombre del canal del contador de miembros debe contener esta variable: **{{variable}}**.",
   "MEMBER_COUNTER_NAME_SET": "Ha establecido el nombre del canal contador de miembros correctamente.",
