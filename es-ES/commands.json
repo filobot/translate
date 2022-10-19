@@ -1,0 +1,5 @@
+{
+  "server": {
+    "description": "Get information about the server."
+  }
+}
