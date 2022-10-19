@@ -1,5 +1,9 @@
 {
-  "server": {
-    "description": "Obtén información del servidor."
-  }
+  "slash_commands": {
+    "server": {
+      "description": "Obtén información del servidor."
+    }
+  },
+  "user_context_menu": {},
+  "message_context_menu": {}
 }
