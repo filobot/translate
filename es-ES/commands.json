@@ -1,7 +1,7 @@
 {
   "slash_commands": {
     "server": {
-      "description": "Get information about the server."
+      "description": "Obtén información del servidor."
     }
   },
   "user_context_menu": {},
