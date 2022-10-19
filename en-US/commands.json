@@ -3,7 +3,9 @@
     "birds": {
       "description": "Send a image of birds to the channel.",
       "options": {
-        "description": "Send a random image of a bird."
+        "random": {
+          "description": "Send a random image of a bird."
+        }
       }
     },
     "server": {
