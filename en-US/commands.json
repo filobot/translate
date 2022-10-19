@@ -1,5 +1,11 @@
 {
   "slash_commands": {
+    "birds": {
+      "description": "Send a image of birds to the channel.",
+      "options": {
+        "description": "Send a random image of a bird."
+      }
+    },
     "server": {
       "description": "Get information about the server."
     }
