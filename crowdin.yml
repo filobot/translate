@@ -1,31 +1,5 @@
 pull_request_labels:
-  - filo
+  - commands
 files:
-  - source: /en-US/*.json
-    translation: /%locale%/%original_file_name%
-  - source: /en-US/administration/*.json
-    translation: /%locale%/administration/%original_file_name%
-  #- source: /en-US/animals/*.json
-  #  translation: /%locale%/animals/%original_file_name%
-  - source: /en-US/anime/*.json
-    translation: /%locale%/anime/%original_file_name%
-  - source: /en-US/core/*.json
-    translation: /%locale%/core/%original_file_name%
-  - source: /en-US/fun/*.json
-    translation: /%locale%/fun/%original_file_name%
-  - source: /en-US/economy/*.json
-    translation: /%locale%/economy/%original_file_name%
-  #- source: /en-US/game-statistics/*.json
-  #  translation: /%locale%/game-statistics/%original_file_name%
-  - source: /en-US/games/*.json
-    translation: /%locale%/games/%original_file_name%
-  - source: /en-US/miscellaneous/*.json
-    translation: /%locale%/miscellaneous/%original_file_name%
-  - source: /en-US/moderation/*.json
-    translation: /%locale%/moderation/%original_file_name%
-  - source: /en-US/server/*.json
-    translation: /%locale%/server/%original_file_name%
-  - source: /en-US/social/*.json
-    translation: /%locale%/social/%original_file_name%
-  - source: /en-US/utilities/*.json
-    translation: /%locale%/utilities/%original_file_name%
+  - source: /en-US/commands.json
+    translation: /%locale%/commands.json

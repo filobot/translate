@@ -1,3 +1,0 @@
-{
-  "COMPLETED": "Bạn đã {{action}} lên role {{role.mention}} ({{role.id}}) cho **[{{user.tag}}]({{url}})** ({{user.id}})."
-}

@@ -1,6 +1,0 @@
-{
-  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) không có hình phạt.",
-  "SELECT_A_CASE": "Vui lòng chọn vụ án để xem",
-  "VIEWING_USER_HISTORY": "Đang xem lịch sử hình phạt của **{{user.username}}**",
-  "SANCTION_REMOVED": "Hình phạt này đã được loại bỏ ở case #**{{case.case}}**."
-}
