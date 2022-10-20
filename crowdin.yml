@@ -11,6 +11,8 @@ files:
     translation: /%locale%/anime/%original_file_name%
   - source: /en-US/core/*.json
     translation: /%locale%/core/%original_file_name%
+  - source: /en-US/discord-commands/*.json
+    translation: /%locale%/discord-commands/%original_file_name%
   - source: /en-US/fun/*.json
     translation: /%locale%/fun/%original_file_name%
   - source: /en-US/economy/*.json
