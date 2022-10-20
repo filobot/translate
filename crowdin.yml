@@ -11,8 +11,12 @@ files:
     translation: /%locale%/anime/%original_file_name%
   - source: /en-US/core/*.json
     translation: /%locale%/core/%original_file_name%
-  - source: /en-US/discord-commands/*.json
-    translation: /%locale%/discord-commands/%original_file_name%
+  - source: /en-US/discord-commands/slash-commands/*.json
+    translation: /%locale%/discord-commands/slash-commands/%original_file_name%
+  - source: /en-US/discord-commands/context-menus/user/*.json
+    translation: /%locale%/discord-commands/context-menus/user/%original_file_name%
+  - source: /en-US/discord-commands/context-menus/message/*.json
+    translation: /%locale%/discord-commands/context-menus/message/%original_file_name%
   - source: /en-US/fun/*.json
     translation: /%locale%/fun/%original_file_name%
   - source: /en-US/economy/*.json
