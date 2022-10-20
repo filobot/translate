@@ -2,8 +2,8 @@ pull_request_labels:
   - commands
 files:
   - source: /en-US/slash_commands/*.json
-    translation: /%locale%/%original_file_name%.json
+    translation: /%locale%/slash_commands/%original_file_name%
   - source: /en-US/context_menus/user/*.json
-    translation: /%locale%/context_menus/user/%original_file_name%.json
+    translation: /%locale%/context_menus/user/%original_file_name%
   - source: /en-US/context_menus/message/*.json
-    translation: /%locale%/context_menus/message/%original_file_name%.json
+    translation: /%locale%/context_menus/message/%original_file_name%
