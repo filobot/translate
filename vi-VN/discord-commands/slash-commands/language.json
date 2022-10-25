@@ -1,0 +1,21 @@
+{
+  "description": "Module that allows you to set the Filo's Language.",
+  "subcommands": {
+    "select": {
+      "description": "Select the Filo's language you prefer (must be available)."
+    },
+    "docs": {
+      "description": "Get the link of the language module documentation."
+    },
+    "view": {
+      "description": "View the current language information."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "name": "confirmation",
+        "description": "Are you really sure you want to reset the data for this module?"
+      }
+    }
+  }
+}
