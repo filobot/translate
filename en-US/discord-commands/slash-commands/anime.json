@@ -1,0 +1,58 @@
+{
+  "description": "Anime Utilities.",
+  "subcommands": {
+    "anime": {
+      "description": "Send a random image of an anime avatar."
+    },
+    "search": {
+      "description": "Search the information of an anime.",
+      "arguments": {
+        "title": {
+          "name": "title",
+          "description": "Title of the anime."
+        }
+      }
+    },
+    "random": {
+      "description": "Show information from a random anime or manga according to the criteria you specify.",
+      "arguments": {
+        "term": {
+          "name": "term",
+          "description": "Term that must include the title of the anime."
+        },
+        "type": {
+          "name": "type",
+          "description": "Anime type."
+        },
+        "status": {
+          "name": "status",
+          "description": "Anime's status."
+        },
+        "rating": {
+          "name": "rating",
+          "description": "Anime's rating."
+        },
+        "genre": {
+          "name": "genre",
+          "description": "Genre or one of the genres of the Anime."
+        }
+      }
+    }
+  },
+  "subcommand_groups": {
+    "characters": {
+      "description": "Send a random image or gif about an anime character.",
+      "subcommands": {
+        "ghoul": {
+          "description": "Send a random image of a Ghoul."
+        },
+        "jojo": {
+          "description":"Send a random image of a Jojo."
+        },
+        "titan": {
+          "description":"Send a random image of a Titan."
+        }
+      }
+    }
+  }
+}
