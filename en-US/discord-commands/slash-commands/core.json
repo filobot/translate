@@ -1,0 +1,153 @@
+{
+  "description": "Commands from the Core category.",
+  "subcommands": {
+    "info": {
+      "description": "Get information about the bot."
+    },
+    "flags": {
+      "description": "Show your flags or that of another specific user.",
+      "arguments": {
+        "user": {
+          "name": "user",
+          "description": "Show the flags of the user."
+        }
+      }
+    },
+    "donate": {
+      "description": "Get information about donations for the bot."
+    },
+    "commands": {
+      "description": "Get the list of bot commands or information about a command.",
+      "arguments": {
+        "command": {
+          "name": "command",
+          "description": "Get information from a command."
+        }
+      }
+    },
+    "invite": {
+      "description": "Get the recommended Filo's invite link."
+    },
+    "privacy": {
+      "description": "Get the link to Filo's Privacy Policy."
+    },
+    "terms": {
+      "description": "Get the link to Filo's Terms of Conditions."
+    },
+    "twitter": {
+      "description": "Get the link to Filo's Twitter."
+    },
+    "status": {
+      "description": "Get the link to Filo's Status."
+    },
+    "website": {
+      "description": "Get the link to Filo's Website."
+    },
+    "github": {
+      "description": "Get the link to Filo's GitHub."
+    },
+    "discord": {
+      "description": "Get the link to Filo's Discord Server."
+    },
+    "wiki": {
+      "description": "Get the link to Filo's Wiki."
+    },
+    "help": {
+      "description": "Get basic help on the bot."
+    },
+    "support": {
+      "description": "Get information on how to receive support."
+    },
+    "vote": {
+      "description": "Get the link to Filo's voting pages."
+    },
+    "votes": {
+      "description": "Get the vote counter of all Filo's voting pages."
+    },
+    "cluster": {
+      "description": "Get information about the current Filo's cluster."
+    },
+    "statistics": {
+      "description": "Get Filo's global stats."
+    },
+    "ping": {
+      "description": "Get the latency from Filo and from the Discord API."
+    }
+  },
+  "subcommand_groups": {
+    "roles": {
+      "description": "Manage roles in an advanced way.",
+      "subcommands": {
+        "muted": {
+          "description": "Create or set the Muted role in the settings.",
+          "arguments": {
+            "role": {
+              "name": "role",
+              "description": "Muted role (in case you want to set it and not create it)."
+            }
+          }
+        },
+        "remove": {
+          "description": "Remove all the parameters of a role from the settings.",
+          "arguments": {
+            "role": {
+              "name": "role",
+              "description": "Role to which you want to remove all the parameters (properties and permissions)."
+            }
+          }
+        },
+        "permissions": {
+          "description": "Manage the permissions of each role.",
+          "arguments": {
+            "role": {
+              "name": "role",
+              "description": "Role you want to manage."
+            },
+            "permission": {
+              "name": "permission",
+              "description": "Permission that you want to add, set, or remove."
+            }
+          }
+        },
+        "view": {
+          "description": "Get the settings of the guild roles."
+        },
+        "reset": {
+          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "arguments": {
+            "confirmation": {
+              "name": "confirmation",
+              "description": "Are you really sure you want to reset the data for this module?"
+            }
+          }
+        }
+      }
+    },
+    "moderation": {
+      "description": "Manage the moderation section.",
+      "subcommands": {
+        "dm-notifications": {
+          "description": "Enable or disable notifications for moderation actions.",
+          "arguments": {
+            "action": {
+              "name": "action",
+              "description": "Action you want to carry out."
+            }
+          }
+        },
+        "view": {
+          "description": "View the settings of the moderation parameters module."
+        },
+        "reset": {
+          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "arguments": {
+            "confirmation": {
+              "name": "confirmation",
+              "description": "Are you really sure you want to reset the data for this module?"
+            }
+          }
+        }
+      }
+    }
+  }
+}
