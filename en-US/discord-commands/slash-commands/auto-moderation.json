@@ -1,0 +1,73 @@
+{
+  "description": "Module that allows you to automatically sanction users with a certain amount of warnings.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the auto-moderation module."
+    },
+    "disable": {
+      "description": "Disable the auto-moderation module."
+    },
+    "add": {
+      "description": "Add a level to the auto-moderator.",
+      "arguments": {
+        "warnings": {
+          "name": "warnings",
+          "description": "Number of warnings the user must have to reach this level."
+        },
+        "action": {
+          "name": "action",
+          "description": "Action to take when someone reaches this level."
+        },
+        "time": {
+          "name": "time",
+          "description": "Time of the action (in case of being temporary)."
+        }
+      }
+    },
+    "remove": {
+      "description": "Remove a level to the auto-moderator.",
+      "arguments": {
+        "level": {
+          "name": "level",
+          "description": "Auto-moderator level."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the auto-moderation module documentation."
+    },
+    "view": {
+      "description": "View the settings of the auto-moderation module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    },
+    "set": {
+      "description": "Set the parameters of an auto-moderator level.",
+      "arguments": {
+        "level": {
+          "name": "level",
+          "description": "Auto-moderator level."
+        },
+        "warnings": {
+          "name": "warnings",
+          "description": "Number of warnings the user must have to reach this level."
+        },
+        "action": {
+          "name": "action",
+          "description": "Action to take when someone reaches this level."
+        },
+        "time": {
+          "name": "time",
+          "description": "Time of the action (in case of being temporary)."
+        }
+      }
+    }
+  }
+}
