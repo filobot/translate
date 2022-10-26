@@ -21,7 +21,7 @@
       "arguments": {
         "channel": {
           "name": "channel",
-          "description": "Logging channel."
+          "description": "Channel where the logs will be sent."
         }
       }
     },
