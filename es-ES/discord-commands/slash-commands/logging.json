@@ -1,0 +1,44 @@
+{
+  "description": "Module that allows to send the logs of the server to a channel.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the logging module."
+    },
+    "disable": {
+      "description": "Disable the logging module."
+    },
+    "events": {
+      "description": "Manage the different events you want to show.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Enables or disables an event."
+        }
+      }
+    },
+    "channel": {
+      "description": "Set the logging channel.",
+      "arguments": {
+        "channel": {
+          "name": "channel",
+          "description": "Channel where the logs will be sent."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the logging module documentation."
+    },
+    "view": {
+      "description": "View the settings of the logging module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    }
+  }
+}
