@@ -1,0 +1,45 @@
+{
+  "description": "Module that allows you to send a goodbye message to old members.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the farewells module."
+    },
+    "disable": {
+      "description": "Disable the farewells module."
+    },
+    "channel": {
+      "description": "Set the channel where the farewell messages will be sent.",
+      "arguments": {
+        "name": "channel",
+        "description": "Channel where farewell messages will be sent."
+      }
+    },
+    "message": {
+      "description": "Set the farewell message."
+    },
+    "type": {
+      "description": "Set the way in which the farewell message will be sent.",
+      "arguments": {
+        "type": {
+          "name": "type",
+          "description": "Way in which the welcome farewell will be sent."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the farewells module documentation."
+    },
+    "view": {
+      "description": "View the settings of the farewells module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    }
+  }
+}
