@@ -1,0 +1,9 @@
+{
+  "description": "Show your profile or the profile of another user.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User you want to get the profile for."
+    }
+  }
+}
