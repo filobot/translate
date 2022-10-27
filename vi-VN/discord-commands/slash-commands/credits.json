@@ -1,0 +1,9 @@
+{
+  "description": "Show your credits or another user's credits.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User to whom you want to get their credits."
+    }
+  }
+}
