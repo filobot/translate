@@ -1,5 +1,5 @@
 {
-  "description": "Watch the statistics of a CSGO player.",
+  "description": "Get the statistics of a CSGO player.",
   "arguments": {
     "player": {
       "name": "player",
