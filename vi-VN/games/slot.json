@@ -1,4 +1,0 @@
-{
-  "SLOT_MACHINE": "Máy đánh bạc",
-  "GAME_RESULT": "**{{user.tag}}** ({{user.id}}) đã đặt cược với số tiền là **{{bet}}** tiền và còn **{{status}}** {{credits}} tiền."
-}
