@@ -1,0 +1,45 @@
+{
+  "description": "Create a poll on the current channel.",
+  "arguments": {
+    "message": {
+      "name": "message",
+      "description": "Message to the poll."
+    },
+    "choice-1": {
+      "name": "choice-1",
+      "description": "Choice 1 of the poll."
+    },
+    "choice-2": {
+      "name": "choice-2",
+      "description": "Choice 2 of the poll."
+    },
+    "choice-3": {
+      "name": "choice-3",
+      "description": "Choice 3 of the poll."
+    },
+    "choice-4": {
+      "name": "choice-4",
+      "description": "Choice 4 of the poll."
+    },
+    "choice-5": {
+      "name": "choice-5",
+      "description": "Choice 5 of the poll."
+    },
+    "choice-6": {
+      "name": "choice-6",
+      "description": "Choice 6 of the poll."
+    },
+    "choice-7": {
+      "name": "choice-7",
+      "description": "Choice 7 of the poll."
+    },
+    "choice-8": {
+      "name": "choice-8",
+      "description": "Choice 8 of the poll."
+    },
+    "choice-9": {
+      "name": "choice-9",
+      "description": "Choice 9 of the poll."
+    }
+  }
+}
