@@ -1,0 +1,27 @@
+{
+  "description": "Follow or get information about our news channels.",
+  "subcommands": {
+    "information": {
+      "description": "Get information about our news channels.",
+      "arguments": {
+        "news": {
+          "name": "news",
+          "description": "News you want to get the information."
+        }
+      }
+    },
+    "follow": {
+      "description": "Follow the news from our server on your server.",
+      "arguments": {
+        "news": {
+          "name": "news",
+          "description": "News channel you want to follow."
+        },
+        "channel": {
+          "name": "channel",
+          "description": "Channel where you want the news to be sent."
+        }
+      }
+    }
+  }
+}
