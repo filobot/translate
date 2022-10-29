@@ -1,5 +1,5 @@
 {
-  "description": "Watch the statistics of a Fortnite player.",
+  "description": "Get the statistics of a Fortnite player.",
   "arguments": {
     "platform": {
       "name": "platform",
