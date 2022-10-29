@@ -14,7 +14,7 @@
       }
     },
     "random": {
-      "description": "Show information from a random anime or manga according to the criteria you specify.",
+      "description": "Show the information from a random anime according to the criteria you specify.",
       "arguments": {
         "term": {
           "name": "term",
@@ -34,7 +34,7 @@
         },
         "genre": {
           "name": "genre",
-          "description": "Genre or one of the genres of the Anime."
+          "description": "Género o uno de los géneros del anime."
         }
       }
     }
@@ -44,13 +44,13 @@
       "description": "Send a random image or gif about an anime character.",
       "subcommands": {
         "ghoul": {
-          "description": "Send a random image of a Ghoul."
+          "description": "Envía una imagen aleatoria de un Ghoul."
         },
         "jojo": {
-          "description": "Send a random image of a Jojo."
+          "description": "Envía una imagen aleatoria de un Jojo."
         },
         "titan": {
-          "description": "Send a random image of a Titan."
+          "description": "Envía una imagen aleatoria de un Titan."
         }
       }
     }
