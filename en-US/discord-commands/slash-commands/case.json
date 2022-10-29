@@ -11,7 +11,7 @@
       }
     },
     "set": {
-      "description": "Set new information for a case.",
+      "description": "Set the new information for a case.",
       "arguments": {
         "case": {
           "name": "case",
