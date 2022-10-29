@@ -2,7 +2,7 @@
   "description": "Manga Utilities.",
   "subcommands": {
     "random": {
-      "description": "Show information about an manga according to the criteria you specify.",
+      "description": "Show the information from a random manga according to the criteria you specify.",
       "arguments": {
         "term": {
           "name": "term",
@@ -22,7 +22,7 @@
         },
         "genre": {
           "name": "genre",
-          "description": "Genre or one of the genres of the Anime."
+          "description": "Género o uno de los géneros del anime."
         }
       }
     },
