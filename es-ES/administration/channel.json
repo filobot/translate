@@ -1,6 +1,6 @@
 {
   "COOLDOWN": {
-    "COMPLETED": "Has establecido **{{time}}** como el tiempo de espera en el canal **[#{{channel.name}}]({{url}})**."
+    "COMPLETED": "Has establecido **{{time}}** de enfriamiento en el canal **[#{{channel.name}}]({{url}})**."
   },
   "MESSAGES": {
     "PIN": {
