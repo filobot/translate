@@ -1,0 +1,9 @@
+{
+  "description": "Ask the 8 ball a question and it will answer you wisely.",
+  "arguments": {
+    "question": {
+      "name": "question",
+      "description": "Ask what you want to do to the 8 ball."
+    }
+  }
+}
