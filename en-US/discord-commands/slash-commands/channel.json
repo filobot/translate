@@ -90,7 +90,7 @@
   },
   "subcommands": {
     "info": {
-      "description": "Show information about a channel.",
+      "description": "Get information about a channel.",
       "arguments": {
         "channel": {
           "name": "channel",
