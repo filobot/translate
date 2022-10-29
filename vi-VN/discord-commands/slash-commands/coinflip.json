@@ -4,10 +4,6 @@
     "choice": {
       "name": "choice",
       "description": "Choose heads or tails to be able to play."
-    },
-    "bet": {
-      "name": "bet",
-      "description": "Amount of credits you want to bet."
     }
   }
 }
