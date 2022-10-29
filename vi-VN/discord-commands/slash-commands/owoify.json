@@ -2,7 +2,7 @@
   "description": "Convert text to owoify.",
   "subcommands": {
     "owo": {
-      "description": "Owoify ywour text",
+      "description": "Owoify ywour text.",
       "arguments": {
         "text": {
           "name": "text",
@@ -11,7 +11,7 @@
       }
     },
     "uwu": {
-      "description": "Owoify ywouw text",
+      "description": "Owoify ywouw text.",
       "arguments": {
         "text": {
           "name": "text",
@@ -20,7 +20,7 @@
       }
     },
     "uvu": {
-      "description": "Owoify ywowouw text",
+      "description": "Owoify ywowouw text.",
       "arguments": {
         "text": {
           "name": "text",
