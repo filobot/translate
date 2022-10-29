@@ -8,11 +8,11 @@
       "description": "Disable the anti-repeated-text module."
     },
     "action": {
-      "description": "Set the action when someone sends repeated text in a message.",
+      "description": "Set the action to take when someone sends repeated text in a message.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action when someone sends repeated text in a message."
+          "description": "Action to take when someone sends repeated text in a message."
         },
         "time": {
           "name": "time",
