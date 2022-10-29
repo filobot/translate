@@ -1,0 +1,40 @@
+{
+  "description": "Perform actions with server roles.",
+  "subcommands": {
+    "add": {
+      "description": "Add a role to a user.",
+      "arguments": {
+        "user": {
+          "name": "user",
+          "description": "User to which you want to add a role."
+        },
+        "role": {
+          "name": "role",
+          "description": "Role that you want to add to the user."
+        }
+      }
+    },
+    "info": {
+      "description": "Show the information of a role.",
+      "arguments": {
+        "role": {
+          "name": "role",
+          "description": "Role to which you want to get the information."
+        }
+      }
+    },
+    "remove": {
+      "description": "Remove a role from a user.",
+      "arguments": {
+        "user": {
+          "name": "user",
+          "description": "User from which you want to remove a role."
+        },
+        "role": {
+          "name": "role",
+          "description": "Role that you want to remove from the user."
+        }
+      }
+    }
+  }
+}
