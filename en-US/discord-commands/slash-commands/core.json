@@ -38,7 +38,7 @@
       "description": "Get the link to Filo's Twitter."
     },
     "status": {
-      "description": "Get the link to Filo's Status."
+      "description": "Get the link to Filo's Status page."
     },
     "website": {
       "description": "Get the link to Filo's Website."
