@@ -1,5 +1,5 @@
 {
-  "description": "Perform actions with server roles.",
+  "description": "Manage a server role.",
   "subcommands": {
     "add": {
       "description": "Add a role to a user.",
