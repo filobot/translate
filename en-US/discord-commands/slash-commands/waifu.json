@@ -1,0 +1,14 @@
+{
+  "description": "Send a random image of a waifu.",
+  "subcommands": {
+    "fox": {
+      "description": "Send a random image of a waifu fox."
+    },
+    "neko": {
+      "description": "Send a random image of a waifu neko."
+    },
+    "random": {
+      "description": "Send a random image of a waifu."
+    }
+  }
+}
