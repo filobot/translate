@@ -1,3 +1,5 @@
 {
-  "GAME_RESULT": "¡Has **{{status}}** ** la apuesta! **{{credits}}** créditos han sido {{action}} a tu cuenta."
+  "GAME_RESULT": "¡Has **{{status}}** porque el resultado es **{{result}}**!",
+  "HEADS": "Cara",
+  "TAILS": "Cruz"
 }

@@ -1,0 +1,13 @@
+{
+  "description": "Pay an amount of credits to another user.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User you want to pay."
+    },
+    "amount": {
+      "name": "amount",
+      "description": "Amount of credits you want to pay him."
+    }
+  }
+}

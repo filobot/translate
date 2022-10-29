@@ -1,0 +1,65 @@
+{
+  "description": "Module that allows you to sanction users who send repeated text in the message.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the anti-repeated-text module."
+    },
+    "disable": {
+      "description": "Disable the anti-repeated-text module."
+    },
+    "action": {
+      "description": "Set the action when someone sends repeated text in a message.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action when someone sends repeated text in a message."
+        },
+        "time": {
+          "name": "time",
+          "description": "Time of the action (in case of being temporary)."
+        }
+      }
+    },
+    "channel": {
+      "description": "Add or remove a channel from the list of ignored channels.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "channel": {
+          "name": "channel",
+          "description": "Channel from the module's channel bypass list."
+        }
+      }
+    },
+    "role": {
+      "description": "Add or remove a role from the list of ignored roles.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "role": {
+          "name": "role",
+          "description": "Role from the module's role bypass list."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the anti-repeated-text module documentation."
+    },
+    "view": {
+      "description": "View the settings of the anti-repeated-text module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    }
+  }
+}

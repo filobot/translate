@@ -1,0 +1,23 @@
+{
+  "description": "Encode binary or decode binary code.",
+  "subcommands": {
+    "encode": {
+      "description": "Convert the text to binary code.",
+      "arguments": {
+        "code": {
+          "name": "code",
+          "description": "Text that you want to binary encode."
+        }
+      }
+    },
+    "decode": {
+      "description": "Convert the binary code to text.",
+      "arguments": {
+        "code": {
+          "name": "code",
+          "description": "Binary code that you want to decode."
+        }
+      }
+    }
+  }
+}

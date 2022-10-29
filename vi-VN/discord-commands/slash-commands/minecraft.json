@@ -1,0 +1,81 @@
+{
+  "description": "Minecraft utility commands.",
+  "subcommands": {
+    "body": {
+      "description": "Send a render of the specified player's body.",
+      "arguments": {
+        "player": {
+          "name": "player",
+          "description": "Minecraft player."
+        }
+      }
+    },
+    "bust": {
+      "description": "Send a render of the specified player's bust.",
+      "arguments": {
+        "player": {
+          "name": "player",
+          "description": "Minecraft player."
+        }
+      }
+    },
+    "face": {
+      "description": "Send a render of the specified player's face.",
+      "arguments": {
+        "player": {
+          "name": "player",
+          "description": "Minecraft player."
+        }
+      }
+    },
+    "front": {
+      "description": "Send a render of the specified player's front.",
+      "arguments": {
+        "player": {
+          "name": "player",
+          "description": "Minecraft player."
+        }
+      }
+    },
+    "head": {
+      "description": "Send a render of the specified player's head.",
+      "arguments": {
+        "player": {
+          "name": "player",
+          "description": "Minecraft player."
+        }
+      }
+    },
+    "skin": {
+      "description": "Send a render of the specified player's skin.",
+      "arguments": {
+        "player": {
+          "name": "player",
+          "description": "Minecraft player."
+        }
+      }
+    },
+    "uuid": {
+      "description": "Get the UUID of a minecraft player.",
+      "arguments": {
+        "player": {
+          "name": "player",
+          "description": "Minecraft player."
+        }
+      }
+    },
+    "server": {
+      "description": "Get the status of a Minecraft server.",
+      "arguments": {
+        "ip-address": {
+          "name": "ip-address",
+          "description": "Minecraft server IP address."
+        },
+        "port": {
+          "name": "port",
+          "description": "Minecraft server port."
+        }
+      }
+    }
+  }
+}
