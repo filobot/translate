@@ -1,0 +1,39 @@
+{
+  "description": "Manga Utilities.",
+  "subcommands": {
+    "random": {
+      "description": "Show information about an manga according to the criteria you specify.",
+      "arguments": {
+        "term": {
+          "name": "term",
+          "description": "Term that must include the title of the manga."
+        },
+        "type": {
+          "name": "type",
+          "description": "Manga type."
+        },
+        "status": {
+          "name": "status",
+          "description": "Manga's status."
+        },
+        "rating": {
+          "name": "rating",
+          "description": "Manga's rating."
+        },
+        "genre": {
+          "name": "genre",
+          "description": "Genre or one of the genres of the Anime."
+        }
+      }
+    },
+    "search": {
+      "description": "Search the information of an manga.",
+      "arguments": {
+        "title": {
+          "name": "title",
+          "description": "Title of the anime you want to search its information."
+        }
+      }
+    }
+  }
+}
