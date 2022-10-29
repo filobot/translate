@@ -2,7 +2,7 @@
   "description": "Manga Utilities.",
   "subcommands": {
     "random": {
-      "description": "Show information about an manga according to the criteria you specify.",
+      "description": "Show the information from a random manga according to the criteria you specify.",
       "arguments": {
         "term": {
           "name": "term",
