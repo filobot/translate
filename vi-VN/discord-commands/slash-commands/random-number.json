@@ -1,0 +1,9 @@
+{
+  "description": "Get a random number.",
+  "arguments": {
+    "number": {
+      "name": "number",
+      "description": "Number with which you want to multiply the random value."
+    }
+  }
+}
