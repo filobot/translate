@@ -1,0 +1,8 @@
+{
+  "description": "Send a image of reptiles to the channel.",
+  "subcommands": {
+    "snake": {
+      "description": "Send a random image of a snake."
+    }
+  }
+}

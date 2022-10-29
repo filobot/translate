@@ -1,0 +1,94 @@
+{
+  "description": "Module that allows you to sanction users who send links.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the anti-external-links module."
+    },
+    "disable": {
+      "description": "Disable the anti-external-links module."
+    },
+    "action": {
+      "description": "Set the action to take when a user sends a link.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action to take when a user sends a link."
+        },
+        "time": {
+          "name": "time",
+          "description": "Time of the action (in case of being temporary)."
+        }
+      }
+    },
+    "filo": {
+      "description": "Enable or disable bypassing of links from Filo domains.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Enable or disable bypassing of links from Filo domains."
+        }
+      }
+    },
+    "discord": {
+      "description": "Enable or disable bypassing of links from Discord domains.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Enable or disable bypassing of links from Discord domains."
+        }
+      }
+    },
+    "link": {
+      "description": "Add or remove a link from the list of ignored links.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "link": {
+          "name": "link",
+          "description": "Link that you want to add or remove to the list of ignored links."
+        }
+      }
+    },
+    "channel": {
+      "description": "Add or remove a channel from the list of ignored channels.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "channel": {
+          "description": "Channel from the module's channel bypass list."
+        }
+      }
+    },
+    "role": {
+      "description": "Add or remove a role from the list of ignored roles.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "role": {
+          "description": "Role from the module's role bypass list."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the anti-external-links module documentation."
+    },
+    "view": {
+      "description": "View the settings of the anti-external-links module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    }
+  }
+}
