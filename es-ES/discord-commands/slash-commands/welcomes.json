@@ -53,7 +53,7 @@
       "description": "Obtener el enlace de la documentación del módulo de bienvenidas."
     },
     "view": {
-      "description": "Ver las configuraciones del módulo bienvenidas."
+      "description": "Ver las configuraciones del módulo de bienvenidas."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
