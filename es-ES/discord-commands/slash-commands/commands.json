@@ -1,5 +1,5 @@
 {
-  "description": "Administra los comandos de Filo activándolos o desactivándolos.",
+  "description": "Gestiona los comandos de Filo activándolos o desactivándolos.",
   "subcommands": {
     "enable": {
       "description": "Activa un comando o categoría de Filo.",
@@ -28,10 +28,10 @@
       }
     },
     "docs": {
-      "description": "Obtener el enlace de la documentación del módulo desactivar comandos."
+      "description": "Obtener el enlace de la documentación del módulo de desactivar comandos."
     },
     "view": {
-      "description": "Ver las configuraciones del módulo comandos."
+      "description": "Ver las configuraciones del módulo de desactivar comandos."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
