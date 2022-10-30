@@ -1,9 +1,9 @@
 {
-  "description": "Get the statistics of a osu! player.",
+  "description": "Obtén las estadísticas de un jugador de osu!.",
   "arguments": {
     "player": {
-      "name": "player",
-      "description": "In Game Nick of the player."
+      "name": "jugador",
+      "description": "Nombre En Juego del jugador."
     }
   }
 }
