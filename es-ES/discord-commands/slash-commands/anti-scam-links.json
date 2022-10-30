@@ -1,72 +1,72 @@
 {
-  "description": "Module that allows you to prevent users from sending scam links.",
+  "description": "Módulo que te permite sancionar a los usuarios que envían enlaces estafadores.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-scam-links module."
+      "description": "Activa el módulo anti-enlaces-estafadores."
     },
     "disable": {
-      "description": "Disable the anti-scam-links module."
+      "description": "Desactiva el módulo anti-enlaces-estafadores."
     },
     "action": {
-      "description": "Set the action to take when someone sends scam links.",
+      "description": "Establece la acción a realizar cuando alguien envía enlaces estafadores.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends scam links."
+          "name": "acción",
+          "description": "Acción a realizar cuando alguien envía enlaces estafadores."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "tiempo",
+          "description": "Tiempo de la acción (en caso de ser temporal)."
         }
       }
     },
     "aggressive-filter": {
-      "description": "Enable or disable the aggressive scam link detection filter.",
+      "description": "Activa o desactiva el filtro agresivo de detección de enlaces estafadores.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acción",
+          "description": "Acción que quieres llevar a cabo."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Añade o elimina un canal de la lista de canales ignorados.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acción",
+          "description": "Acción que quieres llevar a cabo."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "canal",
+          "description": "Canal de la lista de omisiones de canales."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Añade o elimina un rol de la lista de roles ignorados.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acción",
+          "description": "Acción que quieres llevar a cabo."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rol",
+          "description": "Rol de la lista de omisiones de roles."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-scam-links module documentation."
+      "description": "Obtener el enlace de la documentación del módulo anti-enlaces-estafadores."
     },
     "view": {
-      "description": "View the settings of the anti-scam-links module."
+      "description": "Ver las configuraciones del módulo anti-enlaces-estafadores."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
         }
       }
     }
