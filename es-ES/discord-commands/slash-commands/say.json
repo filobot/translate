@@ -1,21 +1,21 @@
 {
-  "description": "Send a message using Filo.",
+  "description": "Envía un mensaje usando a Filo.",
   "subcommads": {
     "embed": {
-      "description": "Send the message through an embed.",
+      "description": "Envía el mensaje a través de un embed.",
       "arguments": {
         "message": {
-          "name": "message",
-          "description": "Message you want to send."
+          "name": "mensaje",
+          "description": "Mensaje que quieres enviar."
         }
       }
     },
     "normal": {
-      "description": "Send the message using a normal message.",
+      "description": "Envía el mensaje usando un mensaje normal.",
       "arguments": {
         "message": {
-          "name": "message",
-          "description": "Message you want to send."
+          "name": "mensaje",
+          "description": "Mensaje que quieres enviar."
         }
       }
     }
