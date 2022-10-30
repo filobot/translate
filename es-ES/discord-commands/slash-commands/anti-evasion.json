@@ -1,37 +1,37 @@
 {
-  "description": "Module that allows you to ban those users who try to evade an active sanction.",
+  "description": "Módulo que te permite prohibir a los usuarios que intentan evadir una sanción activa.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-evasion module."
+      "description": "Activa el módulo anti-evasión."
     },
     "disable": {
-      "description": "Disable the anti-evasion module."
+      "description": "Desactiva el módulo anti-evasión."
     },
     "action": {
-      "description": "Set the action to take when someone tries to evade an active sanction.",
+      "description": "Establece la acción a realizar cuando alguien intente evadir una sanción activa.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone tries to evade an active sanction."
+          "name": "acción",
+          "description": "Acción a realizar cuando alguien intente evadir una sanción activa."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "tiempo",
+          "description": "Tiempo de la acción (en caso de ser temporal)."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-evasion module documentation."
+      "description": "Obtener el enlace de la documentación del módulo anti-evasión."
     },
     "view": {
-      "description": "View the settings of the anti-evasion module."
+      "description": "Ver las configuraciones del módulo anti-evasión."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
         }
       }
     }
