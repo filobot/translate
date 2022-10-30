@@ -1,5 +1,30 @@
 {
   "description": "Comandos de utilidad de Minecraft.",
+  "subcommand_groups": {
+    "front": {
+      "description": "Envía una render del frontal del jugador especificado.",
+      "subcommands": {
+        "body": {
+          "description": "Envía una render del cuerpo frontal del jugador especificado.",
+          "arguments": {
+            "player": {
+              "name": "jugador",
+              "description": "Jugador de Minecraft."
+            }
+          }
+        },
+        "normal": {
+          "description": "Envía una render del frontal del jugador especificado.",
+          "arguments": {
+            "player": {
+              "name": "jugador",
+              "description": "Jugador de Minecraft."
+            }
+          }
+        }
+      }
+    }
+  },
   "subcommands": {
     "body": {
       "description": "Envía una render del cuerpo del jugador especificado.",
@@ -21,15 +46,6 @@
     },
     "face": {
       "description": "Envía una render de la cabeza del jugador especificado.",
-      "arguments": {
-        "player": {
-          "name": "jugador",
-          "description": "Jugador de Minecraft."
-        }
-      }
-    },
-    "front": {
-      "description": "Envía una render del frontal del jugador especificado.",
       "arguments": {
         "player": {
           "name": "jugador",

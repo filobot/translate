@@ -118,7 +118,7 @@
         }
       }
     },
-    "clap": {
+    "slap": {
       "description": "Envía una interacción de bofetada.",
       "arguments": {
         "user": {

@@ -1,6 +1,6 @@
 {
   "description": "Send a message using Filo.",
-  "subcommads": {
+  "subcommands": {
     "embed": {
       "description": "Send the message through an embed.",
       "arguments": {
