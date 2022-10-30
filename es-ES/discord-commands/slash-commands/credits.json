@@ -1,9 +1,9 @@
 {
-  "description": "Show your credits or another user's credits.",
+  "description": "Muestra tus créditos o los créditos de otro usuario.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User to whom you want to get their credits."
+      "name": "usuario",
+      "description": "Usuario al que quieres recuperar sus créditos."
     }
   }
 }
