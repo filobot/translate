@@ -1,26 +1,26 @@
 {
-  "description": "Manage a channel.",
+  "description": "Gestiona un canal.",
   "subcommand_groups": {
     "cooldown": {
-      "description": "Manage the cooldown of a channel.",
+      "description": "Gestiona el enfriamiento de un canal.",
       "subcommands": {
         "set": {
-          "description": "Set the cooldown of a channel.",
+          "description": "Establece el enfriamiento de un canal.",
           "arguments": {
             "time": {
-              "name": "time",
-              "description": "Cooldown you want to set."
+              "name": "tiempo",
+              "description": "Enfriamiento que quieres establecer."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to set the cooldown."
+              "name": "canal",
+              "description": "Canal donde quieres establecer el enfriamiento."
             },
             "reset": {
-              "description": "Reset the cooldown of a channel.",
+              "description": "Restablece el enfriamiento de un canal.",
               "arguments": {
                 "channel": {
-                  "name": "channel",
-                  "description": "Channel where you want to reset the cooldown."
+                  "name": "canal",
+                  "description": "Canal donde quieres restablecer el enfriamiento."
                 }
               }
             }
@@ -29,59 +29,59 @@
       }
     },
     "messages": {
-      "description": "Manage the messages of a channel.",
+      "description": "Gestiona los mensajes de un canal.",
       "subcommands": {
         "pin": {
-          "description": "Pin a message on the current channel.",
+          "description": "Fija un mensaje al canal actual.",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to pin."
+              "name": "mensaje",
+              "description": "ID del mensaje que quieres fijar."
             }
           }
         },
         "purge": {
-          "description": "Purge a number of messages from a channel.",
+          "description": "Purga un número de mensaje de un canal.",
           "arguments": {
             "messages": {
-              "name": "messages",
-              "description": "Number of messages you want to purge."
+              "name": "mensajes",
+              "description": "Número de mensajes que quieres purgar."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to purge messages."
+              "name": "canal",
+              "description": "Canal donde quieres purgar los mensajes."
             }
           }
         },
         "unpin": {
-          "description": "Unpin a message on the current channel.",
+          "description": "Desfija un mensaje en el canal actual.",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to unpin."
+              "name": "mensaje",
+              "description": "ID del mensaje que quieres desfijar."
             }
           }
         }
       }
     },
     "nsfw": {
-      "description": "Switch the NSFW mode of a channel.",
+      "description": "Cambia el modo NSFW del canal.",
       "subcommands": {
         "enable": {
-          "description": "Enable the NSFW mode of a channel.",
+          "description": "Activa el modo NSFW de un canal.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to enable the NSFW mode."
+              "name": "canal",
+              "description": "Canal donde quieres activar el modo NSFW."
             }
           }
         },
         "disable": {
-          "description": "Disable the NSFW mode of a channel.",
+          "description": "Desactiva el modo NSFW de un canal.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to disable the NSFW mode."
+              "name": "canal",
+              "description": "Canal donde quieres desactivar el modo NSFW."
             }
           }
         }
@@ -90,36 +90,36 @@
   },
   "subcommands": {
     "info": {
-      "description": "Get information about a channel.",
+      "description": "Obtén información sobre un canal.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the information will come from."
+          "name": "canal",
+          "description": "Canal de donde procederá la información."
         }
       }
     },
     "invite": {
-      "description": "Create an instant invite of a channel.",
+      "description": "Crea una invitación instantánea de un canal.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where to create the instant invite."
+          "name": "canal",
+          "description": "Canal donde crear la invitación instantánea."
         },
         "temporary": {
-          "name": "temporary",
-          "description": "Specify if you want to grant temporary or permanent membership."
+          "name": "temporal",
+          "description": "Especifica si quieres conceder una membresía temporal o permanente."
         },
         "max-age": {
-          "name": "max-age",
-          "description": "Time until the invite expires."
+          "name": "edad-máxima",
+          "description": "Tiempo hasta que la invitación expire."
         },
         "max-uses": {
-          "name": "max-uses",
-          "description": "Maximum number of uses of the invite."
+          "name": "usos-máximos",
+          "description": "Número máximo de usos de la invitación."
         },
         "force": {
-          "name": "force",
-          "description": "Force the creation of the invite."
+          "name": "forzar",
+          "description": "Fuerza la creación de la invitación."
         }
       }
     }
