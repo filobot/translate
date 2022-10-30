@@ -118,7 +118,7 @@
         }
       }
     },
-    "clap": {
+    "slap": {
       "description": "Send a slap interaction.",
       "arguments": {
         "user": {
