@@ -1,79 +1,79 @@
 {
-  "description": "Minecraft utility commands.",
+  "description": "Comandos de utilidad de Minecraft.",
   "subcommands": {
     "body": {
-      "description": "Send a render of the specified player's body.",
+      "description": "Envía una render del cuerpo del jugador especificado.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "bust": {
-      "description": "Send a render of the specified player's bust.",
+      "description": "Envía una render del busto del jugador especificado.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "face": {
-      "description": "Send a render of the specified player's face.",
+      "description": "Envía una render de la cabeza del jugador especificado.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "front": {
-      "description": "Send a render of the specified player's front.",
+      "description": "Envía una render del frontal del jugador especificado.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "head": {
-      "description": "Send a render of the specified player's head.",
+      "description": "Envía una render de la cabeza del jugador especificado.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "skin": {
-      "description": "Send a render of the specified player's skin.",
+      "description": "Envía una render de la skin del jugador especificado.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "uuid": {
-      "description": "Get the UUID of a minecraft player.",
+      "description": "Obtén la UUID de un jugador de Minecraft.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "server": {
-      "description": "Get the status of a Minecraft server.",
+      "description": "Obtén el estado de un servidor de Minecraft.",
       "arguments": {
         "ip-address": {
-          "name": "ip-address",
-          "description": "Minecraft server IP address."
+          "name": "dirección-ip",
+          "description": "IP del servidor de Minecraft."
         },
         "port": {
-          "name": "port",
-          "description": "Minecraft server port."
+          "name": "puerto",
+          "description": "Puerto del servidor de Minecraft."
         }
       }
     }
