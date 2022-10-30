@@ -1,7 +1,7 @@
 {
   "description": "Anime Utilities.",
   "subcommands": {
-    "anime": {
+    "avatar": {
       "description": "Send a random image of an anime avatar."
     },
     "search": {
