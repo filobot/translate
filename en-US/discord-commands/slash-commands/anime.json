@@ -47,10 +47,10 @@
           "description": "Send a random image of a Ghoul."
         },
         "jojo": {
-          "description":"Send a random image of a Jojo."
+          "description": "Send a random image of a Jojo."
         },
         "titan": {
-          "description":"Send a random image of a Titan."
+          "description": "Send a random image of a Titan."
         }
       }
     }
