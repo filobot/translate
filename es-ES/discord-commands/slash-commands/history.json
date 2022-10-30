@@ -3,7 +3,7 @@
   "arguments": {
     "user": {
       "name": "usuario",
-      "description": "User whose history you want to check."
+      "description": "Usuario cuyo historial quieres comprobar."
     }
   }
 }
