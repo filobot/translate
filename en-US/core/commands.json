@@ -112,8 +112,7 @@
       "R6S": "Watch the statistics of a R6S player"
     },
     "GAMES": {
-      "COINFLIP": "Classic coin flip game",
-      "SLOT": "Classic slot machine game"
+      "COINFLIP": "Classic coin flip game"
     },
     "MISCELLANEOUS": {
       "ASCII": "Convert your text to ASCII text",
