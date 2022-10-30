@@ -1,68 +1,68 @@
 {
-  "description": "React to other users using gifs.",
+  "description": "Reacciona para otros jugadores utilizando gifs.",
   "subcommands": {
     "angry": {
-      "description": "Send an angry reaction."
+      "description": "Envía una reacción de enfado."
     },
     "blush": {
-      "description": "Send an blush reaction."
+      "description": "Envía una reacción de sonrojado."
     },
     "bored": {
-      "description": "Send an bored reaction."
+      "description": "Envía una reacción de aburrimiento."
     },
     "cold": {
-      "description": "Send an cold reaction."
+      "description": "Envía una reacción de frío."
     },
     "confused": {
-      "description": "Send an confused reaction."
+      "description": "Envía una reacción de confusión."
     },
     "cry": {
-      "description": "Send an cry reaction."
+      "description": "Envía una reacción de llorar."
     },
     "dance": {
-      "description": "Send an dance reaction."
+      "description": "Envía una reacción de baile."
     },
     "eyebrows": {
-      "description": "Send an eyebrows reaction."
+      "description": "Envía una reacción de mover la ceja."
     },
     "greet": {
-      "description": "Send an greet reaction."
+      "description": "Envía una reacción de saludo."
     },
     "happy": {
-      "description": "Send an happy reaction."
+      "description": "Envía una reacción de felicidad."
     },
     "hot": {
-      "description": "Send an hot reaction."
+      "description": "Envía una reacción de calor."
     },
     "like": {
-      "description": "Send an like reaction."
+      "description": "Envía una reacción de aprobación."
     },
     "pout": {
-      "description": "Send an pout reaction."
+      "description": "Envía una reacción de pucheros."
     },
     "run": {
-      "description": "Send an run reaction."
+      "description": "Envía una reacción de correr."
     },
     "scared": {
-      "description": "Send an scared reaction."
+      "description": "Envía una reacción de asustado."
     },
     "sick": {
-      "description": "Send an sick reaction."
+      "description": "Envía una reacción de enfermo."
     },
     "sing": {
-      "description": "Send an sing reaction."
+      "description": "Envía una reacción de cantar."
     },
     "sleep": {
-      "description": "Send an sleep reaction."
+      "description": "Envía una reacción de dormido."
     },
     "smug": {
-      "description": "Send an smug reaction."
+      "description": "Envía una reacción de presumir."
     },
     "teehee": {
-      "description": "Send an teehee reaction."
+      "description": "Envía una reacción de teehee."
     },
     "think": {
-      "description": "Send an think reaction."
+      "description": "Envía una reacción de pensando."
     }
   }
 }
