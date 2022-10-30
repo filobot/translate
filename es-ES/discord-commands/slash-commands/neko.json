@@ -1,11 +1,11 @@
 {
-  "description": "Send a random image of a neko.",
+  "description": "Envía una imagen aleatoria de un neko.",
   "subcommands": {
     "blushing": {
-      "description": "Send a random image of a blushing neko."
+      "description": "Envía una imagen aleatoria de un neko sonrojado."
     },
     "random": {
-      "description": "Send a random image of a neko."
+      "description": "Envía una imagen aleatoria de un neko."
     }
   }
 }
