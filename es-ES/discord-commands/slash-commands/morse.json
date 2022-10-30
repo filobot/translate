@@ -1,21 +1,21 @@
 {
-  "description": "Encode morse or decode morse code.",
+  "description": "Codifica código morse o decodifica código morse.",
   "subcommands": {
     "encode": {
-      "description": "Convert the text to morse code.",
+      "description": "Convierte texto a código morse.",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Text that you want to encode to morse code."
+          "name": "código",
+          "description": "Texto que quieres codificar a código morse."
         }
       }
     },
     "decode": {
-      "description": "Convert the morse code to text.",
+      "description": "Convierte código morse a texto.",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Morse code that you want to decode to text."
+          "name": "código",
+          "description": "Código morse que quieres decodificar a texto."
         }
       }
     }
