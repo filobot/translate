@@ -1,5 +1,30 @@
 {
   "description": "Minecraft utility commands.",
+  "subcommand_groups": {
+    "front": {
+      "description": "Send a render of the specified player's front.",
+      "subcommands": {
+        "body": {
+          "description": "Send a render of the specified player's front body.",
+          "arguments": {
+            "player": {
+              "name": "player",
+              "description": "Minecraft player."
+            }
+          }
+        },
+        "normal": {
+          "description": "Send a render of the specified player's front.",
+          "arguments": {
+            "player": {
+              "name": "player",
+              "description": "Minecraft player."
+            }
+          }
+        }
+      }
+    }
+  },
   "subcommands": {
     "body": {
       "description": "Send a render of the specified player's body.",
@@ -21,15 +46,6 @@
     },
     "face": {
       "description": "Send a render of the specified player's face.",
-      "arguments": {
-        "player": {
-          "name": "player",
-          "description": "Minecraft player."
-        }
-      }
-    },
-    "front": {
-      "description": "Send a render of the specified player's front.",
       "arguments": {
         "player": {
           "name": "player",
