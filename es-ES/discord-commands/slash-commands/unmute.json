@@ -1,21 +1,21 @@
 {
-  "description": "Remove the mute from a user.",
+  "description": "Eliminar el silencio de un usuario.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to remove the mute from."
+      "name": "usuario",
+      "description": "Usuario al que quieres eliminar el silencio."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the mute."
+      "name": "razón",
+      "description": "Razón para eliminar el silencio."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "silencioso",
+      "description": "Especifica si quieres que la sanción no sea notificada para el usuario."
     },
     "force": {
-      "name": "force",
-      "description": "Force removal of the mute."
+      "name": "forzar",
+      "description": "Forzar la eliminación del silencio."
     }
   }
 }
