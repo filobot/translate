@@ -2,7 +2,7 @@
   "description": "Utilidades de Anime.",
   "subcommands": {
     "avatar": {
-      "description": "Send a random image of an anime avatar."
+      "description": "Envía una imagen aleatoria de un avatar de anime."
     },
     "search": {
       "description": "Busca la información de un anime.",
