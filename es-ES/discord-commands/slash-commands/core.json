@@ -1,149 +1,149 @@
 {
-  "description": "Commands from the Core category.",
+  "description": "Comandos de la categoría Core.",
   "subcommands": {
     "info": {
-      "description": "Get information about the bot."
+      "description": "Obtén información acerca del bot."
     },
     "flags": {
-      "description": "Show your flags or that of another specific user.",
+      "description": "Muestra tus banderas o las del usuario especificado.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "Show the flags of the user."
+          "name": "usuario",
+          "description": "Muestra las banderas del usuario."
         }
       }
     },
     "donate": {
-      "description": "Get information about donations for the bot."
+      "description": "Obtén información sobre las donaciones del bot."
     },
     "commands": {
-      "description": "Get the list of bot commands or information about a command.",
+      "description": "Obtén la lista de comandos del bot o la información sobre un comando.",
       "arguments": {
         "command": {
-          "name": "command",
-          "description": "Get information from a command."
+          "name": "comando",
+          "description": "Obtén información sobre un comando."
         }
       }
     },
     "invite": {
-      "description": "Get the recommended Filo's invite link."
+      "description": "Obtén el enlace de invitación recomendada de Filo."
     },
     "privacy": {
-      "description": "Get the link to Filo's Privacy Policy."
+      "description": "Obtén el enlace a la Política de Privacidad de Filo."
     },
     "terms": {
-      "description": "Get the link to Filo's Terms of Conditions."
+      "description": "Obtén el enlace a los Términos y Condiciones de Filo."
     },
     "twitter": {
-      "description": "Get the link to Filo's Twitter."
+      "description": "Obtén el enlace del Twitter de Filo."
     },
     "status": {
-      "description": "Get the link to Filo's Status page."
+      "description": "Obtén el enlace de la página de estado de Filo."
     },
     "website": {
-      "description": "Get the link to Filo's Website."
+      "description": "Obtén el enlace del sitio web de Filo."
     },
     "github": {
-      "description": "Get the link to Filo's GitHub."
+      "description": "Obtén el enlace del GitHub de Filo."
     },
     "discord": {
-      "description": "Get the link to Filo's Discord Server."
+      "description": "Obtén el enlace al Servidor Discord de Filo."
     },
     "wiki": {
-      "description": "Get the link to Filo's Wiki."
+      "description": "Obtén el enlace de la Wiki de Filo."
     },
     "help": {
-      "description": "Get basic help on the bot."
+      "description": "Obtén ayuda básica del bot."
     },
     "support": {
-      "description": "Get information on how to receive support."
+      "description": "Obtén información sobre cómo recibir soporte."
     },
     "vote": {
-      "description": "Get the link to Filo's voting pages."
+      "description": "Obtén el enlace de las páginas de voto de Filo."
     },
     "votes": {
-      "description": "Get the vote counter of all Filo's voting pages."
+      "description": "Obtén el contador de votos de todas las páginas de voto de Filo."
     },
     "cluster": {
-      "description": "Get information about the current Filo's cluster."
+      "description": "Obtén información sobre el clúster actual de Filo."
     },
     "statistics": {
-      "description": "Get Filo's global stats."
+      "description": "Obtén las estadísticas globales de Filo."
     },
     "ping": {
-      "description": "Get the latency from Filo and from the Discord API."
+      "description": "Obtén la latencia de Filo y de la API de Discord."
     }
   },
   "subcommand_groups": {
     "roles": {
-      "description": "Manage roles in an advanced way.",
+      "description": "Administra los roles de una manera avanzada.",
       "subcommands": {
         "muted": {
-          "description": "Create or set the Muted role in the settings.",
+          "description": "Crear o establecer el rol silenciado en la configuración.",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Muted role (in case you want to set it and not create it)."
+              "name": "rol",
+              "description": "Rol silenciado (en caso de que quieras establecerlo y no crearlo)."
             }
           }
         },
         "remove": {
-          "description": "Remove all the parameters of a role from the settings.",
+          "description": "Elimina todos los parámetros de un rol de la configuración.",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Role to which you want to remove all the parameters (properties and permissions)."
+              "name": "rol",
+              "description": "Rol al que quieres eliminar todos los parámetros (propiedades y permisos)."
             }
           }
         },
         "permissions": {
-          "description": "Manage the permissions of each role.",
+          "description": "Gestiona los permisos de cada rol.",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Role you want to manage."
+              "name": "rol",
+              "description": "Rol que quieres gestionar."
             },
             "permission": {
-              "name": "permission",
-              "description": "Permission that you want to add, set, or remove."
+              "name": "permiso",
+              "description": "Permiso que quieres añadir, establecer o eliminar."
             }
           }
         },
         "view": {
-          "description": "Get the settings of the guild roles."
+          "description": "Obtén las configuraciones de los roles del gremio."
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
           "arguments": {
             "confirmation": {
-              "name": "confirmation",
-              "description": "Are you really sure you want to reset the data for this module?"
+              "name": "confirmación",
+              "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
             }
           }
         }
       }
     },
     "moderation": {
-      "description": "Manage the moderation section.",
+      "description": "Gestiona la sección de moderación.",
       "subcommands": {
         "dm-notifications": {
-          "description": "Enable or disable notifications for moderation actions.",
+          "description": "Activar o desactivar notificaciones para acciones de moderación.",
           "arguments": {
             "action": {
-              "name": "action",
-              "description": "Action you want to carry out."
+              "name": "acción",
+              "description": "Acción que quieres llevar a cabo."
             }
           }
         },
         "view": {
-          "description": "View the settings of the moderation parameters module."
+          "description": "Ver los ajustes del módulo de parámetros de moderación."
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
           "arguments": {
             "confirmation": {
-              "name": "confirmation",
-              "description": "Are you really sure you want to reset the data for this module?"
+              "name": "confirmación",
+              "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
             }
           }
         }
