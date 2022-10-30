@@ -31,7 +31,7 @@
       "arguments": {
         "title": {
           "name": "title",
-          "description": "Title of the anime you want to search its information."
+          "description": "Title of the manga you want to search its information."
         }
       }
     }
