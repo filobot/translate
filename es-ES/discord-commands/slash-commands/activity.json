@@ -1,0 +1,13 @@
+{
+  "description": "Inicia una actividad en un canal de voz.",
+  "arguments": {
+    "activity": {
+      "name": "actividad",
+      "description": "Actividad que quieres iniciar."
+    },
+    "channel": {
+      "name": "canal",
+      "description": "Canal de voz donde quieres iniciar la actividad."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Utilidades de Manga.",
+  "subcommands": {
+    "random": {
+      "description": "Muestra la información de un manga aleatorio acorde al criterio que especifiques.",
+      "arguments": {
+        "term": {
+          "name": "término",
+          "description": "Término que debe incluir el título del manga."
+        },
+        "type": {
+          "name": "tipo",
+          "description": "Tipo de manga."
+        },
+        "status": {
+          "name": "estado",
+          "description": "Estado del manga."
+        },
+        "rating": {
+          "name": "calificación",
+          "description": "Calificación del manga."
+        },
+        "genre": {
+          "name": "género",
+          "description": "Género o uno de los géneros del anime."
+        }
+      }
+    },
+    "search": {
+      "description": "Busca la información de un manga.",
+      "arguments": {
+        "title": {
+          "name": "título",
+          "description": "Título del manga."
+        }
+      }
+    }
+  }
+}

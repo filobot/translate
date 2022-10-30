@@ -1,0 +1,21 @@
+{
+  "description": "Eliminar el silencio de un usuario.",
+  "arguments": {
+    "user": {
+      "name": "usuario",
+      "description": "Usuario al que quieres eliminar el silencio."
+    },
+    "reason": {
+      "name": "razón",
+      "description": "Razón para eliminar el silencio."
+    },
+    "silent": {
+      "name": "silencioso",
+      "description": "Especifica si quieres que la sanción no sea notificada para el usuario."
+    },
+    "force": {
+      "name": "forzar",
+      "description": "Forzar la eliminación del silencio."
+    }
+  }
+}

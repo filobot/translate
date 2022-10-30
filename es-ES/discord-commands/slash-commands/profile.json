@@ -1,9 +1,9 @@
 {
-  "description": "Show your profile or the profile of another user.",
+  "description": "Muestra tu perfil o el perfil de otro usuario.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to get the profile for."
+      "name": "usuario",
+      "description": "Usuario para el que quieres recuperar su perfil."
     }
   }
 }

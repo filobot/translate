@@ -1,0 +1,13 @@
+{
+  "description": "Gestiona el apodo de un usuario.",
+  "arguments": {
+    "user": {
+      "name": "usuario",
+      "description": "Usuario cuyo apodo quieres cambiar."
+    },
+    "nickname": {
+      "name": "apodo",
+      "description": "Apodo que quieres establecerle al usuario."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Envía un fondo de pantalla aleatorio de Genshin Impact.",
+  "subcommands": {
+    "desktop": {
+      "description": "Obtén un fondo de pantalla aleatorio de ordenador."
+    },
+    "mobile": {
+      "description": "Obtén un fondo de pantalla aleatorio de móvil."
+    },
+    "random": {
+      "description": "Obtén un fondo de pantalla aleatorio entre ordenador y móvil."
+    }
+  }
+}

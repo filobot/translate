@@ -1,0 +1,45 @@
+{
+  "description": "Crea una encuesta en el canal actual.",
+  "arguments": {
+    "message": {
+      "name": "mensaje",
+      "description": "Mensaje a la encuesta."
+    },
+    "choice-1": {
+      "name": "opción-1",
+      "description": "Opción 1 de la encuesta."
+    },
+    "choice-2": {
+      "name": "opción-2",
+      "description": "Opción 2 de la encuesta."
+    },
+    "choice-3": {
+      "name": "opción-3",
+      "description": "Opción 3 de la encuesta."
+    },
+    "choice-4": {
+      "name": "opción-4",
+      "description": "Opción 4 de la encuesta."
+    },
+    "choice-5": {
+      "name": "opción-5",
+      "description": "Opción 5 de la encuesta."
+    },
+    "choice-6": {
+      "name": "opción-6",
+      "description": "Opción 6 de la encuesta."
+    },
+    "choice-7": {
+      "name": "opción-7",
+      "description": "Opción 7 de la encuesta."
+    },
+    "choice-8": {
+      "name": "opción-8",
+      "description": "Opción 8 de la encuesta."
+    },
+    "choice-9": {
+      "name": "opción-9",
+      "description": "Opción 9 de la encuesta."
+    }
+  }
+}

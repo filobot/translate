@@ -1,0 +1,13 @@
+{
+  "description": "Get the weather of a location.",
+  "arguments": {
+    "location": {
+      "name": "location",
+      "description": "Location where you want to get the weather."
+    },
+    "degree-type": {
+      "name": "degree-type",
+      "description": "Type of temperature degrees."
+    }
+  }
+}

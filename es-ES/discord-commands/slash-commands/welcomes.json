@@ -1,66 +1,66 @@
 {
-  "description": "Welcome module that allows you to send a message to new members and assign them a role.",
+  "description": "Módulo de bienvenida que te permite enviar un mensaje a nuevos miembros y asignarles un rol.",
   "subcommands": {
     "enable": {
-      "description": "Enable the welcomes module.",
+      "description": "Activa el módulo de bienvenidas.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "módulo",
+          "description": "Módulo que quieres activar."
         }
       }
     },
     "disable": {
-      "description": "Disable the welcomes module.",
+      "description": "Desactiva el módulo de bienvenidas.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "módulo",
+          "description": "Módulo que quieres desactivar."
         }
       }
     },
     "channel": {
-      "description": "Set the channel where the welcome messages will be sent.",
+      "description": "Establece el canal donde se enviarán los mensajes de bienvenida.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where welcome messages will be sent."
+          "name": "canal",
+          "description": "Canal donde los mensajes de bienvenida se enviarán."
         }
       }
     },
     "message": {
-      "description": "Set the welcome message."
+      "description": "Establece el mensaje de bienvenida."
     },
     "type": {
-      "description": "Set the way in which the welcome message will be sent.",
+      "description": "Establece la forma en la que se enviará el mensaje de bienvenida.",
       "arguments": {
         "type": {
-          "name": "type",
-          "description": "Way in which the welcome message will be sent."
+          "name": "tipo",
+          "description": "Forma en la que el mensaje de bienvenida se enviará."
         }
       }
     },
     "role": {
-      "description": "Set the role you want to grant to the new members.",
+      "description": "Establece el rol que quieres otorgar a los nuevos miembros.",
       "arguments": {
         "role": {
-          "name": "role",
-          "description": "Role that you want to grant to new members."
+          "name": "rol",
+          "description": "Rol que quieres otorgar a nuevos miembros."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the welcomes module documentation."
+      "description": "Obtener el enlace de la documentación del módulo de bienvenidas."
     },
     "view": {
-      "description": "View the settings of the welcomes module."
+      "description": "Ver las configuraciones del módulo bienvenidas."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
         }
       }
     }

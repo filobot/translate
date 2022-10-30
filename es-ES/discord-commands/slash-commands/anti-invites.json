@@ -1,92 +1,92 @@
 {
-  "description": "Module that allows you to sanction users who send invites from other servers.",
+  "description": "Módulo que te permite sancionar a los usuarios que envían invitaciones de otros servidores.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-invites module."
+      "description": "Activa el módulo anti-invitaciones."
     },
     "disable": {
-      "description": "Disable the anti-invites module."
+      "description": "Desactiva el módulo anti-invitaciones."
     },
     "action": {
-      "description": "Set the action to take when someone sends an invite.",
+      "description": "Establece la acción a realizar cuando alguien envía una invitación.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends an invite."
+          "name": "acción",
+          "description": "Acción a realizar cuando alguien envía una invitación."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "tiempo",
+          "description": "Tiempo de la acción (en caso de ser temporal)."
         }
       }
     },
     "filo": {
-      "description": "Enable or disable the bypass of invites from the official Filo's server.",
+      "description": "Activa o desactiva la omisión de las invitaciones del servidor oficial de Filo.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enable or disable the bypass of invites from the official Filo's server."
+          "name": "acción",
+          "description": "Activa o desactiva la omisión de las invitaciones del servidor oficial de Filo."
         }
       }
     },
     "discord": {
-      "description": "Enable or disable the bypass of invites from the official Discord's servers.",
+      "description": "Activa o desactiva la omisión de las invitaciones de servidores oficiales de Discord.",
       "arguments": {
-        "name": "action",
-        "description": "Enable or disable the bypass of invites from the official Discord's servers."
+        "name": "acción",
+        "description": "Activa o desactiva la omisión de las invitaciones de servidores oficiales de Discord."
       }
     },
     "guild": {
-      "description": "Add or remove a guild from the module's guild bypass list.",
+      "description": "Añade o elimina un gremio del la lista de omisiones de gremios.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acción",
+          "description": "Acción que quieres llevar a cabo."
         },
         "guild": {
-          "name": "guild",
-          "description": "Guild from the module's guild bypass list."
+          "name": "gremio",
+          "description": "Gremio de la lista de omisiones de gremios."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Añade o elimina un canal de la lista de canales ignorados.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acción",
+          "description": "Acción que quieres llevar a cabo."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "canal",
+          "description": "Canal de la lista de omisiones de canales."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Añade o elimina un rol de la lista de roles ignorados.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acción",
+          "description": "Acción que quieres llevar a cabo."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rol",
+          "description": "Rol de la lista de omisiones de roles."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-invites module documentation."
+      "description": "Obtener el enlace de la documentación del módulo anti-invitaciones."
     },
     "view": {
-      "description": "View the settings of the anti-invites module."
+      "description": "Ver las configuraciones del módulo anti-invitaciones."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
         }
       }
     }

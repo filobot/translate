@@ -14,7 +14,7 @@
       }
     },
     "random": {
-      "description": "Show information from a random anime or manga according to the criteria you specify.",
+      "description": "Show the information from a random anime according to the criteria you specify.",
       "arguments": {
         "term": {
           "name": "term",

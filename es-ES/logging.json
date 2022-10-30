@@ -24,7 +24,7 @@
     "INVITE_REMOVE": "Invitación eliminada",
     "MESSAGE_UPDATE": "Mensaje actualizado",
     "MESSAGE_DELETE": "Mensaje borrado",
-    "MESSAGE_BULK_DELETE": "Mensajes borrados",
+    "MESSAGE_BULK_DELETE": "Mensajes purgados",
     "ROLE_CREATE": "Rol creado",
     "ROLE_UPDATE": "Rol actualizado",
     "ROLE_DELETE": "Rol eliminado",

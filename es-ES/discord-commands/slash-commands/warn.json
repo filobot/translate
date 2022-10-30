@@ -1,0 +1,17 @@
+{
+  "description": "Advierte a un usuario del servidor.",
+  "arguments": {
+    "user": {
+      "name": "usuario",
+      "description": "Usuario al que quieres advertir."
+    },
+    "reason": {
+      "name": "razón",
+      "description": "Razón para advertir a este usuario."
+    },
+    "silent": {
+      "name": "silencioso",
+      "description": "Especifica si quieres que la sanción no sea notificada para el usuario."
+    }
+  }
+}

@@ -1,63 +1,63 @@
 {
-  "description": "Module that allows configuring a channel as a server member counter.",
+  "description": "Módulo que permite configurar un canal como un contador de miembros del servidor.",
   "subcommands": {
     "enable": {
-      "description": "Enable the member counter module.",
+      "description": "Activa el módulo contador de miembros.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "módulo",
+          "description": "Módulo que quieres activar."
         }
       }
     },
     "disable": {
-      "description": "Disable the member counter module.",
+      "description": "Desactiva el módulo contador de miembros.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "módulo",
+          "description": "Módulo que quieres desactivar."
         }
       }
     },
     "channel": {
-      "description": "Set the member counter channel.",
+      "description": "Establece el canal contador de miembros.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel you want to set as the member counter channel."
+          "name": "canal",
+          "description": "Canal donde quieres establecer el contador de miembros."
         }
       }
     },
     "name": {
-      "description": "Set the name of the member counter channel.",
+      "description": "Establece el nombre del canal contador de miembros.",
       "arguments": {
         "name": {
-          "name": "name",
-          "description": "Name of the member counter channel."
+          "name": "nombre",
+          "description": "Nombre del canal contador de miembros."
         }
       }
     },
     "nickname": {
-      "description": "Set the nickname of the member counter nickname.",
+      "description": "Establece el apodo del contador de miembros.",
       "arguments": {
         "nickname": {
-          "name": "nickname",
-          "description": "Nickname of the member counter nickname."
+          "name": "apodo",
+          "description": "Apodo del apodo contador de miembros."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the member counter module documentation."
+      "description": "Obtener el enlace de la documentación del módulo de contador de miembros."
     },
     "view": {
-      "description": "View the settings of the member counter module."
+      "description": "Ver las configuraciones del módulo contador de miembros."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
         }
       }
     }

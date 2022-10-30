@@ -1,0 +1,127 @@
+{
+  "description": "Gestiona un canal.",
+  "subcommand_groups": {
+    "cooldown": {
+      "description": "Gestiona el enfriamiento de un canal.",
+      "subcommands": {
+        "set": {
+          "description": "Establece el enfriamiento de un canal.",
+          "arguments": {
+            "time": {
+              "name": "tiempo",
+              "description": "Enfriamiento que quieres establecer."
+            },
+            "channel": {
+              "name": "canal",
+              "description": "Canal donde quieres establecer el enfriamiento."
+            },
+            "reset": {
+              "description": "Restablece el enfriamiento de un canal.",
+              "arguments": {
+                "channel": {
+                  "name": "canal",
+                  "description": "Canal donde quieres restablecer el enfriamiento."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "messages": {
+      "description": "Gestiona los mensajes de un canal.",
+      "subcommands": {
+        "pin": {
+          "description": "Fija un mensaje al canal actual.",
+          "arguments": {
+            "message": {
+              "name": "mensaje",
+              "description": "ID del mensaje que quieres fijar."
+            }
+          }
+        },
+        "purge": {
+          "description": "Purga un número de mensaje de un canal.",
+          "arguments": {
+            "messages": {
+              "name": "mensajes",
+              "description": "Número de mensajes que quieres purgar."
+            },
+            "channel": {
+              "name": "canal",
+              "description": "Canal donde quieres purgar los mensajes."
+            }
+          }
+        },
+        "unpin": {
+          "description": "Desfija un mensaje en el canal actual.",
+          "arguments": {
+            "message": {
+              "name": "mensaje",
+              "description": "ID del mensaje que quieres desfijar."
+            }
+          }
+        }
+      }
+    },
+    "nsfw": {
+      "description": "Cambia el modo NSFW del canal.",
+      "subcommands": {
+        "enable": {
+          "description": "Activa el modo NSFW de un canal.",
+          "arguments": {
+            "channel": {
+              "name": "canal",
+              "description": "Canal donde quieres activar el modo NSFW."
+            }
+          }
+        },
+        "disable": {
+          "description": "Desactiva el modo NSFW de un canal.",
+          "arguments": {
+            "channel": {
+              "name": "canal",
+              "description": "Canal donde quieres desactivar el modo NSFW."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "info": {
+      "description": "Obtén información sobre un canal.",
+      "arguments": {
+        "channel": {
+          "name": "canal",
+          "description": "Canal de donde procederá la información."
+        }
+      }
+    },
+    "invite": {
+      "description": "Crea una invitación instantánea de un canal.",
+      "arguments": {
+        "channel": {
+          "name": "canal",
+          "description": "Canal donde crear la invitación instantánea."
+        },
+        "temporary": {
+          "name": "temporal",
+          "description": "Especifica si quieres conceder una membresía temporal o permanente."
+        },
+        "max-age": {
+          "name": "edad-máxima",
+          "description": "Tiempo hasta que la invitación expire."
+        },
+        "max-uses": {
+          "name": "usos-máximos",
+          "description": "Número máximo de usos de la invitación."
+        },
+        "force": {
+          "name": "forzar",
+          "description": "Fuerza la creación de la invitación."
+        }
+      }
+    }
+  }
+}

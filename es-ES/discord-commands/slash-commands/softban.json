@@ -1,0 +1,21 @@
+{
+  "description": "Prohíbe suavemente a un usuario del servidor.",
+  "arguments": {
+    "user": {
+      "name": "usuario",
+      "description": "Usuario al que quieres prohibir suavemente."
+    },
+    "reason": {
+      "name": "razón",
+      "description": "Razón para prohibir suavemente a este usuario."
+    },
+    "message-history": {
+      "name": "historial-de-mensajes",
+      "description": "Especifica si quieres eliminar el historial de mensajes del usuario."
+    },
+    "silent": {
+      "name": "silencioso",
+      "description": "Especifica si quieres que la sanción no sea notificada para el usuario."
+    }
+  }
+}

@@ -1,42 +1,42 @@
 {
-  "description": "Module that allows to send the logs of the server to a channel.",
+  "description": "Módulo que permite enviar los registros del servidor a un canal.",
   "subcommands": {
     "enable": {
-      "description": "Enable the logging module."
+      "description": "Activa el módulo de registros."
     },
     "disable": {
-      "description": "Disable the logging module."
+      "description": "Desactiva el módulo de registros."
     },
     "events": {
-      "description": "Manage the different events you want to show.",
+      "description": "Gestiona los diferentes eventos que quieres mostrar.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enables or disables an event."
+          "name": "acción",
+          "description": "Activa o desactiva un evento."
         }
       }
     },
     "channel": {
-      "description": "Set the logging channel.",
+      "description": "Establece el canal de registros.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the logs will be sent."
+          "name": "canal",
+          "description": "Canal donde los registros se enviarán."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the logging module documentation."
+      "description": "Obtener el enlace de la documentación del módulo registros."
     },
     "view": {
-      "description": "View the settings of the logging module."
+      "description": "Ver las configuraciones del módulo registros."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
         }
       }
     }

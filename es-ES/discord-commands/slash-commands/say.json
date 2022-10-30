@@ -1,0 +1,23 @@
+{
+  "description": "Envía un mensaje usando a Filo.",
+  "subcommads": {
+    "embed": {
+      "description": "Envía el mensaje a través de un embed.",
+      "arguments": {
+        "message": {
+          "name": "mensaje",
+          "description": "Mensaje que quieres enviar."
+        }
+      }
+    },
+    "normal": {
+      "description": "Envía el mensaje usando un mensaje normal.",
+      "arguments": {
+        "message": {
+          "name": "mensaje",
+          "description": "Mensaje que quieres enviar."
+        }
+      }
+    }
+  }
+}

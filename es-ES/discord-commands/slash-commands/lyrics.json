@@ -1,0 +1,9 @@
+{
+  "description": "Obtén la letra de una canción.",
+  "arguments": {
+    "song": {
+      "name": "canción",
+      "description": "Título de la canción."
+    }
+  }
+}

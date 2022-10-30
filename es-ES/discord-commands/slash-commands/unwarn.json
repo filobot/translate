@@ -1,0 +1,21 @@
+{
+  "description": "Elimina una advertencia de un usuario.",
+  "arguments": {
+    "user": {
+      "name": "usuario",
+      "description": "Usuario al que quieres eliminar la advertencia."
+    },
+    "reason": {
+      "name": "razón",
+      "description": "Razón para eliminar la advertencia."
+    },
+    "case": {
+      "name": "caso",
+      "description": "ID de la advertencia que quieres quitarle."
+    },
+    "silent": {
+      "name": "silencioso",
+      "description": "Especifica si quieres que la sanción no sea notificada para el usuario."
+    }
+  }
+}

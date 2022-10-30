@@ -1,0 +1,27 @@
+{
+  "description": "Gestiona un caso de sanción.",
+  "subcommands": {
+    "info": {
+      "description": "Obtén información acerca de un caso de sanción.",
+      "arguments": {
+        "case": {
+          "name": "caso",
+          "description": "ID del caso."
+        }
+      }
+    },
+    "set": {
+      "description": "Establece la nueva información del caso.",
+      "arguments": {
+        "case": {
+          "name": "caso",
+          "description": "ID del caso."
+        },
+        "reason": {
+          "name": "razón",
+          "description": "Razón que quieres establecer para el caso."
+        }
+      }
+    }
+  }
+}

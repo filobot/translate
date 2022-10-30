@@ -7,7 +7,7 @@
     },
     "amount": {
       "name": "amount",
-      "description": "Amount of credits you want to pay him."
+      "description": "Amount of credits you want to pay."
     }
   }
 }

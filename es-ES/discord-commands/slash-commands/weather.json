@@ -1,0 +1,13 @@
+{
+  "description": "Obtén el tiempo de una ubicación.",
+  "arguments": {
+    "location": {
+      "name": "ubicación",
+      "description": "Ubicación donde quieres conseguir el tiempo."
+    },
+    "degree-type": {
+      "name": "tipo-de-grados",
+      "description": "Tipo de grados de temperatura."
+    }
+  }
+}
