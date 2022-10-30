@@ -2,38 +2,38 @@
   "description": "Utilidades de Anime.",
   "subcommands": {
     "anime": {
-      "description": "Send a random image of an anime avatar."
+      "description": "Envía una imagen aleatoria de un avatar de anime."
     },
     "search": {
-      "description": "Search the information of an anime.",
+      "description": "Busca la información de un anime.",
       "arguments": {
         "title": {
-          "name": "title",
-          "description": "Title of the anime."
+          "name": "título",
+          "description": "Título del anime."
         }
       }
     },
     "random": {
-      "description": "Show the information from a random anime according to the criteria you specify.",
+      "description": "Muestra la información de un anime aleatorio acorde al criterio que especifiques.",
       "arguments": {
         "term": {
-          "name": "term",
-          "description": "Term that must include the title of the anime."
+          "name": "término",
+          "description": "Término que debe incluir el título del anime."
         },
         "type": {
-          "name": "type",
-          "description": "Anime type."
+          "name": "tipo",
+          "description": "Tipo de anime."
         },
         "status": {
-          "name": "status",
-          "description": "Anime's status."
+          "name": "estado",
+          "description": "Estado del anime."
         },
         "rating": {
-          "name": "rating",
-          "description": "Anime's rating."
+          "name": "calificación",
+          "description": "Calificación del anime."
         },
         "genre": {
-          "name": "genre",
+          "name": "género",
           "description": "Género o uno de los géneros del anime."
         }
       }
@@ -41,7 +41,7 @@
   },
   "subcommand_groups": {
     "characters": {
-      "description": "Send a random image or gif about an anime character.",
+      "description": "Envía una imagen aleatoria o un gif de un personaje de anime.",
       "subcommands": {
         "ghoul": {
           "description": "Envía una imagen aleatoria de un Ghoul."
