@@ -79,7 +79,7 @@
       "description": "Obtener el enlace de la documentación del módulo anti-invitaciones."
     },
     "view": {
-      "description": "Ver las configuraciones del módulo anti-invitaciones."
+      "description": "Ver las configuraciones del módulo de anti-invitaciones."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",

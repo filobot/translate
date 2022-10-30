@@ -1,0 +1,46 @@
+{
+  "description": "Gestiona los comandos de Filo activándolos o desactivándolos.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa un comando o categoría de Filo.",
+      "arguments": {
+        "target": {
+          "name": "objetivo",
+          "description": "Especifica lo que quieres activar."
+        },
+        "value": {
+          "name": "valor",
+          "description": "Nombre del comando o categoría que quieres activar."
+        }
+      }
+    },
+    "disable": {
+      "description": "Desactiva un comando o categoría de Filo.",
+      "arguments": {
+        "target": {
+          "name": "objetivo",
+          "description": "Especifica lo que quieres desactivar."
+        },
+        "value": {
+          "name": "valor",
+          "description": "Nombre del comando o categoría que quieres desactivar."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtener el enlace de la documentación del módulo de desactivar comandos."
+    },
+    "view": {
+      "description": "Ver las configuraciones del módulo de desactivar comandos."
+    },
+    "reset": {
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
+        }
+      }
+    }
+  }
+}

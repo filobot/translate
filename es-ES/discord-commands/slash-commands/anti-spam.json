@@ -63,7 +63,7 @@
       "description": "Obtener el enlace de la documentación del módulo anti-spam."
     },
     "view": {
-      "description": "Ver las configuraciones del módulo anti-spam."
+      "description": "Ver las configuraciones del módulo de anti-spam."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",

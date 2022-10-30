@@ -79,7 +79,7 @@
       "description": "Obtener el enlace de la documentación del módulo anti-enlaces-externos."
     },
     "view": {
-      "description": "Ver las configuraciones del módulo anti-enlaces-externos."
+      "description": "Ver las configuraciones del módulo de anti-enlaces-externos."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",

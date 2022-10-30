@@ -72,7 +72,7 @@
       "description": "Obtener el enlace de la documentación del módulo anti-malas-palabras."
     },
     "view": {
-      "description": "Ver las configuraciones del módulo anti-malas-palabras."
+      "description": "Ver las configuraciones del módulo de anti-malas-palabras."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
