@@ -1,9 +1,9 @@
 {
-  "description": "Ask the 8 ball a question and it will answer you wisely.",
+  "description": "Haz una pregunta a la bola 8 y te responderá sabiamente.",
   "arguments": {
     "question": {
-      "name": "question",
-      "description": "Ask what you want to do to the 8 ball."
+      "name": "pregunta",
+      "description": "Pregunta que quieres hacerle a la bola 8."
     }
   }
 }
