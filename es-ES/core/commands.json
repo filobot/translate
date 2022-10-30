@@ -112,8 +112,7 @@
       "R6S": "Mira las estadísticas de un jugador de R6S"
     },
     "GAMES": {
-      "COINFLIP": "Juego clásico de giro de moneda",
-      "SLOT": "Juego clásico de la máquina tragaperras"
+      "COINFLIP": "Juego clásico de giro de moneda"
     },
     "MISCELLANEOUS": {
       "ASCII": "Convierta su texto a texto ASCII",
