@@ -1,14 +1,14 @@
 {
-  "description": "Send a random Genshin Impact wallpaper.",
+  "description": "Envía un fondo de pantalla aleatorio de Genshin Impact.",
   "subcommands": {
     "desktop": {
-      "description": "Get a random desktop wallpaper."
+      "description": "Obtén un fondo de pantalla aleatorio de ordenador."
     },
     "mobile": {
-      "description": "Get a random mobile wallpaper."
+      "description": "Obtén un fondo de pantalla aleatorio de móvil."
     },
     "random": {
-      "description": "Get random wallpaper between desktop and mobile."
+      "description": "Obtén un fondo de pantalla aleatorio entre ordenador y móvil."
     }
   }
 }
