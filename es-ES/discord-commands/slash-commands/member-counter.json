@@ -50,7 +50,7 @@
       "description": "Obtener el enlace de la documentación del módulo de contador de miembros."
     },
     "view": {
-      "description": "Ver las configuraciones del módulo contador de miembros."
+      "description": "Ver las configuraciones del módulo de contador de miembros."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
