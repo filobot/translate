@@ -1,0 +1,46 @@
+{
+  "description": "Manage Filo's commands by enabling or disabling them.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable a Filo's command or category.",
+      "arguments": {
+        "target": {
+          "name": "target",
+          "description": "Specify what you want to enable."
+        },
+        "value": {
+          "name": "value",
+          "description": "Name of the command or category you want to enable."
+        }
+      }
+    },
+    "disable": {
+      "description": "Disable a Filo's command or category.",
+      "arguments": {
+        "target": {
+          "name": "target",
+          "description": "Specify what you want to disable."
+        },
+        "value": {
+          "name": "value",
+          "description": "Name of the command or category you want to disable."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the disable commands module documentation."
+    },
+    "view": {
+      "description": "View the settings of the disable commands module."
+    },
+    "reset": {
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
+        }
+      }
+    }
+  }
+}
