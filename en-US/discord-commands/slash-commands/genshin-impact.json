@@ -2,10 +2,10 @@
   "description": "Send a random Genshin Impact wallpaper.",
   "subcommands": {
     "desktop": {
-      "description": "Get a desktop wallpaper."
+      "description": "Get a random desktop wallpaper."
     },
     "mobile": {
-      "description": "Get a mobile wallpaper."
+      "description": "Get a random mobile wallpaper."
     },
     "random": {
       "description": "Get random wallpaper between desktop and mobile."
