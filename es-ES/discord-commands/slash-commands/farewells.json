@@ -1,43 +1,43 @@
 {
-  "description": "Module that allows you to send a goodbye message to old members.",
+  "description": "Módulo que te permite enviar un mensaje de despedida a los antiguos miembros.",
   "subcommands": {
     "enable": {
-      "description": "Enable the farewells module."
+      "description": "Activa el módulo de despedidas."
     },
     "disable": {
-      "description": "Disable the farewells module."
+      "description": "Desactiva el módulo de despedidas."
     },
     "channel": {
-      "description": "Set the channel where the farewell messages will be sent.",
+      "description": "Establece el canal donde se enviarán los mensajes de despedida.",
       "arguments": {
-        "name": "channel",
-        "description": "Channel where farewell messages will be sent."
+        "name": "canal",
+        "description": "Canal donde los mensajes de despedida se enviarán."
       }
     },
     "message": {
-      "description": "Set the farewell message."
+      "description": "Establece el mensaje de despedida."
     },
     "type": {
-      "description": "Set the way in which the farewell message will be sent.",
+      "description": "Establece la forma en la que el mensaje de despedida se enviará.",
       "arguments": {
         "type": {
-          "name": "type",
-          "description": "Way in which the welcome farewell will be sent."
+          "name": "tipo",
+          "description": "Forma en la que el mensaje de despedida se enviará."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the farewells module documentation."
+      "description": "Obtener el enlace de la documentación del módulo de despedidas."
     },
     "view": {
-      "description": "View the settings of the farewells module."
+      "description": "Ver las configuraciones del módulo despedidas."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
         }
       }
     }
