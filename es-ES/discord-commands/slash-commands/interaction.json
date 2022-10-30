@@ -20,7 +20,7 @@
       }
     },
     "cookie": {
-      "description": "Enviar una interacción de cookies.",
+      "description": "Envía una interacción de cookies.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -29,7 +29,7 @@
       }
     },
     "cuddle": {
-      "description": "Enviar una interacción de abrazo.",
+      "description": "Envía una interacción de abrazo.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -38,7 +38,7 @@
       }
     },
     "feed": {
-      "description": "Enviar una interacción de dar de comer.",
+      "description": "Envía una interacción de dar de comer.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -47,7 +47,7 @@
       }
     },
     "hug": {
-      "description": "Enviar una interacción de abrazo.",
+      "description": "Envía una interacción de abrazo.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -56,7 +56,7 @@
       }
     },
     "kick": {
-      "description": "Enviar una interacción de patada.",
+      "description": "Envía una interacción de patada.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -65,7 +65,7 @@
       }
     },
     "kiss": {
-      "description": "Enviar una interacción de beso.",
+      "description": "Envía una interacción de beso.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -74,7 +74,7 @@
       }
     },
     "laugh": {
-      "description": "Enviar una interacción de risa.",
+      "description": "Envía una interacción de risa.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -83,7 +83,7 @@
       }
     },
     "pat": {
-      "description": "Enviar una interacción de acariciar.",
+      "description": "Envía una interacción de acariciar.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -92,7 +92,7 @@
       }
     },
     "poke": {
-      "description": "Enviar una interacción de molestar.",
+      "description": "Envía una interacción de molestar.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -101,7 +101,7 @@
       }
     },
     "punch": {
-      "description": "Enviar una interacción de puñetazo.",
+      "description": "Envía una interacción de puñetazo.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -119,7 +119,7 @@
       }
     },
     "clap": {
-      "description": "Enviar una interacción de bofetada.",
+      "description": "Envía una interacción de bofetada.",
       "arguments": {
         "user": {
           "name": "usuario",
@@ -128,7 +128,7 @@
       }
     },
     "tickle": {
-      "description": "Enviar una interacción de cosquillas.",
+      "description": "Envía una interacción de cosquillas.",
       "arguments": {
         "user": {
           "name": "usuario",
