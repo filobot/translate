@@ -2,10 +2,30 @@
   "description": "Manage Filo's commands by enabling or disabling them.",
   "subcommands": {
     "enable": {
-      "description": "Enable a Filo's command or category."
+      "description": "Enable a Filo's command or category.",
+      "arguments": {
+        "target": {
+          "name": "target",
+          "description": "Specify what you want to enable."
+        },
+        "value": {
+          "name": "value",
+          "description": "Name of the command or category you want to enable.",
+        }
+      }
     },
     "disable": {
-      "description": "Disable a Filo's command or category."
+      "description": "Disable a Filo's command or category.",
+      "arguments": {
+        "target": {
+          "name": "target",
+          "description": "Specify what you want to disable."
+        },
+        "value": {
+          "name": "value",
+          "description": "Name of the command or category you want to disable.",
+        }
+      }
     },
     "docs": {
       "description": "Get the link of the disable commands module documentation."
