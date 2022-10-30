@@ -1,7 +1,7 @@
 {
-  "description": "Get a user's sanction history.",
+  "description": "Obtén el historial de sanciones del usuario.",
   "arguments": {
-    "name": "user",
-    "description": "User whose history you want to check."
+    "name": "usuario",
+    "description": "Usuario cuyo historial quieres comprobar."
   }
 }
