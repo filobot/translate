@@ -10,7 +10,7 @@
         },
         "value": {
           "name": "value",
-          "description": "Name of the command or category you want to enable.",
+          "description": "Name of the command or category you want to enable."
         }
       }
     },
@@ -23,7 +23,7 @@
         },
         "value": {
           "name": "value",
-          "description": "Name of the command or category you want to disable.",
+          "description": "Name of the command or category you want to disable."
         }
       }
     },
