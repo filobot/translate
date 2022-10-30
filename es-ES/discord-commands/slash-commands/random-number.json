@@ -1,9 +1,9 @@
 {
-  "description": "Get a random number.",
+  "description": "Obtén un número aleatorio.",
   "arguments": {
     "number": {
-      "name": "number",
-      "description": "Number with which you want to multiply the random value."
+      "name": "número",
+      "description": "Número con el que quieres multiplicar el valor aleatorio."
     }
   }
 }
