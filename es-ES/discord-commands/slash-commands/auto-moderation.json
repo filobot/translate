@@ -1,5 +1,5 @@
 {
-  "description": "Módulo que te permite sancionar automáticamente a los usuarios con una cierta cantidad de advertencias.",
+  "description": "Módulo que te permite sancionar automáticamente a los usuarios con un cierto número de advertencias.",
   "subcommands": {
     "enable": {
       "description": "Activa el módulo auto-moderación."
