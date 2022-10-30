@@ -59,7 +59,7 @@
       "description": "Obtener el enlace de la documentación del módulo anti-menciones-masivas."
     },
     "view": {
-      "description": "Ver las configuraciones del módulo anti-menciones-masivas."
+      "description": "Ver las configuraciones del módulo de anti-menciones-masivas."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
