@@ -1,71 +1,71 @@
 {
-  "description": "Module that allows you to automatically sanction users with a certain amount of warnings.",
+  "description": "Módulo que te permite sancionar automáticamente a los usuarios con una cierta cantidad de advertencias.",
   "subcommands": {
     "enable": {
-      "description": "Enable the auto-moderation module."
+      "description": "Activa el módulo auto-moderación."
     },
     "disable": {
-      "description": "Disable the auto-moderation module."
+      "description": "Desactiva el módulo auto-moderación."
     },
     "add": {
-      "description": "Add a level to the auto-moderator.",
+      "description": "Añade un nivel al auto-moderador.",
       "arguments": {
         "warnings": {
-          "name": "warnings",
-          "description": "Number of warnings the user must have to reach this level."
+          "name": "advertencias",
+          "description": "Número de advertencias que el usuario debe tener para alcanzar este nivel."
         },
         "action": {
-          "name": "action",
-          "description": "Action to take when someone reaches this level."
+          "name": "acción",
+          "description": "Acción a realizar cuando alguien alcance este nivel."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "tiempo",
+          "description": "Tiempo de la acción (en caso de ser temporal)."
         }
       }
     },
     "remove": {
-      "description": "Remove a level to the auto-moderator.",
+      "description": "Elimina un nivel del auto-moderador.",
       "arguments": {
         "level": {
-          "name": "level",
-          "description": "Auto-moderator level."
+          "name": "nivel",
+          "description": "Nivel del auto-moderador."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the auto-moderation module documentation."
+      "description": "Obtener el enlace de la documentación del módulo auto-moderador."
     },
     "view": {
-      "description": "View the settings of the auto-moderation module."
+      "description": "Ver las configuraciones del módulo auto-moderador."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmación",
+          "description": "¿Estás seguro de que quieres restablecer los datos de este módulo?"
         }
       }
     },
     "set": {
-      "description": "Set the parameters of an auto-moderator level.",
+      "description": "Establece los parámetros de un nivel del auto-moderador.",
       "arguments": {
         "level": {
-          "name": "level",
-          "description": "Auto-moderator level."
+          "name": "nivel",
+          "description": "Nivel del auto-moderador."
         },
         "warnings": {
-          "name": "warnings",
-          "description": "Number of warnings the user must have to reach this level."
+          "name": "advertencias",
+          "description": "Número de advertencias que el usuario debe tener para alcanzar este nivel."
         },
         "action": {
-          "name": "action",
-          "description": "Action to take when someone reaches this level."
+          "name": "acción",
+          "description": "Acción a realizar cuando alguien alcance este nivel."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "tiempo",
+          "description": "Tiempo de la acción (en caso de ser temporal)."
         }
       }
     }
