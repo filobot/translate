@@ -118,8 +118,8 @@
         }
       }
     },
-    "clap": {
-      "description": "Envía una interacción de bofetada.",
+    "slap": {
+      "description": "Send a slap interaction.",
       "arguments": {
         "user": {
           "name": "usuario",
