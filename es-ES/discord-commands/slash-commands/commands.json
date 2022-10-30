@@ -1,37 +1,37 @@
 {
-  "description": "Manage Filo's commands by enabling or disabling them.",
+  "description": "Administra los comandos de Filo activándolos o desactivándolos.",
   "subcommands": {
     "enable": {
-      "description": "Enable a Filo's command or category.",
+      "description": "Activa un comando o categoría de Filo.",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to enable."
+          "name": "objetivo",
+          "description": "Especifica lo que quieres activar."
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to enable."
+          "name": "valor",
+          "description": "Nombre del comando o categoría que quieres activar."
         }
       }
     },
     "disable": {
-      "description": "Disable a Filo's command or category.",
+      "description": "Desactiva un comando o categoría de Filo.",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to disable."
+          "name": "objetivo",
+          "description": "Especifica lo que quieres desactivar."
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to disable."
+          "name": "valor",
+          "description": "Nombre del comando o categoría que quieres desactivar."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the disable commands module documentation."
+      "description": "Obtener el enlace de la documentación del módulo desactivar comandos."
     },
     "view": {
-      "description": "View the settings of the disable commands module."
+      "description": "Ver las configuraciones del módulo comandos."
     },
     "reset": {
       "description": "Restablece las configuraciones del módulo a las originales (no se pueden recuperar los datos).",
