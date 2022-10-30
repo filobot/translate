@@ -119,7 +119,7 @@
       }
     },
     "slap": {
-      "description": "Send a slap interaction.",
+      "description": "Envía una interacción de bofetada.",
       "arguments": {
         "user": {
           "name": "usuario",
