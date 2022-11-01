@@ -1,5 +1,5 @@
 {
-  "description": "Temporarily ban a user from the server.",
+  "description": "Ban một người dùng tạm thời.",
   "arguments": {
     "user": {
       "name": "user",
