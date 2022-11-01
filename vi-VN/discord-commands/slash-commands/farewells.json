@@ -21,7 +21,7 @@
       "description": "Set the way in which the farewell message will be sent.",
       "arguments": {
         "type": {
-          "name": "type",
+          "name": "loại",
           "description": "Way in which the welcome farewell will be sent."
         }
       }
