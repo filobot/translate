@@ -1,8 +1,8 @@
 {
-  "description": "Module that allows you to sanction users who send links.",
+  "description": "Chương trình này cho phép bạn phạt những người dùng gửi link.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-external-links module."
+      "description": "Bật chương trình chống trốn tránh."
     },
     "disable": {
       "description": "Disable the anti-external-links module."
