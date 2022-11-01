@@ -1,37 +1,37 @@
 {
-  "description": "Chương trình này cho phép bạn chặn người dùng đang né tránh hình phạt.",
+  "description": "Module that allows you to ban those users who try to evade an active sanction.",
   "subcommands": {
     "enable": {
-      "description": "Bật chương trình chống trốn tránh."
+      "description": "Enable the anti-evasion module."
     },
     "disable": {
-      "description": "Tắt chương trình chống trốn tránh."
+      "description": "Disable the anti-evasion module."
     },
     "action": {
-      "description": "Lựa chọn hành động để thực hiện khi có người dùng cố né tránh hình phạt.",
+      "description": "Set the action to take when someone tries to evade an active sanction.",
       "arguments": {
         "action": {
-          "name": "hành động",
-          "description": "Hành động để thực hiện khi có người dùng né tránh hình phạt."
+          "name": "action",
+          "description": "Action to take when someone tries to evade an active sanction."
         },
         "time": {
-          "name": "thời gian",
-          "description": "Thời gian của hành động (nếu hình phạt là tạm thời)."
+          "name": "time",
+          "description": "Time of the action (in case of being temporary)."
         }
       }
     },
     "docs": {
-      "description": "Lấy đường dẫn tới tài liệu của chương trình chống trốn tránh."
+      "description": "Get the link of the anti-evasion module documentation."
     },
     "view": {
-      "description": "Xem cài đặt của chương trình chống trốn tránh."
+      "description": "View the settings of the anti-evasion module."
     },
     "reset": {
-      "description": "Khôi phục cài đặt của chương trình về lại ban đầu (dữ liệu sẽ không thể hồi phục).",
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "xác nhận",
-          "description": "Bạn đã chắc chắn trong việc đặt lại dữ liệu cho chương trình?"
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
         }
       }
     }
