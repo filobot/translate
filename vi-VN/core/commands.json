@@ -133,7 +133,7 @@
       "KICK": "Đá một người dùng ra khỏi server",
       "MUTE": "Mute một người dùng vĩnh viễn",
       "SOFTBAN": "Ban nhẹ tay một người",
-      "TEMPBAN": "Ban một người dùng tạm thời.",
+      "TEMPBAN": "Temporarily ban a user from the server.",
       "TEMPMUTE": "Mute người dùng tạm thời",
       "UNBAN": "Bỏ ban một người dùng",
       "UNMUTE": "Bỏ mute một người dùng",
