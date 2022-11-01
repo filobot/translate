@@ -1,56 +1,56 @@
 {
-  "description": "Các tiện ích dành cho Anime.",
+  "description": "Anime Utilities.",
   "subcommands": {
     "avatar": {
-      "description": "Gửi một hình đại diện anime bất kì."
+      "description": "Send a random image of an anime avatar."
     },
     "search": {
-      "description": "Tìm thông tin của một anime.",
+      "description": "Search the information of an anime.",
       "arguments": {
         "title": {
-          "name": "tiêu đề",
-          "description": "Tiêu đề của anime."
+          "name": "title",
+          "description": "Title of the anime."
         }
       }
     },
     "random": {
-      "description": "Hiện thông tin của một anime bất kì từ tìm kiếm của bạn.",
+      "description": "Show the information from a random anime according to the criteria you specify.",
       "arguments": {
         "term": {
-          "name": "từ khoá",
-          "description": "Từ khoá phải có tiêu đề của anime."
+          "name": "term",
+          "description": "Term that must include the title of the anime."
         },
         "type": {
-          "name": "loại",
-          "description": "Loại anime."
+          "name": "type",
+          "description": "Anime type."
         },
         "status": {
-          "name": "trạng thái",
-          "description": "Trạng thái của anime."
+          "name": "status",
+          "description": "Anime's status."
         },
         "rating": {
-          "name": "xếp hạng",
-          "description": "Xếp hạng của anime."
+          "name": "rating",
+          "description": "Anime's rating."
         },
         "genre": {
-          "name": "thể loại",
-          "description": "Một hoặc một trong những thể loại của anime."
+          "name": "genre",
+          "description": "Genre or one of the genres of the Anime."
         }
       }
     }
   },
   "subcommand_groups": {
     "characters": {
-      "description": "Gửi một hình hoặc hình động bất kì liên quan tới một nhân vật anime.",
+      "description": "Send a random image or gif about an anime character.",
       "subcommands": {
         "ghoul": {
-          "description": "Gửi một hình ảnh bất kì của một Ghoul."
+          "description": "Send a random image of a Ghoul."
         },
         "jojo": {
-          "description": "Gửi một hình ảnh bất kì của một Jojo."
+          "description": "Send a random image of a Jojo."
         },
         "titan": {
-          "description": "Gửi một hình ảnh bất kì của một Titan."
+          "description": "Send a random image of a Titan."
         }
       }
     }
