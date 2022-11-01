@@ -1,85 +1,85 @@
 {
-  "description": "Chương trình cho phép bạn phạt người dùng gửi những tin nhắn không phù hợp.",
+  "description": "Module that allows you to sanction users who send bad words.",
   "subcommands": {
     "enable": {
-      "description": "Bật chương trình chống từ ngữ không phù hợp."
+      "description": "Enable the anti-bad-words module."
     },
     "disable": {
-      "description": "Tắt chương trình chống từ ngữ không phù hợp."
+      "description": "Disable the anti-bad-words module."
     },
     "action": {
-      "description": "Chọn hành động để thực hiện khi có người dùng gửi từ ngữ không phù hợp.",
+      "description": "Set the action to take when someone sends bad words.",
       "arguments": {
         "action": {
-          "name": "hành động",
-          "description": "Hành động để thực hiện khi có người dùng gửi từ ngữ không phù hợp."
+          "name": "action",
+          "description": "Action to take when someone sends bad words."
         },
         "time": {
-          "name": "thời gian",
-          "description": "Thời gian của hành động (nếu hình phạt là tạm thời)."
+          "name": "time",
+          "description": "Time of the action (in case of being temporary)."
         }
       }
     },
     "word": {
-      "description": "Thêm hoặc xoá bỏ từ ngữ từ danh sách những từ ngữ không phù hợp.",
+      "description": "Add or remove bad words from the bad word list.",
       "arguments": {
         "action": {
-          "name": "hành động",
-          "description": "Hành động để thực hiện khi phát hiện từ ngữ đó."
+          "name": "action",
+          "description": "Action to take with the bad word."
         },
         "word": {
-          "name": "từ",
-          "description": "Từ ngữ mà bạn muốn thêm hoặc xoá khỏi danh sách những từ ngữ không phù hợp."
+          "name": "word",
+          "description": "Bad word that you want to add or remove from the bad word list."
         }
       }
     },
     "aggressive-filter": {
-      "description": "Bật hoặc tắt bộ lọc tích cực phát hiện từ ngữ không phù hợp.",
+      "description": "Enable or disable the aggressive bad word detection filter.",
       "arguments": {
         "action": {
-          "name": "hành động",
-          "description": "Hành động bạn muốn thực hiện."
+          "name": "action",
+          "description": "Action you want to carry out."
         }
       }
     },
     "channel": {
-      "description": "Thêm hoặc xoá khỏi danh sách những kênh ngoại lệ.",
+      "description": "Add or remove a channel from the list of ignored channels.",
       "arguments": {
         "action": {
-          "name": "hành động",
-          "description": "Hành động bạn muốn thực hiện."
+          "name": "action",
+          "description": "Action you want to carry out."
         },
         "channel": {
-          "name": "kênh",
-          "description": "Kênh từ danh sách những kênh ngoại lệ của chương trình."
+          "name": "channel",
+          "description": "Channel from the module's channel bypass list."
         }
       }
     },
     "role": {
-      "description": "Thêm hoặc xoá khỏi danh sách các vai trò ngoại lệ.",
+      "description": "Add or remove a role from the list of ignored roles.",
       "arguments": {
         "action": {
-          "name": "hành động",
-          "description": "Hành động bạn muốn thực hiện."
+          "name": "action",
+          "description": "Action you want to carry out."
         },
         "role": {
-          "name": "vai trò",
-          "description": "Vai trò từ danh sách những vai trò ngoại lệ của chương trình."
+          "name": "role",
+          "description": "Role from the module's role bypass list."
         }
       }
     },
     "docs": {
-      "description": "Lấy đường dẫn tới tài liệu của chương trình chống từ ngữ không phù hợp."
+      "description": "Get the link of the anti-bad-words module documentation."
     },
     "view": {
-      "description": "Xem cài đặt của chương trình chống từ ngữ không phù hợp."
+      "description": "View the settings of the anti-bad-words module."
     },
     "reset": {
-      "description": "Khôi phục cài đặt của chương trình về lại ban đầu (dữ liệu sẽ không thể hồi phục).",
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "xác nhận",
-          "description": "Bạn đã chắc chắn trong việc đặt lại dữ liệu cho chương trình?"
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
         }
       }
     }
