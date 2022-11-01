@@ -1,13 +1,13 @@
 {
-  "description": "Bắt đầu một hoạt động ở trong một kênh thoại.",
+  "description": "Start an activity on a voice channel.",
   "arguments": {
     "activity": {
-      "name": "hoạt động",
-      "description": "Hoạt động bạn muốn bắt đầu."
+      "name": "activity",
+      "description": "Activity you want to start."
     },
     "channel": {
-      "name": "kênh",
-      "description": "Kênh thoại bạn muốn bắt đầu hoạt động."
+      "name": "channel",
+      "description": "Voice channel where you want to start the activity."
     }
   }
 }
