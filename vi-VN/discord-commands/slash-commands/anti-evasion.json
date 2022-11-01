@@ -1,37 +1,37 @@
 {
-  "description": "Module that allows you to ban those users who try to evade an active sanction.",
+  "description": "Chương trình này cho phép bạn chặn người dùng đang né tránh hình phạt.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-evasion module."
+      "description": "Bật chương trình chống trốn tránh."
     },
     "disable": {
-      "description": "Disable the anti-evasion module."
+      "description": "Tắt chương trình chống trốn tránh."
     },
     "action": {
-      "description": "Set the action to take when someone tries to evade an active sanction.",
+      "description": "Lựa chọn hành động để thực hiện khi có người dùng cố né tránh hình phạt.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone tries to evade an active sanction."
+          "name": "hành động",
+          "description": "Hành động để thực hiện khi có người dùng né tránh hình phạt."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "thời gian",
+          "description": "Thời gian của hành động (nếu hình phạt là tạm thời)."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-evasion module documentation."
+      "description": "Lấy đường dẫn tới tài liệu của chương trình chống trốn tránh."
     },
     "view": {
-      "description": "View the settings of the anti-evasion module."
+      "description": "Xem cài đặt của chương trình chống trốn tránh."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Khôi phục cài đặt của chương trình về lại ban đầu (dữ liệu sẽ không thể hồi phục).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "xác nhận",
+          "description": "Bạn đã chắc chắn trong việc đặt lại dữ liệu cho chương trình?"
         }
       }
     }
