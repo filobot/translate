@@ -1,9 +1,9 @@
 {
-  "description": "Ask the 8 ball a question and it will answer you wisely.",
+  "description": "Hỏi bi số 8 một câu hỏi và nó sẽ trả lời bạn.",
   "arguments": {
     "question": {
-      "name": "question",
-      "description": "Ask what you want to do to the 8 ball."
+      "name": "câu hỏi",
+      "description": "Hãy hỏi bạn muốn làm gì với bi số 8."
     }
   }
 }
