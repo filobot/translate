@@ -35,7 +35,7 @@
       "description": "Set the way in which the welcome message will be sent.",
       "arguments": {
         "type": {
-          "name": "loại",
+          "name": "type",
           "description": "Way in which the welcome message will be sent."
         }
       }
