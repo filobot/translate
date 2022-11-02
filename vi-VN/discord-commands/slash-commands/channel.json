@@ -8,7 +8,7 @@
           "description": "Set the cooldown of a channel.",
           "arguments": {
             "time": {
-              "name": "time",
+              "name": "thời gian",
               "description": "Cooldown you want to set."
             },
             "channel": {
