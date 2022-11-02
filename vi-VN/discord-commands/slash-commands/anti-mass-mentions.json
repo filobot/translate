@@ -15,8 +15,8 @@
           "description": "Action to take when someone mentions too many users."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "thời gian",
+          "description": "Thời gian của hành động (nếu hình phạt là tạm thời)."
         }
       }
     },
@@ -30,7 +30,7 @@
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Thêm hoặc xoá khỏi danh sách những kênh ngoại lệ.",
       "arguments": {
         "action": {
           "name": "action",
@@ -38,12 +38,12 @@
         },
         "channel": {
           "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "description": "Kênh từ danh sách những kênh ngoại lệ của chương trình."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Thêm hoặc xoá khỏi danh sách các vai trò ngoại lệ.",
       "arguments": {
         "action": {
           "name": "action",
@@ -51,7 +51,7 @@
         },
         "role": {
           "name": "role",
-          "description": "Role from the module's role bypass list."
+          "description": "Vai trò từ danh sách những vai trò ngoại lệ của chương trình."
         }
       }
     },
