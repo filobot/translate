@@ -1,18 +1,18 @@
 {
-  "description": "Module that allows you to sanction that users mention too many users.",
+  "description": "Chương trình này cho phép bạn phạt người dùng mention nhiều người dùng khác trong một lúc.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-mass-mentions module."
+      "description": "Bật chương trình chống mention."
     },
     "disable": {
-      "description": "Disable the anti-mass-mentions module."
+      "description": "Tắt chương trình chống mention."
     },
     "action": {
-      "description": "Set the action to take when someone mentions too many users.",
+      "description": "Chọn hành động để thực hiện khi có người dùng mention quá nhiều.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone mentions too many users."
+          "name": "hành động",
+          "description": "Hành động để thực hiện khi có người dùng mention quá nhiều."
         },
         "time": {
           "name": "thời gian",
@@ -21,11 +21,11 @@
       }
     },
     "threshold": {
-      "description": "Set the number of mentions allowed per user.",
+      "description": "Đặt số mention cho phép cho mỗi người dùng.",
       "arguments": {
         "mentions": {
-          "name": "mentions",
-          "description": "Number of mentions allowed per user."
+          "name": "mention",
+          "description": "Số mention cho phép của mỗi người dùng."
         }
       }
     },
@@ -33,11 +33,11 @@
       "description": "Thêm hoặc xoá khỏi danh sách những kênh ngoại lệ.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "hành động",
+          "description": "Hành động bạn muốn thực hiện."
         },
         "channel": {
-          "name": "channel",
+          "name": "kênh",
           "description": "Kênh từ danh sách những kênh ngoại lệ của chương trình."
         }
       }
@@ -46,27 +46,27 @@
       "description": "Thêm hoặc xoá khỏi danh sách các vai trò ngoại lệ.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "hành động",
+          "description": "Hành động bạn muốn thực hiện."
         },
         "role": {
-          "name": "role",
+          "name": "vai trò",
           "description": "Vai trò từ danh sách những vai trò ngoại lệ của chương trình."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-mass-mentions module documentation."
+      "description": "Lấy đường dẫn tới tài liệu của chương trình chống mention."
     },
     "view": {
-      "description": "View the settings of the anti-mass-mentions module."
+      "description": "Xem cài đặt của chương trình chống mention."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Khôi phục cài đặt của chương trình về lại ban đầu (dữ liệu sẽ không thể hồi phục).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "xác nhận",
+          "description": "Bạn đã chắc chắn trong việc đặt lại dữ liệu cho chương trình?"
         }
       }
     }
