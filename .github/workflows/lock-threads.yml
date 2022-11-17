@@ -1,0 +1,17 @@
+name: Auto lock threads
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+jobs:
+  lock:
+    name: Lock closed issues/PRs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: filobot/lock-threads@master
+        with:
+          github-token: ${{ github.token }}
+          issue-inactive-days: 0
+          issue-lock-reason: ''
+          pr-inactive-days: 0
+          pr-lock-reason: ''
