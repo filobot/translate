@@ -2,7 +2,7 @@ Filo es una potente bot multipropósito de Discord que sirve a los gremios de Di
 
 > ❓ Puedes obtener la lista completa de los comandos de Filo escribiendo `/core commands` en el chat.
 
-**TIP**: Puede abrir un menú de ayuda secreto escribiendo `@Filo#0291` en el chat.
+**CONSEJO**: Puede abrir un menú de ayuda secreto escribiendo `@Filo#0291` en el chat.
 
 > 📣 Las postulaciones para la STAFF de Filo están abiertas. ¡Postúlate ya!
 > 
