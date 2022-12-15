@@ -74,5 +74,7 @@
   "NOT_SETTED": "No establecido",
   "TEXT": "Texto",
   "SYNTAX": "Sintaxis",
-  "SANCTION_PENDING_PROCESSING": "La sanción ha sido añadida a la cola y está pendiente de procesarse."
+  "SANCTION_PENDING_PROCESSING": "La sanción ha sido añadida a la cola y está pendiente de procesarse.",
+  "TAGS": "Tags",
+  "WITHOUT_TAGS": "Without tags"
 }
