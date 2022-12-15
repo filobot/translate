@@ -74,5 +74,7 @@
   "NOT_SETTED": "Chưa đặt",
   "TEXT": "Văn bản",
   "SYNTAX": "Cú pháp",
-  "SANCTION_PENDING_PROCESSING": "Hình phạt này đã được thêm vào hàng đợi và sẽ được cân nhắc để xử lý."
+  "SANCTION_PENDING_PROCESSING": "Hình phạt này đã được thêm vào hàng đợi và sẽ được cân nhắc để xử lý.",
+  "TAGS": "Tags",
+  "WITHOUT_TAGS": "Without tags"
 }
