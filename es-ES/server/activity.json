@@ -1,4 +1,4 @@
 {
   "JOIN_THE_ACTIVITY": "Puedes unirte a la actividad **{{activity}}** haciendo **[clic aquí]({{invite.url}})**.",
-  "ACTIVITY_WARNING": "**WARNING**: This activity may only work on desktop."
+  "ACTIVITY_WARNING": "**ADVERTENCIA**: Esta actividad que solo funcione en ordenador."
 }
