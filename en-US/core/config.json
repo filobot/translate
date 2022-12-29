@@ -70,7 +70,6 @@
   "LOGGING_EVENTS_CATEGORY_MENU": {
     "ALL_EVENTS": "All events",
     "CHANNEL_EVENTS": "Channel events",
-    "EMOJI_EVENTS": "Emoji events",
     "MEMBER_EVENTS": "Member events",
     "MESSAGE_EVENTS": "Message events",
     "ROLE_EVENTS": "Role events",
@@ -89,11 +88,6 @@
       "THREAD_CREATE": "Thread create",
       "THREAD_UPDATE": "Thread update",
       "THREAD_DELETE": "Thread delete"
-    },
-    "EMOJI_EVENTS": {
-      "EMOJI_CREATE": "Emoji create",
-      "EMOJI_UPDATE": "Emoji update",
-      "EMOJI_DELETE": "Emoji delete"
     },
     "MEMBER_EVENTS": {
       "MEMBER_ADD": "Member add",
