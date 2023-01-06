@@ -70,7 +70,6 @@
   "LOGGING_EVENTS_CATEGORY_MENU": {
     "ALL_EVENTS": "Tất cả sự kiện",
     "CHANNEL_EVENTS": "Sự kiện cho kênh",
-    "EMOJI_EVENTS": "Sự kiện biểu cảm",
     "MEMBER_EVENTS": "Các sự kiện của thành viên",
     "MESSAGE_EVENTS": "Sự kiện tin nhắn",
     "ROLE_EVENTS": "Sự kiện role",
@@ -89,11 +88,6 @@
       "THREAD_CREATE": "Chủ đề được tạo",
       "THREAD_UPDATE": "Cập nhật chủ đề",
       "THREAD_DELETE": "Chủ đề được xoá"
-    },
-    "EMOJI_EVENTS": {
-      "EMOJI_CREATE": "Biểu cảm được tạo",
-      "EMOJI_UPDATE": "Cập nhật biểu cảm",
-      "EMOJI_DELETE": "Biểu cảm được xoá"
     },
     "MEMBER_EVENTS": {
       "MEMBER_ADD": "Thành viên được thêm vào",
