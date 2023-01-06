@@ -74,5 +74,9 @@
   "NOT_SETTED": "Chưa đặt",
   "TEXT": "Văn bản",
   "SYNTAX": "Cú pháp",
-  "SANCTION_PENDING_PROCESSING": "Hình phạt này đã được thêm vào hàng đợi và sẽ được cân nhắc để xử lý."
+  "SANCTION_PENDING_PROCESSING": "Hình phạt này đã được thêm vào hàng đợi và sẽ được cân nhắc để xử lý.",
+  "DEPRECATED_COMMAND_WARNING_1": "This command has been marked as deprecated and its functionality has been revoked.",
+  "DEPRECATED_COMMAND_WARNING_2": "Use the **{{command}}** command instead.",
+  "TAGS": "Tags",
+  "WITHOUT_TAGS": "Without tags"
 }

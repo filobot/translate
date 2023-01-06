@@ -58,7 +58,7 @@
   "PROTECTED_DOMAIN": "Este dominio está protegido y no permite esta acción.",
   "NOT_ENOUGH_CREDITS": "No tienes créditos suficientes para realizar esta acción.",
   "MAX_CHARACTERS_REACHED": "El resultado de esta acción supera el límite de **{{limit}}** caracteres.",
-  "MISSING_ARGUMENTS": "Debes especificar al menos **{{number}}** ** argumentos opcionales para continuar.",
+  "MISSING_ARGUMENTS": "Debes especificar al menos **{{number}}** argumentos opcionales para continuar.",
   "MUTED_ROLE_NOT_CONFIGURED": "El rol **silenciado** no está configurado.",
   "MUTED_ROLE_NOT_CONFIGURED_TIP": "Configúralo ejecutando este comando: **{{command}}**.",
   "UNKNOWN_MUTED_ROLE": "El rol **silenciado** no se ha encontrado. Comprueba la configuración de Filo e inténtalo de nuevo más tarde.",

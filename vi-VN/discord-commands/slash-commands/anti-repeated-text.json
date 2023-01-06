@@ -1,63 +1,63 @@
 {
-  "description": "Module that allows you to sanction users who send repeated text in the message.",
+  "description": "Chương trình này cho phép bạn phạt người dùng lặp lại tin nhắn nhiều lần.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-repeated-text module."
+      "description": "Bật chương trình chống tin nhắn lặp lại."
     },
     "disable": {
-      "description": "Disable the anti-repeated-text module."
+      "description": "Tắt chương trình chống tin nhắn lặp lại."
     },
     "action": {
-      "description": "Set the action to take when someone sends repeated text in a message.",
+      "description": "Hành động để thực hiện khi có người dùng gửi tin nhắn lặp lại.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends repeated text in a message."
+          "name": "hành động",
+          "description": "Hành động để thực hiện khi có người dùng gửi tin nhắn lặp lại."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "thời gian",
+          "description": "Thời gian của hành động (nếu hình phạt là tạm thời)."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Thêm hoặc xoá khỏi danh sách những kênh ngoại lệ.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "hành động",
+          "description": "Hành động bạn muốn thực hiện."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "kênh",
+          "description": "Kênh từ danh sách những kênh ngoại lệ của chương trình."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Thêm hoặc xoá khỏi danh sách các vai trò ngoại lệ.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "hành động",
+          "description": "Hành động bạn muốn thực hiện."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "vai trò",
+          "description": "Vai trò từ danh sách những vai trò ngoại lệ của chương trình."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-repeated-text module documentation."
+      "description": "Lấy đường dẫn tới tài liệu của chương trình chống tin nhắn lặp lại."
     },
     "view": {
-      "description": "View the settings of the anti-repeated-text module."
+      "description": "Xem cài đặt của chương trình chống tin nhắn lặp lại."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Khôi phục cài đặt của chương trình về lại ban đầu (dữ liệu sẽ không thể hồi phục).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "xác nhận",
+          "description": "Bạn đã chắc chắn trong việc đặt lại dữ liệu cho chương trình?"
         }
       }
     }

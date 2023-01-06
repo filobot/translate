@@ -1,92 +1,92 @@
 {
-  "description": "Module that allows you to sanction users who send invites from other servers.",
+  "description": "Chương trình này cho phép bạn phạt người dùng gửi link invite từ các server khác.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-invites module."
+      "description": "Bật chương trình chống liên kết mời."
     },
     "disable": {
-      "description": "Disable the anti-invites module."
+      "description": "Tắt chương trình chống liên kết mời."
     },
     "action": {
-      "description": "Set the action to take when someone sends an invite.",
+      "description": "Chọn hành động để thực hiện khi có người dùng gửi liên kết mời.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends an invite."
+          "name": "hành động",
+          "description": "Hành động để thực hiện khi có người dùng gửi liên kết mời."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "thời gian",
+          "description": "Thời gian của hành động (nếu hình phạt là tạm thời)."
         }
       }
     },
     "filo": {
-      "description": "Enable or disable the bypass of invites from the official Filo's server.",
+      "description": "Cho phép hoặc không cho phép liên kết mời từ server chính của Filo.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enable or disable the bypass of invites from the official Filo's server."
+          "name": "hành động",
+          "description": "Cho phép hoặc không cho phép liên kết mời từ server chính của Filo."
         }
       }
     },
     "discord": {
-      "description": "Enable or disable the bypass of invites from the official Discord's servers.",
+      "description": "Cho phép hoặc không cho phép liên kết mời từ các server chính của Discord.",
       "arguments": {
-        "name": "action",
-        "description": "Enable or disable the bypass of invites from the official Discord's servers."
+        "name": "hành động",
+        "description": "Cho phép hoặc không cho phép liên kết mời từ các server chính của Discord."
       }
     },
     "guild": {
-      "description": "Add or remove a guild from the module's guild bypass list.",
+      "description": "Thêm vào hoặc xoá 1 server khỏi danh sách những server ngoại lệ.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "hành động",
+          "description": "Hành động bạn muốn thực hiện."
         },
         "guild": {
-          "name": "guild",
-          "description": "Guild from the module's guild bypass list."
+          "name": "server",
+          "description": "Server từ danh sách những server ngoại lệ của chương trình."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Thêm hoặc xoá khỏi danh sách những kênh ngoại lệ.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "hành động",
+          "description": "Hành động bạn muốn thực hiện."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "kênh",
+          "description": "Kênh từ danh sách những kênh ngoại lệ của chương trình."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Thêm hoặc xoá khỏi danh sách các vai trò ngoại lệ.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "hành động",
+          "description": "Hành động bạn muốn thực hiện."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "vai trò",
+          "description": "Vai trò từ danh sách những vai trò ngoại lệ của chương trình."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-invites module documentation."
+      "description": "Lấy đường dẫn tới tài liệu của chương trình chống liên kết mời."
     },
     "view": {
-      "description": "View the settings of the anti-invites module."
+      "description": "Xem cài đặt của chương trình chống liên kết mời."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Khôi phục cài đặt của chương trình về lại ban đầu (dữ liệu sẽ không thể hồi phục).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "xác nhận",
+          "description": "Bạn đã chắc chắn trong việc đặt lại dữ liệu cho chương trình?"
         }
       }
     }

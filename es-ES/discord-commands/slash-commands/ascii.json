@@ -1,0 +1,9 @@
+{
+  "description": "Convierta su texto a texto ASCII.",
+  "arguments": {
+    "text": {
+      "name": "texto",
+      "description": "Texto que quieres convertir a ASCII."
+    }
+  }
+}

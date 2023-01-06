@@ -6,7 +6,7 @@
       "description": "User you want to temporarily ban."
     },
     "time": {
-      "name": "time",
+      "name": "thời gian",
       "description": "Duration of the sanction."
     },
     "reason": {
