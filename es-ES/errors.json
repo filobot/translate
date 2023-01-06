@@ -1,6 +1,6 @@
 {
   "SOMETHING_WENT_WRONG": "Algo salió mal al intentar ejecutar esa acción",
-  "GENERIC_ERROR": "**[Contáctanos]({{url}})** para obtener más instrucciones sobre lo que sucedió.",
+  "GENERIC_ERROR": "Contáctanos para obtener más instrucciones sobre lo que sucedió.",
   "GUILD_REQUIRED": "Esta acción requiere que el bot esté añadido en el gremio.",
   "MAINTENANCE_ENABLED": "Actualmente se está llevando a cabo una tarea de mantenimiento en este sistema.",
   "INTERACTION_FAILED": "La interacción no recibió una respuesta después de un tiempo.",
