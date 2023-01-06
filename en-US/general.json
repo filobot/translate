@@ -76,5 +76,7 @@
   "SYNTAX": "Syntax",
   "SANCTION_PENDING_PROCESSING": "The sanction has been added to the queue and is pending processing.",
   "DEPRECATED_COMMAND_WARNING_1": "This command has been marked as deprecated and its functionality has been revoked.",
-  "DEPRECATED_COMMAND_WARNING_2": "Use the **{{command}}** command instead."
+  "DEPRECATED_COMMAND_WARNING_2": "Use the **{{command}}** command instead.",
+  "TAGS": "Tags",
+  "WITHOUT_TAGS": "Without tags"
 }
