@@ -75,8 +75,8 @@
   "TEXT": "Texto",
   "SYNTAX": "Sintaxis",
   "SANCTION_PENDING_PROCESSING": "La sanción ha sido añadida a la cola y está pendiente de procesarse.",
-  "DEPRECATED_COMMAND_WARNING_1": "This command has been marked as deprecated and its functionality has been revoked.",
-  "DEPRECATED_COMMAND_WARNING_2": "Use the **{{command}}** command instead.",
+  "DEPRECATED_COMMAND_WARNING_1": "Este comando ha sido marcado como obsoleto y su funcionalidad ha sido revocada.",
+  "DEPRECATED_COMMAND_WARNING_2": "Utiliza el comando **{{command}}** en su lugar.",
   "TAGS": "Etiquetas",
   "WITHOUT_TAGS": "Sin etiquetas"
 }
