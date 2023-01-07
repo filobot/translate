@@ -11,21 +11,21 @@
       "description": "Obtén un fondo de pantalla aleatorio entre ordenador y móvil."
     }
   },
-  "subcommands_groups": {
+  "subcommand_groups": {
     "cards": {
-      "description": "Obtén un fondo de pantalla de carta.",
+      "description": "Get a random card wallpaper.",
       "subcommands": {
         "characters": {
-          "description": "Obtén una carta de personaje aleatoria."
+          "description": "Get a random character card."
         },
         "equipments": {
-          "description": "Obtén una carta de equipamiento aleatoria."
+          "description": "Get a random equipment card."
         },
         "events": {
-          "description": "Obtén una carta de evento aleatoria."
+          "description": "Get a random event card."
         },
         "supports": {
-          "description": "Obtén una carta de soporte aleatoria."
+          "description": "Get a random support card."
         }
       }
     }
