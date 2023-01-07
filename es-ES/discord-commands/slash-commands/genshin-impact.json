@@ -11,7 +11,7 @@
       "description": "Obtén un fondo de pantalla aleatorio entre ordenador y móvil."
     }
   },
-  "subcommands_groups": {
+  "subcommand_groups": {
     "cards": {
       "description": "Obtén un fondo de pantalla de carta.",
       "subcommands": {

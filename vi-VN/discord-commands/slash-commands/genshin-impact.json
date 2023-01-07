@@ -11,7 +11,7 @@
       "description": "Get random wallpaper between desktop and mobile."
     }
   },
-  "subcommands_groups": {
+  "subcommand_groups": {
     "cards": {
       "description": "Get a random card wallpaper.",
       "subcommands": {
