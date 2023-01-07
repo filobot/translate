@@ -13,19 +13,19 @@
   },
   "subcommand_groups": {
     "cards": {
-      "description": "Get a random card wallpaper.",
+      "description": "Obtén un fondo de pantalla de carta.",
       "subcommands": {
         "characters": {
-          "description": "Get a random character card."
+          "description": "Obtén una carta de personaje aleatoria."
         },
         "equipments": {
-          "description": "Get a random equipment card."
+          "description": "Obtén una carta de equipamiento aleatoria."
         },
         "events": {
-          "description": "Get a random event card."
+          "description": "Obtén una carta de evento aleatoria."
         },
         "supports": {
-          "description": "Get a random support card."
+          "description": "Obtén una carta de soporte aleatoria."
         }
       }
     }
