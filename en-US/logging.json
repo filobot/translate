@@ -31,7 +31,8 @@
     "THREAD_CREATE": "Thread created",
     "THREAD_UPDATE": "Thread updated",
     "THREAD_DELETE": "Thread deleted",
-    "REPORT_CREATE": "Reported Member",
+    "REPORT_MEMBER_CREATE": "Reported member",
+    "REPORT_MESSAGE_CREATE": "Reported message",
     "SANCTION_CREATE": "Sanction created",
     "SANCTION_UPDATE": "Sanction updated",
     "SANCTION_DELETE": "Sanction deleted"
