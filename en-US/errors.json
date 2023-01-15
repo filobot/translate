@@ -72,5 +72,6 @@
   "MODULE_DISABLED": "The **[{{module}}]({{url}})** module is disabled and therefore this action can't be performed.",
   "INVALID_MORSE_CODE": "The morse code you specified is invalid.",
   "SETUP_MENU_EXPIRED": "The setup menu has expired, this may be because another setup menu has been opened, otherwise **[contact us]({{url}})**.",
-  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) has one or more sanctions pending processing."
+  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) has one or more sanctions pending processing.",
+  "MISSING_REASON": "You must specify a reason to continue."
 }

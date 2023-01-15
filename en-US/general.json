@@ -78,5 +78,6 @@
   "DEPRECATED_COMMAND_WARNING_1": "This command has been marked as deprecated and its functionality has been revoked.",
   "DEPRECATED_COMMAND_WARNING_2": "Use the **{{command}}** command instead.",
   "TAGS": "Tags",
-  "WITHOUT_TAGS": "Without tags"
+  "WITHOUT_TAGS": "Without tags",
+  "DETAILS": "Details"
 }
