@@ -13,6 +13,7 @@
   "RESPONSE_DELETED": "You have successfully deleted the response.",
   "DATE": "Date",
   "APPROVED": "Approved",
+  "PENDING": "Pending",
   "DENIED": "Denied",
   "ENABLED": "Enabled",
   "DISABLED": "Disabled",
@@ -79,5 +80,6 @@
   "DEPRECATED_COMMAND_WARNING_2": "Use the **{{command}}** command instead.",
   "TAGS": "Tags",
   "WITHOUT_TAGS": "Without tags",
-  "DETAILS": "Details"
+  "DETAILS": "Details",
+  "REVIEWER": "Reviewer"
 }
