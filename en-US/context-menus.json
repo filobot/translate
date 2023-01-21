@@ -13,7 +13,9 @@
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
       "SHOW_USER_AVATAR_TITLE": "Show user avatar",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user."
+      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user.",
+      "SHOW_USER_PROFILE_TITLE": "Show user profile",
+      "SHOW_USER_PROFILE_DESCRIPTION": "Show the profile of this user."
     },
     "MODERATE_THIS_USER": {
       "PERMANENTLY_BAN_THIS_USER_TITLE": "Permanently ban this user",
