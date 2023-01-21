@@ -82,5 +82,6 @@
   "WITHOUT_TAGS": "Without tags",
   "DETAILS": "Details",
   "REVIEWER": "Reviewer",
-  "SELECT_THE_ACTION": "Select the action you want to carry out."
+  "SELECT_THE_ACTION": "Select the action you want to carry out.",
+  "SELECT_THE_ACTION_PLACEHOLDER": "Select the action"
 }
