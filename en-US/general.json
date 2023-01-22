@@ -85,5 +85,6 @@
   "SELECT_THE_ACTION": "Select the action you want to carry out.",
   "SELECT_THE_ACTION_PLACEHOLDER": "Select the action",
   "SELECT_A_USER": "You must select a user to continue.",
-  "SELECT_A_USER_PLACEHOLDER": "Select a user"
+  "SELECT_A_USER_PLACEHOLDER": "Select a user",
+  "SUBMITTED": "Submitted"
 }
