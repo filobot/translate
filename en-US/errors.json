@@ -74,5 +74,6 @@
   "SETUP_MENU_EXPIRED": "The setup menu has expired, this may be because another setup menu has been opened, otherwise **[contact us]({{url}})**.",
   "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) has one or more sanctions pending processing.",
   "MISSING_REASON": "You must specify a reason to continue.",
-  "IGNORED_ROLED_NOT_CONFIGURED": "The ignored role hasn't been configured yet."
+  "IGNORED_ROLED_NOT_CONFIGURED": "The ignored role hasn't been configured yet.",
+  "ACTION_UNAVAILABLE_IN_THIS_CHANNEL": "This action isn't available in this channel."
 }
