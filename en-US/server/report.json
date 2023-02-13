@@ -1,5 +1,6 @@
 {
   "USER_REPORTED": "You have successfully reported [**{{user.tag}}**]({{url}}) ({{user.id}}).",
+  "MESSAGE_REPORTED": "You have successfully reported the **[message]({{url}})** of [**{{user.tag}}**]({{url2}}) ({{user.id}}).",
   "REPORT_APPROVED_OR_DENIED": "You have successfully {{status}} the report of {{user}}.",
   "REPORT_NOTIFICATION": {
     "TITLE": "Your report has been {{status}} on the **{{guild.name}}** server!",
