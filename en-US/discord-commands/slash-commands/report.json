@@ -11,6 +11,10 @@
         "reason": {
           "name": "reason",
           "description": "Reason why you want to report this member."
+        },
+        "evidences": {
+          "name": "evidences",
+          "description": "Evidences that support the reason you are reporting this member."
         }
       }
     },
@@ -24,6 +28,10 @@
         "reason": {
           "name": "reason",
           "description": "Reason why you want to report this message."
+        },
+        "evidences": {
+          "name": "evidences",
+          "description": "Evidences that support the reason you are reporting this message."
         }
       }
     }
