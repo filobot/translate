@@ -13,7 +13,9 @@
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
       "SHOW_USER_AVATAR_TITLE": "Xem ảnh đại diện của người dùng",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Xem ảnh đại diện của người dùng."
+      "SHOW_USER_AVATAR_DESCRIPTION": "Xem ảnh đại diện của người dùng.",
+      "SHOW_USER_PROFILE_TITLE": "Show user profile",
+      "SHOW_USER_PROFILE_DESCRIPTION": "Show the profile of this user."
     },
     "MODERATE_THIS_USER": {
       "PERMANENTLY_BAN_THIS_USER_TITLE": "Ban người dùng vĩnh viễn",
