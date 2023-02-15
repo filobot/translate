@@ -1,18 +1,18 @@
 {
-  "description": "Module that allows you to avoid spam from users.",
+  "description": "Chương trình này cho phép bạn tránh spam từ các người dùng khác.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-spam module."
+      "description": "Bật chương trình chống spam."
     },
     "disable": {
-      "description": "Disable the anti-spam module."
+      "description": "Tắt chương trình chống spam."
     },
     "action": {
-      "description": "Set the action to take when someone spam.",
+      "description": "Chọn hành động để thực hiện khi có người dùng spam.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone spam."
+          "name": "hành động",
+          "description": "Hành động để thực hiện khi có người dùng spam."
         },
         "time": {
           "name": "thời gian",
