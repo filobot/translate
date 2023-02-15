@@ -1,9 +1,9 @@
 {
-  "description": "Convert your text to ASCII text.",
+  "description": "Hoán đổi chữ của bạn thành chữ ASCII.",
   "arguments": {
     "text": {
-      "name": "text",
-      "description": "Text that you want to convert to ASCII."
+      "name": "văn bản",
+      "description": "Văn bản mà bạn muốn đổi sang ASCII."
     }
   }
 }
