@@ -109,8 +109,8 @@
         }
       }
     },
-    "reversecard": {
-      "description": "Envía una interacción de carta reversora.",
+    "reverse-card": {
+      "description": "Send a reverse card interaction.",
       "arguments": {
         "user": {
           "name": "usuario",
