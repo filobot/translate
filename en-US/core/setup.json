@@ -70,6 +70,14 @@
         "SELECT_A_LANGUAGE": "You must select the language you want to set.",
         "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
         "LANGUAGE_SET": "You have set the **{{language}}** language correctly."
+      },
+      "REPORTS": {
+        "LABEL": "Reports",
+        "DESCRIPTION": "Provide reporting tools to your server members.",
+        "SUBMODULES_SELECTOR": {
+          "MEMBERS": "Change the behavior of the member reporting module.",
+          "MESSAGES": "Change the behavior of the message reporting module."
+        }
       }
     },
     "VIEW": {
