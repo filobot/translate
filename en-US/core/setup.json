@@ -22,6 +22,7 @@
   "LOADING_DATA": "Please wait while the necessary data is loaded.",
   "MODULES": {
     "SELECT_A_MODULE": "You must select the module from the **{{module}}** category that you want to configure.",
+    "SELECT_A_SUBMODULE": "You must select the submodule from the **{{module}}** module that you want to configure.",
     "PLACEHOLDER": "Select a module",
     "SELECT_THE_ACTION": "You must select the action you want to perform on the module.",
     "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
