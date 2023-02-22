@@ -1,25 +1,25 @@
 {
-  "description": "Manage a sanction case.",
+  "description": "Quản lý một hình phạt.",
   "subcommands": {
     "info": {
-      "description": "Get information about a sanction case.",
+      "description": "Lấy thông tin về 1 hình phạt.",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "hình-phạt",
+          "description": "ID của hình phạt."
         }
       }
     },
     "set": {
-      "description": "Set the new information for a case.",
+      "description": "Sửa đổi thông tin của một hình phạt.",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "hình-phạt",
+          "description": "ID của hình phạt."
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason you want to set to the case."
+          "name": "lí do",
+          "description": "Lí do bạn muốn sửa đổi hình phạt."
         }
       }
     }
