@@ -29,6 +29,9 @@
     "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
     "RESET_REQUEST_WARNING": "Are you sure you want to reset the **{{module}}** module? This action can't be undone!",
     "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
+    "SELECT_A_CHANNEL": "You must select the channel you want to set.",
+    "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
+    "CHANNEL_SET": "You have set the **{{channel}}** channel successfully.",
     "COMMUNITY": {
       "NAME": "Community",
       "COMMANDS": {
@@ -70,7 +73,7 @@
         "DESCRIPTION": "Change the language of Filo on this server.",
         "SELECT_A_LANGUAGE": "You must select the language you want to set.",
         "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
-        "LANGUAGE_SET": "You have set the **{{language}}** language correctly."
+        "LANGUAGE_SET": "You have set the **{{language}}** language successfully."
       },
       "REPORTS": {
         "LABEL": "Reports",
