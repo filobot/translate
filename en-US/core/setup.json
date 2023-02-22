@@ -25,6 +25,7 @@
     "SELECT_A_SUBMODULE": "You must select the submodule from the **{{module}}** module that you want to configure.",
     "PLACEHOLDER": "Select a module",
     "SELECT_THE_ACTION": "You must select the action you want to perform on the module.",
+    "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
     "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
     "RESET_REQUEST_WARNING": "Are you sure you want to reset the **{{module}}** module? This action can't be undone!",
     "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
@@ -33,7 +34,6 @@
       "COMMANDS": {
         "LABEL": "Commands",
         "DESCRIPTION": "Change the behavior of Filo's commands.",
-        "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
         "CONFIGURE": {
           "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
           "SELECT_THE_CATEGORIES": "You must select the categories you want to {{action}}.",
@@ -78,6 +78,12 @@
         "SUBMODULES_SELECTOR": {
           "MEMBERS": "Change the behavior of the member reporting module.",
           "MESSAGES": "Change the behavior of the message reporting module."
+        },
+        "CONFIGURE": {
+          "REPORTS_CHANNEL": {
+            "LABEL": "Set the reports channel",
+            "DESCRIPTION": "Set where you want the reports to be sent."
+          }
         }
       }
     },
