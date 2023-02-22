@@ -1,21 +1,21 @@
 {
-  "description": "Permanently ban a user from the server.",
+  "description": "Chặn một người dùng vĩnh viễn.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to ban."
+      "name": "người dùng",
+      "description": "Người dùng bạn muốn chặn."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for banning this user."
+      "name": "lí do",
+      "description": "Lí do chặn người dùng này."
     },
     "message-history": {
-      "name": "message-history",
-      "description": "Specify if you want to delete the user's message history."
+      "name": "lịch-sử-tin-nhắn",
+      "description": "Chỉ định nếu bạn muốn xóa lịch sử tin nhắn của người dùng."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "im-lặng",
+      "description": "Chỉ định nếu bạn không muốn người dùng biết thông tin đã bị cấm."
     }
   }
 }
