@@ -5,7 +5,7 @@
       "description": "Convert the text to morse code.",
       "arguments": {
         "code": {
-          "name": "code",
+          "name": "mã",
           "description": "Text that you want to encode to morse code."
         }
       }
@@ -14,7 +14,7 @@
       "description": "Convert the morse code to text.",
       "arguments": {
         "code": {
-          "name": "code",
+          "name": "mã",
           "description": "Morse code that you want to decode to text."
         }
       }
