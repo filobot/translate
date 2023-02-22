@@ -14,12 +14,12 @@
       "description": "Reason for temporarily banning this user."
     },
     "message-history": {
-      "name": "message-history",
-      "description": "Specify if you want to delete the user's message history."
+      "name": "lịch-sử-tin-nhắn",
+      "description": "Chỉ định nếu bạn muốn xóa lịch sử tin nhắn của người dùng."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "im-lặng",
+      "description": "Chỉ định nếu bạn không muốn người dùng biết thông tin đã bị cấm."
     }
   }
 }
