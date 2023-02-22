@@ -31,7 +31,7 @@
     "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
     "SELECT_A_CHANNEL": "You must select the channel you want to set.",
     "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
-    "CHANNEL_SET": "You have set the **[#{{channel.name}}]({{url}})** channel successfully.",
+    "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
     "COMMUNITY": {
       "NAME": "Community",
       "COMMANDS": {
