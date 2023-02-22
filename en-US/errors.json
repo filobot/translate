@@ -77,5 +77,5 @@
   "IGNORED_ROLE_NOT_CONFIGURED": "The ignored role hasn't been configured yet.",
   "ACTION_UNAVAILABLE_IN_THIS_CHANNEL": "This action isn't available in this channel.",
   "MIN_EVIDENCES_REACHED": "You must specify at least **{{number}}** evidence to continue.",
-  "CHANNEL_ALREADY_USED": "This channel is already being used by another module.",
+  "CHANNEL_ALREADY_USED": "This channel is already being used by another module."
 }
