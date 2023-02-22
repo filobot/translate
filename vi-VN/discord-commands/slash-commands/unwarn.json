@@ -10,7 +10,7 @@
       "description": "Reason for removing the warn."
     },
     "case": {
-      "name": "case",
+      "name": "hình-phạt",
       "description": "ID of the warn you want to remove."
     },
     "silent": {
