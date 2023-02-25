@@ -4,6 +4,7 @@
     "nativeName": "English",
     "wikiCode": "en",
     "discordCode": "en-US",
+    "iso639": "en",
     "flag": "🇺🇸",
     "default": true,
     "contributors": [
@@ -15,6 +16,7 @@
     "nativeName": "Español",
     "wikiCode": "es",
     "discordCode": "es-ES",
+    "iso639": "es",
     "flag": "🇪🇸",
     "default": false,
     "contributors": [
@@ -26,6 +28,7 @@
     "nativeName": "Tiếng Việt",
     "wikiCode": null,
     "discordCode": "vi",
+    "iso639": "vi",
     "flag": "🇻🇳",
     "default": false,
     "contributors": [
