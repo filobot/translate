@@ -1,5 +1,5 @@
 {
-  "description": "Welcome module that allows you to send a message to new members and assign them a role.",
+  "description": "新しいメンバーにメッセージを送信し、役割を割り当てることができるようにするウェルカムモジュール.",
   "subcommands": {
     "enable": {
       "description": "Enable the welcomes module.",
@@ -56,7 +56,7 @@
       "description": "View the settings of the welcomes module."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
