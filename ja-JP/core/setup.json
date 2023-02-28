@@ -1,7 +1,7 @@
 {
   "HOME": {
     "PRE_START": "Before continuing you must click on the **{{button}}** button.",
-    "DESCRIPTION": "Start configuring Filo by selecting the category of modules you want to configure and then select the module you want to operate with.\n\n**Do you need a reference guide? Don't worry!**\nBy **[clicking here]({{url}})**, you'll redirect to the Filo's Wiki, which contains information on how to configure anything.\n\n**Too complicated?**\n**[Contact us]({{url2}})** if you have any questions or require any additional clarification.",
+    "DESCRIPTION": "設定したいモジュールのカテゴリーを選択し、一緒に動作させたいモジュールを選択することでFiloの設定を開始します。\n\n**リファレンスガイドが必要ですか? 心配しないでください！**\n**[ここをクリック]({{url}})**することで、あらゆる設定方法に関する情報を含むFiloのWikiにリダイレクトされます。\n\n**複雑すぎる？**\n**[お問い合わせ]({{url2}})** もし、何か質問や追加説明が必要な場合は、お問い合わせください。",
     "SELECT_A_MODULE_CATEGORY": {
       "PLACEHOLDER": "Select a module category",
       "ADMINISTRATION": {
@@ -35,7 +35,7 @@
         "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
         "CONFIGURE": {
           "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
-          "SELECT_THE_CATEGORIES": "You must select the categories you want to {{action}}.",
+          "SELECT_THE_CATEGORIES": "{{action}} するカテゴリーを選択する必要があります。",
           "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
           "SELECT_THE_CATEGORIES_PLACEHOLDER": "Select the categories",
           "DISABLE_COMMANDS": {
