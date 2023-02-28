@@ -1,5 +1,5 @@
 {
-  "description": "Module that allows you to sanction that users mention too many users.",
+  "description": "ユーザーがあまりにも多くのユーザーに言及することを許可するモジュール。",
   "subcommands": {
     "enable": {
       "description": "Enable the anti-mass-mentions module."
@@ -56,13 +56,13 @@
       }
     },
     "docs": {
-      "description": "Get the link of the anti-mass-mentions module documentation."
+      "description": "アンチマスメンションモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
       "description": "View the settings of the anti-mass-mentions module."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
