@@ -1,0 +1,94 @@
+{
+  "description": "Module that allows you to sanction users who send invites from other servers.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the anti-invites module."
+    },
+    "disable": {
+      "description": "Disable the anti-invites module."
+    },
+    "action": {
+      "description": "Set the action to take when someone sends an invite.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action to take when someone sends an invite."
+        },
+        "time": {
+          "name": "time",
+          "description": "Time of the action (in case of being temporary)."
+        }
+      }
+    },
+    "filo": {
+      "description": "Enable or disable the bypass of invites from the official Filo's server.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Enable or disable the bypass of invites from the official Filo's server."
+        }
+      }
+    },
+    "discord": {
+      "description": "Enable or disable the bypass of invites from the official Discord's servers.",
+      "arguments": {
+        "name": "action",
+        "description": "Enable or disable the bypass of invites from the official Discord's servers."
+      }
+    },
+    "guild": {
+      "description": "Add or remove a guild from the module's guild bypass list.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "guild": {
+          "name": "guild",
+          "description": "Guild from the module's guild bypass list."
+        }
+      }
+    },
+    "channel": {
+      "description": "Add or remove a channel from the list of ignored channels.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "channel": {
+          "name": "channel",
+          "description": "Channel from the module's channel bypass list."
+        }
+      }
+    },
+    "role": {
+      "description": "Add or remove a role from the list of ignored roles.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "role": {
+          "name": "role",
+          "description": "Role from the module's role bypass list."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the anti-invites module documentation."
+    },
+    "view": {
+      "description": "View the settings of the anti-invites module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    }
+  }
+}
