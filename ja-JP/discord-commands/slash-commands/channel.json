@@ -1,0 +1,127 @@
+{
+  "description": "Manage a channel.",
+  "subcommand_groups": {
+    "cooldown": {
+      "description": "Manage the cooldown of a channel.",
+      "subcommands": {
+        "set": {
+          "description": "Set the cooldown of a channel.",
+          "arguments": {
+            "time": {
+              "name": "time",
+              "description": "Cooldown you want to set."
+            },
+            "channel": {
+              "name": "channel",
+              "description": "Channel where you want to set the cooldown."
+            },
+            "reset": {
+              "description": "Reset the cooldown of a channel.",
+              "arguments": {
+                "channel": {
+                  "name": "channel",
+                  "description": "Channel where you want to reset the cooldown."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "messages": {
+      "description": "Manage the messages of a channel.",
+      "subcommands": {
+        "pin": {
+          "description": "Pin a message on the current channel.",
+          "arguments": {
+            "message": {
+              "name": "message",
+              "description": "ID of the message you want to pin."
+            }
+          }
+        },
+        "purge": {
+          "description": "Purge a number of messages from a channel.",
+          "arguments": {
+            "messages": {
+              "name": "messages",
+              "description": "Number of messages you want to purge."
+            },
+            "channel": {
+              "name": "channel",
+              "description": "Channel where you want to purge messages."
+            }
+          }
+        },
+        "unpin": {
+          "description": "Unpin a message on the current channel.",
+          "arguments": {
+            "message": {
+              "name": "message",
+              "description": "ID of the message you want to unpin."
+            }
+          }
+        }
+      }
+    },
+    "nsfw": {
+      "description": "Switch the NSFW mode of a channel.",
+      "subcommands": {
+        "enable": {
+          "description": "Enable the NSFW mode of a channel.",
+          "arguments": {
+            "channel": {
+              "name": "channel",
+              "description": "Channel where you want to enable the NSFW mode."
+            }
+          }
+        },
+        "disable": {
+          "description": "Disable the NSFW mode of a channel.",
+          "arguments": {
+            "channel": {
+              "name": "channel",
+              "description": "Channel where you want to disable the NSFW mode."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "info": {
+      "description": "Get information about a channel.",
+      "arguments": {
+        "channel": {
+          "name": "channel",
+          "description": "Channel where the information will come from."
+        }
+      }
+    },
+    "invite": {
+      "description": "Create an instant invite of a channel.",
+      "arguments": {
+        "channel": {
+          "name": "channel",
+          "description": "Channel where to create the instant invite."
+        },
+        "temporary": {
+          "name": "temporary",
+          "description": "Specify if you want to grant temporary or permanent membership."
+        },
+        "max-age": {
+          "name": "max-age",
+          "description": "Time until the invite expires."
+        },
+        "max-uses": {
+          "name": "max-uses",
+          "description": "Maximum number of uses of the invite."
+        },
+        "force": {
+          "name": "force",
+          "description": "Force the creation of the invite."
+        }
+      }
+    }
+  }
+}
