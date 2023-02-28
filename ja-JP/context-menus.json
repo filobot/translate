@@ -1,0 +1,45 @@
+{
+  "SELECT_THE_ACTION": "Select the action you want to carry out.",
+  "SELECT_THE_ACTION_PLACEHOLDER": "Select the action",
+  "LOADING_ACTION": "Please wait while the requested action loads.",
+  "MESSAGE": {
+    "MANAGE_THIS_MESSAGE": {
+      "PIN_MESSAGE_TITLE": "Pin message",
+      "PIN_MESSAGE_DESCRIPTION": "Pin this message on this channel.",
+      "UNPIN_MESSAGE_TITLE": "Unpin message",
+      "UNPIN_MESSAGE_DESCRIPTION": "Unpin this message from this channel."
+    }
+  },
+  "USER": {
+    "MISCELLANEOUS_ACTIONS": {
+      "SHOW_USER_AVATAR_TITLE": "Show user avatar",
+      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user.",
+      "SHOW_USER_PROFILE_TITLE": "Show user profile",
+      "SHOW_USER_PROFILE_DESCRIPTION": "Show the profile of this user."
+    },
+    "MODERATE_THIS_USER": {
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "Permanently ban this user",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Permanently ban this user from the server.",
+      "SHOW_USER_HISTORY_TITLE": "Show user's history",
+      "SHOW_USER_HISTORY_DESCRIPTION": "Show the user's sanctions history.",
+      "KICK_THIS_USER_TITLE": "Kick this user",
+      "KICK_THIS_USER_DESCRIPTION": "Kick this user from the server.",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Permanently mute this user",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Permanently mute this user from the server.",
+      "SOFTBAN_THIS_USER_TITLE": "Softban this user",
+      "SOFTBAN_THIS_USER_DESCRIPTION": "Softban this user from the server.",
+      "TEMPORARILY_BAN_THIS_USER_TITLE": "Temporarily ban this user",
+      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Temporarily ban this user from the server.",
+      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Temporarily mute this user",
+      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Temporarily mute this user from the server.",
+      "UNBAN_THIS_USER_TITLE": "Unban this user",
+      "UNBAN_THIS_USER_DESCRIPTION": "Unban this user from the server.",
+      "UNMUTE_THIS_USER_TITLE": "Unmute this user",
+      "UNMUTE_THIS_USER_DESCRIPTION": "Unmute this user from the server.",
+      "UNWARN_THIS_USER_TITLE": "Unwarn this user",
+      "UNWARN_THIS_USER_DESCRIPTION": "Unwarn this user from the server.",
+      "WARN_THIS_USER_TITLE": "Warn this user",
+      "WARN_THIS_USER_DESCRIPTION": "Warn this user from the server."
+    }
+  }
+}
