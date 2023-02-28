@@ -2,10 +2,10 @@
   "description": "Module that allows users to report bad behavior to the Moderators of the server.",
   "subcommands": {
     "enable": {
-      "description": "Enable the reports module."
+      "description": "レポート モジュールを有効にします。"
     },
     "disable": {
-      "description": "Disable the reports module."
+      "description": "レポートモジュールを無効にします。"
     },
     "channel": {
       "description": "Set the channel where the reports will be sent.",
@@ -17,13 +17,13 @@
       }
     },
     "docs": {
-      "description": "Get the link of the reports module documentation."
+      "description": "レポートモジュールドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the reports module."
+      "description": "レポート モジュールの設定を表示します。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
