@@ -83,7 +83,7 @@
           "arguments": {
             "role": {
               "name": "role",
-              "description": "Muted role (in case you want to set it and not create it)."
+              "description": "ミュートされた役割 (設定する場合で、作成しない場合)。"
             }
           }
         },
@@ -92,7 +92,7 @@
           "arguments": {
             "role": {
               "name": "role",
-              "description": "Role to which you want to remove all the parameters (properties and permissions)."
+              "description": "すべてのパラメータ (プロパティとパーミッション) を削除したいロール。"
             }
           }
         },
@@ -113,7 +113,7 @@
           "description": "Get the settings of the guild roles."
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
           "arguments": {
             "confirmation": {
               "name": "confirmation",
@@ -139,7 +139,7 @@
           "description": "View the settings of the moderation parameters module."
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
           "arguments": {
             "confirmation": {
               "name": "confirmation",
