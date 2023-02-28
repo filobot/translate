@@ -1,8 +1,8 @@
 {
-  "description": "Module that allows you to automatically sanction users with a certain amount of warnings.",
+  "description": "一定量の警告を受けたユーザーに自動的に制裁を加えることができるモジュールです。",
   "subcommands": {
     "enable": {
-      "description": "Enable the auto-moderation module."
+      "description": "自動モデレーションモジュールを有効にする"
     },
     "disable": {
       "description": "Disable the auto-moderation module."
@@ -34,13 +34,13 @@
       }
     },
     "docs": {
-      "description": "Get the link of the auto-moderation module documentation."
+      "description": "自動モデレーションモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
       "description": "View the settings of the auto-moderation module."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
