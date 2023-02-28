@@ -1,0 +1,74 @@
+{
+  "description": "Module that allows you to prevent users from sending scam links.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the anti-scam-links module."
+    },
+    "disable": {
+      "description": "Disable the anti-scam-links module."
+    },
+    "action": {
+      "description": "Set the action to take when someone sends scam links.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action to take when someone sends scam links."
+        },
+        "time": {
+          "name": "time",
+          "description": "Time of the action (in case of being temporary)."
+        }
+      }
+    },
+    "aggressive-filter": {
+      "description": "Enable or disable the aggressive scam link detection filter.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        }
+      }
+    },
+    "channel": {
+      "description": "Add or remove a channel from the list of ignored channels.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "channel": {
+          "name": "channel",
+          "description": "Channel from the module's channel bypass list."
+        }
+      }
+    },
+    "role": {
+      "description": "Add or remove a role from the list of ignored roles.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action you want to carry out."
+        },
+        "role": {
+          "name": "role",
+          "description": "Role from the module's role bypass list."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the anti-scam-links module documentation."
+    },
+    "view": {
+      "description": "View the settings of the anti-scam-links module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    }
+  }
+}
