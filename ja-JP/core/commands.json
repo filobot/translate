@@ -59,11 +59,11 @@
       "FOOD": "Send a random gif of a food",
       "GECG": "Send a random image of a gecg",
       "GENSHIN-IMPACT": "Send a random Genshin Impact wallpaper",
-      "INTERACTION": "Interact with other users with gifs and actions",
+      "INTERACTION": "GIFやアクションで他のユーザーと交流できる",
       "HUSBAND": "Send a random image of a husband",
       "MANGA": "Manga Utilities",
       "NEKO": "Send a random image of a neko",
-      "REACTION": "React to other users using gifs",
+      "REACTION": "GIFを使った他のユーザーへのリアクション",
       "TRAP": "Send a random image of a trap",
       "WAIFU": "Send a random image of a waifu"
     },
@@ -108,7 +108,7 @@
     "GAME_STATISTICS": {
       "CSGO": "Watch the statistics of a CSGO player",
       "FORTNITE": "Watch the statistics of a Fortnite player",
-      "OSU": "Watch the statistics of a osu! player",
+      "OSU": "osu! 選手の統計データを見る",
       "R6S": "Watch the statistics of a R6S player"
     },
     "GAMES": {
@@ -150,21 +150,21 @@
       "SERVER": "Get information about the server"
     },
     "SETTINGS": {
-      "ANTI-BAD-WORDS": "Module that allows you to sanction users who send bad words",
+      "ANTI-BAD-WORDS": "不正な単語を送信するユーザーを認可するモジュール",
       "ANTI-EVASION": "Module that allows you to ban those users who try to evade an active sanction",
-      "ANTI-EXTERNAL-LINKS": "Module that allows you to sanction users who send links",
-      "ANTI-INVITES": "Module that allows you to sanction users who send invites from other servers",
-      "ANTI-MASS-MENTIONS": "Module that allows you to sanction that users mention too many users",
-      "ANTI-REPEATED-TEXT": "Module that allows you to sanction users who send repeated text in the message",
-      "ANTI-SPAM": "Module that allows you to avoid spam from users",
-      "AUTO-MODERATION": "Module that allows you to automatically sanction users with a certain amount of warnings",
+      "ANTI-EXTERNAL-LINKS": "リンクを送信するユーザーを認可するモジュール",
+      "ANTI-INVITES": "他のサーバーから招待を送信するユーザーを許可するモジュール",
+      "ANTI-MASS-MENTIONS": "ユーザーのメンションが多すぎることを認可するモジュール",
+      "ANTI-REPEATED-TEXT": "メッセージ内に繰り返しテキストを送信するユーザーを認可するモジュール",
+      "ANTI-SPAM": "ユーザーからのスパムを避けることができるモジュール",
+      "AUTO-MODERATION": "一定量の警告をユーザーに自動的に許可するモジュール",
       "COMMANDS": "Manage Filo's commands by enabling or disabling them",
-      "FAREWELLS": "Module that allows you to send a goodbye message to old members",
+      "FAREWELLS": "古いメンバーにさよならのメッセージを送ることができるモジュール",
       "LANGUAGE": "Module that allows you to set the Filo's Language",
-      "LOGGING": "Module that allows to send the logs of the server to a channel",
-      "MEMBER-COUNTER": "Module that allows configuring a channel as a server member counter",
+      "LOGGING": "サーバのログをチャンネルに送信できるモジュール",
+      "MEMBER-COUNTER": "サーバメンバカウンタとしてチャンネルを設定できるモジュール",
       "REPORTS": "Module that allows users to report bad behavior to the Moderators of the server",
-      "WELCOMES": "Welcome module that allows you to send a message to new members and assign them a role"
+      "WELCOMES": "新しいメンバーにメッセージを送信し、役割を割り当てることができるようにするウェルカムモジュール"
     },
     "SOCIAL": {
       "PROFILE": "Get your profile or a user's profile"
