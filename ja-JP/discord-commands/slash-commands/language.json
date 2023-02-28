@@ -2,7 +2,7 @@
   "description": "Module that allows you to set the Filo's Language.",
   "subcommands": {
     "select": {
-      "description": "Select the Filo's language you prefer (must be available)."
+      "description": "お好みのFiloの言語を選択します (利用可能である必要があります)。"
     },
     "docs": {
       "description": "Get the link of the language module documentation."
@@ -11,7 +11,7 @@
       "description": "View the current language information."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "name": "confirmation",
         "description": "Are you really sure you want to reset the data for this module?"
