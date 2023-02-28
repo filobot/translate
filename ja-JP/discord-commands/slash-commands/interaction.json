@@ -1,5 +1,5 @@
 {
-  "description": "Interact with other users with gifs and actions.",
+  "description": "GIFやアクションで他のユーザーと交流することができます。",
   "subcommands": {
     "baka": {
       "description": "Send a baka interaction.",
