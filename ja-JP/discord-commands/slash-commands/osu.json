@@ -1,5 +1,5 @@
 {
-  "description": "Get the statistics of a osu! player.",
+  "description": "osu！選手の統計情報を取得します。",
   "arguments": {
     "player": {
       "name": "player",
