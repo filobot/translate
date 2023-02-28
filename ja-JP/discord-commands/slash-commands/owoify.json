@@ -6,7 +6,7 @@
       "arguments": {
         "text": {
           "name": "text",
-          "description": "Text that you want to convert to owo."
+          "description": "owoに変換したいテキスト。"
         }
       }
     },
@@ -15,7 +15,7 @@
       "arguments": {
         "text": {
           "name": "text",
-          "description": "Text that you want to convert to uwu."
+          "description": "uwuに変換したいテキスト。"
         }
       }
     },
@@ -24,7 +24,7 @@
       "arguments": {
         "text": {
           "name": "text",
-          "description": "Text that you want to convert to uvu."
+          "description": "uvuに変換したいテキスト。"
         }
       }
     }
