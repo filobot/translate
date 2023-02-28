@@ -1,5 +1,5 @@
 {
-  "description": "Module that allows you to sanction users who send bad words.",
+  "description": "不正な単語を送信するユーザーを認可するモジュールです。",
   "subcommands": {
     "enable": {
       "description": "Enable the anti-bad-words module."
@@ -75,7 +75,7 @@
       "description": "View the settings of the anti-bad-words module."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
