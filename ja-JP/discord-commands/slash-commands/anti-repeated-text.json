@@ -1,8 +1,8 @@
 {
-  "description": "Module that allows you to sanction users who send repeated text in the message.",
+  "description": "メッセージに繰り返しテキストを送信するユーザーを認可するモジュールです。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-repeated-text module."
+      "description": "反復テキストモジュールを有効にします。"
     },
     "disable": {
       "description": "Disable the anti-repeated-text module."
@@ -53,7 +53,7 @@
       "description": "View the settings of the anti-repeated-text module."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
