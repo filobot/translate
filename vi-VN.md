@@ -1,135 +1,135 @@
-Filo es una potente bot multipropósito de Discord que sirve a los gremios de Discord desde 2019. Contando con una amplia gama de módulos de administración y moderación para facilitarte las cosas.
+Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you.
 
-> ❓ Puedes obtener la lista completa de los comandos de Filo escribiendo `/core commands` en el chat.
+> ❓ You can get the full list of Filo's commands by typing `/core commands` in chat.
 
-**CONSEJO**: Puede abrir un menú de ayuda secreto escribiendo `@Filo#0291` en el chat.
+**TIP**: You can open a secret help menu by typing `@Filo#0291` in chat.
 
-> 📣 Las postulaciones para la STAFF de Filo están abiertas. ¡Postúlate ya!
+> 📣 Applications for Filo's STAFF are open. Apply now!
 > 
 > https://filobot.xyz/staff
 
-## ¿NO ESTÁS SEGURO DE COMO AÑADIR A FILO A TU SERVIDOR?
+## NOT SURE HOW TO ADD FILO TO YOUR GUILD?
 
-Revisa esta guía paso a paso en la que te enseñamos cómo invitar a Filo:
+Check this step-by-step guide in which we teach you how to invite Filo:
 
 https://wiki.filobot.xyz/en/getting-started/invite
 
-Alternativamente, puedes ver este video:
+Alternatively, you can check this video:
 
 https://youtu.be/1kCAgpOw-g0
 
-> ⚠️ Encontrarás información valiosa a lo largo de esta descripción. ¡Léela, por favor!
+> ⚠️ You'll find valuable information throughout this description. Read it please!
 
 ---
 
-# ⭐ CARACTERÍSTICAS
+# ⭐ FEATURES
 
-A continuación, encontrarás una lista de las mejores características de Filo... ¡No todas están incluidas aquí!
+Below you'll find a list of the best features of Filo... Not all of them are included here!
 
-## MÚLTIPLES IDIOMAS
+## MULTIPLE LANGUAGES
 
-あなたはかわいいです！ ¿Has entendido algo? No, ¿verdad? No compliques tu vida, usa el idioma que más te convenga y deja de usar el traductor.
+あなたはかわいいです！ Did you understand something? No, right? Don't complicate your life, use the language that best suits you and stop using the translator.
 
 🔗 https://wiki.filobot.xyz/en/modules/language
 
-## REPORTES
+## REPORTS
 
-¡Mejora la experiencia y profesionaliza la moderación de tu servidor permitiendo a los usuarios reportar comportamientos inapropiados!
+Enhance the experience and professionalize your server moderation by allowing users to report inappropriate behavior!
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
-## REGISTROS
+## LOGGING
 
-¡Registra todas las acciones realizadas por los usuarios en su servidor en un canal, lo que te permite revisarlas y filtrarlas fácilmente!
+Log all actions performed by users in your server to a channel, allowing you to easily review and filter them!
 
 🔗 https://wiki.filobot.xyz/en/modules/logging
 
-## ANTI INVITACIONES
+## ANTI INVITES
 
-¡Evita que los usuarios envíen invitaciones de sus servidores en el suyo sancionándolos automáticamente!
+Prevent users from sending invites from your servers to yours by automatically sanctioning them!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-invites
 
 ## ANTI SPAM
 
-¿Cansado de spammers? ¿Tus moderadores no son suficientes? ¡Deja que Filo trate con esta clase de usuarios y tome un poco de té mientras tanto!
+Tired of spammers? Are your moderators not enough? Let Filo deal with this class of users and have some tea in the meantime!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-spam
 
-## ANTI MALAS PALABRAS
+## ANTI BAD WORDS
 
-Evitar que los usuarios usen malas palabras en sus mensajes... ¡A nadie le gusta tener que leer esas palabras!
+Prevent users from using bad words in their messages... Nobody likes having to read those words!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-bad-words
 
-## ANTI ENLACES ESTAFADORES
+## ANTI SCAM LINKS
 
-Estafadores, qué gente más cansina... ¡Ahora Filo puede ayudarte a luchar contra este tipo de personas!
+Scammers, what tiresome people... Now Filo can help you fight these types of people!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-scam-links
 
-## AUTO MODERACIÓN
+## AUTO MODERATION
 
-No permitas que existan usuarios conflictivos en su servidor, ¡esto puede afectar negativamente a la experiencia de los usuarios legítimos!
+Don't allow conflicting users to exist on your server, this can negatively affect the experience of legitimate users!
 
 🔗 https://wiki.filobot.xyz/en/modules/auto-moderation
 
-## ANTI EVASIÓN
+## ANTI EVASION
 
-¿Has silenciado a varios usuarios y han abandonado el servidor? ¡No hay problema! ¡Deja que Filo prohiba automáticamente a estos usuarios!
+Have you muted several users and they have left the server? No problem! Let Filo automatically ban these users!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-evasion
 
-## BIENVENIDAS
+## WELCOMES
 
-¿Quieres dar una cálida bienvenida a tus nuevos usuarios? No busques más, crea mensajes Kawaii con Filo.
+Do you want to give a warm welcome to your new users? Look no further, create Kawaii messages with Filo.
 
 🔗 https://wiki.filobot.xyz/en/modules/welcomes
 
-## 🛠️ ¿NECESITAS UNA CARACTERÍSTICA EN ESPECÍFICO?
+## 🛠️ DO YOU NEED A SPECIFIC FEATURE?
 
-¡Cuéntanos todos los detalles de nuestro servidor de Discord! ¡Haremos lo que podamos!
+Tell us all the details on our Discord server! We'll do what we can!
 
 https://filobot.xyz/discord
 
 ---
 
-# ⌨️ ¿TE GUSTARÍA AYUDARNOS A TRADUCIR A FILO?
+# ⌨️ WOULD YOU LIKE TO HELP US TRANSLATE FILO?
 
-¡Necesitamos ampliar las habilidades de habla de Filo! Traduce Filo y gana tu insignia bonita, rol de vanidad y reconocimiento!
+We need to expand Filo's speaking skills! Translate Filo and earn your pretty badge, vanity role, and recognition!
 
 🔗 https://filobot.xyz/translate
 
-# 🌳 ¿EL DINERO CRECE EN LOS ÁRBOLES? NOSOTROS NO CREEMOS...
+# 🌳 DOES MONEY GROW ON TREES? WE DON'T THINK SO...
 
-Hemos estado investigando a fondo las posibilidades de los árboles desde 2019, y hemos determinado que son muy buenos para generar oxígeno, pero muy malos para generar dinero...
+We have been thoroughly investigating the possibilities of trees since 2019, and we have determined that they are very good at generating oxygen, but very bad at generating money...
 
-¡Ayúdanos! __**Cada contribución cuenta, sin importar lo pequeña que sea...**** ¡Roma no se construyó en un día!
+Help us! __**Every contribution counts, no matter how small...**** Rome wasn't built in a day!
 
 🔗 https://filobot.xyz/donate
 
-# ❤️ ¿NOS AYUDAS VOTANDO?
+# ❤️ WILL YOU HELP US VOTING?
 
-Votar es y siempre será gratis. Ayúdanos a dar más visibilidad a Filo votando por ella:
+Voting has been free and always will be. Help us give Filo more visibility by voting for her:
 
 🔗 https://filobot.xyz/vote
 
-# 📞 ¿NECESITAS AYUDA?
+# 📞 NEED HELP?
 
-## SERVIDOR DE SOPORTE
+## SUPPORT SERVER
 
-Entra en nuestro servidor de soporte y solicita ayuda en el canal **#support-and-help**:
+Enter our support server and ask for help in the **#support-and-help** channel:
 
 🔗 https://filobot.xyz/discord
 
-## CHAT DE SOPORTE RÁPIDO
+## QUICK SUPPORT CHAT
 
-Acceda a nuestro sitio web y envíanos un mensaje desde ahí:
+Access our website and send us a message from there:
 
 🔗 https://filobot.xyz
 
-## CORREO
+## EMAIL
 
-¡Envíanos un correo electrónico! Puede que tengas que esperar un poco, pero prometemos que te responderemos lo antes posible.
+Send us an email! You may have to wait a bit, but we promise to get back to you as soon as possible.
 
 **support@filobot.xyz** / **admin@filobot.xyz** / **safety@filobot.xyz**
