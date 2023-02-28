@@ -1,8 +1,8 @@
 {
-  "description": "Module that allows you to sanction users who send links.",
+  "description": "リンクを送信するユーザーを許可するモジュール。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-external-links module."
+      "description": "アンチ外部リンクモジュールを有効にします。"
     },
     "disable": {
       "description": "Disable the anti-external-links module."
@@ -76,13 +76,13 @@
       }
     },
     "docs": {
-      "description": "Get the link of the anti-external-links module documentation."
+      "description": "アンチ外部リンクモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the anti-external-links module."
+      "description": "反外部リンクモジュールの設定を表示します。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
