@@ -1,5 +1,5 @@
 {
-  "GAME_RESULT": "You have **{{status}}** because the result was **{{result}}**!",
-  "HEADS": "Heads",
-  "TAILS": "Tails"
+  "GAME_RESULT": "結果が **{{result}}** だったので、**{{status}}** としました!",
+  "HEADS": "ヘッド",
+  "TAILS": "テール"
 }
