@@ -1,16 +1,16 @@
 {
   "SOURCE_FEED_TITLES": {
-    "ANNOUNCEMENTS": "Filo's Announcements",
-    "STATUS": "Filo's Status Reports",
-    "UPDATES": "Filo's Developer Updates",
-    "FREE_GAMES": "Free Games",
-    "MAL": "MyAnimeList Feed"
+    "ANNOUNCEMENTS": "Filo のお知らせ",
+    "STATUS": "Filo の現状報告",
+    "UPDATES": "Filo の開発者向けアップデート",
+    "FREE_GAMES": "無料ゲーム",
+    "MAL": "MyAnimeList フィード"
   },
   "SOURCE_FEED_DETAILS": {
-    "ANNOUNCEMENTS": "Official announcements made by the Filo Administration about changes in the service, special events or any other important message.",
-    "STATUS": "Notifications of the status of our service. Notifications will be sent when there is an outage in our service or scheduled maintenance.",
-    "UPDATES": "Notifications with information about recent Filo patches or services related to Filo.",
-    "FREE_GAMES": "Notifications for FREE GAMES! When we learn of the existence of a free game we'll notify you immediately.",
-    "MAL": "Welcome to MyAnimeList, the world's most active online anime and manga community and database. Join the online community, create your anime and manga list, read reviews, explore the forums, follow news, and so much more!"
+    "ANNOUNCEMENTS": "サービスの変更、特別なイベント、その他の重要なメッセージについて Filo 管理部門が行う公式発表。",
+    "STATUS": "当社サービスの状況についての通知当社サービスの停止や定期メンテナンスの際にお知らせします。",
+    "UPDATES": "最近の Filo のパッチや Filo に関連するサービスに関する情報をお知らせします。",
+    "FREE_GAMES": "FREE GAMES のお知らせ無料ゲームの存在を知ったら、すぐにお知らせします。",
+    "MAL": "MyAnimeList へようこそ。世界で最も活発なオンラインアニメ・マンガのコミュニティとデータベースです。オンライン・コミュニティに参加して、アニメやマンガのリストを作成したり、レビューを読んだり、フォーラムを探検したり、ニュースをフォローしたり、いろいろなことができます。"
   }
 }
