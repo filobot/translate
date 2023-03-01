@@ -1,7 +1,7 @@
 {
   "HOME": {
     "PRE_START": "続行する前に、**{{button}}** ボタンをクリックする必要があります。",
-    "DESCRIPTION": "設定したいモジュールのカテゴリーを選択し、一緒に動作させたいモジュールを選択することでFiloの設定を開始します。\n\n**リファレンスガイドが必要ですか? 心配しないでください！**\n**[ここをクリック]({{url}})**することで、あらゆる設定方法に関する情報を含むFiloのWikiにリダイレクトされます。\n\n**複雑すぎる？**\n**[お問い合わせ]({{url2}})** もし、何か質問や追加説明が必要な場合は、お問い合わせください。",
+    "DESCRIPTION": "設定したいモジュールのカテゴリーを選択し、一緒に動作させたいモジュールを選択することで Filo の設定を開始します。\n\n**リファレンスガイドが必要ですか? 心配しないでください！**\n**[ここをクリック]({{url}})** することで、あらゆる設定方法に関する情報を含む Filo の Wiki にリダイレクトされます。\n\n**複雑すぎる？**\n**[お問い合わせ]({{url2}})** もし、何か質問や追加説明が必要な場合は、お問い合わせください。",
     "SELECT_A_MODULE_CATEGORY": {
       "PLACEHOLDER": "モジュールのカテゴリーを選択する",
       "ADMINISTRATION": {
@@ -34,7 +34,7 @@
         "DESCRIPTION": "Filo のコマンドの動作を変更します。",
         "SELECT_THE_ACTION_PLACEHOLDER": "アクションを選択する",
         "CONFIGURE": {
-          "SELECT_THE_COMMANDS": "{{action}} 、コマンドを選択する必要があります。",
+          "SELECT_THE_COMMANDS": "{{action}}、コマンドを選択する必要があります。",
           "SELECT_THE_CATEGORIES": "{{action}} するカテゴリーを選択する必要があります。",
           "SELECT_THE_COMMANDS_PLACEHOLDER": "コマンドを選択する",
           "SELECT_THE_CATEGORIES_PLACEHOLDER": "カテゴリーを選択する",
