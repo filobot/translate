@@ -1,15 +1,15 @@
 {
-  "CLUSTER": "Cluster",
-  "SHARD": "Shard",
-  "SHARDS": "Shards",
-  "PING": "Ping",
-  "LIBRARY": "Library",
-  "NODE_VERSION": "Node version",
-  "OPERATIVE_SYSTEM": "Operative system",
-  "TOTAL_SERVERS": "Total servers",
-  "TOTAL_USERS": "Total users",
-  "TOTAL_CACHED_CHANNELS": "Total cached channels",
-  "SERVERS": "Servers",
-  "USERS": "Users",
-  "CACHED_CHANNELS": "Cached channels"
+  "CLUSTER": "クラスター",
+  "SHARD": "シャード",
+  "SHARDS": "破片",
+  "PING": "ピング",
+  "LIBRARY": "図書館",
+  "NODE_VERSION": "ノードのバージョン",
+  "OPERATIVE_SYSTEM": "オペレーショナルシステム",
+  "TOTAL_SERVERS": "総サーバー数",
+  "TOTAL_USERS": "総ユーザー数",
+  "TOTAL_CACHED_CHANNELS": "キャッシュされた総チャンネル数",
+  "SERVERS": "サーバー",
+  "USERS": "ユーザー",
+  "CACHED_CHANNELS": "キャッシュされたチャンネル"
 }
