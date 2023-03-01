@@ -5,7 +5,7 @@
   "UPDATED": "Updated",
   "OR": "Or",
   "COMMAND": "Command",
-  "COMMANDS": "Commands",
+  "COMMANDS": "コマンド",
   "CATEGORY": "Category",
   "MODULE": "Module",
   "QUEUED_REQUEST": "Your request has been added to the queue and will be processed **{{time}}**.",
