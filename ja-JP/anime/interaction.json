@@ -1,6 +1,6 @@
 {
-  "BAKA": "**{{user.username}}** has called **{{user2.username}}** a baka!",
-  "BITE": "**{{user.username}}** bites **{{user2.username}}**!",
+  "BAKA": "**{{user.username}}** が **{{user2.username}}** をバーカと呼んでいる!",
+  "BITE": "**{{user.username}}** 食いしん坊 **{{user2.username}}**!",
   "COOKIE": "**{{user.username}}** has given **{{user2.username}}** a cookie!",
   "CUDDLE": "**{{user.username}}** cuddles **{{user2.username}}**!",
   "FEED": "**{{user.username}}** feeds **{{user2.username}}**!",
