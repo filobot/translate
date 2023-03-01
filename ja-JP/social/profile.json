@@ -1,6 +1,6 @@
 {
-  "VIEWING_USER_PROFILE": "Viewing **{{user.username}}**'s profile",
-  "BADGES": "Badges",
-  "PREMIUM_DATE": "Premium date",
-  "CREDITS": "Credits"
+  "VIEWING_USER_PROFILE": "**{{user.username}}** のプロフィールを表示",
+  "BADGES": "バッジ",
+  "PREMIUM_DATE": "プレミアムデー",
+  "CREDITS": "クレジット"
 }
