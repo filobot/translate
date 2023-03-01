@@ -1,4 +1,4 @@
 {
-  "JOIN_THE_ACTIVITY": "**{{activity}}**活動に参加するには、**[ここをクリック]({{invite.url}})**してください。",
+  "JOIN_THE_ACTIVITY": "You can join the **{{activity}}** activity by **[clicking here]({{invite.url}})**.",
   "ACTIVITY_WARNING": "**警告**: このアクティビティはデスクトップでのみ動作する可能性があります。"
 }
