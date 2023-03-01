@@ -1,6 +1,6 @@
 {
   "NAME_OF_MODULES": {
-    "LANGUAGE": "Language",
+    "LANGUAGE": "言語",
     "DISABLE_COMMANDS": "Disable Commands",
     "REPORTS": "Reports",
     "WELCOMES": "Welcomes",
@@ -27,7 +27,7 @@
   "SELECT_A_LANGUAGE_MENU": "Select the Filo's language.",
   "SELECT_THE_LANGUAGE": "Select {{language}} as Filo's language.",
   "LANGUAGE_SELECTED": "You have successfully selected **{{language}}** as Filo's language.",
-  "LANGUAGE_CODE": "Language code",
+  "LANGUAGE_CODE": "言語コード",
   "NATIVE_NAME": "Native name",
   "WIKI_CODE": "Wiki code",
   "COMMAND_OR_CATEGORY_ALREADY_ENABLED_OR_DISABLED": "The **{{value}}** {{target}} is already {{status}}.",
@@ -36,8 +36,8 @@
   "PROTECTED_COMMAND_OR_CATEGORY": "The **{{value}}** {{target}} is protected by the Filo's Administration and can't be disabled.",
   "SELECT_A_COMMAND_TO_ENABLE_OR_DISABLE": "You must specify a command below to {{status}} it.",
   "SELECT_A_COMMAND_TO_ENABLE_OR_DISABLE_MENU": "Select a command to {{status}} it.",
-  "DISABLED_COMMANDS": "Disabled commands",
-  "DISABLED_CATEGORIES": "Disabled categories",
+  "DISABLED_COMMANDS": "無効化されたコマンド",
+  "DISABLED_CATEGORIES": "障がい者カテゴリー",
   "VIEWING_MODULE_SETTINGS": "Viewing the **{{module}}** module settings",
   "MODULE_ALREADY_ENABLED": "The **{{module}}** module is already enabled.",
   "MODULE_ALREADY_DISABLED": "The **{{module}}** module is already disabled.",
