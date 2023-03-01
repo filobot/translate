@@ -3,7 +3,7 @@
     "SANCTION_EXPIRED": "制裁は失効しています。",
     "ROLE_VIA": "{{action}} から {{method}} のロール。",
     "CHANNEL_VIA": "{{action}} 経由のチャンネル {{method}}。",
-    "NICKNAME_VIA": "Nickname {{action}} via {{method}}.",
+    "NICKNAME_VIA": "{{action}} のニックネーム {{method}}。",
     "ANTI_SCAM_LINKS_1": "送信されたメッセージには、詐欺のリンクが含まれています。",
     "ANTI_SCAM_LINKS_2": "更新されたメッセージには、詐欺のリンクが含まれています。",
     "ANTI_SCAM_LINKS_3": "送信されたメッセージには、おそらく詐欺のリンクが含まれています。",
