@@ -1,19 +1,19 @@
 {
   "COOLDOWN": {
-    "COMPLETED": "You have set **{{time}}** as the cooldown time on the **[#{{channel.name}}]({{url}})** channel."
+    "COMPLETED": "**[{{channel.name}}]({{url}})** チャンネルのクールダウン時間を **{{time}}** に設定しました。"
   },
   "MESSAGES": {
     "PIN": {
-      "COMPLETED": "You have pinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
+      "COMPLETED": "メッセージ **[{{message.id}}]({{message.url}})** を **[#{{channel.name}}]({{url}})** チャンネルにピン留めしています。"
     },
     "PURGE": {
-      "COMPLETED": "You have purged **{{messages}}** messages from the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+      "COMPLETED": "あなたは **{{messages}}** メッセージを **[#{{channel.name}}]({{url}})** ({{channel.id}}) チャンネルから消去しました。"
     },
     "UNPIN": {
-      "COMPLETED": "You have unpinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
+      "COMPLETED": "メッセージ **[{{message.id}}]({{message.url}})** を **[#{{channel.name}}]({{url}})** チャンネルでアンピンしました。"
     }
   },
   "NSFW": {
-    "COMPLETED": "You have {{action}} NSFW mode on the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+    "COMPLETED": "{{action}} NSFWモードを **[#{{channel.name}}]({{url}})** ({{channel.id}}) チャンネルでご利用いただいています。"
   }
 }
