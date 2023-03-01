@@ -1,12 +1,12 @@
 {
   "SERVER": {
-    "SERVER_OFFLINE": "The server you specified is offline.",
-    "IP_ADDRESS": "IP address",
-    "PORT": "Port",
-    "PLAYERS": "Players",
-    "VERSION": "Version"
+    "SERVER_OFFLINE": "指定されたサーバーはオフラインです。",
+    "IP_ADDRESS": "IP アドレス",
+    "PORT": "ポート",
+    "PLAYERS": "選手紹介",
+    "VERSION": "バージョン"
   },
   "UUID": {
-    "WATCHING_PLAYER_UUID": "The uuid of the player **{{player}}** is **{{uuid}}**."
+    "WATCHING_PLAYER_UUID": "プレイヤー **{{player}}** の uuid は **{{uuid}}** です。"
   }
 }
