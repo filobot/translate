@@ -1,89 +1,89 @@
 {
   "HOME": {
-    "PRE_START": "Before continuing you must click on the **{{button}}** button.",
+    "PRE_START": "続行する前に、**{{button}}** ボタンをクリックする必要があります。",
     "DESCRIPTION": "設定したいモジュールのカテゴリーを選択し、一緒に動作させたいモジュールを選択することでFiloの設定を開始します。\n\n**リファレンスガイドが必要ですか? 心配しないでください！**\n**[ここをクリック]({{url}})**することで、あらゆる設定方法に関する情報を含むFiloのWikiにリダイレクトされます。\n\n**複雑すぎる？**\n**[お問い合わせ]({{url2}})** もし、何か質問や追加説明が必要な場合は、お問い合わせください。",
     "SELECT_A_MODULE_CATEGORY": {
-      "PLACEHOLDER": "Select a module category",
+      "PLACEHOLDER": "モジュールのカテゴリーを選択する",
       "ADMINISTRATION": {
-        "LABEL": "Administration modules",
-        "DESCRIPTION": "Modules to help you in the administration of your server."
+        "LABEL": "アドミニストレーション・モジュール",
+        "DESCRIPTION": "サーバーの管理を支援するモジュールです。"
       },
       "COMMUNITY": {
-        "LABEL": "Community modules",
-        "DESCRIPTION": "Modules to help you improve the experience in your community."
+        "LABEL": "コミュニティモジュール",
+        "DESCRIPTION": "コミュニティでの体験の向上に役立つモジュール。"
       },
       "MODERATION": {
-        "LABEL": "Moderation modules",
-        "DESCRIPTION": "Modules to help you moderate your server."
+        "LABEL": "モデュレーションモジュール",
+        "DESCRIPTION": "サーバーのモデリングを支援するモジュールです。"
       }
     },
-    "TITLE": "Filo Setup Menu"
+    "TITLE": "Filo セットアップメニュー"
   },
-  "LOADING_DATA": "Please wait while the necessary data is loaded.",
+  "LOADING_DATA": "必要なデータが読み込まれるまで、しばらくお待ちください。",
   "MODULES": {
-    "SELECT_A_MODULE": "You must select the module from the **{{module}}** category that you want to configure.",
-    "PLACEHOLDER": "Select a module",
-    "SELECT_THE_ACTION": "You must select the action you want to perform on the module.",
-    "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
-    "RESET_REQUEST_WARNING": "Are you sure you want to reset the **{{module}}** module? This action can't be undone!",
-    "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
+    "SELECT_A_MODULE": "設定したいモジュールを **{{module}}** カテゴリから選択する必要があります。",
+    "PLACEHOLDER": "モジュールを選択する",
+    "SELECT_THE_ACTION": "モジュールに対して実行したいアクションを選択する必要があります。",
+    "MODULE_ENABLED_OR_DISABLED": "**{{module}}** モジュールは、{{action}} に成功しました。",
+    "RESET_REQUEST_WARNING": "本当に **{{module}}** モジュールをリセットしますか？このアクションは元に戻せません!",
+    "MODULE_RESET": "**{{module}}** モジュールが正常にリセットされました。",
     "COMMUNITY": {
-      "NAME": "Community",
+      "NAME": "コミュニティ",
       "COMMANDS": {
-        "LABEL": "Commands",
-        "DESCRIPTION": "Change the behavior of Filo's commands.",
-        "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+        "LABEL": "コマンド",
+        "DESCRIPTION": "Filo のコマンドの動作を変更します。",
+        "SELECT_THE_ACTION_PLACEHOLDER": "アクションを選択する",
         "CONFIGURE": {
-          "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
+          "SELECT_THE_COMMANDS": "{{action}} 、コマンドを選択する必要があります。",
           "SELECT_THE_CATEGORIES": "{{action}} するカテゴリーを選択する必要があります。",
-          "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
-          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Select the categories",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "コマンドを選択する",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "カテゴリーを選択する",
           "DISABLE_COMMANDS": {
-            "LABEL": "Disable commands",
-            "DESCRIPTION": "Disable Filo's commands.",
-            "NO_COMMANDS_TO_DISABLE": "All available commands have been disabled.",
-            "COMMANDS_DISABLED": "You have disabled **{{commands}}** commands successfully."
+            "LABEL": "無効化されたコマンド",
+            "DESCRIPTION": "Filoのコマンドを無効化します。",
+            "NO_COMMANDS_TO_DISABLE": "使用可能なコマンドはすべて無効化されています。",
+            "COMMANDS_DISABLED": "**{{commands}}** コマンドの無効化に成功しました。"
           },
           "ENABLE_COMMANDS": {
-            "LABEL": "Enable commands",
-            "DESCRIPTION": "Enable Filo's commands.",
-            "NO_COMMANDS_TO_ENABLE": "All available commands are currently enabled.",
-            "COMMANDS_ENABLED": "You have enabled **{{commands}}** commands successfully."
+            "LABEL": "コマンドを有効にする",
+            "DESCRIPTION": "フィーロのコマンドを有効にする。",
+            "NO_COMMANDS_TO_ENABLE": "現在、利用可能なすべてのコマンドが有効になっています。",
+            "COMMANDS_ENABLED": "**{{commands}}** コマンドが正常に有効になりました。"
           },
           "DISABLE_CATEGORIES": {
-            "LABEL": "Disable categories",
-            "DESCRIPTION": "Disable Filo's categories.",
-            "NO_CATEGORIES_TO_DISABLE": "All available categories have been disabled.",
-            "CATEGORIES_DISABLED": "You have disabled **{{categories}}** categories successfully."
+            "LABEL": "カテゴリーを無効にする",
+            "DESCRIPTION": "フィーロのカテゴリーを無効にする。",
+            "NO_CATEGORIES_TO_DISABLE": "利用可能なすべてのカテゴリが無効化されました。",
+            "CATEGORIES_DISABLED": "**{{categories}}** カテゴリを無効にすることに成功しました。"
           },
           "ENABLE_CATEGORIES": {
-            "LABEL": "Enable categories",
-            "DESCRIPTION": "Enable Filo's categories.",
-            "NO_CATEGORIES_TO_ENABLE": "All available categories are currently enabled.",
-            "CATEGORIES_ENABLED": "You have enabled **{{categories}}** categories successfully."
+            "LABEL": "カテゴリーを有効にする",
+            "DESCRIPTION": "フィーロのカテゴリーを有効にする。",
+            "NO_CATEGORIES_TO_ENABLE": "現在、利用可能なすべてのカテゴリーが有効になっています。",
+            "CATEGORIES_ENABLED": "**{{categories}}** カテゴリが正常に有効化されました。"
           }
         }
       },
       "LANGUAGE": {
-        "LABEL": "Language",
-        "DESCRIPTION": "Change the language of Filo on this server.",
-        "SELECT_A_LANGUAGE": "You must select the language you want to set.",
-        "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
-        "LANGUAGE_SET": "You have set the **{{language}}** language correctly."
+        "LABEL": "言語",
+        "DESCRIPTION": "このサーバーで Filo の言語を変更する。",
+        "SELECT_A_LANGUAGE": "設定したい言語を選択する必要があります。",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "言語を選択する",
+        "LANGUAGE_SET": "**{{language}}** 言語が正しく設定されています。"
       }
     },
     "VIEW": {
-      "TITLE": "Viewing the settings of the **{{module}}** module",
-      "NO_DATA": "No data",
-      "SELECT_THE_DATA": "Select the data to view",
-      "VIEW_ALL": "View all {{data}}.",
+      "TITLE": "**{{module}}** モジュールの設定を表示する",
+      "NO_DATA": "データなし",
+      "SELECT_THE_DATA": "表示するデータを選択する",
+      "VIEW_ALL": "すべて表示 {{data}}.",
       "COMMUNITY": {
         "LANGUAGE": {
-          "LANGUAGE_CODE": "Language code"
+          "LANGUAGE_CODE": "言語コード"
         },
         "COMMANDS": {
-          "DISABLED_COMMANDS": "Disabled commands",
-          "DISABLED_CATEGORIES": "Disabled categories"
+          "DISABLED_COMMANDS": "無効化されたコマンド",
+          "DISABLED_CATEGORIES": "障がい者カテゴリー"
         }
       }
     }
