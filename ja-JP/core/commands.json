@@ -1,5 +1,5 @@
 {
-  "HELP_TITLE": "Filoのコマンドリストを表示する",
+  "HELP_TITLE": "Filo のコマンドリストを表示する",
   "COMMAND_CATEGORIES": {
     "ADMINISTRATION": "管理部門",
     "ANIMALS": "動物",
@@ -30,7 +30,7 @@
     "MISCELLANEOUS": "他ではカテゴライズできないコマンドを何でも揃う。",
     "MODERATION": "ユーザーのモデレーションを管理するためのコマンドです。",
     "SERVER": "情報コマンドやサーバーユーティリティ。",
-    "SETTINGS": "Filoを設定するためのコマンドです。",
+    "SETTINGS": "Filo を設定するためのコマンドです。",
     "SOCIAL": "ソーシャルのコマンドです。",
     "UTILITIES": "ユーティリティのコマンドです。",
     "DEVELOPER": "デベロッパーズコマンド。",
@@ -56,75 +56,75 @@
       "ANIME": "アニメユーティリティ",
       "COFFEE": "コーヒーのランダムなGIFを送る",
       "FAN-ART": "ファンアートをランダムに送信する",
-      "FOOD": "食べ物のGIFをランダムに送信する",
-      "GECG": "Gecgのランダム画像を送信する",
+      "FOOD": "食べ物の GIF をランダムに送信する",
+      "GECG": "Gecg のランダム画像を送信する",
       "GENSHIN-IMPACT": "玄真インパクトの壁紙をランダムで送る",
-      "INTERACTION": "GIFやアクションで他のユーザーと交流できる",
+      "INTERACTION": "GIF やアクションで他のユーザーと交流できる",
       "HUSBAND": "夫の画像をランダムに送信する",
       "MANGA": "マンガユーティリティ",
       "NEKO": "ねこむの画像をランダムに送信する",
-      "REACTION": "GIFを使った他のユーザーへのリアクション",
+      "REACTION": "GIF を使った他のユーザーへのリアクション",
       "TRAP": "トラップの画像をランダムに送信する",
       "WAIFU": "ワイフの画像をランダムに送信する"
     },
     "CORE": {
-      "CLUSTER": "現在のFiloのクラスタに関する情報を取得する",
+      "CLUSTER": "現在の Filo のクラスタに関する情報を取得する",
       "COMMANDS": "ボットコマンドのリスト、またはコマンドに関する情報の取得",
-      "DISCORD": "FiloのDiscordサーバーへのリンクを取得する",
+      "DISCORD": "Filo の Discord サーバーへのリンクを取得する",
       "DONATE": "ボットへの寄付に関する情報を得る",
       "FLAGS": "自分の国旗、または特定のユーザーの国旗を表示する。",
-      "GITHUB": "FiloのGitHubへのリンクを取得する",
+      "GITHUB": "Filo の GitHubへのリンクを取得する",
       "HELP": "ボットに関する基本的なヘルプを取得する",
       "INFO": "ボットに関する情報を取得する",
       "INVITE": "おすすめのフィーロの招待券を手に入れる",
-      "PING": "FiloとDiscord APIからレイテンシーを取得します。",
+      "PING": "Filo と Discord API からレイテンシーを取得します。",
       "PRIVACY": "フィーロのプライバシーポリシーへのリンクを取得する",
       "ROLES": "高度な役割の管理",
       "STATISTICS": "フィーロのグローバルスタッツを取得",
-      "STATUS": "Filoのステータスへのリンクを取得する",
-      "SETUP": "Filoのモジュールと動作を設定する",
+      "STATUS": "Filo のステータスへのリンクを取得する",
+      "SETUP": "Filo のモジュールと動作を設定する",
       "SUPPORT": "サポートを受けるための情報を得る",
-      "TERMS": "Filoの利用規約へのリンクを取得する",
-      "TWITTER": "フィーロのTwitterへのリンクを取得する",
-      "VOTE": "Filoの投票ページへのリンクを取得する",
-      "VOTES": "Filoの全投票ページの投票カウンターを取得する",
-      "WEBSITE": "Filoのウェブサイトへのリンクを取得する",
-      "WIKI": "FiloのWikiへのリンクを取得する"
+      "TERMS": "Filo の利用規約へのリンクを取得する",
+      "TWITTER": "フィーロの Twitter へのリンクを取得する",
+      "VOTE": "Filo の投票ページへのリンクを取得する",
+      "VOTES": "Filo の全投票ページの投票カウンターを取得する",
+      "WEBSITE": "Filo のウェブサイトへのリンクを取得する",
+      "WIKI": "Filo の Wiki へのリンクを取得する"
     },
     "ECONOMY": {
       "CREDITS": "現在の自分のクレジット、またはユーザーのクレジットを取得する",
-      "DAILY": "Claim your daily credits or gift them to a user",
-      "PAY": "Pay an amount of credits to another user"
+      "DAILY": "デイリークレジットを請求する、またはユーザーにプレゼントする",
+      "PAY": "他のユーザーへのクレジットの支払い"
     },
     "FUN": {
-      "8BALL": "Ask the 8 ball a question and it will answer you wisely",
-      "CHUCKNORRIS": "Send a Chuck Norris meme to the current channel",
-      "DRAKE": "Send a Drake meme to the current channel",
-      "JOKE": "Send a random joke to the current channel",
-      "LOVE": "Send an image showing the love you have with another user to the current channel",
-      "MEME": "Send a random meme to the current channel",
-      "OWOIFY": "Convert text to owo"
+      "8BALL": "8ボールは質問すれば、賢明に答えてくれる。",
+      "CHUCKNORRIS": "Chuck Norris のミームを現在のチャンネルに送信します。",
+      "DRAKE": "Drake のミームを現在のチャンネルに送信します。",
+      "JOKE": "ランダムなジョークを現在のチャンネルに送信する",
+      "LOVE": "他のユーザーとの愛を示す画像を現在のチャンネルに送信する",
+      "MEME": "ランダムなミームを現在のチャンネルに送信する",
+      "OWOIFY": "テキストを owo に変換する"
     },
     "GAME_STATISTICS": {
-      "CSGO": "Watch the statistics of a CSGO player",
-      "FORTNITE": "Watch the statistics of a Fortnite player",
+      "CSGO": "CSGO プレイヤーの統計情報を見る",
+      "FORTNITE": "Fortnite 』プレイヤーの統計データを見る",
       "OSU": "osu! 選手の統計データを見る",
-      "R6S": "Watch the statistics of a R6S player"
+      "R6S": "R6S プレーヤーの統計データを見る"
     },
     "GAMES": {
-      "COINFLIP": "Classic coin flip game"
+      "COINFLIP": "クラシックコインフリップゲーム"
     },
     "MISCELLANEOUS": {
-      "ASCII": "Convert your text to ASCII text",
-      "AVATAR": "Show your avatar or that of a user",
-      "FORTNITE-STORE": "Get a random item from the Fortnite store",
-      "LYRICS": "Get the lyrics of a song",
-      "MINECRAFT": "Minecraft utility commands",
-      "POLL": "Create a poll on the current channel",
-      "RANDOM-COLOR": "Get the basic information of a random color",
-      "RANDOM-NUMBER": "Get a random number",
-      "SAY": "Send a message using Filo",
-      "WEATHER": "Get the weather of a location"
+      "ASCII": "テキストを ASCII テキストに変換する",
+      "AVATAR": "自分のアバターまたはユーザーのアバターを表示する",
+      "FORTNITE-STORE": "フォートナイトストアからランダムでアイテムが手に入る",
+      "LYRICS": "曲の歌詞を取得する",
+      "MINECRAFT": "Minecraft ユーティリティコマンド",
+      "POLL": "現在のチャンネルにポールを作成する",
+      "RANDOM-COLOR": "ランダムな色の基本情報を取得する",
+      "RANDOM-NUMBER": "乱数を取得する",
+      "SAY": "Filo を使ってメッセージを送る",
+      "WEATHER": "ある場所の天気を取得する"
     },
     "MODERATION": {
       "BAN": "サーバーからユーザーを永久に追放する",
@@ -158,7 +158,7 @@
       "ANTI-REPEATED-TEXT": "メッセージ内に繰り返しテキストを送信するユーザーを認可するモジュール",
       "ANTI-SPAM": "ユーザーからのスパムを避けることができるモジュール",
       "AUTO-MODERATION": "一定量の警告をユーザーに自動的に許可するモジュール",
-      "COMMANDS": "Filoのコマンドを有効/無効にして管理する",
+      "COMMANDS": "Filo のコマンドを有効/無効にして管理する",
       "FAREWELLS": "古いメンバーにさよならのメッセージを送ることができるモジュール",
       "LANGUAGE": "フィーロの言語を設定できるモジュール",
       "LOGGING": "サーバのログをチャンネルに送信できるモジュール",
@@ -172,10 +172,10 @@
     "UTILITIES": {
       "BINARY": "バイナリコードのエンコード、デコード",
       "MORSE": "モールス信号の符号化、復号化",
-      "SHORTEN": "Shorten a URL"
+      "SHORTEN": "URL を短縮する"
     }
   },
-  "REQUIRED_FILO_PERMISSIONS": "必要なFiloのパーミッション",
+  "REQUIRED_FILO_PERMISSIONS": "必要な Filo のパーミッション",
   "REQUIRED_USER_PERMISSIONS": "必要なユーザー権限",
   "ALTERNATIVE_USER_PERMISSIONS": "ユーザー権限の代替",
   "NO_PERMISSIONS_ARE_NEEDED": "パーミッションは必要ありません。",
