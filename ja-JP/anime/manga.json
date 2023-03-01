@@ -1,12 +1,12 @@
 {
-  "MANGA": "Manga",
+  "MANGA": "マンガ",
   "MANGAS": "Mangas",
   "MANGA_TYPE": "Manga type",
   "MANGA_TYPES": {
-    "MANGA": "Manga",
-    "NOVEL": "Novel",
+    "MANGA": "マンガ",
+    "NOVEL": "小説",
     "ONE_SHOT": "One-shot",
-    "DOUJINSHI": "Doujinshi",
+    "DOUJINSHI": "同人誌",
     "MANHWA": "Manhwa",
     "MANHUA": "Manhua"
   },
