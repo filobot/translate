@@ -5,7 +5,7 @@
   "WARNING_BEFORE_APPEAL": "あまりに多くの不服申し立てをしたり、禁止情報を共有したりすると、不服申し立てができなくなります。",
   "WARNING_APPEAL_COOLDOWN": "お客様の上告を受理しました **{{time}}**、これは拒否されました。再度のアピールは **{{expiration_date}}** までできません。",
   "USER_BANNED_TITLE": "Filo の使用を禁止する!",
-  "USER_BANNED_DESCRIPTION": "If you want to appeal this ban, click the **Appeal ban** button.",
+  "USER_BANNED_DESCRIPTION": "この禁止を訴えたい場合は、 **控訴禁止** ボタンをクリックしてください。",
   "GUILD_BANNED_TITLE": "このギルドはフィーロの使用を禁止されている！",
   "GUILD_BANNED_DESCRIPTION": "サーバーの所有者で、アピール方法についての情報が必要な場合は、**Appeal ban** ボタンをクリックしてください。"
 }
