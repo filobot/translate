@@ -1,4 +1,4 @@
 {
-  "VIEWING_THE_CONVERSION": "Viewing the conversion from **{{option1}}** to **{{option2}}**",
-  "MORSE": "Morse"
+  "VIEWING_THE_CONVERSION": "**{{option1}}** から **{{option2}}** への変換を表示します。",
+  "MORSE": "モールス"
 }
