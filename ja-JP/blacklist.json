@@ -1,11 +1,11 @@
 {
-  "WATCHING_THE_BAN_INFO": "Watching the ban information",
-  "APPEAL_STATUS": "Appeal status",
-  "APPEAL_DATE": "Appeal date",
-  "WARNING_BEFORE_APPEAL": "If you submit too many appeals or share your ban information, you'll lose the ability to appeal.",
-  "WARNING_APPEAL_COOLDOWN": "We received your appeal **{{time}}**, which has been denied. You'll not be able to appeal again until **{{expiration_date}}**.",
-  "USER_BANNED_TITLE": "You are banned from using Filo!",
+  "WATCHING_THE_BAN_INFO": "解禁情報を見る",
+  "APPEAL_STATUS": "控訴の状況",
+  "APPEAL_DATE": "出願日",
+  "WARNING_BEFORE_APPEAL": "あまりに多くの不服申し立てをしたり、禁止情報を共有したりすると、不服申し立てができなくなります。",
+  "WARNING_APPEAL_COOLDOWN": "お客様の上告を受理しました **{{time}}**、これは拒否されました。再度のアピールは **{{expiration_date}}** までできません。",
+  "USER_BANNED_TITLE": "Filo の使用を禁止する!",
   "USER_BANNED_DESCRIPTION": "If you want to appeal this ban, click the **Appeal ban** button.",
-  "GUILD_BANNED_TITLE": "This guild is banned from using Filo!",
-  "GUILD_BANNED_DESCRIPTION": "If you are the owner of the server and want information on how to appeal, click the **Appeal ban** button."
+  "GUILD_BANNED_TITLE": "このギルドはフィーロの使用を禁止されている！",
+  "GUILD_BANNED_DESCRIPTION": "サーバーの所有者で、アピール方法についての情報が必要な場合は、**Appeal ban** ボタンをクリックしてください。"
 }
