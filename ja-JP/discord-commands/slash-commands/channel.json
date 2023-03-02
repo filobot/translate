@@ -8,18 +8,18 @@
           "description": "Set the cooldown of a channel.",
           "arguments": {
             "time": {
-              "name": "time",
+              "name": "時",
               "description": "Cooldown you want to set."
             },
             "channel": {
-              "name": "channel",
+              "name": "チャンネル",
               "description": "Channel where you want to set the cooldown."
             },
             "reset": {
               "description": "Reset the cooldown of a channel.",
               "arguments": {
                 "channel": {
-                  "name": "channel",
+                  "name": "チャンネル",
                   "description": "Channel where you want to reset the cooldown."
                 }
               }
@@ -48,7 +48,7 @@
               "description": "Number of messages you want to purge."
             },
             "channel": {
-              "name": "channel",
+              "name": "チャンネル",
               "description": "Channel where you want to purge messages."
             }
           }
@@ -71,7 +71,7 @@
           "description": "Enable the NSFW mode of a channel.",
           "arguments": {
             "channel": {
-              "name": "channel",
+              "name": "チャンネル",
               "description": "Channel where you want to enable the NSFW mode."
             }
           }
@@ -80,7 +80,7 @@
           "description": "Disable the NSFW mode of a channel.",
           "arguments": {
             "channel": {
-              "name": "channel",
+              "name": "チャンネル",
               "description": "Channel where you want to disable the NSFW mode."
             }
           }
@@ -93,7 +93,7 @@
       "description": "Get information about a channel.",
       "arguments": {
         "channel": {
-          "name": "channel",
+          "name": "チャンネル",
           "description": "Channel where the information will come from."
         }
       }
@@ -102,7 +102,7 @@
       "description": "Create an instant invite of a channel.",
       "arguments": {
         "channel": {
-          "name": "channel",
+          "name": "チャンネル",
           "description": "Channel where to create the instant invite."
         },
         "temporary": {
