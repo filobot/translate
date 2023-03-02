@@ -6,7 +6,7 @@
   "OR": "Or",
   "COMMAND": "Command",
   "COMMANDS": "コマンド",
-  "CATEGORY": "Category",
+  "CATEGORY": "カテゴリー",
   "MODULE": "Module",
   "QUEUED_REQUEST": "Your request has been added to the queue and will be processed **{{time}}**.",
   "COOLDOWN": "You'll be able to execute this action **{{time}}**.",
