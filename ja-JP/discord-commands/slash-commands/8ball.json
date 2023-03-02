@@ -1,9 +1,9 @@
 {
-  "description": "Ask the 8 ball a question and it will answer you wisely.",
+  "description": "8 ボールは質問すれば、賢明に答えてくれる。",
   "arguments": {
     "question": {
-      "name": "question",
-      "description": "Ask what you want to do to the 8 ball."
+      "name": "問いかけ",
+      "description": "8 ボールをどうしたいかを聞く。"
     }
   }
 }
