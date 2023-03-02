@@ -2,11 +2,11 @@
   "description": "Temporarily mute a user from the server.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "ユーザー",
       "description": "User you want to temporarily mute."
     },
     "time": {
-      "name": "time",
+      "name": "時",
       "description": "Duration of the sanction."
     },
     "reason": {
