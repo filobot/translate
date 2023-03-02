@@ -2,11 +2,11 @@
   "description": "GIFやアクションで他のユーザーと交流することができます。",
   "subcommands": {
     "baka": {
-      "description": "Send a baka interaction.",
+      "description": "バ カ の 交 流 を 送 る 。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -14,8 +14,8 @@
       "description": "Send a bite interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -23,8 +23,8 @@
       "description": "Send a cookie interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -32,8 +32,8 @@
       "description": "Send a cuddle interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -41,8 +41,8 @@
       "description": "Send a feed interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -50,8 +50,8 @@
       "description": "Send a hug interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -59,8 +59,8 @@
       "description": "Send a kick interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -68,8 +68,8 @@
       "description": "Send a kiss interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -77,8 +77,8 @@
       "description": "Send a laugh interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -86,8 +86,8 @@
       "description": "Send a pat interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -95,8 +95,8 @@
       "description": "Send a poke interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -104,8 +104,8 @@
       "description": "Send a punch interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -113,8 +113,8 @@
       "description": "Send a reverse card interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -122,8 +122,8 @@
       "description": "Send a slap interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     },
@@ -131,8 +131,8 @@
       "description": "Send a tickle interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "ユーザー",
+          "description": "このインタラクションを指示したいユーザー。"
         }
       }
     }
