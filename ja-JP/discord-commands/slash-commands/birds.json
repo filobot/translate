@@ -1,8 +1,8 @@
 {
-  "description": "Send a image of birds to the channel.",
+  "description": "鳥の画像をチャンネルに送る。",
   "subcommands": {
     "random": {
-      "description": "Send a random image of a bird."
+      "description": "鳥の画像をランダムに送信します。"
     }
   }
 }
