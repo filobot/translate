@@ -11,38 +11,38 @@
       "description": "Set the action to take when someone sends repeated text in a message.",
       "arguments": {
         "action": {
-          "name": "action",
+          "name": "アクション",
           "description": "Action to take when someone sends repeated text in a message."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "時",
+          "description": "アクションの時間 (一時的な場合)。"
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "無視するチャンネルをリストに追加または削除します。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "アクション",
+          "description": "実行したいアクション"
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "チャンネル",
+          "description": "モジュールのチャンネルバイパスリストからのチャンネル。"
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "無視されるロールのリストにロールを追加または削除します。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "アクション",
+          "description": "実行したいアクション"
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "役割",
+          "description": "モジュールのロールバイパスリストからロールを選択します。"
         }
       }
     },
@@ -56,8 +56,8 @@
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
         }
       }
     }
