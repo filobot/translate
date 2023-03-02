@@ -2,11 +2,11 @@
   "description": "あるユーザーをサーバーから一時的に追放する。",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "ユーザー",
       "description": "User you want to temporarily ban."
     },
     "time": {
-      "name": "time",
+      "name": "時",
       "description": "Duration of the sanction."
     },
     "reason": {
