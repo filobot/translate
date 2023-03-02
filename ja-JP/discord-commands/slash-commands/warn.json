@@ -2,7 +2,7 @@
   "description": "Warn a user from the server.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "ユーザー",
       "description": "User you want to warn."
     },
     "reason": {
