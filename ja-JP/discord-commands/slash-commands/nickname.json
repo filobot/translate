@@ -2,7 +2,7 @@
   "description": "Manage the nickname of a user.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "ユーザー",
       "description": "User whose nickname you want to change."
     },
     "nickname": {
