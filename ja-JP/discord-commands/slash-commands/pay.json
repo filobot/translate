@@ -2,7 +2,7 @@
   "description": "Pay an amount of credits to another user.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "ユーザー",
       "description": "User you want to pay."
     },
     "amount": {
