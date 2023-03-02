@@ -18,7 +18,7 @@
           "description": "News channel you want to follow."
         },
         "channel": {
-          "name": "channel",
+          "name": "チャンネル",
           "description": "Channel where you want the news to be sent."
         }
       }
