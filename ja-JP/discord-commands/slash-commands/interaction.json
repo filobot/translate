@@ -11,7 +11,7 @@
       }
     },
     "bite": {
-      "description": "Send a bite interaction.",
+      "description": "一口インタラクションを送信します。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -20,7 +20,7 @@
       }
     },
     "cookie": {
-      "description": "Send a cookie interaction.",
+      "description": "Cookie インタラクションを送信する。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -29,7 +29,7 @@
       }
     },
     "cuddle": {
-      "description": "Send a cuddle interaction.",
+      "description": "抱っこのやりとりを送る。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -38,7 +38,7 @@
       }
     },
     "feed": {
-      "description": "Send a feed interaction.",
+      "description": "フィードインタラクションを送信します。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -47,7 +47,7 @@
       }
     },
     "hug": {
-      "description": "Send a hug interaction.",
+      "description": "ハグのやりとりを送る。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -56,7 +56,7 @@
       }
     },
     "kick": {
-      "description": "Send a kick interaction.",
+      "description": "キックインタラクションを送信する。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -65,7 +65,7 @@
       }
     },
     "kiss": {
-      "description": "Send a kiss interaction.",
+      "description": "キスのやりとりを送る。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -74,7 +74,7 @@
       }
     },
     "laugh": {
-      "description": "Send a laugh interaction.",
+      "description": "笑いのインタラクションを送る。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -83,7 +83,7 @@
       }
     },
     "pat": {
-      "description": "Send a pat interaction.",
+      "description": "パットしたやりとりを送る。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -92,7 +92,7 @@
       }
     },
     "poke": {
-      "description": "Send a poke interaction.",
+      "description": "Poke インタラクションを送信する。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -101,7 +101,7 @@
       }
     },
     "punch": {
-      "description": "Send a punch interaction.",
+      "description": "パンチングインタラクションを送信します。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -110,7 +110,7 @@
       }
     },
     "reverse-card": {
-      "description": "Send a reverse card interaction.",
+      "description": "逆カードのやりとりを送る。",
       "arguments": {
         "user": {
           "name": "ユーザー",
@@ -119,7 +119,7 @@
       }
     },
     "slap": {
-      "description": "Send a slap interaction.",
+      "description": "スラップインタラクションを送信する。",
       "arguments": {
         "user": {
           "name": "ユーザー",
