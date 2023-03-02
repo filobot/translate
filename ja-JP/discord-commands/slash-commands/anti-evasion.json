@@ -11,12 +11,12 @@
       "description": "Set the action to take when someone tries to evade an active sanction.",
       "arguments": {
         "action": {
-          "name": "action",
+          "name": "アクション",
           "description": "Action to take when someone tries to evade an active sanction."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "時",
+          "description": "アクションの時間 (一時的な場合)。"
         }
       }
     },
@@ -30,8 +30,8 @@
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
         }
       }
     }
