@@ -23,7 +23,7 @@
       "description": "Set the channel where the welcome messages will be sent.",
       "arguments": {
         "channel": {
-          "name": "channel",
+          "name": "チャンネル",
           "description": "Channel where welcome messages will be sent."
         }
       }
@@ -35,7 +35,7 @@
       "description": "Set the way in which the welcome message will be sent.",
       "arguments": {
         "type": {
-          "name": "type",
+          "name": "タイプ",
           "description": "Way in which the welcome message will be sent."
         }
       }
@@ -44,7 +44,7 @@
       "description": "Set the role you want to grant to the new members.",
       "arguments": {
         "role": {
-          "name": "role",
+          "name": "役割",
           "description": "Role that you want to grant to new members."
         }
       }
@@ -59,8 +59,8 @@
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
         }
       }
     }
