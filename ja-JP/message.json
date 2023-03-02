@@ -1,8 +1,8 @@
 {
-  "MESSAGE": "Message",
-  "MESSAGES": "Messages",
-  "MESSAGE_INFORMATION": "Message information",
-  "MESSAGE_LINK": "Message URL",
-  "MESSAGE_WITHOUT_CONTENT": "Message without content",
-  "NUMBER_OF_PURGED_MESSAGES": "Number of messages purged"
+  "MESSAGE": "メッセージ",
+  "MESSAGES": "メッセージ",
+  "MESSAGE_INFORMATION": "メッセージ情報",
+  "MESSAGE_LINK": "メッセージの URL",
+  "MESSAGE_WITHOUT_CONTENT": "内容のないメッセージ",
+  "NUMBER_OF_PURGED_MESSAGES": "パージされたメッセージの数"
 }
