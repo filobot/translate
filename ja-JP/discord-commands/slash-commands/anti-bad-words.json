@@ -2,84 +2,84 @@
   "description": "不正な単語を送信するユーザーを認可するモジュールです。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-bad-words module."
+      "description": "アンチバッドワードモジュールを有効にする。"
     },
     "disable": {
-      "description": "Disable the anti-bad-words module."
+      "description": "アンチバッドワードモジュールを無効にする。"
     },
     "action": {
-      "description": "Set the action to take when someone sends bad words.",
+      "description": "悪口を言われたときにとるべき行動を設定する。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends bad words."
+          "name": "アクション",
+          "description": "悪口を言われたときにとるべき行動"
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "時",
+          "description": "アクションの時間 (一時的な場合)。"
         }
       }
     },
     "word": {
-      "description": "Add or remove bad words from the bad word list.",
+      "description": "悪口リストに悪口を追加・削除する。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take with the bad word."
+          "name": "アクション",
+          "description": "悪い言葉を使って取るべき行動"
         },
         "word": {
-          "name": "word",
-          "description": "Bad word that you want to add or remove from the bad word list."
+          "name": "言葉",
+          "description": "悪口リストに追加または削除したい悪口。"
         }
       }
     },
     "aggressive-filter": {
-      "description": "Enable or disable the aggressive bad word detection filter.",
+      "description": "積極的な悪口検出フィルタを有効または無効にします。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "アクション",
+          "description": "実行したいアクション"
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "無視するチャンネルをリストに追加または削除します。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "アクション",
+          "description": "実行したいアクション"
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "チャンネル",
+          "description": "モジュールのチャンネルバイパスリストからのチャンネル。"
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "無視されるロールのリストにロールを追加または削除します。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "アクション",
+          "description": "実行したいアクション"
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "役割",
+          "description": "モジュールのロールバイパスリストからロールを選択します。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-bad-words module documentation."
+      "description": "アンチバッドワードモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the anti-bad-words module."
+      "description": "アンチバッドワードモジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
         }
       }
     }
