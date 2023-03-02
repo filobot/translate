@@ -2,7 +2,7 @@
   "description": "Remove the mute from a user.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "ユーザー",
       "description": "User you want to remove the mute from."
     },
     "reason": {
