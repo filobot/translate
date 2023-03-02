@@ -5,24 +5,24 @@
       "description": "Show the information from a random manga according to the criteria you specify.",
       "arguments": {
         "term": {
-          "name": "term",
+          "name": "用語",
           "description": "Term that must include the title of the manga."
         },
         "type": {
-          "name": "type",
+          "name": "タイプ",
           "description": "Manga type."
         },
         "status": {
-          "name": "status",
+          "name": "地位",
           "description": "Manga's status."
         },
         "rating": {
-          "name": "rating",
+          "name": "ひょうてん",
           "description": "Manga's rating."
         },
         "genre": {
-          "name": "genre",
-          "description": "Genre or one of the genres of the Anime."
+          "name": "ジャンル",
+          "description": "ジャンルまたはアニメのジャンルの一つ。"
         }
       }
     },
@@ -30,7 +30,7 @@
       "description": "Search the information of an manga.",
       "arguments": {
         "title": {
-          "name": "title",
+          "name": "タイトル",
           "description": "Title of the manga."
         }
       }
