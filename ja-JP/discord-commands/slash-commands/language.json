@@ -13,8 +13,8 @@
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
-        "name": "confirmation",
-        "description": "Are you really sure you want to reset the data for this module?"
+        "name": "かくにん",
+        "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
       }
     }
   }
