@@ -1,149 +1,149 @@
 {
-  "description": "Commands from the Core category.",
+  "description": "Core」カテゴリのコマンド。",
   "subcommands": {
     "info": {
-      "description": "Get information about the bot."
+      "description": "ボットに関する情報を取得します。"
     },
     "flags": {
-      "description": "Show your flags or that of another specific user.",
+      "description": "自分の国旗、または特定のユーザーの国旗を表示する。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "Show the flags of the user."
+          "name": "ユーザー",
+          "description": "ユーザーの国旗を表示する。"
         }
       }
     },
     "donate": {
-      "description": "Get information about donations for the bot."
+      "description": "ボットへの寄付に関する情報を得ることができます。"
     },
     "commands": {
-      "description": "Get the list of bot commands or information about a command.",
+      "description": "ボットコマンドのリスト、またはコマンドに関する情報を取得します。",
       "arguments": {
         "command": {
-          "name": "command",
-          "description": "Get information from a command."
+          "name": "命令",
+          "description": "コマンドから情報を取得する。"
         }
       }
     },
     "invite": {
-      "description": "Get the recommended Filo's invite link."
+      "description": "推奨される Filo の招待リンクを入手してください。"
     },
     "privacy": {
-      "description": "Get the link to Filo's Privacy Policy."
+      "description": "Filo のプライバシーポリシーへのリンクを取得します。"
     },
     "terms": {
-      "description": "Get the link to Filo's Terms of Conditions."
+      "description": "Filo の利用規約へのリンクを取得します。"
     },
     "twitter": {
-      "description": "Get the link to Filo's Twitter."
+      "description": "フィーロの Twitter へのリンクを取得する。"
     },
     "status": {
-      "description": "Get the link to Filo's Status page."
+      "description": "Filo のステータスページへのリンクを取得します。"
     },
     "website": {
-      "description": "Get the link to Filo's Website."
+      "description": "Filo のウェブサイトへのリンクを取得します。"
     },
     "github": {
-      "description": "Get the link to Filo's GitHub."
+      "description": "Filo の GitHub へのリンクを取得します。"
     },
     "discord": {
-      "description": "Get the link to Filo's Discord Server."
+      "description": "Filo の Discord サーバーへのリンクを取得してください。"
     },
     "wiki": {
-      "description": "Get the link to Filo's Wiki."
+      "description": "Filo の Wiki へのリンクを取得する。"
     },
     "help": {
-      "description": "Get basic help on the bot."
+      "description": "ボットに関する基本的なヘルプを取得します。"
     },
     "support": {
-      "description": "Get information on how to receive support."
+      "description": "サポートを受けるための情報を得ることができます。"
     },
     "vote": {
-      "description": "Get the link to Filo's voting pages."
+      "description": "Filo の投票ページへのリンクを取得します。"
     },
     "votes": {
-      "description": "Get the vote counter of all Filo's voting pages."
+      "description": "Filo の全投票ページの投票カウンターを取得します。"
     },
     "cluster": {
-      "description": "Get information about the current Filo's cluster."
+      "description": "現在の Filo のクラスタに関する情報を取得します。"
     },
     "statistics": {
-      "description": "Get Filo's global stats."
+      "description": "フィーロのグローバルスタッツを取得する。"
     },
     "ping": {
-      "description": "Get the latency from Filo and from the Discord API."
+      "description": "Filo と Discord API からレイテンシーを取得します。"
     }
   },
   "subcommand_groups": {
     "roles": {
-      "description": "Manage roles in an advanced way.",
+      "description": "役割を高度に管理する。",
       "subcommands": {
         "muted": {
-          "description": "Create or set the Muted role in the settings.",
+          "description": "設定でミュートの役割を作成または設定します。",
           "arguments": {
             "role": {
-              "name": "role",
+              "name": "役割",
               "description": "ミュートされた役割 (設定する場合で、作成しない場合)。"
             }
           }
         },
         "remove": {
-          "description": "Remove all the parameters of a role from the settings.",
+          "description": "ロールのすべてのパラメータを設定から削除します。",
           "arguments": {
             "role": {
-              "name": "role",
+              "name": "役割",
               "description": "すべてのパラメータ (プロパティとパーミッション) を削除したいロール。"
             }
           }
         },
         "permissions": {
-          "description": "Manage the permissions of each role.",
+          "description": "各ロールの権限を管理します。",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Role you want to manage."
+              "name": "役割",
+              "description": "管理したい役割"
             },
             "permission": {
-              "name": "permission",
-              "description": "Permission that you want to add, set, or remove."
+              "name": "パーミッション",
+              "description": "追加、設定、削除したいパーミッション。"
             }
           }
         },
         "view": {
-          "description": "Get the settings of the guild roles."
+          "description": "ギルドロールの設定を取得します。"
         },
         "reset": {
           "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
           "arguments": {
             "confirmation": {
-              "name": "confirmation",
-              "description": "Are you really sure you want to reset the data for this module?"
+              "name": "かくにん",
+              "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
             }
           }
         }
       }
     },
     "moderation": {
-      "description": "Manage the moderation section.",
+      "description": "モデレーションセクションを管理する。",
       "subcommands": {
         "dm-notifications": {
-          "description": "Enable or disable notifications for moderation actions.",
+          "description": "モデレーションアクションの通知を有効または無効にします。",
           "arguments": {
             "action": {
-              "name": "action",
-              "description": "Action you want to carry out."
+              "name": "アクション",
+              "description": "実行したいアクション"
             }
           }
         },
         "view": {
-          "description": "View the settings of the moderation parameters module."
+          "description": "モデレーションパラメータモジュールの設定を表示します。"
         },
         "reset": {
           "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
           "arguments": {
             "confirmation": {
-              "name": "confirmation",
-              "description": "Are you really sure you want to reset the data for this module?"
+              "name": "かくにん",
+              "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
             }
           }
         }
