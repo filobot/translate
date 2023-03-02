@@ -11,7 +11,7 @@
       "description": "Manage the different events you want to show.",
       "arguments": {
         "action": {
-          "name": "action",
+          "name": "アクション",
           "description": "Enables or disables an event."
         }
       }
@@ -20,7 +20,7 @@
       "description": "Set the logging channel.",
       "arguments": {
         "channel": {
-          "name": "channel",
+          "name": "チャンネル",
           "description": "Channel where the logs will be sent."
         }
       }
@@ -35,8 +35,8 @@
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
         }
       }
     }
