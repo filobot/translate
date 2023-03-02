@@ -2,7 +2,7 @@
   "description": "Show your avatar or that of a user.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "ユーザー",
       "description": "User whose avatar you want to get."
     }
   }
