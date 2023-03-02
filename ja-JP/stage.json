@@ -1,9 +1,9 @@
 {
-  "STAGE_INSTANCE": "Stage instance",
-  "STAGE_INSTANCES": "Stage instances",
-  "STAGE_INSTANCE_PRIVACY_LEVEL": "Privacy level",
-  "PUBLIC_STAGE_INSTANCE": "Public stage instance",
-  "PRIVATE_STAGE_INSTANCE": "Private stage instance",
-  "DISCOVERABLE_DISABLED_TRUE": "The stage instance isn't discoverable",
-  "DISCOVERABLE_DISABLED_FALSE": "The stage instance is discoverable"
+  "STAGE_INSTANCE": "ステージインスタンス",
+  "STAGE_INSTANCES": "ステージインスタンス",
+  "STAGE_INSTANCE_PRIVACY_LEVEL": "プライバシーレベル",
+  "PUBLIC_STAGE_INSTANCE": "公開ステージインスタンス",
+  "PRIVATE_STAGE_INSTANCE": "プライベートステージのインスタンス",
+  "DISCOVERABLE_DISABLED_TRUE": "ステージインスタンスが検出できない",
+  "DISCOVERABLE_DISABLED_FALSE": "ステージインスタンスが検出可能である"
 }
