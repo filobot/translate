@@ -1,11 +1,11 @@
 {
-  "INVITE": "Invite",
-  "INVITES": "Invites",
-  "INVITE_CODE": "Invite code",
-  "MAXIMUM_USES": "Maximum uses of the invite",
-  "TEMPORARY_TRUE": "The invite has temporary membership",
-  "TEMPORARY_FALSE": "The invite has full membership",
-  "ACTIVITY_TRUE": "The invite belongs to an activity",
-  "ACTIVITY_FALSE": "The invite doesn't belong to an activity",
-  "MAXIMUM_PARTICIPANTS": "Maximum participants"
+  "INVITE": "招待状",
+  "INVITES": "招待状",
+  "INVITE_CODE": "招待コード",
+  "MAXIMUM_USES": "招待状の最大用途",
+  "TEMPORARY_TRUE": "招待状は一時的なものです",
+  "TEMPORARY_FALSE": "招待者はフルメンバー",
+  "ACTIVITY_TRUE": "招待状がアクティビティに属している",
+  "ACTIVITY_FALSE": "招待がアクティビティに属さない",
+  "MAXIMUM_PARTICIPANTS": "最大参加人数"
 }
