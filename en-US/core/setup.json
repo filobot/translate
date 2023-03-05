@@ -31,6 +31,7 @@
     "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
     "SELECT_A_CHANNEL": "You must select the channel you want to set.",
     "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
+    "SELECT_AT_LEAST_ONE_CHANNEL": "You must select at least one channel.",
     "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
     "DM_STATUS": {
       "LABEL": "Toggle the status of DMs",
