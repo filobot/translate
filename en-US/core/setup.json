@@ -35,7 +35,7 @@
     "DM_STATUS": {
       "LABEL": "Toggle the status of DMs",
       "DESCRIPTION": "Change the status of notifications by DM.",
-      "DM_STATUS_TOGGLED": "You have successfully {{action}} the DM notifications."
+      "DM_STATUS_TOGGLED": "You have successfully {{action}} the DM notifications for the **{{module}}** module."
     },
     "COMMUNITY": {
       "NAME": "Community",
@@ -101,12 +101,12 @@
       "SELECT_THE_DATA": "Select the data to view",
       "VIEW_ALL": "View all {{data}}.",
       "COMMUNITY": {
-        "LANGUAGE": {
-          "LANGUAGE_CODE": "Language code"
-        },
         "COMMANDS": {
           "DISABLED_COMMANDS": "Disabled commands",
           "DISABLED_CATEGORIES": "Disabled categories"
+        },
+        "LANGUAGE": {
+          "LANGUAGE_CODE": "Language code"
         }
       }
     }
