@@ -1,35 +1,35 @@
 {
-  "description": "Module that allows to send the logs of the server to a channel.",
+  "description": "サーバのログをチャンネルに送信できるモジュールです。",
   "subcommands": {
     "enable": {
-      "description": "Enable the logging module."
+      "description": "ロギングモジュールを有効にします。"
     },
     "disable": {
-      "description": "Disable the logging module."
+      "description": "ロギングモジュールを無効にする。"
     },
     "events": {
-      "description": "Manage the different events you want to show.",
+      "description": "表示したいさまざまなイベントを管理します。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Enables or disables an event."
+          "description": "イベントの有効／無効を設定します。"
         }
       }
     },
     "channel": {
-      "description": "Set the logging channel.",
+      "description": "ロギングチャンネルを設定します。",
       "arguments": {
         "channel": {
           "name": "チャンネル",
-          "description": "Channel where the logs will be sent."
+          "description": "ログが送信されるチャンネル。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the logging module documentation."
+      "description": "ロギングモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the logging module."
+      "description": "ロギングモジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
