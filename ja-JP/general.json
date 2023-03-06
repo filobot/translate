@@ -9,7 +9,7 @@
   "CATEGORY": "カテゴリー",
   "MODULE": "モジュール",
   "QUEUED_REQUEST": "お客様のリクエストはキューに追加され、処理されます **{{time}}**。",
-  "COOLDOWN": "このアクションを実行すると、**{{time}}**.",
+  "COOLDOWN": "このアクションを実行すると、**{{time}}**。",
   "RESPONSE_DELETED": "レスの削除に成功しました。",
   "DATE": "日付",
   "APPROVED": "承認済み",
