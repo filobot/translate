@@ -5,14 +5,14 @@
       "description": "反復テキストモジュールを有効にします。"
     },
     "disable": {
-      "description": "Disable the anti-repeated-text module."
+      "description": "Anti-repeated-text モジュールを無効にする。"
     },
     "action": {
-      "description": "Set the action to take when someone sends repeated text in a message.",
+      "description": "メッセージ内で文字列を繰り返し送信されたときに取る動作を設定します。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Action to take when someone sends repeated text in a message."
+          "description": "メッセージ内で文字列を繰り返し送信された場合に取るべき動作。"
         },
         "time": {
           "name": "時",
@@ -47,10 +47,10 @@
       }
     },
     "docs": {
-      "description": "Get the link of the anti-repeated-text module documentation."
+      "description": "Anti-repeated-text モジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the anti-repeated-text module."
+      "description": "Anti-repeated-text モジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
