@@ -1,9 +1,9 @@
 {
-  "description": "Get a random number.",
+  "description": "乱数を取得します。",
   "arguments": {
     "number": {
-      "name": "number",
-      "description": "Number with which you want to multiply the random value."
+      "name": "番号",
+      "description": "乱数値を乗算したい数値。"
     }
   }
 }
