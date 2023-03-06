@@ -1,21 +1,21 @@
 {
-  "description": "Send a message using Filo.",
+  "description": "Filoを使ってメッセージを送る。",
   "subcommands": {
     "embed": {
-      "description": "Send the message through an embed.",
+      "description": "埋め込みで送信する。",
       "arguments": {
         "message": {
           "name": "メッセージ",
-          "description": "Message you want to send."
+          "description": "送信したいメッセージ。"
         }
       }
     },
     "normal": {
-      "description": "Send the message using a normal message.",
+      "description": "通常のメッセージで送信する。",
       "arguments": {
         "message": {
           "name": "メッセージ",
-          "description": "Message you want to send."
+          "description": "送信したいメッセージ。"
         }
       }
     }
