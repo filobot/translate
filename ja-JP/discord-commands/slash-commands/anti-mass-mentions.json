@@ -2,17 +2,17 @@
   "description": "ユーザーがあまりにも多くのユーザーに言及することを許可するモジュール。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-mass-mentions module."
+      "description": "アンチ・マスメディア・モジュールを有効にする。"
     },
     "disable": {
-      "description": "Disable the anti-mass-mentions module."
+      "description": "アンチ・マスメディア・モジュールを無効化する。"
     },
     "action": {
-      "description": "Set the action to take when someone mentions too many users.",
+      "description": "誰かがあまりにも多くのユーザーを言及したときに取るアクションを設定します。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Action to take when someone mentions too many users."
+          "description": "ユーザーが多すぎると言及されたときの対処法。"
         },
         "time": {
           "name": "時",
@@ -21,11 +21,11 @@
       }
     },
     "threshold": {
-      "description": "Set the number of mentions allowed per user.",
+      "description": "ユーザーごとに許可されるメンション数を設定します。",
       "arguments": {
         "mentions": {
-          "name": "mentions",
-          "description": "Number of mentions allowed per user."
+          "name": "ことばがき",
+          "description": "ユーザーごとに許可されるメンション数。"
         }
       }
     },
@@ -59,7 +59,7 @@
       "description": "アンチマスメンションモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the anti-mass-mentions module."
+      "description": "アンチ・マスメディア・モジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
