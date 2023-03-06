@@ -35,7 +35,7 @@
       "description": "Filo の利用規約へのリンクを取得します。"
     },
     "twitter": {
-      "description": "フィーロの Twitter へのリンクを取得する。"
+      "description": "Filo の Twitter へのリンクを取得する。"
     },
     "status": {
       "description": "Filo のステータスページへのリンクを取得します。"
@@ -68,7 +68,7 @@
       "description": "現在の Filo のクラスタに関する情報を取得します。"
     },
     "statistics": {
-      "description": "フィーロのグローバルスタッツを取得する。"
+      "description": "Filo のグローバルスタッツを取得する。"
     },
     "ping": {
       "description": "Filo と Discord API からレイテンシーを取得します。"
