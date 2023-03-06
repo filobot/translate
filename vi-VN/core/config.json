@@ -57,7 +57,7 @@
   "MESSAGE_SET": "Bạn đã đặt tin nhắn của chương trình **{{module}}** thành công.",
   "MESSAGE_TYPE_SET": "Bạn đã chỉnh loại tin nhắn cho chương trình **{{module}}**.",
   "MESSAGE_TYPE": "Loại tin nhắn",
-  "ROLE_SET": "Bạn đã chỉnh role {{role.mention}} ({{role.id}}) cho chương trình **{{module}}**.",
+  "ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role for the **{{module}}** module.",
   "MEMBER_COUNTER_ENABLED_PROTIP": "Đặt kênh đếm người dùng trong server bằng cách: **{{command}}**.",
   "MEMBER_COUNTER_NAME_MISSING_VARIABLE": "Tên của kênh đếm số người dùng trong server phải có **{{variable}}**.",
   "MEMBER_COUNTER_NAME_SET": "Bạn đã chỉnh kênh đếm số người dùng trong server thành công.",
