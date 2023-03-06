@@ -128,7 +128,7 @@
       }
     },
     "tickle": {
-      "description": "Send a tickle interaction.",
+      "description": "くすぐりインタラクションを送信する。",
       "arguments": {
         "user": {
           "name": "ユーザー",
