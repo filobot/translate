@@ -1,5 +1,5 @@
 {
-  "description": "GIFを使って他のユーザーとリアクションをとる。",
+  "description": "GIF を使って他のユーザーとリアクションをとる。",
   "subcommands": {
     "angry": {
       "description": "怒りのリアクションを送る。"
