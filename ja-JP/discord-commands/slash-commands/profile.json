@@ -1,9 +1,9 @@
 {
-  "description": "Show your profile or the profile of another user.",
+  "description": "自分のプロフィールや他のユーザーのプロフィールを表示する。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User you want to get the profile for."
+      "description": "プロファイルを取得したいユーザー。"
     }
   }
 }
