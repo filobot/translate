@@ -1,45 +1,45 @@
 {
-  "description": "Create a poll on the current channel.",
+  "description": "現在のチャンネルにポールを作成します。",
   "arguments": {
     "message": {
       "name": "メッセージ",
-      "description": "Message to the poll."
+      "description": "世論調査へのメッセージ。"
     },
     "choice-1": {
-      "name": "choice-1",
-      "description": "Choice 1 of the poll."
+      "name": "チョイスワン",
+      "description": "世論調査の選択肢 1。"
     },
     "choice-2": {
-      "name": "choice-2",
-      "description": "Choice 2 of the poll."
+      "name": "チョイス 2。",
+      "description": "世論調査の選択肢 2"
     },
     "choice-3": {
-      "name": "choice-3",
-      "description": "Choice 3 of the poll."
+      "name": "チョイス 3",
+      "description": "世論調査の選択肢 3。"
     },
     "choice-4": {
-      "name": "choice-4",
-      "description": "Choice 4 of the poll."
+      "name": "チョイス 4",
+      "description": "世論調査の選択肢 4。"
     },
     "choice-5": {
-      "name": "choice-5",
-      "description": "Choice 5 of the poll."
+      "name": "チョイスファイブ",
+      "description": "世論調査の選択肢 5。"
     },
     "choice-6": {
-      "name": "choice-6",
-      "description": "Choice 6 of the poll."
+      "name": "チョイス 6",
+      "description": "世論調査の選択肢 6。"
     },
     "choice-7": {
-      "name": "choice-7",
-      "description": "Choice 7 of the poll."
+      "name": "チョイス 7",
+      "description": "世論調査の選択肢 7。"
     },
     "choice-8": {
-      "name": "choice-8",
-      "description": "Choice 8 of the poll."
+      "name": "チョイスエイト",
+      "description": "世論調査の選択肢 8。"
     },
     "choice-9": {
-      "name": "choice-9",
-      "description": "Choice 9 of the poll."
+      "name": "チョイス 9",
+      "description": "世論調査の選択肢 9。"
     }
   }
 }
