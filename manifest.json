@@ -34,5 +34,17 @@
     "contributors": [
       "754982406393430098"
     ]
+  },
+  {
+    "name": "ja-JP",
+    "nativeName": "日本語",
+    "wikiCode": null,
+    "discordCode": "ja",
+    "iso639": "ja",
+    "flag": "🇯🇵",
+    "default": false,
+    "contributors": [
+      "266103595949096960"
+    ]
   }
 ]
