@@ -1,9 +1,9 @@
 {
-  "description": "Show your credits or another user's credits.",
+  "description": "自分のクレジット、または他のユーザーのクレジットを表示します。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User to whom you want to get their credits."
+      "description": "クレジットを取得したいユーザー。"
     }
   }
 }
