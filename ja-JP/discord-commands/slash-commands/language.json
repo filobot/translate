@@ -1,14 +1,14 @@
 {
-  "description": "Module that allows you to set the Filo's Language.",
+  "description": "Filo の言語を設定するモジュールです。",
   "subcommands": {
     "select": {
       "description": "お好みのFiloの言語を選択します (利用可能である必要があります)。"
     },
     "docs": {
-      "description": "Get the link of the language module documentation."
+      "description": "言語モジュールのドキュメントのリンクを取得します．"
     },
     "view": {
-      "description": "View the current language information."
+      "description": "現在の言語情報を表示する。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
