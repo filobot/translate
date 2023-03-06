@@ -2,10 +2,10 @@
   "description": "Filo の言語を設定するモジュールです。",
   "subcommands": {
     "select": {
-      "description": "お好みのFiloの言語を選択します (利用可能である必要があります)。"
+      "description": "お好みの Filo の言語を選択します (利用可能である必要があります)。"
     },
     "docs": {
-      "description": "言語モジュールのドキュメントのリンクを取得します．"
+      "description": "言語モジュールのドキュメントのリンクを取得します。"
     },
     "view": {
       "description": "現在の言語情報を表示する。"
