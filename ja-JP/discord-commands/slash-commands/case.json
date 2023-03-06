@@ -1,25 +1,25 @@
 {
-  "description": "Manage a sanction case.",
+  "description": "制裁案件を管理する。",
   "subcommands": {
     "info": {
-      "description": "Get information about a sanction case.",
+      "description": "制裁案件の情報を入手する。",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "場合",
+          "description": "ケースのIDです。"
         }
       }
     },
     "set": {
-      "description": "Set the new information for a case.",
+      "description": "案件の新しい情報を設定します。",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "場合",
+          "description": "ケースのIDです。"
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason you want to set to the case."
+          "name": "理由",
+          "description": "ケースにセットしたい理由。"
         }
       }
     }
