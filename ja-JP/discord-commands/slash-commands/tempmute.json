@@ -1,21 +1,21 @@
 {
-  "description": "Temporarily mute a user from the server.",
+  "description": "サーバーからユーザーを一時的にミュートする。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User you want to temporarily mute."
+      "description": "一時的にミュートにしたいユーザー。"
     },
     "time": {
       "name": "時",
-      "description": "Duration of the sanction."
+      "description": "制裁の期間。"
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for temporarily muting this user."
+      "name": "理由",
+      "description": "このユーザーを一時的にミュートしている理由。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
     }
   }
 }
