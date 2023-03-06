@@ -1,11 +1,11 @@
 {
-  "description": "Send a random image of a neko.",
+  "description": "ねこむの画像をランダムに送信します。",
   "subcommands": {
     "blushing": {
-      "description": "Send a random image of a blushing neko."
+      "description": "赤面しているネコの画像をランダムに送信します。"
     },
     "random": {
-      "description": "Send a random image of a neko."
+      "description": "ねこむの画像をランダムに送信します。"
     }
   }
 }
