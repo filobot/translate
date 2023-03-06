@@ -1,18 +1,18 @@
 {
-  "description": "Module that allows you to prevent users from sending scam links.",
+  "description": "ユーザが詐欺リンクを送信できないようにするモジュールです。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-scam-links module."
+      "description": "アンチ詐欺リンクモジュールを有効にします。"
     },
     "disable": {
-      "description": "Disable the anti-scam-links module."
+      "description": "アンチ詐欺リンクモジュールを無効にします。"
     },
     "action": {
-      "description": "Set the action to take when someone sends scam links.",
+      "description": "詐欺のリンクが送られてきたときの対処を設定します。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Action to take when someone sends scam links."
+          "description": "詐欺のリンクを送られた時の対処法。"
         },
         "time": {
           "name": "時",
@@ -21,7 +21,7 @@
       }
     },
     "aggressive-filter": {
-      "description": "Enable or disable the aggressive scam link detection filter.",
+      "description": "アグレッシブ詐欺リンク検出フィルタを有効または無効にします。",
       "arguments": {
         "action": {
           "name": "アクション",
@@ -56,10 +56,10 @@
       }
     },
     "docs": {
-      "description": "Get the link of the anti-scam-links module documentation."
+      "description": "アンチ詐欺リンクモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the anti-scam-links module."
+      "description": "アンチ詐欺リンクモジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
