@@ -1,9 +1,9 @@
 {
-  "description": "Show your avatar or that of a user.",
+  "description": "自分のアバター、またはユーザーのアバターを表示する。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User whose avatar you want to get."
+      "description": "アバターを取得したいユーザー。"
     }
   }
 }
