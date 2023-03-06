@@ -2,35 +2,35 @@
   "description": "旧メンバーにお別れのメッセージを送ることができるモジュール。",
   "subcommands": {
     "enable": {
-      "description": "Enable the farewells module."
+      "description": "別れモジュールを有効にします。"
     },
     "disable": {
-      "description": "Disable the farewells module."
+      "description": "運賃モジュールを無効にします。"
     },
     "channel": {
-      "description": "Set the channel where the farewell messages will be sent.",
+      "description": "送別メッセージを送信するチャンネルを設定します。",
       "arguments": {
         "name": "チャンネル",
-        "description": "Channel where farewell messages will be sent."
+        "description": "送別のメッセージを送信するチャンネル。"
       }
     },
     "message": {
-      "description": "Set the farewell message."
+      "description": "送別のメッセージを設定する。"
     },
     "type": {
-      "description": "Set the way in which the farewell message will be sent.",
+      "description": "お別れのメッセージの送り方を設定します。",
       "arguments": {
         "type": {
           "name": "タイプ",
-          "description": "Way in which the welcome farewell will be sent."
+          "description": "送別会の送り方。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the farewells module documentation."
+      "description": "別れのモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the farewells module."
+      "description": "別れのモジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
