@@ -5,14 +5,14 @@
       "description": "アンチ外部リンクモジュールを有効にします。"
     },
     "disable": {
-      "description": "Disable the anti-external-links module."
+      "description": "アンチエクスターナルリンクモジュールを無効化する。"
     },
     "action": {
-      "description": "Set the action to take when a user sends a link.",
+      "description": "ユーザーがリンクを送信したときに行うアクションを設定します。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Action to take when a user sends a link."
+          "description": "ユーザーがリンクを送信した際に行うアクション。"
         },
         "time": {
           "name": "時",
@@ -21,33 +21,33 @@
       }
     },
     "filo": {
-      "description": "Enable or disable bypassing of links from Filo domains.",
+      "description": "Filo ドメインからのリンクのバイパスを有効または無効にします。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Enable or disable bypassing of links from Filo domains."
+          "description": "Filo ドメインからのリンクのバイパスを有効または無効にします。"
         }
       }
     },
     "discord": {
-      "description": "Enable or disable bypassing of links from Discord domains.",
+      "description": "Discord ドメインからのリンクのバイパスを有効または無効にします。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Enable or disable bypassing of links from Discord domains."
+          "description": "Discord ドメインからのリンクのバイパスを有効または無効にします。"
         }
       }
     },
     "link": {
-      "description": "Add or remove a link from the list of ignored links.",
+      "description": "無視するリンクのリストに、リンクを追加または削除する。",
       "arguments": {
         "action": {
           "name": "アクション",
           "description": "実行したいアクション"
         },
         "link": {
-          "name": "link",
-          "description": "Link that you want to add or remove to the list of ignored links."
+          "name": "リンク",
+          "description": "無視するリンクのリストに追加または削除したいリンク。"
         }
       }
     },
