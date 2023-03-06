@@ -1,5 +1,5 @@
 {
-  "description": "Module that allows users to report bad behavior to the Moderators of the server.",
+  "description": "ユーザーがサーバーのモデレータに悪い行いを報告するためのモジュールです。",
   "subcommands": {
     "enable": {
       "description": "レポート モジュールを有効にします。"
@@ -8,11 +8,11 @@
       "description": "レポートモジュールを無効にします。"
     },
     "channel": {
-      "description": "Set the channel where the reports will be sent.",
+      "description": "レポートが送信されるチャンネルを設定します。",
       "arguments": {
         "channel": {
           "name": "チャンネル",
-          "description": "Channel where you want the reports to be sent."
+          "description": "レポートを送信するチャンネル。"
         }
       }
     },
