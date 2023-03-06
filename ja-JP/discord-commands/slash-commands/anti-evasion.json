@@ -2,17 +2,17 @@
   "description": "アクティブな制裁を回避しようとするユーザーを禁止することができますモジュール。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-evasion module."
+      "description": "アンチエヴァージョンモジュールを有効にする。"
     },
     "disable": {
-      "description": "Disable the anti-evasion module."
+      "description": "アンチエヴァージョンモジュールを無効にする。"
     },
     "action": {
-      "description": "Set the action to take when someone tries to evade an active sanction.",
+      "description": "誰かがアクティブな制裁を回避しようとしたときに取るべき行動を設定します。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Action to take when someone tries to evade an active sanction."
+          "description": "誰かがアクティブな制裁を回避しようとしたときに取るべき行動。"
         },
         "time": {
           "name": "時",
@@ -21,10 +21,10 @@
       }
     },
     "docs": {
-      "description": "Get the link of the anti-evasion module documentation."
+      "description": "アンチエイジングモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the anti-evasion module."
+      "description": "回避防止モジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
