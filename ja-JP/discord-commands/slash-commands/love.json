@@ -1,9 +1,9 @@
 {
-  "description": "Send an image showing the love you have with another user to the channel.",
+  "description": "他のユーザーとの愛を示す画像をチャンネルに送信します。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User with whom you want to create the image."
+      "description": "画像を作成するユーザー。"
     }
   }
 }
