@@ -1,26 +1,26 @@
 {
-  "description": "Manage a channel.",
+  "description": "チャンネルを管理します。",
   "subcommand_groups": {
     "cooldown": {
-      "description": "Manage the cooldown of a channel.",
+      "description": "チャンネルのクールダウンを管理します。",
       "subcommands": {
         "set": {
-          "description": "Set the cooldown of a channel.",
+          "description": "チャネルのクールダウンを設定します。",
           "arguments": {
             "time": {
               "name": "時",
-              "description": "Cooldown you want to set."
+              "description": "設定したいクールダウン。"
             },
             "channel": {
               "name": "チャンネル",
-              "description": "Channel where you want to set the cooldown."
+              "description": "クールダウンを設定したいチャンネル。"
             },
             "reset": {
-              "description": "Reset the cooldown of a channel.",
+              "description": "チャネルのクールダウンをリセットします。",
               "arguments": {
                 "channel": {
                   "name": "チャンネル",
-                  "description": "Channel where you want to reset the cooldown."
+                  "description": "クールダウンをリセットしたいチャンネル。"
                 }
               }
             }
@@ -29,59 +29,59 @@
       }
     },
     "messages": {
-      "description": "Manage the messages of a channel.",
+      "description": "チャネルのメッセージを管理します。",
       "subcommands": {
         "pin": {
-          "description": "Pin a message on the current channel.",
+          "description": "現在のチャンネルにメッセージをピン留めする。",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to pin."
+              "name": "メッセージ",
+              "description": "ピン留めしたいメッセージの ID。"
             }
           }
         },
         "purge": {
-          "description": "Purge a number of messages from a channel.",
+          "description": "チャンネルからメッセージの数をパージする。",
           "arguments": {
             "messages": {
-              "name": "messages",
-              "description": "Number of messages you want to purge."
+              "name": "メッセージ",
+              "description": "パージしたいメッセージの数。"
             },
             "channel": {
               "name": "チャンネル",
-              "description": "Channel where you want to purge messages."
+              "description": "メッセージをパージしたいチャンネル。"
             }
           }
         },
         "unpin": {
-          "description": "Unpin a message on the current channel.",
+          "description": "現在のチャンネルにあるメッセージをアンピンする。",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to unpin."
+              "name": "メッセージ",
+              "description": "ピン留めを解除したいメッセージの ID。"
             }
           }
         }
       }
     },
     "nsfw": {
-      "description": "Switch the NSFW mode of a channel.",
+      "description": "チャンネルの NSFW モードを切り替える。",
       "subcommands": {
         "enable": {
-          "description": "Enable the NSFW mode of a channel.",
+          "description": "チャンネルの NSFW モードを有効にする。",
           "arguments": {
             "channel": {
               "name": "チャンネル",
-              "description": "Channel where you want to enable the NSFW mode."
+              "description": "NSFW モードを有効にしたいチャンネル。"
             }
           }
         },
         "disable": {
-          "description": "Disable the NSFW mode of a channel.",
+          "description": "チャンネルの NSFW モードを無効にする。",
           "arguments": {
             "channel": {
               "name": "チャンネル",
-              "description": "Channel where you want to disable the NSFW mode."
+              "description": "NSFW モードを無効にしたいチャンネル。"
             }
           }
         }
@@ -90,36 +90,36 @@
   },
   "subcommands": {
     "info": {
-      "description": "Get information about a channel.",
+      "description": "チャネルの情報を取得します。",
       "arguments": {
         "channel": {
           "name": "チャンネル",
-          "description": "Channel where the information will come from."
+          "description": "どこから情報が入ってくるかチャンネルを合わせる。"
         }
       }
     },
     "invite": {
-      "description": "Create an instant invite of a channel.",
+      "description": "チャンネルのインスタント招待を作成します。",
       "arguments": {
         "channel": {
           "name": "チャンネル",
-          "description": "Channel where to create the instant invite."
+          "description": "インスタント招待を作成するチャンネルです。"
         },
         "temporary": {
-          "name": "temporary",
-          "description": "Specify if you want to grant temporary or permanent membership."
+          "name": "一時的",
+          "description": "一時的な会員資格を付与するか、永続的な会員資格を付与するかを指定します。"
         },
         "max-age": {
-          "name": "max-age",
-          "description": "Time until the invite expires."
+          "name": "マックスエイジ",
+          "description": "招待の有効期限までの時間です。"
         },
         "max-uses": {
-          "name": "max-uses",
-          "description": "Maximum number of uses of the invite."
+          "name": "最大使用量",
+          "description": "招待の最大使用回数。"
         },
         "force": {
-          "name": "force",
-          "description": "Force the creation of the invite."
+          "name": "力",
+          "description": "招待状を強制的に作成する。"
         }
       }
     }
