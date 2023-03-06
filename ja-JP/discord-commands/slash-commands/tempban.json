@@ -3,23 +3,23 @@
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User you want to temporarily ban."
+      "description": "一時的にアクセス禁止にしたいユーザー。"
     },
     "time": {
       "name": "時",
-      "description": "Duration of the sanction."
+      "description": "制裁の期間"
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for temporarily banning this user."
+      "name": "理由",
+      "description": "このユーザーを一時的に禁止する理由。"
     },
     "message-history": {
-      "name": "message-history",
-      "description": "Specify if you want to delete the user's message history."
+      "name": "メッセージヒストリー",
+      "description": "ユーザーのメッセージ履歴を削除するかどうかを指定します。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
     }
   }
 }
