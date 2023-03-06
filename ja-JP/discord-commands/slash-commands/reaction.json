@@ -2,67 +2,67 @@
   "description": "GIFを使って他のユーザーとリアクションをとる。",
   "subcommands": {
     "angry": {
-      "description": "Send an angry reaction."
+      "description": "怒りのリアクションを送る。"
     },
     "blush": {
-      "description": "Send an blush reaction."
+      "description": "赤面リアクションを送る。"
     },
     "bored": {
-      "description": "Send an bored reaction."
+      "description": "退屈なリアクションを送る。"
     },
     "cold": {
-      "description": "Send an cold reaction."
+      "description": "コールドリアクションを送る。"
     },
     "confused": {
-      "description": "Send an confused reaction."
+      "description": "戸惑いのリアクションを送る。"
     },
     "cry": {
-      "description": "Send an cry reaction."
+      "description": "クライリアクションを送る。"
     },
     "dance": {
-      "description": "Send an dance reaction."
+      "description": "ダンスリアクションを送る。"
     },
     "eyebrows": {
-      "description": "Send an eyebrows reaction."
+      "description": "眉毛のリアクションを送る。"
     },
     "greet": {
-      "description": "Send an greet reaction."
+      "description": "グリーティングリアクションを送る。"
     },
     "happy": {
-      "description": "Send an happy reaction."
+      "description": "ハッピーリアクションを送る。"
     },
     "hot": {
-      "description": "Send an hot reaction."
+      "description": "熱いリアクションを送る。"
     },
     "like": {
-      "description": "Send an like reaction."
+      "description": "いいね！の反応を送る。"
     },
     "pout": {
-      "description": "Send an pout reaction."
+      "description": "プチリアクションを送る。"
     },
     "run": {
-      "description": "Send an run reaction."
+      "description": "ランリアクションを送信する。"
     },
     "scared": {
-      "description": "Send an scared reaction."
+      "description": "ビビッとくるリアクションを送る。"
     },
     "sick": {
-      "description": "Send an sick reaction."
+      "description": "病気の反応を送る。"
     },
     "sing": {
-      "description": "Send an sing reaction."
+      "description": "シングリアクションを送信します。"
     },
     "sleep": {
-      "description": "Send an sleep reaction."
+      "description": "スリープ反応を送信する。"
     },
     "smug": {
-      "description": "Send an smug reaction."
+      "description": "ドヤ顔でリアクションを送る。"
     },
     "teehee": {
-      "description": "Send an teehee reaction."
+      "description": "ティーヒー・リアクションを送る。"
     },
     "think": {
-      "description": "Send an think reaction."
+      "description": "Think リアクションを送る。"
     }
   }
 }
