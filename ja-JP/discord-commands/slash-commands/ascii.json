@@ -1,9 +1,9 @@
 {
-  "description": "Convert your text to ASCII text.",
+  "description": "テキストを ASCII テキストに変換します。",
   "arguments": {
     "text": {
-      "name": "text",
-      "description": "Text that you want to convert to ASCII."
+      "name": "テキスト",
+      "description": "ASCII に変換したいテキスト。"
     }
   }
 }
