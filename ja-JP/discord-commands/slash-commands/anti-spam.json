@@ -2,17 +2,17 @@
   "description": "ユーザーからのスパムを回避することができるモジュール。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-spam module."
+      "description": "アンチスパムモジュールを有効にする。"
     },
     "disable": {
-      "description": "Disable the anti-spam module."
+      "description": "アンチスパムモジュールを無効にする。"
     },
     "action": {
-      "description": "Set the action to take when someone spam.",
+      "description": "スパムがあったときの動作を設定します。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Action to take when someone spam."
+          "description": "スパムがあったときの対処法"
         },
         "time": {
           "name": "時",
@@ -21,15 +21,15 @@
       }
     },
     "duplicates": {
-      "description": "Set the duplicate message filter parameters.",
+      "description": "重複メッセージフィルターのパラメーターを設定します。",
       "arguments": {
         "threshold": {
-          "name": "threshold",
-          "description": "Number of identical messages that can be sent."
+          "name": "閾値",
+          "description": "送信可能な同一メッセージの数。"
         },
         "time": {
           "name": "時",
-          "description": "Time to reset identical messages sent by a user."
+          "description": "ユーザーが送信した同一のメッセージをリセットするまでの時間。"
         }
       }
     },
@@ -60,10 +60,10 @@
       }
     },
     "docs": {
-      "description": "Get the link of the anti-spam module documentation."
+      "description": "アンチスパムモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the anti-spam module."
+      "description": "アンチスパムモジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
