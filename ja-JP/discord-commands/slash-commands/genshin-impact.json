@@ -1,31 +1,31 @@
 {
-  "description": "Send a random Genshin Impact wallpaper.",
+  "description": "玄真インパクトの壁紙をランダムで送信します。",
   "subcommands": {
     "desktop": {
-      "description": "Get a random desktop wallpaper."
+      "description": "デスクトップの壁紙をランダムに取得します。"
     },
     "mobile": {
-      "description": "Get a random mobile wallpaper."
+      "description": "ランダムで携帯電話の壁紙を取得します。"
     },
     "random": {
-      "description": "Get random wallpaper between desktop and mobile."
+      "description": "デスクトップとモバイルの間でランダムな壁紙を取得します。"
     }
   },
   "subcommand_groups": {
     "cards": {
-      "description": "Get a random card wallpaper.",
+      "description": "ランダムでカード壁紙を入手する。",
       "subcommands": {
         "characters": {
-          "description": "Get a random character card."
+          "description": "ランダムでキャラクターカードを入手する。"
         },
         "equipments": {
-          "description": "Get a random equipment card."
+          "description": "ランダムで装備カードを入手する。"
         },
         "events": {
-          "description": "Get a random event card."
+          "description": "ランダムでイベントカードを入手する。"
         },
         "supports": {
-          "description": "Get a random support card."
+          "description": "ランダムでサポートカードを入手する。"
         }
       }
     }
