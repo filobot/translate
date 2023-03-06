@@ -1,24 +1,24 @@
 {
-  "description": "Minecraft utility commands.",
+  "description": "Minecraft のユーティリティコマンドです。",
   "subcommand_groups": {
     "front": {
-      "description": "Send a render of the specified player's front.",
+      "description": "指定されたプレーヤーの前面のレンダリングを送信します。",
       "subcommands": {
         "body": {
-          "description": "Send a render of the specified player's front body.",
+          "description": "指定されたプレーヤーの前身頃のレンダリングを送信します。",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "プレーヤー",
+              "description": "Minecraft のプレイヤー。"
             }
           }
         },
         "normal": {
-          "description": "Send a render of the specified player's front.",
+          "description": "指定されたプレーヤーの前面のレンダリングを送信します。",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "プレーヤー",
+              "description": "Minecraft のプレイヤー。"
             }
           }
         }
@@ -27,69 +27,69 @@
   },
   "subcommands": {
     "body": {
-      "description": "Send a render of the specified player's body.",
+      "description": "指定されたプレーヤーのボディのレンダリングを送信します。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "プレーヤー",
+          "description": "Minecraft のプレイヤー。"
         }
       }
     },
     "bust": {
-      "description": "Send a render of the specified player's bust.",
+      "description": "指定した選手の胸像をレンダリングして送信する。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "プレーヤー",
+          "description": "Minecraft のプレイヤー。"
         }
       }
     },
     "face": {
-      "description": "Send a render of the specified player's face.",
+      "description": "指定されたプレーヤーの顔のレンダリングを送信する。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "プレーヤー",
+          "description": "Minecraft のプレイヤー。"
         }
       }
     },
     "head": {
-      "description": "Send a render of the specified player's head.",
+      "description": "指定されたプレーヤーの頭部のレンダリングを送信します。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "プレーヤー",
+          "description": "Minecraft のプレイヤー。"
         }
       }
     },
     "skin": {
-      "description": "Send a render of the specified player's skin.",
+      "description": "指定されたプレーヤーのスキンのレンダリングを送信します。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "プレーヤー",
+          "description": "Minecraft のプレイヤー。"
         }
       }
     },
     "uuid": {
-      "description": "Get the UUID of a minecraft player.",
+      "description": "マインクラフトのプレイヤーの UUID を取得します。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "プレーヤー",
+          "description": "Minecraft のプレイヤー。"
         }
       }
     },
     "server": {
-      "description": "Get the status of a Minecraft server.",
+      "description": "Minecraft サーバーのステータスを取得します。",
       "arguments": {
         "ip-address": {
-          "name": "ip-address",
-          "description": "Minecraft server IP address."
+          "name": "アイピーアドレス",
+          "description": "Minecraft サーバーの IP アドレスです。"
         },
         "port": {
-          "name": "port",
-          "description": "Minecraft server port."
+          "name": "ポート",
+          "description": "Minecraft のサーバーポートです。"
         }
       }
     }
