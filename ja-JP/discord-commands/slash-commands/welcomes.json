@@ -2,58 +2,58 @@
   "description": "新しいメンバーにメッセージを送信し、役割を割り当てることができるようにするウェルカムモジュール.",
   "subcommands": {
     "enable": {
-      "description": "Enable the welcomes module.",
+      "description": "歓迎モジュールを有効にします。",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "モジュール",
+          "description": "有効にしたいモジュール"
         }
       }
     },
     "disable": {
-      "description": "Disable the welcomes module.",
+      "description": "ウェルカムモジュールを無効にする。",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "モジュール",
+          "description": "無効化したいモジュール。"
         }
       }
     },
     "channel": {
-      "description": "Set the channel where the welcome messages will be sent.",
+      "description": "ウェルカムメッセージを送信するチャンネルを設定します。",
       "arguments": {
         "channel": {
           "name": "チャンネル",
-          "description": "Channel where welcome messages will be sent."
+          "description": "ウェルカムメッセージが送信されるチャンネル。"
         }
       }
     },
     "message": {
-      "description": "Set the welcome message."
+      "description": "ウェルカムメッセージを設定します。"
     },
     "type": {
-      "description": "Set the way in which the welcome message will be sent.",
+      "description": "ウェルカムメッセージの送信方法を設定します。",
       "arguments": {
         "type": {
           "name": "タイプ",
-          "description": "Way in which the welcome message will be sent."
+          "description": "ウェルカムメッセージの送信方法。"
         }
       }
     },
     "role": {
-      "description": "Set the role you want to grant to the new members.",
+      "description": "新メンバーに付与する役割を設定します。",
       "arguments": {
         "role": {
           "name": "役割",
-          "description": "Role that you want to grant to new members."
+          "description": "新しいメンバーに付与したい役割。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the welcomes module documentation."
+      "description": "ウェルカムモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the welcomes module."
+      "description": "歓迎モジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
