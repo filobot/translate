@@ -1,56 +1,56 @@
 {
-  "description": "Module that allows configuring a channel as a server member counter.",
+  "description": "サーバメンバカウンタとしてチャンネルを設定できるモジュール。",
   "subcommands": {
     "enable": {
-      "description": "Enable the member counter module.",
+      "description": "メンバーカウンターモジュールを有効にします。",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "モジュール",
+          "description": "有効にしたいモジュール"
         }
       }
     },
     "disable": {
-      "description": "Disable the member counter module.",
+      "description": "メンバーカウンターモジュールを無効化します。",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "モジュール",
+          "description": "無効化したいモジュール。"
         }
       }
     },
     "channel": {
-      "description": "Set the member counter channel.",
+      "description": "メンバーカウンターチャンネルを設定します。",
       "arguments": {
         "channel": {
           "name": "チャンネル",
-          "description": "Channel you want to set as the member counter channel."
+          "description": "メンバーカウンター・チャンネルとして設定したいチャンネル。"
         }
       }
     },
     "name": {
-      "description": "Set the name of the member counter channel.",
+      "description": "メンバーカウンター・チャンネルの名称を設定します。",
       "arguments": {
         "name": {
-          "name": "name",
-          "description": "Name of the member counter channel."
+          "name": "名前",
+          "description": "メンバーカウンターチャネルの名前。"
         }
       }
     },
     "nickname": {
-      "description": "Set the nickname of the member counter nickname.",
+      "description": "メンバーカウンターのニックネームを設定します。",
       "arguments": {
         "nickname": {
-          "name": "nickname",
-          "description": "Nickname of the member counter nickname."
+          "name": "ニックネーム",
+          "description": "メンバーカウンターのニックネーム。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the member counter module documentation."
+      "description": "メンバーカウンターモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the member counter module."
+      "description": "メンバーカウンターモジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
