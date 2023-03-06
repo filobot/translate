@@ -1,21 +1,21 @@
 {
-  "description": "Remove the mute from a user.",
+  "description": "ユーザーからミュートを解除する。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User you want to remove the mute from."
+      "description": "ミュートを解除したいユーザー。"
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the mute."
+      "name": "理由",
+      "description": "ミュートを解除した理由。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
     },
     "force": {
-      "name": "force",
-      "description": "Force removal of the mute."
+      "name": "力",
+      "description": "ミュートを強制解除する。"
     }
   }
 }
