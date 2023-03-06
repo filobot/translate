@@ -1,18 +1,18 @@
 {
-  "description": "Module that allows you to sanction users who send invites from other servers.",
+  "description": "他のサーバーから招待を送信するユーザーを許可するモジュールです。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-invites module."
+      "description": "アンチインバイトモジュールを有効にする。"
     },
     "disable": {
-      "description": "Disable the anti-invites module."
+      "description": "アンチインバイトモジュールを無効にする。"
     },
     "action": {
-      "description": "Set the action to take when someone sends an invite.",
+      "description": "誰かが招待を送信したときに取るアクションを設定します。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Action to take when someone sends an invite."
+          "description": "誰かが招待を送ったときに取るべきアクション。"
         },
         "time": {
           "name": "時",
@@ -21,31 +21,31 @@
       }
     },
     "filo": {
-      "description": "Enable or disable the bypass of invites from the official Filo's server.",
+      "description": "フィーロの公式サーバーからの招待状のバイパスを有効または無効にします。",
       "arguments": {
         "action": {
           "name": "アクション",
-          "description": "Enable or disable the bypass of invites from the official Filo's server."
+          "description": "フィーロの公式サーバーからの招待状のバイパスを有効または無効にします。"
         }
       }
     },
     "discord": {
-      "description": "Enable or disable the bypass of invites from the official Discord's servers.",
+      "description": "公式 Discord のサーバーからの招待のバイパスを有効または無効にします。",
       "arguments": {
         "name": "アクション",
-        "description": "Enable or disable the bypass of invites from the official Discord's servers."
+        "description": "公式 Discord のサーバーからの招待のバイパスを有効または無効にします。"
       }
     },
     "guild": {
-      "description": "Add or remove a guild from the module's guild bypass list.",
+      "description": "モジュールのギルドバイパスリストにギルドを追加または削除します。",
       "arguments": {
         "action": {
           "name": "アクション",
           "description": "実行したいアクション"
         },
         "guild": {
-          "name": "guild",
-          "description": "Guild from the module's guild bypass list."
+          "name": "ギルド",
+          "description": "モジュールのギルド迂回リストからギルドを選択します。"
         }
       }
     },
@@ -76,10 +76,10 @@
       }
     },
     "docs": {
-      "description": "Get the link of the anti-invites module documentation."
+      "description": "Anti-Invites モジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the anti-invites module."
+      "description": "招待防止モジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
