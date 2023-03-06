@@ -57,7 +57,7 @@
   "MESSAGE_SET": "You have successfully set the **{{module}}** module message.",
   "MESSAGE_TYPE_SET": "You have set the message type for the **{{module}}** module.",
   "MESSAGE_TYPE": "Message type",
-  "ROLE_SET": "You have set the {{role.mention}} ({{role.id}}) role for the **{{module}}** module.",
+  "ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role for the **{{module}}** module.",
   "MEMBER_COUNTER_ENABLED_PROTIP": "Set the channel member counter by executing this command: **{{command}}**.",
   "MEMBER_COUNTER_NAME_MISSING_VARIABLE": "The name of the member counter channel must contain this variable: **{{variable}}**.",
   "MEMBER_COUNTER_NAME_SET": "You have set the name of the member counter channel successfully.",
