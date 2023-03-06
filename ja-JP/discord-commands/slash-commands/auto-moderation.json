@@ -5,18 +5,18 @@
       "description": "自動モデレーションモジュールを有効にする"
     },
     "disable": {
-      "description": "Disable the auto-moderation module."
+      "description": "自動モデレーションモジュールを無効にする。"
     },
     "add": {
-      "description": "Add a level to the auto-moderator.",
+      "description": "オートモデレーターにレベルを追加する。",
       "arguments": {
         "warnings": {
-          "name": "warnings",
-          "description": "Number of warnings the user must have to reach this level."
+          "name": "戒告",
+          "description": "このレベルに到達するためにユーザーが持つべき警告の数。"
         },
         "action": {
           "name": "アクション",
-          "description": "Action to take when someone reaches this level."
+          "description": "誰かがこのレベルに達したときに取るべき行動。"
         },
         "time": {
           "name": "時",
@@ -25,11 +25,11 @@
       }
     },
     "remove": {
-      "description": "Remove a level to the auto-moderator.",
+      "description": "オートモデレータにレベルを削除する。",
       "arguments": {
         "level": {
-          "name": "level",
-          "description": "Auto-moderator level."
+          "name": "レベル",
+          "description": "オートモデレーターレベル。"
         }
       }
     },
@@ -37,7 +37,7 @@
       "description": "自動モデレーションモジュールのドキュメントのリンクを取得します。"
     },
     "view": {
-      "description": "View the settings of the auto-moderation module."
+      "description": "自動モデレーションモジュールの設定を表示します。"
     },
     "reset": {
       "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
@@ -49,19 +49,19 @@
       }
     },
     "set": {
-      "description": "Set the parameters of an auto-moderator level.",
+      "description": "オートモデレータレベルのパラメータを設定する。",
       "arguments": {
         "level": {
-          "name": "level",
-          "description": "Auto-moderator level."
+          "name": "レベル",
+          "description": "オートモデレーターレベル。"
         },
         "warnings": {
-          "name": "warnings",
-          "description": "Number of warnings the user must have to reach this level."
+          "name": "戒告",
+          "description": "このレベルに到達するためにユーザーが持つべき警告の数。"
         },
         "action": {
           "name": "アクション",
-          "description": "Action to take when someone reaches this level."
+          "description": "誰かがこのレベルに達したときに取るべき行動。"
         },
         "time": {
           "name": "時",
