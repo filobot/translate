@@ -1,23 +1,23 @@
 {
-  "description": "Send a image of mammals to the channel.",
+  "description": "哺乳類の画像をチャンネルに送信する。",
   "subcommands": {
     "bear": {
-      "description": "Send a random image of a bear."
+      "description": "クマの画像をランダムに送信します。"
     },
     "cat": {
-      "description": "Send a random image of a cat."
+      "description": "猫の画像をランダムに送信します。"
     },
     "dog": {
-      "description": "Send a random image of a dog."
+      "description": "犬の画像をランダムに送信する。"
     },
     "koala": {
-      "description": "Send a random image of a koala."
+      "description": "コアラの画像をランダムに送信します。"
     },
     "panda": {
-      "description": "Send a random image of a panda."
+      "description": "パンダの画像をランダムに送信します。"
     },
     "wolf": {
-      "description": "Send a random image of a wolf."
+      "description": "オオカミの画像をランダムに送信します。"
     }
   }
 }
