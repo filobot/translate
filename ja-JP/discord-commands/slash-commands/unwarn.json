@@ -1,21 +1,21 @@
 {
-  "description": "Remove a warn from a user.",
+  "description": "ユーザーから警告を削除します。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User you want to remove the warn from."
+      "description": "ワーニングを解除したいユーザー。"
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the warn."
+      "name": "理由",
+      "description": "警告を解除した理由。"
     },
     "case": {
-      "name": "case",
-      "description": "ID of the warn you want to remove."
+      "name": "場合",
+      "description": "削除したいワーンの ID。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
     }
   }
 }
