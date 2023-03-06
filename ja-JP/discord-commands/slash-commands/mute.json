@@ -1,17 +1,17 @@
 {
-  "description": "Permanently mute a user from the server.",
+  "description": "サーバーからユーザーを恒久的にミュートします。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User you want to mute."
+      "description": "ミュートしたいユーザー。"
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for muting this user."
+      "name": "理由",
+      "description": "\nこのユーザーをミュートした理由。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
     }
   }
 }
