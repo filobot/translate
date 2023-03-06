@@ -32,6 +32,9 @@
     "SELECT_A_CHANNEL": "You must select the channel you want to set.",
     "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
     "SELECT_AT_LEAST_ONE_CHANNEL": "You must select at least one channel.",
+    "SELECT_A_ROLE": "You must select the role you want to set.",
+    "SELECT_A_ROLE_PLACEHOLDER": "Select a role",
+    "SELECT_AT_LEAST_ONE_ROLE": "You must select at least one role.",
     "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
     "DM_STATUS": {
       "LABEL": "Toggle the status of DMs",
@@ -92,6 +95,11 @@
           "REPORTS_CHANNEL": {
             "LABEL": "Set the reports channel",
             "DESCRIPTION": "Set where you want the reports to be sent."
+          },
+          "IGNORED_ROLE": {
+            "LABEL": "Set the ignored role",
+            "DESCRIPTION": "Set the role that will be ignored when a member reports another member.",
+            "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
           }
         }
       }
