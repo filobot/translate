@@ -5,7 +5,7 @@
       "description": "Send the message through an embed.",
       "arguments": {
         "message": {
-          "name": "message",
+          "name": "メッセージ",
           "description": "Message you want to send."
         }
       }
@@ -14,7 +14,7 @@
       "description": "Send the message using a normal message.",
       "arguments": {
         "message": {
-          "name": "message",
+          "name": "メッセージ",
           "description": "Message you want to send."
         }
       }
