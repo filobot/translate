@@ -1,9 +1,9 @@
 {
-  "description": "Shorten a URL.",
+  "description": "URL を短縮する。",
   "arguments": {
     "url": {
       "name": "url",
-      "description": "URL you want to shorten."
+      "description": "短縮したい URL。"
     }
   }
 }
