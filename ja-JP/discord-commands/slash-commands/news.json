@@ -1,25 +1,25 @@
 {
-  "description": "Follow or get information about our news channels.",
+  "description": "ニュースチャンネルをフォローしたり、情報を得ることができます。",
   "subcommands": {
     "information": {
-      "description": "Get information about our news channels.",
+      "description": "当社のニュースチャンネルについてご案内します。",
       "arguments": {
         "news": {
-          "name": "news",
-          "description": "News you want to get the information."
+          "name": "ニュース",
+          "description": "情報を得たいニュース。"
         }
       }
     },
     "follow": {
-      "description": "Follow the news from our server on your server.",
+      "description": "私たちのサーバーからのニュースを、あなたのサーバーでフォローしてください。",
       "arguments": {
         "news": {
-          "name": "news",
-          "description": "News channel you want to follow."
+          "name": "ニュース",
+          "description": "追いかけたいニュースチャンネル。"
         },
         "channel": {
           "name": "チャンネル",
-          "description": "Channel where you want the news to be sent."
+          "description": "ニュースを送信したいチャンネル。"
         }
       }
     }
