@@ -46,19 +46,19 @@
           },
           "ENABLE_COMMANDS": {
             "LABEL": "コマンドを有効にする",
-            "DESCRIPTION": "フィーロのコマンドを有効にする。",
+            "DESCRIPTION": "Filo のコマンドを有効にする。",
             "NO_COMMANDS_TO_ENABLE": "現在、利用可能なすべてのコマンドが有効になっています。",
             "COMMANDS_ENABLED": "**{{commands}}** コマンドが正常に有効になりました。"
           },
           "DISABLE_CATEGORIES": {
             "LABEL": "カテゴリーを無効にする",
-            "DESCRIPTION": "フィーロのカテゴリーを無効にする。",
+            "DESCRIPTION": "Filo のカテゴリーを無効にする。",
             "NO_CATEGORIES_TO_DISABLE": "利用可能なすべてのカテゴリが無効化されました。",
             "CATEGORIES_DISABLED": "**{{categories}}** カテゴリを無効にすることに成功しました。"
           },
           "ENABLE_CATEGORIES": {
             "LABEL": "カテゴリーを有効にする",
-            "DESCRIPTION": "フィーロのカテゴリーを有効にする。",
+            "DESCRIPTION": "Filo のカテゴリーを有効にする。",
             "NO_CATEGORIES_TO_ENABLE": "現在、利用可能なすべてのカテゴリーが有効になっています。",
             "CATEGORIES_ENABLED": "**{{categories}}** カテゴリが正常に有効化されました。"
           }
@@ -76,7 +76,7 @@
       "TITLE": "**{{module}}** モジュールの設定を表示する",
       "NO_DATA": "データなし",
       "SELECT_THE_DATA": "表示するデータを選択する",
-      "VIEW_ALL": "すべて表示 {{data}}.",
+      "VIEW_ALL": "すべて表示 {{data}}。",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "言語コード"
