@@ -1,24 +1,24 @@
 {
-  "description": "Manga Utilities.",
+  "description": "マンガユーティリティ。",
   "subcommands": {
     "random": {
-      "description": "Show the information from a random manga according to the criteria you specify.",
+      "description": "指定した条件に従って、ランダムなマンガの情報を表示します。",
       "arguments": {
         "term": {
           "name": "用語",
-          "description": "Term that must include the title of the manga."
+          "description": "マンガのタイトルを必ず含む用語。"
         },
         "type": {
           "name": "タイプ",
-          "description": "Manga type."
+          "description": "マンガタイプ。"
         },
         "status": {
           "name": "地位",
-          "description": "Manga's status."
+          "description": "マンガのステータスです。"
         },
         "rating": {
           "name": "ひょうてん",
-          "description": "Manga's rating."
+          "description": "マンガの評価。"
         },
         "genre": {
           "name": "ジャンル",
@@ -27,11 +27,11 @@
       }
     },
     "search": {
-      "description": "Search the information of an manga.",
+      "description": "マンガの情報を検索できます。",
       "arguments": {
         "title": {
           "name": "タイトル",
-          "description": "Title of the manga."
+          "description": "漫画のタイトル。"
         }
       }
     }
