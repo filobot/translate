@@ -1,0 +1,9 @@
+{
+  "description": "Send an image showing the love you have with another user to the channel.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User with whom you want to create the image."
+    }
+  }
+}
