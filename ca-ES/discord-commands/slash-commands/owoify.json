@@ -1,0 +1,32 @@
+{
+  "description": "Convert text to owoify.",
+  "subcommands": {
+    "owo": {
+      "description": "Owoify ywour text.",
+      "arguments": {
+        "text": {
+          "name": "text",
+          "description": "Text that you want to convert to owo."
+        }
+      }
+    },
+    "uwu": {
+      "description": "Owoify ywouw text.",
+      "arguments": {
+        "text": {
+          "name": "text",
+          "description": "Text that you want to convert to uwu."
+        }
+      }
+    },
+    "uvu": {
+      "description": "Owoify ywowouw text.",
+      "arguments": {
+        "text": {
+          "name": "text",
+          "description": "Text that you want to convert to uvu."
+        }
+      }
+    }
+  }
+}
