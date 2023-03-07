@@ -1,0 +1,17 @@
+{
+  "description": "Permanently mute a user from the server.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User you want to mute."
+    },
+    "reason": {
+      "name": "reason",
+      "description": "Reason for muting this user."
+    },
+    "silent": {
+      "name": "silent",
+      "description": "Specify if you want the sanction not to be notified to the user."
+    }
+  }
+}
