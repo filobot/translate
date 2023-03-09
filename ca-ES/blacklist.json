@@ -1,11 +1,11 @@
 {
-  "WATCHING_THE_BAN_INFO": "Watching the ban information",
-  "APPEAL_STATUS": "Appeal status",
-  "APPEAL_DATE": "Appeal date",
-  "WARNING_BEFORE_APPEAL": "If you submit too many appeals or share your ban information, you'll lose the ability to appeal.",
-  "WARNING_APPEAL_COOLDOWN": "We received your appeal **{{time}}**, which has been denied. You'll not be able to appeal again until **{{expiration_date}}**.",
-  "USER_BANNED_TITLE": "You are banned from using Filo!",
-  "USER_BANNED_DESCRIPTION": "If you want to appeal this ban, click the **Appeal ban** button.",
-  "GUILD_BANNED_TITLE": "This guild is banned from using Filo!",
-  "GUILD_BANNED_DESCRIPTION": "If you are the owner of the server and want information on how to appeal, click the **Appeal ban** button."
+  "WATCHING_THE_BAN_INFO": "Veient la informació de la prohibició",
+  "APPEAL_STATUS": "Estat de l'apel·lació",
+  "APPEAL_DATE": "Data de l'apel·lació",
+  "WARNING_BEFORE_APPEAL": "Si envies massa apel·lacions o comparteixes la informació de la seva prohibició, perdrà la possibilitat d'apel·lar.",
+  "WARNING_APPEAL_COOLDOWN": "Hem rebut la teva apel·lació **{{time}}**, que ha sigut denegada. No podràs tornar a apel·lar fins **{{expiration_date}}**.",
+  "USER_BANNED_TITLE": "Tens prohibit usar Filo!",
+  "USER_BANNED_DESCRIPTION": "Si vols apel·lar aquesta prohibició, fes clic en el botó **Apel·lar prohibició**.",
+  "GUILD_BANNED_TITLE": "Aquest gremi té prohibit usar Filo!",
+  "GUILD_BANNED_DESCRIPTION": "Si ets el propietari del servidor i vols informació sobre com apel·lar, fes clic en el botó **Apel·lar prohibició**."
 }
