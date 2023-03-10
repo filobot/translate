@@ -41,6 +41,20 @@
       "DESCRIPTION": "Change the status of notifications by DM.",
       "DM_STATUS_TOGGLED": "You have successfully {{action}} the DM notifications for the **{{module}}** module."
     },
+    "EXCEPTIONS": {
+      "ADD": {
+        "LABEL": "Add a {{type}}",
+        "DESCRIPTION": "Add a {{type}} to the module's exception list."
+      },
+      "SET": {
+        "LABEL": "Set a {{type}}",
+        "DESCRIPTION": "Set the {{type}} list to the module's exception list."
+      },
+      "REMOVE": {
+        "LABEL": "Remove a {{type}}",
+        "DESCRIPTION": "Remove a {{type}} to the module's exception list."
+      }
+    },
     "COMMUNITY": {
       "NAME": "Community",
       "COMMANDS": {
@@ -98,7 +112,7 @@
           },
           "IGNORED_ROLE": {
             "LABEL": "Set the ignored role",
-            "DESCRIPTION": "Set the role that will be ignored when a member reports another member.",
+            "DESCRIPTION": "Set a role whose members can't send reports.",
             "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
           }
         }
