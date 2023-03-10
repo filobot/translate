@@ -79,5 +79,6 @@
   "MIN_EVIDENCES_REACHED": "You must specify at least **{{number}}** evidence to continue.",
   "CHANNEL_ALREADY_USED": "This channel is already being used by another module.",
   "ROLE_ALREADY_USED": "This role is already being used by another module.",
-  "THIS_MODULE_NEEDS_TO_BE_ENABLED": "This module needs to be enabled to perform this action."
+  "THIS_MODULE_NEEDS_TO_BE_ENABLED": "This module needs to be enabled to perform this action.",
+  "MAX_NUMBER_OF_EXCEPTIONS_CONFIGURED": "This module has reached the maximum number of exceptions ({{number}})."
 }
