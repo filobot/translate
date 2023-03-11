@@ -1,22 +1,22 @@
 {
   "MANGA": "Manga",
   "MANGAS": "Mangas",
-  "MANGA_TYPE": "Manga type",
+  "MANGA_TYPE": "Tipus de manga",
   "MANGA_TYPES": {
     "MANGA": "Manga",
-    "NOVEL": "Novel",
-    "ONE_SHOT": "One-shot",
+    "NOVEL": "Novel·la",
+    "ONE_SHOT": "D'una vegada",
     "DOUJINSHI": "Doujinshi",
     "MANHWA": "Manhwa",
     "MANHUA": "Manhua"
   },
   "MANGA_STATUS": {
-    "PUBLISHING": "Currently publishing",
-    "FINISHED": "Finished publishing",
-    "NOT_YET_PUBLISHED": "Not yet published"
+    "PUBLISHING": "Actualment publicat",
+    "FINISHED": "Publicació finalitzada",
+    "NOT_YET_PUBLISHED": "Encara no publicat"
   },
-  "MANGA_VOLUMES": "Manga volumes",
-  "VOLUMES": "Volumes",
-  "CHAPTERS": "Chapters",
-  "PUBLISHED_DATE": "Published date"
+  "MANGA_VOLUMES": "Volums del manga",
+  "VOLUMES": "Volums",
+  "CHAPTERS": "Capítols",
+  "PUBLISHED_DATE": "Data de publicació"
 }
