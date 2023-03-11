@@ -1,19 +1,19 @@
 {
   "COOLDOWN": {
-    "COMPLETED": "You have set **{{time}}** as the cooldown time on the **[#{{channel.name}}]({{url}})** channel."
+    "COMPLETED": "Has establert **{{time}}** de refredament en el canal **[#{{channel.name}}]({{url}})**."
   },
   "MESSAGES": {
     "PIN": {
-      "COMPLETED": "You have pinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
+      "COMPLETED": "Has fixat el missatge **[{{message.id}}]({{message.url}})** en el canal **[#{{channel.name}}]({{url}})**."
     },
     "PURGE": {
-      "COMPLETED": "You have purged **{{messages}}** messages from the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+      "COMPLETED": "Has purgat **{{messages}}** missatges del canal **[#{{channel.name}}]({{url}})** ({{channel.id}})."
     },
     "UNPIN": {
-      "COMPLETED": "You have unpinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
+      "COMPLETED": "Has desfixat el missatge **[{{message.id}}]({{message.url}})** en el canal **[#{{channel.name}}]({{url}})**."
     }
   },
   "NSFW": {
-    "COMPLETED": "You have {{action}} NSFW mode on the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+    "COMPLETED": "Has {{action}} el mode NSFW en el canal **[#{{channel.name}}]({{url}})** ({{channel.id}})."
   }
 }
