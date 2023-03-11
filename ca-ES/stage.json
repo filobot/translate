@@ -1,9 +1,9 @@
 {
-  "STAGE_INSTANCE": "Stage instance",
-  "STAGE_INSTANCES": "Stage instances",
-  "STAGE_INSTANCE_PRIVACY_LEVEL": "Privacy level",
-  "PUBLIC_STAGE_INSTANCE": "Public stage instance",
-  "PRIVATE_STAGE_INSTANCE": "Private stage instance",
-  "DISCOVERABLE_DISABLED_TRUE": "The stage instance isn't discoverable",
-  "DISCOVERABLE_DISABLED_FALSE": "The stage instance is discoverable"
+  "STAGE_INSTANCE": "Instància d'escenari",
+  "STAGE_INSTANCES": "Instàncies d'escenaris",
+  "STAGE_INSTANCE_PRIVACY_LEVEL": "Nivell de privacitat",
+  "PUBLIC_STAGE_INSTANCE": "Instància d'escenari pública",
+  "PRIVATE_STAGE_INSTANCE": "Instància d'escenari privada",
+  "DISCOVERABLE_DISABLED_TRUE": "La instància d'escenari no es pot descobrir",
+  "DISCOVERABLE_DISABLED_FALSE": "La instància d'escenari es pot descobrir"
 }
