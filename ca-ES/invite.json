@@ -1,11 +1,11 @@
 {
-  "INVITE": "Invite",
-  "INVITES": "Invites",
-  "INVITE_CODE": "Invite code",
-  "MAXIMUM_USES": "Maximum uses of the invite",
-  "TEMPORARY_TRUE": "The invite has temporary membership",
-  "TEMPORARY_FALSE": "The invite has full membership",
-  "ACTIVITY_TRUE": "The invite belongs to an activity",
-  "ACTIVITY_FALSE": "The invite doesn't belong to an activity",
-  "MAXIMUM_PARTICIPANTS": "Maximum participants"
+  "INVITE": "Invitació",
+  "INVITES": "Invitacions",
+  "INVITE_CODE": "Codi de la invitació",
+  "MAXIMUM_USES": "Usos màxims de la invitació",
+  "TEMPORARY_TRUE": "La invitació té una membresía temporal",
+  "TEMPORARY_FALSE": "La invitació té una membresía completa",
+  "ACTIVITY_TRUE": "La invitació pertany a una activitat",
+  "ACTIVITY_FALSE": "La invitació no pertany a una activitat",
+  "MAXIMUM_PARTICIPANTS": "Participants màxims"
 }
