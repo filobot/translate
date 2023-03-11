@@ -51,7 +51,7 @@
         "LABEL": "Set the {{type}}",
         "DESCRIPTION": "Set the {{type}} list to the module's exception list.",
         "COMPLETED": "You have successfully set **{{number}}** {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully set the {{value}} {{type}} list to the module's exception list."
+        "COMPLETED_ALTERNATIVE": "You have successfully set the {{value}} {{type}} to the module's exception list."
       },
       "REMOVE": {
         "LABEL": "Remove a {{type}}",
