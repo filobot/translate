@@ -51,9 +51,9 @@
   "SUICIDES": "Suïcidis",
   "DBNOS": "DBNOS",
   "REVIVES": "Reanimacions",
-  "WIN_RATE": "Win rate",
-  "RANKED_STATISTICS": "Ranked statistics",
-  "CASUAL_STATISTICS": "Casual statistics",
-  "OTHER_STATISTICS": "Other statistics",
+  "WIN_RATE": "Taxa de victòries",
+  "RANKED_STATISTICS": "Estadístiques de classificació",
+  "CASUAL_STATISTICS": "Estadístiques de casuals",
+  "OTHER_STATISTICS": "Altres estadístiques",
   "MMR": "MMR"
 }
