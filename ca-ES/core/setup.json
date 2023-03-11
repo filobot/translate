@@ -30,7 +30,7 @@
     "COMMUNITY": {
       "NAME": "Community",
       "COMMANDS": {
-        "LABEL": "Commands",
+        "LABEL": "Ordres",
         "DESCRIPTION": "Change the behavior of Filo's commands.",
         "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
         "CONFIGURE": {
