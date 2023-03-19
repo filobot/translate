@@ -90,8 +90,8 @@
     }
   },
   "STATISTICS": {
-    "TITLE": "Filo's Statistics",
-    "GUILDS": "Guilds",
+    "TITLE": "Statistics",
+    "SERVERS": "Servers",
     "USERS": "Users"
   },
   "DONATE": {
