@@ -37,10 +37,10 @@
     "PRIVATE": "Private's commands."
   },
   "GENERIC_CATEGORY_DESCRIPTION": "Commands from the {{category}} category.",
-  "MULTIPLE_COMMANDS": "Multiple commands with the same name have been found. Select the command you want to consult below.",
-  "SELECT_A_COMMAND": "Select the command you want to consult.",
-  "SELECT_A_CATEGORY": "Select the category you want to consult.",
-  "COMMAND_SELECTED": "You have successfully selected the command.",
+  "MULTIPLE_COMMANDS": "S'han trobat diverses ordres amb el mateix nom. Seleccioni l'ordre que vols consultar a continuació.",
+  "SELECT_A_COMMAND": "Seleccioni l'ordre que vols consultar.",
+  "SELECT_A_CATEGORY": "Seleccionar la categoria que vols consultar.",
+  "COMMAND_SELECTED": "Has seleccionat correctament l'ordre.",
   "COMMAND_DESCRIPTIONS": {
     "ADMINISTRATION": {
       "CHANNEL": "Manage a channel",
