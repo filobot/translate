@@ -43,9 +43,10 @@
     },
     "EXCEPTIONS": {
       "ADD": {
-        "LABEL": "Add a {{type}}",
-        "DESCRIPTION": "Add a {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully added {{value}} {{type}} to the module's exception list."
+        "LABEL": "Add {{type}}",
+        "DESCRIPTION": "Add {{type}} to the module's exception list.",
+        "COMPLETED": "You have successfully added {{value}} {{type}} to the module's exception list.",
+        "COMPLETED_ALTERNATIVE": "You have successfully added the {{value}} {{type}} to the module's exception list."
       },
       "SET": {
         "LABEL": "Set the {{type}}",
@@ -54,9 +55,10 @@
         "COMPLETED_ALTERNATIVE": "You have successfully set the {{value}} {{type}} to the module's exception list."
       },
       "REMOVE": {
-        "LABEL": "Remove a {{type}}",
-        "DESCRIPTION": "Remove a {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully removed {{value}} {{type}} to the module's exception list."
+        "LABEL": "Remove {{type}}",
+        "DESCRIPTION": "Remove {{type}} to the module's exception list.",
+        "COMPLETED": "You have successfully removed {{value}} {{type}} to the module's exception list.",
+        "COMPLETED_ALTERNATIVE": "You have successfully removed the {{value}} {{type}} to the module's exception list."
       }
     },
     "COMMUNITY": {
