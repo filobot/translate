@@ -65,7 +65,7 @@
         }
       },
       "LANGUAGE": {
-        "LABEL": "Language",
+        "LABEL": "Llengua",
         "DESCRIPTION": "Change the language of Filo on this server.",
         "SELECT_A_LANGUAGE": "You must select the language you want to set.",
         "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
@@ -79,11 +79,11 @@
       "VIEW_ALL": "View all {{data}}.",
       "COMMUNITY": {
         "LANGUAGE": {
-          "LANGUAGE_CODE": "Language code"
+          "LANGUAGE_CODE": "Codi de la llengua"
         },
         "COMMANDS": {
-          "DISABLED_COMMANDS": "Disabled commands",
-          "DISABLED_CATEGORIES": "Disabled categories"
+          "DISABLED_COMMANDS": "Ordres desactivades",
+          "DISABLED_CATEGORIES": "Categories desactivades"
         }
       }
     }
