@@ -1,82 +1,82 @@
 {
   "HOME": {
-    "PRE_START": "Before continuing you must click on the **{{button}}** button.",
-    "DESCRIPTION": "Start configuring Filo by selecting the category of modules you want to configure and then select the module you want to operate with.\n\n**Do you need a reference guide? Don't worry!**\nBy **[clicking here]({{url}})**, you'll redirect to the Filo's Wiki, which contains information on how to configure anything.\n\n**Too complicated?**\n**[Contact us]({{url2}})** if you have any questions or require any additional clarification.",
+    "PRE_START": "Abans de continuar, deus fer clic en el botó **{{button}}**.",
+    "DESCRIPTION": "Comença a configurar Filo seleccionant la categoria de mòduls que vols configurar i després selecciona el mòdul que desitja operar.\n\n**Necessita una guia de referència? No et preocupis!**\nFent **[clic aquí]({{url}})**, et redirigirem a la Wiki de Filo, la qual conté informació sobre com configurar qualsevol cosa.\n\n**Massa complicat?**\n**[Contactan's]({{url2}})** si tens alguna pregunta o necessites alguna aclaració adicional.",
     "SELECT_A_MODULE_CATEGORY": {
-      "PLACEHOLDER": "Select a module category",
+      "PLACEHOLDER": "Selecciona una categoria de mòduls",
       "ADMINISTRATION": {
-        "LABEL": "Administration modules",
-        "DESCRIPTION": "Modules to help you in the administration of your server."
+        "LABEL": "Mòduls d'administració",
+        "DESCRIPTION": "Mòduls per ajudar-te en l'administració del teu servidor."
       },
       "COMMUNITY": {
-        "LABEL": "Community modules",
-        "DESCRIPTION": "Modules to help you improve the experience in your community."
+        "LABEL": "Mòduls de comunitat",
+        "DESCRIPTION": "Mòduls per ajudar-te a millorar l'experiència de la teva comunitat."
       },
       "MODERATION": {
-        "LABEL": "Moderation modules",
-        "DESCRIPTION": "Modules to help you moderate your server."
+        "LABEL": "Mòduls de moderació",
+        "DESCRIPTION": "Mòdul per ajudar-te a moderar el teu servidor."
       }
     },
-    "TITLE": "Filo Setup Menu"
+    "TITLE": "Menú de Configuració de Filo"
   },
-  "LOADING_DATA": "Please wait while the necessary data is loaded.",
+  "LOADING_DATA": "Si us plau espera mentre es carregen les dades necessàries.",
   "MODULES": {
-    "SELECT_A_MODULE": "You must select the module from the **{{module}}** category that you want to configure.",
-    "PLACEHOLDER": "Select a module",
-    "SELECT_THE_ACTION": "You must select the action you want to perform on the module.",
-    "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
-    "RESET_REQUEST_WARNING": "Are you sure you want to reset the **{{module}}** module? This action can't be undone!",
-    "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
+    "SELECT_A_MODULE": "Deus seleccionar el mòdul de la categoria **{{module}}** que vols configurar.",
+    "PLACEHOLDER": "Selecciona un mòdul",
+    "SELECT_THE_ACTION": "Deus seleccionar l'acció que vols dur a terme en el mòdul.",
+    "MODULE_ENABLED_OR_DISABLED": "El mòdul **{{module}}** s'ha {{action}} correctament.",
+    "RESET_REQUEST_WARNING": "Estàs segur que vols restablir el mòdul **{{module}}**? Aquesta acció no es pot desfer!",
+    "MODULE_RESET": "El mòdul **{{module}}** s'ha restablert correctament.",
     "COMMUNITY": {
-      "NAME": "Community",
+      "NAME": "Comunitat",
       "COMMANDS": {
         "LABEL": "Ordres",
-        "DESCRIPTION": "Change the behavior of Filo's commands.",
-        "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+        "DESCRIPTION": "Canvia el comportament de les ordres de Filo.",
+        "SELECT_THE_ACTION_PLACEHOLDER": "Selecciona una acció",
         "CONFIGURE": {
-          "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
-          "SELECT_THE_CATEGORIES": "You must select the categories you want to {{action}}.",
-          "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
-          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Select the categories",
+          "SELECT_THE_COMMANDS": "Deus seleccionar les ordres que vols {{action}}.",
+          "SELECT_THE_CATEGORIES": "Deus seleccionar les categories que vols {{action}}.",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Selecciona les ordres",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Selecciona les categories",
           "DISABLE_COMMANDS": {
-            "LABEL": "Disable commands",
-            "DESCRIPTION": "Disable Filo's commands.",
-            "NO_COMMANDS_TO_DISABLE": "All available commands have been disabled.",
-            "COMMANDS_DISABLED": "You have disabled **{{commands}}** commands successfully."
+            "LABEL": "Desactivar ordres",
+            "DESCRIPTION": "Desactiva les ordres de Filo.",
+            "NO_COMMANDS_TO_DISABLE": "Totes les ordres disponibles han sigut desactivades.",
+            "COMMANDS_DISABLED": "Has desactivat **{{commands}}** ordres correctament."
           },
           "ENABLE_COMMANDS": {
-            "LABEL": "Enable commands",
-            "DESCRIPTION": "Enable Filo's commands.",
-            "NO_COMMANDS_TO_ENABLE": "All available commands are currently enabled.",
-            "COMMANDS_ENABLED": "You have enabled **{{commands}}** commands successfully."
+            "LABEL": "Activar ordres",
+            "DESCRIPTION": "Activa les ordres de Filo.",
+            "NO_COMMANDS_TO_ENABLE": "Totes les ordres disponibles estan activades actualment.",
+            "COMMANDS_ENABLED": "Has activat **{{commands}}** ordres correctament."
           },
           "DISABLE_CATEGORIES": {
-            "LABEL": "Disable categories",
-            "DESCRIPTION": "Disable Filo's categories.",
-            "NO_CATEGORIES_TO_DISABLE": "All available categories have been disabled.",
-            "CATEGORIES_DISABLED": "You have disabled **{{categories}}** categories successfully."
+            "LABEL": "Desactivar categories",
+            "DESCRIPTION": "Desactiva les categories de Filo.",
+            "NO_CATEGORIES_TO_DISABLE": "Totes les categories disponibles han sigut desactivades.",
+            "CATEGORIES_DISABLED": "Has desactivat **{{categories}}** categories correctament."
           },
           "ENABLE_CATEGORIES": {
-            "LABEL": "Enable categories",
-            "DESCRIPTION": "Enable Filo's categories.",
-            "NO_CATEGORIES_TO_ENABLE": "All available categories are currently enabled.",
-            "CATEGORIES_ENABLED": "You have enabled **{{categories}}** categories successfully."
+            "LABEL": "Activar categories",
+            "DESCRIPTION": "Activa les categories de Filo.",
+            "NO_CATEGORIES_TO_ENABLE": "Totes les categories disponibles estan activades actualment.",
+            "CATEGORIES_ENABLED": "Has activat **{{categories}}** categories correctament."
           }
         }
       },
       "LANGUAGE": {
         "LABEL": "Llengua",
-        "DESCRIPTION": "Change the language of Filo on this server.",
-        "SELECT_A_LANGUAGE": "You must select the language you want to set.",
-        "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
-        "LANGUAGE_SET": "You have set the **{{language}}** language correctly."
+        "DESCRIPTION": "Canvia la llengua de Filo en aquest servidor.",
+        "SELECT_A_LANGUAGE": "Deus seleccionar la llengua que vols establir.",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Selecciona una llengua",
+        "LANGUAGE_SET": "Has establert la llengua **{{language}}** correctament."
       }
     },
     "VIEW": {
-      "TITLE": "Viewing the settings of the **{{module}}** module",
-      "NO_DATA": "No data",
-      "SELECT_THE_DATA": "Select the data to view",
-      "VIEW_ALL": "View all {{data}}.",
+      "TITLE": "Veient les configuracions del mòdul **{{module}}**",
+      "NO_DATA": "Sense dades",
+      "SELECT_THE_DATA": "Selecciona les dades a veure",
+      "VIEW_ALL": "Veure totes les {{data}}.",
       "COMMUNITY": {
         "LANGUAGE": {
           "LANGUAGE_CODE": "Codi de la llengua"
