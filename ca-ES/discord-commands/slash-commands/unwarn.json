@@ -2,20 +2,20 @@
   "description": "Remove a warn from a user.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "usuari",
       "description": "User you want to remove the warn from."
     },
     "reason": {
-      "name": "reason",
+      "name": "raó",
       "description": "Reason for removing the warn."
     },
     "case": {
-      "name": "case",
+      "name": "cas",
       "description": "ID of the warn you want to remove."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "silenciós",
+      "description": "Especifica si vols que la sanció no sigui notificada per l'usuari."
     }
   }
 }
