@@ -1,42 +1,42 @@
 {
-  "description": "Module that allows to send the logs of the server to a channel.",
+  "description": "Mòdul que permet enviar els registres del servidor a un canal.",
   "subcommands": {
     "enable": {
-      "description": "Enable the logging module."
+      "description": "Activa el mòdul de registres."
     },
     "disable": {
-      "description": "Disable the logging module."
+      "description": "Desactiva el mòdul de registres."
     },
     "events": {
-      "description": "Manage the different events you want to show.",
+      "description": "Gestiona els diferents esdeveniments que vols mostrar.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enables or disables an event."
+          "name": "acció",
+          "description": "Activa o desactiva un esdeveniment."
         }
       }
     },
     "channel": {
-      "description": "Set the logging channel.",
+      "description": "Estableix el canal de registres.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the logs will be sent."
+          "name": "canal",
+          "description": "Canal on els registres s'enviaran."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the logging module documentation."
+      "description": "Obté l'enllaç de la documentació del mòdul registres."
     },
     "view": {
-      "description": "View the settings of the logging module."
+      "description": "Veure les configuracions del mòdul de registres."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
