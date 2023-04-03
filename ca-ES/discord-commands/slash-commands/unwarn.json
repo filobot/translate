@@ -1,17 +1,17 @@
 {
-  "description": "Remove a warn from a user.",
+  "description": "Elimina una advertència d'un usuari.",
   "arguments": {
     "user": {
       "name": "usuari",
-      "description": "User you want to remove the warn from."
+      "description": "Usuari al qual vols eliminar l'advertència."
     },
     "reason": {
       "name": "raó",
-      "description": "Reason for removing the warn."
+      "description": "Raó per eliminar l'advertència."
     },
     "case": {
       "name": "cas",
-      "description": "ID of the warn you want to remove."
+      "description": "ID de l'advertència que vols treure'l."
     },
     "silent": {
       "name": "silenciós",
