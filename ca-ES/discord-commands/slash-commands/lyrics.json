@@ -1,9 +1,9 @@
 {
-  "description": "Get the lyrics of a song.",
+  "description": "Obté la lletra d'una cançó.",
   "arguments": {
     "song": {
-      "name": "song",
-      "description": "Song title."
+      "name": "cançó",
+      "description": "Títol de la cançó."
     }
   }
 }
