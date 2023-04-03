@@ -1,37 +1,37 @@
 {
-  "description": "Module that allows you to ban those users who try to evade an active sanction.",
+  "description": "Mòdul que et permet prohibir als usuaris que trien evadir una sanció activa.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-evasion module."
+      "description": "Activa el mòdul anti-evasió."
     },
     "disable": {
-      "description": "Disable the anti-evasion module."
+      "description": "Desactiva el mòdul anti-evasió."
     },
     "action": {
-      "description": "Set the action to take when someone tries to evade an active sanction.",
+      "description": "Estableix l'acció a realitzar quan algú triï evitar una sanció activa.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone tries to evade an active sanction."
+          "name": "acció",
+          "description": "Acció a realitzar quan algú triï evitar una sanció activa."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-evasion module documentation."
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-evasió."
     },
     "view": {
-      "description": "View the settings of the anti-evasion module."
+      "description": "Veure les configuracions del mòdul d'anti-evasió."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
