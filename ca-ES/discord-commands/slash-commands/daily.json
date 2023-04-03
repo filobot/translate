@@ -1,9 +1,9 @@
 {
-  "description": "Claim your daily credits or gift them to a user.",
+  "description": "Reclama els teus crèdits diaris o regala'ls a un usuari.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User to whom you want to give your daily credits."
+      "name": "usuari",
+      "description": "Usuari al qual vols donar els teus crèdits diaris."
     }
   }
 }
