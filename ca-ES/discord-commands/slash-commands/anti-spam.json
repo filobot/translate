@@ -15,8 +15,8 @@
           "description": "Action to take when someone spam."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
         }
       }
     },
@@ -28,13 +28,13 @@
           "description": "Number of identical messages that can be sent."
         },
         "time": {
-          "name": "time",
+          "name": "temps",
           "description": "Time to reset identical messages sent by a user."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
       "arguments": {
         "action": {
           "name": "action",
@@ -42,12 +42,12 @@
         },
         "channel": {
           "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "description": "Canal de la llista d'omissions de canals."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
       "arguments": {
         "action": {
           "name": "action",
@@ -55,7 +55,7 @@
         },
         "role": {
           "name": "role",
-          "description": "Role from the module's role bypass list."
+          "description": "Rol de la llista d'omissions de rols."
         }
       }
     },
