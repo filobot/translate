@@ -1,25 +1,25 @@
 {
-  "description": "Manage a sanction case.",
+  "description": "Gestiona un cas de sanció.",
   "subcommands": {
     "info": {
-      "description": "Get information about a sanction case.",
+      "description": "Obté informació sobre un cas de sanció.",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "cas",
+          "description": "ID del cas."
         }
       }
     },
     "set": {
-      "description": "Set the new information for a case.",
+      "description": "Estableix la nova informació del cas.",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "cas",
+          "description": "ID del cas."
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason you want to set to the case."
+          "name": "raó",
+          "description": "Raó que vols establir pel casino."
         }
       }
     }
