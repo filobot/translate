@@ -1,17 +1,17 @@
 {
-  "description": "Remove the ban from a user.",
+  "description": "Elimina la prohibició d'un usuari.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to remove the ban from."
+      "name": "usuari",
+      "description": "Usuari al qual vols eliminar la prohibició."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the ban."
+      "name": "raó",
+      "description": "Raó per eliminar la prohibició."
     },
     "force": {
-      "name": "force",
-      "description": "Force removal of the ban."
+      "name": "forçar",
+      "description": "Forçar l'eliminació de la prohibició."
     }
   }
 }
