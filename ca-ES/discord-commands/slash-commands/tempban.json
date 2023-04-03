@@ -3,15 +3,15 @@
   "arguments": {
     "user": {
       "name": "usuari",
-      "description": "User you want to temporarily ban."
+      "description": "Usuari al qual vols prohibir temporalment."
     },
     "time": {
       "name": "temps",
-      "description": "Duration of the sanction."
+      "description": "Duració de la sanció."
     },
     "reason": {
       "name": "raó",
-      "description": "Reason for temporarily banning this user."
+      "description": "Raó per prohibir temporalment a aquest usuari."
     },
     "message-history": {
       "name": "historial-de-missatges",
