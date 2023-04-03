@@ -1,9 +1,9 @@
 {
-  "description": "Send an image showing the love you have with another user to the channel.",
+  "description": "Envia una imatge mostrant l'amor que tens amb altre usuari al canal actual.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User with whom you want to create the image."
+      "name": "usuari",
+      "description": "Usuari amb el qual vols crear la imatge."
     }
   }
 }
