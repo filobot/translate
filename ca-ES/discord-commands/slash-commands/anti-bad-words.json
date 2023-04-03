@@ -8,7 +8,7 @@
       "description": "Desactiva el mòdul anti-paraules-lletges."
     },
     "action": {
-      "description": "Estableix l'acció a realitzar quan algú enviï paraules lletges.",
+      "description": "Estableix l'acció a realitzar quan algú envia paraules lletges.",
       "arguments": {
         "action": {
           "name": "acció",
