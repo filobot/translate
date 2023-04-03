@@ -1,18 +1,18 @@
 {
-  "description": "Module that allows you to sanction users who send repeated text in the message.",
+  "description": "Mòdul que et permet sancionar als usuaris que envien text repetit en el missatge.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-repeated-text module."
+      "description": "Activa el mòdul anti-text-repetit."
     },
     "disable": {
-      "description": "Disable the anti-repeated-text module."
+      "description": "Desactiva el mòdul anti-text-repetit."
     },
     "action": {
-      "description": "Set the action to take when someone sends repeated text in a message.",
+      "description": "Estableix l'acció a realitzar quan algú envia text repetit en un missatge.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends repeated text in a message."
+          "name": "acció",
+          "description": "Acció a realitzar quan algú envia text repetit en un missatge."
         },
         "time": {
           "name": "temps",
@@ -24,11 +24,11 @@
       "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "channel": {
-          "name": "channel",
+          "name": "canal",
           "description": "Canal de la llista d'omissions de canals."
         }
       }
@@ -37,27 +37,27 @@
       "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "role": {
-          "name": "role",
+          "name": "rol",
           "description": "Rol de la llista d'omissions de rols."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-repeated-text module documentation."
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-text-repetit."
     },
     "view": {
-      "description": "View the settings of the anti-repeated-text module."
+      "description": "Veure les configuracions del mòdul d'anti-text-repetit."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
