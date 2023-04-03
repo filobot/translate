@@ -2,7 +2,7 @@
   "description": "Prohibeix temporalment a un usuari del servidor.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "usuari",
       "description": "User you want to temporarily ban."
     },
     "time": {
@@ -10,16 +10,16 @@
       "description": "Duration of the sanction."
     },
     "reason": {
-      "name": "reason",
+      "name": "raó",
       "description": "Reason for temporarily banning this user."
     },
     "message-history": {
-      "name": "message-history",
-      "description": "Specify if you want to delete the user's message history."
+      "name": "historial-de-missatges",
+      "description": "Especifica si vols eliminar l'historial de missatges de l'usuari."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "silenciós",
+      "description": "Especifica si vols que la sanció no sigui notificada per l'usuari."
     }
   }
 }
