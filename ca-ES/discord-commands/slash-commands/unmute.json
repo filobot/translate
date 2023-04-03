@@ -1,13 +1,13 @@
 {
-  "description": "Remove the mute from a user.",
+  "description": "Elimina el silenci d'un usuari.",
   "arguments": {
     "user": {
       "name": "usuari",
-      "description": "User you want to remove the mute from."
+      "description": "Usuari al qual vols eliminar el silenci."
     },
     "reason": {
       "name": "raó",
-      "description": "Reason for removing the mute."
+      "description": "Raó per eliminar el silenci."
     },
     "silent": {
       "name": "silenciós",
@@ -15,7 +15,7 @@
     },
     "force": {
       "name": "forçar",
-      "description": "Force removal of the mute."
+      "description": "Forçar l'eliminació del silenci."
     }
   }
 }
