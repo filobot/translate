@@ -1,16 +1,16 @@
 {
   "SOURCE_FEED_TITLES": {
-    "ANNOUNCEMENTS": "Filo's Announcements",
-    "STATUS": "Filo's Status Reports",
-    "UPDATES": "Filo's Developer Updates",
-    "FREE_GAMES": "Free Games",
-    "MAL": "MyAnimeList Feed"
+    "ANNOUNCEMENTS": "Anuncis de Filo",
+    "STATUS": "Informes d'Estat de Filo",
+    "UPDATES": "Actualitzacions de Desenvolupador de Filo",
+    "FREE_GAMES": "Jocs gratuïts",
+    "MAL": "Feed de MyAnimeList"
   },
   "SOURCE_FEED_DETAILS": {
-    "ANNOUNCEMENTS": "Official announcements made by the Filo Administration about changes in the service, special events or any other important message.",
-    "STATUS": "Notifications of the status of our service. Notifications will be sent when there is an outage in our service or scheduled maintenance.",
-    "UPDATES": "Notifications with information about recent Filo patches or services related to Filo.",
-    "FREE_GAMES": "Notifications for FREE GAMES! When we learn of the existence of a free game we'll notify you immediately.",
-    "MAL": "Welcome to MyAnimeList, the world's most active online anime and manga community and database. Join the online community, create your anime and manga list, read reviews, explore the forums, follow news, and so much more!"
+    "ANNOUNCEMENTS": "Anuncis oficials realitzats per l'Administració Filo sobre canvis en el servei, esdeveniments especials o qualsevol altre missatge important.",
+    "STATUS": "Notificacions sobre l'estat del nostre servei. Les notificacions s'enviaran quan hi hagi una interrupció en el nostre servei o manteniment programat.",
+    "UPDATES": "Notificacions amb informació sobre actualitzacions recents de Filo o serveis relacionats amb Filo.",
+    "FREE_GAMES": "Notificacions de JOCS GRATUÏTS! Quan ens adonem de l'existència d'un joc gratuït, et notificarem immediatament.",
+    "MAL": "Benvingut a MyAnimeList, la comunitat i base de dades d'anime i manga en línia més activa del món. Uneix-te a la comunitat en línia, crea la teva llista d'anime i manga, llegeix comentaris, explora els fòrums, segueix les notícies i molt més!"
   }
 }
