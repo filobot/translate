@@ -1,92 +1,92 @@
 {
-  "description": "Module that allows you to sanction users who send links.",
+  "description": "Mòdul que et permet sancionar als usuaris que envien enllaços.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-external-links module."
+      "description": "Activa el mòdul anti-enllaços-externs."
     },
     "disable": {
-      "description": "Disable the anti-external-links module."
+      "description": "Desactiva el mòdul anti-enllaços-externs."
     },
     "action": {
-      "description": "Set the action to take when a user sends a link.",
+      "description": "Estableix l'acció a realitzar quan algú envia un enllaç.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when a user sends a link."
+          "name": "acció",
+          "description": "Acció a realitzar quan algú envia un enllaç."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
         }
       }
     },
     "filo": {
-      "description": "Enable or disable bypassing of links from Filo domains.",
+      "description": "Activa o desactiva l'omissió dels enllaços de dominis de Filo.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enable or disable bypassing of links from Filo domains."
+          "name": "acció",
+          "description": "Activa o desactiva l'omissió dels enllaços de dominis de Filo."
         }
       }
     },
     "discord": {
-      "description": "Enable or disable bypassing of links from Discord domains.",
+      "description": "Activa o desactiva l'omissió dels enllaços de dominis de Discord.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enable or disable bypassing of links from Discord domains."
+          "name": "acció",
+          "description": "Activa o desactiva l'omissió dels enllaços de dominis de Discord."
         }
       }
     },
     "link": {
-      "description": "Add or remove a link from the list of ignored links.",
+      "description": "Afegeix o elimina un enllaç de la llista d'enllaços ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "link": {
-          "name": "link",
-          "description": "Link that you want to add or remove to the list of ignored links."
+          "name": "enllaç",
+          "description": "Enllaç que vols afegir o eliminar de la llista d'enllaços ignorats."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "channel": {
-          "description": "Channel from the module's channel bypass list."
+          "description": "Canal de la llista d'omissions de canals."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "role": {
-          "description": "Role from the module's role bypass list."
+          "description": "Rol de la llista d'omissions de rols."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-external-links module documentation."
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-enllaços-externs."
     },
     "view": {
-      "description": "View the settings of the anti-external-links module."
+      "description": "Veure les configuracions del mòdul d'anti-enllaços-externs."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
