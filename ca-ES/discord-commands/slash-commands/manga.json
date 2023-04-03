@@ -1,24 +1,24 @@
 {
-  "description": "Manga Utilities.",
+  "description": "Utilitats de Manga.",
   "subcommands": {
     "random": {
-      "description": "Show the information from a random manga according to the criteria you specify.",
+      "description": "Mostra la informació d'un manga aleatori d'acord amb el criteri que especifiquis.",
       "arguments": {
         "term": {
           "name": "terme",
-          "description": "Term that must include the title of the manga."
+          "description": "Terme que deu incloure el títol del Manga."
         },
         "type": {
           "name": "tipus",
-          "description": "Manga type."
+          "description": "Tipus de Manga."
         },
         "status": {
           "name": "estat",
-          "description": "Manga's status."
+          "description": "Estat del Manga."
         },
         "rating": {
           "name": "qualificació",
-          "description": "Manga's rating."
+          "description": "Qualificació del Manga."
         },
         "genre": {
           "name": "gènere",
@@ -27,11 +27,11 @@
       }
     },
     "search": {
-      "description": "Search the information of an manga.",
+      "description": "Busca la informació d'un Manga.",
       "arguments": {
         "title": {
           "name": "títol",
-          "description": "Title of the manga."
+          "description": "Títol del manga."
         }
       }
     }
