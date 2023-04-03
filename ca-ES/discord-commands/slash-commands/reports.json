@@ -1,33 +1,33 @@
 {
-  "description": "Module that allows users to report bad behavior to the Moderators of the server.",
+  "description": "Mòdul que permet als usuaris informar d'un mal comportament als moderadors del servidor.",
   "subcommands": {
     "enable": {
-      "description": "Enable the reports module."
+      "description": "Activa el mòdul de reports."
     },
     "disable": {
-      "description": "Disable the reports module."
+      "description": "Desactiva el mòdul de reports."
     },
     "channel": {
-      "description": "Set the channel where the reports will be sent.",
+      "description": "Estableix el canal on s'enviaran els reports.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where you want the reports to be sent."
+          "name": "canal",
+          "description": "Canal on vols que s'enviïn els reports."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the reports module documentation."
+      "description": "Obté l'enllaç de la documentació del mòdul de reports."
     },
     "view": {
-      "description": "View the settings of the reports module."
+      "description": "Veure les configuracions del mòdul de reports."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
