@@ -1,30 +1,30 @@
 {
-  "description": "Convert text to owoify.",
+  "description": "Convertir text a owoify.",
   "subcommands": {
     "owo": {
-      "description": "Owoify ywour text.",
+      "description": "Owofwica el teu text.",
       "arguments": {
         "text": {
           "name": "text",
-          "description": "Text that you want to convert to owo."
+          "description": "Text que vols convertir a owo."
         }
       }
     },
     "uwu": {
-      "description": "Owoify ywouw text.",
+      "description": "Owofwica el teu text.",
       "arguments": {
         "text": {
           "name": "text",
-          "description": "Text that you want to convert to uwu."
+          "description": "Text que vols convertir a uwu."
         }
       }
     },
     "uvu": {
-      "description": "Owoify ywowouw text.",
+      "description": "Owowofwica el teu text.",
       "arguments": {
         "text": {
           "name": "text",
-          "description": "Text that you want to convert to uvu."
+          "description": "Text que vols convertir a uvu."
         }
       }
     }
