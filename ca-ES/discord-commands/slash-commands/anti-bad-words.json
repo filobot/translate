@@ -1,85 +1,85 @@
 {
-  "description": "Module that allows you to sanction users who send bad words.",
+  "description": "Mòdul que et permet sancionar als usuaris que enviïn paraules lletges.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-bad-words module."
+      "description": "Activa el mòdul anti-paraules-lletges."
     },
     "disable": {
-      "description": "Disable the anti-bad-words module."
+      "description": "Desactiva el mòdul anti-paraules-lletges."
     },
     "action": {
-      "description": "Set the action to take when someone sends bad words.",
+      "description": "Estableix l'acció a realitzar quan algú enviï paraules lletges.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends bad words."
+          "name": "acció",
+          "description": "Acció a realitzar quan algú enviï paraules lletges."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
         }
       }
     },
     "word": {
-      "description": "Add or remove bad words from the bad word list.",
+      "description": "Afegeix o elimina paraules lletges de la llista de paraules lletges.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take with the bad word."
+          "name": "acció",
+          "description": "Acció a realitzar amb la paraula lletja."
         },
         "word": {
-          "name": "word",
-          "description": "Bad word that you want to add or remove from the bad word list."
+          "name": "paraula",
+          "description": "Paraula lletja que vols afegir o eliminar de la llista de paraules lletges."
         }
       }
     },
     "aggressive-filter": {
-      "description": "Enable or disable the aggressive bad word detection filter.",
+      "description": "Activa o desactiva el filtre agressiu de paraules lletges.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "canal",
+          "description": "Canal de la llista d'omissions de canals."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rol",
+          "description": "Rol de la llista d'omissions de rols."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-bad-words module documentation."
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-paraules-lletges."
     },
     "view": {
-      "description": "View the settings of the anti-bad-words module."
+      "description": "Veure les configuracions del mòdul d'anti-paraules-lletges."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
