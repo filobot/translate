@@ -1,56 +1,56 @@
 {
-  "description": "Anime Utilities.",
+  "description": "Utilitats d'Anime.",
   "subcommands": {
     "avatar": {
-      "description": "Send a random image of an anime avatar."
+      "description": "Envia una imatge aleatòria d'un avatar d'anime."
     },
     "search": {
-      "description": "Search the information of an anime.",
+      "description": "Cerca la informació d'un anime.",
       "arguments": {
         "title": {
-          "name": "title",
-          "description": "Title of the anime."
+          "name": "títol",
+          "description": "Títol d'anime."
         }
       }
     },
     "random": {
-      "description": "Show the information from a random anime according to the criteria you specify.",
+      "description": "Mostra la informació d'un anime aleatori d'acord amb el criteri que vas especificar.",
       "arguments": {
         "term": {
-          "name": "term",
-          "description": "Term that must include the title of the anime."
+          "name": "terme",
+          "description": "Terme que deu incloure el títol de l'anime."
         },
         "type": {
-          "name": "type",
-          "description": "Anime type."
+          "name": "tipus",
+          "description": "Tipus d'anime."
         },
         "status": {
-          "name": "status",
-          "description": "Anime's status."
+          "name": "estat",
+          "description": "Estat de l'anime."
         },
         "rating": {
-          "name": "rating",
-          "description": "Anime's rating."
+          "name": "qualificació",
+          "description": "Qualificació de l'anime."
         },
         "genre": {
-          "name": "genre",
-          "description": "Genre or one of the genres of the Anime."
+          "name": "gènere",
+          "description": "Gènere o un dels gèneres de l'anime."
         }
       }
     }
   },
   "subcommand_groups": {
     "characters": {
-      "description": "Send a random image or gif about an anime character.",
+      "description": "Envia una imatge aleatòria o un gif d'un personatge d'anime.",
       "subcommands": {
         "ghoul": {
-          "description": "Send a random image of a Ghoul."
+          "description": "Envia una imatge aleatòria d'un Ghoul."
         },
         "jojo": {
-          "description": "Send a random image of a Jojo."
+          "description": "Envia una imatge aleatòria d'un Jojo."
         },
         "titan": {
-          "description": "Send a random image of a Titan."
+          "description": "Envia una imatge aleatòria d'un Tità."
         }
       }
     }
