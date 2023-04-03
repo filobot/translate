@@ -1,13 +1,13 @@
 {
-  "description": "Warn a user from the server.",
+  "description": "Adverteix a un usuari del servidor.",
   "arguments": {
     "user": {
       "name": "usuari",
-      "description": "User you want to warn."
+      "description": "Usuari al qual vols advertir."
     },
     "reason": {
       "name": "raó",
-      "description": "Reason for warning this user."
+      "description": "Raó per advertir aquest usuari."
     },
     "silent": {
       "name": "silenciós",
