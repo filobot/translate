@@ -1,18 +1,18 @@
 {
-  "description": "Module that allows you to prevent users from sending scam links.",
+  "description": "Mòdul que et permet sancionar als usuaris que envien enllaços enganyosos.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-scam-links module."
+      "description": "Activa el mòdul anti-enllaços-enganyosos."
     },
     "disable": {
-      "description": "Disable the anti-scam-links module."
+      "description": "Desactiva el mòdul anti-enllaços-enganyosos."
     },
     "action": {
-      "description": "Set the action to take when someone sends scam links.",
+      "description": "Estableix l'acció a realitzar quan algú envia enllaços enganyosos.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends scam links."
+          "name": "acció",
+          "description": "Acció a realitzar quan algú enviï enllaços enganyosos."
         },
         "time": {
           "name": "temps",
@@ -21,11 +21,11 @@
       }
     },
     "aggressive-filter": {
-      "description": "Enable or disable the aggressive scam link detection filter.",
+      "description": "Activa o desactiva el filtre agressiu de detecció d'enllaços estafadors.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         }
       }
     },
@@ -33,11 +33,11 @@
       "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "channel": {
-          "name": "channel",
+          "name": "canal",
           "description": "Canal de la llista d'omissions de canals."
         }
       }
@@ -46,27 +46,27 @@
       "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "role": {
-          "name": "role",
+          "name": "rol",
           "description": "Rol de la llista d'omissions de rols."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-scam-links module documentation."
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-enllaços-enganyosos."
     },
     "view": {
-      "description": "View the settings of the anti-scam-links module."
+      "description": "Veure les configuracions del mòdul d'anti-enllaços-enganyosos."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
