@@ -1,6 +1,6 @@
 {
-  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) doesn't have any sanction reflected in his history.",
-  "SELECT_A_CASE": "Select a case to view",
-  "VIEWING_USER_HISTORY": "Viewing **{{user.username}}**'s sanction history",
-  "SANCTION_REMOVED": "This sanction was removed in case #**{{case.case}}**."
+  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) no té cap sanció reflectida en la seva història.",
+  "SELECT_A_CASE": "Selecciona un cas per veure",
+  "VIEWING_USER_HISTORY": "Veient l'historial de sancions de **{{user.username}}**",
+  "SANCTION_REMOVED": "Aquesta sanció va ser eliminada en el cas #**{{case.case}}**."
 }
