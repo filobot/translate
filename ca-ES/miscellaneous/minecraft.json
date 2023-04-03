@@ -4,7 +4,7 @@
     "IP_ADDRESS": "IP address",
     "PORT": "Port",
     "PLAYERS": "Players",
-    "VERSION": "Version"
+    "VERSION": "Versió"
   },
   "UUID": {
     "WATCHING_PLAYER_UUID": "The uuid of the player **{{player}}** is **{{uuid}}**."
