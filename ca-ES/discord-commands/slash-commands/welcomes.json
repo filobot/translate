@@ -1,59 +1,59 @@
 {
-  "description": "Welcome module that allows you to send a message to new members and assign them a role.",
+  "description": "Mòdul de benvinguda que et permet enviar un missatge a nous membres i assignar-los un rol.",
   "subcommands": {
     "enable": {
-      "description": "Enable the welcomes module.",
+      "description": "Activa el mòdul de benvingudes.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "mòdul",
+          "description": "Mòdul que vols activar."
         }
       }
     },
     "disable": {
-      "description": "Disable the welcomes module.",
+      "description": "Desactiva el mòdul de benvingudes.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "mòdul",
+          "description": "Mòdul que vols desactivar."
         }
       }
     },
     "channel": {
-      "description": "Set the channel where the welcome messages will be sent.",
+      "description": "Estableix el canal on s'enviaran els missatges de benvinguda.",
       "arguments": {
         "channel": {
           "name": "canal",
-          "description": "Channel where welcome messages will be sent."
+          "description": "Canal on els missatges de benvinguda s'enviaran."
         }
       }
     },
     "message": {
-      "description": "Set the welcome message."
+      "description": "Estableix el missatge de benvinguda."
     },
     "type": {
-      "description": "Set the way in which the welcome message will be sent.",
+      "description": "Estableix la forma en la qual s'enviarà el missatge de benvinguda.",
       "arguments": {
         "type": {
           "name": "tipus",
-          "description": "Way in which the welcome message will be sent."
+          "description": "Forma en la qual el missatge de benvinguda s'enviarà."
         }
       }
     },
     "role": {
-      "description": "Set the role you want to grant to the new members.",
+      "description": "Estableix el rol que vols atorgar als nous membres.",
       "arguments": {
         "role": {
           "name": "rol",
-          "description": "Role that you want to grant to new members."
+          "description": "Rol que vols atorgar a nous membres."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the welcomes module documentation."
+      "description": "Obté l'enllaç de la documentació del mòdul de benvingudes."
     },
     "view": {
-      "description": "View the settings of the welcomes module."
+      "description": "Veure les configuracions del mòdul de benvingudes."
     },
     "reset": {
       "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
