@@ -1,24 +1,24 @@
 {
-  "description": "Minecraft utility commands.",
+  "description": "Ordres d'utilitat de Minecraft.",
   "subcommand_groups": {
     "front": {
-      "description": "Send a render of the specified player's front.",
+      "description": "Envia una render del frontal del jugador especificat.",
       "subcommands": {
         "body": {
-          "description": "Send a render of the specified player's front body.",
+          "description": "Envia una render del cos frontal del jugador especificat.",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "jugador",
+              "description": "Jugador de Minecraft."
             }
           }
         },
         "normal": {
-          "description": "Send a render of the specified player's front.",
+          "description": "Envia una render del frontal del jugador especificat.",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "jugador",
+              "description": "Jugador de Minecraft."
             }
           }
         }
@@ -27,69 +27,69 @@
   },
   "subcommands": {
     "body": {
-      "description": "Send a render of the specified player's body.",
+      "description": "Envia una render del cos del jugador especificat.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "bust": {
-      "description": "Send a render of the specified player's bust.",
+      "description": "Envia una render del bust del jugador especificat.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "face": {
-      "description": "Send a render of the specified player's face.",
+      "description": "Envia una render del cap del jugador especificat.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "head": {
-      "description": "Send a render of the specified player's head.",
+      "description": "Envia una render del cap del jugador especificat.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "skin": {
-      "description": "Send a render of the specified player's skin.",
+      "description": "Envia una render de la skin del jugador especificat.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "uuid": {
-      "description": "Get the UUID of a minecraft player.",
+      "description": "Obté la UUID d'un jugador de Minecraft.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
         }
       }
     },
     "server": {
-      "description": "Get the status of a Minecraft server.",
+      "description": "Obté l'estat d'un servidor de Minecraft.",
       "arguments": {
         "ip-address": {
-          "name": "ip-address",
-          "description": "Minecraft server IP address."
+          "name": "direcció-ip",
+          "description": "IP del servidor de Minecraft."
         },
         "port": {
           "name": "port",
-          "description": "Minecraft server port."
+          "description": "Port del servidor de Minecraft."
         }
       }
     }
