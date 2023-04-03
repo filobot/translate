@@ -1,25 +1,25 @@
 {
-  "description": "Follow or get information about our news channels.",
+  "description": "Segueix o obté informació sobre els nostres canals de notícies.",
   "subcommands": {
     "information": {
-      "description": "Get information about our news channels.",
+      "description": "Obté informació sobre els nostres canals de notícies.",
       "arguments": {
         "news": {
-          "name": "news",
-          "description": "News you want to get the information."
+          "name": "noticies",
+          "description": "Notícia de les quals vols obtenir informació."
         }
       }
     },
     "follow": {
-      "description": "Follow the news from our server on your server.",
+      "description": "Segueix les notícies del nostre servidor en el teu servidor.",
       "arguments": {
         "news": {
-          "name": "news",
-          "description": "News channel you want to follow."
+          "name": "noticies",
+          "description": "Canal de notícies que vols seguir."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel where you want the news to be sent."
+          "name": "canal",
+          "description": "Canal on vols que les notícies s'enviïn."
         }
       }
     }
