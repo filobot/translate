@@ -1,9 +1,9 @@
 {
-  "description": "Classic coin flip game.",
+  "description": "Joc clàssic de gir de moneda.",
   "arguments": {
     "choice": {
-      "name": "choice",
-      "description": "Choose heads or tails to be able to play."
+      "name": "elecció",
+      "description": "Escull cara o creu per poder jugar."
     }
   }
 }
