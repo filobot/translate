@@ -1,18 +1,18 @@
 {
-  "description": "Module that allows you to avoid spam from users.",
+  "description": "Mòdul que et permet evitar spam d'usuaris.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-spam module."
+      "description": "Activa el mòdul anti-spam."
     },
     "disable": {
-      "description": "Disable the anti-spam module."
+      "description": "Desactiva el mòdul anti-spam."
     },
     "action": {
-      "description": "Set the action to take when someone spam.",
+      "description": "Estableix l'acció a realitzar quan algú faci spam.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone spam."
+          "name": "acció",
+          "description": "Acció a realitzar quan algú faci spam."
         },
         "time": {
           "name": "temps",
@@ -21,15 +21,15 @@
       }
     },
     "duplicates": {
-      "description": "Set the duplicate message filter parameters.",
+      "description": "Estableix els paràmetres del filtre de missatges duplicats.",
       "arguments": {
         "threshold": {
-          "name": "threshold",
-          "description": "Number of identical messages that can be sent."
+          "name": "llindar",
+          "description": "Nombre de missatges idèntics que es poden enviar."
         },
         "time": {
           "name": "temps",
-          "description": "Time to reset identical messages sent by a user."
+          "description": "Temps per restablir els missatges idèntics d'un usuari."
         }
       }
     },
@@ -37,11 +37,11 @@
       "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "channel": {
-          "name": "channel",
+          "name": "canal",
           "description": "Canal de la llista d'omissions de canals."
         }
       }
@@ -50,27 +50,27 @@
       "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
         },
         "role": {
-          "name": "role",
+          "name": "rol",
           "description": "Rol de la llista d'omissions de rols."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-spam module documentation."
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-spam."
     },
     "view": {
-      "description": "View the settings of the anti-spam module."
+      "description": "Veure les configuracions del mòdul d'anti-spam."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
