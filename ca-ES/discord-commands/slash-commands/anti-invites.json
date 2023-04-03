@@ -12,7 +12,7 @@
       "arguments": {
         "action": {
           "name": "acció",
-          "description": "Acció a realitzar quan algú enviï una invitació."
+          "description": "Acció a realitzar quan algú envia una invitació."
         },
         "time": {
           "name": "temps",
