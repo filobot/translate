@@ -1,26 +1,26 @@
 {
-  "description": "Manage a channel.",
+  "description": "Gestiona un canal.",
   "subcommand_groups": {
     "cooldown": {
-      "description": "Manage the cooldown of a channel.",
+      "description": "Gestiona el refredament d'un canal.",
       "subcommands": {
         "set": {
-          "description": "Set the cooldown of a channel.",
+          "description": "Estableix el refregament d'un canal.",
           "arguments": {
             "time": {
               "name": "temps",
-              "description": "Cooldown you want to set."
+              "description": "Refredament que vols establir."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to set the cooldown."
+              "name": "canal",
+              "description": "Canal on vols establir el refredament."
             },
             "reset": {
-              "description": "Reset the cooldown of a channel.",
+              "description": "Restableix el refredament d'un canal.",
               "arguments": {
                 "channel": {
-                  "name": "channel",
-                  "description": "Channel where you want to reset the cooldown."
+                  "name": "canal",
+                  "description": "Canal on vols restablir el refredament."
                 }
               }
             }
@@ -29,59 +29,59 @@
       }
     },
     "messages": {
-      "description": "Manage the messages of a channel.",
+      "description": "Gestiona els missatges d'un canal.",
       "subcommands": {
         "pin": {
-          "description": "Pin a message on the current channel.",
+          "description": "Fixa un missatge al canal actual.",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to pin."
+              "name": "missatge",
+              "description": "ID del missatge que vols fixar."
             }
           }
         },
         "purge": {
-          "description": "Purge a number of messages from a channel.",
+          "description": "Purga un nombre de missatges d'un canal.",
           "arguments": {
             "messages": {
-              "name": "messages",
-              "description": "Number of messages you want to purge."
+              "name": "missatges",
+              "description": "Nombre de missatges que vols purgar."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to purge messages."
+              "name": "canal",
+              "description": "Canal on vols purgar els missatges."
             }
           }
         },
         "unpin": {
-          "description": "Unpin a message on the current channel.",
+          "description": "Desfixa un missatge en el canal actual.",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to unpin."
+              "name": "missatge",
+              "description": "ID del missatge que vols desfixar."
             }
           }
         }
       }
     },
     "nsfw": {
-      "description": "Switch the NSFW mode of a channel.",
+      "description": "Canvia el mode NSFW del canal.",
       "subcommands": {
         "enable": {
-          "description": "Enable the NSFW mode of a channel.",
+          "description": "Activa el mode NSFW d'un canal.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to enable the NSFW mode."
+              "name": "canal",
+              "description": "Canal on vols activar el mode NSFW."
             }
           }
         },
         "disable": {
-          "description": "Disable the NSFW mode of a channel.",
+          "description": "Desactiva el mode NSFW d'un canal.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to disable the NSFW mode."
+              "name": "canal",
+              "description": "Canal on vols desactivar el mode NSFW."
             }
           }
         }
@@ -90,36 +90,36 @@
   },
   "subcommands": {
     "info": {
-      "description": "Get information about a channel.",
+      "description": "Obté la informació sobre un canal.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the information will come from."
+          "name": "canal",
+          "description": "Canal d'on procedirà la informació."
         }
       }
     },
     "invite": {
-      "description": "Create an instant invite of a channel.",
+      "description": "Crea una invitació instantània d'un canal.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where to create the instant invite."
+          "name": "canal",
+          "description": "Canal on crear la invitació instantània."
         },
         "temporary": {
-          "name": "temporary",
-          "description": "Specify if you want to grant temporary or permanent membership."
+          "name": "temporal",
+          "description": "Especifica si vols concedir una membraria temporal o permanent."
         },
         "max-age": {
-          "name": "max-age",
-          "description": "Time until the invite expires."
+          "name": "edat-màxima",
+          "description": "Temps fins que la invitació expiri."
         },
         "max-uses": {
-          "name": "max-uses",
-          "description": "Maximum number of uses of the invite."
+          "name": "usos-màxims",
+          "description": "Nombre màxim d'usos de la invitació."
         },
         "force": {
-          "name": "force",
-          "description": "Force the creation of the invite."
+          "name": "forçar",
+          "description": "Força la creació de la invitació."
         }
       }
     }
