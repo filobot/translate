@@ -1,44 +1,44 @@
 {
-  "description": "Manage Filo's commands by enabling or disabling them.",
+  "description": "Gestiona les ordres de Filo activant-les o desactivant-les.",
   "subcommands": {
     "enable": {
-      "description": "Enable a Filo's command or category.",
+      "description": "Activa una ordre o categoria de Filo.",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to enable."
+          "name": "objectiu",
+          "description": "Especifica el que vols activar."
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to enable."
+          "name": "valor",
+          "description": "Nom de l'ordre o categoria que vols activar."
         }
       }
     },
     "disable": {
-      "description": "Disable a Filo's command or category.",
+      "description": "Desactiva una ordre o categoria de Filo.",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to disable."
+          "name": "objectiu",
+          "description": "Especifica el que vols desactivar."
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to disable."
+          "name": "valor",
+          "description": "Nom de l'ordre o categoria que vols desactivar."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the disable commands module documentation."
+      "description": "Obtenir l'enllaç de la documentació del mòdul de desactivar ordres."
     },
     "view": {
-      "description": "View the settings of the disable commands module."
+      "description": "Veure les configuracions del mòdul de desactivar ordres."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
         }
       }
     }
