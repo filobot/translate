@@ -1,31 +1,31 @@
 {
-  "description": "Send a random Genshin Impact wallpaper.",
+  "description": "Envia un fons d'escriptori aleatori de Genshin Impact.",
   "subcommands": {
     "desktop": {
-      "description": "Get a random desktop wallpaper."
+      "description": "Obté un fons d'escriptori aleatori d'ordinador."
     },
     "mobile": {
-      "description": "Get a random mobile wallpaper."
+      "description": "Obté un fons d'escriptori aleatori de mòbil."
     },
     "random": {
-      "description": "Get random wallpaper between desktop and mobile."
+      "description": "Obté un fons d'escriptori aleatori entre ordinador i mòbil."
     }
   },
   "subcommand_groups": {
     "cards": {
-      "description": "Get a random card wallpaper.",
+      "description": "Obté un fons d'escriptori de carta.",
       "subcommands": {
         "characters": {
-          "description": "Get a random character card."
+          "description": "Obté una carta de personatge aleatòria."
         },
         "equipments": {
-          "description": "Get a random equipment card."
+          "description": "Obté una carta d'equipament aleatòria."
         },
         "events": {
-          "description": "Get a random event card."
+          "description": "Obté una carta d'esdeveniment aleatòria."
         },
         "supports": {
-          "description": "Get a random support card."
+          "description": "Obté una carta de suport aleatòria."
         }
       }
     }
