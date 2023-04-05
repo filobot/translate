@@ -126,7 +126,7 @@
             "SET": {
               "LABEL": "Set the notification roles",
               "DESCRIPTION": "Set the roles that will be notified when a report is sent.",
-              "COMPLETED": "You have set the **{{role}}** role as the notification role successfully.",
+              "COMPLETED": "You have set the **{{value}}** role as the notification role successfully.",
               "COMPLETED_ALTERNATIVE": "You have set **{{number}}** roles as the notification roles successfully."
             }
           }
