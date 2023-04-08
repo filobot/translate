@@ -45,20 +45,20 @@
       "ADD": {
         "LABEL": "Add {{type}}",
         "DESCRIPTION": "Add {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully added **{{number}}** {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully added the {{value}} {{type}} to the module's exception list."
+        "COMPLETED": "You have successfully added the {{value}} {{type}} to the module's exception list.",
+        "COMPLETED_ALTERNATIVE": "You have successfully added **{{number}}** {{type}} to the module's exception list."
       },
       "SET": {
         "LABEL": "Set the {{type}}",
         "DESCRIPTION": "Set the {{type}} list to the module's exception list.",
-        "COMPLETED": "You have successfully set **{{number}}** {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully set the {{value}} {{type}} to the module's exception list."
+        "COMPLETED": "You have successfully set the {{value}} {{type}} to the module's exception list.",
+        "COMPLETED_ALTERNATIVE": "You have successfully set **{{number}}** {{type}} to the module's exception list."
       },
       "REMOVE": {
         "LABEL": "Remove {{type}}",
         "DESCRIPTION": "Remove {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully removed **{{number}}** {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully removed the {{value}} {{type}} to the module's exception list.",
+        "COMPLETED": "You have successfully removed the {{value}} {{type}} to the module's exception list.",
+        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} to the module's exception list.",
         "NO_DATA_TO_REMOVE": "There are no {{value}} available to remove from the module's exception list."
       }
     },
