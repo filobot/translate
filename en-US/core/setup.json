@@ -39,7 +39,7 @@
     "DM_STATUS": {
       "LABEL": "Toggle the status of DMs",
       "DESCRIPTION": "Change the status of notifications by DM.",
-      "DM_STATUS_TOGGLED": "You have successfully {{action}} the DM notifications for the **{{module}}** module."
+      "DM_STATUS_TOGGLED": "You have successfully **{{action}}** the DM notifications for the **{{module}}** module."
     },
     "EXCEPTIONS": {
       "ADD": {
@@ -121,6 +121,11 @@
             "LABEL": "Set the ignored role",
             "DESCRIPTION": "Set a role whose members can't send reports.",
             "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
+          },
+          "DELETE_REVIEWED_REPORTS": {
+            "LABEL": "Toggle the deletion of reviewed reports",
+            "DESCRIPTION": "Change the status of the deletion of reviewed reports.",
+            "DELETE_REVIEWED_REPORTS_TOGGLED": "You have successfully **{{action}}** the deletion of reviewed reports."
           },
           "NOTIFICATION_ROLES": {
             "ADD": {
