@@ -147,6 +147,38 @@
               "COMPLETED_ALTERNATIVE": "You have removed **{{number}}** roles as notification roles successfully.",
               "NO_DATA_TO_REMOVE": "There are no notification roles available to remove."
             }
+          },
+          "REASON": {
+            "SET_MIN_LENGTH_OF_MEMBER_REASON": {
+              "LABEL": "Set the minimum length of member reason",
+              "DESCRIPTION": "Set the minimum length of the reason of the member reports.",
+              "MIN_LENGTH_OF_MEMBER_REASON_SET": "You have set the minimum length of the reason of the member reports to **{{number}}** characters successfully."
+            },
+            "SET_MAX_LENGTH_OF_MEMBER_REASON": {
+              "LABEL": "Set the maximum length of member reason",
+              "DESCRIPTION": "Set the maximum length of the reason of the member reports.",
+              "MAX_LENGTH_OF_MEMBER_REASON_SET": "You have set the maximum length of the reason of the member reports to **{{number}}** characters successfully."
+            },
+            "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
+              "LABEL": "Toggle the cleaning of the markdown of member reason",
+              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the member reports.",
+              "CLEAN_MARKDOWN_OF_MEMBER_REASON_TOGGLED": "You have successfully **{{action}}** the cleaning of the markdown of the reason of the member reports."
+            },
+            "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
+              "LABEL": "Set the minimum length of reviewer reason",
+              "DESCRIPTION": "Set the minimum length of the reason of the reviewer reports.",
+              "MIN_LENGTH_OF_REVIEWER_REASON_SET": "You have set the minimum length of the reason of the reviewer reports to **{{number}}** characters successfully."
+            },
+            "SET_MAX_LENGTH_OF_REVIEWER_REASON": {
+              "LABEL": "Set the maximum length of reviewer reason",
+              "DESCRIPTION": "Set the maximum length of the reason of the reviewer reports.",
+              "MAX_LENGTH_OF_REVIEWER_REASON_SET": "You have set the maximum length of the reason of the reviewer reports to **{{number}}** characters successfully."
+            },
+            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
+              "LABEL": "Toggle the cleaning of the markdown of reviewer reason",
+              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
+              "CLEAN_MARKDOWN_OF_REVIEWER_REASON_TOGGLED": "You have successfully **{{action}}** the cleaning of the markdown of the reason of the reviewer reports."
+            }
           }
         }
       }
