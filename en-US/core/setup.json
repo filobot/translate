@@ -134,6 +134,13 @@
               "DESCRIPTION": "Set the roles that will be notified when a report is sent.",
               "COMPLETED": "You have set the **{{role.mention}}** ({{role.id}}) role as the notification role successfully.",
               "COMPLETED_ALTERNATIVE": "You have set **{{number}}** roles as the notification roles successfully."
+            },
+            "REMOVE": {
+              "LABEL": "Remove notification roles",
+              "DESCRIPTION": "Remove roles that will be notified when a report is sent.",
+              "COMPLETED": "You have removed the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
+              "COMPLETED_ALTERNATIVE": "You have removed **{{number}}** roles as notification roles successfully.",
+              "NO_DATA_TO_REMOVE": "There are no notification roles available to remove."
             }
           }
         }
