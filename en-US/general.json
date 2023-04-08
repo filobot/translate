@@ -86,5 +86,6 @@
   "SELECT_THE_ACTION_PLACEHOLDER": "Select the action",
   "SELECT_A_USER": "You must select a user to continue.",
   "SELECT_A_USER_PLACEHOLDER": "Select a user",
-  "SUBMITTED": "Submitted"
+  "SUBMITTED": "Submitted",
+  "PRESS_BUTTON_TO_MODAL": "Press the **{{name}}** button to display the modal."
 }

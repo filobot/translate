@@ -154,6 +154,9 @@
             "SET_MIN_LENGTH_OF_MEMBER_REASON": {
               "LABEL": "Set the minimum length of member reason",
               "DESCRIPTION": "Set the minimum length of the reason of the member reports.",
+              "FORM": {
+                "LABEL": "Minimum reason length"
+              },
               "MIN_LENGTH_OF_MEMBER_REASON_SET": "You have set the minimum length of the reason of the member reports to **{{number}}** characters successfully."
             },
             "SET_MAX_LENGTH_OF_MEMBER_REASON": {
