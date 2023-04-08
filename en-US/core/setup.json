@@ -149,6 +149,8 @@
             }
           },
           "REASON": {
+            "LABEL": "Configure the reason parameters",
+            "DESCRIPTION": "Change the behavior of the reason field of the reports.",
             "SET_MIN_LENGTH_OF_MEMBER_REASON": {
               "LABEL": "Set the minimum length of member reason",
               "DESCRIPTION": "Set the minimum length of the reason of the member reports.",
