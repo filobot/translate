@@ -122,7 +122,7 @@
             "DESCRIPTION": "Set a role whose members can't send reports.",
             "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
           },
-          "DELETE_REVIEWED_REPORTS": {
+          "TOGGLE_DELETE_REVIEWED_REPORTS": {
             "LABEL": "Toggle the deletion of reviewed reports",
             "DESCRIPTION": "Change the status of the deletion of reviewed reports.",
             "DELETE_REVIEWED_REPORTS_TOGGLED": "You have successfully **{{action}}** the deletion of reviewed reports."
