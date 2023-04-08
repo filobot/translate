@@ -28,5 +28,15 @@
     "contributors": [
       "754982406393430098"
     ]
+  },
+  {
+    "name": "ca-ES",
+    "nativeName": "Català",
+    "wikiCode": null,
+    "flag": "🇸🇵",
+    "default": false,
+    "contributors": [
+      "661241315891085314"
+    ]
   }
 ]
