@@ -157,32 +157,47 @@
               "FORM": {
                 "LABEL": "Minimum reason length"
               },
-              "COMPLETED": "You have set the minimum length of the reason of the member reports to **{{number}}** characters successfully."
+              "COMPLETED": "You have successfully set the minimum length of the members reason to **{{number}}** characters."
             },
             "SET_MAX_LENGTH_OF_MEMBER_REASON": {
               "LABEL": "Set the maximum length of member reason",
               "DESCRIPTION": "Set the maximum length of the reason of the member reports.",
-              "COMPLETED": "You have set the maximum length of the reason of the member reports to **{{number}}** characters successfully."
+              "FORM": {
+                "LABEL": "Maximum reason length"
+              },
+              "COMPLETED": "You have successfully set the maximum length of the members reason to **{{number}}** characters."
             },
             "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
               "LABEL": "Toggle the cleaning of the markdown of member reason",
               "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the member reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reason of the member reports."
+              "FORM": {
+                "LABEL": "Clean markdown"
+              },
+              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the members reason."
             },
             "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
               "LABEL": "Set the minimum length of reviewer reason",
               "DESCRIPTION": "Set the minimum length of the reason of the reviewer reports.",
-              "COMPLETED": "You have set the minimum length of the reason of the reviewer reports to **{{number}}** characters successfully."
+              "FORM": {
+                "LABEL": "Minimum reason length"
+              },
+              "COMPLETED": "You have successfully set the minimum length of the reviewers reason to **{{number}}** characters."
             },
             "SET_MAX_LENGTH_OF_REVIEWER_REASON": {
               "LABEL": "Set the maximum length of reviewer reason",
               "DESCRIPTION": "Set the maximum length of the reason of the reviewer reports.",
-              "COMPLETED": "You have set the maximum length of the reason of the reviewer reports to **{{number}}** characters successfully."
+              "FORM": {
+                "LABEL": "Maximum reason length"
+              },
+              "COMPLETED": "You have successfully set the maximum length of the reviewers reason to **{{number}}** characters."
             },
             "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
               "LABEL": "Toggle the cleaning of the markdown of reviewer reason",
               "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reason of the reviewer reports."
+              "FORM": {
+                "LABEL": "Clean markdown"
+              },
+              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewers reason."
             }
           }
         }
