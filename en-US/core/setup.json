@@ -193,6 +193,18 @@
               "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
               "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewers reason."
             }
+          },
+          "EVIDENCES": {
+            "LABEL": "Configure the evidences parameters",
+            "DESCRIPTION": "Change the behavior of the evidences field of the reports.",
+            "SET_MIN_COUNT": {
+              "LABEL": "Set the minimum count of evidences",
+              "DESCRIPTION": "Set the minimum count of evidences that a report must have.",
+              "FORM": {
+                "LABEL": "Minimum count"
+              },
+              "COMPLETED": "You have successfully set the minimum count of evidences to **{{number}}**."
+            }
           }
         }
       }
