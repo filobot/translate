@@ -90,8 +90,8 @@
     }
   },
   "STATISTICS": {
-    "TITLE": "Filo's 统计数据",
-    "GUILDS": "行会",
+    "TITLE": "统计",
+    "SERVERS": "Servers",
     "USERS": "用户"
   },
   "DONATE": {

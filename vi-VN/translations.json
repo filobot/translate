@@ -90,8 +90,8 @@
     }
   },
   "STATISTICS": {
-    "TITLE": "Số liệu của Filo",
-    "GUILDS": "Số server",
+    "TITLE": "Thống kê",
+    "SERVERS": "Máy chủ",
     "USERS": "Số người dùng"
   },
   "DONATE": {
