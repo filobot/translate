@@ -90,8 +90,8 @@
     }
   },
   "STATISTICS": {
-    "TITLE": "Filo の統計情報",
-    "GUILDS": "ギルド",
+    "TITLE": "統計情報",
+    "SERVERS": "Servers",
     "USERS": "ユーザー"
   },
   "DONATE": {
