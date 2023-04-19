@@ -90,8 +90,8 @@
     }
   },
   "STATISTICS": {
-    "TITLE": "目前 Filo's 的版圖",
-    "GUILDS": "Guilds",
+    "TITLE": "統計資料",
+    "SERVERS": "Servers",
     "USERS": "Users"
   },
   "DONATE": {
