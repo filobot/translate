@@ -1,0 +1,9 @@
+{
+  "description": "Mostra el teu avatar o el d'un usuari.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari l'historial del qual vols obtenir."
+    }
+  }
+}

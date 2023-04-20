@@ -1,0 +1,9 @@
+{
+  "description": "8 ボールは質問すれば、賢明に答えてくれる。",
+  "arguments": {
+    "question": {
+      "name": "問いかけ",
+      "description": "8 ボールをどうしたいかを聞く。"
+    }
+  }
+}

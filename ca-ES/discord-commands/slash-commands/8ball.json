@@ -1,0 +1,9 @@
+{
+  "description": "Fes una pregunta a la bola 8 i et respondrà sàviament.",
+  "arguments": {
+    "question": {
+      "name": "pregunta",
+      "description": "Pregunta que vols fer-li a la bola 8."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "description": "Gestiona les ordres de Filo activant-les o desactivant-les.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa una ordre o categoria de Filo.",
+      "arguments": {
+        "target": {
+          "name": "objectiu",
+          "description": "Especifica el que vols activar."
+        },
+        "value": {
+          "name": "valor",
+          "description": "Nom de l'ordre o categoria que vols activar."
+        }
+      }
+    },
+    "disable": {
+      "description": "Desactiva una ordre o categoria de Filo.",
+      "arguments": {
+        "target": {
+          "name": "objectiu",
+          "description": "Especifica el que vols desactivar."
+        },
+        "value": {
+          "name": "valor",
+          "description": "Nom de l'ordre o categoria que vols desactivar."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenir l'enllaç de la documentació del mòdul de desactivar ordres."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul de desactivar ordres."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    }
+  }
+}

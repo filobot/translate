@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "{{action}} **{{role.mention}}** ({{role.id}}) ロールを **[{{user.tag}}]({{url}})** ({{user.id}}) に変更しました。"
+}

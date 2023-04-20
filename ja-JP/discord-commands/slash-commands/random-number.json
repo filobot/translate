@@ -1,0 +1,9 @@
+{
+  "description": "乱数を取得します。",
+  "arguments": {
+    "number": {
+      "name": "番号",
+      "description": "乱数値を乗算したい数値。"
+    }
+  }
+}

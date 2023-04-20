@@ -1,0 +1,17 @@
+{
+  "description": "サーバーからユーザーを恒久的にミュートします。",
+  "arguments": {
+    "user": {
+      "name": "ユーザー",
+      "description": "ミュートしたいユーザー。"
+    },
+    "reason": {
+      "name": "理由",
+      "description": "\nこのユーザーをミュートした理由。"
+    },
+    "silent": {
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
+    }
+  }
+}

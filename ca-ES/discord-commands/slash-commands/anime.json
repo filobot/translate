@@ -1,0 +1,58 @@
+{
+  "description": "Utilitats d'Anime.",
+  "subcommands": {
+    "avatar": {
+      "description": "Envia una imatge aleatòria d'un avatar d'anime."
+    },
+    "search": {
+      "description": "Cerca la informació d'un anime.",
+      "arguments": {
+        "title": {
+          "name": "títol",
+          "description": "Títol d'anime."
+        }
+      }
+    },
+    "random": {
+      "description": "Mostra la informació d'un anime aleatori d'acord amb el criteri que vas especificar.",
+      "arguments": {
+        "term": {
+          "name": "terme",
+          "description": "Terme que deu incloure el títol de l'anime."
+        },
+        "type": {
+          "name": "tipus",
+          "description": "Tipus d'anime."
+        },
+        "status": {
+          "name": "estat",
+          "description": "Estat de l'anime."
+        },
+        "rating": {
+          "name": "qualificació",
+          "description": "Qualificació de l'anime."
+        },
+        "genre": {
+          "name": "gènere",
+          "description": "Gènere o un dels gèneres de l'anime."
+        }
+      }
+    }
+  },
+  "subcommand_groups": {
+    "characters": {
+      "description": "Envia una imatge aleatòria o un gif d'un personatge d'anime.",
+      "subcommands": {
+        "ghoul": {
+          "description": "Envia una imatge aleatòria d'un Ghoul."
+        },
+        "jojo": {
+          "description": "Envia una imatge aleatòria d'un Jojo."
+        },
+        "titan": {
+          "description": "Envia una imatge aleatòria d'un Tità."
+        }
+      }
+    }
+  }
+}

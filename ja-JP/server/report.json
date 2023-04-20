@@ -1,0 +1,3 @@
+{
+  "USER_REPORTED": "あなたは、[**{{user.tag}}**]({{url}}) ({{user.id}}) を正常に報告しました。"
+}

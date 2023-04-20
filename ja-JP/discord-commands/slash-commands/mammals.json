@@ -1,0 +1,23 @@
+{
+  "description": "哺乳類の画像をチャンネルに送信する。",
+  "subcommands": {
+    "bear": {
+      "description": "クマの画像をランダムに送信します。"
+    },
+    "cat": {
+      "description": "猫の画像をランダムに送信します。"
+    },
+    "dog": {
+      "description": "犬の画像をランダムに送信する。"
+    },
+    "koala": {
+      "description": "コアラの画像をランダムに送信します。"
+    },
+    "panda": {
+      "description": "パンダの画像をランダムに送信します。"
+    },
+    "wolf": {
+      "description": "オオカミの画像をランダムに送信します。"
+    }
+  }
+}

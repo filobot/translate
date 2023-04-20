@@ -1,0 +1,27 @@
+{
+  "description": "ニュースチャンネルをフォローしたり、情報を得ることができます。",
+  "subcommands": {
+    "information": {
+      "description": "当社のニュースチャンネルについてご案内します。",
+      "arguments": {
+        "news": {
+          "name": "ニュース",
+          "description": "情報を得たいニュース。"
+        }
+      }
+    },
+    "follow": {
+      "description": "私たちのサーバーからのニュースを、あなたのサーバーでフォローしてください。",
+      "arguments": {
+        "news": {
+          "name": "ニュース",
+          "description": "追いかけたいニュースチャンネル。"
+        },
+        "channel": {
+          "name": "チャンネル",
+          "description": "ニュースを送信したいチャンネル。"
+        }
+      }
+    }
+  }
+}

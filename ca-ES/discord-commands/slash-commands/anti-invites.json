@@ -1,0 +1,94 @@
+{
+  "description": "Mòdul que et permet sancionar als usuaris que envien invitacions d'altres servidors.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa el mòdul anti-invitacions."
+    },
+    "disable": {
+      "description": "Desactiva el mòdul anti-invitacions."
+    },
+    "action": {
+      "description": "Estableix l'acció a realitzar quan algú enviï una invitació.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció a realitzar quan algú envia una invitació."
+        },
+        "time": {
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
+        }
+      }
+    },
+    "filo": {
+      "description": "Activa o desactiva l'omissió de les invitacions del servidor oficial de Filo.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Activa o desactiva l'omissió de les invitacions del servidor oficial de Filo."
+        }
+      }
+    },
+    "discord": {
+      "description": "Activa o desactiva l'omissió de les invitacions del servidor oficial de Filo.",
+      "arguments": {
+        "name": "acció",
+        "description": "Activa o desactiva l'omissió de les invitacions del servidor oficial de Filo."
+      }
+    },
+    "guild": {
+      "description": "Afegeix o elimina un gremi de la llista d'omissions de gremis.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "guild": {
+          "name": "gremi",
+          "description": "Gremi de la llista d'omissions de gremis."
+        }
+      }
+    },
+    "channel": {
+      "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "channel": {
+          "name": "canal",
+          "description": "Canal de la llista d'omissions de canals."
+        }
+      }
+    },
+    "role": {
+      "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Rol de la llista d'omissions de rols."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-invitacions."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul d'anti-invitacions."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    }
+  }
+}

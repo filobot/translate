@@ -1,9 +1,9 @@
 {
-  "description": "Show your avatar or that of a user.",
+  "description": "Xem hình đại diện của bạn hoặc của một người dùng khác.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User whose avatar you want to get."
+      "name": "người dùng",
+      "description": "Người dùng mà bạn muốn xem hình đại diện."
     }
   }
 }

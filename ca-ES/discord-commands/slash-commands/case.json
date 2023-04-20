@@ -1,0 +1,27 @@
+{
+  "description": "Gestiona un cas de sanció.",
+  "subcommands": {
+    "info": {
+      "description": "Obté informació sobre un cas de sanció.",
+      "arguments": {
+        "case": {
+          "name": "cas",
+          "description": "ID del cas."
+        }
+      }
+    },
+    "set": {
+      "description": "Estableix la nova informació del cas.",
+      "arguments": {
+        "case": {
+          "name": "cas",
+          "description": "ID del cas."
+        },
+        "reason": {
+          "name": "raó",
+          "description": "Raó que vols establir pel casino."
+        }
+      }
+    }
+  }
+}

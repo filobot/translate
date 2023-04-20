@@ -10,8 +10,8 @@
       "description": "Reason for muting this user."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "im-lặng",
+      "description": "Chỉ định nếu bạn không muốn người dùng biết thông tin đã bị cấm."
     }
   }
 }

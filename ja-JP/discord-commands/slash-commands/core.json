@@ -1,0 +1,153 @@
+{
+  "description": "Core」カテゴリのコマンド。",
+  "subcommands": {
+    "info": {
+      "description": "ボットに関する情報を取得します。"
+    },
+    "flags": {
+      "description": "自分の国旗、または特定のユーザーの国旗を表示する。",
+      "arguments": {
+        "user": {
+          "name": "ユーザー",
+          "description": "ユーザーの国旗を表示する。"
+        }
+      }
+    },
+    "donate": {
+      "description": "ボットへの寄付に関する情報を得ることができます。"
+    },
+    "commands": {
+      "description": "ボットコマンドのリスト、またはコマンドに関する情報を取得します。",
+      "arguments": {
+        "command": {
+          "name": "命令",
+          "description": "コマンドから情報を取得する。"
+        }
+      }
+    },
+    "invite": {
+      "description": "推奨される Filo の招待リンクを入手してください。"
+    },
+    "privacy": {
+      "description": "Filo のプライバシーポリシーへのリンクを取得します。"
+    },
+    "terms": {
+      "description": "Filo の利用規約へのリンクを取得します。"
+    },
+    "twitter": {
+      "description": "Filo の Twitter へのリンクを取得する。"
+    },
+    "status": {
+      "description": "Filo のステータスページへのリンクを取得します。"
+    },
+    "website": {
+      "description": "Filo のウェブサイトへのリンクを取得します。"
+    },
+    "github": {
+      "description": "Filo の GitHub へのリンクを取得します。"
+    },
+    "discord": {
+      "description": "Filo の Discord サーバーへのリンクを取得してください。"
+    },
+    "wiki": {
+      "description": "Filo の Wiki へのリンクを取得する。"
+    },
+    "help": {
+      "description": "ボットに関する基本的なヘルプを取得します。"
+    },
+    "support": {
+      "description": "サポートを受けるための情報を得ることができます。"
+    },
+    "vote": {
+      "description": "Filo の投票ページへのリンクを取得します。"
+    },
+    "votes": {
+      "description": "Filo の全投票ページの投票カウンターを取得します。"
+    },
+    "cluster": {
+      "description": "現在の Filo のクラスタに関する情報を取得します。"
+    },
+    "statistics": {
+      "description": "Filo のグローバルスタッツを取得する。"
+    },
+    "ping": {
+      "description": "Filo と Discord API からレイテンシーを取得します。"
+    }
+  },
+  "subcommand_groups": {
+    "roles": {
+      "description": "役割を高度に管理する。",
+      "subcommands": {
+        "muted": {
+          "description": "設定でミュートの役割を作成または設定します。",
+          "arguments": {
+            "role": {
+              "name": "役割",
+              "description": "ミュートされた役割 (設定する場合で、作成しない場合)。"
+            }
+          }
+        },
+        "remove": {
+          "description": "ロールのすべてのパラメータを設定から削除します。",
+          "arguments": {
+            "role": {
+              "name": "役割",
+              "description": "すべてのパラメータ (プロパティとパーミッション) を削除したいロール。"
+            }
+          }
+        },
+        "permissions": {
+          "description": "各ロールの権限を管理します。",
+          "arguments": {
+            "role": {
+              "name": "役割",
+              "description": "管理したい役割"
+            },
+            "permission": {
+              "name": "パーミッション",
+              "description": "追加、設定、削除したいパーミッション。"
+            }
+          }
+        },
+        "view": {
+          "description": "ギルドロールの設定を取得します。"
+        },
+        "reset": {
+          "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
+          "arguments": {
+            "confirmation": {
+              "name": "かくにん",
+              "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
+            }
+          }
+        }
+      }
+    },
+    "moderation": {
+      "description": "モデレーションセクションを管理する。",
+      "subcommands": {
+        "dm-notifications": {
+          "description": "モデレーションアクションの通知を有効または無効にします。",
+          "arguments": {
+            "action": {
+              "name": "アクション",
+              "description": "実行したいアクション"
+            }
+          }
+        },
+        "view": {
+          "description": "モデレーションパラメータモジュールの設定を表示します。"
+        },
+        "reset": {
+          "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
+          "arguments": {
+            "confirmation": {
+              "name": "かくにん",
+              "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
+            }
+          }
+        }
+      }
+    }
+  }
+}

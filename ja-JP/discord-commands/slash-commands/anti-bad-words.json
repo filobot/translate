@@ -1,0 +1,87 @@
+{
+  "description": "不正な単語を送信するユーザーを認可するモジュールです。",
+  "subcommands": {
+    "enable": {
+      "description": "アンチバッドワードモジュールを有効にする。"
+    },
+    "disable": {
+      "description": "アンチバッドワードモジュールを無効にする。"
+    },
+    "action": {
+      "description": "悪口を言われたときにとるべき行動を設定する。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "悪口を言われたときにとるべき行動"
+        },
+        "time": {
+          "name": "時",
+          "description": "アクションの時間 (一時的な場合)。"
+        }
+      }
+    },
+    "word": {
+      "description": "悪口リストに悪口を追加・削除する。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "悪い言葉を使って取るべき行動"
+        },
+        "word": {
+          "name": "言葉",
+          "description": "悪口リストに追加または削除したい悪口。"
+        }
+      }
+    },
+    "aggressive-filter": {
+      "description": "積極的な悪口検出フィルタを有効または無効にします。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "実行したいアクション"
+        }
+      }
+    },
+    "channel": {
+      "description": "無視するチャンネルをリストに追加または削除します。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "実行したいアクション"
+        },
+        "channel": {
+          "name": "チャンネル",
+          "description": "モジュールのチャンネルバイパスリストからのチャンネル。"
+        }
+      }
+    },
+    "role": {
+      "description": "無視されるロールのリストにロールを追加または削除します。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "実行したいアクション"
+        },
+        "role": {
+          "name": "役割",
+          "description": "モジュールのロールバイパスリストからロールを選択します。"
+        }
+      }
+    },
+    "docs": {
+      "description": "アンチバッドワードモジュールのドキュメントのリンクを取得します。"
+    },
+    "view": {
+      "description": "アンチバッドワードモジュールの設定を表示します。"
+    },
+    "reset": {
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
+      "arguments": {
+        "confirmation": {
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Envia una imatge d'ocells al canal.",
+  "subcommands": {
+    "random": {
+      "description": "Envia una imatge aleatòria d'un ocell."
+    }
+  }
+}

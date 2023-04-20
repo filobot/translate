@@ -1,22 +1,22 @@
 {
-  "description": "Module that allows you to automatically sanction users with a certain amount of warnings.",
+  "description": "Chương trình này cho phép bạn tự động phạt người dùng với số cảnh báo phù hợp.",
   "subcommands": {
     "enable": {
-      "description": "Enable the auto-moderation module."
+      "description": "Bật chương trình tự động quản lí."
     },
     "disable": {
-      "description": "Disable the auto-moderation module."
+      "description": "Tắt chương trình tự động quản lí."
     },
     "add": {
-      "description": "Add a level to the auto-moderator.",
+      "description": "Thêm 1 mức độ cho tự động quản lí.",
       "arguments": {
         "warnings": {
-          "name": "warnings",
-          "description": "Number of warnings the user must have to reach this level."
+          "name": "số cảnh báo",
+          "description": "Số cảnh báo người dùng cần có để đạt tới mức độ này."
         },
         "action": {
-          "name": "action",
-          "description": "Action to take when someone reaches this level."
+          "name": "hành động",
+          "description": "Hành động để thực hiện khi có người dùng đạt tới mức độ này."
         },
         "time": {
           "name": "thời gian",
@@ -25,43 +25,43 @@
       }
     },
     "remove": {
-      "description": "Remove a level to the auto-moderator.",
+      "description": "Xoá 1 mức độ cho tự động quản lí.",
       "arguments": {
         "level": {
-          "name": "level",
-          "description": "Auto-moderator level."
+          "name": "mức độ",
+          "description": "Mức độ của tự động quản lí."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the auto-moderation module documentation."
+      "description": "Lấy đường dẫn tới tài liệu của chương trình tự động quản lí."
     },
     "view": {
-      "description": "View the settings of the auto-moderation module."
+      "description": "Xem cài đặt của chương trình tự động quản lí."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Khôi phục cài đặt của chương trình về lại ban đầu (dữ liệu sẽ không thể hồi phục).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "xác nhận",
+          "description": "Bạn đã chắc chắn trong việc đặt lại dữ liệu cho chương trình?"
         }
       }
     },
     "set": {
-      "description": "Set the parameters of an auto-moderator level.",
+      "description": "Đặt các thông số cho 1 mức độ của tự động quản lí.",
       "arguments": {
         "level": {
-          "name": "level",
-          "description": "Auto-moderator level."
+          "name": "mức độ",
+          "description": "Mức độ của tự động quản lí."
         },
         "warnings": {
-          "name": "warnings",
-          "description": "Number of warnings the user must have to reach this level."
+          "name": "số cảnh báo",
+          "description": "Số cảnh báo người dùng cần có để đạt tới mức độ này."
         },
         "action": {
-          "name": "action",
-          "description": "Action to take when someone reaches this level."
+          "name": "hành động",
+          "description": "Hành động để thực hiện khi có người dùng đạt tới mức độ này."
         },
         "time": {
           "name": "thời gian",

@@ -1,0 +1,16 @@
+{
+  "SOURCE_FEED_TITLES": {
+    "ANNOUNCEMENTS": "Anuncis de Filo",
+    "STATUS": "Informes d'Estat de Filo",
+    "UPDATES": "Actualitzacions de Desenvolupador de Filo",
+    "FREE_GAMES": "Jocs gratuïts",
+    "MAL": "Feed de MyAnimeList"
+  },
+  "SOURCE_FEED_DETAILS": {
+    "ANNOUNCEMENTS": "Anuncis oficials realitzats per l'Administració Filo sobre canvis en el servei, esdeveniments especials o qualsevol altre missatge important.",
+    "STATUS": "Notificacions sobre l'estat del nostre servei. Les notificacions s'enviaran quan hi hagi una interrupció en el nostre servei o manteniment programat.",
+    "UPDATES": "Notificacions amb informació sobre actualitzacions recents de Filo o serveis relacionats amb Filo.",
+    "FREE_GAMES": "Notificacions de JOCS GRATUÏTS! Quan ens adonem de l'existència d'un joc gratuït, et notificarem immediatament.",
+    "MAL": "Benvingut a MyAnimeList, la comunitat i base de dades d'anime i manga en línia més activa del món. Uneix-te a la comunitat en línia, crea la teva llista d'anime i manga, llegeix comentaris, explora els fòrums, segueix les notícies i molt més!"
+  }
+}

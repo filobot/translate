@@ -1,0 +1,9 @@
+{
+  "description": "Obté un nombre aleatori.",
+  "arguments": {
+    "number": {
+      "name": "nombre",
+      "description": "Nombre amb el qual vols multiplicar el valor aleatori."
+    }
+  }
+}

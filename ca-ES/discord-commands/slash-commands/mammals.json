@@ -1,0 +1,23 @@
+{
+  "description": "Envia una imatge de mamífers al canal.",
+  "subcommands": {
+    "bear": {
+      "description": "Envia una imatge aleatòria d'un ós."
+    },
+    "cat": {
+      "description": "Envia una imatge aleatòria d'un gat."
+    },
+    "dog": {
+      "description": "Envia una imatge aleatòria d'un gos."
+    },
+    "koala": {
+      "description": "Envia una imatge aleatòria d'un koala."
+    },
+    "panda": {
+      "description": "Envia una imatge aleatòria d'un panda."
+    },
+    "wolf": {
+      "description": "Envia una imatge aleatòria d'un llop."
+    }
+  }
+}

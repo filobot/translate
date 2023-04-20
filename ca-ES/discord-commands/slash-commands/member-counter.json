@@ -1,0 +1,65 @@
+{
+  "description": "Mòdul que permet configurar un canal com un comptador de membres del servidor.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa el mòdul comptador de membres.",
+      "arguments": {
+        "module": {
+          "name": "mòdul",
+          "description": "Mòdul que vols activar."
+        }
+      }
+    },
+    "disable": {
+      "description": "Desactiva el mòdul comptador de membres.",
+      "arguments": {
+        "module": {
+          "name": "mòdul",
+          "description": "Mòdul que vols desactivar."
+        }
+      }
+    },
+    "channel": {
+      "description": "Estableix el canal comptador de membres.",
+      "arguments": {
+        "channel": {
+          "name": "canal",
+          "description": "Canal on vols establir el comptador de membres."
+        }
+      }
+    },
+    "name": {
+      "description": "Estableix el nom del canal comptador de membres.",
+      "arguments": {
+        "name": {
+          "name": "nom",
+          "description": "Nom del canal comptador de membres."
+        }
+      }
+    },
+    "nickname": {
+      "description": "Estableix el sobrenom del comptador de membres.",
+      "arguments": {
+        "nickname": {
+          "name": "sobrenom",
+          "description": "Sobrenom del sobrenom comptador de membres."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenir l'enllaç de la documentació del mòdul de comptador de membres."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul de comptador de membres."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "HELP_TITLE": "Filo のコマンドリストを表示する",
+  "COMMAND_CATEGORIES": {
+    "ADMINISTRATION": "管理部門",
+    "ANIMALS": "動物",
+    "ANIME": "アニメ",
+    "CORE": "コア",
+    "DEVELOPER": "デベロッパー",
+    "FUN": "ファン",
+    "ECONOMY": "経済",
+    "GAME_STATISTICS": "ゲーム統計",
+    "GAMES": "ゲーム",
+    "MISCELLANEOUS": "その他",
+    "MODERATION": "中庸",
+    "PRIVATE": "プライベート",
+    "SERVER": "サーバー",
+    "SETTINGS": "設定",
+    "SOCIAL": "社会",
+    "UTILITIES": "ユーティリティ"
+  },
+  "CATEGORIES_DESCRIPTION": {
+    "ADMINISTRATION": "サーバーやユーザーの重要なパラメータを管理・変更するコマンド。",
+    "ANIMALS": "動物たちの命令",
+    "ANIME": "アニメのコマンド",
+    "CORE": "Filo の情報・管理コマンド。",
+    "FUN": "中でもミームのような面白いコマンド。",
+    "ECONOMY": "エコノミーの命令",
+    "GAME_STATISTICS": "あるゲームにおける選手の統計情報を抽出するコマンドです。",
+    "GAMES": "暇つぶしになるミニゲーム付きコマンド。",
+    "MISCELLANEOUS": "他ではカテゴライズできないコマンドを何でも揃う。",
+    "MODERATION": "ユーザーのモデレーションを管理するためのコマンドです。",
+    "SERVER": "情報コマンドやサーバーユーティリティ。",
+    "SETTINGS": "Filo を設定するためのコマンドです。",
+    "SOCIAL": "ソーシャルのコマンドです。",
+    "UTILITIES": "ユーティリティのコマンドです。",
+    "DEVELOPER": "デベロッパーズコマンド。",
+    "PRIVATE": "プライベートのコマンドです。"
+  },
+  "GENERIC_CATEGORY_DESCRIPTION": "{{category}} のカテゴリにあるコマンドです。",
+  "MULTIPLE_COMMANDS": "同じ名前のコマンドが複数見つかりました。以下、参照したいコマンドを選択してください。",
+  "SELECT_A_COMMAND": "参照したいコマンドを選択します。",
+  "SELECT_A_CATEGORY": "相談したいカテゴリーを選択します。",
+  "COMMAND_SELECTED": "コマンドの選択に成功しました。",
+  "COMMAND_DESCRIPTIONS": {
+    "ADMINISTRATION": {
+      "CHANNEL": "チャンネルを管理する",
+      "NICKNAME": "ユーザーのニックネームを管理する",
+      "ROLE": "ユーザーの役割を管理する"
+    },
+    "ANIMALS": {
+      "BIRDS": "鳥の画像をチャンネルに送る",
+      "MAMMALS": "チャンネルに哺乳類の画像を送信する",
+      "REPTILES": "爬虫類の画像をチャンネルに送る"
+    },
+    "ANIME": {
+      "ANIME": "アニメユーティリティ",
+      "COFFEE": "コーヒーのランダムなGIFを送る",
+      "FAN-ART": "ファンアートをランダムに送信する",
+      "FOOD": "食べ物の GIF をランダムに送信する",
+      "GECG": "Gecg のランダム画像を送信する",
+      "GENSHIN-IMPACT": "玄真インパクトの壁紙をランダムで送る",
+      "INTERACTION": "GIF やアクションで他のユーザーと交流できる",
+      "HUSBAND": "夫の画像をランダムに送信する",
+      "MANGA": "マンガユーティリティ",
+      "NEKO": "ねこむの画像をランダムに送信する",
+      "REACTION": "GIF を使った他のユーザーへのリアクション",
+      "TRAP": "トラップの画像をランダムに送信する",
+      "WAIFU": "ワイフの画像をランダムに送信する"
+    },
+    "CORE": {
+      "CLUSTER": "現在の Filo のクラスタに関する情報を取得する",
+      "COMMANDS": "ボットコマンドのリスト、またはコマンドに関する情報の取得",
+      "DISCORD": "Filo の Discord サーバーへのリンクを取得する",
+      "DONATE": "ボットへの寄付に関する情報を得る",
+      "FLAGS": "自分の国旗、または特定のユーザーの国旗を表示する。",
+      "GITHUB": "Filo の GitHubへのリンクを取得する",
+      "HELP": "ボットに関する基本的なヘルプを取得する",
+      "INFO": "ボットに関する情報を取得する",
+      "INVITE": "おすすめの Filo の招待券を手に入れる",
+      "PING": "Filo と Discord API からレイテンシーを取得します。",
+      "PRIVACY": "Filo のプライバシーポリシーへのリンクを取得する",
+      "ROLES": "高度な役割の管理",
+      "STATISTICS": "Filo のグローバルスタッツを取得",
+      "STATUS": "Filo のステータスへのリンクを取得する",
+      "SETUP": "Filo のモジュールと動作を設定する",
+      "SUPPORT": "サポートを受けるための情報を得る",
+      "TERMS": "Filo の利用規約へのリンクを取得する",
+      "TWITTER": "Filo の Twitter へのリンクを取得する",
+      "VOTE": "Filo の投票ページへのリンクを取得する",
+      "VOTES": "Filo の全投票ページの投票カウンターを取得する",
+      "WEBSITE": "Filo のウェブサイトへのリンクを取得する",
+      "WIKI": "Filo の Wiki へのリンクを取得する"
+    },
+    "ECONOMY": {
+      "CREDITS": "現在の自分のクレジット、またはユーザーのクレジットを取得する",
+      "DAILY": "デイリークレジットを請求する、またはユーザーにプレゼントする",
+      "PAY": "他のユーザーへのクレジットの支払い"
+    },
+    "FUN": {
+      "8BALL": "8ボールは質問すれば、賢明に答えてくれる。",
+      "CHUCKNORRIS": "Chuck Norris のミームを現在のチャンネルに送信します。",
+      "DRAKE": "Drake のミームを現在のチャンネルに送信します。",
+      "JOKE": "ランダムなジョークを現在のチャンネルに送信する",
+      "LOVE": "他のユーザーとの愛を示す画像を現在のチャンネルに送信する",
+      "MEME": "ランダムなミームを現在のチャンネルに送信する",
+      "OWOIFY": "テキストを owo に変換する"
+    },
+    "GAME_STATISTICS": {
+      "CSGO": "CSGO プレイヤーの統計情報を見る",
+      "FORTNITE": "Fortnite 』プレイヤーの統計データを見る",
+      "OSU": "osu! 選手の統計データを見る",
+      "R6S": "R6S プレーヤーの統計データを見る"
+    },
+    "GAMES": {
+      "COINFLIP": "クラシックコインフリップゲーム"
+    },
+    "MISCELLANEOUS": {
+      "ASCII": "テキストを ASCII テキストに変換する",
+      "AVATAR": "自分のアバターまたはユーザーのアバターを表示する",
+      "FORTNITE-STORE": "フォートナイトストアからランダムでアイテムが手に入る",
+      "LYRICS": "曲の歌詞を取得する",
+      "MINECRAFT": "Minecraft ユーティリティコマンド",
+      "POLL": "現在のチャンネルにポールを作成する",
+      "RANDOM-COLOR": "ランダムな色の基本情報を取得する",
+      "RANDOM-NUMBER": "乱数を取得する",
+      "SAY": "Filo を使ってメッセージを送る",
+      "WEATHER": "ある場所の天気を取得する"
+    },
+    "MODERATION": {
+      "BAN": "サーバーからユーザーを永久に追放する",
+      "CASE": "制裁案件の管理",
+      "HISTORY": "ユーザーの制裁履歴を表示する",
+      "KICK": "サーバーからユーザーをキックする",
+      "MUTE": "サーバーからユーザーを永久にミュートする",
+      "SOFTBAN": "サーバーからのユーザーのソフトバン",
+      "TEMPBAN": "あるユーザーをサーバーから一時的に追放する。",
+      "TEMPMUTE": "サーバーからユーザーを一時的にミュートする機能",
+      "UNBAN": "ユーザーから禁止事項を解除する",
+      "UNMUTE": "ユーザーからミュートを解除する",
+      "UNWARN": "ユーザーから警告を削除する",
+      "WARN": "サーバーからユーザーを警告する"
+    },
+    "SERVER": {
+      "ACTIVITY": "音声チャネルでアクティビティを開始する",
+      "CHANNEL": "チャネルの情報を取得する",
+      "INVITE": "チャンネルへの招待を生成する",
+      "NEWS": "ニュースチャンネルをフォローする、または情報を得る",
+      "REPORT": "ユーザーの行動をサーバーのモデレーターに報告する",
+      "ROLE": "ロールの情報を取得する",
+      "SERVER": "サーバーの情報を取得する"
+    },
+    "SETTINGS": {
+      "ANTI-BAD-WORDS": "不正な単語を送信するユーザーを認可するモジュール",
+      "ANTI-EVASION": "制裁を逃れようとするユーザーを禁止するモジュールです。",
+      "ANTI-EXTERNAL-LINKS": "リンクを送信するユーザーを認可するモジュール",
+      "ANTI-INVITES": "他のサーバーから招待を送信するユーザーを許可するモジュール",
+      "ANTI-MASS-MENTIONS": "ユーザーのメンションが多すぎることを認可するモジュール",
+      "ANTI-REPEATED-TEXT": "メッセージ内に繰り返しテキストを送信するユーザーを認可するモジュール",
+      "ANTI-SPAM": "ユーザーからのスパムを避けることができるモジュール",
+      "AUTO-MODERATION": "一定量の警告をユーザーに自動的に許可するモジュール",
+      "COMMANDS": "Filo のコマンドを有効/無効にして管理する",
+      "FAREWELLS": "古いメンバーにさよならのメッセージを送ることができるモジュール",
+      "LANGUAGE": "Filo の言語を設定できるモジュール",
+      "LOGGING": "サーバのログをチャンネルに送信できるモジュール",
+      "MEMBER-COUNTER": "サーバメンバカウンタとしてチャンネルを設定できるモジュール",
+      "REPORTS": "ユーザーがサーバーのモデレーターに悪い行いを報告するためのモジュール",
+      "WELCOMES": "新しいメンバーにメッセージを送信し、役割を割り当てることができるようにするウェルカムモジュール"
+    },
+    "SOCIAL": {
+      "PROFILE": "自分のプロフィールやユーザーのプロフィールを取得する"
+    },
+    "UTILITIES": {
+      "BINARY": "バイナリコードのエンコード、デコード",
+      "MORSE": "モールス信号の符号化、復号化",
+      "SHORTEN": "URL を短縮する"
+    }
+  },
+  "REQUIRED_FILO_PERMISSIONS": "必要な Filo のパーミッション",
+  "REQUIRED_USER_PERMISSIONS": "必要なユーザー権限",
+  "ALTERNATIVE_USER_PERMISSIONS": "ユーザー権限の代替",
+  "NO_PERMISSIONS_ARE_NEEDED": "パーミッションは必要ありません。",
+  "COMMAND_RESTRICTIONS": "コマンドの制限",
+  "ONLY_IN_A_SERVER": "このコマンドはサーバー上でのみ実行可能です。",
+  "REQUIRED_FLAG": "必要なフラグ",
+  "COMMAND_USAGE": "コマンドの使用方法"
+}

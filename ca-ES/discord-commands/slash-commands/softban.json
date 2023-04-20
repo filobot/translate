@@ -1,0 +1,21 @@
+{
+  "description": "Prohibeix suaument a un usuari del servidor.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari que vols prohibir suaument."
+    },
+    "reason": {
+      "name": "raó",
+      "description": "Raó per prohibir suaument a aquest usuari."
+    },
+    "message-history": {
+      "name": "historial-de-missatges",
+      "description": "Especifica si vols eliminar l'historial de missatges de l'usuari."
+    },
+    "silent": {
+      "name": "silenciós",
+      "description": "Especifica si vols que la sanció no sigui notificada per l'usuari."
+    }
+  }
+}

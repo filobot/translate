@@ -1,0 +1,14 @@
+{
+  "description": "ワイフの画像をランダムに送信します。",
+  "subcommands": {
+    "fox": {
+      "description": "ワイフキツネの画像をランダムに送信します。"
+    },
+    "neko": {
+      "description": "わいふぁいねこの画像をランダムに送信します。"
+    },
+    "random": {
+      "description": "ワイフの画像をランダムに送信します。"
+    }
+  }
+}

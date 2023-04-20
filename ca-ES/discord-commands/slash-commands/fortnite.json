@@ -1,0 +1,13 @@
+{
+  "description": "Obté les estadístiques d'un jugador de Fortnite.",
+  "arguments": {
+    "platform": {
+      "name": "plataforma",
+      "description": "Plataforma on el jugador juga."
+    },
+    "player": {
+      "name": "jugador",
+      "description": "Nom En Joc del jugador."
+    }
+  }
+}

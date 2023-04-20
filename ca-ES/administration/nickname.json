@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "Has establert el sobrenom de **[{{user.tag}}]({{url}})** ({{user.id}}) a **{{nickname}}** correctament."
+}

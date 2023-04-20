@@ -1,0 +1,23 @@
+{
+  "description": "Filoを使ってメッセージを送る。",
+  "subcommands": {
+    "embed": {
+      "description": "埋め込みで送信する。",
+      "arguments": {
+        "message": {
+          "name": "メッセージ",
+          "description": "送信したいメッセージ。"
+        }
+      }
+    },
+    "normal": {
+      "description": "通常のメッセージで送信する。",
+      "arguments": {
+        "message": {
+          "name": "メッセージ",
+          "description": "送信したいメッセージ。"
+        }
+      }
+    }
+  }
+}

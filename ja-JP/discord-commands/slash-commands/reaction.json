@@ -1,0 +1,68 @@
+{
+  "description": "GIF を使って他のユーザーとリアクションをとる。",
+  "subcommands": {
+    "angry": {
+      "description": "怒りのリアクションを送る。"
+    },
+    "blush": {
+      "description": "赤面リアクションを送る。"
+    },
+    "bored": {
+      "description": "退屈なリアクションを送る。"
+    },
+    "cold": {
+      "description": "コールドリアクションを送る。"
+    },
+    "confused": {
+      "description": "戸惑いのリアクションを送る。"
+    },
+    "cry": {
+      "description": "クライリアクションを送る。"
+    },
+    "dance": {
+      "description": "ダンスリアクションを送る。"
+    },
+    "eyebrows": {
+      "description": "眉毛のリアクションを送る。"
+    },
+    "greet": {
+      "description": "グリーティングリアクションを送る。"
+    },
+    "happy": {
+      "description": "ハッピーリアクションを送る。"
+    },
+    "hot": {
+      "description": "熱いリアクションを送る。"
+    },
+    "like": {
+      "description": "いいね！の反応を送る。"
+    },
+    "pout": {
+      "description": "プチリアクションを送る。"
+    },
+    "run": {
+      "description": "ランリアクションを送信する。"
+    },
+    "scared": {
+      "description": "ビビッとくるリアクションを送る。"
+    },
+    "sick": {
+      "description": "病気の反応を送る。"
+    },
+    "sing": {
+      "description": "シングリアクションを送信します。"
+    },
+    "sleep": {
+      "description": "スリープ反応を送信する。"
+    },
+    "smug": {
+      "description": "ドヤ顔でリアクションを送る。"
+    },
+    "teehee": {
+      "description": "ティーヒー・リアクションを送る。"
+    },
+    "think": {
+      "description": "Think リアクションを送る。"
+    }
+  }
+}

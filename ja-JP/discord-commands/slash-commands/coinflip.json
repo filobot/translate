@@ -1,0 +1,9 @@
+{
+  "description": "クラシックなコインフリップゲーム。",
+  "arguments": {
+    "choice": {
+      "name": "選択",
+      "description": "頭か尻尾を選ぶと遊べるようになります。"
+    }
+  }
+}

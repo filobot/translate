@@ -1,0 +1,74 @@
+{
+  "description": "ユーザーがあまりにも多くのユーザーに言及することを許可するモジュール。",
+  "subcommands": {
+    "enable": {
+      "description": "アンチ・マスメディア・モジュールを有効にする。"
+    },
+    "disable": {
+      "description": "アンチ・マスメディア・モジュールを無効化する。"
+    },
+    "action": {
+      "description": "誰かがあまりにも多くのユーザーを言及したときに取るアクションを設定します。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "ユーザーが多すぎると言及されたときの対処法。"
+        },
+        "time": {
+          "name": "時",
+          "description": "アクションの時間 (一時的な場合)。"
+        }
+      }
+    },
+    "threshold": {
+      "description": "ユーザーごとに許可されるメンション数を設定します。",
+      "arguments": {
+        "mentions": {
+          "name": "ことばがき",
+          "description": "ユーザーごとに許可されるメンション数。"
+        }
+      }
+    },
+    "channel": {
+      "description": "無視するチャンネルをリストに追加または削除します。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "実行したいアクション"
+        },
+        "channel": {
+          "name": "チャンネル",
+          "description": "モジュールのチャンネルバイパスリストからのチャンネル。"
+        }
+      }
+    },
+    "role": {
+      "description": "無視されるロールのリストにロールを追加または削除します。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "実行したいアクション"
+        },
+        "role": {
+          "name": "役割",
+          "description": "モジュールのロールバイパスリストからロールを選択します。"
+        }
+      }
+    },
+    "docs": {
+      "description": "アンチマスメンションモジュールのドキュメントのリンクを取得します。"
+    },
+    "view": {
+      "description": "アンチ・マスメディア・モジュールの設定を表示します。"
+    },
+    "reset": {
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
+      "arguments": {
+        "confirmation": {
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
+        }
+      }
+    }
+  }
+}

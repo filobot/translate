@@ -1,0 +1,21 @@
+{
+  "description": "ユーザーから警告を削除します。",
+  "arguments": {
+    "user": {
+      "name": "ユーザー",
+      "description": "ワーニングを解除したいユーザー。"
+    },
+    "reason": {
+      "name": "理由",
+      "description": "警告を解除した理由。"
+    },
+    "case": {
+      "name": "場合",
+      "description": "削除したいワーンの ID。"
+    },
+    "silent": {
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
+    }
+  }
+}

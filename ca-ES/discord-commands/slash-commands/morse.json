@@ -1,0 +1,23 @@
+{
+  "description": "Codifica morse o descodifica codi morse.",
+  "subcommands": {
+    "encode": {
+      "description": "Converteix text a codi morse.",
+      "arguments": {
+        "code": {
+          "name": "codi",
+          "description": "Text que vols codificar a codi morse."
+        }
+      }
+    },
+    "decode": {
+      "description": "Converteix codi morse a text.",
+      "arguments": {
+        "code": {
+          "name": "codi",
+          "description": "Codi morse que vols descodificar a text."
+        }
+      }
+    }
+  }
+}

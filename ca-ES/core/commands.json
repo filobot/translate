@@ -1,0 +1,186 @@
+{
+  "HELP_TITLE": "Veient la llista d'ordres de Filo",
+  "COMMAND_CATEGORIES": {
+    "ADMINISTRATION": "Administració",
+    "ANIMALS": "Animals",
+    "ANIME": "Anime",
+    "CORE": "Core",
+    "DEVELOPER": "Desenvolupador",
+    "FUN": "Diversió",
+    "ECONOMY": "Economia",
+    "GAME_STATISTICS": "Estadístiques en jocs",
+    "GAMES": "Jocs",
+    "MISCELLANEOUS": "Miscel·lanis",
+    "MODERATION": "Moderació",
+    "PRIVATE": "Privat",
+    "SERVER": "Servidor",
+    "SETTINGS": "Configuració",
+    "SOCIAL": "Social",
+    "UTILITIES": "Utilitats"
+  },
+  "CATEGORIES_DESCRIPTION": {
+    "ADMINISTRATION": "Ordres que administren o modifiquen paràmetres importants del servidor o d'un usuari.",
+    "ANIMALS": "Ordres d'animals.",
+    "ANIME": "Ordres d'anime.",
+    "CORE": "Ordres d'informació i gestió de Filo.",
+    "FUN": "Ordres divertides com mems entre altres coses.",
+    "ECONOMY": "Ordres d'economia.",
+    "GAME_STATISTICS": "Ordres per extreure les estadístiques d'un jugador en un determinat joc.",
+    "GAMES": "Ordres amb mini jocs per passar el temps.",
+    "MISCELLANEOUS": "Ordres que no poden ser categoritzades en altre lloc. Trobaràs de tot.",
+    "MODERATION": "Ordres per administrar la moderació dels usuaris.",
+    "SERVER": "Ordres d'informació o utilitats del servidor.",
+    "SETTINGS": "Ordres per configurar a Filo.",
+    "SOCIAL": "Ordres socials.",
+    "UTILITIES": "Ordres d'utilitat.",
+    "DEVELOPER": "Ordres del desenvolupador.",
+    "PRIVATE": "Ordres privades."
+  },
+  "GENERIC_CATEGORY_DESCRIPTION": "Ordres de la categoria {{category}}.",
+  "MULTIPLE_COMMANDS": "S'han trobat diverses ordres amb el mateix nom. Seleccioni l'ordre que vols consultar a continuació.",
+  "SELECT_A_COMMAND": "Seleccioni l'ordre que vols consultar.",
+  "SELECT_A_CATEGORY": "Seleccionar la categoria que vols consultar.",
+  "COMMAND_SELECTED": "Has seleccionat correctament l'ordre.",
+  "COMMAND_DESCRIPTIONS": {
+    "ADMINISTRATION": {
+      "CHANNEL": "Gestiona un canal",
+      "NICKNAME": "Administra el sobrenom d'un usuari",
+      "ROLE": "Administra els rols d'un usuari"
+    },
+    "ANIMALS": {
+      "BIRDS": "Envia una imatge d'ocells al canal",
+      "MAMMALS": "Envia una imatge de mamífers al canal",
+      "REPTILES": "Envia una imatge de rèptils al canal"
+    },
+    "ANIME": {
+      "ANIME": "Utilitats d'anime",
+      "COFFEE": "Envia un gif aleatori d'un cafè",
+      "FAN-ART": "Envia un art de fan aleatori",
+      "FOOD": "Envia un gif aleatori de menjar",
+      "GECG": "Envia una imatge aleatòria d'un gecg",
+      "GENSHIN-IMPACT": "Envia un fons de pantalla aleatori de Genshin Impact",
+      "INTERACTION": "Interactua amb altres usuaris amb gifs i accions",
+      "HUSBAND": "Envia una imatge aleatòria d'un husband",
+      "MANGA": "Utilitats de manga",
+      "NEKO": "Envia una imatge aleatòria d'un neko",
+      "REACTION": "Reacciona per altres usuaris utilitzant gifs",
+      "TRAP": "Envia una imatge aleatòria d'un trapet",
+      "WAIFU": "Envia una imatge aleatòria d'una waifu"
+    },
+    "CORE": {
+      "CLUSTER": "Obté informació sobre el clúster actual de Filo",
+      "COMMANDS": "Obté la llista d'ordres del bot o la informació sobre una ordre",
+      "DISCORD": "Obté l'enllaç al Servidor Discord de Filo",
+      "DONATE": "Obté informació sobre les donacions del bot",
+      "FLAGS": "Mostra les teves banderes o les de l'usuari especificat",
+      "GITHUB": "Obté l'enllaç del GitHub de Filo",
+      "HELP": "Obté ajuda bàsica del bot",
+      "INFO": "Obté informació sobre el bot",
+      "INVITE": "Obté la invitació recomanada de Filo",
+      "PING": "Obté la latència de Filo i de la API de Discord",
+      "PRIVACY": "Obté l'enllaç a la Política de Privacitat de Filo",
+      "ROLES": "Administra els rols d'una manera avançada",
+      "STATISTICS": "Obté les estadístiques globals de Filo",
+      "STATUS": "Obté l'enllaç fins a la pàgina d'estat de Filo",
+      "SETUP": "Configura els mòduls i el comportament de Filo",
+      "SUPPORT": "Obté informació sobre com rebre suport",
+      "TERMS": "Obté l'enllaç als Terminis i Condicions de Filo",
+      "TWITTER": "Obté l'enllaç del Twitter de Filo",
+      "VOTE": "Obté l'enllaç de les pàgines de votacions de Filo",
+      "VOTES": "Obté el comptador de vots de totes les pàgines de vots de Filo",
+      "WEBSITE": "Obté l'enllaç de la pàgina web de Filo",
+      "WIKI": "Obté l'enllaç de la Wiki de Filo"
+    },
+    "ECONOMY": {
+      "CREDITS": "Obté els teus crèdits actuals o els crèdits d'un usuari",
+      "DAILY": "Reclama els teus crèdits diaris o regala'ls a un usuari",
+      "PAY": "Paga una quantitat de crèdits a un altre usuari"
+    },
+    "FUN": {
+      "8BALL": "Fes una pregunta a la bola 8 i et respondrà sàviament",
+      "CHUCKNORRIS": "Envia un mem de Chuck Norris al canal actual",
+      "DRAKE": "Envia un mem de Drake al canal actual",
+      "JOKE": "Envia un acudit aleatori al canal actual",
+      "LOVE": "Envia una imatge mostrant l'amor que tens amb altre usuari al canal actual",
+      "MEME": "Envia un mem aleatori al canal actual",
+      "OWOIFY": "Convertir text a owo"
+    },
+    "GAME_STATISTICS": {
+      "CSGO": "Mira les estadístiques d'un jugador de CSGO",
+      "FORTNITE": "Mira les estadístiques d'un jugador Fornite",
+      "OSU": "Mira les estadístiques d'un jugador d'osu",
+      "R6S": "Mira les estadístiques d'un jugador de R6S"
+    },
+    "GAMES": {
+      "COINFLIP": "Joc clàssic de gir de moneda"
+    },
+    "MISCELLANEOUS": {
+      "ASCII": "Converteix el seu text a text ASCII",
+      "AVATAR": "Mostra el teu avatar o el d'un usuari",
+      "FORTNITE-STORE": "Obté un article aleatori de la botiga de Fortnite",
+      "LYRICS": "Obté la lletra d'una cançó",
+      "MINECRAFT": "Ordres d'utilitat de Minecraft",
+      "POLL": "Crea una enquesta en el canal actual",
+      "RANDOM-COLOR": "Obté la informació bàsica d'un color aleatori",
+      "RANDOM-NUMBER": "Obté un nombre aleatori",
+      "SAY": "Envia un missatge utilitzant a Filo",
+      "WEATHER": "Obté el temps d'una ubicació"
+    },
+    "MODERATION": {
+      "BAN": "Prohibeix a un usuari del servidor",
+      "CASE": "Administra un cas de sanció",
+      "HISTORY": "Mostra l'historial de sancions d'un usuari",
+      "KICK": "Expulsa a un usuari del servidor",
+      "MUTE": "Silencia permanentment a un usuari del servidor",
+      "SOFTBAN": "Prohibeix suaument a un usuari del servidor",
+      "TEMPBAN": "Prohibeix temporalment a un usuari del servidor.",
+      "TEMPMUTE": "Silencia temporalment a un usuari del servidor",
+      "UNBAN": "Elimina la prohibició d'un usuari",
+      "UNMUTE": "Elimina el silenci d'un usuari",
+      "UNWARN": "Elimina una advertència d'un usuari",
+      "WARN": "Adverteix a un usuari del servidor"
+    },
+    "SERVER": {
+      "ACTIVITY": "Inicia una activitat en un canal de veu",
+      "CHANNEL": "Obté la informació d'un canal",
+      "INVITE": "Genera una invitació per a un canal",
+      "NEWS": "Segueix o obté informació sobre els nostres canals de notícies",
+      "REPORT": "Informa del comportament d'un usuari a un moderador del servidor",
+      "ROLE": "Obté la informació d'un rol",
+      "SERVER": "Obté informació sobre el servidor"
+    },
+    "SETTINGS": {
+      "ANTI-BAD-WORDS": "Mòdul que et permet sancionar als usuaris que envien paraules lletges",
+      "ANTI-EVASION": "Mòdul que et permet prohibir als usuaris que intentin evadir una sanció",
+      "ANTI-EXTERNAL-LINKS": "Mòdul que et permet sancionar als usuaris que envien enllaços",
+      "ANTI-INVITES": "Mòdul que et permet sancionar als usuaris que envien invitacions d'altres servidors",
+      "ANTI-MASS-MENTIONS": "Mòdul que et permet sancionar que els usuaris mencionin a massa usuaris",
+      "ANTI-REPEATED-TEXT": "Mòdul que et permet sancionar als usuaris que envien text repetit en el missatge",
+      "ANTI-SPAM": "Mòdul que et permet evitar spam d'usuaris",
+      "AUTO-MODERATION": "Mòdul que et permet sancionar automàticament als usuaris amb una certa quantitat d'advertències",
+      "COMMANDS": "Administra els ordres de Filo activant-los o desactivant-los",
+      "FAREWELLS": "Mòdul que et permet enviar un missatge d'acomiadació als antics membres",
+      "LANGUAGE": "Mòdul que et permet establir l'idioma de Filo",
+      "LOGGING": "Mòdul que permet enviar els registres del servidor a un canal",
+      "MEMBER-COUNTER": "Mòdul que permet configurar un canal com un comptador de membres del servidor",
+      "REPORTS": "Mòdul que permet als usuaris informar d'un mal comportament als moderadors del servidor",
+      "WELCOMES": "Mòdul de benvinguda que et permet enviar un missatge a nous membres i assignar-los un rol"
+    },
+    "SOCIAL": {
+      "PROFILE": "Obté el teu perfil d'usuari"
+    },
+    "UTILITIES": {
+      "BINARY": "Codifica el binari o descodifica el codi binari",
+      "MORSE": "Codifica morse o descodifica codi morse",
+      "SHORTEN": "Acurta un URL"
+    }
+  },
+  "REQUIRED_FILO_PERMISSIONS": "Permisos necessaris de Filo",
+  "REQUIRED_USER_PERMISSIONS": "Permisos requerits de l'usuari",
+  "ALTERNATIVE_USER_PERMISSIONS": "Permisos d'usuaris alternatius",
+  "NO_PERMISSIONS_ARE_NEEDED": "No es necessiten permisos.",
+  "COMMAND_RESTRICTIONS": "Restriccions de l'ordre",
+  "ONLY_IN_A_SERVER": "Aquest ordre només pot executar-se en un servidor.",
+  "REQUIRED_FLAG": "Bandera necessària",
+  "COMMAND_USAGE": "Ús de l'ordre"
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Paga una quantitat de crèdits a altre usuari.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari al qual vols pagar."
+    },
+    "amount": {
+      "name": "quantitat",
+      "description": "Quantitat de crèdits que vols pagar."
+    }
+  }
+}

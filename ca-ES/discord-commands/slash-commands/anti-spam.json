@@ -1,0 +1,78 @@
+{
+  "description": "Mòdul que et permet evitar spam d'usuaris.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa el mòdul anti-spam."
+    },
+    "disable": {
+      "description": "Desactiva el mòdul anti-spam."
+    },
+    "action": {
+      "description": "Estableix l'acció a realitzar quan algú faci spam.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció a realitzar quan algú faci spam."
+        },
+        "time": {
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
+        }
+      }
+    },
+    "duplicates": {
+      "description": "Estableix els paràmetres del filtre de missatges duplicats.",
+      "arguments": {
+        "threshold": {
+          "name": "llindar",
+          "description": "Nombre de missatges idèntics que es poden enviar."
+        },
+        "time": {
+          "name": "temps",
+          "description": "Temps per restablir els missatges idèntics d'un usuari."
+        }
+      }
+    },
+    "channel": {
+      "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "channel": {
+          "name": "canal",
+          "description": "Canal de la llista d'omissions de canals."
+        }
+      }
+    },
+    "role": {
+      "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Rol de la llista d'omissions de rols."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-spam."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul d'anti-spam."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Envia un fons d'escriptori aleatori de Genshin Impact.",
+  "subcommands": {
+    "desktop": {
+      "description": "Obté un fons d'escriptori aleatori d'ordinador."
+    },
+    "mobile": {
+      "description": "Obté un fons d'escriptori aleatori de mòbil."
+    },
+    "random": {
+      "description": "Obté un fons d'escriptori aleatori entre ordinador i mòbil."
+    }
+  },
+  "subcommand_groups": {
+    "cards": {
+      "description": "Obté un fons d'escriptori de carta.",
+      "subcommands": {
+        "characters": {
+          "description": "Obté una carta de personatge aleatòria."
+        },
+        "equipments": {
+          "description": "Obté una carta d'equipament aleatòria."
+        },
+        "events": {
+          "description": "Obté una carta d'esdeveniment aleatòria."
+        },
+        "supports": {
+          "description": "Obté una carta de suport aleatòria."
+        }
+      }
+    }
+  }
+}

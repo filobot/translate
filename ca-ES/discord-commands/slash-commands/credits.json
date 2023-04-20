@@ -1,0 +1,9 @@
+{
+  "description": "Mostra els teus crèdits o els crèdits d'altre usuari.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari del qual vols recuperar els seus crèdits."
+    }
+  }
+}

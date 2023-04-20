@@ -1,0 +1,73 @@
+{
+  "description": "Mòdul que et permet sancionar automàticament als usuaris amb una certa quantitat d'advertències.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa el mòdul auto-moderació."
+    },
+    "disable": {
+      "description": "Desactiva el mòdul auto-moderació."
+    },
+    "add": {
+      "description": "Afegeix un nivell al auto-moderador.",
+      "arguments": {
+        "warnings": {
+          "name": "advertències",
+          "description": "Nombre d'advertències que l'usuari deu tenir per arribar a aquest nivell."
+        },
+        "action": {
+          "name": "acció",
+          "description": "Acció a realitzar quan algú arribi a aquest nivell."
+        },
+        "time": {
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
+        }
+      }
+    },
+    "remove": {
+      "description": "Elimina un nivell de l'auto-moderador.",
+      "arguments": {
+        "level": {
+          "name": "nivell",
+          "description": "Nivell de l'auto-moderador."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenir l'enllaç de la documentació del mòdul auto-moderador."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul d'auto-moderació."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    },
+    "set": {
+      "description": "Estableix els paràmetres d'un nivell de l'auto-moderador.",
+      "arguments": {
+        "level": {
+          "name": "nivell",
+          "description": "Nivell de l'auto-moderador."
+        },
+        "warnings": {
+          "name": "advertències",
+          "description": "Nombre d'advertències que l'usuari deu tenir per arribar a aquest nivell."
+        },
+        "action": {
+          "name": "acció",
+          "description": "Acció a realitzar quan algú arribi a aquest nivell."
+        },
+        "time": {
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "音声チャンネルでアクティビティを開始する。",
+  "arguments": {
+    "activity": {
+      "name": "活動",
+      "description": "始めたい活動"
+    },
+    "channel": {
+      "name": "チャンネル",
+      "description": "アクティビティを開始したい音声チャンネル。"
+    }
+  }
+}

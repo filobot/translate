@@ -1,0 +1,13 @@
+{
+  "description": "ある場所の天気を取得します。",
+  "arguments": {
+    "location": {
+      "name": "場所",
+      "description": "天気を取得したい場所。"
+    },
+    "degree-type": {
+      "name": "度数型",
+      "description": "温度度の種類。"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "description": "Mòdul que et permet sancionar als usuaris que enviïn paraules lletges.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa el mòdul anti-paraules-lletges."
+    },
+    "disable": {
+      "description": "Desactiva el mòdul anti-paraules-lletges."
+    },
+    "action": {
+      "description": "Estableix l'acció a realitzar quan algú envia paraules lletges.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció a realitzar quan algú enviï paraules lletges."
+        },
+        "time": {
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
+        }
+      }
+    },
+    "word": {
+      "description": "Afegeix o elimina paraules lletges de la llista de paraules lletges.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció a realitzar amb la paraula lletja."
+        },
+        "word": {
+          "name": "paraula",
+          "description": "Paraula lletja que vols afegir o eliminar de la llista de paraules lletges."
+        }
+      }
+    },
+    "aggressive-filter": {
+      "description": "Activa o desactiva el filtre agressiu de paraules lletges.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        }
+      }
+    },
+    "channel": {
+      "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "channel": {
+          "name": "canal",
+          "description": "Canal de la llista d'omissions de canals."
+        }
+      }
+    },
+    "role": {
+      "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Rol de la llista d'omissions de rols."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-paraules-lletges."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul d'anti-paraules-lletges."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    }
+  }
+}

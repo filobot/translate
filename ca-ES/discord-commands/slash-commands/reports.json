@@ -1,0 +1,35 @@
+{
+  "description": "Mòdul que permet als usuaris informar d'un mal comportament als moderadors del servidor.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa el mòdul de reports."
+    },
+    "disable": {
+      "description": "Desactiva el mòdul de reports."
+    },
+    "channel": {
+      "description": "Estableix el canal on s'enviaran els reports.",
+      "arguments": {
+        "channel": {
+          "name": "canal",
+          "description": "Canal on vols que s'enviïn els reports."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obté l'enllaç de la documentació del mòdul de reports."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul de reports."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    }
+  }
+}

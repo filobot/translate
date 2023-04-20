@@ -1,0 +1,74 @@
+{
+  "description": "Mòdul que et permet sancionar als usuaris que envien enllaços enganyosos.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa el mòdul anti-enllaços-enganyosos."
+    },
+    "disable": {
+      "description": "Desactiva el mòdul anti-enllaços-enganyosos."
+    },
+    "action": {
+      "description": "Estableix l'acció a realitzar quan algú envia enllaços enganyosos.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció a realitzar quan algú enviï enllaços enganyosos."
+        },
+        "time": {
+          "name": "temps",
+          "description": "Temps de l'acció (en cas de ser temporal)."
+        }
+      }
+    },
+    "aggressive-filter": {
+      "description": "Activa o desactiva el filtre agressiu de detecció d'enllaços estafadors.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        }
+      }
+    },
+    "channel": {
+      "description": "Afegeix o elimina un canal de la llista de canals ignorats.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "channel": {
+          "name": "canal",
+          "description": "Canal de la llista d'omissions de canals."
+        }
+      }
+    },
+    "role": {
+      "description": "Afegeix o elimina un rol de la llista de rols ignorats.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Acció que vols dur a terme."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Rol de la llista d'omissions de rols."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenir l'enllaç de la documentació del mòdul anti-enllaços-enganyosos."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul d'anti-enllaços-enganyosos."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    }
+  }
+}

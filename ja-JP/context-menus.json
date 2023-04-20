@@ -1,0 +1,45 @@
+{
+  "SELECT_THE_ACTION": "実行したいアクションを選択します。",
+  "SELECT_THE_ACTION_PLACEHOLDER": "アクションを選択する",
+  "LOADING_ACTION": "要求されたアクションがロードされる間、お待ちください。",
+  "MESSAGE": {
+    "MANAGE_THIS_MESSAGE": {
+      "PIN_MESSAGE_TITLE": "ピンメッセージ",
+      "PIN_MESSAGE_DESCRIPTION": "このメッセージをこのチャンネルにピン留めしてください。",
+      "UNPIN_MESSAGE_TITLE": "メッセージのアンピン",
+      "UNPIN_MESSAGE_DESCRIPTION": "このメッセージをこのチャンネルからアンピンする。"
+    }
+  },
+  "USER": {
+    "MISCELLANEOUS_ACTIONS": {
+      "SHOW_USER_AVATAR_TITLE": "ユーザーアバターを表示する",
+      "SHOW_USER_AVATAR_DESCRIPTION": "このユーザーのアバターを表示します。",
+      "SHOW_USER_PROFILE_TITLE": "ユーザープロファイルを表示する",
+      "SHOW_USER_PROFILE_DESCRIPTION": "このユーザーのプロフィールを表示します。"
+    },
+    "MODERATE_THIS_USER": {
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "このユーザーを永久追放する",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "このユーザーをサーバーから永久に追放します。",
+      "SHOW_USER_HISTORY_TITLE": "ユーザーの履歴を表示する",
+      "SHOW_USER_HISTORY_DESCRIPTION": "ユーザーの制裁履歴を表示する。",
+      "KICK_THIS_USER_TITLE": "このユーザーをキックする",
+      "KICK_THIS_USER_DESCRIPTION": "このユーザーをサーバーから追い出す。",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "このユーザーを永久にミュートする",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "このユーザーをサーバーから永久にミュートします。",
+      "SOFTBAN_THIS_USER_TITLE": "このユーザーをソフトバンする",
+      "SOFTBAN_THIS_USER_DESCRIPTION": "このユーザーをサーバーからソフトバンします。",
+      "TEMPORARILY_BAN_THIS_USER_TITLE": "このユーザーを一時的にアクセス禁止にする",
+      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "このユーザーをサーバーから一時的に追放する。",
+      "TEMPORARILY_MUTE_THIS_USER_TITLE": "このユーザーを一時的にミュートする",
+      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "このユーザーをサーバーから一時的にミュートします。",
+      "UNBAN_THIS_USER_TITLE": "このユーザーをアンバンする",
+      "UNBAN_THIS_USER_DESCRIPTION": "このユーザーをサーバーから退会させます。",
+      "UNMUTE_THIS_USER_TITLE": "このユーザーをアンミュートする",
+      "UNMUTE_THIS_USER_DESCRIPTION": "サーバーからこのユーザーのミュートを解除します。",
+      "UNWARN_THIS_USER_TITLE": "このユーザーの警告を解除する",
+      "UNWARN_THIS_USER_DESCRIPTION": "このユーザーのサーバーからの警告を解除します。",
+      "WARN_THIS_USER_TITLE": "このユーザーに警告する",
+      "WARN_THIS_USER_DESCRIPTION": "このユーザーをサーバーから警告する。"
+    }
+  }
+}

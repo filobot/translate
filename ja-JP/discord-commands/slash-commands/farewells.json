@@ -1,0 +1,45 @@
+{
+  "description": "旧メンバーにお別れのメッセージを送ることができるモジュール。",
+  "subcommands": {
+    "enable": {
+      "description": "別れモジュールを有効にします。"
+    },
+    "disable": {
+      "description": "運賃モジュールを無効にします。"
+    },
+    "channel": {
+      "description": "送別メッセージを送信するチャンネルを設定します。",
+      "arguments": {
+        "name": "チャンネル",
+        "description": "送別のメッセージを送信するチャンネル。"
+      }
+    },
+    "message": {
+      "description": "送別のメッセージを設定する。"
+    },
+    "type": {
+      "description": "お別れのメッセージの送り方を設定します。",
+      "arguments": {
+        "type": {
+          "name": "タイプ",
+          "description": "送別会の送り方。"
+        }
+      }
+    },
+    "docs": {
+      "description": "別れのモジュールのドキュメントのリンクを取得します。"
+    },
+    "view": {
+      "description": "別れのモジュールの設定を表示します。"
+    },
+    "reset": {
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
+      "arguments": {
+        "confirmation": {
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
+        }
+      }
+    }
+  }
+}

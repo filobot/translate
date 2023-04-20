@@ -1,0 +1,27 @@
+{
+  "GUILD": "ギルド",
+  "GUILDS": "ギルド",
+  "GUILD_ID": "ギルド ID",
+  "NSFW_LEVEL": "NSFW レベル",
+  "PREMIUM_TIER": "プレミアム・ティア",
+  "EXPLICIT_CONTENT_FILTER": "明示的なコンテンツフィルター",
+  "MEMBERS_WITHOUT_ROLES": "役割のないメンバー",
+  "ALL_MEMBERS": "全メンバー",
+  "MFA_LEVEL": "MFA レベル",
+  "GUILD_OWNER": "ギルドオーナー",
+  "BOOSTS": "ブースト",
+  "MODERATION_LEVEL": "モデュレーションレベル",
+  "VERIFICATION_LEVEL": {
+    "NONE": "なし。制限なし",
+    "LOW": "最低: Discord アカウントに認証済みのメールアドレスが必要です。",
+    "MEDIUM": "ミディアム。Discord にも5分以上登録されていること。",
+    "HIGH": "高い。このサーバーに 10 分以上ログインしている必要があります。",
+    "VERY_HIGH": "非常に高いです。Discord のアカウントに認証された電話番号があること。"
+  },
+  "DEFAULT_NOTIFICATIONS": "デフォルトの通知",
+  "ALL_MESSAGES": "すべてのメッセージ",
+  "ONLY_MENTIONS": "コメントのみ",
+  "SYSTEM_CHANNEL": "システムチャネル",
+  "2FA_DISABLED": "2FA 無効",
+  "2FA_ENABLED": "モデレーターの 2FA を有効にする"
+}

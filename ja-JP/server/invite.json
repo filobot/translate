@@ -1,0 +1,3 @@
+{
+  "INVITE_GENERATED": "**[#{{channel.name}}]({{url}})** チャンネルへの招待が生成されました。"
+}

@@ -1,0 +1,5 @@
+{
+  "URL_SHORTENED_SUCCESSFULLY": "この **[URL]({{url}})** の短縮は成功しました。",
+  "ORIGINAL_URL": "オリジナル URL",
+  "SHORTENED_URL": "短縮 URL"
+}

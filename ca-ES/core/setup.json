@@ -1,0 +1,91 @@
+{
+  "HOME": {
+    "PRE_START": "Abans de continuar, deus fer clic en el botó **{{button}}**.",
+    "DESCRIPTION": "Comença a configurar Filo seleccionant la categoria de mòduls que vols configurar i després selecciona el mòdul que desitja operar.\n\n**Necessita una guia de referència? No et preocupis!**\nFent **[clic aquí]({{url}})**, et redirigirem a la Wiki de Filo, la qual conté informació sobre com configurar qualsevol cosa.\n\n**Massa complicat?**\n**[Contactan's]({{url2}})** si tens alguna pregunta o necessites alguna aclaració adicional.",
+    "SELECT_A_MODULE_CATEGORY": {
+      "PLACEHOLDER": "Selecciona una categoria de mòduls",
+      "ADMINISTRATION": {
+        "LABEL": "Mòduls d'administració",
+        "DESCRIPTION": "Mòduls per ajudar-te en l'administració del teu servidor."
+      },
+      "COMMUNITY": {
+        "LABEL": "Mòduls de comunitat",
+        "DESCRIPTION": "Mòduls per ajudar-te a millorar l'experiència de la teva comunitat."
+      },
+      "MODERATION": {
+        "LABEL": "Mòduls de moderació",
+        "DESCRIPTION": "Mòdul per ajudar-te a moderar el teu servidor."
+      }
+    },
+    "TITLE": "Menú de Configuració de Filo"
+  },
+  "LOADING_DATA": "Si us plau espera mentre es carregen les dades necessàries.",
+  "MODULES": {
+    "SELECT_A_MODULE": "Deus seleccionar el mòdul de la categoria **{{module}}** que vols configurar.",
+    "PLACEHOLDER": "Selecciona un mòdul",
+    "SELECT_THE_ACTION": "Deus seleccionar l'acció que vols dur a terme en el mòdul.",
+    "MODULE_ENABLED_OR_DISABLED": "El mòdul **{{module}}** s'ha {{action}} correctament.",
+    "RESET_REQUEST_WARNING": "Estàs segur que vols restablir el mòdul **{{module}}**? Aquesta acció no es pot desfer!",
+    "MODULE_RESET": "El mòdul **{{module}}** s'ha restablert correctament.",
+    "COMMUNITY": {
+      "NAME": "Comunitat",
+      "COMMANDS": {
+        "LABEL": "Ordres",
+        "DESCRIPTION": "Canvia el comportament de les ordres de Filo.",
+        "SELECT_THE_ACTION_PLACEHOLDER": "Selecciona una acció",
+        "CONFIGURE": {
+          "SELECT_THE_COMMANDS": "Deus seleccionar les ordres que vols {{action}}.",
+          "SELECT_THE_CATEGORIES": "Deus seleccionar les categories que vols {{action}}.",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Selecciona les ordres",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Selecciona les categories",
+          "DISABLE_COMMANDS": {
+            "LABEL": "Desactivar ordres",
+            "DESCRIPTION": "Desactiva les ordres de Filo.",
+            "NO_COMMANDS_TO_DISABLE": "Totes les ordres disponibles han sigut desactivades.",
+            "COMMANDS_DISABLED": "Has desactivat **{{commands}}** ordres correctament."
+          },
+          "ENABLE_COMMANDS": {
+            "LABEL": "Activar ordres",
+            "DESCRIPTION": "Activa les ordres de Filo.",
+            "NO_COMMANDS_TO_ENABLE": "Totes les ordres disponibles estan activades actualment.",
+            "COMMANDS_ENABLED": "Has activat **{{commands}}** ordres correctament."
+          },
+          "DISABLE_CATEGORIES": {
+            "LABEL": "Desactivar categories",
+            "DESCRIPTION": "Desactiva les categories de Filo.",
+            "NO_CATEGORIES_TO_DISABLE": "Totes les categories disponibles han sigut desactivades.",
+            "CATEGORIES_DISABLED": "Has desactivat **{{categories}}** categories correctament."
+          },
+          "ENABLE_CATEGORIES": {
+            "LABEL": "Activar categories",
+            "DESCRIPTION": "Activa les categories de Filo.",
+            "NO_CATEGORIES_TO_ENABLE": "Totes les categories disponibles estan activades actualment.",
+            "CATEGORIES_ENABLED": "Has activat **{{categories}}** categories correctament."
+          }
+        }
+      },
+      "LANGUAGE": {
+        "LABEL": "Llengua",
+        "DESCRIPTION": "Canvia la llengua de Filo en aquest servidor.",
+        "SELECT_A_LANGUAGE": "Deus seleccionar la llengua que vols establir.",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Selecciona una llengua",
+        "LANGUAGE_SET": "Has establert la llengua **{{language}}** correctament."
+      }
+    },
+    "VIEW": {
+      "TITLE": "Veient les configuracions del mòdul **{{module}}**",
+      "NO_DATA": "Sense dades",
+      "SELECT_THE_DATA": "Selecciona les dades a veure",
+      "VIEW_ALL": "Veure totes les {{data}}.",
+      "COMMUNITY": {
+        "LANGUAGE": {
+          "LANGUAGE_CODE": "Codi de la llengua"
+        },
+        "COMMANDS": {
+          "DISABLED_COMMANDS": "Ordres desactivades",
+          "DISABLED_CATEGORIES": "Categories desactivades"
+        }
+      }
+    }
+  }
+}

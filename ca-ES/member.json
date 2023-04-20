@@ -1,0 +1,16 @@
+{
+  "MEMBER": "Membre",
+  "MEMBERS": "Membres",
+  "USER": "Usuari",
+  "USERS": "Usuaris",
+  "BOT_ACCOUNT": "Compte de bot",
+  "USER_ACCOUNT": "Compte d'usuari",
+  "REGISTRATION_DATE": "Data de registre",
+  "JOINED_DATE": "Data d'unió",
+  "MEMBER_ROLES": "Rols del membre",
+  "WITHOUT_ROLES": "Sense rols",
+  "MEMBER_NICKNAME": "Sobrenom del membre",
+  "WITHOUT_NICKNAME": "Sense sobrenom",
+  "MEMBER_PENDING_TRUE": "El membre està pendent de verificació.",
+  "MEMBER_PENDING_FALSE": "El membre ha passat la verificació."
+}

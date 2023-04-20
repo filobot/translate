@@ -1,0 +1,127 @@
+{
+  "description": "チャンネルを管理します。",
+  "subcommand_groups": {
+    "cooldown": {
+      "description": "チャンネルのクールダウンを管理します。",
+      "subcommands": {
+        "set": {
+          "description": "チャネルのクールダウンを設定します。",
+          "arguments": {
+            "time": {
+              "name": "時",
+              "description": "設定したいクールダウン。"
+            },
+            "channel": {
+              "name": "チャンネル",
+              "description": "クールダウンを設定したいチャンネル。"
+            },
+            "reset": {
+              "description": "チャネルのクールダウンをリセットします。",
+              "arguments": {
+                "channel": {
+                  "name": "チャンネル",
+                  "description": "クールダウンをリセットしたいチャンネル。"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "messages": {
+      "description": "チャネルのメッセージを管理します。",
+      "subcommands": {
+        "pin": {
+          "description": "現在のチャンネルにメッセージをピン留めする。",
+          "arguments": {
+            "message": {
+              "name": "メッセージ",
+              "description": "ピン留めしたいメッセージの ID。"
+            }
+          }
+        },
+        "purge": {
+          "description": "チャンネルからメッセージの数をパージする。",
+          "arguments": {
+            "messages": {
+              "name": "メッセージ",
+              "description": "パージしたいメッセージの数。"
+            },
+            "channel": {
+              "name": "チャンネル",
+              "description": "メッセージをパージしたいチャンネル。"
+            }
+          }
+        },
+        "unpin": {
+          "description": "現在のチャンネルにあるメッセージをアンピンする。",
+          "arguments": {
+            "message": {
+              "name": "メッセージ",
+              "description": "ピン留めを解除したいメッセージの ID。"
+            }
+          }
+        }
+      }
+    },
+    "nsfw": {
+      "description": "チャンネルの NSFW モードを切り替える。",
+      "subcommands": {
+        "enable": {
+          "description": "チャンネルの NSFW モードを有効にする。",
+          "arguments": {
+            "channel": {
+              "name": "チャンネル",
+              "description": "NSFW モードを有効にしたいチャンネル。"
+            }
+          }
+        },
+        "disable": {
+          "description": "チャンネルの NSFW モードを無効にする。",
+          "arguments": {
+            "channel": {
+              "name": "チャンネル",
+              "description": "NSFW モードを無効にしたいチャンネル。"
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "info": {
+      "description": "チャネルの情報を取得します。",
+      "arguments": {
+        "channel": {
+          "name": "チャンネル",
+          "description": "どこから情報が入ってくるかチャンネルを合わせる。"
+        }
+      }
+    },
+    "invite": {
+      "description": "チャンネルのインスタント招待を作成します。",
+      "arguments": {
+        "channel": {
+          "name": "チャンネル",
+          "description": "インスタント招待を作成するチャンネルです。"
+        },
+        "temporary": {
+          "name": "一時的",
+          "description": "一時的な会員資格を付与するか、永続的な会員資格を付与するかを指定します。"
+        },
+        "max-age": {
+          "name": "マックスエイジ",
+          "description": "招待の有効期限までの時間です。"
+        },
+        "max-uses": {
+          "name": "最大使用量",
+          "description": "招待の最大使用回数。"
+        },
+        "force": {
+          "name": "力",
+          "description": "招待状を強制的に作成する。"
+        }
+      }
+    }
+  }
+}

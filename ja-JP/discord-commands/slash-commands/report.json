@@ -1,0 +1,13 @@
+{
+  "description": "サーバーのモデレーターにユーザーの行動を報告する。",
+  "arguments": {
+    "user": {
+      "name": "ユーザー",
+      "description": "報告したいユーザー。"
+    },
+    "reason": {
+      "name": "理由",
+      "description": "このユーザーを報告したい理由。"
+    }
+  }
+}

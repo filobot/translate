@@ -1,0 +1,23 @@
+{
+  "description": "バイナリコードのエンコード、デコードを行う。",
+  "subcommands": {
+    "encode": {
+      "description": "テキストをバイナリコードに変換する。",
+      "arguments": {
+        "code": {
+          "name": "コード",
+          "description": "バイナリコード化したいテキスト。"
+        }
+      }
+    },
+    "decode": {
+      "description": "バイナリーコードをテキストに変換する。",
+      "arguments": {
+        "code": {
+          "name": "コード",
+          "description": "デコードしたいバイナリコード。"
+        }
+      }
+    }
+  }
+}

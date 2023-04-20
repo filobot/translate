@@ -1,0 +1,17 @@
+{
+  "description": "ユーザーから禁止事項を解除する。",
+  "arguments": {
+    "user": {
+      "name": "ユーザー",
+      "description": "禁止を解除したいユーザー。"
+    },
+    "reason": {
+      "name": "理由",
+      "description": "禁止事項解除の理由。"
+    },
+    "force": {
+      "name": "力",
+      "description": "禁止事項を強制的に解除する。"
+    }
+  }
+}

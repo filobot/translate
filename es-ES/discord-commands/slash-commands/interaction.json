@@ -109,7 +109,7 @@
         }
       }
     },
-    "reversecard": {
+    "reverse-card": {
       "description": "Envía una interacción de carta reversora.",
       "arguments": {
         "user": {

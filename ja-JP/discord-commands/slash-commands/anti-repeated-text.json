@@ -1,0 +1,65 @@
+{
+  "description": "メッセージに繰り返しテキストを送信するユーザーを認可するモジュールです。",
+  "subcommands": {
+    "enable": {
+      "description": "反復テキストモジュールを有効にします。"
+    },
+    "disable": {
+      "description": "Anti-repeated-text モジュールを無効にする。"
+    },
+    "action": {
+      "description": "メッセージ内で文字列を繰り返し送信されたときに取る動作を設定します。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "メッセージ内で文字列を繰り返し送信された場合に取るべき動作。"
+        },
+        "time": {
+          "name": "時",
+          "description": "アクションの時間 (一時的な場合)。"
+        }
+      }
+    },
+    "channel": {
+      "description": "無視するチャンネルをリストに追加または削除します。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "実行したいアクション"
+        },
+        "channel": {
+          "name": "チャンネル",
+          "description": "モジュールのチャンネルバイパスリストからのチャンネル。"
+        }
+      }
+    },
+    "role": {
+      "description": "無視されるロールのリストにロールを追加または削除します。",
+      "arguments": {
+        "action": {
+          "name": "アクション",
+          "description": "実行したいアクション"
+        },
+        "role": {
+          "name": "役割",
+          "description": "モジュールのロールバイパスリストからロールを選択します。"
+        }
+      }
+    },
+    "docs": {
+      "description": "Anti-repeated-text モジュールのドキュメントのリンクを取得します。"
+    },
+    "view": {
+      "description": "Anti-repeated-text モジュールの設定を表示します。"
+    },
+    "reset": {
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
+      "arguments": {
+        "confirmation": {
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
+        }
+      }
+    }
+  }
+}

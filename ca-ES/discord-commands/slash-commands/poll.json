@@ -1,0 +1,45 @@
+{
+  "description": "Crea una enquesta en el canal actual.",
+  "arguments": {
+    "message": {
+      "name": "missatge",
+      "description": "Missatge de l'enquesta."
+    },
+    "choice-1": {
+      "name": "opció-1",
+      "description": "Opció 1 de l'enquesta."
+    },
+    "choice-2": {
+      "name": "opció-2",
+      "description": "Opció 2 de l'enquesta."
+    },
+    "choice-3": {
+      "name": "opció-3",
+      "description": "Opció 3 de l'enquesta."
+    },
+    "choice-4": {
+      "name": "opció-4",
+      "description": "Opció 4 de l'enquesta."
+    },
+    "choice-5": {
+      "name": "opció-5",
+      "description": "Opció 5 de l'enquesta."
+    },
+    "choice-6": {
+      "name": "opció-6",
+      "description": "Opció 6 de l'enquesta."
+    },
+    "choice-7": {
+      "name": "opció-7",
+      "description": "Opció 7 de l'enquesta."
+    },
+    "choice-8": {
+      "name": "opció-8",
+      "description": "Opció 8 de l'enquesta."
+    },
+    "choice-9": {
+      "name": "opció-9",
+      "description": "Opció 9 de l'enquesta."
+    }
+  }
+}

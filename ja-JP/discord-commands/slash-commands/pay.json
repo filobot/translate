@@ -1,0 +1,13 @@
+{
+  "description": "他のユーザーにクレジットの金額を支払う。",
+  "arguments": {
+    "user": {
+      "name": "ユーザー",
+      "description": "支払いたいユーザー"
+    },
+    "amount": {
+      "name": "量",
+      "description": "支払いたいクレジットの金額。"
+    }
+  }
+}

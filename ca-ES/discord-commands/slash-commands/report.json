@@ -1,0 +1,13 @@
+{
+  "description": "Informa del comportament d'un usuari a un moderador del servidor.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari que vols reportar."
+    },
+    "reason": {
+      "name": "raó",
+      "description": "Raó de perquè vols reportar a aquest usuari."
+    }
+  }
+}

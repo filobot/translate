@@ -1,0 +1,9 @@
+{
+  "description": "Obté l'historial de sancions de l'usuari.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari l'historial del qual vols comprovar."
+    }
+  }
+}

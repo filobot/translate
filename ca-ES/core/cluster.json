@@ -1,0 +1,15 @@
+{
+  "CLUSTER": "Clúster",
+  "SHARD": "Fragment",
+  "SHARDS": "Fragments",
+  "PING": "Latència",
+  "LIBRARY": "Llibreria",
+  "NODE_VERSION": "Versió de Node",
+  "OPERATIVE_SYSTEM": "Sistema operatiu",
+  "TOTAL_SERVERS": "Servidors totals",
+  "TOTAL_USERS": "Usuaris totals",
+  "TOTAL_CACHED_CHANNELS": "Canals escorcollats totals",
+  "SERVERS": "Servidors",
+  "USERS": "Usuaris",
+  "CACHED_CHANNELS": "Canals en memòria cau"
+}

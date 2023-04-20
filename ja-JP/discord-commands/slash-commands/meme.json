@@ -1,0 +1,14 @@
+{
+  "description": "ミームをチャンネルに送信する。",
+  "subcommands": {
+    "chuck-norris": {
+      "description": "チャック・ノリスのミームを送る。"
+    },
+    "drake": {
+      "description": "Drake のミームを送る。"
+    },
+    "random": {
+      "description": "ランダムにミームを送る。"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "description": "Ordres d'utilitat de Minecraft.",
+  "subcommand_groups": {
+    "front": {
+      "description": "Envia una render del frontal del jugador especificat.",
+      "subcommands": {
+        "body": {
+          "description": "Envia una render del cos frontal del jugador especificat.",
+          "arguments": {
+            "player": {
+              "name": "jugador",
+              "description": "Jugador de Minecraft."
+            }
+          }
+        },
+        "normal": {
+          "description": "Envia una render del frontal del jugador especificat.",
+          "arguments": {
+            "player": {
+              "name": "jugador",
+              "description": "Jugador de Minecraft."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "body": {
+      "description": "Envia una render del cos del jugador especificat.",
+      "arguments": {
+        "player": {
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
+        }
+      }
+    },
+    "bust": {
+      "description": "Envia una render del bust del jugador especificat.",
+      "arguments": {
+        "player": {
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
+        }
+      }
+    },
+    "face": {
+      "description": "Envia una render del cap del jugador especificat.",
+      "arguments": {
+        "player": {
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
+        }
+      }
+    },
+    "head": {
+      "description": "Envia una render del cap del jugador especificat.",
+      "arguments": {
+        "player": {
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
+        }
+      }
+    },
+    "skin": {
+      "description": "Envia una render de la skin del jugador especificat.",
+      "arguments": {
+        "player": {
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
+        }
+      }
+    },
+    "uuid": {
+      "description": "Obté la UUID d'un jugador de Minecraft.",
+      "arguments": {
+        "player": {
+          "name": "jugador",
+          "description": "Jugador de Minecraft."
+        }
+      }
+    },
+    "server": {
+      "description": "Obté l'estat d'un servidor de Minecraft.",
+      "arguments": {
+        "ip-address": {
+          "name": "direcció-ip",
+          "description": "IP del servidor de Minecraft."
+        },
+        "port": {
+          "name": "port",
+          "description": "Port del servidor de Minecraft."
+        }
+      }
+    }
+  }
+}

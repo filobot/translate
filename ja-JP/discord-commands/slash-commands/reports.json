@@ -1,0 +1,35 @@
+{
+  "description": "ユーザーがサーバーのモデレータに悪い行いを報告するためのモジュールです。",
+  "subcommands": {
+    "enable": {
+      "description": "レポート モジュールを有効にします。"
+    },
+    "disable": {
+      "description": "レポートモジュールを無効にします。"
+    },
+    "channel": {
+      "description": "レポートが送信されるチャンネルを設定します。",
+      "arguments": {
+        "channel": {
+          "name": "チャンネル",
+          "description": "レポートを送信するチャンネル。"
+        }
+      }
+    },
+    "docs": {
+      "description": "レポートモジュールドキュメントのリンクを取得します。"
+    },
+    "view": {
+      "description": "レポート モジュールの設定を表示します。"
+    },
+    "reset": {
+      "description": "モジュールの設定を元に戻す (データの復旧はできません)。",
+      "arguments": {
+        "confirmation": {
+          "name": "かくにん",
+          "description": "本当にこのモジュールのデータをリセットするのでしょうか？"
+        }
+      }
+    }
+  }
+}

@@ -1,21 +1,21 @@
 {
-  "description": "Encode binary or decode binary code.",
+  "description": "Mã hoá thành số nhị phân hoặc ngược lại.",
   "subcommands": {
     "encode": {
-      "description": "Convert the text to binary code.",
+      "description": "Chuyển đổi từ chữ số thành số nhị phân.",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Text that you want to binary encode."
+          "name": "mã",
+          "description": "Từ ngữ bạn muốn mã hoá thành số nhị phân."
         }
       }
     },
     "decode": {
-      "description": "Convert the binary code to text.",
+      "description": "Chuyển đổi từ số nhị phân thành từ ngữ.",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Binary code that you want to decode."
+          "name": "mã",
+          "description": "Mã số nhị phân bạn muốn giải mã."
         }
       }
     }

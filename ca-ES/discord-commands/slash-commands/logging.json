@@ -1,0 +1,44 @@
+{
+  "description": "Mòdul que permet enviar els registres del servidor a un canal.",
+  "subcommands": {
+    "enable": {
+      "description": "Activa el mòdul de registres."
+    },
+    "disable": {
+      "description": "Desactiva el mòdul de registres."
+    },
+    "events": {
+      "description": "Gestiona els diferents esdeveniments que vols mostrar.",
+      "arguments": {
+        "action": {
+          "name": "acció",
+          "description": "Activa o desactiva un esdeveniment."
+        }
+      }
+    },
+    "channel": {
+      "description": "Estableix el canal de registres.",
+      "arguments": {
+        "channel": {
+          "name": "canal",
+          "description": "Canal on els registres s'enviaran."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obté l'enllaç de la documentació del mòdul registres."
+    },
+    "view": {
+      "description": "Veure les configuracions del mòdul de registres."
+    },
+    "reset": {
+      "description": "Restableix les configuracions del mòdul a les originals (no es poden recuperar les dades).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmació",
+          "description": "Estàs segur que vols restablir les dades d'aquest mòdul?"
+        }
+      }
+    }
+  }
+}

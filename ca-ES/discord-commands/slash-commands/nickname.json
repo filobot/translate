@@ -1,0 +1,13 @@
+{
+  "description": "Gestiona el sobrenom d'un usuari.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari el sobrenom del qual vols canviar."
+    },
+    "nickname": {
+      "name": "sobrenom",
+      "description": "Sobrenom que vols establir a l'usuari."
+    }
+  }
+}
