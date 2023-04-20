@@ -46,5 +46,16 @@
     "contributors": [
       "266103595949096960"
     ]
+  },
+  {
+    "name": "ca-ES",
+    "nativeName": "Català",
+    "wikiCode": null,
+    "discordCode": null,
+    "flag": "🇸🇵",
+    "default": false,
+    "contributors": [
+      "661241315891085314"
+    ]
   }
 ]
