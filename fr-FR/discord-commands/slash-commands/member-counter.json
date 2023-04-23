@@ -1,0 +1,65 @@
+{
+  "description": "Module that allows configuring a channel as a server member counter.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the member counter module.",
+      "arguments": {
+        "module": {
+          "name": "module",
+          "description": "Module you want to enable."
+        }
+      }
+    },
+    "disable": {
+      "description": "Disable the member counter module.",
+      "arguments": {
+        "module": {
+          "name": "module",
+          "description": "Module you want to disable."
+        }
+      }
+    },
+    "channel": {
+      "description": "Set the member counter channel.",
+      "arguments": {
+        "channel": {
+          "name": "channel",
+          "description": "Channel you want to set as the member counter channel."
+        }
+      }
+    },
+    "name": {
+      "description": "Set the name of the member counter channel.",
+      "arguments": {
+        "name": {
+          "name": "name",
+          "description": "Name of the member counter channel."
+        }
+      }
+    },
+    "nickname": {
+      "description": "Set the nickname of the member counter nickname.",
+      "arguments": {
+        "nickname": {
+          "name": "nickname",
+          "description": "Nickname of the member counter nickname."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the member counter module documentation."
+    },
+    "view": {
+      "description": "View the settings of the member counter module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    }
+  }
+}
