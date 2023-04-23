@@ -1,0 +1,13 @@
+{
+  "description": "Report user behavior to a server moderator.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User you want to report to."
+    },
+    "reason": {
+      "name": "reason",
+      "description": "Reason why you want to report this user."
+    }
+  }
+}
