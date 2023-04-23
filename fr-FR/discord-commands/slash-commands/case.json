@@ -1,0 +1,27 @@
+{
+  "description": "Manage a sanction case.",
+  "subcommands": {
+    "info": {
+      "description": "Get information about a sanction case.",
+      "arguments": {
+        "case": {
+          "name": "case",
+          "description": "ID of the case."
+        }
+      }
+    },
+    "set": {
+      "description": "Set the new information for a case.",
+      "arguments": {
+        "case": {
+          "name": "case",
+          "description": "ID of the case."
+        },
+        "reason": {
+          "name": "reason",
+          "description": "Reason you want to set to the case."
+        }
+      }
+    }
+  }
+}
