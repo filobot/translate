@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "You have successfully set **[{{user.tag}}]({{url}})** ({{user.id}})'s nickname to **{{nickname}}**."
+}
