@@ -1,5 +1,5 @@
 {
-  "BAKA": "**{{user.username}}** has called **{{user2.username}}** a baka!",
+  "BAKA": "**{{user.username}}** a traité **{{user2.username}}** de baka !",
   "BITE": "**{{user.username}}** bites **{{user2.username}}**!",
   "COOKIE": "**{{user.username}}** has given **{{user2.username}}** a cookie!",
   "CUDDLE": "**{{user.username}}** cuddles **{{user2.username}}**!",
