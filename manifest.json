@@ -48,5 +48,15 @@
     "contributors": [
       "661241315891085314"
     ]
+  },
+  {
+    "name": "fr-FR",
+    "nativeName": "Français",
+    "wikiCode": null,
+    "flag": "🇫🇷",
+    "default": false,
+    "contributors": [
+      "510524491126800405"
+    ]
   }
 ]
