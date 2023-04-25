@@ -1,187 +1,187 @@
 {
   "ERROR_DESCRIPTIONS": {
     "200": "OK",
-    "400": "Bad Request",
-    "401": "Unauthorized",
-    "402": "Payment Required",
-    "403": "Forbidden",
-    "404": "Not Found",
-    "405": "Method Not Allowed",
-    "406": "Not Acceptable",
-    "407": "Proxy Authentication Required",
-    "408": "Request Timeout",
-    "409": "Conflict",
-    "410": "Gone",
-    "411": "Length Required",
-    "412": "Precondition Failed",
-    "413": "Payload Too Large",
-    "414": "Request-URI Too Long",
-    "415": "Unsupported Media Type",
-    "416": "Requested Range Not Satisfiable",
-    "417": "Expectation Failed",
-    "418": "I'm a teapot",
-    "420": "Unsupported Browser",
-    "421": "Misdirected Request",
-    "422": "Unprocessable Entity",
-    "423": "Locked",
-    "424": "Failed Dependency",
-    "425": "Too Early",
-    "426": "Upgrade Required",
-    "428": "Precondition Required",
-    "429": "Too Many Request",
-    "431": "Request Header Fields Too Large",
-    "444": "Connection Closed Without Response",
-    "451": "Unavailable For Legal Reasons",
-    "500": "Internal Server Error",
-    "501": "Not Implemented",
-    "502": "Bad Gateway",
-    "503": "Service Unavailable",
-    "504": "Gateway Timeout",
-    "505": "HTTP Version Not Supported",
-    "506": "Variant Also Negotiates",
-    "507": "Insufficient Storage",
-    "508": "Loop Detected",
-    "510": "Not Extended",
-    "511": "Network Authentication Required",
-    "599": "Network Connect Timeout Error"
+    "400": "Requête Incorrecte",
+    "401": "Non autorisé",
+    "402": "Paiement Requis",
+    "403": "Interdit",
+    "404": "Introuvable",
+    "405": "Méthode Non Autorisée",
+    "406": "Non Acceptable",
+    "407": "Authentification Proxy Requise",
+    "408": "Délai de Réponse Dépassé",
+    "409": "Conflit",
+    "410": "Fini",
+    "411": "Longueur Requise",
+    "412": "Échec de la Condition Préalable",
+    "413": "Charge Utile trop Importante",
+    "414": "URI de la Requête Trop Longue",
+    "415": "Type de Média Non Supporté",
+    "416": "Plage Demandée Non Satisfaisante",
+    "417": "Attente Non Satisfaite",
+    "418": "Je suis une théière",
+    "420": "Navigateur Non Supporté",
+    "421": "Demande Mal Dirigée",
+    "422": "Entité Non Traitable",
+    "423": "Verrouillé",
+    "424": "Échec de la Dépendance",
+    "425": "Trop Tôt",
+    "426": "Mise à niveau Requise",
+    "428": "Condition Préalable Requise",
+    "429": "Trop de Requêtes",
+    "431": "Les Champs de l'En-Tête de la Requête sont Trop Grands",
+    "444": "Connexion Fermée Sans Réponse",
+    "451": "Indisponible pour des Raisons Juridiques",
+    "500": "Erreur Interne du Serveur",
+    "501": "Non Implémenté",
+    "502": "Mauvaise Passerelle",
+    "503": "Service Indisponible",
+    "504": "Délai d'Attente de la Passerelle Expiré",
+    "505": "Version HTTP Non Prise en Charge",
+    "506": "Variante Négocie Également",
+    "507": "Stockage Insuffisant",
+    "508": "Boucle Détectée",
+    "510": "Non Étendu",
+    "511": "Authentification Réseau Requise",
+    "599": "Erreur de Délai de Connexion au Réseau"
   },
   "FILO": {
-    "CLASSIC_DESCRIPTION": "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.",
-    "DESCRIPTION": "Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you."
+    "CLASSIC_DESCRIPTION": "Filo est un bot Discord puissant et polyvalent. Personnalisable, disponible en plusieurs langues, signalements, logs, bienvenues et aurevoirs, compteur de membres, anti-invitations, auto-mod, anti-évasion. +190 commandes.",
+    "DESCRIPTION": "Filo est un puissant bot Discord polyvalent au service des serveurs Discord depuis 2019. Doté d'un large éventail de modules d'administration et de modération pour vous faciliter les choses."
   },
   "MAIN_HEADER": {
-    "TITLE": "Filo is a powerful multipurpose Discord bot",
-    "SUBTITLE": "Featuring a wide range of admin and moderation modules to make things easier for you"
+    "TITLE": "Filo est un bot Discord puissant et polyvalent",
+    "SUBTITLE": "Doté d'un large éventail de modules d'administration et de modération pour vous faciliter les choses"
   },
   "FEATURES": {
-    "DESCRIPTION": "The best features to improve your server!",
-    "MORE_INFO": "More information about this feature",
+    "DESCRIPTION": "Les meilleures fonctionnalités pour améliorer votre serveur !",
+    "MORE_INFO": "Plus d'informations sur cette fonctionnalité",
     "REPORTS": {
-      "TITLE": "Reports",
-      "DESCRIPTION": "Enhance the experience and professionalize your server moderation by allowing users to report inappropriate behavior!"
+      "TITLE": "Signalements",
+      "DESCRIPTION": "Améliorez l'expérience et professionnalisez la modération de votre serveur en permettant aux utilisateurs de signaler des comportements inappropriés !"
     },
     "LOGGING": {
-      "TITLE": "Logging",
-      "DESCRIPTION": "Log all actions performed by users in your server to a channel, allowing you to easily review and filter them!"
+      "TITLE": "Logs",
+      "DESCRIPTION": "Enregistrez toutes les actions effectuées par les utilisateurs de votre serveur dans un salon, ce qui vous permet de les examiner et de les filtrer facilement !"
     },
     "ANTI_INVITES": {
       "TITLE": "Anti Invites",
-      "DESCRIPTION": "Prevent users from sending invites from your servers to yours by automatically sanctioning them!"
+      "DESCRIPTION": "Empêchez les utilisateurs d'envoyer des invitations vers d'autres serveurs dans le vôtre en les sanctionnant automatiquement !"
     },
     "ANTI_SPAM": {
       "TITLE": "Anti Spam",
-      "DESCRIPTION": "Tired of spammers? Are your moderators not enough? Let Filo deal with this class of users and have some tea in the meantime!"
+      "DESCRIPTION": "Fatigué des spammeurs ? Vos modérateurs ne sont pas assez nombreux ? Laissez Filo s'occuper de cette catégorie d'utilisateurs et partagez un thé en attendant !"
     },
     "ANTI_BAD_WORDS": {
-      "TITLE": "Anti Bad Words",
-      "DESCRIPTION": "Prevent users from using bad words in their messages... Nobody likes having to read those words!"
+      "TITLE": "Anti Mots Grossiers",
+      "DESCRIPTION": "Empêchez les utilisateurs d'utiliser des mots grossiers dans leurs messages... Personne n'aime avoir à lire ces mots !"
     },
     "ANTI_SCAM_LINKS": {
-      "TITLE": "Anti Scam Links",
-      "DESCRIPTION": "Scammers, what tiresome people... Now Filo can help you fight these types of people!"
+      "TITLE": "Anti Liens Frauduleux",
+      "DESCRIPTION": "Les arnaqueurs, des gens fatigants... Désormais, Filo peut vous aider à lutter contre ce type de personnes !"
     },
     "AUTO_MODERATION": {
-      "TITLE": "Auto Moderation",
-      "DESCRIPTION": "Don't allow conflicting users to exist on your server, this can negatively affect the experience of legitimate users!"
+      "TITLE": "Auto Modération",
+      "DESCRIPTION": "Ne permettez pas à des utilisateurs malintentionnés d'exister sur votre serveur, cela peut affecter négativement l'expérience des utilisateurs légitimes !"
     },
     "ANTI_EVASION": {
-      "TITLE": "Anti Evasion",
-      "DESCRIPTION": "Have you muted several users and they have left the server? No problem! Let Filo automatically ban these users!"
+      "TITLE": "Anti Évasion",
+      "DESCRIPTION": "Vous avez rendu muets plusieurs utilisateurs et ils ont quitté le serveur ? Pas de problème! Laissez Filo bannir automatiquement ces utilisateurs !"
     }
   },
   "STATISTICS": {
-    "TITLE": "Statistics",
-    "SERVERS": "Servers",
-    "USERS": "Users"
+    "TITLE": "Statistiques",
+    "SERVERS": "Serveurs",
+    "USERS": "Utilisateurs"
   },
   "DONATE": {
-    "TITLE": "Donate to Filo",
-    "SUBTITLE": "Help us keep Filo online by making a donation!",
-    "WARNING": "All donations are subject to Terms and Conditions.",
-    "PER_MONTH": "Per month",
-    "VAT_NOT_INCLUDED": "VAT not included",
-    "SUBSCRIBE": "Subscribe",
-    "ROLE_REWARD": "Symbolic role on our server",
-    "FILO_SUPPORT": "Show your support for Filo",
-    "SOON_MORE": "Soon™ more",
-    "PREVIOUS_PLAN_REWARD": "Everything from the previous plan",
-    "NICKNAME_REWARD": "Customizable nickname on our server",
-    "EMOJIS_REWARD": "Use of external emojis on our server"
+    "TITLE": "Faire un don à Filo",
+    "SUBTITLE": "Aidez-nous à maintenir Filo en ligne en faisant un don !",
+    "WARNING": "Tous les dons sont soumis aux Conditions Générales.",
+    "PER_MONTH": "Par mois",
+    "VAT_NOT_INCLUDED": "TVA non incluse",
+    "SUBSCRIBE": "S'abonner",
+    "ROLE_REWARD": "Rôle symbolique sur notre serveur",
+    "FILO_SUPPORT": "Manifestez votre soutien à Filo",
+    "SOON_MORE": "Bientôt™ plus",
+    "PREVIOUS_PLAN_REWARD": "Tout ce qui est inclus dans le plan précédent",
+    "NICKNAME_REWARD": "Pseudonyme personnalisable sur notre serveur",
+    "EMOJIS_REWARD": "Utilisation d'émojis externes sur notre serveur"
   },
   "REVIEW": {
-    "TITLE": "Leave us a review",
-    "SUBTITLE": "Show how much you love Filo and her service!"
+    "TITLE": "Laissez-nous un commentaire",
+    "SUBTITLE": "Montrez à quel point vous aimez Filo et son service !"
   },
   "VOTE": {
-    "TITLE": "Vote for Filo",
-    "SUBTITLE": "Show your support for Filo by voting for her!"
+    "TITLE": "Voter pour Filo",
+    "SUBTITLE": "Montrez votre soutien à Filo en votant pour elle !"
   },
   "FRIENDLY_WEBSITES": {
-    "TITLE": "Friendly websites",
-    "SUBTITLE": "Friendly websites that help Filo grow!"
+    "TITLE": "Sites web conviviaux",
+    "SUBTITLE": "Des sites web conviviaux qui aident Filo à se développer !"
   },
   "READY": {
-    "TITLE": "Ready to take the next step?",
-    "SUBTITLE": "Enhance the experience and professionalize your server with Filo today!",
-    "INVITE": "Let's do it!",
-    "GETTING_STARTED": "Getting Started"
+    "TITLE": "Prêt à passer à l'étape suivante ?",
+    "SUBTITLE": "Améliorez l'expérience et professionnalisez votre serveur avec Filo dès aujourd'hui !",
+    "INVITE": "C'est parti !",
+    "GETTING_STARTED": "Premiers Pas"
   },
   "CALCULATOR": {
-    "TITLE": "Filo's Permissions Calculator",
-    "VIEW_CASES": "View cases",
-    "EDIT_CASES": "Edit cases",
-    "MANAGE_CASES": "Manage cases",
-    "ADMINISTRATOR": "Administrator",
-    "BAN_MEMBERS": "Ban members",
-    "TEMPBAN_MEMBERS": "Tempban members",
-    "SOFTBAN_MEMBERS": "Softban members",
-    "UNBAN_MEMBERS": "Unban members",
-    "KICK_MEMBERS": "Kick members",
-    "MUTE_MEMBERS": "Mute members",
-    "TEMPMUTE_MEMBERS": "Tempmute members",
-    "UNMUTE_MEMBERS": "Unmute members",
-    "WARN_MEMBERS": "Warn members",
-    "UNWARN_MEMBERS": "Unwarn members",
-    "PURGE_WARNS": "Purge warns",
-    "ADD_ROLES": "Add roles",
-    "REMOVE_ROLES": "Remove roles",
-    "PURGE_MESSAGES": "Purge messages",
-    "MANAGE_NICKNAMES": "Manage nicknames",
-    "MANAGE_CHANNELS": "Manage channels",
-    "PIN_MESSAGES": "Pin messages",
-    "UNPIN_MESSAGES": "Unpin messages",
-    "VIEW_HISTORY": "View history",
-    "EVADE_SANCTIONS": "Evade sanctions"
+    "TITLE": "Calculateur de permissions de Filo",
+    "VIEW_CASES": "Voir les cas",
+    "EDIT_CASES": "Modifier les cas",
+    "MANAGE_CASES": "Gérer les cas",
+    "ADMINISTRATOR": "Administrateur",
+    "BAN_MEMBERS": "Bannir des membres",
+    "TEMPBAN_MEMBERS": "Bannir temporairement des membres",
+    "SOFTBAN_MEMBERS": "Softbannir des membres",
+    "UNBAN_MEMBERS": "Débannir des membres",
+    "KICK_MEMBERS": "Expulser des membres",
+    "MUTE_MEMBERS": "Rendre muets des membres",
+    "TEMPMUTE_MEMBERS": "Rendre temporairement muets des membres",
+    "UNMUTE_MEMBERS": "Démuter des membres",
+    "WARN_MEMBERS": "Avertir des membres",
+    "UNWARN_MEMBERS": "Retirer un avertissement aux membres",
+    "PURGE_WARNS": "Retirer tous les avertissements",
+    "ADD_ROLES": "Ajouter des rôles",
+    "REMOVE_ROLES": "Supprimer des rôles",
+    "PURGE_MESSAGES": "Purger des messages",
+    "MANAGE_NICKNAMES": "Gérer les surnoms",
+    "MANAGE_CHANNELS": "Gérer les salons",
+    "PIN_MESSAGES": "Épingler des messages",
+    "UNPIN_MESSAGES": "Désépingler des messages",
+    "VIEW_HISTORY": "Voir l'historique",
+    "EVADE_SANCTIONS": "Évader les sanctions"
   },
   "THANKS": {
-    "TITLE": "Thanks for adding Filo!",
-    "SUBTITLE": "We are very grateful that you have decided to trust Filo.",
-    "DISCORD_REDIRECT_INFO": "You'll be redirected to our Discord server."
+    "TITLE": "Merci d'avoir ajouté Filo!",
+    "SUBTITLE": "Nous sommes très heureux que vous ayez décidé de faire confiance à Filo.",
+    "DISCORD_REDIRECT_INFO": "Vous serez redirigé vers notre serveur Discord."
   },
   "FOOTER": {
-    "HELPFUL_LINKS": "Helpful Links",
-    "IMPORTANT_LINKS": "Important Links",
-    "ABOUT_FILO": "About Filo"
+    "HELPFUL_LINKS": "Liens Utiles",
+    "IMPORTANT_LINKS": "Liens Importants",
+    "ABOUT_FILO": "À Propos de Filo"
   },
   "GENERAL": {
     "BLOG": "Blog",
-    "DISCORD_SERVER": "Discord Server",
-    "DONATE": "Donate",
-    "FEATURES": "Features",
-    "HOME": "Home",
-    "INVITE": "Invite",
-    "MORE_INFO": "More information",
-    "PRIVACY_POLICY": "Privacy Policy",
-    "STATUS": "Status",
-    "TERMS": "Terms",
-    "TERMS_AND_CONDITIONS": "Terms and Conditions",
-    "VOTE": "Vote",
+    "DISCORD_SERVER": "Serveur Discord",
+    "DONATE": "Faire un don",
+    "FEATURES": "Fonctionnalités",
+    "HOME": "Accueil",
+    "INVITE": "Inviter",
+    "MORE_INFO": "Plus d'informations",
+    "PRIVACY_POLICY": "Politique de Confidentialité",
+    "STATUS": "Statut",
+    "TERMS": "Conditions",
+    "TERMS_AND_CONDITIONS": "Conditions Générales d'Utilisation",
+    "VOTE": "Voter",
     "WIKI": "Wiki"
   },
   "PAGE_TITLES": {
-    "A_DISCORD_BOT": "A Discord Bot",
-    "CALCULATOR": "Calculator",
-    "STATISTICS": "Statistics",
-    "THANKS": "Thanks"
+    "A_DISCORD_BOT": "Un Bot Discord",
+    "CALCULATOR": "Calculateur",
+    "STATISTICS": "Statistiques",
+    "THANKS": "Merci"
   }
 }
