@@ -1,17 +1,17 @@
 {
-  "description": "Warn a user from the server.",
+  "description": "Avertissez un utilisateur du serveur.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to warn."
+      "name": "utilisateur",
+      "description": "Utilisateur que vous souhaitez avertir."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for warning this user."
+      "name": "raison",
+      "description": "Raison de l'avertissement de cet utilisateur."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "silence",
+      "description": "Indiquez si vous souhaitez que la sanction ne soit pas notifiée à l'utilisateur."
     }
   }
 }
