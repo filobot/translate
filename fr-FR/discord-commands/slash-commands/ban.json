@@ -1,21 +1,21 @@
 {
-  "description": "Permanently ban a user from the server.",
+  "description": "Bannissez définitivement un utilisateur du serveur.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to ban."
+      "name": "utilisateur",
+      "description": "Utilisateur à bannir."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for banning this user."
+      "name": "raison",
+      "description": "Raison du bannissement de cet utilisateur."
     },
     "message-history": {
-      "name": "message-history",
-      "description": "Specify if you want to delete the user's message history."
+      "name": "historique des messages",
+      "description": "Indiquez si vous souhaitez supprimer l'historique des messages de l'utilisateur."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "silence",
+      "description": "Indiquez si vous souhaitez que la sanction ne soit pas notifiée à l'utilisateur."
     }
   }
 }
