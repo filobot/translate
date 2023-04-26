@@ -1,12 +1,12 @@
 {
   "SERVER": {
-    "SERVER_OFFLINE": "The server you specified is offline.",
-    "IP_ADDRESS": "IP address",
+    "SERVER_OFFLINE": "Le serveur que vous avez spécifié est hors ligne.",
+    "IP_ADDRESS": "Adresse IP",
     "PORT": "Port",
-    "PLAYERS": "Players",
+    "PLAYERS": "Joueurs",
     "VERSION": "Version"
   },
   "UUID": {
-    "WATCHING_PLAYER_UUID": "The uuid of the player **{{player}}** is **{{uuid}}**."
+    "WATCHING_PLAYER_UUID": "L'uuid du joueur **{{player}}** est **{{uuid}}**."
   }
 }
