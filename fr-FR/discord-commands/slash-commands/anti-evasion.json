@@ -1,37 +1,37 @@
 {
-  "description": "Module that allows you to ban those users who try to evade an active sanction.",
+  "description": "Module permettant de bannir les utilisateurs qui tentent de se soustraire à une sanction.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-evasion module."
+      "description": "Activez le module anti-évasion."
     },
     "disable": {
-      "description": "Disable the anti-evasion module."
+      "description": "Désactivez le module anti-évasion."
     },
     "action": {
-      "description": "Set the action to take when someone tries to evade an active sanction.",
+      "description": "Définissez l'action à entreprendre lorsque quelqu'un tente de se soustraire à une sanction.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action to take when someone tries to evade an active sanction."
+          "description": "Action à entreprendre lorsque quelqu'un tente de se soustraire à une sanction."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "durée",
+          "description": "Durée de l'action (en cas d'action temporaire)."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-evasion module documentation."
+      "description": "Obtenez le lien de la documentation du module anti-évasion."
     },
     "view": {
-      "description": "View the settings of the anti-evasion module."
+      "description": "Affichez les paramètres du module anti-évasion."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
         }
       }
     }
