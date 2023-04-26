@@ -1,44 +1,44 @@
 {
-  "description": "Manage Filo's commands by enabling or disabling them.",
+  "description": "Gérez les commandes de Filo en les activant ou en les désactivant.",
   "subcommands": {
     "enable": {
-      "description": "Enable a Filo's command or category.",
+      "description": "Activez une commande ou une catégorie de Filo.",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to enable."
+          "name": "cible",
+          "description": "Spécifiez ce que vous voulez activer."
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to enable."
+          "name": "valeur",
+          "description": "Nom de la commande ou de la catégorie que vous souhaitez activer."
         }
       }
     },
     "disable": {
-      "description": "Disable a Filo's command or category.",
+      "description": "Désactivez une commande ou une catégorie d'un Filo.",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to disable."
+          "name": "cible",
+          "description": "Spécifiez ce que vous voulez désactiver."
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to disable."
+          "name": "valeur",
+          "description": "Nom de la commande ou de la catégorie que vous souhaitez désactiver."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the disable commands module documentation."
+      "description": "Obtenez le lien de la documentation du module de désactivation de commandes."
     },
     "view": {
-      "description": "View the settings of the disable commands module."
+      "description": "Affichez les paramètres du module de désactivation des commandes."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
         }
       }
     }
