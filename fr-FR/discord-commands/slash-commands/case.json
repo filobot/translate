@@ -1,25 +1,25 @@
 {
-  "description": "Manage a sanction case.",
+  "description": "Gérez un dossier de sanction.",
   "subcommands": {
     "info": {
-      "description": "Get information about a sanction case.",
+      "description": "Obtenez des informations sur une sanction.",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "cas",
+          "description": "ID du cas."
         }
       }
     },
     "set": {
-      "description": "Set the new information for a case.",
+      "description": "Définissez les nouvelles informations pour un cas.",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "cas",
+          "description": "ID du cas."
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason you want to set to the case."
+          "name": "raison",
+          "description": "Raison pour laquelle vous souhaitez régler le cas."
         }
       }
     }
