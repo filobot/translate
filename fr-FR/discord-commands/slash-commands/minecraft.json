@@ -1,24 +1,24 @@
 {
-  "description": "Minecraft utility commands.",
+  "description": "Commandes utilitaires Minecraft.",
   "subcommand_groups": {
     "front": {
-      "description": "Send a render of the specified player's front.",
+      "description": "Envoyez un rendu global du joueur spécifié.",
       "subcommands": {
         "body": {
-          "description": "Send a render of the specified player's front body.",
+          "description": "Envoyez un rendu de l'avant du corps du joueur spécifié.",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "joueur",
+              "description": "Joueur de Minecraft."
             }
           }
         },
         "normal": {
-          "description": "Send a render of the specified player's front.",
+          "description": "Envoyez un rendu global du joueur spécifié.",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "joueur",
+              "description": "Joueur de Minecraft."
             }
           }
         }
@@ -27,69 +27,69 @@
   },
   "subcommands": {
     "body": {
-      "description": "Send a render of the specified player's body.",
+      "description": "Envoyez un rendu du corps du joueur spécifié.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
         }
       }
     },
     "bust": {
-      "description": "Send a render of the specified player's bust.",
+      "description": "Envoyez un rendu du buste du joueur spécifié.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
         }
       }
     },
     "face": {
-      "description": "Send a render of the specified player's face.",
+      "description": "Envoyez un rendu du visage du joueur spécifié.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
         }
       }
     },
     "head": {
-      "description": "Send a render of the specified player's head.",
+      "description": "Envoyez un rendu de la tête du joueur spécifié.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
         }
       }
     },
     "skin": {
-      "description": "Send a render of the specified player's skin.",
+      "description": "Envoyez d'un rendu du personnage du joueur spécifié.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
         }
       }
     },
     "uuid": {
-      "description": "Get the UUID of a minecraft player.",
+      "description": "Obtenez l'UUID d'un joueur de Minecraft.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
         }
       }
     },
     "server": {
-      "description": "Get the status of a Minecraft server.",
+      "description": "Obtenez l'état d'un serveur Minecraft.",
       "arguments": {
         "ip-address": {
-          "name": "ip-address",
-          "description": "Minecraft server IP address."
+          "name": "adresse-ip",
+          "description": "Adresse IP du serveur Minecraft."
         },
         "port": {
           "name": "port",
-          "description": "Minecraft server port."
+          "description": "Port du serveur Minecraft."
         }
       }
     }
