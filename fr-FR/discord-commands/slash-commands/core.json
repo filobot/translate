@@ -1,0 +1,153 @@
+{
+  "description": "Commandes de la catégorie Cœur.",
+  "subcommands": {
+    "info": {
+      "description": "Obtenez des informations sur le bot."
+    },
+    "flags": {
+      "description": "Montrez vos drapeaux ou celui d'un autre utilisateur spécifique.",
+      "arguments": {
+        "user": {
+          "name": "utilisateur",
+          "description": "Affichez les drapeaux de l'utilisateur."
+        }
+      }
+    },
+    "donate": {
+      "description": "Obtenez des informations sur les dons pour le bot."
+    },
+    "commands": {
+      "description": "Obtenez la liste des commandes du bot ou des informations sur une commande.",
+      "arguments": {
+        "command": {
+          "name": "commande",
+          "description": "Obtenez des informations à partir d'une commande."
+        }
+      }
+    },
+    "invite": {
+      "description": "Obtenez le lien d'invitation recommandé de Filo."
+    },
+    "privacy": {
+      "description": "Obtenez le lien vers la Politique de Confidentialité de Filo."
+    },
+    "terms": {
+      "description": "Obtenez le lien vers les Conditions Générales de Filo."
+    },
+    "twitter": {
+      "description": "Obtenez le lien vers le Twitter de Filo."
+    },
+    "status": {
+      "description": "Obtenez le lien vers la page de Statut de Filo."
+    },
+    "website": {
+      "description": "Obteniez le lien vers le Site web de Filo."
+    },
+    "github": {
+      "description": "Obtenez le lien vers le GitHub de Filo."
+    },
+    "discord": {
+      "description": "Obtenez le lien vers le serveur Discord de Filo."
+    },
+    "wiki": {
+      "description": "Obtenez le lien vers le Wiki de Filo."
+    },
+    "help": {
+      "description": "Obtenez de l'aide de base sur le bot."
+    },
+    "support": {
+      "description": "Obtenez des informations sur la manière de bénéficier d'une aide."
+    },
+    "vote": {
+      "description": "Obtenez le lien vers les pages de vote de Filo."
+    },
+    "votes": {
+      "description": "Obtenez le compteur de votes de toutes les pages de vote de Filo."
+    },
+    "cluster": {
+      "description": "Obtenez des informations sur ce cluster de Filo."
+    },
+    "statistics": {
+      "description": "Obtenez les statistiques globales de Filo."
+    },
+    "ping": {
+      "description": "Obtenez la latence de Filo et de l'API Discord."
+    }
+  },
+  "subcommand_groups": {
+    "roles": {
+      "description": "Gérez les rôles de manière avancée.",
+      "subcommands": {
+        "muted": {
+          "description": "Créez ou définissez le rôle Muted dans les paramètres.",
+          "arguments": {
+            "role": {
+              "name": "rôle",
+              "description": "Rôle de sourdine (au cas où vous souhaiteriez le définir et non le créer)."
+            }
+          }
+        },
+        "remove": {
+          "description": "Supprimez tous les paramètres d'un rôle depuis les paramètres.",
+          "arguments": {
+            "role": {
+              "name": "rôle",
+              "description": "Rôle pour lequel vous souhaitez supprimer tous les paramètres (propriétés et permissions)."
+            }
+          }
+        },
+        "permissions": {
+          "description": "Gérez les autorisations de chaque rôle.",
+          "arguments": {
+            "role": {
+              "name": "rôle",
+              "description": "Rôle que vous souhaitez gérer."
+            },
+            "permission": {
+              "name": "permission",
+              "description": "Permission que vous souhaitez ajouter, définir ou supprimer."
+            }
+          }
+        },
+        "view": {
+          "description": "Affichez les paramètres des rôles du serveur."
+        },
+        "reset": {
+          "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
+          "arguments": {
+            "confirmation": {
+              "name": "confirmation",
+              "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
+            }
+          }
+        }
+      }
+    },
+    "moderation": {
+      "description": "Gérez la section de modération.",
+      "subcommands": {
+        "dm-notifications": {
+          "description": "Activez ou désactivez les notifications pour les actions de modération.",
+          "arguments": {
+            "action": {
+              "name": "action",
+              "description": "Action que vous souhaitez réaliser."
+            }
+          }
+        },
+        "view": {
+          "description": "Affichez les réglages du module des paramètres de modération."
+        },
+        "reset": {
+          "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
+          "arguments": {
+            "confirmation": {
+              "name": "confirmation",
+              "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
+            }
+          }
+        }
+      }
+    }
+  }
+}

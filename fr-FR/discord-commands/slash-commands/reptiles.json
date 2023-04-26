@@ -1,0 +1,8 @@
+{
+  "description": "Envoyez une image de reptiles dans le salon.",
+  "subcommands": {
+    "snake": {
+      "description": "Envoyez une image aléatoire d'un serpent."
+    }
+  }
+}

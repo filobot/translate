@@ -1,0 +1,9 @@
+{
+  "description": "Réclamez vos crédits journaliers ou offrez-les à un utilisateur.",
+  "arguments": {
+    "user": {
+      "name": "utilisateur",
+      "description": "Utilisateur auquel vous souhaitez donner des crédits."
+    }
+  }
+}

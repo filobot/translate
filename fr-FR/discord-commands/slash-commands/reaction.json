@@ -1,0 +1,68 @@
+{
+  "description": "Réagissez aux autres utilisateurs en utilisant des gifs.",
+  "subcommands": {
+    "angry": {
+      "description": "Envoyez une réaction de colère."
+    },
+    "blush": {
+      "description": "Envoyez une réaction en train de rougir."
+    },
+    "bored": {
+      "description": "Envoyez une réaction d'ennui."
+    },
+    "cold": {
+      "description": "Envoyez une réaction froide."
+    },
+    "confused": {
+      "description": "Envoyez une réaction confuse."
+    },
+    "cry": {
+      "description": "Envoyez une réaction de pleur."
+    },
+    "dance": {
+      "description": "Envoyez une réaction de danse."
+    },
+    "eyebrows": {
+      "description": "Envoyez une réaction de sourcils."
+    },
+    "greet": {
+      "description": "Envoyez une réaction de salut."
+    },
+    "happy": {
+      "description": "Envoyer une réaction heureuse."
+    },
+    "hot": {
+      "description": "Envoyez une réaction de chaleur."
+    },
+    "like": {
+      "description": "Envoyez une réaction d'amour."
+    },
+    "pout": {
+      "description": "Envoyez une réaction de coup de moue."
+    },
+    "run": {
+      "description": "Envoyez une réaction de course."
+    },
+    "scared": {
+      "description": "Envoyez une réaction effrayée."
+    },
+    "sick": {
+      "description": "Envoyez une réaction malade."
+    },
+    "sing": {
+      "description": "Envoyez une réaction de chant."
+    },
+    "sleep": {
+      "description": "Envoyez une réaction de sommeil."
+    },
+    "smug": {
+      "description": "Envoyez une réaction positive."
+    },
+    "teehee": {
+      "description": "Envoyez une réaction de type \"teehee\"."
+    },
+    "think": {
+      "description": "Envoyez une réaction de pensée."
+    }
+  }
+}

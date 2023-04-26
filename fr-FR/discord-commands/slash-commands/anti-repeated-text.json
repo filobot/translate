@@ -1,0 +1,65 @@
+{
+  "description": "Module permettant de sanctionner les utilisateurs qui envoient du texte répété dans les messages.",
+  "subcommands": {
+    "enable": {
+      "description": "Activez le module anti-répétition de texte."
+    },
+    "disable": {
+      "description": "Désactivez le module anti-répétition de texte."
+    },
+    "action": {
+      "description": "Définissez l'action à entreprendre lorsque quelqu'un envoie un texte répété dans un message.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action à entreprendre lorsque quelqu'un envoie un texte répété dans un message."
+        },
+        "time": {
+          "name": "durée",
+          "description": "Durée de l'action (en cas d'action temporaire)."
+        }
+      }
+    },
+    "channel": {
+      "description": "Ajoutez ou supprimez un salon de la liste des salons ignorés.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action que vous souhaitez réaliser."
+        },
+        "channel": {
+          "name": "salon",
+          "description": "Salon de la liste de contournement des salons du module."
+        }
+      }
+    },
+    "role": {
+      "description": "Ajoutez ou supprimez un rôle de la liste des rôles ignorés.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action que vous souhaitez réaliser."
+        },
+        "role": {
+          "name": "rôle",
+          "description": "Rôle dans la liste de contournement des rôles du module."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenez le lien de la documentation du module anti-répétition de texte."
+    },
+    "view": {
+      "description": "Affichez les paramètres du module anti-répétition de texte."
+    },
+    "reset": {
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
+        }
+      }
+    }
+  }
+}

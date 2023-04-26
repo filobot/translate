@@ -1,0 +1,91 @@
+{
+  "HOME": {
+    "PRE_START": "Avant de continuer, vous devez cliquer sur le bouton **{{button}}**.",
+    "DESCRIPTION": "Commencez à configurer Filo en sélectionnant la catégorie de modules que vous souhaitez configurer et sélectionnez ensuite le module avec lequel vous souhaitez opérer.\n\n**Vous avez besoin d'un guide de référence? Ne vous inquiétez pas !**\nEn **[cliquant ici]({{url}})**, vous serez redirigé vers le wiki de Filo, qui contient des informations sur la façon dont configurer n'importe quoi.\n\n**Trop compliqué ?**\n**[Contactez-nous]({{url2}})** si vous avez des questions ou si vous avez besoin d'éclaircissements supplémentaires.",
+    "SELECT_A_MODULE_CATEGORY": {
+      "PLACEHOLDER": "Sélectionnez une catégorie de module",
+      "ADMINISTRATION": {
+        "LABEL": "Modules d'Administration",
+        "DESCRIPTION": "Modules pour vous aider dans l'administration de votre serveur."
+      },
+      "COMMUNITY": {
+        "LABEL": "Modules communautaires",
+        "DESCRIPTION": "Des modules pour vous aider à améliorer l'expérience dans votre communauté."
+      },
+      "MODERATION": {
+        "LABEL": "Modules de modération",
+        "DESCRIPTION": "Modules pour vous aider à modérer votre serveur."
+      }
+    },
+    "TITLE": "Menu de configuration de Filo"
+  },
+  "LOADING_DATA": "Veuillez patienter pendant le chargement des données nécessaires.",
+  "MODULES": {
+    "SELECT_A_MODULE": "Vous devez sélectionner le module de la catégorie **{{module}}** que vous souhaitez configurer.",
+    "PLACEHOLDER": "Sélectionnez un module",
+    "SELECT_THE_ACTION": "Vous devez sélectionner l'action que vous souhaitez effectuer sur le module.",
+    "MODULE_ENABLED_OR_DISABLED": "Le module **{{module}}** a été {{action}} avec succès.",
+    "RESET_REQUEST_WARNING": "Êtes-vous sûr de vouloir réinitialiser le module **{{module}}** ? Cette action ne peut être annulée !",
+    "MODULE_RESET": "Le module **{{module}}** a été réinitialisé avec succès.",
+    "COMMUNITY": {
+      "NAME": "Communauté",
+      "COMMANDS": {
+        "LABEL": "Commandes",
+        "DESCRIPTION": "Modifiez le comportement des commandes de Filo.",
+        "SELECT_THE_ACTION_PLACEHOLDER": "Sélectionnez une action",
+        "CONFIGURE": {
+          "SELECT_THE_COMMANDS": "Vous devez sélectionner les commandes que vous souhaitez {{action}}.",
+          "SELECT_THE_CATEGORIES": "Vous devez sélectionner les catégories que vous souhaitez {{action}}.",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Sélectionnez les commandes",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Sélectionnez les catégories",
+          "DISABLE_COMMANDS": {
+            "LABEL": "Désactivez les commandes",
+            "DESCRIPTION": "Désactivez les commandes de Filo.",
+            "NO_COMMANDS_TO_DISABLE": "Toutes les commandes disponibles ont été désactivées.",
+            "COMMANDS_DISABLED": "Vous avez désactivé les commandes **{{commands}}** avec succès."
+          },
+          "ENABLE_COMMANDS": {
+            "LABEL": "Activez les commandes",
+            "DESCRIPTION": "Activez les commandes de Filo.",
+            "NO_COMMANDS_TO_ENABLE": "Toutes les commandes disponibles sont actuellement activées.",
+            "COMMANDS_ENABLED": "Vous avez activé les commandes **{{commands}}** avec succès."
+          },
+          "DISABLE_CATEGORIES": {
+            "LABEL": "Désactivez les catégories",
+            "DESCRIPTION": "Désactivez les catégories de Filo.",
+            "NO_CATEGORIES_TO_DISABLE": "Toutes les catégories disponibles ont été désactivées.",
+            "CATEGORIES_DISABLED": "Vous avez désactivé **{{categories}}** catégories avec succès."
+          },
+          "ENABLE_CATEGORIES": {
+            "LABEL": "Activez les catégories",
+            "DESCRIPTION": "Activez les catégories de Filo.",
+            "NO_CATEGORIES_TO_ENABLE": "Toutes les catégories disponibles sont actuellement activées.",
+            "CATEGORIES_ENABLED": "Vous avez activé les catégories **{{categories}}** avec succès."
+          }
+        }
+      },
+      "LANGUAGE": {
+        "LABEL": "Langue",
+        "DESCRIPTION": "Changez la langue de Filo sur ce serveur.",
+        "SELECT_A_LANGUAGE": "Vous devez sélectionner la langue que vous souhaitez définir.",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Sélectionnez une langue",
+        "LANGUAGE_SET": "Vous avez correctement défini la langue en **{{language}}**."
+      }
+    },
+    "VIEW": {
+      "TITLE": "Visualisation des paramètres du module **{{module}}**",
+      "NO_DATA": "Pas de données",
+      "SELECT_THE_DATA": "Sélectionnez les données à afficher",
+      "VIEW_ALL": "Voir tous les {{data}}.",
+      "COMMUNITY": {
+        "LANGUAGE": {
+          "LANGUAGE_CODE": "Code langue"
+        },
+        "COMMANDS": {
+          "DISABLED_COMMANDS": "Commandes désactivées",
+          "DISABLED_CATEGORIES": "Catégories désactivées"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "description": "Gérez un salon.",
+  "subcommand_groups": {
+    "cooldown": {
+      "description": "Gérez le temps d'attante d'un salon.",
+      "subcommands": {
+        "set": {
+          "description": "Définissez le temps d'attente d'un salon.",
+          "arguments": {
+            "time": {
+              "name": "durée",
+              "description": "Délai d'attente que vous souhaitez définir."
+            },
+            "channel": {
+              "name": "salon",
+              "description": "Salon où vous souhaitez initialiser le temps d'attente."
+            },
+            "reset": {
+              "description": "Réinitialisez le temps d'attante d'un salon.",
+              "arguments": {
+                "channel": {
+                  "name": "salon",
+                  "description": "Salon où vous souhaitez réinitialiser le temps d'attente."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "messages": {
+      "description": "Gérez les messages d'un salon.",
+      "subcommands": {
+        "pin": {
+          "description": "Épinglez un message sur le salon.",
+          "arguments": {
+            "message": {
+              "name": "message",
+              "description": "ID du message à épingler."
+            }
+          }
+        },
+        "purge": {
+          "description": "Purgez un certain nombre de messages d'un salon.",
+          "arguments": {
+            "messages": {
+              "name": "messages",
+              "description": "Nombre de messages à purger."
+            },
+            "channel": {
+              "name": "salon",
+              "description": "Salon dans lequel vous souhaitez purger les messages."
+            }
+          }
+        },
+        "unpin": {
+          "description": "Désépinglez un message sur le salon.",
+          "arguments": {
+            "message": {
+              "name": "message",
+              "description": "ID du message que vous souhaitez désépingler."
+            }
+          }
+        }
+      }
+    },
+    "nsfw": {
+      "description": "Basculer le mode NSFW d'un salon.",
+      "subcommands": {
+        "enable": {
+          "description": "Activez le mode NSFW d'un salon.",
+          "arguments": {
+            "channel": {
+              "name": "salon",
+              "description": "Salon dans lequel vous souhaitez activer le mode NSFW."
+            }
+          }
+        },
+        "disable": {
+          "description": "Désactivez le mode NSFW d'un salon.",
+          "arguments": {
+            "channel": {
+              "name": "salon",
+              "description": "SAlon dans lequel vous souhaitez désactiver le mode NSFW."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "info": {
+      "description": "Obtenez des informations sur un salon.",
+      "arguments": {
+        "channel": {
+          "name": "salon",
+          "description": "Salon d'où proviendront les informations."
+        }
+      }
+    },
+    "invite": {
+      "description": "Créez une invitation instantanée pour un salon.",
+      "arguments": {
+        "channel": {
+          "name": "salon",
+          "description": "Salon où créer l'invitation instantanée."
+        },
+        "temporary": {
+          "name": "temporaire",
+          "description": "Indiquez si vous souhaitez accorder une adhésion temporaire ou permanente."
+        },
+        "max-age": {
+          "name": "âge-max",
+          "description": "Temps restant jusqu'à l'expiration de l'invitation."
+        },
+        "max-uses": {
+          "name": "utilisations-maximales",
+          "description": "Nombre maximum d'utilisations de l'invitation."
+        },
+        "force": {
+          "name": "forcer",
+          "description": "Forcer la création de l'invitation."
+        }
+      }
+    }
+  }
+}

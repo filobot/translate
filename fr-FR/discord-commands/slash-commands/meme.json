@@ -1,0 +1,14 @@
+{
+  "description": "Envoyez un mème dans le salon.",
+  "subcommands": {
+    "chuck-norris": {
+      "description": "Envoyez un mème de Chuck Norris."
+    },
+    "drake": {
+      "description": "Envoyez un mème de Drake."
+    },
+    "random": {
+      "description": "Envoyez un mème aléatoire."
+    }
+  }
+}

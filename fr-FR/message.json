@@ -1,0 +1,8 @@
+{
+  "MESSAGE": "Message",
+  "MESSAGES": "Messages",
+  "MESSAGE_INFORMATION": "Informations sur le message",
+  "MESSAGE_LINK": "URL du message",
+  "MESSAGE_WITHOUT_CONTENT": "Message sans contenu",
+  "NUMBER_OF_PURGED_MESSAGES": "Nombre de messages purgés"
+}

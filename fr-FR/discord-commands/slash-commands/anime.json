@@ -1,0 +1,58 @@
+{
+  "description": "Utilitaires d'animés.",
+  "subcommands": {
+    "avatar": {
+      "description": "Envoyez une image aléatoire d'un avatar d'anime."
+    },
+    "search": {
+      "description": "Recherchez les informations d'un anime.",
+      "arguments": {
+        "title": {
+          "name": "titre",
+          "description": "Titre de l'anime."
+        }
+      }
+    },
+    "random": {
+      "description": "Affichez les informations d'un anime aléatoire selon les critères que vous avez spécifiés.",
+      "arguments": {
+        "term": {
+          "name": "terme",
+          "description": "Terme qui doit être inclus dans le titre de l'anime."
+        },
+        "type": {
+          "name": "type",
+          "description": "Type d'anime."
+        },
+        "status": {
+          "name": "statut",
+          "description": "Statut de l'anime."
+        },
+        "rating": {
+          "name": "évaluation",
+          "description": "Évaluation de l'Anime."
+        },
+        "genre": {
+          "name": "genre",
+          "description": "Genre ou l'un des genres de l'anime."
+        }
+      }
+    }
+  },
+  "subcommand_groups": {
+    "characters": {
+      "description": "Envoyez une image ou un gif aléatoire sur un personnage d'anime.",
+      "subcommands": {
+        "ghoul": {
+          "description": "Envoyez une image aléatoire d'un Ghoul."
+        },
+        "jojo": {
+          "description": "Envoyez une image aléatoire d'un Jojo."
+        },
+        "titan": {
+          "description": "Envoyez une image aléatoire d'un Titan."
+        }
+      }
+    }
+  }
+}

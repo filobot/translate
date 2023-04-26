@@ -1,0 +1,3 @@
+{
+  "USER_REPORTED": "Vous avez signalé avec succès [**{{user.tag}}**]({{url}}) ({{user.id}})."
+}

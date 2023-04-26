@@ -1,0 +1,65 @@
+{
+  "description": "Module permettant de configurer un salon en tant que compteur de membres du serveur.",
+  "subcommands": {
+    "enable": {
+      "description": "Activez le module de comptage des membres.",
+      "arguments": {
+        "module": {
+          "name": "module",
+          "description": "Module que vous souhaitez activer."
+        }
+      }
+    },
+    "disable": {
+      "description": "Désactivez le module de comptage des membres.",
+      "arguments": {
+        "module": {
+          "name": "module",
+          "description": "Module que vous souhaitez désactiver."
+        }
+      }
+    },
+    "channel": {
+      "description": "Définissez le salon du compteur de membres.",
+      "arguments": {
+        "channel": {
+          "name": "salon",
+          "description": "Salon que vous souhaitez définir comme salon de comptage des membres."
+        }
+      }
+    },
+    "name": {
+      "description": "Définissez le nom du salon de comptage des membres.",
+      "arguments": {
+        "name": {
+          "name": "nom",
+          "description": "Nom du salon de comptage membre."
+        }
+      }
+    },
+    "nickname": {
+      "description": "Définissez le pseudo du pseudo du compteur de membre.",
+      "arguments": {
+        "nickname": {
+          "name": "surnom",
+          "description": "Pseudo du pseudo du compteur de membre."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenez le lien de la documentation du module de comptage des membres."
+    },
+    "view": {
+      "description": "Affichez les paramètres du module de comptage des membres."
+    },
+    "reset": {
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
+        }
+      }
+    }
+  }
+}

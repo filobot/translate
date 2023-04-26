@@ -1,0 +1,19 @@
+{
+  "COOLDOWN": {
+    "COMPLETED": "Vous avez défini **{{time}}** comme temps d'attente sur le salon **[#{{channel.name}}]({{url}})**."
+  },
+  "MESSAGES": {
+    "PIN": {
+      "COMPLETED": "Vous avez épinglé le message **[{{message.id}}]({{message.url}})** dans le salon **[#{{channel.name}}]({{url}})**."
+    },
+    "PURGE": {
+      "COMPLETED": "Vous avez purgé **{{messages}}** les messages du salon **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+    },
+    "UNPIN": {
+      "COMPLETED": "Vous avez désépinglé le message **[{{message.id}}]({{message.url}})** dans le salon **[#{{channel.name}}]({{url}})**."
+    }
+  },
+  "NSFW": {
+    "COMPLETED": "Vous avez {{action}} le mode NSFW dans le salon **[#{{channel.name}}]({{url}})** ({{channel.id}})."
+  }
+}

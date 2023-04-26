@@ -1,0 +1,21 @@
+{
+  "description": "Softbannissez un utilisateur du serveur.",
+  "arguments": {
+    "user": {
+      "name": "utilisateur",
+      "description": "Utilisateur que vous voulez softbannir."
+    },
+    "reason": {
+      "name": "raison",
+      "description": "Raison du softbanning de cet utilisateur."
+    },
+    "message-history": {
+      "name": "historique des messages",
+      "description": "Indiquez si vous souhaitez supprimer l'historique des messages de l'utilisateur."
+    },
+    "silent": {
+      "name": "silence",
+      "description": "Indiquez si vous souhaitez que la sanction ne soit pas notifiée à l'utilisateur."
+    }
+  }
+}

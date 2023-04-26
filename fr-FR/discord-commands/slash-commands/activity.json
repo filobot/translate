@@ -1,0 +1,13 @@
+{
+  "description": "Démarrer une activité sur un salon vocal.",
+  "arguments": {
+    "activity": {
+      "name": "activité",
+      "description": "Activité que vous souhaitez démarrer."
+    },
+    "channel": {
+      "name": "salon",
+      "description": "Salon vocal dans lequel vous souhaitez démarrer l'activité."
+    }
+  }
+}

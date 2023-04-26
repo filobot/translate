@@ -1,0 +1,87 @@
+{
+  "description": "Module qui vous permet de sanctionner les utilisateurs qui postent des mots grossiers.",
+  "subcommands": {
+    "enable": {
+      "description": "Activez le module anti mots grossiers."
+    },
+    "disable": {
+      "description": "Désactivez le module anti mots grossiers."
+    },
+    "action": {
+      "description": "Définissez l'action à entreprendre lorsque quelqu'un poste des mots grossiers.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action à prendre lorsque quelqu'un poste des mots grossiers."
+        },
+        "time": {
+          "name": "durée",
+          "description": "Durée de l'action (en cas d'action temporaire)."
+        }
+      }
+    },
+    "word": {
+      "description": "Ajoutez ou supprimez des mots grossiers de la liste.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action à prendre en cas de mots grossiers."
+        },
+        "word": {
+          "name": "mot",
+          "description": "Mot grossier que vous souhaitez ajouter ou supprimer de la liste."
+        }
+      }
+    },
+    "aggressive-filter": {
+      "description": "Activez ou désactivez le filtre agressif de détection de mots grossiers.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action que vous souhaitez réaliser."
+        }
+      }
+    },
+    "channel": {
+      "description": "Ajoutez ou supprimez un salon de la liste des salons ignorés.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action que vous souhaitez réaliser."
+        },
+        "channel": {
+          "name": "salon",
+          "description": "Salon de la liste de contournement des salons du module."
+        }
+      }
+    },
+    "role": {
+      "description": "Ajoutez ou supprimez un rôle de la liste des rôles ignorés.",
+      "arguments": {
+        "action": {
+          "name": "action",
+          "description": "Action que vous souhaitez réaliser."
+        },
+        "role": {
+          "name": "rôle",
+          "description": "Rôle dans la liste de contournement des rôles du module."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obtenez le lien de la documentation du module anti mots grossiers."
+    },
+    "view": {
+      "description": "Affichez les paramètres du module anti mots grossiers."
+    },
+    "reset": {
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
+        }
+      }
+    }
+  }
+}

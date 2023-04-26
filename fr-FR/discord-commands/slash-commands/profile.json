@@ -1,0 +1,9 @@
+{
+  "description": "Affichez votre profil ou celui d'un autre utilisateur.",
+  "arguments": {
+    "user": {
+      "name": "utilisateur",
+      "description": "Utilisateur pour lequel vous souhaitez obtenir le profil."
+    }
+  }
+}

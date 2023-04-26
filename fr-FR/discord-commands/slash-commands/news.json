@@ -1,0 +1,27 @@
+{
+  "description": "Suivez ou obtenez des informations sur nos salons d'information.",
+  "subcommands": {
+    "information": {
+      "description": "Obtenez des informations sur nos salons d'information.",
+      "arguments": {
+        "news": {
+          "name": "nouveautés",
+          "description": "Nouveautés dont vous voulez obtenir l'information."
+        }
+      }
+    },
+    "follow": {
+      "description": "Suivez l'actualité de notre serveur sur votre serveur.",
+      "arguments": {
+        "news": {
+          "name": "nouveautés",
+          "description": "Salons d'informations que vous souhaitez suivre."
+        },
+        "channel": {
+          "name": "salon",
+          "description": "Salon où vous souhaitez que les nouveautés soient envoyées."
+        }
+      }
+    }
+  }
+}

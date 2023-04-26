@@ -1,0 +1,97 @@
+{
+  "description": "Commandes utilitaires Minecraft.",
+  "subcommand_groups": {
+    "front": {
+      "description": "Envoyez un rendu global du joueur spécifié.",
+      "subcommands": {
+        "body": {
+          "description": "Envoyez un rendu de l'avant du corps du joueur spécifié.",
+          "arguments": {
+            "player": {
+              "name": "joueur",
+              "description": "Joueur de Minecraft."
+            }
+          }
+        },
+        "normal": {
+          "description": "Envoyez un rendu global du joueur spécifié.",
+          "arguments": {
+            "player": {
+              "name": "joueur",
+              "description": "Joueur de Minecraft."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "body": {
+      "description": "Envoyez un rendu du corps du joueur spécifié.",
+      "arguments": {
+        "player": {
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
+        }
+      }
+    },
+    "bust": {
+      "description": "Envoyez un rendu du buste du joueur spécifié.",
+      "arguments": {
+        "player": {
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
+        }
+      }
+    },
+    "face": {
+      "description": "Envoyez un rendu du visage du joueur spécifié.",
+      "arguments": {
+        "player": {
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
+        }
+      }
+    },
+    "head": {
+      "description": "Envoyez un rendu de la tête du joueur spécifié.",
+      "arguments": {
+        "player": {
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
+        }
+      }
+    },
+    "skin": {
+      "description": "Envoyez d'un rendu du personnage du joueur spécifié.",
+      "arguments": {
+        "player": {
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
+        }
+      }
+    },
+    "uuid": {
+      "description": "Obtenez l'UUID d'un joueur de Minecraft.",
+      "arguments": {
+        "player": {
+          "name": "joueur",
+          "description": "Joueur de Minecraft."
+        }
+      }
+    },
+    "server": {
+      "description": "Obtenez l'état d'un serveur Minecraft.",
+      "arguments": {
+        "ip-address": {
+          "name": "adresse-ip",
+          "description": "Adresse IP du serveur Minecraft."
+        },
+        "port": {
+          "name": "port",
+          "description": "Port du serveur Minecraft."
+        }
+      }
+    }
+  }
+}

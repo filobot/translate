@@ -1,0 +1,68 @@
+{
+  "description": "Module d'Accueil qui permet d'envoyer un message aux nouveaux membres et de leur attribuer un rôle.",
+  "subcommands": {
+    "enable": {
+      "description": "Activez le module de bienvenue.",
+      "arguments": {
+        "module": {
+          "name": "module",
+          "description": "Module que vous souhaitez activer."
+        }
+      }
+    },
+    "disable": {
+      "description": "Désactivez le module de bienvenue.",
+      "arguments": {
+        "module": {
+          "name": "module",
+          "description": "Module que vous souhaitez désactiver."
+        }
+      }
+    },
+    "channel": {
+      "description": "Définissez le salon dans lequel les messages de bienvenue seront envoyés.",
+      "arguments": {
+        "channel": {
+          "name": "salon",
+          "description": "Salon dans lequel les messages de bienvenue seront envoyés."
+        }
+      }
+    },
+    "message": {
+      "description": "Définissez le message de bienvenue."
+    },
+    "type": {
+      "description": "Définissez le mode d'envoi du message de bienvenue.",
+      "arguments": {
+        "type": {
+          "name": "type",
+          "description": "Façon dont le message de bienvenue sera envoyé."
+        }
+      }
+    },
+    "role": {
+      "description": "Définissez le rôle que vous souhaitez attribuer aux nouveaux membres.",
+      "arguments": {
+        "role": {
+          "name": "rôle",
+          "description": "Rôle que vous souhaitez attribuer aux nouveaux membres."
+        }
+      }
+    },
+    "docs": {
+      "description": "Obteniez le lien de la documentation du module de bienvenue."
+    },
+    "view": {
+      "description": "Visualisation des paramètres du module de bienvenue."
+    },
+    "reset": {
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "USER_CREDITS": "**[{{user.tag}}]({{url}})** ({{user.id}}) a **{{credits}}** crédits en banque."
+}

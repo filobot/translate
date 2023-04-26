@@ -1,0 +1,13 @@
+{
+  "description": "Obtenez les statistiques d'un joueur de R6S.",
+  "arguments": {
+    "platform": {
+      "name": "plateforme",
+      "description": "Plateforme où le joueur joue."
+    },
+    "player": {
+      "name": "joueur",
+      "description": "Pseudonyme In Game du joueur."
+    }
+  }
+}

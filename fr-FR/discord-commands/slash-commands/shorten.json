@@ -1,0 +1,9 @@
+{
+  "description": "Raccourcissez une URL.",
+  "arguments": {
+    "url": {
+      "name": "url",
+      "description": "URL que vous souhaitez raccourcir."
+    }
+  }
+}

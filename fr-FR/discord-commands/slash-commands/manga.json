@@ -1,0 +1,39 @@
+{
+  "description": "Utilitaires Manga.",
+  "subcommands": {
+    "random": {
+      "description": "Affichez les informations d'un manga choisi au hasard en fonction des critères spécifiés.",
+      "arguments": {
+        "term": {
+          "name": "terme",
+          "description": "Terme qui doit être inclus dans le titre du manga."
+        },
+        "type": {
+          "name": "type",
+          "description": "Type de Manga."
+        },
+        "status": {
+          "name": "statut",
+          "description": "Statut du Manga."
+        },
+        "rating": {
+          "name": "évaluation",
+          "description": "Cote du Manga."
+        },
+        "genre": {
+          "name": "genre",
+          "description": "Genre ou l'un des genres de l'anime."
+        }
+      }
+    },
+    "search": {
+      "description": "Recherchez les informations d'un manga.",
+      "arguments": {
+        "title": {
+          "name": "titre",
+          "description": "Titre du Manga."
+        }
+      }
+    }
+  }
+}
