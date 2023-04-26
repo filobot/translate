@@ -1,9 +1,9 @@
 {
-  "description": "Claim your daily credits or gift them to a user.",
+  "description": "Réclamez vos crédits journaliers ou offrez-les à un utilisateur.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User to whom you want to give your daily credits."
+      "name": "utilisateur",
+      "description": "Utilisateur auquel vous souhaitez donner des crédits."
     }
   }
 }
