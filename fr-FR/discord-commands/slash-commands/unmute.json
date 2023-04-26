@@ -1,21 +1,21 @@
 {
-  "description": "Remove the mute from a user.",
+  "description": "Supprimez la mise en sourdine d'un utilisateur.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to remove the mute from."
+      "name": "utilisateur",
+      "description": "Utilisateur dont vous souhaitez supprimer la sourdine."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the mute."
+      "name": "raison",
+      "description": "Raison de la suppression de la sourdine."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "silence",
+      "description": "Indiquez si vous souhaitez que la sanction ne soit pas notifiée à l'utilisateur."
     },
     "force": {
-      "name": "force",
-      "description": "Force removal of the mute."
+      "name": "forcer",
+      "description": "Forcer le retrait de la sourdine."
     }
   }
 }
