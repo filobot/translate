@@ -1,9 +1,9 @@
 {
-  "description": "Get the lyrics of a song.",
+  "description": "Obtenez les paroles d'une chanson.",
   "arguments": {
     "song": {
-      "name": "song",
-      "description": "Song title."
+      "name": "chanson",
+      "description": "Titre de la chanson."
     }
   }
 }
