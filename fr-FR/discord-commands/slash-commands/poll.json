@@ -1,45 +1,45 @@
 {
-  "description": "Create a poll on the current channel.",
+  "description": "Créez un sondage sur le salon actuel.",
   "arguments": {
     "message": {
       "name": "message",
-      "description": "Message to the poll."
+      "description": "Message du sondage."
     },
     "choice-1": {
-      "name": "choice-1",
-      "description": "Choice 1 of the poll."
+      "name": "choix-1",
+      "description": "Choix 1 du sondage."
     },
     "choice-2": {
-      "name": "choice-2",
-      "description": "Choice 2 of the poll."
+      "name": "choix-2",
+      "description": "Choix 2 du sondage."
     },
     "choice-3": {
-      "name": "choice-3",
-      "description": "Choice 3 of the poll."
+      "name": "choix-3",
+      "description": "Choix 3 du sondage."
     },
     "choice-4": {
-      "name": "choice-4",
-      "description": "Choice 4 of the poll."
+      "name": "choix-4",
+      "description": "Choix 4 du sondage."
     },
     "choice-5": {
-      "name": "choice-5",
-      "description": "Choice 5 of the poll."
+      "name": "choix-5",
+      "description": "Choix 5 du sondage."
     },
     "choice-6": {
-      "name": "choice-6",
-      "description": "Choice 6 of the poll."
+      "name": "choix-6",
+      "description": "Choix 6 du sondage."
     },
     "choice-7": {
-      "name": "choice-7",
-      "description": "Choice 7 of the poll."
+      "name": "choix-7",
+      "description": "Choix 7 du sondage."
     },
     "choice-8": {
-      "name": "choice-8",
-      "description": "Choice 8 of the poll."
+      "name": "choix-8",
+      "description": "Choix 8 du sondage."
     },
     "choice-9": {
-      "name": "choice-9",
-      "description": "Choice 9 of the poll."
+      "name": "choix-9",
+      "description": "Choix 9 du sondage."
     }
   }
 }
