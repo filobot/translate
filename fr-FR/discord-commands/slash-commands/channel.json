@@ -1,26 +1,26 @@
 {
-  "description": "Manage a channel.",
+  "description": "Gérez un salon.",
   "subcommand_groups": {
     "cooldown": {
-      "description": "Manage the cooldown of a channel.",
+      "description": "Gérez le temps d'attante d'un salon.",
       "subcommands": {
         "set": {
-          "description": "Set the cooldown of a channel.",
+          "description": "Définissez le temps d'attente d'un salon.",
           "arguments": {
             "time": {
-              "name": "time",
-              "description": "Cooldown you want to set."
+              "name": "durée",
+              "description": "Délai d'attente que vous souhaitez définir."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to set the cooldown."
+              "name": "salon",
+              "description": "Salon où vous souhaitez initialiser le temps d'attente."
             },
             "reset": {
-              "description": "Reset the cooldown of a channel.",
+              "description": "Réinitialisez le temps d'attante d'un salon.",
               "arguments": {
                 "channel": {
-                  "name": "channel",
-                  "description": "Channel where you want to reset the cooldown."
+                  "name": "salon",
+                  "description": "Salon où vous souhaitez réinitialiser le temps d'attente."
                 }
               }
             }
@@ -29,59 +29,59 @@
       }
     },
     "messages": {
-      "description": "Manage the messages of a channel.",
+      "description": "Gérez les messages d'un salon.",
       "subcommands": {
         "pin": {
-          "description": "Pin a message on the current channel.",
+          "description": "Épinglez un message sur le salon.",
           "arguments": {
             "message": {
               "name": "message",
-              "description": "ID of the message you want to pin."
+              "description": "ID du message à épingler."
             }
           }
         },
         "purge": {
-          "description": "Purge a number of messages from a channel.",
+          "description": "Purgez un certain nombre de messages d'un salon.",
           "arguments": {
             "messages": {
               "name": "messages",
-              "description": "Number of messages you want to purge."
+              "description": "Nombre de messages à purger."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to purge messages."
+              "name": "salon",
+              "description": "Salon dans lequel vous souhaitez purger les messages."
             }
           }
         },
         "unpin": {
-          "description": "Unpin a message on the current channel.",
+          "description": "Désépinglez un message sur le salon.",
           "arguments": {
             "message": {
               "name": "message",
-              "description": "ID of the message you want to unpin."
+              "description": "ID du message que vous souhaitez désépingler."
             }
           }
         }
       }
     },
     "nsfw": {
-      "description": "Switch the NSFW mode of a channel.",
+      "description": "Basculer le mode NSFW d'un salon.",
       "subcommands": {
         "enable": {
-          "description": "Enable the NSFW mode of a channel.",
+          "description": "Activez le mode NSFW d'un salon.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to enable the NSFW mode."
+              "name": "salon",
+              "description": "Salon dans lequel vous souhaitez activer le mode NSFW."
             }
           }
         },
         "disable": {
-          "description": "Disable the NSFW mode of a channel.",
+          "description": "Désactivez le mode NSFW d'un salon.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to disable the NSFW mode."
+              "name": "salon",
+              "description": "SAlon dans lequel vous souhaitez désactiver le mode NSFW."
             }
           }
         }
@@ -90,36 +90,36 @@
   },
   "subcommands": {
     "info": {
-      "description": "Get information about a channel.",
+      "description": "Obtenez des informations sur un salon.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the information will come from."
+          "name": "salon",
+          "description": "Salon d'où proviendront les informations."
         }
       }
     },
     "invite": {
-      "description": "Create an instant invite of a channel.",
+      "description": "Créez une invitation instantanée pour un salon.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where to create the instant invite."
+          "name": "salon",
+          "description": "Salon où créer l'invitation instantanée."
         },
         "temporary": {
-          "name": "temporary",
-          "description": "Specify if you want to grant temporary or permanent membership."
+          "name": "temporaire",
+          "description": "Indiquez si vous souhaitez accorder une adhésion temporaire ou permanente."
         },
         "max-age": {
-          "name": "max-age",
-          "description": "Time until the invite expires."
+          "name": "âge-max",
+          "description": "Temps restant jusqu'à l'expiration de l'invitation."
         },
         "max-uses": {
-          "name": "max-uses",
-          "description": "Maximum number of uses of the invite."
+          "name": "utilisations-maximales",
+          "description": "Nombre maximum d'utilisations de l'invitation."
         },
         "force": {
-          "name": "force",
-          "description": "Force the creation of the invite."
+          "name": "forcer",
+          "description": "Forcer la création de l'invitation."
         }
       }
     }
