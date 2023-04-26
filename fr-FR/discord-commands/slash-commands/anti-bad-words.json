@@ -1,85 +1,85 @@
 {
-  "description": "Module that allows you to sanction users who send bad words.",
+  "description": "Module qui vous permet de sanctionner les utilisateurs qui postent des mots grossiers.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-bad-words module."
+      "description": "Activez le module anti mots grossiers."
     },
     "disable": {
-      "description": "Disable the anti-bad-words module."
+      "description": "Désactivez le module anti mots grossiers."
     },
     "action": {
-      "description": "Set the action to take when someone sends bad words.",
+      "description": "Définissez l'action à entreprendre lorsque quelqu'un poste des mots grossiers.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action to take when someone sends bad words."
+          "description": "Action à prendre lorsque quelqu'un poste des mots grossiers."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "durée",
+          "description": "Durée de l'action (en cas d'action temporaire)."
         }
       }
     },
     "word": {
-      "description": "Add or remove bad words from the bad word list.",
+      "description": "Ajoutez ou supprimez des mots grossiers de la liste.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action to take with the bad word."
+          "description": "Action à prendre en cas de mots grossiers."
         },
         "word": {
-          "name": "word",
-          "description": "Bad word that you want to add or remove from the bad word list."
+          "name": "mot",
+          "description": "Mot grossier que vous souhaitez ajouter ou supprimer de la liste."
         }
       }
     },
     "aggressive-filter": {
-      "description": "Enable or disable the aggressive bad word detection filter.",
+      "description": "Activez ou désactivez le filtre agressif de détection de mots grossiers.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action you want to carry out."
+          "description": "Action que vous souhaitez réaliser."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Ajoutez ou supprimez un salon de la liste des salons ignorés.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action you want to carry out."
+          "description": "Action que vous souhaitez réaliser."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "salon",
+          "description": "Salon de la liste de contournement des salons du module."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Ajoutez ou supprimez un rôle de la liste des rôles ignorés.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action you want to carry out."
+          "description": "Action que vous souhaitez réaliser."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rôle",
+          "description": "Rôle dans la liste de contournement des rôles du module."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-bad-words module documentation."
+      "description": "Obtenez le lien de la documentation du module anti mots grossiers."
     },
     "view": {
-      "description": "View the settings of the anti-bad-words module."
+      "description": "Affichez les paramètres du module anti mots grossiers."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
         }
       }
     }
