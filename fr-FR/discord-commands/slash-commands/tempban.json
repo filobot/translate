@@ -1,25 +1,25 @@
 {
-  "description": "Temporarily ban a user from the server.",
+  "description": "Bannissez temporairement un utilisateur du serveur.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to temporarily ban."
+      "name": "utilisateur",
+      "description": "Utilisateur que vous souhaitez bannir temporairement."
     },
     "time": {
-      "name": "time",
-      "description": "Duration of the sanction."
+      "name": "durée",
+      "description": "Durée de la sanction."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for temporarily banning this user."
+      "name": "raison",
+      "description": "Raison du bannissement temporaire de cet utilisateur."
     },
     "message-history": {
-      "name": "message-history",
-      "description": "Specify if you want to delete the user's message history."
+      "name": "historique des messages",
+      "description": "Indiquez si vous souhaitez supprimer l'historique des messages de l'utilisateur."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "silence",
+      "description": "Indiquez si vous souhaitez que la sanction ne soit pas notifiée à l'utilisateur."
     }
   }
 }
