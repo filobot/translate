@@ -1,43 +1,43 @@
 {
-  "description": "Module that allows you to send a goodbye message to old members.",
+  "description": "Module permettant d'envoyer un message d'aurevoir aux anciens membres.",
   "subcommands": {
     "enable": {
-      "description": "Enable the farewells module."
+      "description": "Activez le module d'aurevoir."
     },
     "disable": {
-      "description": "Disable the farewells module."
+      "description": "Désactivez le module d'aurevoir."
     },
     "channel": {
-      "description": "Set the channel where the farewell messages will be sent.",
+      "description": "Définissez le salon où les messages d'aurevoir seront envoyés.",
       "arguments": {
-        "name": "channel",
-        "description": "Channel where farewell messages will be sent."
+        "name": "salon",
+        "description": "Salon où seront envoyés les messages d'aurevoir."
       }
     },
     "message": {
-      "description": "Set the farewell message."
+      "description": "Définissez le message d'aurevoir."
     },
     "type": {
-      "description": "Set the way in which the farewell message will be sent.",
+      "description": "Définissez la manière dont le message d'aurevoir sera envoyé.",
       "arguments": {
         "type": {
           "name": "type",
-          "description": "Way in which the welcome farewell will be sent."
+          "description": "Mode d'envoi du message de bienvenue et d'aurevoir."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the farewells module documentation."
+      "description": "Obtenez le lien de la documentation du module d'aurevoir."
     },
     "view": {
-      "description": "View the settings of the farewells module."
+      "description": "Affichez les paramètres du module d'aurevoirs."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
         }
       }
     }
