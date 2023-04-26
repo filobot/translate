@@ -1,13 +1,13 @@
 {
-  "description": "Manage the nickname of a user.",
+  "description": "Gérer le surnom d'un utilisateur.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User whose nickname you want to change."
+      "name": "utilisateur",
+      "description": "Utilisateur dont vous souhaitez modifier le pseudonyme."
     },
     "nickname": {
-      "name": "nickname",
-      "description": "Nickname that you want to set to the user."
+      "name": "surnom",
+      "description": "Surnom que vous souhaitez attribuer à l'utilisateur."
     }
   }
 }
