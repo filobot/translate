@@ -1,17 +1,17 @@
 {
-  "description": "Remove the ban from a user.",
+  "description": "Supprimez le bannissement d'un utilisateur.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to remove the ban from."
+      "name": "utilisateur",
+      "description": "Utilisateur dont vous souhaitez lever le bannissement."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the ban."
+      "name": "raison",
+      "description": "Raison de la levée du bannissement."
     },
     "force": {
-      "name": "force",
-      "description": "Force removal of the ban."
+      "name": "forcer",
+      "description": "Forcer la levée du bannissement."
     }
   }
 }
