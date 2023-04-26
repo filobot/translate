@@ -1,33 +1,33 @@
 {
-  "description": "Module that allows users to report bad behavior to the Moderators of the server.",
+  "description": "Module permettant aux utilisateurs de signaler un mauvais comportement aux modérateurs du serveur.",
   "subcommands": {
     "enable": {
-      "description": "Enable the reports module."
+      "description": "Activez le module de signalements."
     },
     "disable": {
-      "description": "Disable the reports module."
+      "description": "Désactivez le module de signalements."
     },
     "channel": {
-      "description": "Set the channel where the reports will be sent.",
+      "description": "Définissez le salon où les signalements seront envoyés.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where you want the reports to be sent."
+          "name": "salon",
+          "description": "Salon où vous souhaitez que les signalements soient envoyés."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the reports module documentation."
+      "description": "Obtenez le lien de la documentation du module des signalements."
     },
     "view": {
-      "description": "View the settings of the reports module."
+      "description": "Affichez les paramètres du module de signalements."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
         }
       }
     }
