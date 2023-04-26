@@ -1,76 +1,76 @@
 {
-  "description": "Module that allows you to avoid spam from users.",
+  "description": "Module permettant d'éviter les spams de la part des utilisateurs.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-spam module."
+      "description": "Activez le module anti-spam."
     },
     "disable": {
-      "description": "Disable the anti-spam module."
+      "description": "Désactivez le module anti-spam."
     },
     "action": {
-      "description": "Set the action to take when someone spam.",
+      "description": "Définissez l'action à entreprendre lorsque quelqu'un spamme.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action to take when someone spam."
+          "description": "Action à prendre lorsque quelqu'un spamme."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "durée",
+          "description": "Durée de l'action (en cas d'action temporaire)."
         }
       }
     },
     "duplicates": {
-      "description": "Set the duplicate message filter parameters.",
+      "description": "Définissez les paramètres de filtrage des messages dupliqués.",
       "arguments": {
         "threshold": {
-          "name": "threshold",
-          "description": "Number of identical messages that can be sent."
+          "name": "seuil",
+          "description": "Nombre de messages identiques pouvant être envoyés."
         },
         "time": {
-          "name": "time",
-          "description": "Time to reset identical messages sent by a user."
+          "name": "durée",
+          "description": "Temps de réinitialisation des messages identiques envoyés par un utilisateur."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Ajoutez ou supprimez un salon de la liste des salons ignorés.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action you want to carry out."
+          "description": "Action que vous souhaitez réaliser."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "salon",
+          "description": "Salon de la liste de contournement des salons du module."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Ajoutez ou supprimez un rôle de la liste des rôles ignorés.",
       "arguments": {
         "action": {
           "name": "action",
-          "description": "Action you want to carry out."
+          "description": "Action que vous souhaitez réaliser."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rôle",
+          "description": "Rôle dans la liste de contournement des rôles du module."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-spam module documentation."
+      "description": "Obtenez le lien de la documentation du module anti-spam."
     },
     "view": {
-      "description": "View the settings of the anti-spam module."
+      "description": "Affichez les paramètres du module anti-spam."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Rétablissez les paramètres d'origine du module (les données ne peuvent pas être récupérées).",
       "arguments": {
         "confirmation": {
           "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "description": "Êtes-vous vraiment sûr de vouloir réinitialiser les données de ce module ?"
         }
       }
     }
