@@ -1,5 +1,5 @@
 {
-  "WATCHING_THE_WEATHER": "Surveillance de la météo de **{{location.name}}**",
+  "WATCHING_THE_WEATHER": "Voici la météo de **{{location.name}}**",
   "LATITUDE": "Latitude",
   "LONGITUDE": "Longitude",
   "TIME_ZONE": "Fuseau horaire",

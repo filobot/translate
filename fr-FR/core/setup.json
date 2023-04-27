@@ -39,28 +39,28 @@
           "SELECT_THE_COMMANDS_PLACEHOLDER": "Sélectionnez les commandes",
           "SELECT_THE_CATEGORIES_PLACEHOLDER": "Sélectionnez les catégories",
           "DISABLE_COMMANDS": {
-            "LABEL": "Désactivez les commandes",
+            "LABEL": "Désactiver les commandes",
             "DESCRIPTION": "Désactivez les commandes de Filo.",
             "NO_COMMANDS_TO_DISABLE": "Toutes les commandes disponibles ont été désactivées.",
-            "COMMANDS_DISABLED": "Vous avez désactivé les commandes **{{commands}}** avec succès."
+            "COMMANDS_DISABLED": "Vous avez désactivé **{{commands}}** commandes avec succès."
           },
           "ENABLE_COMMANDS": {
-            "LABEL": "Activez les commandes",
+            "LABEL": "Activer les commandes",
             "DESCRIPTION": "Activez les commandes de Filo.",
             "NO_COMMANDS_TO_ENABLE": "Toutes les commandes disponibles sont actuellement activées.",
             "COMMANDS_ENABLED": "Vous avez activé les commandes **{{commands}}** avec succès."
           },
           "DISABLE_CATEGORIES": {
-            "LABEL": "Désactivez les catégories",
+            "LABEL": "Désactiver les catégories",
             "DESCRIPTION": "Désactivez les catégories de Filo.",
             "NO_CATEGORIES_TO_DISABLE": "Toutes les catégories disponibles ont été désactivées.",
             "CATEGORIES_DISABLED": "Vous avez désactivé **{{categories}}** catégories avec succès."
           },
           "ENABLE_CATEGORIES": {
-            "LABEL": "Activez les catégories",
+            "LABEL": "Activer les catégories",
             "DESCRIPTION": "Activez les catégories de Filo.",
             "NO_CATEGORIES_TO_ENABLE": "Toutes les catégories disponibles sont actuellement activées.",
-            "CATEGORIES_ENABLED": "Vous avez activé les catégories **{{categories}}** avec succès."
+            "CATEGORIES_ENABLED": "Vous avez activé **{{categories}}** catégories avec succès."
           }
         }
       },

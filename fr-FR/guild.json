@@ -7,7 +7,7 @@
   "EXPLICIT_CONTENT_FILTER": "Filtre de contenu explicite",
   "MEMBERS_WITHOUT_ROLES": "Membres sans rôle",
   "ALL_MEMBERS": "Tous les membres",
-  "MFA_LEVEL": "Niveau de l'AMF",
+  "MFA_LEVEL": "Niveau de l'A2F",
   "GUILD_OWNER": "Propriétaire du serveur",
   "BOOSTS": "Boosts",
   "MODERATION_LEVEL": "Niveau de modération",
@@ -20,8 +20,8 @@
   },
   "DEFAULT_NOTIFICATIONS": "Notifications par défaut",
   "ALL_MESSAGES": "Tous les messages",
-  "ONLY_MENTIONS": "Uniquement les @mentions",
-  "SYSTEM_CHANNEL": "Canal du système",
+  "ONLY_MENTIONS": "@mentions uniquement",
+  "SYSTEM_CHANNEL": "Salon système",
   "2FA_DISABLED": "A2F désactivée",
   "2FA_ENABLED": "A2F activée pour les modérateurs"
 }
