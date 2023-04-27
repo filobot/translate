@@ -1,5 +1,5 @@
 {
-  "EVENT_TRIGGERED": "Événement déclenché",
+  "EVENT_TRIGGERED": "Event triggered",
   "EVENTS": {
     "CHANNEL_CREATE": "Salon créé",
     "CHANNEL_UPDATE": "Salon mis à jour",
