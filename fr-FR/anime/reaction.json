@@ -17,7 +17,7 @@
   "SICK": "**{{user.username}}** est malade",
   "SING": "**{{user.username}}** chante",
   "SLEEP": "**{{user.username}}** est en train de dormir",
-  "SMUG": "**{{user.username}}** s'affiche",
+  "SMUG": "**{{user.username}}** is showing off",
   "TEEHEE": "**{{user.username}}** dit: «teehee»",
   "THINK": "**{{user.username}}** réfléchit"
 }
