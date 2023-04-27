@@ -38,7 +38,7 @@
   "SELECT_A_COMMAND_TO_ENABLE_OR_DISABLE_MENU": "Sélectionnez une commande pour la {{status}}.",
   "DISABLED_COMMANDS": "Commandes désactivées",
   "DISABLED_CATEGORIES": "Catégories désactivées",
-  "VIEWING_MODULE_SETTINGS": "Visualisation des paramètres du module **{{module}}**",
+  "VIEWING_MODULE_SETTINGS": "Viewing the **{{module}}** module settings",
   "MODULE_ALREADY_ENABLED": "Le module **{{module}}** est déjà activé.",
   "MODULE_ALREADY_DISABLED": "Le module **{{module}}** est déjà désactivé.",
   "MODULE_ENABLED": "Le module **{{module}}** a été activé avec succès.",
