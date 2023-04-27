@@ -7,7 +7,7 @@
       "COMPLETED": "Vous avez épinglé le message **[{{message.id}}]({{message.url}})** dans le salon **[#{{channel.name}}]({{url}})**."
     },
     "PURGE": {
-      "COMPLETED": "You have purged **{{messages}}** messages from the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+      "COMPLETED": "Vous avez purgé **{{messages}}** messages du salon **[#{{channel.name}}]({{url}})** ({{channel.id}})."
     },
     "UNPIN": {
       "COMPLETED": "Vous avez désépinglé le message **[{{message.id}}]({{message.url}})** dans le salon **[#{{channel.name}}]({{url}})**."
