@@ -4,41 +4,41 @@
   "LOADING_ACTION": "Veuillez patienter pendant le chargement de l'action demandée.",
   "MESSAGE": {
     "MANAGE_THIS_MESSAGE": {
-      "PIN_MESSAGE_TITLE": "Épinglez un message",
-      "PIN_MESSAGE_DESCRIPTION": "Épingler ce message dans ce salon.",
-      "UNPIN_MESSAGE_TITLE": "Désépinglez le message",
-      "UNPIN_MESSAGE_DESCRIPTION": "Désépinglerz ce message de ce salon."
+      "PIN_MESSAGE_TITLE": "Épingler un message",
+      "PIN_MESSAGE_DESCRIPTION": "Épinglez ce message dans ce salon.",
+      "UNPIN_MESSAGE_TITLE": "Désépingler le message",
+      "UNPIN_MESSAGE_DESCRIPTION": "Désépinglez ce message de ce salon."
     }
   },
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
-      "SHOW_USER_AVATAR_TITLE": "Affichez l'avatar de l'utilisateur",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Afficher l'avataz de cet utilisateur.",
-      "SHOW_USER_PROFILE_TITLE": "Affichez le profil de l'utilisateur",
+      "SHOW_USER_AVATAR_TITLE": "Afficher l'avatar de l'utilisateur",
+      "SHOW_USER_AVATAR_DESCRIPTION": "Affichez l'avatar de cet utilisateur.",
+      "SHOW_USER_PROFILE_TITLE": "Afficher le profil de l'utilisateur",
       "SHOW_USER_PROFILE_DESCRIPTION": "Affichez le profil de cet utilisateur."
     },
     "MODERATE_THIS_USER": {
-      "PERMANENTLY_BAN_THIS_USER_TITLE": "Bannissez définitivement cet utilisateur",
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "Bannir définitivement cet utilisateur",
       "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Bannissez définitivement cet utilisateur du serveur.",
-      "SHOW_USER_HISTORY_TITLE": "Affichez l'historique de l'utilisateur",
+      "SHOW_USER_HISTORY_TITLE": "Afficher l'historique de l'utilisateur",
       "SHOW_USER_HISTORY_DESCRIPTION": "Affichez l'historique des sanctions de l'utilisateur.",
-      "KICK_THIS_USER_TITLE": "Expulsez cet utilisateur",
+      "KICK_THIS_USER_TITLE": "Expulser cet utilisateur",
       "KICK_THIS_USER_DESCRIPTION": "Expulsez cet utilisateur du serveur.",
-      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Rendez définitivement muet cet utilisateur",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Rendre définitivement muet cet utilisateur",
       "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Rendez définitivement muet cet utilisateur sur le serveur.",
-      "SOFTBAN_THIS_USER_TITLE": "Softbannissez cet utilisateur",
+      "SOFTBAN_THIS_USER_TITLE": "Softbannir cet utilisateur",
       "SOFTBAN_THIS_USER_DESCRIPTION": "Softbannissez cet utilisateur du serveur.",
-      "TEMPORARILY_BAN_THIS_USER_TITLE": "Bannissez temporairement cet utilisateur",
+      "TEMPORARILY_BAN_THIS_USER_TITLE": "Bannir temporairement cet utilisateur",
       "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Bannissez temporairement cet utilisateur du serveur.",
-      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Rendez temporairement muet cet utilisateur",
+      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Rendre temporairement muet cet utilisateur",
       "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Rendez temporairement muet cet utilisateur du serveur.",
-      "UNBAN_THIS_USER_TITLE": "Débannissez cet utilisateur",
+      "UNBAN_THIS_USER_TITLE": "Débannir cet utilisateur",
       "UNBAN_THIS_USER_DESCRIPTION": "Débannissez cet utilisateur du serveur.",
-      "UNMUTE_THIS_USER_TITLE": "Démutez cet utilisateur",
+      "UNMUTE_THIS_USER_TITLE": "Démuter cet utilisateur",
       "UNMUTE_THIS_USER_DESCRIPTION": "Démutez cet utilisateur du serveur.",
-      "UNWARN_THIS_USER_TITLE": "Retirez l'avertissement de cet utilisateur",
-      "UNWARN_THIS_USER_DESCRIPTION": "Retirez l'avertissement de cet utilisateur du serveur.",
-      "WARN_THIS_USER_TITLE": "Avertissez cet utilisateur",
+      "UNWARN_THIS_USER_TITLE": "Retirer un avertissement à cet utilisateur",
+      "UNWARN_THIS_USER_DESCRIPTION": "Retirez un avertissement à cet utilisateur du serveur.",
+      "WARN_THIS_USER_TITLE": "Avertir cet utilisateur",
       "WARN_THIS_USER_DESCRIPTION": "Avertissez cet utilisateur du serveur."
     }
   }
