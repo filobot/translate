@@ -221,6 +221,13 @@
         },
         "LANGUAGE": {
           "LANGUAGE_CODE": "Language code"
+        },
+        "REPORTS": {
+          "REPORTS_CHANNEL": "Reports channel",
+          "DM_STATUS": "DM status",
+          "IGNORED_ROLE": "Ignored role",
+          "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
+          "COOLDOWN": "Cooldown"
         }
       }
     }
