@@ -214,6 +214,9 @@
       "NO_DATA": "No data",
       "SELECT_THE_DATA": "Select the data to view",
       "VIEW_ALL": "View all {{data}}.",
+      "DM_STATUS": "DM status",
+      "COOLDOWN": "Cooldown",
+      "EXCEPTIONS": "{{type}} exceptions",
       "COMMUNITY": {
         "COMMANDS": {
           "DISABLED_COMMANDS": "Disabled commands",
@@ -224,12 +227,8 @@
         },
         "REPORTS": {
           "REPORTS_CHANNEL": "Reports channel",
-          "DM_STATUS": "DM status",
           "IGNORED_ROLE": "Ignored role",
-          "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
-          "COOLDOWN": "Cooldown",
-          "CHANNEL_EXCEPTIONS": "Channel exceptions",
-          "ROLE_EXCEPTIONS": "Role exceptions"
+          "DELETE_REVIEWED_REPORTS": "Delete reviewed reports"
         }
       }
     }
