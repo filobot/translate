@@ -227,7 +227,9 @@
           "DM_STATUS": "DM status",
           "IGNORED_ROLE": "Ignored role",
           "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
-          "COOLDOWN": "Cooldown"
+          "COOLDOWN": "Cooldown",
+          "CHANNEL_EXCEPTIONS": "Channel exceptions",
+          "ROLE_EXCEPTIONS": "Role exceptions"
         }
       }
     }
