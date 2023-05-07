@@ -149,7 +149,7 @@
   "ALLOWED_MENTIONS": "Menciones permitidas",
   "MENTIONS_ARE_ALLOWED": "**{{threshold}}** menciones están permitidas.",
   "BAD_WORD_ADDED_OR_REMOVED": "Has {{status}} la palabra **{{word}}** como mala palabra.",
-  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "You have **{{status}}** the aggressive filter for this module.",
+  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "Has **{{status}}** el filtro agresivo para este módulo.",
   "BAD_WORDS": "Malas palabras",
   "AGGRESSIVE_FILTER": "Filtro agresivo",
   "DISCORD_LINKS_IGNORE_DISABLE": "Los enlaces de dominios administrados por Discord no serán ignorados ahora.",
