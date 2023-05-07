@@ -149,7 +149,7 @@
   "ALLOWED_MENTIONS": "言及を許可する",
   "MENTIONS_ARE_ALLOWED": "**{{threshold}}**言及は許可されています。",
   "BAD_WORD_ADDED_OR_REMOVED": "あなたは、{{status}} **{{word}}** という言葉を悪口としています。",
-  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "You have **{{status}}** the aggressive filter for this module.",
+  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "このモジュールのアグレッシブフィルタは **{{status}}** です。",
   "BAD_WORDS": "悪口",
   "AGGRESSIVE_FILTER": "アグレッシブフィルター",
   "DISCORD_LINKS_IGNORE_DISABLE": "Discord が管理するドメインからのリンクは無視されないようになりました。",
