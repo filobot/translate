@@ -104,7 +104,7 @@ We need to expand Filo's speaking skills! Translate Filo and earn your pretty ba
 
 We have been thoroughly investigating the possibilities of trees since 2019, and we have determined that they are very good at generating oxygen, but very bad at generating money...
 
-Help us! __**Every contribution counts, no matter how small...**** Rome wasn't built in a day!
+Help us! **Every contribution counts, no matter how small...** Rome wasn't built in a day!
 
 🔗 https://filobot.xyz/donate
 

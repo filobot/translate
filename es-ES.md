@@ -104,7 +104,7 @@ https://filobot.xyz/discord
 
 Hemos estado investigando a fondo las posibilidades de los árboles desde 2019, y hemos determinado que son muy buenos para generar oxígeno, pero muy malos para generar dinero...
 
-¡Ayúdanos! __**Cada contribución cuenta, sin importar lo pequeña que sea...**** ¡Roma no se construyó en un día!
+¡Ayúdanos! **Cada contribución cuenta, sin importar lo pequeña que sea...** ¡Roma no se construyó en un día!
 
 🔗 https://filobot.xyz/donate
 
