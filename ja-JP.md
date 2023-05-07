@@ -104,7 +104,7 @@ Filo のスピーキングスキルを伸ばす必要がある！ Filo を翻訳
 
 2019 年から樹木の可能性を徹底的に追求し、「酸素を発生させるのは得意だが、お金を発生させるのは非常に苦手」と判断し...。
 
-協力してください！ **Every contribution counts, no matter how small...** Rome wasn't built in a day!
+協力してください！ **どんなに小さなことでも、すべての貢献は大切です...。** ローマは一日にして成らず！
 
 🔗 https://filobot.xyz/donate
 
