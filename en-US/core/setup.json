@@ -231,6 +231,7 @@
           "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
           "NOTIFICATION_ROLES": "Notification roles",
           "REASON_PARAMETERS": {
+            "TITLE": "Reason parameters",
             "MIN_LENGTH_OF_MEMBER_REASON": "Minimum length of member reason",
             "MAX_LENGTH_OF_MEMBER_REASON": "Maximum length of member reason",
             "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Clean markdown of member reason",
