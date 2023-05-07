@@ -149,7 +149,7 @@
   "ALLOWED_MENTIONS": "Mencions permeses",
   "MENTIONS_ARE_ALLOWED": "**{{threshold}}** mencions estan permeses.",
   "BAD_WORD_ADDED_OR_REMOVED": "Has {{status}} la paraula **{{word}}** com a paraula lletja.",
-  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "You have **{{status}}** the aggressive filter for this module.",
+  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "Has **{{status}}** el filtre agressiu per aquest mòdul.",
   "BAD_WORDS": "Paraules lletges",
   "AGGRESSIVE_FILTER": "Filtre agressiu",
   "DISCORD_LINKS_IGNORE_DISABLE": "Els enllaços de dominis administratius per Discord no seran ignorats ara.",
