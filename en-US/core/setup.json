@@ -238,6 +238,10 @@
             "MIN_LENGTH_OF_REVIEWER_REASON": "Minimum length of reviewer reason",
             "MAX_LENGTH_OF_REVIEWER_REASON": "Maximum length of reviewer reason",
             "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Clean markdown of reviewer reason"
+          },
+          "EVIDENCES_PARAMETERS": {
+            "TITLE": "Evidences parameters",
+            "MIN_COUNT": "Minimum count of evidences"
           }
         }
       }
