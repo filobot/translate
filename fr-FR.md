@@ -104,7 +104,7 @@ Nous devons étendre les compétences de Filo ! Traduisez Filo et gagnez votre j
 
 Depuis 2019, nous étudions minutieusement les caractéristiques des arbres et nous avons déterminé qu'ils sont très bons pour produire de l'oxygène, mais très mauvais pour générer de l'argent...
 
-Aidez-nous ! **Every contribution counts, no matter how small...** Rome wasn't built in a day!
+Aidez-nous ! **Chaque contribution compte, aussi petite soit-elle...** Rome ne s'est pas construite en un jour!
 
 🔗 https://filobot.xyz/donate
 
