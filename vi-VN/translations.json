@@ -151,7 +151,13 @@
     "PIN_MESSAGES": "Ghim tin nhắn",
     "UNPIN_MESSAGES": "Bỏ ghim tin nhắn",
     "VIEW_HISTORY": "Xem lịch sử",
-    "EVADE_SANCTIONS": "Trốn tránh hình phạt"
+    "EVADE_SANCTIONS": "Trốn tránh hình phạt",
+    "REPORT_MEMBERS": "Report members",
+    "REPORT_MESSAGES": "Report messages",
+    "BYPASS_REPORTS_COOLDOWN": "Bypass reports cooldown",
+    "APPROVE_REPORTS": "Approve reports",
+    "DENY_REPORTS": "Deny reports",
+    "MANAGE_REPORTS": "Manage reports"
   },
   "THANKS": {
     "TITLE": "Cảm ơn vì đã thêm Filo!",
