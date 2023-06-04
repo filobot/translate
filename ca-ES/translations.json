@@ -152,12 +152,12 @@
     "UNPIN_MESSAGES": "Desfixar missatge",
     "VIEW_HISTORY": "Veure historial",
     "EVADE_SANCTIONS": "Evadir sancions",
-    "REPORT_MEMBERS": "Report members",
-    "REPORT_MESSAGES": "Report messages",
-    "BYPASS_REPORTS_COOLDOWN": "Bypass reports cooldown",
-    "APPROVE_REPORTS": "Approve reports",
-    "DENY_REPORTS": "Deny reports",
-    "MANAGE_REPORTS": "Manage reports"
+    "REPORT_MEMBERS": "Denunciar usuaris",
+    "REPORT_MESSAGES": "Denunciar missatges",
+    "BYPASS_REPORTS_COOLDOWN": "Ometre els informes de reutilització",
+    "APPROVE_REPORTS": "Aprovar informes",
+    "DENY_REPORTS": "Negar informes",
+    "MANAGE_REPORTS": "Gestionar informes"
   },
   "THANKS": {
     "TITLE": "Gràcies per afegir a Filo!",
