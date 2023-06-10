@@ -13,7 +13,7 @@
   "RESPONSE_DELETED": "Vous avez supprimé la réponse avec succès.",
   "DATE": "Date ",
   "APPROVED": "Approuvé",
-  "PENDING": "Pending",
+  "PENDING": "En attente",
   "DENIED": "Refusé",
   "ENABLED": "Activé",
   "DISABLED": "Désactivé",
@@ -80,12 +80,12 @@
   "DEPRECATED_COMMAND_WARNING_2": "Utilisez plutôt la commande **{{command}}**.",
   "TAGS": "Étiquettes",
   "WITHOUT_TAGS": "Sans étiquettes",
-  "DETAILS": "Details",
-  "REVIEWER": "Reviewer",
+  "DETAILS": "Détails",
+  "REVIEWER": "Intervenant",
   "SELECT_THE_ACTION": "Action que vous souhaitez réaliser.",
   "SELECT_THE_ACTION_PLACEHOLDER": "Sélectionnez l'action",
-  "SELECT_A_USER": "You must select a user to continue.",
-  "SELECT_A_USER_PLACEHOLDER": "Select a user",
-  "SUBMITTED": "Submitted",
-  "PRESS_BUTTON_TO_MODAL": "You must click the **{{name}}** button to display the modal."
+  "SELECT_A_USER": "Vous devez sélectionner un utilisateur pour continuer.",
+  "SELECT_A_USER_PLACEHOLDER": "Sélectionnez un utilisateur",
+  "SUBMITTED": "Soumis",
+  "PRESS_BUTTON_TO_MODAL": "Vous devez cliquer sur le bouton **{{name}}** pour afficher la fenêtre."
 }
