@@ -18,7 +18,7 @@
           "description": "ID del caso."
         },
         "reason": {
-          "name": "razón",
+          "name": "reason",
           "description": "Razón que quieres establecer para el caso."
         }
       }
