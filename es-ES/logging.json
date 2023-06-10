@@ -31,8 +31,8 @@
     "THREAD_CREATE": "Hilo creado",
     "THREAD_UPDATE": "Hilo actualizado",
     "THREAD_DELETE": "Hilo eliminado",
-    "REPORT_MEMBER_CREATE": "Reported member",
-    "REPORT_MESSAGE_CREATE": "Reported message",
+    "REPORT_MEMBER_CREATE": "Miembro reportado",
+    "REPORT_MESSAGE_CREATE": "Mensaje reportado",
     "SANCTION_CREATE": "Sanción creada",
     "SANCTION_UPDATE": "Sanción actualizada",
     "SANCTION_DELETE": "Sanción eliminada"
