@@ -6,7 +6,7 @@
       "description": "Usuari al qual vols eliminar el silenci."
     },
     "reason": {
-      "name": "raó",
+      "name": "reason",
       "description": "Raó per eliminar el silenci."
     },
     "silent": {
