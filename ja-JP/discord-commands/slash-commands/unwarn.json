@@ -6,7 +6,7 @@
       "description": "ワーニングを解除したいユーザー。"
     },
     "reason": {
-      "name": "理由",
+      "name": "reason",
       "description": "警告を解除した理由。"
     },
     "case": {
