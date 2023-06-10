@@ -13,6 +13,7 @@
   "RESPONSE_DELETED": "You have successfully deleted the response.",
   "DATE": "Date",
   "APPROVED": "Approved",
+  "PENDING": "Pending",
   "DENIED": "Denied",
   "ENABLED": "Enabled",
   "DISABLED": "Disabled",
@@ -78,5 +79,13 @@
   "DEPRECATED_COMMAND_WARNING_1": "This command has been marked as deprecated and its functionality has been revoked.",
   "DEPRECATED_COMMAND_WARNING_2": "Use the **{{command}}** command instead.",
   "TAGS": "Tags",
-  "WITHOUT_TAGS": "Without tags"
+  "WITHOUT_TAGS": "Without tags",
+  "DETAILS": "Details",
+  "REVIEWER": "Reviewer",
+  "SELECT_THE_ACTION": "Select the action you want to carry out.",
+  "SELECT_THE_ACTION_PLACEHOLDER": "Select the action",
+  "SELECT_A_USER": "You must select a user to continue.",
+  "SELECT_A_USER_PLACEHOLDER": "Select a user",
+  "SUBMITTED": "Submitted",
+  "PRESS_BUTTON_TO_MODAL": "You must click the **{{name}}** button to display the modal."
 }
