@@ -107,10 +107,10 @@
       },
       "REPORTS": {
         "LABEL": "Reports",
-        "DESCRIPTION": "Provide reporting tools to your server members.",
+        "DESCRIPTION": "Provide reports tools to your server members.",
         "SUBMODULES_SELECTOR": {
-          "MEMBERS": "Change the behavior of the member reporting module.",
-          "MESSAGES": "Change the behavior of the message reporting module."
+          "MEMBERS": "Change the behavior of the member reports module.",
+          "MESSAGES": "Change the behavior of the message reports module."
         },
         "CONFIGURE": {
           "REPORTS_CHANNEL": {
