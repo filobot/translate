@@ -6,7 +6,7 @@
       "description": "Utilisateur que vous souhaitez avertir."
     },
     "reason": {
-      "name": "raison",
+      "name": "reason",
       "description": "Raison de l'avertissement de cet utilisateur."
     },
     "silent": {
