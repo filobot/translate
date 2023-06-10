@@ -149,7 +149,7 @@
   "ALLOWED_MENTIONS": "Mentions cho phép",
   "MENTIONS_ARE_ALLOWED": "**{{threshold}}** mentions được cho phép.",
   "BAD_WORD_ADDED_OR_REMOVED": "Bạn đã {{status}} từ **{{word}}** là một từ không phù hợp.",
-  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "Bạn đã **{{status}}** lên máy phát hiện từ ngữ không phù hợp.",
+  "AGGRESSIVE_FILTER_ENABLED_OR_DISABLED": "You have **{{status}}** the aggressive filter for this module.",
   "BAD_WORDS": "Những từ ngữ không phù hợp",
   "AGGRESSIVE_FILTER": "Lọc từ ngữ không phù hợp",
   "DISCORD_LINKS_IGNORE_DISABLE": "Các link từ tất cả trang web của Discord sẽ được kiểm tra.",
