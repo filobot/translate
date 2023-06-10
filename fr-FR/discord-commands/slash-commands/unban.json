@@ -6,7 +6,7 @@
       "description": "Utilisateur dont vous souhaitez lever le bannissement."
     },
     "reason": {
-      "name": "raison",
+      "name": "reason",
       "description": "Raison de la levée du bannissement."
     },
     "force": {
