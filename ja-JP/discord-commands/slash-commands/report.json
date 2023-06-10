@@ -1,13 +1,39 @@
 {
-  "description": "サーバーのモデレーターにユーザーの行動を報告する。",
-  "arguments": {
-    "user": {
-      "name": "ユーザー",
-      "description": "報告したいユーザー。"
+  "description": "Report bad behavior to a server moderator.",
+  "subcommands": {
+    "member": {
+      "description": "Report a member.",
+      "arguments": {
+        "member": {
+          "name": "member",
+          "description": "Member you want to report."
+        },
+        "reason": {
+          "name": "reason",
+          "description": "Reason why you want to report this member."
+        },
+        "evidences": {
+          "name": "evidences",
+          "description": "Evidences that support the reason you are reporting this member."
+        }
+      }
     },
-    "reason": {
-      "name": "理由",
-      "description": "このユーザーを報告したい理由。"
+    "message": {
+      "description": "Report a message.",
+      "arguments": {
+        "message": {
+          "name": "メッセージ",
+          "description": "Message you want to report."
+        },
+        "reason": {
+          "name": "reason",
+          "description": "Reason why you want to report this message."
+        },
+        "evidences": {
+          "name": "evidences",
+          "description": "Evidences that support the reason you are reporting this message."
+        }
+      }
     }
   }
 }

@@ -6,7 +6,7 @@
       "description": "Usuario al que quieres eliminar el silencio."
     },
     "reason": {
-      "name": "razón",
+      "name": "reason",
       "description": "Razón para eliminar el silencio."
     },
     "silent": {

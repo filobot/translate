@@ -72,5 +72,15 @@
   "MODULE_DISABLED": "Chương trình **[{{module}}]({{url}})** đã được vô hiệu hoá cho nên hành động này không thể thực hiện.",
   "INVALID_MORSE_CODE": "Mã morse bạn đã nêu không tồn tại.",
   "SETUP_MENU_EXPIRED": "Menu cài đặt đã hết hạn, điều này có thể là do đã có menu khác được mở, nếu không thì **[liên hệ với chúng tôi]({{url}})**.",
-  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) đã có một hoặc hơn một hình phạt đang xử lý."
+  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) đã có một hoặc hơn một hình phạt đang xử lý.",
+  "MISSING_REASON": "You must specify a reason to continue.",
+  "IGNORED_ROLE_NOT_CONFIGURED": "The ignored role hasn't been configured yet.",
+  "ACTION_UNAVAILABLE_IN_THIS_CHANNEL": "This action isn't available in this channel.",
+  "MIN_EVIDENCE_REACHED": "You must specify at least **{{number}}** evidence to continue.",
+  "MIN_EVIDENCES_REACHED": "You must specify at least **{{number}}** evidences to continue.",
+  "CHANNEL_ALREADY_USED": "This channel is already being used by another module.",
+  "ROLE_ALREADY_USED": "This role is already being used by another module.",
+  "THIS_MODULE_NEEDS_TO_BE_ENABLED": "This module needs to be enabled to perform this action.",
+  "MAX_NUMBER_OF_EXCEPTIONS_CONFIGURED": "This module has reached the maximum number of exceptions ({{number}}).",
+  "MAX_NUMBER_OF_NOTIFICATION_ROLES_CONFIGURED": "This module has reached the maximum number of notification roles ({{number}})."
 }

@@ -72,5 +72,15 @@
   "MODULE_DISABLED": "**[{{module}}]({{url}})** モジュールが無効になっているため、このアクションは実行できません。",
   "INVALID_MORSE_CODE": "指定されたモールス信号が無効です。",
   "SETUP_MENU_EXPIRED": "セットアップメニューの有効期限が切れています。別のセットアップメニューが開かれたためと思われます。それ以外の場合は **[お問い合わせ]({{url}})**。",
-  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) には、処理待ちの制裁が1つ以上あります。"
+  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) には、処理待ちの制裁が1つ以上あります。",
+  "MISSING_REASON": "You must specify a reason to continue.",
+  "IGNORED_ROLE_NOT_CONFIGURED": "The ignored role hasn't been configured yet.",
+  "ACTION_UNAVAILABLE_IN_THIS_CHANNEL": "This action isn't available in this channel.",
+  "MIN_EVIDENCE_REACHED": "You must specify at least **{{number}}** evidence to continue.",
+  "MIN_EVIDENCES_REACHED": "You must specify at least **{{number}}** evidences to continue.",
+  "CHANNEL_ALREADY_USED": "This channel is already being used by another module.",
+  "ROLE_ALREADY_USED": "This role is already being used by another module.",
+  "THIS_MODULE_NEEDS_TO_BE_ENABLED": "This module needs to be enabled to perform this action.",
+  "MAX_NUMBER_OF_EXCEPTIONS_CONFIGURED": "This module has reached the maximum number of exceptions ({{number}}).",
+  "MAX_NUMBER_OF_NOTIFICATION_ROLES_CONFIGURED": "This module has reached the maximum number of notification roles ({{number}})."
 }

@@ -72,5 +72,15 @@
   "MODULE_DISABLED": "El módulo **[{{module}}]({{url}})** está desactivado y por lo tanto esta acción no se puede realizar.",
   "INVALID_MORSE_CODE": "El código morse que has especificado no es válido.",
   "SETUP_MENU_EXPIRED": "El menú de configuración ha expirado, esto puede ser porque se ha abierto otro menú de configuración, en caso contrario **[contáctanos]({{url}})**.",
-  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) tiene una o varias sanciones pendiente de procesarse."
+  "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) tiene una o varias sanciones pendiente de procesarse.",
+  "MISSING_REASON": "You must specify a reason to continue.",
+  "IGNORED_ROLE_NOT_CONFIGURED": "The ignored role hasn't been configured yet.",
+  "ACTION_UNAVAILABLE_IN_THIS_CHANNEL": "This action isn't available in this channel.",
+  "MIN_EVIDENCE_REACHED": "You must specify at least **{{number}}** evidence to continue.",
+  "MIN_EVIDENCES_REACHED": "You must specify at least **{{number}}** evidences to continue.",
+  "CHANNEL_ALREADY_USED": "This channel is already being used by another module.",
+  "ROLE_ALREADY_USED": "This role is already being used by another module.",
+  "THIS_MODULE_NEEDS_TO_BE_ENABLED": "This module needs to be enabled to perform this action.",
+  "MAX_NUMBER_OF_EXCEPTIONS_CONFIGURED": "This module has reached the maximum number of exceptions ({{number}}).",
+  "MAX_NUMBER_OF_NOTIFICATION_ROLES_CONFIGURED": "This module has reached the maximum number of notification roles ({{number}})."
 }

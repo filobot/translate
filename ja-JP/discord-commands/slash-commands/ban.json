@@ -6,7 +6,7 @@
       "description": "禁止したいユーザー。"
     },
     "reason": {
-      "name": "理由",
+      "name": "reason",
       "description": "このユーザーを禁止する理由。"
     },
     "message-history": {

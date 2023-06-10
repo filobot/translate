@@ -6,7 +6,7 @@
       "description": "Usuari al qual vols eliminar la prohibició."
     },
     "reason": {
-      "name": "raó",
+      "name": "reason",
       "description": "Raó per eliminar la prohibició."
     },
     "force": {

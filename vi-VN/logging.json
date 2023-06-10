@@ -31,7 +31,8 @@
     "THREAD_CREATE": "Chủ đề được tạo",
     "THREAD_UPDATE": "Chủ đề được cập nhật",
     "THREAD_DELETE": "Chủ đề được xoá",
-    "REPORT_CREATE": "Thành viên bị báo cáo",
+    "REPORT_MEMBER_CREATE": "Reported member",
+    "REPORT_MESSAGE_CREATE": "Reported message",
     "SANCTION_CREATE": "Hình phạt được tạo",
     "SANCTION_UPDATE": "Hình phạt được cập nhật",
     "SANCTION_DELETE": "Hình phạt được xoá"

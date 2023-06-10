@@ -1,13 +1,39 @@
 {
-  "description": "Signalez le comportement d'un utilisateur à un modérateur du serveur.",
-  "arguments": {
-    "user": {
-      "name": "utilisateur",
-      "description": "Utilisateur que vous souhaitez siganler aux modérateurs."
+  "description": "Report bad behavior to a server moderator.",
+  "subcommands": {
+    "member": {
+      "description": "Report a member.",
+      "arguments": {
+        "member": {
+          "name": "member",
+          "description": "Member you want to report."
+        },
+        "reason": {
+          "name": "reason",
+          "description": "Reason why you want to report this member."
+        },
+        "evidences": {
+          "name": "evidences",
+          "description": "Evidences that support the reason you are reporting this member."
+        }
+      }
     },
-    "reason": {
-      "name": "raison",
-      "description": "Raison pour laquelle vous souhaitez signaler cet utilisateur."
+    "message": {
+      "description": "Report a message.",
+      "arguments": {
+        "message": {
+          "name": "message",
+          "description": "Message you want to report."
+        },
+        "reason": {
+          "name": "reason",
+          "description": "Reason why you want to report this message."
+        },
+        "evidences": {
+          "name": "evidences",
+          "description": "Evidences that support the reason you are reporting this message."
+        }
+      }
     }
   }
 }

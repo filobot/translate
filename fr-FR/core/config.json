@@ -2,7 +2,7 @@
   "NAME_OF_MODULES": {
     "LANGUAGE": "Langue",
     "DISABLE_COMMANDS": "Désactivez les Commandes",
-    "REPORTS": "Signalements",
+    "REPORTS": "Reports ({{module}})",
     "WELCOMES": "Bienvenues",
     "WELCOME_ROLE": "Rôle de bienvenue",
     "FAREWELLS": "Aurevoirs",

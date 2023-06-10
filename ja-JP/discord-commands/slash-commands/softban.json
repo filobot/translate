@@ -6,7 +6,7 @@
       "description": "ソフト ban したいユーザー。"
     },
     "reason": {
-      "name": "理由",
+      "name": "reason",
       "description": "このユーザーをソフトバンディングする理由。"
     },
     "message-history": {

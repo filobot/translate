@@ -5,6 +5,7 @@
   "DEFAULT_REASON": "Moderator chưa xác định lí do.",
   "CASE_ID": "ID vụ án",
   "PROOF": "Bằng chứng",
+  "EVIDENCES": "Evidences",
   "SANCTION_RESPONSE": "Bạn đã {{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) thành công.",
   "SANCTION_RESPONSE_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}) đã bị {{sanction}}.",
   "SANCTION_NOTIFICATION": {
@@ -42,5 +43,6 @@
   "NO_EXPIRES": "Không hết hạn",
   "CASE_REMOVED": "Vụ án đã được gỡ bỏ",
   "SANCTION_DATA": "Thông tin về hình phạt",
-  "EXAMPLE_REASON": "Vì bạn rất dễ thương!"
+  "EXAMPLE_REASON": "Vì bạn rất dễ thương!",
+  "SANCTION_THIS_USER": "Sanction this user."
 }

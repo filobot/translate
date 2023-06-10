@@ -6,7 +6,7 @@
       "description": "Usuario al que quieres eliminar la prohibición."
     },
     "reason": {
-      "name": "razón",
+      "name": "reason",
       "description": "Razón para eliminar la prohibición."
     },
     "force": {

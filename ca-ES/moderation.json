@@ -5,6 +5,7 @@
   "DEFAULT_REASON": "El moderador no ha especificat cap raó.",
   "CASE_ID": "ID del cas",
   "PROOF": "Prova",
+  "EVIDENCES": "Evidences",
   "SANCTION_RESPONSE": "Has {{sanction}} a **[{{user.tag}}]({{url}})** ({{user.id}}) correctament.",
   "SANCTION_RESPONSE_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}) ha sigut {{sanction}} del gremi.",
   "SANCTION_NOTIFICATION": {
@@ -42,5 +43,6 @@
   "NO_EXPIRES": "No expira",
   "CASE_REMOVED": "Cas eliminat",
   "SANCTION_DATA": "Dades de la sanció",
-  "EXAMPLE_REASON": "Ser massa Kawaii!"
+  "EXAMPLE_REASON": "Ser massa Kawaii!",
+  "SANCTION_THIS_USER": "Sanction this user."
 }
