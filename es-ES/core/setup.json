@@ -170,7 +170,7 @@
             "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
               "LABEL": "Toggle the cleaning of the markdown of member reason",
               "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the member reason."
+              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the members reason."
             },
             "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
               "LABEL": "Set the minimum length of reviewer reason",
@@ -191,7 +191,7 @@
             "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
               "LABEL": "Toggle the cleaning of the markdown of reviewer reason",
               "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewer reason."
+              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewers reason."
             }
           },
           "EVIDENCES": {
