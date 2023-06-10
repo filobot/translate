@@ -25,16 +25,16 @@
     "SELECT_A_SUBMODULE": "You must select the submodule from the **{{module}}** module that you want to configure.",
     "PLACEHOLDER": "Sélectionnez un module",
     "SELECT_THE_ACTION": "Vous devez sélectionner l'action que vous souhaitez effectuer sur le module.",
-    "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+    "SELECT_THE_ACTION_PLACEHOLDER": "Sélectionnez une action",
     "MODULE_ENABLED_OR_DISABLED": "Le module **{{module}}** a été {{action}} avec succès.",
     "RESET_REQUEST_WARNING": "Êtes-vous sûr de vouloir réinitialiser le module **{{module}}** ? Cette action ne peut être annulée !",
     "MODULE_RESET": "Le module **{{module}}** a été réinitialisé avec succès.",
-    "SELECT_A_CHANNEL": "You must select the channel you want to set.",
-    "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
-    "SELECT_AT_LEAST_ONE_CHANNEL": "You must select at least one channel.",
-    "SELECT_A_ROLE": "You must select the role you want to set.",
-    "SELECT_A_ROLE_PLACEHOLDER": "Select a role",
-    "SELECT_AT_LEAST_ONE_ROLE": "You must select at least one role.",
+    "SELECT_A_CHANNEL": "Vous devez sélectionner le salon que vous souhaitez régler.",
+    "SELECT_A_CHANNEL_PLACEHOLDER": "Sélectionnez un salon",
+    "SELECT_AT_LEAST_ONE_CHANNEL": "Vous devez sélectionner au moins un salon.",
+    "SELECT_A_ROLE": "Vous devez sélectionner le rôle que vous souhaitez régler.",
+    "SELECT_A_ROLE_PLACEHOLDER": "Sélectionnez un rôle",
+    "SELECT_AT_LEAST_ONE_ROLE": "Vous devez sélectionner au moins un rôle.",
     "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
     "DM_STATUS": {
       "LABEL": "Toggle the status of DMs",
@@ -109,7 +109,7 @@
         "LABEL": "Reports",
         "DESCRIPTION": "Provide reporting tools to your server members.",
         "SUBMODULES_SELECTOR": {
-          "MEMBERS": "Change the behavior of the member reporting module.",
+          "MEMBERS": "Modifier le comportement du module de signalement des membres.",
           "MESSAGES": "Change the behavior of the message reporting module."
         },
         "CONFIGURE": {
