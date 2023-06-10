@@ -22,44 +22,44 @@
   "LOADING_DATA": "Por favor espera mientras se cargan los datos necesarios.",
   "MODULES": {
     "SELECT_A_MODULE": "Debes seleccionar el módulo de la categoría **{{module}}** que quieres configurar.",
-    "SELECT_A_SUBMODULE": "You must select the submodule from the **{{module}}** module that you want to configure.",
-    "PLACEHOLDER": "Selecciona un módulo",
+    "SELECT_A_SUBMODULE": "Debes seleccionar el submódulo del módulo **{{module}}** que quieres configurar.",
+    "PLACEHOLDER": "Seleccionar un módulo",
     "SELECT_THE_ACTION": "Debes seleccionar la acción que quieres llevar a cabo en el módulo.",
-    "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+    "SELECT_THE_ACTION_PLACEHOLDER": "Seleccionar una acción",
     "MODULE_ENABLED_OR_DISABLED": "El módulo **{{module}}** se ha {{action}} correctamente.",
     "RESET_REQUEST_WARNING": "¿Estás seguro de que quieres restablecer el módulo **{{module}}**? ¡Esta acción no se puede deshacer!",
     "MODULE_RESET": "El módulo **{{module}}** se ha restablecido correctamente.",
-    "SELECT_A_CHANNEL": "You must select the channel you want to set.",
-    "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
-    "SELECT_AT_LEAST_ONE_CHANNEL": "You must select at least one channel.",
-    "SELECT_A_ROLE": "You must select the role you want to set.",
-    "SELECT_A_ROLE_PLACEHOLDER": "Select a role",
-    "SELECT_AT_LEAST_ONE_ROLE": "You must select at least one role.",
-    "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
+    "SELECT_A_CHANNEL": "Debes seleccionar el canal que quieres establecer.",
+    "SELECT_A_CHANNEL_PLACEHOLDER": "Seleccionar un canal",
+    "SELECT_AT_LEAST_ONE_CHANNEL": "Debes seleccionar al menos un canal.",
+    "SELECT_A_ROLE": "Debes seleccionar el rol que quieres establecer.",
+    "SELECT_A_ROLE_PLACEHOLDER": "Seleccionar un rol",
+    "SELECT_AT_LEAST_ONE_ROLE": "Debes seleccionar al menos un rol.",
+    "CHANNEL_SET": "Has establecido el canal **[#{{channel.name}}]({{url}})** para el módulo **{{module}}** correctamente.",
     "DM_STATUS": {
-      "LABEL": "Toggle the status of DMs",
-      "DESCRIPTION": "Change the status of notifications by DM.",
-      "DM_STATUS_TOGGLED": "You have successfully **{{action}}** the DM notifications for the **{{module}}** module."
+      "LABEL": "Alternar el estado de los MDs",
+      "DESCRIPTION": "Cambia el estado de las notificaciones por MD.",
+      "DM_STATUS_TOGGLED": "Has **{{action}}** las notificaciones MD para el módulo **{{module}}** correctamente."
     },
     "EXCEPTIONS": {
       "ADD": {
-        "LABEL": "Add {{type}}",
-        "DESCRIPTION": "Add {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully added the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully added **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "Añadir {{type}}",
+        "DESCRIPTION": "Añade un {{type}} a la lista de excepciones del módulo.",
+        "COMPLETED": "Ha añadido el {{type}} {{value}} a la lista de excepciones del módulo.",
+        "COMPLETED_ALTERNATIVE": "Ha añadido **{{number}}** {{type}} a la lista de excepciones del módulo."
       },
       "SET": {
-        "LABEL": "Set the {{type}}",
-        "DESCRIPTION": "Set the {{type}} list to the module's exception list.",
-        "COMPLETED": "You have successfully set the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully set **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "Establecer los {{type}}",
+        "DESCRIPTION": "Establece la lista de {{type}} para la lista de excepciones del módulo.",
+        "COMPLETED": "Has establecido el {{type}} {{value}} para la lista de excepciones del módulo.",
+        "COMPLETED_ALTERNATIVE": "Ha añadido **{{number}}** {{type}} a la lista de excepciones del módulo."
       },
       "REMOVE": {
-        "LABEL": "Remove {{type}}",
-        "DESCRIPTION": "Remove {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully removed the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} to the module's exception list.",
-        "NO_DATA_TO_REMOVE": "There are no {{value}} available to remove from the module's exception list."
+        "LABEL": "Eliminar {{type}}",
+        "DESCRIPTION": "Elimina {{type}} de la lista de excepciones del módulo.",
+        "COMPLETED": "Ha eliminado el {{type}} {{value}} de la lista de excepciones del módulo.",
+        "COMPLETED_ALTERNATIVE": "Ha eliminado **{{number}}** {{type}} de la lista de excepciones del módulo.",
+        "NO_DATA_TO_REMOVE": "No hay {{value}} disponibles para eliminar de la lista de excepciones del módulo."
       }
     },
     "COMMUNITY": {
@@ -70,8 +70,8 @@
         "CONFIGURE": {
           "SELECT_THE_COMMANDS": "Debes seleccionar los comandos que quieres {{action}}.",
           "SELECT_THE_CATEGORIES": "Debes seleccionar las categorías que quieres {{action}}.",
-          "SELECT_THE_COMMANDS_PLACEHOLDER": "Selecciona los comandos",
-          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Selecciona las categorías",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Seleccionar los comandos",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Seleccionar las categorías",
           "DISABLE_COMMANDS": {
             "LABEL": "Desactivar comandos",
             "DESCRIPTION": "Desactiva los comandos de Filo.",
@@ -102,108 +102,108 @@
         "LABEL": "Idioma",
         "DESCRIPTION": "Cambia el idioma de Filo en este servidor.",
         "SELECT_A_LANGUAGE": "Debes seleccionar el idioma que quieres establecer.",
-        "SELECT_A_LANGUAGE_PLACEHOLDER": "Selecciona un idioma",
-        "LANGUAGE_SET": "You have set the **{{language}}** language successfully."
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Seleccionar un idioma",
+        "LANGUAGE_SET": "Has establecido el idioma **{{language}}** correctamente."
       },
       "REPORTS": {
-        "LABEL": "Reports",
-        "DESCRIPTION": "Provide reporting tools to your server members.",
+        "LABEL": "Reportes",
+        "DESCRIPTION": "Proporciona herramientas de reportes a los miembros de su servidor.",
         "SUBMODULES_SELECTOR": {
-          "MEMBERS": "Change the behavior of the member reporting module.",
-          "MESSAGES": "Change the behavior of the message reporting module."
+          "MEMBERS": "Cambia el comportamiento del módulo de reportes de miembros.",
+          "MESSAGES": "Cambia el comportamiento del módulo de reportes de mensajes."
         },
         "CONFIGURE": {
           "REPORTS_CHANNEL": {
-            "LABEL": "Set the reports channel",
-            "DESCRIPTION": "Set where you want the reports to be sent."
+            "LABEL": "Establecer el canal de reportes",
+            "DESCRIPTION": "Establece donde quieres que los reportes sean enviados."
           },
           "IGNORED_ROLE": {
-            "LABEL": "Set the ignored role",
-            "DESCRIPTION": "Set a role whose members can't send reports.",
-            "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
+            "LABEL": "Establecer el rol ignorado",
+            "DESCRIPTION": "Establece un rol cuyos miembros no pueden enviar reportes.",
+            "IGNORED_ROLE_SET": "Has establecido el rol **{{role.mention}}** ({{role.id}}) como el rol ignorado correctamente."
           },
           "TOGGLE_DELETE_REVIEWED_REPORTS": {
-            "LABEL": "Toggle the deletion of reviewed reports",
-            "DESCRIPTION": "Change the status of the deletion of reviewed reports.",
-            "DELETE_REVIEWED_REPORTS_TOGGLED": "You have successfully **{{action}}** the deletion of reviewed reports."
+            "LABEL": "Alternar la eliminación de reportes revisados",
+            "DESCRIPTION": "Cambia el estado de la eliminación de los reportes revisados.",
+            "DELETE_REVIEWED_REPORTS_TOGGLED": "Ha conseguido **{{action}}** la eliminación de reportes revisados."
           },
           "NOTIFICATION_ROLES": {
             "ADD": {
-              "LABEL": "Add notification roles",
-              "DESCRIPTION": "Add roles that will be notified when a report is sent.",
-              "COMPLETED": "You have added the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have added **{{number}}** roles as notification roles successfully."
+              "LABEL": "Añadir roles de notificación",
+              "DESCRIPTION": "Añade roles que serán notificados cuando un reporte sea enviado.",
+              "COMPLETED": "Has establecido el rol **{{role.mention}}** ({{role.id}}) como un rol de notificación correctamente.",
+              "COMPLETED_ALTERNATIVE": "Has añadido **{{number}}** roles como roles de notificación correctamente."
             },
             "SET": {
-              "LABEL": "Set the notification roles",
-              "DESCRIPTION": "Set the roles that will be notified when a report is sent.",
-              "COMPLETED": "You have set the **{{role.mention}}** ({{role.id}}) role as the notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have set **{{number}}** roles as the notification roles successfully."
+              "LABEL": "Establecer los roles de notificación",
+              "DESCRIPTION": "Establece los roles que serán notificados cuando un reporte sea enviado.",
+              "COMPLETED": "Has establecido el rol **{{role.mention}}** ({{role.id}}) como un rol de notificación correctamente.",
+              "COMPLETED_ALTERNATIVE": "Has establecido **{{number}}** roles como roles de notificación correctamente."
             },
             "REMOVE": {
-              "LABEL": "Remove notification roles",
-              "DESCRIPTION": "Remove roles that will be notified when a report is sent.",
-              "COMPLETED": "You have removed the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have removed **{{number}}** roles as notification roles successfully.",
-              "NO_DATA_TO_REMOVE": "There are no notification roles available to remove."
+              "LABEL": "Eliminar roles de notificación",
+              "DESCRIPTION": "Elimina roles que no quieras que sean notificados cuando un reporte sea enviado.",
+              "COMPLETED": "Has eliminado el rol **{{role.mention}}** ({{role.id}}) como un rol de notificación correctamente.",
+              "COMPLETED_ALTERNATIVE": "Has eliminado **{{number}}** roles como roles de notificación correctamente.",
+              "NO_DATA_TO_REMOVE": "No hay roles de notificación disponibles para eliminar."
             }
           },
           "REASON": {
-            "LABEL": "Configure the reason parameters",
-            "DESCRIPTION": "Change the behavior of the reason field of the reports.",
+            "LABEL": "Configurar los parámetros de razón",
+            "DESCRIPTION": "Cambia el comportamiento de los campos de razón de los reportes.",
             "SET_MIN_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the minimum length of member reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the member reports.",
+              "LABEL": "Establecer la longitud mínima de la razón del miembro",
+              "DESCRIPTION": "Establece la longitud mínima de la razón de los reportes de miembros.",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "Longitud mínima de razón"
               },
-              "COMPLETED": "You have successfully set the minimum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "Has establecido la longitud mínima de la razón del miembro a **{{number}}** caracteres correctamente."
             },
             "SET_MAX_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the maximum length of member reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the member reports.",
+              "LABEL": "Establecer la longitud máxima de la razón del miembro",
+              "DESCRIPTION": "Establece la longitud máxima de la razón de los reportes de miembros.",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "Longitud máxima de la razón"
               },
-              "COMPLETED": "You have successfully set the maximum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "Has establecido la longitud máxima de la razón del miembro a **{{number}}** caracteres correctamente."
             },
             "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of member reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the member reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the members reason."
+              "LABEL": "Alternar la limpieza de markdown de la razón del miembro",
+              "DESCRIPTION": "Cambiar el estado de la limpieza del markdown de la razón de los reportes de miembro.",
+              "COMPLETED": "Has **{{action}}** la limpieza de markdown de la razón de miembros."
             },
             "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the minimum length of reviewer reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the reviewer reports.",
+              "LABEL": "Establecer la longitud mínima de la razón del revisor",
+              "DESCRIPTION": "Establece la longitud mínima de la razón del revisor de reportes.",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "Longitud mínima de la razón"
               },
-              "COMPLETED": "You have successfully set the minimum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "Has establecido la longitud mínima de la razón del revisor a **{{number}}** caracteres correctamente."
             },
             "SET_MAX_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the maximum length of reviewer reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the reviewer reports.",
+              "LABEL": "Establecer la longitud máxima de la razón del revisor",
+              "DESCRIPTION": "Establece la longitud máxima de la razón del revisor de reportes.",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "Longitud máxima de la razón"
               },
-              "COMPLETED": "You have successfully set the maximum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "Has establecido la longitud máxima de la razón del revisor a **{{number}}** caracteres correctamente."
             },
             "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of reviewer reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewers reason."
+              "LABEL": "Alternar la limpieza de markdown de la razón del revisor",
+              "DESCRIPTION": "Cambia el estado de la limpieza del markdown de la razón del revisor.",
+              "COMPLETED": "Has **{{action}}** la limpieza de markdown de las razones de revisores correctamente."
             }
           },
           "EVIDENCES": {
-            "LABEL": "Configure the evidences parameters",
-            "DESCRIPTION": "Change the behavior of the evidences field of the reports.",
+            "LABEL": "Configurar los parámetros de evidencias",
+            "DESCRIPTION": "Cambia el comportamiento de los campos de evidencias de los reportes.",
             "SET_MIN_COUNT": {
-              "LABEL": "Set the minimum count of evidences",
-              "DESCRIPTION": "Set the minimum count of evidences that a report must have.",
+              "LABEL": "Establecer la cantidad mínima de evidencias",
+              "DESCRIPTION": "Establece la cantidad mínima de evidencias que un reporte debe tener.",
               "FORM": {
-                "LABEL": "Minimum count"
+                "LABEL": "Cantidad mínima"
               },
-              "COMPLETED": "You have successfully set the minimum count of evidences to **{{number}}**."
+              "COMPLETED": "Has establecido la cantidad mínima de evidencias a **{{number}}** correctamente."
             }
           }
         }
@@ -212,11 +212,11 @@
     "VIEW": {
       "TITLE": "Viendo las configuraciones del módulo **{{module}}**",
       "NO_DATA": "Sin datos",
-      "SELECT_THE_DATA": "Selecciona los datos a ver",
+      "SELECT_THE_DATA": "Seleccionar los datos a ver",
       "VIEW_ALL": "Ver todos los {{data}}.",
-      "DM_STATUS": "DM status",
+      "DM_STATUS": "Estado del MD",
       "COOLDOWN": "Tiempo de espera",
-      "EXCEPTIONS": "{{type}} exceptions",
+      "EXCEPTIONS": "Excepciones de {{type}}",
       "COMMUNITY": {
         "COMMANDS": {
           "DISABLED_COMMANDS": "Comandos desactivados",
@@ -226,22 +226,22 @@
           "LANGUAGE_CODE": "Código del idioma"
         },
         "REPORTS": {
-          "REPORTS_CHANNEL": "Reports channel",
-          "IGNORED_ROLE": "Ignored role",
-          "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
-          "NOTIFICATION_ROLES": "Notification roles",
+          "REPORTS_CHANNEL": "Canal de reportes",
+          "IGNORED_ROLE": "Rol ignorado",
+          "DELETE_REVIEWED_REPORTS": "Eliminar reportes revisados",
+          "NOTIFICATION_ROLES": "Roles de notificación",
           "REASON_PARAMETERS": {
-            "TITLE": "Reason parameters",
-            "MIN_LENGTH_OF_MEMBER_REASON": "Minimum length of member reason",
-            "MAX_LENGTH_OF_MEMBER_REASON": "Maximum length of member reason",
-            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Clean markdown of member reason",
-            "MIN_LENGTH_OF_REVIEWER_REASON": "Minimum length of reviewer reason",
-            "MAX_LENGTH_OF_REVIEWER_REASON": "Maximum length of reviewer reason",
-            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Clean markdown of reviewer reason"
+            "TITLE": "Parámetros de razón",
+            "MIN_LENGTH_OF_MEMBER_REASON": "Longitud mínima de la razón del miembro",
+            "MAX_LENGTH_OF_MEMBER_REASON": "Longitud máxima de la razón del miembro",
+            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Limpieza el markdown de la razón del miembro",
+            "MIN_LENGTH_OF_REVIEWER_REASON": "Longitud mínima de la razón del revisor",
+            "MAX_LENGTH_OF_REVIEWER_REASON": "Longitud máxima de la razón del revisor",
+            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Limpieza de markdown de la razón del revisor"
           },
           "EVIDENCES_PARAMETERS": {
-            "TITLE": "Evidences parameters",
-            "MIN_COUNT": "Minimum count of evidences"
+            "TITLE": "Parámetros de evidencias",
+            "MIN_COUNT": "Cantidad mínima de evidencias"
           }
         }
       }
