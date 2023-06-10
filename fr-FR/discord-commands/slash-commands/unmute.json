@@ -6,7 +6,7 @@
       "description": "Utilisateur dont vous souhaitez supprimer la sourdine."
     },
     "reason": {
-      "name": "raison",
+      "name": "reason",
       "description": "Raison de la suppression de la sourdine."
     },
     "silent": {
