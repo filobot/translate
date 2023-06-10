@@ -6,7 +6,7 @@
       "description": "Usuario al que quieres prohibir suavemente."
     },
     "reason": {
-      "name": "razón",
+      "name": "reason",
       "description": "Razón para prohibir suavemente a este usuario."
     },
     "message-history": {
