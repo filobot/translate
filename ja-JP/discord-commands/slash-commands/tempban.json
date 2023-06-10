@@ -10,7 +10,7 @@
       "description": "制裁の期間"
     },
     "reason": {
-      "name": "理由",
+      "name": "reason",
       "description": "このユーザーを一時的に禁止する理由。"
     },
     "message-history": {
