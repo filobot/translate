@@ -10,7 +10,7 @@
       "description": "Duració de la sanció."
     },
     "reason": {
-      "name": "raó",
+      "name": "reason",
       "description": "Raó per prohibir temporalment a aquest usuari."
     },
     "message-history": {
