@@ -4,5 +4,6 @@
   "MESSAGE_INFORMATION": "Informació del missatge",
   "MESSAGE_LINK": "URL del missatge",
   "MESSAGE_WITHOUT_CONTENT": "Missatge sense contingut",
-  "NUMBER_OF_PURGED_MESSAGES": "Nombre de missatges purgats"
+  "NUMBER_OF_PURGED_MESSAGES": "Nombre de missatges purgats",
+  "CHARACTERS": "Characters"
 }
