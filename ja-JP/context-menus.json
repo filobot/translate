@@ -1,6 +1,4 @@
 {
-  "SELECT_THE_ACTION": "実行したいアクションを選択します。",
-  "SELECT_THE_ACTION_PLACEHOLDER": "アクションを選択する",
   "LOADING_ACTION": "要求されたアクションがロードされる間、お待ちください。",
   "MESSAGE": {
     "MANAGE_THIS_MESSAGE": {
