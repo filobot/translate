@@ -10,7 +10,7 @@
       "description": "Durée de la sanction."
     },
     "reason": {
-      "name": "reason",
+      "name": "raison",
       "description": "Raison pour laquelle vous décidez de rendre temporairement muet cet utilisateur."
     },
     "silent": {
