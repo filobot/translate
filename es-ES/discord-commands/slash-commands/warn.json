@@ -6,7 +6,7 @@
       "description": "Usuario al que quieres advertir."
     },
     "reason": {
-      "name": "razón",
+      "name": "reason",
       "description": "Razón para advertir a este usuario."
     },
     "silent": {
