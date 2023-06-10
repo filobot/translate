@@ -2,7 +2,7 @@
   "NAME_OF_MODULES": {
     "LANGUAGE": "Ngôn ngữ",
     "DISABLE_COMMANDS": "Vô hiệu hoá lệnh",
-    "REPORTS": "Các báo cáo",
+    "REPORTS": "Reports ({{module}})",
     "WELCOMES": "Chào mừng",
     "WELCOME_ROLE": "Role chào mừng",
     "FAREWELLS": "Vĩnh biệt",
