@@ -151,7 +151,13 @@
     "PIN_MESSAGES": "釘選頻道",
     "UNPIN_MESSAGES": "取消釘選頻道",
     "VIEW_HISTORY": "查看歷史",
-    "EVADE_SANCTIONS": "Evade sanctions"
+    "EVADE_SANCTIONS": "Evade sanctions",
+    "REPORT_MEMBERS": "Report members",
+    "REPORT_MESSAGES": "Report messages",
+    "BYPASS_REPORTS_COOLDOWN": "Bypass reports cooldown",
+    "APPROVE_REPORTS": "Approve reports",
+    "DENY_REPORTS": "Deny reports",
+    "MANAGE_REPORTS": "Manage reports"
   },
   "THANKS": {
     "TITLE": "感謝您邀請 Filo！",

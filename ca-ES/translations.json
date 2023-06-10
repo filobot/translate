@@ -151,7 +151,13 @@
     "PIN_MESSAGES": "Fixar missatges",
     "UNPIN_MESSAGES": "Desfixar missatge",
     "VIEW_HISTORY": "Veure historial",
-    "EVADE_SANCTIONS": "Evadir sancions"
+    "EVADE_SANCTIONS": "Evadir sancions",
+    "REPORT_MEMBERS": "Denunciar usuaris",
+    "REPORT_MESSAGES": "Denunciar missatges",
+    "BYPASS_REPORTS_COOLDOWN": "Ometre els informes de reutilització",
+    "APPROVE_REPORTS": "Aprovar informes",
+    "DENY_REPORTS": "Negar informes",
+    "MANAGE_REPORTS": "Gestionar informes"
   },
   "THANKS": {
     "TITLE": "Gràcies per afegir a Filo!",

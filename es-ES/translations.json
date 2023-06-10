@@ -151,7 +151,13 @@
     "PIN_MESSAGES": "Fijar mensajes",
     "UNPIN_MESSAGES": "Desfijar mensaje",
     "VIEW_HISTORY": "Ver historial",
-    "EVADE_SANCTIONS": "Evadir sanciones"
+    "EVADE_SANCTIONS": "Evadir sanciones",
+    "REPORT_MEMBERS": "Informar miembros",
+    "REPORT_MESSAGES": "Informar mensajes",
+    "BYPASS_REPORTS_COOLDOWN": "Evitar el enfriamiento de los informes",
+    "APPROVE_REPORTS": "Aprobar informes",
+    "DENY_REPORTS": "Denegar informes",
+    "MANAGE_REPORTS": "Gestionar informes"
   },
   "THANKS": {
     "TITLE": "¡Gracias por añadir a Filo!",

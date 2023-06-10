@@ -151,7 +151,13 @@
     "PIN_MESSAGES": "ピンメッセージ",
     "UNPIN_MESSAGES": "メッセージのアンピン",
     "VIEW_HISTORY": "履歴を見る",
-    "EVADE_SANCTIONS": "制裁を回避する"
+    "EVADE_SANCTIONS": "制裁を回避する",
+    "REPORT_MEMBERS": "レポートメンバー",
+    "REPORT_MESSAGES": "問題の報告",
+    "BYPASS_REPORTS_COOLDOWN": "レポートのクールダウンを回避する",
+    "APPROVE_REPORTS": "報告書の承認",
+    "DENY_REPORTS": "レポートを拒否する",
+    "MANAGE_REPORTS": "レポートの管理"
   },
   "THANKS": {
     "TITLE": "Filo の追加ありがとうございます！",
