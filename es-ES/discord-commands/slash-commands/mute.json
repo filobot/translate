@@ -6,7 +6,7 @@
       "description": "Usuario al que quieres silenciar."
     },
     "reason": {
-      "name": "razón",
+      "name": "reason",
       "description": "Razón para silenciar a este usuario."
     },
     "silent": {
