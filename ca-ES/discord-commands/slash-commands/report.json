@@ -1,37 +1,37 @@
 {
-  "description": "Report bad behavior to a server moderator.",
+  "description": "Informa comportament inadequat als moderadors del servidor.",
   "subcommands": {
     "member": {
-      "description": "Report a member.",
+      "description": "Informa un membre.",
       "arguments": {
         "member": {
-          "name": "member",
-          "description": "Member you want to report."
+          "name": "membre",
+          "description": "Membre que vols informar."
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason why you want to report this member."
+          "name": "raó",
+          "description": "Raó per la qual vols reportar a aquest membre."
         },
         "evidences": {
-          "name": "evidences",
-          "description": "Evidences that support the reason you are reporting this member."
+          "name": "evidències",
+          "description": "Evidències que suporten la raó per la qual estàs informant aquest membre."
         }
       }
     },
     "message": {
-      "description": "Report a message.",
+      "description": "Informar un missatge.",
       "arguments": {
         "message": {
           "name": "missatge",
-          "description": "Message you want to report."
+          "description": "Missatge que vols informar."
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason why you want to report this message."
+          "name": "raó",
+          "description": "Raó per la qual vols reportar a aquest missatge."
         },
         "evidences": {
-          "name": "evidences",
-          "description": "Evidences that support the reason you are reporting this message."
+          "name": "evidències",
+          "description": "Evidències que suporten la raó per la qual estàs informant aquest missatge."
         }
       }
     }
