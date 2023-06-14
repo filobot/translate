@@ -6,7 +6,7 @@
       "description": "Usuari al qual vols eliminar l'advertència."
     },
     "reason": {
-      "name": "reason",
+      "name": "raó",
       "description": "Raó per eliminar l'advertència."
     },
     "case": {
