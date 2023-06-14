@@ -6,7 +6,7 @@
       "description": "Usuari al qual vols advertir."
     },
     "reason": {
-      "name": "reason",
+      "name": "raó",
       "description": "Raó per advertir aquest usuari."
     },
     "silent": {
