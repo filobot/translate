@@ -2,7 +2,7 @@
   "NAME_OF_MODULES": {
     "LANGUAGE": "言語",
     "DISABLE_COMMANDS": "ディセーブルコマンド。",
-    "REPORTS": "Reports ({{module}})",
+    "REPORTS": "レポート ({{module}})",
     "WELCOMES": "ウェルカム",
     "WELCOME_ROLE": "歓迎される役割",
     "FAREWELLS": "お別れの言葉",
