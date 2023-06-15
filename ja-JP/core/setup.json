@@ -22,43 +22,43 @@
   "LOADING_DATA": "必要なデータが読み込まれるまで、しばらくお待ちください。",
   "MODULES": {
     "SELECT_A_MODULE": "設定したいモジュールを **{{module}}** カテゴリから選択する必要があります。",
-    "SELECT_A_SUBMODULE": "You must select the submodule from the **{{module}}** module that you want to configure.",
+    "SELECT_A_SUBMODULE": "設定したいサブモジュールを **{{module}}** モジュールから選択する必要があります。",
     "PLACEHOLDER": "モジュールを選択する",
     "SELECT_THE_ACTION": "モジュールに対して実行したいアクションを選択する必要があります。",
-    "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+    "SELECT_THE_ACTION_PLACEHOLDER": "アクションを選択する",
     "MODULE_ENABLED_OR_DISABLED": "**{{module}}** モジュールは、{{action}} に成功しました。",
     "RESET_REQUEST_WARNING": "本当に **{{module}}** モジュールをリセットしますか？このアクションは元に戻せません!",
     "MODULE_RESET": "**{{module}}** モジュールが正常にリセットされました。",
-    "SELECT_A_CHANNEL": "You must select the channel you want to set.",
-    "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
-    "SELECT_AT_LEAST_ONE_CHANNEL": "You must select at least one channel.",
-    "SELECT_A_ROLE": "You must select the role you want to set.",
-    "SELECT_A_ROLE_PLACEHOLDER": "Select a role",
-    "SELECT_AT_LEAST_ONE_ROLE": "You must select at least one role.",
-    "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
+    "SELECT_A_CHANNEL": "設定したいチャンネルを選択する必要があります。",
+    "SELECT_A_CHANNEL_PLACEHOLDER": "チャンネルを選択",
+    "SELECT_AT_LEAST_ONE_CHANNEL": "少なくとも1つのチャンネルを選択する必要があります。",
+    "SELECT_A_ROLE": "設定したい役割を選択する必要があります。",
+    "SELECT_A_ROLE_PLACEHOLDER": "役割を選択します。",
+    "SELECT_AT_LEAST_ONE_ROLE": "少なくとも1つの役割を選択する必要があります。",
+    "CHANNEL_SET": "**[{{channel.name}}]({{url}})** モジュールの **{{module}}** チャンネルを設定することに成功しました。",
     "DM_STATUS": {
-      "LABEL": "Toggle the status of DMs",
-      "DESCRIPTION": "Change the status of notifications by DM.",
-      "DM_STATUS_TOGGLED": "You have successfully **{{action}}** the DM notifications for the **{{module}}** module."
+      "LABEL": "DM のステータスをトグルする",
+      "DESCRIPTION": "DM による通知状況を変更する。",
+      "DM_STATUS_TOGGLED": "**{{module}}** あなたは、**{{action}}** モジュールの DM 通知を成功させました。"
     },
     "EXCEPTIONS": {
       "ADD": {
-        "LABEL": "Add {{type}}",
-        "DESCRIPTION": "Add {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully added the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully added **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "{{type}} を追加する",
+        "DESCRIPTION": "モジュールの例外リストに {{type}} を追加する。",
+        "COMPLETED": "モジュールの例外リストに {{value}} {{type}} を追加することに成功しました。",
+        "COMPLETED_ALTERNATIVE": "モジュールの例外リストに **{{number}}** {{type}} を追加することに成功しました。"
       },
       "SET": {
-        "LABEL": "Set the {{type}}",
-        "DESCRIPTION": "Set the {{type}} list to the module's exception list.",
+        "LABEL": "{{type}} を設定します",
+        "DESCRIPTION": "{{type}} リストにモジュールの例外リストを設定する。",
         "COMPLETED": "You have successfully set the {{value}} {{type}} to the module's exception list.",
         "COMPLETED_ALTERNATIVE": "You have successfully set **{{number}}** {{type}} to the module's exception list."
       },
       "REMOVE": {
         "LABEL": "Remove {{type}}",
-        "DESCRIPTION": "Remove {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully removed the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} to the module's exception list.",
+        "DESCRIPTION": "Remove {{type}} from the module's exception list.",
+        "COMPLETED": "You have successfully removed the {{value}} {{type}} from the module's exception list.",
+        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} from the module's exception list.",
         "NO_DATA_TO_REMOVE": "There are no {{value}} available to remove from the module's exception list."
       }
     },
