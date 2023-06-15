@@ -13,7 +13,7 @@
   "RESPONSE_DELETED": "レスの削除に成功しました。",
   "DATE": "日付",
   "APPROVED": "承認済み",
-  "PENDING": "Pending",
+  "PENDING": "処理待ち",
   "DENIED": "却下",
   "ENABLED": "有効",
   "DISABLED": "使用不可",
@@ -80,12 +80,12 @@
   "DEPRECATED_COMMAND_WARNING_2": "代わりに **{{command}}** コマンドを使用します。",
   "TAGS": "タグ",
   "WITHOUT_TAGS": "タグなし",
-  "DETAILS": "Details",
-  "REVIEWER": "Reviewer",
+  "DETAILS": "詳細",
+  "REVIEWER": "レビュアー",
   "SELECT_THE_ACTION": "実行したいアクションを選択します。",
   "SELECT_THE_ACTION_PLACEHOLDER": "アクションを選択する",
-  "SELECT_A_USER": "You must select a user to continue.",
-  "SELECT_A_USER_PLACEHOLDER": "Select a user",
-  "SUBMITTED": "Submitted",
-  "PRESS_BUTTON_TO_MODAL": "You must click the **{{name}}** button to display the modal."
+  "SELECT_A_USER": "続行するには、ユーザーを選択する必要があります。",
+  "SELECT_A_USER_PLACEHOLDER": "ユーザーを選択",
+  "SUBMITTED": "提出済み",
+  "PRESS_BUTTON_TO_MODAL": "モーダルを表示するには、**{{name}}** ボタンをクリックする必要があります。"
 }
