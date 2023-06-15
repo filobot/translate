@@ -31,8 +31,8 @@
     "THREAD_CREATE": "作成されたスレッド",
     "THREAD_UPDATE": "スレッド更新",
     "THREAD_DELETE": "スレッド削除",
-    "REPORT_MEMBER_CREATE": "Reported member",
-    "REPORT_MESSAGE_CREATE": "Reported message",
+    "REPORT_MEMBER_CREATE": "報告メンバー",
+    "REPORT_MESSAGE_CREATE": "報告されたメッセージ",
     "SANCTION_CREATE": "サンクション作成",
     "SANCTION_UPDATE": "サンクション更新",
     "SANCTION_DELETE": "サンクション削除"
