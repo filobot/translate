@@ -5,7 +5,7 @@
   "DEFAULT_REASON": "司会者は理由を明記していない。",
   "CASE_ID": "ケース ID",
   "PROOF": "プルーフ",
-  "EVIDENCES": "Evidences",
+  "EVIDENCES": "エバンス",
   "SANCTION_RESPONSE": "{{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) に成功しました。",
   "SANCTION_RESPONSE_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}) は、ギルドから {{sanction}} になりました。",
   "SANCTION_NOTIFICATION": {
@@ -44,5 +44,5 @@
   "CASE_REMOVED": "ケースを取り外した状態",
   "SANCTION_DATA": "サクションデータ",
   "EXAMPLE_REASON": "カワイイを極める!",
-  "SANCTION_THIS_USER": "Sanction this user."
+  "SANCTION_THIS_USER": "このユーザーを制裁する。"
 }
