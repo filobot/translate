@@ -34,7 +34,7 @@ https://youtu.be/1kCAgpOw-g0
 
 ## 報告書
 
-Improve the experience of your members, allowing them to use the best and most complete reports module!
+会員のエクスペリエンスを向上させ、最適で最も完全なレポートモジュールを使用できるようにします！
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
