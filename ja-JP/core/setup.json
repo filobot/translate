@@ -51,15 +51,15 @@
       "SET": {
         "LABEL": "{{type}} を設定します",
         "DESCRIPTION": "{{type}} リストにモジュールの例外リストを設定する。",
-        "COMPLETED": "You have successfully set the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully set **{{number}}** {{type}} to the module's exception list."
+        "COMPLETED": "モジュールの例外リストに {{value}} {{type}} を設定することに成功しました。",
+        "COMPLETED_ALTERNATIVE": "モジュールの例外リストに **{{number}}** {{type}} を設定することに成功しました。"
       },
       "REMOVE": {
-        "LABEL": "Remove {{type}}",
-        "DESCRIPTION": "Remove {{type}} from the module's exception list.",
-        "COMPLETED": "You have successfully removed the {{value}} {{type}} from the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} from the module's exception list.",
-        "NO_DATA_TO_REMOVE": "There are no {{value}} available to remove from the module's exception list."
+        "LABEL": "{{type}} を削除します",
+        "DESCRIPTION": "モジュールの例外リストから {{type}} を削除する。",
+        "COMPLETED": "モジュールの例外リストから {{value}} {{type}} を削除することに成功しました。",
+        "COMPLETED_ALTERNATIVE": "モジュールの例外リストから **{{number}}** {{type}} を削除することに成功しました。",
+        "NO_DATA_TO_REMOVE": "モジュールの例外リストから削除できる {{value}} はありません。"
       }
     },
     "COMMUNITY": {
@@ -103,67 +103,67 @@
         "DESCRIPTION": "このサーバーで Filo の言語を変更する。",
         "SELECT_A_LANGUAGE": "設定したい言語を選択する必要があります。",
         "SELECT_A_LANGUAGE_PLACEHOLDER": "言語を選択する",
-        "LANGUAGE_SET": "You have set the **{{language}}** language successfully."
+        "LANGUAGE_SET": "**{{language}}** 言語を正常に設定しました。"
       },
       "REPORTS": {
-        "LABEL": "Reports",
-        "DESCRIPTION": "Provide reporting tools to your server members.",
+        "LABEL": "レポート",
+        "DESCRIPTION": "サーバー会員にレポートツールを提供する。",
         "SUBMODULES_SELECTOR": {
-          "MEMBERS": "Change the behavior of the member reporting module.",
-          "MESSAGES": "Change the behavior of the message reporting module."
+          "MEMBERS": "メンバーレポートモジュールの動作を変更する。",
+          "MESSAGES": "メッセージレポートモジュールの動作を変更する。"
         },
         "CONFIGURE": {
           "REPORTS_CHANNEL": {
-            "LABEL": "Set the reports channel",
-            "DESCRIPTION": "Set where you want the reports to be sent."
+            "LABEL": "レポートチャンネルを設定する",
+            "DESCRIPTION": "レポートの送信先を設定する。"
           },
           "IGNORED_ROLE": {
-            "LABEL": "Set the ignored role",
-            "DESCRIPTION": "Set a role whose members can't send reports.",
-            "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
+            "LABEL": "無視される役割を設定する",
+            "DESCRIPTION": "メンバーがレポートを送信できないロールを設定する。",
+            "IGNORED_ROLE_SET": "**{{role.mention}}** ({{role.id}}) ロールを無視されたロールとして設定することに成功しました。"
           },
           "TOGGLE_DELETE_REVIEWED_REPORTS": {
-            "LABEL": "Toggle the deletion of reviewed reports",
-            "DESCRIPTION": "Change the status of the deletion of reviewed reports.",
-            "DELETE_REVIEWED_REPORTS_TOGGLED": "You have successfully **{{action}}** the deletion of reviewed reports."
+            "LABEL": "レビュー済みレポートの削除をトグルする",
+            "DESCRIPTION": "レビュー済みレポートの削除状況を変更する。",
+            "DELETE_REVIEWED_REPORTS_TOGGLED": "レビューされたレポートの削除に成功しました **{{action}}**。"
           },
           "NOTIFICATION_ROLES": {
             "ADD": {
-              "LABEL": "Add notification roles",
-              "DESCRIPTION": "Add roles that will be notified when a report is sent.",
-              "COMPLETED": "You have added the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have added **{{number}}** roles as notification roles successfully."
+              "LABEL": "通知ロールの追加",
+              "DESCRIPTION": "レポート送信時に通知されるロールを追加する。",
+              "COMPLETED": "**{{role.mention}}** ({{role.id}}) ロールを通知ロールとして正常に追加されました。",
+              "COMPLETED_ALTERNATIVE": "通知ロールとして **{{number}}** ロールを正常に追加しました。"
             },
             "SET": {
-              "LABEL": "Set the notification roles",
-              "DESCRIPTION": "Set the roles that will be notified when a report is sent.",
-              "COMPLETED": "You have set the **{{role.mention}}** ({{role.id}}) role as the notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have set **{{number}}** roles as the notification roles successfully."
+              "LABEL": "通知の役割を設定する",
+              "DESCRIPTION": "レポート送信時に通知されるロールを設定します。",
+              "COMPLETED": "**{{role.mention}}** ({{role.id}}) ロールを通知ロールに設定することに成功しました。",
+              "COMPLETED_ALTERNATIVE": "通知ロールとして **{{number}}** ロールを正常に設定しました。"
             },
             "REMOVE": {
-              "LABEL": "Remove notification roles",
-              "DESCRIPTION": "Remove roles that will be notified when a report is sent.",
-              "COMPLETED": "You have removed the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have removed **{{number}}** roles as notification roles successfully.",
-              "NO_DATA_TO_REMOVE": "There are no notification roles available to remove."
+              "LABEL": "通知ロールの削除",
+              "DESCRIPTION": "レポート送信時に通知されるロールを削除する。",
+              "COMPLETED": "通知ロールとして **{{role.mention}}** ({{role.id}}) ロールを正常に削除しました。",
+              "COMPLETED_ALTERNATIVE": "通知ロールとして **{{number}}** ロールを正常に削除しました。",
+              "NO_DATA_TO_REMOVE": "削除可能な通知ロールはありません。"
             }
           },
           "REASON": {
-            "LABEL": "Configure the reason parameters",
-            "DESCRIPTION": "Change the behavior of the reason field of the reports.",
+            "LABEL": "理由パラメータを設定する",
+            "DESCRIPTION": "レポートの理由欄の動作を変更する。",
             "SET_MIN_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the minimum length of member reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the member reports.",
+              "LABEL": "メンバー理由の最小長を設定する",
+              "DESCRIPTION": "メンバーレポートの理由の最小長さを設定します。",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "最小の理由長さ"
               },
-              "COMPLETED": "You have successfully set the minimum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "メンバーズリースの最小長を **{{number}}** 文字に設定することに成功しました。"
             },
             "SET_MAX_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the maximum length of member reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the member reports.",
+              "LABEL": "メンバー理由の最大長を設定する",
+              "DESCRIPTION": "メンバーレポートの理由の最大長を設定します。",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "理由の最大長"
               },
               "COMPLETED": "You have successfully set the maximum length of the members reason to **{{number}}** characters."
             },
@@ -176,7 +176,7 @@
               "LABEL": "Set the minimum length of reviewer reason",
               "DESCRIPTION": "Set the minimum length of the reason of the reviewer reports.",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "最小の理由長さ"
               },
               "COMPLETED": "You have successfully set the minimum length of the reviewers reason to **{{number}}** characters."
             },
@@ -184,7 +184,7 @@
               "LABEL": "Set the maximum length of reviewer reason",
               "DESCRIPTION": "Set the maximum length of the reason of the reviewer reports.",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "理由の最大長"
               },
               "COMPLETED": "You have successfully set the maximum length of the reviewers reason to **{{number}}** characters."
             },
