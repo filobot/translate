@@ -34,7 +34,7 @@ A continuación, encontrarás una lista de las mejores características de Filo.
 
 ## REPORTES
 
-Improve the experience of your members, allowing them to use the best and most complete reports module!
+Mejora la experiencia de sus miembros, ¡permitiéndoles utilizar el mejor y más completo módulo de reportes!
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
