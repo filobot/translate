@@ -34,7 +34,7 @@ A continuación, encontrarás una lista de las mejores características de Filo.
 
 ## REPORTES
 
-¡Mejora la experiencia y profesionaliza la moderación de tu servidor permitiendo a los usuarios reportar comportamientos inapropiados!
+Improve the experience of your members, allowing them to use the best and most complete reports module!
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
