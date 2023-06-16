@@ -1,5 +1,5 @@
 {
-  "USER_REPORTED": "You have successfully reported **[{{user.tag}}]({{url}})** ({{user.id}}).",
+  "USER_REPORTED": "Has informat amb èxit sobre **[{{user.tag}}]({{url}})** ({{user.id}}).",
   "MESSAGE_REPORTED": "Has informat el **[missatge]({{url}})** sobre **[{{user.tag}}**]({{url2}})** ({{user.id}}) correctament.",
   "REPORT_APPROVED_OR_DENIED": "Has **{{status}}** l'informe sobre {{user}} correctament.",
   "REPORT_NOTIFICATION": {
