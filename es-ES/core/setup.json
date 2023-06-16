@@ -56,9 +56,9 @@
       },
       "REMOVE": {
         "LABEL": "Eliminar {{type}}",
-        "DESCRIPTION": "Remove {{type}} from the module's exception list.",
-        "COMPLETED": "You have successfully removed the {{value}} {{type}} from the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} from the module's exception list.",
+        "DESCRIPTION": "Elimina {{type}} de la lista de excepciones del módulo.",
+        "COMPLETED": "Ha eliminado el {{type}} {{value}} de la lista de excepciones del módulo.",
+        "COMPLETED_ALTERNATIVE": "Ha eliminado **{{number}}** {{type}} de la lista de excepciones del módulo.",
         "NO_DATA_TO_REMOVE": "No hay {{value}} disponibles para eliminar de la lista de excepciones del módulo."
       }
     },
