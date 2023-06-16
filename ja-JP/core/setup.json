@@ -165,45 +165,45 @@
               "FORM": {
                 "LABEL": "理由の最大長"
               },
-              "COMPLETED": "You have successfully set the maximum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "メンバーズリースの最大長を **{{number}}** 文字に設定することに成功しました。"
             },
             "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of member reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the member reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the members reason."
+              "LABEL": "メンバー理由のマークダウンのクリーニングをトグルする",
+              "DESCRIPTION": "メンバーレポートの理由のマークダウンのクリーニングの状況を変更する。",
+              "COMPLETED": "あなたは、メンバー理由のマークダウンのクリーニングを成功させました **{{action}}**。"
             },
             "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the minimum length of reviewer reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the reviewer reports.",
+              "LABEL": "レビュアーの理由の最小長を設定する",
+              "DESCRIPTION": "レビュアーレポートの理由の最小長さを設定します。",
               "FORM": {
                 "LABEL": "最小の理由長さ"
               },
-              "COMPLETED": "You have successfully set the minimum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "レビューアの理由の最小長を **{{number}}** 文字に設定することに成功しました。"
             },
             "SET_MAX_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the maximum length of reviewer reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the reviewer reports.",
+              "LABEL": "レビューア理由の最大長を設定する",
+              "DESCRIPTION": "レビュアーレポートの理由の最大長を設定します。",
               "FORM": {
                 "LABEL": "理由の最大長"
               },
-              "COMPLETED": "You have successfully set the maximum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "査読者の理由の最大長を **{{number}}** 文字に設定することに成功しました。"
             },
             "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of reviewer reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewers reason."
+              "LABEL": "レビュアー理由のマークダウンのクリーニングをトグルする",
+              "DESCRIPTION": "レビュアーレポートの理由のマークダウンのクリーニングのステータスを変更します。",
+              "COMPLETED": "あなたは成功しました **{{action}}** レビューア理由のマークダウンのクリーニング。"
             }
           },
           "EVIDENCES": {
-            "LABEL": "Configure the evidences parameters",
-            "DESCRIPTION": "Change the behavior of the evidences field of the reports.",
+            "LABEL": "エビデンスパラメーターを設定する",
+            "DESCRIPTION": "レポートのエビデンスフィールドの動作を変更します。",
             "SET_MIN_COUNT": {
-              "LABEL": "Set the minimum count of evidences",
-              "DESCRIPTION": "Set the minimum count of evidences that a report must have.",
+              "LABEL": "エビデンスの最小数を設定する",
+              "DESCRIPTION": "レポートが持つべき証拠書類の最小数を設定する。",
               "FORM": {
-                "LABEL": "Minimum count"
+                "LABEL": "ミニマムカウント"
               },
-              "COMPLETED": "You have successfully set the minimum count of evidences to **{{number}}**."
+              "COMPLETED": "証拠品の最小数を **{{number}}** に設定することに成功しました。"
             }
           }
         }
@@ -214,9 +214,9 @@
       "NO_DATA": "データなし",
       "SELECT_THE_DATA": "表示するデータを選択する",
       "VIEW_ALL": "すべて表示 {{data}}。",
-      "DM_STATUS": "DM status",
+      "DM_STATUS": "DM ステータス",
       "COOLDOWN": "クールダウン",
-      "EXCEPTIONS": "{{type}} exceptions",
+      "EXCEPTIONS": "{{type}} 例外",
       "COMMUNITY": {
         "COMMANDS": {
           "DISABLED_COMMANDS": "無効化されたコマンド",
@@ -226,22 +226,22 @@
           "LANGUAGE_CODE": "言語コード"
         },
         "REPORTS": {
-          "REPORTS_CHANNEL": "Reports channel",
-          "IGNORED_ROLE": "Ignored role",
-          "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
-          "NOTIFICATION_ROLES": "Notification roles",
+          "REPORTS_CHANNEL": "レポートチャンネル",
+          "IGNORED_ROLE": "無視される役割",
+          "DELETE_REVIEWED_REPORTS": "レビュー済みレポートの削除",
+          "NOTIFICATION_ROLES": "お知らせの役割",
           "REASON_PARAMETERS": {
-            "TITLE": "Reason parameters",
-            "MIN_LENGTH_OF_MEMBER_REASON": "Minimum length of member reason",
-            "MAX_LENGTH_OF_MEMBER_REASON": "Maximum length of member reason",
-            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Clean markdown of member reason",
-            "MIN_LENGTH_OF_REVIEWER_REASON": "Minimum length of reviewer reason",
-            "MAX_LENGTH_OF_REVIEWER_REASON": "Maximum length of reviewer reason",
-            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Clean markdown of reviewer reason"
+            "TITLE": "理由パラメータ",
+            "MIN_LENGTH_OF_MEMBER_REASON": "メンバー理由の最小長さ",
+            "MAX_LENGTH_OF_MEMBER_REASON": "会員理由の最大長",
+            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "メンバー理由のクリーンなマークダウン",
+            "MIN_LENGTH_OF_REVIEWER_REASON": "レビュアー理由の最低長さ",
+            "MAX_LENGTH_OF_REVIEWER_REASON": "レビューア理由の最大長",
+            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "レビュアーの理由をきれいにマークダウンする"
           },
           "EVIDENCES_PARAMETERS": {
-            "TITLE": "Evidences parameters",
-            "MIN_COUNT": "Minimum count of evidences"
+            "TITLE": "エヴィデンスパラメーター",
+            "MIN_COUNT": "最低限必要な証拠品数"
           }
         }
       }
