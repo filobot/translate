@@ -34,7 +34,7 @@ https://youtu.be/1kCAgpOw-g0
 
 ## 報告書
 
-ユーザーが不適切な行為を報告できるようにすることで、サーバーのモデレーションの体験を向上させ、専門性を高めることができます！
+Improve the experience of your members, allowing them to use the best and most complete reports module!
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
