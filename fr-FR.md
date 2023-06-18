@@ -34,7 +34,7 @@ Vous trouverez ci-dessous une liste des meilleures fonctionnalités de Filo... T
 
 ## SIGNALEMENTS
 
-Improve the experience of your members, allowing them to use the best and most complete reports module!
+Améliorez l'expérience de vos membres en leur permettant d'utiliser le module de signalements le plus complet et le plus performant!
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
