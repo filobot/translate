@@ -1,0 +1,68 @@
+{
+  "description": "React to other users using gifs.",
+  "subcommands": {
+    "angry": {
+      "description": "Send an angry reaction."
+    },
+    "blush": {
+      "description": "Send an blush reaction."
+    },
+    "bored": {
+      "description": "Send an bored reaction."
+    },
+    "cold": {
+      "description": "Send an cold reaction."
+    },
+    "confused": {
+      "description": "Send an confused reaction."
+    },
+    "cry": {
+      "description": "Send an cry reaction."
+    },
+    "dance": {
+      "description": "Send an dance reaction."
+    },
+    "eyebrows": {
+      "description": "Send an eyebrows reaction."
+    },
+    "greet": {
+      "description": "Send an greet reaction."
+    },
+    "happy": {
+      "description": "Send an happy reaction."
+    },
+    "hot": {
+      "description": "Send an hot reaction."
+    },
+    "like": {
+      "description": "Send an like reaction."
+    },
+    "pout": {
+      "description": "Send an pout reaction."
+    },
+    "run": {
+      "description": "Send an run reaction."
+    },
+    "scared": {
+      "description": "Send an scared reaction."
+    },
+    "sick": {
+      "description": "Send an sick reaction."
+    },
+    "sing": {
+      "description": "Send an sing reaction."
+    },
+    "sleep": {
+      "description": "Send an sleep reaction."
+    },
+    "smug": {
+      "description": "Send an smug reaction."
+    },
+    "teehee": {
+      "description": "Send an teehee reaction."
+    },
+    "think": {
+      "description": "Send an think reaction."
+    }
+  }
+}
