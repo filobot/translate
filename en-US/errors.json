@@ -1,4 +1,10 @@
 {
+  "MISSING_AUTHORIZATION_TOKEN": "The authorization token is missing.",
+  "WRONG_AUTHORIZATION_PREFIX": "The authorization token must start with \"Bearer\".",
+  "INVALID_AUTHORIZATION_TOKEN": "The authorization token is invalid or expired.",
+  "MISSING_ACCESS": "You don't have the required permissions to access this resource.",
+  "MISSING_CLUSTER_ID": "The cluster ID is missing.",
+  "RATE_LIMIT_EXCEEDED": "You have been temporarily rate limited.",
   "BODY_EMPTY": "The request body can't be empty.",
   "PARAMS_EMPTY": "The request params can't be empty.",
   "MISSING_VALUE_OR_INVALID_VALUE": "The value \"{{value}}\" is missing or invalid.",
