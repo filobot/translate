@@ -1,9 +1,0 @@
-{
-  "description": "Escurça un URL.",
-  "arguments": {
-    "url": {
-      "name": "url",
-      "description": "URL que vols escurçar."
-    }
-  }
-}

@@ -1,5 +1,0 @@
-{
-  "HELP_TITLE": "Menú d'ajuda ràpida",
-  "HELP_DESCRIPTION": "Aquí trobaràs ajuda bàsica sobre com utilitzar el bot, però si el trobes insuficient i necessites més ajuda, no dubtis en **[contactar-nos]({{url}})** a través del nostre servidor de Discord.\n\n**Llengua actual**: {{language}}.",
-  "MESSAGE_HELP": "Estàs buscant el menú d'ajuda secret? Hem mogut aquest menú a una ordre, però pots executar l'ordre prement el botó de sota!"
-}

@@ -1,9 +1,0 @@
-{
-  "description": "Obté la informació bàsica d'un color aleatori.",
-  "arguments": {
-    "saturation": {
-      "name": "saturació",
-      "description": "Saturació que vols que tingui el color aleatori."
-    }
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "description": "Obté la lletra d'una cançó.",
-  "arguments": {
-    "song": {
-      "name": "cançó",
-      "description": "Títol de la cançó."
-    }
-  }
-}

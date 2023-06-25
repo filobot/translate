@@ -1,6 +1,0 @@
-{
-  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) no té cap sanció reflectida en la seva història.",
-  "SELECT_A_CASE": "Selecciona un cas per veure",
-  "VIEWING_USER_HISTORY": "Veient l'historial de sancions de **{{user.username}}**",
-  "SANCTION_REMOVED": "Aquesta sanció va ser eliminada en el cas #**{{case.case}}**."
-}

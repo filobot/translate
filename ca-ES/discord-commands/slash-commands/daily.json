@@ -1,9 +1,0 @@
-{
-  "description": "Reclama els teus crèdits diaris o regala'ls a un usuari.",
-  "arguments": {
-    "user": {
-      "name": "usuari",
-      "description": "Usuari al qual vols donar els teus crèdits diaris."
-    }
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "STAGE_INSTANCE": "Instància d'escenari",
-  "STAGE_INSTANCES": "Instàncies d'escenaris",
-  "STAGE_INSTANCE_PRIVACY_LEVEL": "Nivell de privacitat",
-  "PUBLIC_STAGE_INSTANCE": "Instància d'escenari pública",
-  "PRIVATE_STAGE_INSTANCE": "Instància d'escenari privada",
-  "DISCOVERABLE_DISABLED_TRUE": "La instància d'escenari no es pot descobrir",
-  "DISCOVERABLE_DISABLED_FALSE": "La instància d'escenari es pot descobrir"
-}

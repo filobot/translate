@@ -1,9 +1,0 @@
-{
-  "description": "Obté les estadístiques d'un jugador d'osu.",
-  "arguments": {
-    "player": {
-      "name": "jugador",
-      "description": "Nom En Joc del jugador."
-    }
-  }
-}
