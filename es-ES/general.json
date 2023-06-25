@@ -1,7 +1,7 @@
 {
-  "HELLO": "Hello world!",
-  "AVAILABLE": "Available",
-  "DEPRECATED": "Deprecated",
-  "DECOMMISSIONED": "Decommissioned",
-  "PONG": "PONG!"
+  "HELLO": "¡Hola, mundo!",
+  "AVAILABLE": "Disponible",
+  "DEPRECATED": "Obsoleto",
+  "DECOMMISSIONED": "Desmantelado",
+  "PONG": "¡PONG!"
 }
