@@ -2,6 +2,6 @@
   "HELLO": "Hello world!",
   "AVAILABLE": "Available",
   "DEPRECATED": "Deprecated",
-  "DECCOMMISSIONED": "Decommissioned",
+  "DECOMMISSIONED": "Decommissioned",
   "PONG": "PONG!"
 }
