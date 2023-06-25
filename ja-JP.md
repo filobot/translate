@@ -1,135 +1,135 @@
-Filo は、2019 年から Discord ギルドにサービスを提供している強力な多目的 Discord ボットです。 管理モジュールやモデレーションモジュールが充実しているのが特徴で、より使いやすくなっています。
+Filo is a powerful multipurpose Discord bot serving Discord guilds since 2019. Featuring a wide range of admin and moderation modules to make things easier for you.
 
-> ❓チャットで `/core commands` と入力すると、Filo のコマンドの全リストが表示されます。
+> ❓ You can get the full list of Filo's commands by typing `/core commands` in chat.
 
-**TIP**: チャットで `@Filo#0291` と入力すると、秘密のヘルプメニューを開くことができます。
+**TIP**: You can open a secret help menu by typing `@Filo#0291` in chat.
 
-> Filo's STAFF の募集を開始しました💮。 今すぐ応募を！
+> 📣 Applications for Filo's STAFF are open. Apply now!
 > 
 > https://filobot.xyz/staff
 
-## ギルドにフィロを加入させる方法がわからない？
+## NOT SURE HOW TO ADD FILO TO YOUR GUILD?
 
-Filo の誘い方をステップバイステップでご紹介しています：
+Check this step-by-step guide in which we teach you how to invite Filo:
 
 https://wiki.filobot.xyz/en/getting-started/invite
 
-または、こちらの動画でご確認ください：
+Alternatively, you can check this video:
 
 https://youtu.be/1kCAgpOw-g0
 
-> ⚠️ この説明の随所に、貴重な情報を見つけることができます。 ぜひ読んでみてください！
+> ⚠️ You'll find valuable information throughout this description. Read it please!
 
 ---
 
-# ⭐ 特徴
+# ⭐ FEATURES
 
-以下では、Filo の優れた機能の一覧をご紹介します... ここでは、そのすべてを収録しているわけではありません！
+Below you'll find a list of the best features of Filo... Not all of them are included here!
 
-## たげんご
+## MULTIPLE LANGUAGES
 
-¡Qué mono! 何かわかりましたか？ いや、そうですよね？ 人生を複雑にしないで、自分に一番合った言葉を使い、翻訳機を使うのをやめましょう。
+あなたはかわいいです！ Did you understand something? No, right? Don't complicate your life, use the language that best suits you and stop using the translator.
 
 🔗 https://wiki.filobot.xyz/en/modules/language
 
-## 報告書
+## REPORTS
 
-会員のエクスペリエンスを向上させ、最適で最も完全なレポートモジュールを使用できるようにします！
+Improve the experience of your members, allowing them to use the best and most complete reports module!
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
-## ロギング
+## LOGGING
 
-サーバー内のユーザーが実行したすべてのアクションをチャンネルに記録し、簡単にレビューやフィルタリングを行うことができます！
+Log all actions performed by users in your server to a channel, allowing you to easily review and filter them!
 
 🔗 https://wiki.filobot.xyz/en/modules/logging
 
-## アンチインビテーション
+## ANTI INVITES
 
-ユーザーが自分のサーバーから自分のサーバーに招待状を送ることを、自動的に制裁することで防止します！
+Prevent users from sending invites from your servers to yours by automatically sanctioning them!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-invites
 
-## アンチスパム
+## ANTI SPAM
 
-スパマーにうんざりしている方？ モデレーターが足りないのでは？ フィーロにこのクラスのユーザーを対応させ、その間にお茶でも飲んでください！
+Tired of spammers? Are your moderators not enough? Let Filo deal with this class of users and have some tea in the meantime!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-spam
 
-## アンチ悪口
+## ANTI BAD WORDS
 
-ユーザーがメッセージに悪い言葉を使うのを防ぐ... 誰もその言葉を読むのが好きなわけではありません！
+Prevent users from using bad words in their messages... Nobody likes having to read those words!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-bad-words
 
-## アンチスキャムリンク
+## ANTI SCAM LINKS
 
-詐欺師、なんて面倒な人たちなんだろう... 今、Filo はこのような人たちと戦うための手助けをしてくれます！
+Scammers, what tiresome people... Now Filo can help you fight these types of people!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-scam-links
 
-## オートモデレーション
+## AUTO MODERATION
 
-競合するユーザーをサーバーに存在させないでください。これは、正当なユーザーの経験に悪影響を与える可能性があります！
+Don't allow conflicting users to exist on your server, this can negatively affect the experience of legitimate users!
 
 🔗 https://wiki.filobot.xyz/en/modules/auto-moderation
 
-## アンチ・エバシオン
+## ANTI EVASION
 
-複数のユーザーをミュートしたところ、そのユーザーがサーバーを離れてしまったということはないでしょうか？ 問題ありません！ Filo にこれらのユーザーを自動的に禁止させる！
+Have you muted several users and they have left the server? No problem! Let Filo automatically ban these users!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-evasion
 
-## WELCOMES（ウェルカム
+## WELCOMES
 
-新しいユーザーを温かく迎え入れたいですか？ Filoでカワイイメッセージを作りましょう。
+Do you want to give a warm welcome to your new users? Look no further, create Kawaii messages with Filo.
 
 🔗 https://wiki.filobot.xyz/en/modules/welcomes
 
-## 🛠️ 特定の機能が必要なのでしょうか？
+## 🛠️ DO YOU NEED A SPECIFIC FEATURE?
 
-私たちの Discord サーバーで詳細を教えてください！ 私たちにできることをする！
+Tell us all the details on our Discord server! We'll do what we can!
 
 https://filobot.xyz/discord
 
 ---
 
-# ⌨️ Filo の翻訳を手伝っていただけませんか？
+# ⌨️ WOULD YOU LIKE TO HELP US TRANSLATE FILO?
 
-Filo のスピーキングスキルを伸ばす必要がある！ Filo を翻訳して、プリティバッジ、バニティロール、認知度を獲得してください！
+We need to expand Filo's speaking skills! Translate Filo and earn your pretty badge, vanity role, and recognition!
 
 🔗 https://filobot.xyz/translate
 
-# 🌳 お金は木で育つのか？ まさか...
+# 🌳 DOES MONEY GROW ON TREES? WE DON'T THINK SO...
 
-2019 年から樹木の可能性を徹底的に追求し、「酸素を発生させるのは得意だが、お金を発生させるのは非常に苦手」と判断し...。
+We have been thoroughly investigating the possibilities of trees since 2019, and we have determined that they are very good at generating oxygen, but very bad at generating money...
 
-協力してください！ **どんなに小さなことでも、すべての貢献は大切です...。** ローマは一日にして成らず！
+Help us! **Every contribution counts, no matter how small...** Rome wasn't built in a day!
 
 🔗 https://filobot.xyz/donate
 
-# ❤️ 投票に協力してくれませんか？
+# ❤️ WILL YOU HELP US VOTING?
 
-投票はこれまでも、そしてこれからも無料です。 Filo に投票することで、フィーロの知名度を上げることに貢献してください：
+Voting has been free and always will be. Help us give Filo more visibility by voting for her:
 
 🔗 https://filobot.xyz/vote
 
-# 📞 ヘルプが必要ですか?
+# 📞 NEED HELP?
 
-## サポートサーバー
+## SUPPORT SERVER
 
-サポートサーバーに入り、 **#support-and-help** チャンネルで助けを求めることができます：
+Enter our support server and ask for help in the **#support-and-help** channel:
 
 🔗 https://filobot.xyz/discord
 
-## クイックサポートチャット
+## QUICK SUPPORT CHAT
 
-当社のホームページにアクセスし、そこからメッセージを送ってください：
+Access our website and send us a message from there:
 
 🔗 https://filobot.xyz
 
-## メール
+## EMAIL
 
-メールを送信してください！ 少しお待ちいただくかもしれませんが、できるだけ早くご返信することをお約束します。
+Send us an email! You may have to wait a bit, but we promise to get back to you as soon as possible.
 
 **support@filobot.xyz** / **admin@filobot.xyz** / **safety@filobot.xyz**
