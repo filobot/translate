@@ -1,38 +1,38 @@
 {
-  "description": "Manage a server role.",
+  "description": "Gestionar un rol de servidor.",
   "subcommands": {
     "add": {
-      "description": "Add a role to a user.",
+      "description": "Añade un rol a un usuario.",
       "arguments": {
         "user": {
           "name": "usuario",
-          "description": "User to which you want to add a role."
+          "description": "Usuario al que quieres añadir un rol."
         },
         "role": {
           "name": "rol",
-          "description": "Role that you want to add to the user."
+          "description": "Rol que quieres añadir al usuario."
         }
       }
     },
     "info": {
-      "description": "Show the information of a role.",
+      "description": "Mostrar la información de un rol.",
       "arguments": {
         "role": {
           "name": "rol",
-          "description": "Role to which you want to get the information."
+          "description": "Rol al que quieres obtener la información."
         }
       }
     },
     "remove": {
-      "description": "Remove a role from a user.",
+      "description": "Eliminar un rol de un usuario.",
       "arguments": {
         "user": {
           "name": "usuario",
-          "description": "User from which you want to remove a role."
+          "description": "Usuario al que quieres eliminar un rol."
         },
         "role": {
           "name": "rol",
-          "description": "Role that you want to remove from the user."
+          "description": "Rol que quieres eliminar del usuario."
         }
       }
     }
