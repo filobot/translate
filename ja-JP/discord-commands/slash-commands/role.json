@@ -1,38 +1,38 @@
 {
-  "description": "Manage a server role.",
+  "description": "サーバーの役割を管理する。",
   "subcommands": {
     "add": {
-      "description": "Add a role to a user.",
+      "description": "ユーザーにロールを追加します。",
       "arguments": {
         "user": {
           "name": "ユーザー",
-          "description": "User to which you want to add a role."
+          "description": "ロールを追加したいユーザ。"
         },
         "role": {
           "name": "役割",
-          "description": "Role that you want to add to the user."
+          "description": "ユーザーに追加したい役割。"
         }
       }
     },
     "info": {
-      "description": "Show the information of a role.",
+      "description": "役割の情報を表示する。",
       "arguments": {
         "role": {
           "name": "役割",
-          "description": "Role to which you want to get the information."
+          "description": "情報を取得したい役割。"
         }
       }
     },
     "remove": {
-      "description": "Remove a role from a user.",
+      "description": "ユーザーからロールを削除する。",
       "arguments": {
         "user": {
           "name": "ユーザー",
-          "description": "User from which you want to remove a role."
+          "description": "ロールを削除したいユーザ。"
         },
         "role": {
           "name": "役割",
-          "description": "Role that you want to remove from the user."
+          "description": "ユーザーから削除したいロール。"
         }
       }
     }
