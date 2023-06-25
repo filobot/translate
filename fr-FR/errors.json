@@ -28,7 +28,7 @@
   "UNKNOWN_ANNOUNCEMENT_ID": "L'annonce \"{{id}}\" n'existe pas.",
   "NO_ANNOUNCEMENTS_FOUND": "Aucune annonce n'a été trouvée.",
   "MISSING_QUERY_OR_INVALID_QUERY": "La requête \"{{query}}\" est manquante ou invalide.",
-  "NO_ANNOUNCEMENTS_PROVIDED": "Aucune annonce n'a été faite.",
-  "TOO_MANY_VALUES": "Too many values provided.",
-  "UNKNOWN_ANNOUNCEMENT": "The announcement \"{{id}}\" doesn't exist."
+  "NO_ANNOUNCEMENTS_PROVIDED": "Aucune annonce n'a été ajoutée.",
+  "TOO_MANY_VALUES": "Trop de valeurs fournies.",
+  "UNKNOWN_ANNOUNCEMENT": "L'annonce \"{{id}}\" n'existe pas."
 }
