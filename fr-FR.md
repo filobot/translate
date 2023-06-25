@@ -34,7 +34,7 @@ Vous trouverez ci-dessous une liste des meilleures fonctionnalités de Filo... T
 
 ## SIGNALEMENTS
 
-Améliorez l'expérience et professionnalisez la modération de votre serveur en permettant aux utilisateurs de signaler des comportements inappropriés !
+Améliorez l'expérience de vos membres en leur permettant d'utiliser le module de signalements le plus complet et le plus performant!
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
