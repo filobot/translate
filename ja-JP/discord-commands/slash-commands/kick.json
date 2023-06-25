@@ -1,13 +1,13 @@
 {
-  "description": "Kick a user from the server.",
+  "description": "サーバーからユーザーをキックする。",
   "arguments": {
     "user": {
       "name": "ユーザー",
-      "description": "User you want to kick."
+      "description": "蹴りたいユーザー。"
     },
     "reason": {
       "name": "理由",
-      "description": "Reason for kicking this user."
+      "description": "このユーザーをキックした理由。"
     },
     "silent": {
       "name": "無声",
