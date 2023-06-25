@@ -1,9 +1,0 @@
-{
-  "description": "ユーザーの制裁履歴を取得します。",
-  "arguments": {
-    "user": {
-      "name": "ユーザー",
-      "description": "履歴を確認したいユーザー。"
-    }
-  }
-}

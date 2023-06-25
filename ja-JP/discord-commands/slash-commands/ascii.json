@@ -1,9 +1,0 @@
-{
-  "description": "テキストを ASCII テキストに変換します。",
-  "arguments": {
-    "text": {
-      "name": "テキスト",
-      "description": "ASCII に変換したいテキスト。"
-    }
-  }
-}

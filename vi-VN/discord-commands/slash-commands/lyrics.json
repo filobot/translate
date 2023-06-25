@@ -1,9 +1,0 @@
-{
-  "description": "Get the lyrics of a song.",
-  "arguments": {
-    "song": {
-      "name": "song",
-      "description": "Song title."
-    }
-  }
-}

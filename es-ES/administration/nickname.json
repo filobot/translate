@@ -1,3 +1,0 @@
-{
-  "COMPLETED": "Has establecido el apodo de **[{{user.tag}}]({{url}})** ({{user.id}}) a **{{nickname}}** correctamente."
-}

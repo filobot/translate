@@ -1,9 +1,0 @@
-{
-  "description": "Afficher vos crédits ou ceux d'un autre utilisateur.",
-  "arguments": {
-    "user": {
-      "name": "utilisateur",
-      "description": "Utilisateur auquel vous souhaitez attribuer des crédits."
-    }
-  }
-}

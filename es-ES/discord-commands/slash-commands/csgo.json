@@ -1,9 +1,0 @@
-{
-  "description": "Obtén las estadísticas de un jugador de CSGO.",
-  "arguments": {
-    "player": {
-      "name": "jugador",
-      "description": "Nombre En Juego del jugador."
-    }
-  }
-}

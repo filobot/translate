@@ -1,9 +1,0 @@
-{
-  "description": "Envoyez une image montrant l'amour que vous portez à un autre utilisateur sur le salon.",
-  "arguments": {
-    "user": {
-      "name": "utilisateur",
-      "description": "Utilisateur avec lequel vous souhaitez créer l'image."
-    }
-  }
-}

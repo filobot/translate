@@ -1,9 +1,0 @@
-{
-  "description": "Xem hình đại diện của bạn hoặc của một người dùng khác.",
-  "arguments": {
-    "user": {
-      "name": "người dùng",
-      "description": "Người dùng mà bạn muốn xem hình đại diện."
-    }
-  }
-}

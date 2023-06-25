@@ -1,8 +1,0 @@
-{
-  "description": "Gửi một hình ảnh của một con chim vào kênh.",
-  "subcommands": {
-    "random": {
-      "description": "Gửi một hình ảnh bất kì của một con chim."
-    }
-  }
-}

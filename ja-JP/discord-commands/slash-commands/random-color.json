@@ -1,9 +1,0 @@
-{
-  "description": "ランダムな色の基本情報を取得します。",
-  "arguments": {
-    "saturation": {
-      "name": "飽和状態",
-      "description": "ランダムな色に持たせたい彩度。"
-    }
-  }
-}

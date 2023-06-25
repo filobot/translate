@@ -1,9 +1,0 @@
-{
-  "description": "Posez une question à la 8ball et elle vous répondra avec sagesse.",
-  "arguments": {
-    "question": {
-      "name": "question",
-      "description": "Demandez ce que vous voulez faire à la 8ball."
-    }
-  }
-}

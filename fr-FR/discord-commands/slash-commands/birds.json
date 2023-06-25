@@ -1,8 +1,0 @@
-{
-  "description": "Envoyez une image d'oiseaux dans le salon.",
-  "subcommands": {
-    "random": {
-      "description": "Envoyez une image aléatoire d'un oiseau."
-    }
-  }
-}

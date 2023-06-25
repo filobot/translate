@@ -1,9 +1,0 @@
-{
-  "description": "CSGO プレイヤーの統計情報を取得します。",
-  "arguments": {
-    "player": {
-      "name": "プレーヤー",
-      "description": "In Game プレイヤーのニック。"
-    }
-  }
-}

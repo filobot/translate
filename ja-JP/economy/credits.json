@@ -1,3 +1,0 @@
-{
-  "USER_CREDITS": "**[{{user.tag}}]({{url}})** ({{user.id}}) には、**{{credits}}** クレジットがあります。"
-}

@@ -1,9 +1,0 @@
-{
-  "STAGE_INSTANCE": "Instance d'une conférence",
-  "STAGE_INSTANCES": "Instances d'une conférence",
-  "STAGE_INSTANCE_PRIVACY_LEVEL": "Niveau de confidentialité",
-  "PUBLIC_STAGE_INSTANCE": "Instance de conférence publique",
-  "PRIVATE_STAGE_INSTANCE": "Instance de conférence privée",
-  "DISCOVERABLE_DISABLED_TRUE": "L'instance de la conférence n'est pas découvrable",
-  "DISCOVERABLE_DISABLED_FALSE": "L'instance de la conférence est découvrable"
-}

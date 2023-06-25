@@ -1,9 +1,0 @@
-{
-  "description": "Hỏi bi số 8 một câu hỏi và nó sẽ trả lời bạn.",
-  "arguments": {
-    "question": {
-      "name": "câu hỏi",
-      "description": "Hãy hỏi bạn muốn làm gì với bi số 8."
-    }
-  }
-}

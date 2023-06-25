@@ -1,5 +1,0 @@
-{
-  "HELP_TITLE": "Menu hỗ trợ nhanh",
-  "HELP_DESCRIPTION": "Ở đây bạn sẽ tìm được cách đơn giản để sử dụng bot, nếu bạn cần được hỗ trợ thêm, hãy [liên lạc với chúng tôi]({{url}}) thông qua server của chúng tôi.\n\n**Ngôn ngữ hiện tại**: {{language}}.",
-  "MESSAGE_HELP": "Bạn đang tìm menu hỗ trợ đặc biệt? Chúng tôi đã chuyển menu này sang một lệnh, nhưng bạn có thể thực hiện lệnh đó bằng cách bấm nút ở bên dưới!"
-}

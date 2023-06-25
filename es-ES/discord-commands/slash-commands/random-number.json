@@ -1,9 +1,0 @@
-{
-  "description": "Obtén un número aleatorio.",
-  "arguments": {
-    "number": {
-      "name": "número",
-      "description": "Número con el que quieres multiplicar el valor aleatorio."
-    }
-  }
-}

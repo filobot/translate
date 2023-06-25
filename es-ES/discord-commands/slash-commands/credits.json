@@ -1,9 +1,0 @@
-{
-  "description": "Muestra tus créditos o los créditos de otro usuario.",
-  "arguments": {
-    "user": {
-      "name": "usuario",
-      "description": "Usuario al que quieres recuperar sus créditos."
-    }
-  }
-}

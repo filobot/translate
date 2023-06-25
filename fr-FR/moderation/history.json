@@ -1,6 +1,0 @@
-{
-  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) n'a pas de sanction reflétée dans son historique.",
-  "SELECT_A_CASE": "Sélectionnez un cas à visualiser",
-  "VIEWING_USER_HISTORY": "Visualisation de l'historique des sanctions de **{{user.username}}**",
-  "SANCTION_REMOVED": "Cette sanction a été supprimée dans le cas #**{{case.case}}**."
-}

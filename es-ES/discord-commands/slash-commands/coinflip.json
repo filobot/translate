@@ -1,9 +1,0 @@
-{
-  "description": "Juego clásico de giro de moneda.",
-  "arguments": {
-    "choice": {
-      "name": "elección",
-      "description": "Elige cara o cruz para poder jugar."
-    }
-  }
-}

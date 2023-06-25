@@ -1,9 +1,0 @@
-{
-  "description": "Reclama tus créditos diarios o regálaselos a un usuario.",
-  "arguments": {
-    "user": {
-      "name": "usuario",
-      "description": "Usuario al que quieres dar tus créditos diarios."
-    }
-  }
-}

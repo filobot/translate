@@ -1,9 +1,0 @@
-{
-  "description": "Jeu classique de pile ou face.",
-  "arguments": {
-    "choice": {
-      "name": "choix",
-      "description": "Choisissez pile ou face pour pouvoir jouer."
-    }
-  }
-}

@@ -22,52 +22,5 @@
     "contributors": [
       "266103595949096960"
     ]
-  },
-  {
-    "name": "vi-VN",
-    "nativeName": "Tiếng Việt",
-    "wikiCode": null,
-    "discordCode": "vi",
-    "iso639": "vi",
-    "flag": "🇻🇳",
-    "default": false,
-    "contributors": [
-      "754982406393430098"
-    ]
-  },
-  {
-    "name": "ja-JP",
-    "nativeName": "日本語",
-    "wikiCode": null,
-    "discordCode": "ja",
-    "iso639": "ja",
-    "flag": "🇯🇵",
-    "default": false,
-    "contributors": [
-      "266103595949096960"
-    ]
-  },
-  {
-    "name": "ca-ES",
-    "nativeName": "Català",
-    "wikiCode": null,
-    "discordCode": null,
-    "flag": "🇪🇸",
-    "default": false,
-    "contributors": [
-      "661241315891085314"
-    ]
-  },
-  {
-    "name": "fr-FR",
-    "nativeName": "Français",
-    "wikiCode": null,
-    "discordCode": null,
-    "flag": "🇫🇷",
-    "default": false,
-    "contributors": [
-      "510524491126800405",
-      "777947717024088106"
-    ]
   }
 ]

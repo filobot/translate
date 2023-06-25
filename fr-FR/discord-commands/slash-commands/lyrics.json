@@ -1,9 +1,0 @@
-{
-  "description": "Obtenez les paroles d'une chanson.",
-  "arguments": {
-    "song": {
-      "name": "chanson",
-      "description": "Titre de la chanson."
-    }
-  }
-}

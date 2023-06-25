@@ -1,9 +1,0 @@
-{
-  "description": "Acorta una URL.",
-  "arguments": {
-    "url": {
-      "name": "url",
-      "description": "URL que quieres acortar."
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "description": "爬虫類の画像をチャンネルに送信する。",
-  "subcommands": {
-    "snake": {
-      "description": "蛇の画像をランダムに送信します。"
-    }
-  }
-}

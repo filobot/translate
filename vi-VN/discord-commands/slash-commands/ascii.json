@@ -1,9 +1,0 @@
-{
-  "description": "Hoán đổi chữ của bạn thành chữ ASCII.",
-  "arguments": {
-    "text": {
-      "name": "văn bản",
-      "description": "Văn bản mà bạn muốn đổi sang ASCII."
-    }
-  }
-}
