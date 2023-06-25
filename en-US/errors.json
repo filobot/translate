@@ -18,5 +18,11 @@
   "NO_STATISTICS_FOUND": "No statistics found.",
   "VOTE_PAGE_NOT_FOUND": "The vote page \"{{page}}\" doesn't exist.",
   "NO_VOTES_FOUND": "No votes found.",
-  "INVALID_CLUSTER_ID": "The cluster ID \"{{id}}\" is invalid."
+  "INVALID_CLUSTER_ID": "The cluster ID \"{{id}}\" is invalid.",
+  "UNKNOWN_ANNOUNCEMENT_ID": "The announcement \"{{id}}\" doesn't exist.",
+  "NO_ANNOUNCEMENTS_FOUND": "No announcements found.",
+  "MISSING_QUERY_OR_INVALID_QUERY": "The query \"{{query}}\" is missing or invalid.",
+  "NO_ANNOUNCEMENTS_PROVIDED": "No announcements provided.",
+  "TOO_MANY_VALUES": "Too many values provided.",
+  "UNKNOWN_ANNOUNCEMENT": "The announcement \"{{id}}\" doesn't exist."
 }
