@@ -8,7 +8,7 @@ Filo は、2019 年から Discord ギルドにサービスを提供している�
 > 
 > https://filobot.xyz/staff
 
-## NOT SURE HOW TO ADD FILO TO YOUR GUILD?
+## ギルドに Filo を加入させる方法がわからない？
 
 Filo の誘い方をステップバイステップでご紹介しています：
 
@@ -26,9 +26,9 @@ https://youtu.be/1kCAgpOw-g0
 
 以下では、Filo の優れた機能の一覧をご紹介します... ここでは、そのすべてを収録しているわけではありません！
 
-## MULTIPLE LANGUAGES
+## 多言語
 
-あなたはかわいいです！ Did you understand something? いや、そうですよね？ 人生を複雑にしないで、自分に一番合った言葉を使い、翻訳機を使うのをやめましょう。
+¡Qué mono! 何かわかりましたか？ いや、そうですよね？ 人生を複雑にしないで、自分に一番合った言葉を使い、翻訳機を使うのをやめましょう。
 
 🔗 https://wiki.filobot.xyz/en/modules/language
 
@@ -38,7 +38,7 @@ https://youtu.be/1kCAgpOw-g0
 
 🔗 https://wiki.filobot.xyz/en/modules/reports
 
-## LOGGING
+## ロギング
 
 サーバー内のユーザーが実行したすべてのアクションをチャンネルに記録し、簡単にレビューやフィルタリングを行うことができます！
 
@@ -52,17 +52,17 @@ https://youtu.be/1kCAgpOw-g0
 
 ## アンチスパム
 
-スパマーにうんざりしている方？ モデレーターが足りないのでは？ フィーロにこのクラスのユーザーを対応させ、その間にお茶でも飲んでください！
+スパマーにうんざりしている方？ モデレーターが足りないのでは？ Filo にこのクラスのユーザーを対応させ、その間にお茶でも飲んでください！
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-spam
 
-## ANTI BAD WORDS
+## アンチ悪口
 
 ユーザーがメッセージに悪い言葉を使うのを防ぐ... 誰もその言葉を読むのが好きなわけではありません！
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-bad-words
 
-## ANTI SCAM LINKS
+## アンチスキャムリンク
 
 詐欺師、なんて面倒な人たちなんだろう... 今、Filo はこのような人たちと戦うための手助けをしてくれます！
 
@@ -74,7 +74,7 @@ https://youtu.be/1kCAgpOw-g0
 
 🔗 https://wiki.filobot.xyz/en/modules/auto-moderation
 
-## ANTI EVASION
+## アンチ・エバシオン
 
 複数のユーザーをミュートしたところ、そのユーザーがサーバーを離れてしまったということはないでしょうか？ 問題ありません！ Filo にこれらのユーザーを自動的に禁止させる！
 
@@ -108,7 +108,7 @@ Filo のスピーキングスキルを伸ばす必要がある！ Filo を翻訳
 
 🔗 https://filobot.xyz/donate
 
-# ❤️ WILL YOU HELP US VOTING?
+# ❤️ 投票に協力してくれませんか？
 
 投票はこれまでも、そしてこれからも無料です。 Filo に投票することで、フィーロの知名度を上げることに貢献してください：
 
