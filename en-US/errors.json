@@ -1,4 +1,8 @@
 {
+  "UNSUPPORTED_API_VERSION": "The API version \"{{version}}\" is not supported.",
+  "UNKNOWN_RESOURCE": "The requested resource could not be found.",
+  "INTERNAL_ERROR": "An internal error has occurred on our server, please try again later and if the error persists, contact us.",
+  "INVALID_METHOD": "The method \"{{method}}\" is not supported for this resource.",
   "MISSING_AUTHORIZATION_TOKEN": "The authorization token is missing.",
   "WRONG_AUTHORIZATION_PREFIX": "The authorization token must start with \"Bearer\".",
   "INVALID_AUTHORIZATION_TOKEN": "The authorization token is invalid or expired.",
