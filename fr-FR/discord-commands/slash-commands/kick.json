@@ -1,13 +1,13 @@
 {
-  "description": "Kick a user from the server.",
+  "description": "Expulsez un utilisateur du serveur.",
   "arguments": {
     "user": {
       "name": "utilisateur",
-      "description": "User you want to kick."
+      "description": "Utilisateur que vous voulez expulser."
     },
     "reason": {
       "name": "raison",
-      "description": "Reason for kicking this user."
+      "description": "Raison pour l'expulsion de cet utilisateur."
     },
     "silent": {
       "name": "silence",
