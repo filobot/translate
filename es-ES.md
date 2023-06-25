@@ -28,7 +28,7 @@ A continuación, encontrarás una lista de las mejores características de Filo.
 
 ## MÚLTIPLES IDIOMAS
 
-あなたはかわいいです！ ¿Has entendido algo? No, ¿verdad? No, ¿verdad? No compliques tu vida, usa el idioma que más te convenga y deja de usar el traductor.
+あなたはかわいいです！ ¿Has entendido algo? No, ¿verdad? No compliques tu vida, usa el idioma que más te convenga y deja de usar el traductor.
 
 🔗 https://wiki.filobot.xyz/en/modules/language
 
