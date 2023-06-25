@@ -28,7 +28,7 @@ A continuación, encontrarás una lista de las mejores características de Filo.
 
 ## MÚLTIPLES IDIOMAS
 
-あなたはかわいいです！ ¿Has entendido algo? No, ¿verdad? No, ¿verdad? No, ¿verdad? No compliques tu vida, usa el idioma que más te convenga y deja de usar el traductor.
+あなたはかわいいです！ ¿Has entendido algo? No, ¿verdad? No compliques tu vida, usa el idioma que más te convenga y deja de usar el traductor.
 
 🔗 https://wiki.filobot.xyz/en/modules/language
 
@@ -76,7 +76,7 @@ No permitas que existan usuarios conflictivos en su servidor, ¡esto puede afect
 
 ## ANTI EVASIÓN
 
-¿Has silenciado a varios usuarios y han abandonado el servidor? ¡No hay problema! No problem! Let Filo automatically ban these users!
+¿Has silenciado a varios usuarios y han abandonado el servidor? ¡No hay problema! ¡Deja que Filo prohiba automáticamente a estos usuarios!
 
 🔗 https://wiki.filobot.xyz/en/modules/anti-evasion
 
@@ -104,7 +104,7 @@ https://filobot.xyz/discord
 
 Hemos estado investigando a fondo las posibilidades de los árboles desde 2019, y hemos determinado que son muy buenos para generar oxígeno, pero muy malos para generar dinero...
 
-¡Ayúdanos! Help us! **Every contribution counts, no matter how small...** Rome wasn't built in a day!
+¡Ayúdanos! ¡Ayúdanos! **Cada contribución cuenta, sin importar lo pequeña que sea...** ¡Roma no se construyó en un día!
 
 🔗 https://filobot.xyz/donate
 
