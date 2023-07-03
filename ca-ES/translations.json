@@ -189,5 +189,9 @@
     "CALCULATOR": "Calculadora",
     "STATISTICS": "Estadí­stiques",
     "THANKS": "Gràcies"
+  },
+  "LINK_SHORTENER": {
+    "TITLE": "Redirecting",
+    "SUBTITLE": "You'll be redirected to the original link in a few seconds"
   }
 }
