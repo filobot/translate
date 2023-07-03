@@ -30,5 +30,8 @@
   "MISSING_QUERY_OR_INVALID_QUERY": "The query \"{{query}}\" is missing or invalid.",
   "NO_ANNOUNCEMENTS_PROVIDED": "No announcements provided.",
   "TOO_MANY_VALUES": "Too many values provided.",
-  "UNKNOWN_ANNOUNCEMENT": "The announcement \"{{id}}\" doesn't exist."
+  "UNKNOWN_ANNOUNCEMENT": "The announcement \"{{id}}\" doesn't exist.",
+  "NO_TRANSLATIONS_FOUND": "No translations found.",
+  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
+  "MISSING_TRANSLATIONS": "The translations are missing."
 }
