@@ -189,5 +189,9 @@
     "CALCULATOR": "Calculator",
     "STATISTICS": "统计",
     "THANKS": "Thanks"
+  },
+  "LINK_SHORTENER": {
+    "TITLE": "Redirecting",
+    "SUBTITLE": "You'll be redirected to the original link in a few seconds"
   }
 }
