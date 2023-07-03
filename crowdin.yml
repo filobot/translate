@@ -1,5 +1,6 @@
 pull_request_labels:
-  - filo
+  - api
+  - blocked
 files:
   - source: /en-US/*.json
     translation: /%locale%/%original_file_name%
