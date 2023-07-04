@@ -30,5 +30,8 @@
   "MISSING_QUERY_OR_INVALID_QUERY": "查询 \"{{query}}\" 缺少或无效。",
   "NO_ANNOUNCEMENTS_PROVIDED": "没有提供公告。",
   "TOO_MANY_VALUES": "提供了太多的值。",
-  "UNKNOWN_ANNOUNCEMENT": "公告 \"{{id}}\" 并不存在。"
+  "UNKNOWN_ANNOUNCEMENT": "公告 \"{{id}}\" 并不存在。",
+  "NO_TRANSLATIONS_FOUND": "No translations found.",
+  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
+  "MISSING_TRANSLATIONS": "The translations are missing."
 }
