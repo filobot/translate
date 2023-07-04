@@ -30,5 +30,8 @@
   "MISSING_QUERY_OR_INVALID_QUERY": "La consulta \"{{query}}\" manca o no és vàlida.",
   "NO_ANNOUNCEMENTS_PROVIDED": "No s'han proporcionat anuncis.",
   "TOO_MANY_VALUES": "Massa valors proporcionats.",
-  "UNKNOWN_ANNOUNCEMENT": "L'anunci \"{{id}}\" no existeix."
+  "UNKNOWN_ANNOUNCEMENT": "L'anunci \"{{id}}\" no existeix.",
+  "NO_TRANSLATIONS_FOUND": "No translations found.",
+  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
+  "MISSING_TRANSLATIONS": "The translations are missing."
 }
