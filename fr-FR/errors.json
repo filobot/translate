@@ -30,5 +30,8 @@
   "MISSING_QUERY_OR_INVALID_QUERY": "La requête \"{{query}}\" est manquante ou invalide.",
   "NO_ANNOUNCEMENTS_PROVIDED": "Aucune annonce n'a été ajoutée.",
   "TOO_MANY_VALUES": "Trop de valeurs fournies.",
-  "UNKNOWN_ANNOUNCEMENT": "L'annonce \"{{id}}\" n'existe pas."
+  "UNKNOWN_ANNOUNCEMENT": "L'annonce \"{{id}}\" n'existe pas.",
+  "NO_TRANSLATIONS_FOUND": "No translations found.",
+  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
+  "MISSING_TRANSLATIONS": "The translations are missing."
 }
