@@ -30,5 +30,8 @@
   "MISSING_QUERY_OR_INVALID_QUERY": "クエリ \"{{query}}\" が見つからないか無効です。",
   "NO_ANNOUNCEMENTS_PROVIDED": "アナウンスはない。",
   "TOO_MANY_VALUES": "提供される値が多すぎる。",
-  "UNKNOWN_ANNOUNCEMENT": "\"{{id}}\" というアナウンスは存在しない。"
+  "UNKNOWN_ANNOUNCEMENT": "\"{{id}}\" というアナウンスは存在しない。",
+  "NO_TRANSLATIONS_FOUND": "No translations found.",
+  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
+  "MISSING_TRANSLATIONS": "The translations are missing."
 }
