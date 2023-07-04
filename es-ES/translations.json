@@ -188,7 +188,8 @@
     "A_DISCORD_BOT": "Un Bot de Discord",
     "CALCULATOR": "Calculadora",
     "STATISTICS": "Estadísticas",
-    "THANKS": "Gracias"
+    "THANKS": "Gracias",
+    "LINK_SHORTENER": "Link Shortener"
   },
   "LINK_SHORTENER": {
     "TITLE": "Redirecting",
