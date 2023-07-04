@@ -30,5 +30,8 @@
   "MISSING_QUERY_OR_INVALID_QUERY": "La consulta \"{{query}}\" falta o no es válida.",
   "NO_ANNOUNCEMENTS_PROVIDED": "No se han proporcionado anuncios.",
   "TOO_MANY_VALUES": "Demasiados valores proporcionados.",
-  "UNKNOWN_ANNOUNCEMENT": "El anuncio \"{{id}}\" no existe."
+  "UNKNOWN_ANNOUNCEMENT": "El anuncio \"{{id}}\" no existe.",
+  "NO_TRANSLATIONS_FOUND": "No translations found.",
+  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
+  "MISSING_TRANSLATIONS": "The translations are missing."
 }
