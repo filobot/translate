@@ -1,0 +1,19 @@
+{
+  "description": "Genius utilities.",
+  "subcommand_groups": {
+    "song": {
+      "description": "Get data about a song.",
+      "subcommands": {
+        "search": {
+          "description": "Search for a song in Genius.",
+          "arguments": {
+            "song": {
+              "name": "song",
+              "description": "Song title."
+            }
+          }
+        }
+      }
+    }
+  }
+}
