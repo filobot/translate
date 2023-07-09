@@ -9,9 +9,7 @@
     "TITLE": "Title",
     "FULL_TITLE": "Full title",
     "FEATURED_TITLE": "Featured title",
-    "ALBUM": "Album"
-  },
-  "ARTIST": {
-    "TITLE": "Artist"
+    "ALBUM": "Album",
+    "ARTIST": "Artist"
   }
 }
