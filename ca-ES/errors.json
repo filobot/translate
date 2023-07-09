@@ -25,7 +25,6 @@
   "VOTE_PAGE_NOT_FOUND": "La pàgina de votació \"{{page}}\" no existeix.",
   "NO_VOTES_FOUND": "No s'han trobat cap vot.",
   "INVALID_CLUSTER_ID": "La ID del clúster \"{{id}}\" no és vàlid.",
-  "UNKNOWN_ANNOUNCEMENT_ID": "L'anunci \"{{id}}\" no existeix.",
   "NO_ANNOUNCEMENTS_FOUND": "No s'han trobat cap anunci.",
   "MISSING_QUERY_OR_INVALID_QUERY": "La consulta \"{{query}}\" manca o no és vàlida.",
   "NO_ANNOUNCEMENTS_PROVIDED": "No s'han proporcionat anuncis.",
