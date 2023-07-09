@@ -25,7 +25,6 @@
   "VOTE_PAGE_NOT_FOUND": "投票ページ \"{{page}}\" が存在しない。",
   "NO_VOTES_FOUND": "票は見つからなかった。",
   "INVALID_CLUSTER_ID": "クラスタID \"{{id}}\" が無効です。",
-  "UNKNOWN_ANNOUNCEMENT_ID": "\"{{id}}\" というアナウンスは存在しない。",
   "NO_ANNOUNCEMENTS_FOUND": "アナウンスは見つかりませんでした。",
   "MISSING_QUERY_OR_INVALID_QUERY": "クエリ \"{{query}}\" が見つからないか無効です。",
   "NO_ANNOUNCEMENTS_PROVIDED": "アナウンスはない。",
