@@ -25,7 +25,6 @@
   "VOTE_PAGE_NOT_FOUND": "La page de vote \"{{page}}\" n'existe pas.",
   "NO_VOTES_FOUND": "Aucun vote n'a été trouvé.",
   "INVALID_CLUSTER_ID": "L'ID du cluster \"{{id}}\" n'est pas valide.",
-  "UNKNOWN_ANNOUNCEMENT_ID": "L'annonce \"{{id}}\" n'existe pas.",
   "NO_ANNOUNCEMENTS_FOUND": "Aucune annonce n'a été trouvée.",
   "MISSING_QUERY_OR_INVALID_QUERY": "La requête \"{{query}}\" est manquante ou invalide.",
   "NO_ANNOUNCEMENTS_PROVIDED": "Aucune annonce n'a été ajoutée.",
