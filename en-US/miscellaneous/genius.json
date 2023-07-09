@@ -8,7 +8,8 @@
     },
     "TITLE": "Title",
     "FULL_TITLE": "Full title",
-    "FEATURED_TITLE": "Featured title"
+    "FEATURED_TITLE": "Featured title",
+    "ALBUM": "Album"
   },
   "ARTIST": {
     "TITLE": "Artist"
