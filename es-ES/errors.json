@@ -25,7 +25,6 @@
   "VOTE_PAGE_NOT_FOUND": "La página de votación \"{{page}}\" no existe.",
   "NO_VOTES_FOUND": "No se han encontrado votos.",
   "INVALID_CLUSTER_ID": "La ID del clúster \"{{id}}\" no es válido.",
-  "UNKNOWN_ANNOUNCEMENT_ID": "El anuncio \"{{id}}\" no existe.",
   "NO_ANNOUNCEMENTS_FOUND": "No se han encontrado anuncios.",
   "MISSING_QUERY_OR_INVALID_QUERY": "La consulta \"{{query}}\" falta o no es válida.",
   "NO_ANNOUNCEMENTS_PROVIDED": "No se han proporcionado anuncios.",
