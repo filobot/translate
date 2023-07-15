@@ -32,5 +32,7 @@
   "UNKNOWN_ANNOUNCEMENT": "公告 \"{{id}}\" 并不存在。",
   "NO_TRANSLATIONS_FOUND": "No translations found.",
   "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
-  "MISSING_TRANSLATIONS": "The translations are missing."
+  "MISSING_TRANSLATIONS": "The translations are missing.",
+  "NO_RESULTS_FOUND": "No results found.",
+  "NO_SONG_FOUND": "No song found."
 }
