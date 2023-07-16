@@ -25,10 +25,14 @@
   "VOTE_PAGE_NOT_FOUND": "La page de vote \"{{page}}\" n'existe pas.",
   "NO_VOTES_FOUND": "Aucun vote n'a été trouvé.",
   "INVALID_CLUSTER_ID": "L'ID du cluster \"{{id}}\" n'est pas valide.",
-  "UNKNOWN_ANNOUNCEMENT_ID": "L'annonce \"{{id}}\" n'existe pas.",
   "NO_ANNOUNCEMENTS_FOUND": "Aucune annonce n'a été trouvée.",
   "MISSING_QUERY_OR_INVALID_QUERY": "La requête \"{{query}}\" est manquante ou invalide.",
   "NO_ANNOUNCEMENTS_PROVIDED": "Aucune annonce n'a été ajoutée.",
   "TOO_MANY_VALUES": "Trop de valeurs fournies.",
-  "UNKNOWN_ANNOUNCEMENT": "L'annonce \"{{id}}\" n'existe pas."
+  "UNKNOWN_ANNOUNCEMENT": "L'annonce \"{{id}}\" n'existe pas.",
+  "NO_TRANSLATIONS_FOUND": "No translations found.",
+  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
+  "MISSING_TRANSLATIONS": "The translations are missing.",
+  "NO_RESULTS_FOUND": "No results found.",
+  "NO_SONG_FOUND": "No song found."
 }

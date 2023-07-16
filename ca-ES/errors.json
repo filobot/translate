@@ -25,10 +25,14 @@
   "VOTE_PAGE_NOT_FOUND": "La pàgina de votació \"{{page}}\" no existeix.",
   "NO_VOTES_FOUND": "No s'han trobat cap vot.",
   "INVALID_CLUSTER_ID": "La ID del clúster \"{{id}}\" no és vàlid.",
-  "UNKNOWN_ANNOUNCEMENT_ID": "L'anunci \"{{id}}\" no existeix.",
   "NO_ANNOUNCEMENTS_FOUND": "No s'han trobat cap anunci.",
   "MISSING_QUERY_OR_INVALID_QUERY": "La consulta \"{{query}}\" manca o no és vàlida.",
   "NO_ANNOUNCEMENTS_PROVIDED": "No s'han proporcionat anuncis.",
   "TOO_MANY_VALUES": "Massa valors proporcionats.",
-  "UNKNOWN_ANNOUNCEMENT": "L'anunci \"{{id}}\" no existeix."
+  "UNKNOWN_ANNOUNCEMENT": "L'anunci \"{{id}}\" no existeix.",
+  "NO_TRANSLATIONS_FOUND": "No translations found.",
+  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
+  "MISSING_TRANSLATIONS": "The translations are missing.",
+  "NO_RESULTS_FOUND": "No results found.",
+  "NO_SONG_FOUND": "No song found."
 }
