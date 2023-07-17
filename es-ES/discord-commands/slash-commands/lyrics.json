@@ -1,12 +1,12 @@
 {
-  "description": "Lyrics utilities.",
+  "description": "Utilidades de letras.",
   "subcommands": {
     "search": {
-      "description": "Search for a song.",
+      "description": "Busca una canción.",
       "arguments": {
         "song": {
-          "name": "song",
-          "description": "Song title."
+          "name": "canción",
+          "description": "Título de la canción."
         }
       }
     }
