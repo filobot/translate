@@ -1,14 +1,9 @@
 {
-  "description": "Lyrics utilities.",
-  "subcommands": {
-    "search": {
-      "description": "Search for a song.",
-      "arguments": {
-        "song": {
-          "name": "song",
-          "description": "Song title."
-        }
-      }
+  "description": "Get the lyrics of a song.",
+  "arguments": {
+    "song": {
+      "name": "song",
+      "description": "Song title."
     }
   }
 }
