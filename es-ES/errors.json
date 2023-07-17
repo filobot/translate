@@ -30,9 +30,9 @@
   "NO_ANNOUNCEMENTS_PROVIDED": "No se han proporcionado anuncios.",
   "TOO_MANY_VALUES": "Demasiados valores proporcionados.",
   "UNKNOWN_ANNOUNCEMENT": "El anuncio \"{{id}}\" no existe.",
-  "NO_TRANSLATIONS_FOUND": "No translations found.",
-  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
-  "MISSING_TRANSLATIONS": "The translations are missing.",
-  "NO_RESULTS_FOUND": "No results found.",
-  "NO_SONG_FOUND": "No song found."
+  "NO_TRANSLATIONS_FOUND": "No se han encontrado traducciones.",
+  "UNKNOWN_LANGUAGE": "El idioma \"{{language}}\" no existe.",
+  "MISSING_TRANSLATIONS": "Faltan las traducciones.",
+  "NO_RESULTS_FOUND": "No se han encontrado resultados.",
+  "NO_SONG_FOUND": "No se ha encontrado ninguna canción."
 }
