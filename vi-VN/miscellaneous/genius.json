@@ -1,0 +1,15 @@
+{
+  "SONG": {
+    "SELECT_A_SONG": "You must select a song to view its data.",
+    "SELECT_A_SONG_PLACEHOLDER": "Select a song",
+    "VIEWING_THE_LYRICS": {
+      "TITLE": "Viewing the lyrics of the **{{song.title}}** song.",
+      "DESCRIPTION": "You can view the lyrics of this song by **[clicking here]({{url}})**."
+    },
+    "TITLE": "Title",
+    "FULL_TITLE": "Full title",
+    "FEATURED_TITLE": "Featured title",
+    "ALBUM": "Album",
+    "ARTIST": "Artist"
+  }
+}
