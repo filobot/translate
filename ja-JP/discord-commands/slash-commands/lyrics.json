@@ -1,9 +1,14 @@
 {
-  "description": "曲の歌詞を取得する。",
-  "arguments": {
-    "song": {
-      "name": "歌",
-      "description": "曲名。"
+  "description": "Lyrics utilities.",
+  "subcommands": {
+    "search": {
+      "description": "Search for a song.",
+      "arguments": {
+        "song": {
+          "name": "song",
+          "description": "Song title."
+        }
+      }
     }
   }
 }
