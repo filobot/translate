@@ -1,0 +1,17 @@
+{
+  "description": "Expulsa a un usuari del servidor.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari al qual vols expulsar."
+    },
+    "reason": {
+      "name": "raó",
+      "description": "Raó per expulsar aquest usuari."
+    },
+    "silent": {
+      "name": "silenciós",
+      "description": "Especifica si vols que la sanció no sigui notificada per l'usuari."
+    }
+  }
+}

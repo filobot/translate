@@ -6,7 +6,7 @@
       "description": "警告を出したいユーザー。"
     },
     "reason": {
-      "name": "reason",
+      "name": "理由",
       "description": "このユーザーを警告した理由。"
     },
     "silent": {

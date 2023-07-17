@@ -22,44 +22,44 @@
   "LOADING_DATA": "Si us plau espera mentre es carregen les dades necessàries.",
   "MODULES": {
     "SELECT_A_MODULE": "Deus seleccionar el mòdul de la categoria **{{module}}** que vols configurar.",
-    "SELECT_A_SUBMODULE": "You must select the submodule from the **{{module}}** module that you want to configure.",
+    "SELECT_A_SUBMODULE": "Deus seleccionar el submòdul del mòdul **{{module}}** que vols configurar.",
     "PLACEHOLDER": "Selecciona un mòdul",
     "SELECT_THE_ACTION": "Deus seleccionar l'acció que vols dur a terme en el mòdul.",
-    "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+    "SELECT_THE_ACTION_PLACEHOLDER": "Selecciona una acció",
     "MODULE_ENABLED_OR_DISABLED": "El mòdul **{{module}}** s'ha {{action}} correctament.",
     "RESET_REQUEST_WARNING": "Estàs segur que vols restablir el mòdul **{{module}}**? Aquesta acció no es pot desfer!",
     "MODULE_RESET": "El mòdul **{{module}}** s'ha restablert correctament.",
-    "SELECT_A_CHANNEL": "You must select the channel you want to set.",
-    "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
-    "SELECT_AT_LEAST_ONE_CHANNEL": "You must select at least one channel.",
-    "SELECT_A_ROLE": "You must select the role you want to set.",
-    "SELECT_A_ROLE_PLACEHOLDER": "Select a role",
-    "SELECT_AT_LEAST_ONE_ROLE": "You must select at least one role.",
-    "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
+    "SELECT_A_CHANNEL": "Deus seleccionar el canal que vols establir.",
+    "SELECT_A_CHANNEL_PLACEHOLDER": "Selecciona un canal",
+    "SELECT_AT_LEAST_ONE_CHANNEL": "Deus seleccionar almenys un canal.",
+    "SELECT_A_ROLE": "Deus seleccionar el rol que vols establir.",
+    "SELECT_A_ROLE_PLACEHOLDER": "Selecciona un rol",
+    "SELECT_AT_LEAST_ONE_ROLE": "Deus seleccionar almenys un rol.",
+    "CHANNEL_SET": "Has establert el canal **[#{{channel.name}}]({{url}})** per al mòdul **{{module}}** correctament.",
     "DM_STATUS": {
-      "LABEL": "Toggle the status of DMs",
-      "DESCRIPTION": "Change the status of notifications by DM.",
-      "DM_STATUS_TOGGLED": "You have successfully **{{action}}** the DM notifications for the **{{module}}** module."
+      "LABEL": "Alternar l'estat dels MDs",
+      "DESCRIPTION": "Canvia l'estat de les notificacions per MD.",
+      "DM_STATUS_TOGGLED": "Has **{{action}}** les notificacions MD per al mòdul **{{module}}** correctament."
     },
     "EXCEPTIONS": {
       "ADD": {
-        "LABEL": "Add {{type}}",
-        "DESCRIPTION": "Add {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully added the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully added **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "Afegir {{type}}",
+        "DESCRIPTION": "Afegeix un {{type}} a la llista d'excepcions del mòdul.",
+        "COMPLETED": "Has afegit el {{type}} {{value}} a la llista d'excepcions del mòdul.",
+        "COMPLETED_ALTERNATIVE": "Has afegit **{{number}}** {{type}} a la llista d'excepcions del mòdul."
       },
       "SET": {
-        "LABEL": "Set the {{type}}",
-        "DESCRIPTION": "Set the {{type}} list to the module's exception list.",
-        "COMPLETED": "You have successfully set the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully set **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "Establir els {{type}}",
+        "DESCRIPTION": "Establir la llista de {{type}} per la llista d'excepcions del mòdul.",
+        "COMPLETED": "Has establert el {{type}} {{value}} per la llista d'excepcions del mòdul.",
+        "COMPLETED_ALTERNATIVE": "Has afegit **{{number}}** {{type}} a la llista d'excepcions del mòdul."
       },
       "REMOVE": {
-        "LABEL": "Remove {{type}}",
-        "DESCRIPTION": "Remove {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully removed the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} to the module's exception list.",
-        "NO_DATA_TO_REMOVE": "There are no {{value}} available to remove from the module's exception list."
+        "LABEL": "Eliminar {{type}}",
+        "DESCRIPTION": "Elimina {{type}} de la llista d'excepcions del mòdul.",
+        "COMPLETED": "Ha eliminat el {{type}} {{value}} de la llista d'excepcions del mòdul.",
+        "COMPLETED_ALTERNATIVE": "Ha eliminat **{{number}}** {{type}} de la llista d'excepcions del mòdul.",
+        "NO_DATA_TO_REMOVE": "No n'hi ha {{value}} disponibles per eliminar de la llista d'excepcions del mòdul."
       }
     },
     "COMMUNITY": {
@@ -103,107 +103,107 @@
         "DESCRIPTION": "Canvia la llengua de Filo en aquest servidor.",
         "SELECT_A_LANGUAGE": "Deus seleccionar la llengua que vols establir.",
         "SELECT_A_LANGUAGE_PLACEHOLDER": "Selecciona una llengua",
-        "LANGUAGE_SET": "You have set the **{{language}}** language successfully."
+        "LANGUAGE_SET": "Has establert la llengua **{{language}}** correctament."
       },
       "REPORTS": {
-        "LABEL": "Reports",
-        "DESCRIPTION": "Provide reporting tools to your server members.",
+        "LABEL": "Informes",
+        "DESCRIPTION": "Proporciona eines d'informes als membres del seu servidor.",
         "SUBMODULES_SELECTOR": {
-          "MEMBERS": "Change the behavior of the member reporting module.",
-          "MESSAGES": "Change the behavior of the message reporting module."
+          "MEMBERS": "Canvia el comportament del mòdul d'informes de membres.",
+          "MESSAGES": "Canvia el comportament del mòdul d'informes de missatges."
         },
         "CONFIGURE": {
           "REPORTS_CHANNEL": {
-            "LABEL": "Set the reports channel",
-            "DESCRIPTION": "Set where you want the reports to be sent."
+            "LABEL": "Establir el canal d'informes",
+            "DESCRIPTION": "Establir on vols que els informes siguin enviats."
           },
           "IGNORED_ROLE": {
-            "LABEL": "Set the ignored role",
-            "DESCRIPTION": "Set a role whose members can't send reports.",
-            "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
+            "LABEL": "Establir el rol ignorat",
+            "DESCRIPTION": "Establir un rol els membres del qual no hi poden enviar informes.",
+            "IGNORED_ROLE_SET": "Has establert el rol **{{role.mention}}** ({{role.id}}) com a rol ignorat correctament."
           },
           "TOGGLE_DELETE_REVIEWED_REPORTS": {
-            "LABEL": "Toggle the deletion of reviewed reports",
-            "DESCRIPTION": "Change the status of the deletion of reviewed reports.",
-            "DELETE_REVIEWED_REPORTS_TOGGLED": "You have successfully **{{action}}** the deletion of reviewed reports."
+            "LABEL": "Alternar l'eliminació d'informes revisats",
+            "DESCRIPTION": "Canvia l'estat de l'eliminació dels informes revisats.",
+            "DELETE_REVIEWED_REPORTS_TOGGLED": "Ha aconseguit **{{action}}** l'eliminació d'informes revisats."
           },
           "NOTIFICATION_ROLES": {
             "ADD": {
-              "LABEL": "Add notification roles",
-              "DESCRIPTION": "Add roles that will be notified when a report is sent.",
-              "COMPLETED": "You have added the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have added **{{number}}** roles as notification roles successfully."
+              "LABEL": "Afegir rols de notificació",
+              "DESCRIPTION": "Afegeix rols que seran notificats quan un informe sigui enviat.",
+              "COMPLETED": "Has establert el rol **{{role.mention}}** ({{role.id}}) com un rol de notificació correctament.",
+              "COMPLETED_ALTERNATIVE": "Has afegit **{{number}}** rols com a rols de notificació correctament."
             },
             "SET": {
-              "LABEL": "Set the notification roles",
-              "DESCRIPTION": "Set the roles that will be notified when a report is sent.",
-              "COMPLETED": "You have set the **{{role.mention}}** ({{role.id}}) role as the notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have set **{{number}}** roles as the notification roles successfully."
+              "LABEL": "Establir els rols de notificació",
+              "DESCRIPTION": "Establir els rols que hi seran notificats quan un informe sigui enviat.",
+              "COMPLETED": "Has establert el rol **{{role.mention}}** ({{role.id}}) com un rol de notificació correctament.",
+              "COMPLETED_ALTERNATIVE": "Has establert **{{number}}** rols com a rols de notificació correctament."
             },
             "REMOVE": {
-              "LABEL": "Remove notification roles",
-              "DESCRIPTION": "Remove roles that will be notified when a report is sent.",
-              "COMPLETED": "You have removed the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have removed **{{number}}** roles as notification roles successfully.",
-              "NO_DATA_TO_REMOVE": "There are no notification roles available to remove."
+              "LABEL": "Eliminar rols de notificació",
+              "DESCRIPTION": "Elimina rols que no vulguis que siguin notificats quan un informe sigui enviat.",
+              "COMPLETED": "Has eliminat el rol **{{role.mention}} ({{role.id}}) com un rol de notificació correctament.",
+              "COMPLETED_ALTERNATIVE": "Has eliminat **{{number}}** rols de notificació correctament.",
+              "NO_DATA_TO_REMOVE": "No n'hi ha rols de notificació disponibles per eliminar."
             }
           },
           "REASON": {
-            "LABEL": "Configure the reason parameters",
-            "DESCRIPTION": "Change the behavior of the reason field of the reports.",
+            "LABEL": "Configurar els paràmetres de raó",
+            "DESCRIPTION": "Canvia el comportament dels camps de raó dels informes.",
             "SET_MIN_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the minimum length of member reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the member reports.",
+              "LABEL": "Establir la longitud mínima de la raó del membre",
+              "DESCRIPTION": "Establir la longitud mínima de la raó dels informes de membres.",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "Longitud mínima de raó"
               },
-              "COMPLETED": "You have successfully set the minimum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "Has establert la longitud mínima de la raó del membre a **{{number}}** caràcters correctament."
             },
             "SET_MAX_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the maximum length of member reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the member reports.",
+              "LABEL": "Establir la longitud màxima de la raó del membre",
+              "DESCRIPTION": "Estableix la longitud màxima de la raó dels informes de membres.",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "Longitud màxima de la raó"
               },
-              "COMPLETED": "You have successfully set the maximum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "Has establert la longitud màxima de la raó del membre a **{{number}}** caràcters correctament."
             },
             "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of member reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the member reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the members reason."
+              "LABEL": "Alternar la neteja de \"markdown\" de la raó del membre",
+              "DESCRIPTION": "Canviar l'estat de la neteja del \"markdown\" de la raó dels informes de membre.",
+              "COMPLETED": "Has **{{action}}** la neteja de \"markdown\" de la raó de membres."
             },
             "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the minimum length of reviewer reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the reviewer reports.",
+              "LABEL": "Establir la longitud mínima de la raó del revisor",
+              "DESCRIPTION": "Establir la longitud mínima de la raó del revisor d'informes.",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "Longitud mínima de raó"
               },
-              "COMPLETED": "You have successfully set the minimum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "Has establert la longitud mínima de la raó del revisor a **{{number}}** caràcters correctament."
             },
             "SET_MAX_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the maximum length of reviewer reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the reviewer reports.",
+              "LABEL": "Establir la longitud màxima de la raó del revisor",
+              "DESCRIPTION": "Establir la longitud màxima de la raó del revisor d'informes.",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "Longitud màxima de la raó"
               },
-              "COMPLETED": "You have successfully set the maximum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "Has establert la longitud màxima de la raó del revisor a **{{number}}** caràcters correctament."
             },
             "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of reviewer reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewers reason."
+              "LABEL": "Alternar la neteja de \"markdown\" de la raó del revisor",
+              "DESCRIPTION": "Canvia l'estat de la neteja del \"markdown\" de la raó del revisor.",
+              "COMPLETED": "Has **{{action}}** la neteja de \"markdown\" de les raons de revisors correctament."
             }
           },
           "EVIDENCES": {
-            "LABEL": "Configure the evidences parameters",
-            "DESCRIPTION": "Change the behavior of the evidences field of the reports.",
+            "LABEL": "Configurar els paràmetres d'evidències",
+            "DESCRIPTION": "Canvia el comportament dels camps d'evidències dels informes.",
             "SET_MIN_COUNT": {
-              "LABEL": "Set the minimum count of evidences",
-              "DESCRIPTION": "Set the minimum count of evidences that a report must have.",
+              "LABEL": "Establir la quantitat mínima d'evidències",
+              "DESCRIPTION": "Establir la quantitat mínima d'evidències que un informe deu tenir.",
               "FORM": {
-                "LABEL": "Minimum count"
+                "LABEL": "Quantitat mínima"
               },
-              "COMPLETED": "You have successfully set the minimum count of evidences to **{{number}}**."
+              "COMPLETED": "Has establert la quantitat mínima d'evidències a **{{number}}** correctament."
             }
           }
         }
@@ -214,9 +214,9 @@
       "NO_DATA": "Sense dades",
       "SELECT_THE_DATA": "Selecciona les dades a veure",
       "VIEW_ALL": "Veure totes les {{data}}.",
-      "DM_STATUS": "DM status",
+      "DM_STATUS": "Estat del MD",
       "COOLDOWN": "Temps d'espera",
-      "EXCEPTIONS": "{{type}} exceptions",
+      "EXCEPTIONS": "Excepcions de {{type}}",
       "COMMUNITY": {
         "COMMANDS": {
           "DISABLED_COMMANDS": "Ordres desactivades",
@@ -226,22 +226,22 @@
           "LANGUAGE_CODE": "Codi de la llengua"
         },
         "REPORTS": {
-          "REPORTS_CHANNEL": "Reports channel",
-          "IGNORED_ROLE": "Ignored role",
-          "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
-          "NOTIFICATION_ROLES": "Notification roles",
+          "REPORTS_CHANNEL": "Canal d'informes",
+          "IGNORED_ROLE": "Rol ignorat",
+          "DELETE_REVIEWED_REPORTS": "Eliminar informes revisats",
+          "NOTIFICATION_ROLES": "Rols de notificacions",
           "REASON_PARAMETERS": {
-            "TITLE": "Reason parameters",
-            "MIN_LENGTH_OF_MEMBER_REASON": "Minimum length of member reason",
-            "MAX_LENGTH_OF_MEMBER_REASON": "Maximum length of member reason",
-            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Clean markdown of member reason",
-            "MIN_LENGTH_OF_REVIEWER_REASON": "Minimum length of reviewer reason",
-            "MAX_LENGTH_OF_REVIEWER_REASON": "Maximum length of reviewer reason",
-            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Clean markdown of reviewer reason"
+            "TITLE": "Paràmetres de raó",
+            "MIN_LENGTH_OF_MEMBER_REASON": "Longitud mínima de la raó del membre",
+            "MAX_LENGTH_OF_MEMBER_REASON": "Longitud màxima de la raó del membre",
+            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Neteja el \"markdown\" de la raó del membre",
+            "MIN_LENGTH_OF_REVIEWER_REASON": "Longitud mínima de la raó del revisor",
+            "MAX_LENGTH_OF_REVIEWER_REASON": "Longitud màxima de la raó del revisor",
+            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Neteja de \"markdown\" de la raó del revisor"
           },
           "EVIDENCES_PARAMETERS": {
-            "TITLE": "Evidences parameters",
-            "MIN_COUNT": "Minimum count of evidences"
+            "TITLE": "Paràmetres d'evidències",
+            "MIN_COUNT": "Quantitat mínima d'evidències"
           }
         }
       }

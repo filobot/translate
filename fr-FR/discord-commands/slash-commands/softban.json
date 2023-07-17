@@ -6,7 +6,7 @@
       "description": "Utilisateur que vous voulez softbannir."
     },
     "reason": {
-      "name": "reason",
+      "name": "raison",
       "description": "Raison du softbanning de cet utilisateur."
     },
     "message-history": {

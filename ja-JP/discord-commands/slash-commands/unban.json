@@ -6,7 +6,7 @@
       "description": "禁止を解除したいユーザー。"
     },
     "reason": {
-      "name": "reason",
+      "name": "理由",
       "description": "禁止事項解除の理由。"
     },
     "force": {

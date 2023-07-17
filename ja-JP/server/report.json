@@ -1,9 +1,9 @@
 {
-  "USER_REPORTED": "あなたは、[**{{user.tag}}**]({{url}}) ({{user.id}}) を正常に報告しました。",
-  "MESSAGE_REPORTED": "You have successfully reported the **[message]({{url}})** of [**{{user.tag}}**]({{url2}}) ({{user.id}}).",
-  "REPORT_APPROVED_OR_DENIED": "You have successfully {{status}} the report of {{user}}.",
+  "USER_REPORTED": "あなたは、**[{{user.tag}}]({{url}})** ({{user.id}})を報告することに成功しました。",
+  "MESSAGE_REPORTED": "**[メッセージ]({{url}})** の **[{{user.tag}}]({{url2}})** ({{user.id}})の 報告は成功しました。",
+  "REPORT_APPROVED_OR_DENIED": "あなたは、{{user}} のレポートを **{{status}}** することに成功しました。",
   "REPORT_NOTIFICATION": {
-    "TITLE": "Your report has been {{status}} on the **{{guild.name}}** server!",
-    "DESCRIPTION": "You are receiving this notification because your report has been {{status}} on the **{{guild.name}}** server."
+    "TITLE": "あなたのレポートは、**{{guild.name}}** サーバーで {{status}} されました！",
+    "DESCRIPTION": "あなたのレポートが **{{guild.name}}** サーバーで {{status}} されたため、この通知を受け取っています。"
   }
 }

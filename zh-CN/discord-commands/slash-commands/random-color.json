@@ -1,0 +1,9 @@
+{
+  "description": "Get the basic information of a random color.",
+  "arguments": {
+    "saturation": {
+      "name": "saturation",
+      "description": "Saturation that you want the random color to have."
+    }
+  }
+}

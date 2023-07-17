@@ -1,0 +1,40 @@
+{
+  "description": "Gérez un rôle du serveur.",
+  "subcommands": {
+    "add": {
+      "description": "Ajoutez un rôle à un utilisateur.",
+      "arguments": {
+        "user": {
+          "name": "utilisateur",
+          "description": "Utilisateur auquel vous souhaitez ajouter un rôle."
+        },
+        "role": {
+          "name": "rôle",
+          "description": "Rôle que vous souhaitez ajouter à l'utilisateur."
+        }
+      }
+    },
+    "info": {
+      "description": "Affichez les informations d'un rôle.",
+      "arguments": {
+        "role": {
+          "name": "rôle",
+          "description": "Rôle dont vous souhaitez obtenir des informations."
+        }
+      }
+    },
+    "remove": {
+      "description": "Retirez un rôle à un utilisateur.",
+      "arguments": {
+        "user": {
+          "name": "utilisateur",
+          "description": "Utilisateur auquel vous souhaitez retirer un rôle."
+        },
+        "role": {
+          "name": "rôle",
+          "description": "Rôle que vous souhaitez retirer à l'utilisateur."
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "USER_REPORTED": "Has informado con éxito de [**{{user.tag}}**]({{url}}) ({{user.id}}).",
-  "MESSAGE_REPORTED": "You have successfully reported the **[message]({{url}})** of [**{{user.tag}}**]({{url2}}) ({{user.id}}).",
-  "REPORT_APPROVED_OR_DENIED": "You have successfully {{status}} the report of {{user}}.",
+  "USER_REPORTED": "Has reportado al usuario **[{{user.tag}}]({{url}})** ({{user.id}}) correctamente.",
+  "MESSAGE_REPORTED": "Has reportado el **[mensaje]({{url}})** de **[{{user.tag}}]({{url2}})** ({{user.id}}) correctamente.",
+  "REPORT_APPROVED_OR_DENIED": "Has **{{status}}** el reporte de {{user}} correctamente.",
   "REPORT_NOTIFICATION": {
-    "TITLE": "Your report has been {{status}} on the **{{guild.name}}** server!",
-    "DESCRIPTION": "You are receiving this notification because your report has been {{status}} on the **{{guild.name}}** server."
+    "TITLE": "¡Tu reporte ha sido {{status}} en el servidor **{{guild.name}}**!",
+    "DESCRIPTION": "Has recibido esta notificación porque tu reporte ha sido {{status}} en el servidor **{{guild.name}}**."
   }
 }

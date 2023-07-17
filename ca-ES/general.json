@@ -13,7 +13,7 @@
   "RESPONSE_DELETED": "Has eliminat satisfactòriament la resposta.",
   "DATE": "Data",
   "APPROVED": "Aprovat",
-  "PENDING": "Pending",
+  "PENDING": "Pendent",
   "DENIED": "Denegat",
   "ENABLED": "Activat",
   "DISABLED": "Desactivat",
@@ -80,12 +80,12 @@
   "DEPRECATED_COMMAND_WARNING_2": "Utilitza l'ordre **{{command}}** al seu lloc.",
   "TAGS": "Etiquetes",
   "WITHOUT_TAGS": "Sense etiquetes",
-  "DETAILS": "Details",
-  "REVIEWER": "Reviewer",
+  "DETAILS": "Detalls",
+  "REVIEWER": "Revisor",
   "SELECT_THE_ACTION": "Selecciona l'acció que vols dur a terme.",
   "SELECT_THE_ACTION_PLACEHOLDER": "Selecciona l'acció",
-  "SELECT_A_USER": "You must select a user to continue.",
-  "SELECT_A_USER_PLACEHOLDER": "Select a user",
-  "SUBMITTED": "Submitted",
-  "PRESS_BUTTON_TO_MODAL": "You must click the **{{name}}** button to display the modal."
+  "SELECT_A_USER": "Deus seleccionar un usuari per continuar.",
+  "SELECT_A_USER_PLACEHOLDER": "Seleccionar un usuari",
+  "SUBMITTED": "Enviat",
+  "PRESS_BUTTON_TO_MODAL": "Deus fer clic en el botó **{{name}}** perquè es mostri el modal."
 }

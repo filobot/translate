@@ -1,0 +1,21 @@
+{
+  "description": "Temporarily mute a user from the server.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User you want to temporarily mute."
+    },
+    "time": {
+      "name": "time",
+      "description": "Duration of the sanction."
+    },
+    "reason": {
+      "name": "reason",
+      "description": "Reason for temporarily muting this user."
+    },
+    "silent": {
+      "name": "silent",
+      "description": "Specify if you want the sanction not to be notified to the user."
+    }
+  }
+}

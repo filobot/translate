@@ -10,7 +10,7 @@
       "description": "Durée de la sanction."
     },
     "reason": {
-      "name": "reason",
+      "name": "raison",
       "description": "Raison du bannissement temporaire de cet utilisateur."
     },
     "message-history": {

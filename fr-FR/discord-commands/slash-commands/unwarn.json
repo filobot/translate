@@ -6,7 +6,7 @@
       "description": "Utilisateur auquel vous souhaitez retirer l'avertissement."
     },
     "reason": {
-      "name": "reason",
+      "name": "raison",
       "description": "Raison de la suppression de l'avertissement."
     },
     "case": {

@@ -1,9 +1,9 @@
 {
-  "USER_REPORTED": "Vous avez signalé avec succès [**{{user.tag}}**]({{url}}) ({{user.id}}).",
-  "MESSAGE_REPORTED": "You have successfully reported the **[message]({{url}})** of [**{{user.tag}}**]({{url2}}) ({{user.id}}).",
-  "REPORT_APPROVED_OR_DENIED": "You have successfully {{status}} the report of {{user}}.",
+  "USER_REPORTED": "Vous avez signalé avec succès **[{{user.tag}}]({{url}})** ({{user.id}}).",
+  "MESSAGE_REPORTED": "Vous avez signalé avec succès le **[message]({{url}})** de **[{{user.tag}}**]({{url2}})** ({{user.id}}).",
+  "REPORT_APPROVED_OR_DENIED": "Vous avez **{{status}}** le signalement de {{user}} avec succès.",
   "REPORT_NOTIFICATION": {
-    "TITLE": "Your report has been {{status}} on the **{{guild.name}}** server!",
-    "DESCRIPTION": "You are receiving this notification because your report has been {{status}} on the **{{guild.name}}** server."
+    "TITLE": "Votre rapport a été {{status}} sur le serveur **{{guild.name}}** !",
+    "DESCRIPTION": "Vous recevez cette notification parce que votre rapport a été {{status}} sur le serveur **{{guild.name}}**."
   }
 }

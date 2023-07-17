@@ -1,0 +1,40 @@
+{
+  "description": "サーバーの役割を管理する。",
+  "subcommands": {
+    "add": {
+      "description": "ユーザーにロールを追加します。",
+      "arguments": {
+        "user": {
+          "name": "ユーザー",
+          "description": "ロールを追加したいユーザ。"
+        },
+        "role": {
+          "name": "役割",
+          "description": "ユーザーに追加したい役割。"
+        }
+      }
+    },
+    "info": {
+      "description": "役割の情報を表示する。",
+      "arguments": {
+        "role": {
+          "name": "役割",
+          "description": "情報を取得したい役割。"
+        }
+      }
+    },
+    "remove": {
+      "description": "ユーザーからロールを削除する。",
+      "arguments": {
+        "user": {
+          "name": "ユーザー",
+          "description": "ロールを削除したいユーザ。"
+        },
+        "role": {
+          "name": "役割",
+          "description": "ユーザーから削除したいロール。"
+        }
+      }
+    }
+  }
+}

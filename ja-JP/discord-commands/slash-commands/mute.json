@@ -6,7 +6,7 @@
       "description": "ミュートしたいユーザー。"
     },
     "reason": {
-      "name": "reason",
+      "name": "理由",
       "description": "\nこのユーザーをミュートした理由。"
     },
     "silent": {

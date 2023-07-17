@@ -13,7 +13,7 @@
   "RESPONSE_DELETED": "Has eliminado satisfactoriamente la respuesta.",
   "DATE": "Fecha",
   "APPROVED": "Aprobado",
-  "PENDING": "Pending",
+  "PENDING": "Pendiente",
   "DENIED": "Denegado",
   "ENABLED": "Activado",
   "DISABLED": "Desactivado",
@@ -80,12 +80,12 @@
   "DEPRECATED_COMMAND_WARNING_2": "Utiliza el comando **{{command}}** en su lugar.",
   "TAGS": "Etiquetas",
   "WITHOUT_TAGS": "Sin etiquetas",
-  "DETAILS": "Details",
-  "REVIEWER": "Reviewer",
+  "DETAILS": "Detalles",
+  "REVIEWER": "Revisor",
   "SELECT_THE_ACTION": "Selecciona la acción que quieres llevar a cabo.",
   "SELECT_THE_ACTION_PLACEHOLDER": "Selecciona la acción",
-  "SELECT_A_USER": "You must select a user to continue.",
-  "SELECT_A_USER_PLACEHOLDER": "Select a user",
-  "SUBMITTED": "Submitted",
-  "PRESS_BUTTON_TO_MODAL": "You must click the **{{name}}** button to display the modal."
+  "SELECT_A_USER": "Debes seleccionar a un usuario para continuar.",
+  "SELECT_A_USER_PLACEHOLDER": "Seleccionar un usuario",
+  "SUBMITTED": "Enviado",
+  "PRESS_BUTTON_TO_MODAL": "Debes hacer clic en el botón **{{name}}** para que se muestre el modal."
 }

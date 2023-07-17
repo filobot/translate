@@ -6,7 +6,7 @@
       "description": "ミュートを解除したいユーザー。"
     },
     "reason": {
-      "name": "reason",
+      "name": "理由",
       "description": "ミュートを解除した理由。"
     },
     "silent": {

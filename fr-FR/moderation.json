@@ -5,7 +5,7 @@
   "DEFAULT_REASON": "Le modérateur n'a pas précisé de raison.",
   "CASE_ID": "ID du cas",
   "PROOF": "Preuve",
-  "EVIDENCES": "Evidences",
+  "EVIDENCES": "Preuves",
   "SANCTION_RESPONSE": "Vous avez {{sanction}} **[{{user.tag}}]({{url}})** ({{user.id}}) avec succès.",
   "SANCTION_RESPONSE_ALTERNATIVE": "**[{{user.tag}}]({{url}})** ({{user.id}}) a été {{sanction}} du serveur.",
   "SANCTION_NOTIFICATION": {
@@ -44,5 +44,5 @@
   "CASE_REMOVED": "Cas supprimé",
   "SANCTION_DATA": "Données relatives aux sanctions",
   "EXAMPLE_REASON": "Trop Kawaii !",
-  "SANCTION_THIS_USER": "Sanction this user."
+  "SANCTION_THIS_USER": "Sanctionner cet utilisateur."
 }

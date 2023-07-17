@@ -31,8 +31,8 @@
     "THREAD_CREATE": "Fil creat",
     "THREAD_UPDATE": "Fil actualitzat",
     "THREAD_DELETE": "Fil eliminat",
-    "REPORT_MEMBER_CREATE": "Reported member",
-    "REPORT_MESSAGE_CREATE": "Reported message",
+    "REPORT_MEMBER_CREATE": "Membre informat",
+    "REPORT_MESSAGE_CREATE": "Missatge informat",
     "SANCTION_CREATE": "Sanció creada",
     "SANCTION_UPDATE": "Sanció actualitzada",
     "SANCTION_DELETE": "Sanció eliminada"

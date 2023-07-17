@@ -22,44 +22,44 @@
   "LOADING_DATA": "必要なデータが読み込まれるまで、しばらくお待ちください。",
   "MODULES": {
     "SELECT_A_MODULE": "設定したいモジュールを **{{module}}** カテゴリから選択する必要があります。",
-    "SELECT_A_SUBMODULE": "You must select the submodule from the **{{module}}** module that you want to configure.",
+    "SELECT_A_SUBMODULE": "設定したいサブモジュールを **{{module}}** モジュールから選択する必要があります。",
     "PLACEHOLDER": "モジュールを選択する",
     "SELECT_THE_ACTION": "モジュールに対して実行したいアクションを選択する必要があります。",
-    "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
+    "SELECT_THE_ACTION_PLACEHOLDER": "アクションを選択する",
     "MODULE_ENABLED_OR_DISABLED": "**{{module}}** モジュールは、{{action}} に成功しました。",
     "RESET_REQUEST_WARNING": "本当に **{{module}}** モジュールをリセットしますか？このアクションは元に戻せません!",
     "MODULE_RESET": "**{{module}}** モジュールが正常にリセットされました。",
-    "SELECT_A_CHANNEL": "You must select the channel you want to set.",
-    "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
-    "SELECT_AT_LEAST_ONE_CHANNEL": "You must select at least one channel.",
-    "SELECT_A_ROLE": "You must select the role you want to set.",
-    "SELECT_A_ROLE_PLACEHOLDER": "Select a role",
-    "SELECT_AT_LEAST_ONE_ROLE": "You must select at least one role.",
-    "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
+    "SELECT_A_CHANNEL": "設定したいチャンネルを選択する必要があります。",
+    "SELECT_A_CHANNEL_PLACEHOLDER": "チャンネルを選択",
+    "SELECT_AT_LEAST_ONE_CHANNEL": "少なくとも1つのチャンネルを選択する必要があります。",
+    "SELECT_A_ROLE": "設定したい役割を選択する必要があります。",
+    "SELECT_A_ROLE_PLACEHOLDER": "役割を選択します。",
+    "SELECT_AT_LEAST_ONE_ROLE": "少なくとも1つの役割を選択する必要があります。",
+    "CHANNEL_SET": "**[{{channel.name}}]({{url}})** モジュールの **{{module}}** チャンネルを設定することに成功しました。",
     "DM_STATUS": {
-      "LABEL": "Toggle the status of DMs",
-      "DESCRIPTION": "Change the status of notifications by DM.",
-      "DM_STATUS_TOGGLED": "You have successfully **{{action}}** the DM notifications for the **{{module}}** module."
+      "LABEL": "DM のステータスをトグルする",
+      "DESCRIPTION": "DM による通知状況を変更する。",
+      "DM_STATUS_TOGGLED": "**{{module}}** あなたは、**{{action}}** モジュールの DM 通知を成功させました。"
     },
     "EXCEPTIONS": {
       "ADD": {
-        "LABEL": "Add {{type}}",
-        "DESCRIPTION": "Add {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully added the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully added **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "{{type}} を追加する",
+        "DESCRIPTION": "モジュールの例外リストに {{type}} を追加する。",
+        "COMPLETED": "モジュールの例外リストに {{value}} {{type}} を追加することに成功しました。",
+        "COMPLETED_ALTERNATIVE": "モジュールの例外リストに **{{number}}** {{type}} を追加することに成功しました。"
       },
       "SET": {
-        "LABEL": "Set the {{type}}",
-        "DESCRIPTION": "Set the {{type}} list to the module's exception list.",
-        "COMPLETED": "You have successfully set the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully set **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "{{type}} を設定します",
+        "DESCRIPTION": "{{type}} リストにモジュールの例外リストを設定する。",
+        "COMPLETED": "モジュールの例外リストに {{value}} {{type}} を設定することに成功しました。",
+        "COMPLETED_ALTERNATIVE": "モジュールの例外リストに **{{number}}** {{type}} を設定することに成功しました。"
       },
       "REMOVE": {
-        "LABEL": "Remove {{type}}",
-        "DESCRIPTION": "Remove {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully removed the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} to the module's exception list.",
-        "NO_DATA_TO_REMOVE": "There are no {{value}} available to remove from the module's exception list."
+        "LABEL": "{{type}} を削除します",
+        "DESCRIPTION": "モジュールの例外リストから {{type}} を削除する。",
+        "COMPLETED": "モジュールの例外リストから {{value}} {{type}} を削除することに成功しました。",
+        "COMPLETED_ALTERNATIVE": "モジュールの例外リストから **{{number}}** {{type}} を削除することに成功しました。",
+        "NO_DATA_TO_REMOVE": "モジュールの例外リストから削除できる {{value}} はありません。"
       }
     },
     "COMMUNITY": {
@@ -103,107 +103,107 @@
         "DESCRIPTION": "このサーバーで Filo の言語を変更する。",
         "SELECT_A_LANGUAGE": "設定したい言語を選択する必要があります。",
         "SELECT_A_LANGUAGE_PLACEHOLDER": "言語を選択する",
-        "LANGUAGE_SET": "You have set the **{{language}}** language successfully."
+        "LANGUAGE_SET": "**{{language}}** 言語を正常に設定しました。"
       },
       "REPORTS": {
-        "LABEL": "Reports",
-        "DESCRIPTION": "Provide reporting tools to your server members.",
+        "LABEL": "レポート",
+        "DESCRIPTION": "サーバー会員にレポートツールを提供する。",
         "SUBMODULES_SELECTOR": {
-          "MEMBERS": "Change the behavior of the member reporting module.",
-          "MESSAGES": "Change the behavior of the message reporting module."
+          "MEMBERS": "メンバーレポートモジュールの動作を変更する。",
+          "MESSAGES": "メッセージレポートモジュールの動作を変更する。"
         },
         "CONFIGURE": {
           "REPORTS_CHANNEL": {
-            "LABEL": "Set the reports channel",
-            "DESCRIPTION": "Set where you want the reports to be sent."
+            "LABEL": "レポートチャンネルを設定する",
+            "DESCRIPTION": "レポートの送信先を設定する。"
           },
           "IGNORED_ROLE": {
-            "LABEL": "Set the ignored role",
-            "DESCRIPTION": "Set a role whose members can't send reports.",
-            "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
+            "LABEL": "無視される役割を設定する",
+            "DESCRIPTION": "メンバーがレポートを送信できないロールを設定する。",
+            "IGNORED_ROLE_SET": "**{{role.mention}}** ({{role.id}}) ロールを無視されたロールとして設定することに成功しました。"
           },
           "TOGGLE_DELETE_REVIEWED_REPORTS": {
-            "LABEL": "Toggle the deletion of reviewed reports",
-            "DESCRIPTION": "Change the status of the deletion of reviewed reports.",
-            "DELETE_REVIEWED_REPORTS_TOGGLED": "You have successfully **{{action}}** the deletion of reviewed reports."
+            "LABEL": "レビュー済みレポートの削除をトグルする",
+            "DESCRIPTION": "レビュー済みレポートの削除状況を変更する。",
+            "DELETE_REVIEWED_REPORTS_TOGGLED": "レビューされたレポートの削除に成功しました **{{action}}**。"
           },
           "NOTIFICATION_ROLES": {
             "ADD": {
-              "LABEL": "Add notification roles",
-              "DESCRIPTION": "Add roles that will be notified when a report is sent.",
-              "COMPLETED": "You have added the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have added **{{number}}** roles as notification roles successfully."
+              "LABEL": "通知ロールの追加",
+              "DESCRIPTION": "レポート送信時に通知されるロールを追加する。",
+              "COMPLETED": "**{{role.mention}}** ({{role.id}}) ロールを通知ロールとして正常に追加されました。",
+              "COMPLETED_ALTERNATIVE": "通知ロールとして **{{number}}** ロールを正常に追加しました。"
             },
             "SET": {
-              "LABEL": "Set the notification roles",
-              "DESCRIPTION": "Set the roles that will be notified when a report is sent.",
-              "COMPLETED": "You have set the **{{role.mention}}** ({{role.id}}) role as the notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have set **{{number}}** roles as the notification roles successfully."
+              "LABEL": "通知の役割を設定する",
+              "DESCRIPTION": "レポート送信時に通知されるロールを設定します。",
+              "COMPLETED": "**{{role.mention}}** ({{role.id}}) ロールを通知ロールに設定することに成功しました。",
+              "COMPLETED_ALTERNATIVE": "通知ロールとして **{{number}}** ロールを正常に設定しました。"
             },
             "REMOVE": {
-              "LABEL": "Remove notification roles",
-              "DESCRIPTION": "Remove roles that will be notified when a report is sent.",
-              "COMPLETED": "You have removed the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have removed **{{number}}** roles as notification roles successfully.",
-              "NO_DATA_TO_REMOVE": "There are no notification roles available to remove."
+              "LABEL": "通知ロールの削除",
+              "DESCRIPTION": "レポート送信時に通知されるロールを削除する。",
+              "COMPLETED": "通知ロールとして **{{role.mention}}** ({{role.id}}) ロールを正常に削除しました。",
+              "COMPLETED_ALTERNATIVE": "通知ロールとして **{{number}}** ロールを正常に削除しました。",
+              "NO_DATA_TO_REMOVE": "削除可能な通知ロールはありません。"
             }
           },
           "REASON": {
-            "LABEL": "Configure the reason parameters",
-            "DESCRIPTION": "Change the behavior of the reason field of the reports.",
+            "LABEL": "理由パラメータを設定する",
+            "DESCRIPTION": "レポートの理由欄の動作を変更する。",
             "SET_MIN_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the minimum length of member reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the member reports.",
+              "LABEL": "メンバー理由の最小長を設定する",
+              "DESCRIPTION": "メンバーレポートの理由の最小長さを設定します。",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "最小の理由長さ"
               },
-              "COMPLETED": "You have successfully set the minimum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "メンバーズリースの最小長を **{{number}}** 文字に設定することに成功しました。"
             },
             "SET_MAX_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the maximum length of member reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the member reports.",
+              "LABEL": "メンバー理由の最大長を設定する",
+              "DESCRIPTION": "メンバーレポートの理由の最大長を設定します。",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "理由の最大長"
               },
-              "COMPLETED": "You have successfully set the maximum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "メンバーズリースの最大長を **{{number}}** 文字に設定することに成功しました。"
             },
             "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of member reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the member reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the members reason."
+              "LABEL": "メンバー理由のマークダウンのクリーニングをトグルする",
+              "DESCRIPTION": "メンバーレポートの理由のマークダウンのクリーニングの状況を変更する。",
+              "COMPLETED": "あなたは、メンバー理由のマークダウンのクリーニングを成功させました **{{action}}**。"
             },
             "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the minimum length of reviewer reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the reviewer reports.",
+              "LABEL": "レビュアーの理由の最小長を設定する",
+              "DESCRIPTION": "レビュアーレポートの理由の最小長さを設定します。",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "最小の理由長さ"
               },
-              "COMPLETED": "You have successfully set the minimum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "レビューアの理由の最小長を **{{number}}** 文字に設定することに成功しました。"
             },
             "SET_MAX_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the maximum length of reviewer reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the reviewer reports.",
+              "LABEL": "レビューア理由の最大長を設定する",
+              "DESCRIPTION": "レビュアーレポートの理由の最大長を設定します。",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "理由の最大長"
               },
-              "COMPLETED": "You have successfully set the maximum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "査読者の理由の最大長を **{{number}}** 文字に設定することに成功しました。"
             },
             "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of reviewer reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewers reason."
+              "LABEL": "レビュアー理由のマークダウンのクリーニングをトグルする",
+              "DESCRIPTION": "レビュアーレポートの理由のマークダウンのクリーニングのステータスを変更します。",
+              "COMPLETED": "あなたは成功しました **{{action}}** レビューア理由のマークダウンのクリーニング。"
             }
           },
           "EVIDENCES": {
-            "LABEL": "Configure the evidences parameters",
-            "DESCRIPTION": "Change the behavior of the evidences field of the reports.",
+            "LABEL": "エビデンスパラメーターを設定する",
+            "DESCRIPTION": "レポートのエビデンスフィールドの動作を変更します。",
             "SET_MIN_COUNT": {
-              "LABEL": "Set the minimum count of evidences",
-              "DESCRIPTION": "Set the minimum count of evidences that a report must have.",
+              "LABEL": "エビデンスの最小数を設定する",
+              "DESCRIPTION": "レポートが持つべき証拠書類の最小数を設定する。",
               "FORM": {
-                "LABEL": "Minimum count"
+                "LABEL": "ミニマムカウント"
               },
-              "COMPLETED": "You have successfully set the minimum count of evidences to **{{number}}**."
+              "COMPLETED": "証拠品の最小数を **{{number}}** に設定することに成功しました。"
             }
           }
         }
@@ -214,9 +214,9 @@
       "NO_DATA": "データなし",
       "SELECT_THE_DATA": "表示するデータを選択する",
       "VIEW_ALL": "すべて表示 {{data}}。",
-      "DM_STATUS": "DM status",
+      "DM_STATUS": "DM ステータス",
       "COOLDOWN": "クールダウン",
-      "EXCEPTIONS": "{{type}} exceptions",
+      "EXCEPTIONS": "{{type}} 例外",
       "COMMUNITY": {
         "COMMANDS": {
           "DISABLED_COMMANDS": "無効化されたコマンド",
@@ -226,22 +226,22 @@
           "LANGUAGE_CODE": "言語コード"
         },
         "REPORTS": {
-          "REPORTS_CHANNEL": "Reports channel",
-          "IGNORED_ROLE": "Ignored role",
-          "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
-          "NOTIFICATION_ROLES": "Notification roles",
+          "REPORTS_CHANNEL": "レポートチャンネル",
+          "IGNORED_ROLE": "無視される役割",
+          "DELETE_REVIEWED_REPORTS": "レビュー済みレポートの削除",
+          "NOTIFICATION_ROLES": "お知らせの役割",
           "REASON_PARAMETERS": {
-            "TITLE": "Reason parameters",
-            "MIN_LENGTH_OF_MEMBER_REASON": "Minimum length of member reason",
-            "MAX_LENGTH_OF_MEMBER_REASON": "Maximum length of member reason",
-            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Clean markdown of member reason",
-            "MIN_LENGTH_OF_REVIEWER_REASON": "Minimum length of reviewer reason",
-            "MAX_LENGTH_OF_REVIEWER_REASON": "Maximum length of reviewer reason",
-            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Clean markdown of reviewer reason"
+            "TITLE": "理由パラメータ",
+            "MIN_LENGTH_OF_MEMBER_REASON": "メンバー理由の最小長さ",
+            "MAX_LENGTH_OF_MEMBER_REASON": "会員理由の最大長",
+            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "メンバー理由のクリーンなマークダウン",
+            "MIN_LENGTH_OF_REVIEWER_REASON": "レビュアー理由の最低長さ",
+            "MAX_LENGTH_OF_REVIEWER_REASON": "レビューア理由の最大長",
+            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "レビュアーの理由をきれいにマークダウンする"
           },
           "EVIDENCES_PARAMETERS": {
-            "TITLE": "Evidences parameters",
-            "MIN_COUNT": "Minimum count of evidences"
+            "TITLE": "エヴィデンスパラメーター",
+            "MIN_COUNT": "最低限必要な証拠品数"
           }
         }
       }

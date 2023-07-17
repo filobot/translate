@@ -10,7 +10,7 @@
       "description": "制裁の期間。"
     },
     "reason": {
-      "name": "reason",
+      "name": "理由",
       "description": "このユーザーを一時的にミュートしている理由。"
     },
     "silent": {

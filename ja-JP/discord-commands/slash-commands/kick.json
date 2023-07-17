@@ -1,0 +1,17 @@
+{
+  "description": "サーバーからユーザーをキックする。",
+  "arguments": {
+    "user": {
+      "name": "ユーザー",
+      "description": "蹴りたいユーザー。"
+    },
+    "reason": {
+      "name": "理由",
+      "description": "このユーザーをキックした理由。"
+    },
+    "silent": {
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
+    }
+  }
+}

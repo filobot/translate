@@ -1,0 +1,17 @@
+{
+  "description": "Expulsez un utilisateur du serveur.",
+  "arguments": {
+    "user": {
+      "name": "utilisateur",
+      "description": "Utilisateur que vous voulez expulser."
+    },
+    "reason": {
+      "name": "raison",
+      "description": "Raison pour l'expulsion de cet utilisateur."
+    },
+    "silent": {
+      "name": "silence",
+      "description": "Indiquez si vous souhaitez que la sanction ne soit pas notifiée à l'utilisateur."
+    }
+  }
+}
