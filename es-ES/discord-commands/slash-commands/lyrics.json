@@ -1,9 +1,14 @@
 {
-  "description": "Obtén la letra de una canción.",
-  "arguments": {
-    "song": {
-      "name": "canción",
-      "description": "Título de la canción."
+  "description": "Lyrics utilities.",
+  "subcommands": {
+    "search": {
+      "description": "Search for a song.",
+      "arguments": {
+        "song": {
+          "name": "song",
+          "description": "Song title."
+        }
+      }
     }
   }
 }
