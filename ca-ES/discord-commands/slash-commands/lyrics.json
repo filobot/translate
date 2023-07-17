@@ -1,9 +1,14 @@
 {
-  "description": "Obté la lletra d'una cançó.",
-  "arguments": {
-    "song": {
-      "name": "cançó",
-      "description": "Títol de la cançó."
+  "description": "Lyrics utilities.",
+  "subcommands": {
+    "search": {
+      "description": "Search for a song.",
+      "arguments": {
+        "song": {
+          "name": "song",
+          "description": "Song title."
+        }
+      }
     }
   }
 }
