@@ -30,9 +30,9 @@
   "NO_ANNOUNCEMENTS_PROVIDED": "没有提供公告。",
   "TOO_MANY_VALUES": "提供了太多的值。",
   "UNKNOWN_ANNOUNCEMENT": "公告 \"{{id}}\" 并不存在。",
-  "NO_TRANSLATIONS_FOUND": "No translations found.",
-  "UNKNOWN_LANGUAGE": "The language \"{{language}}\" doesn't exist.",
-  "MISSING_TRANSLATIONS": "The translations are missing.",
-  "NO_RESULTS_FOUND": "No results found.",
-  "NO_SONG_FOUND": "No song found."
+  "NO_TRANSLATIONS_FOUND": "未找到翻译。",
+  "UNKNOWN_LANGUAGE": "\"{{language}}\" 语言并不存在。",
+  "MISSING_TRANSLATIONS": "译文缺失。",
+  "NO_RESULTS_FOUND": "未找到结果。",
+  "NO_SONG_FOUND": "未找到歌曲。"
 }
