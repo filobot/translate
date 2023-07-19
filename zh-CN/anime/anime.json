@@ -1,22 +1,22 @@
 {
-  "ANIME": "Anime",
-  "ANIMES": "Animes",
-  "ANIME_TYPE": "Anime type",
+  "ANIME": "动漫",
+  "ANIMES": "动画片",
+  "ANIME_TYPE": "动漫类型",
   "ANIME_TYPES": {
-    "TV": "TV",
+    "TV": "电视",
     "OVA": "OVA",
-    "MOVIE": "Movie",
-    "SPECIAL": "Special",
+    "MOVIE": "电影",
+    "SPECIAL": "特别",
     "ONA": "ONA",
-    "MUSIC": "Music"
+    "MUSIC": "音乐"
   },
   "ANIME_STATUS": {
-    "CURRENTLY_AIRING": "Currently airing",
-    "FINISHED_AIRING": "Finished airing",
-    "NOT_YET_AIRED": "Not yet aired"
+    "CURRENTLY_AIRING": "目前正在播放",
+    "FINISHED_AIRING": "完毕播出",
+    "NOT_YET_AIRED": "尚未播出"
   },
-  "ANIME_EPISODES": "Anime episodes",
-  "RECOMMENDED_AGE": "Recommended age",
+  "ANIME_EPISODES": "动漫剧集",
+  "RECOMMENDED_AGE": "建议年龄",
   "ANIME_RATING": {
     "G": "All ages",
     "PG": "Children",
@@ -37,7 +37,7 @@
     "GAME": "Game",
     "LIGHT_NOVEL": "Light novel",
     "MANGA": "Manga",
-    "MUSIC": "Music",
+    "MUSIC": "音乐",
     "NOVEL": "Novel",
     "ORIGINAL": "Original",
     "PICTURE_BOOK": "Picture book",
@@ -67,7 +67,7 @@
     "MAGIC": "Magic",
     "MARTIAL_ARTS": "Martial Arts",
     "MECHA": "Mecha",
-    "MUSIC": "Music",
+    "MUSIC": "音乐",
     "PARODY": "Parody",
     "SAMURAI": "Samurai",
     "ROMANCE": "Romance",
