@@ -1,11 +1,11 @@
 {
-  "WATCHING_THE_BAN_INFO": "Watching the ban information",
-  "APPEAL_STATUS": "Appeal status",
-  "APPEAL_DATE": "Appeal date",
-  "WARNING_BEFORE_APPEAL": "If you submit too many appeals or share your ban information, you'll lose the ability to appeal.",
-  "WARNING_APPEAL_COOLDOWN": "We received your appeal **{{time}}**, which has been denied. You'll not be able to appeal again until **{{expiration_date}}**.",
-  "USER_BANNED_TITLE": "You are banned from using Filo!",
-  "USER_BANNED_DESCRIPTION": "If you want to appeal this ban, click the **Appeal ban** button.",
-  "GUILD_BANNED_TITLE": "This guild is banned from using Filo!",
-  "GUILD_BANNED_DESCRIPTION": "If you are the owner of the server and want information on how to appeal, click the **Appeal ban** button."
+  "WATCHING_THE_BAN_INFO": "观察禁令信息",
+  "APPEAL_STATUS": "上诉情况",
+  "APPEAL_DATE": "上诉日期",
+  "WARNING_BEFORE_APPEAL": "如果你提交了太多的上诉或分享你的禁令信息，你将失去上诉能力。",
+  "WARNING_APPEAL_COOLDOWN": "我们收到你的上诉 **{{time}}**，已被拒绝。在 **{{expiration_date}}** 之前，你不能再次上诉。",
+  "USER_BANNED_TITLE": "你被禁止使用 Filo!",
+  "USER_BANNED_DESCRIPTION": "如果你想对这项禁令提出上诉，请点击**上诉禁令**按钮。",
+  "GUILD_BANNED_TITLE": "禁止本公会使用 Filo！",
+  "GUILD_BANNED_DESCRIPTION": "如果你是服务器的所有者，想要了解如何上诉的信息，请点击**上诉禁令**按钮。"
 }
