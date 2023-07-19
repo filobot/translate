@@ -1,43 +1,43 @@
 {
-  "LOADING_ACTION": "Please wait while the requested action loads.",
+  "LOADING_ACTION": "请等待，等待所请求的行动加载。",
   "MESSAGE": {
     "MANAGE_THIS_MESSAGE": {
-      "PIN_MESSAGE_TITLE": "Pin message",
-      "PIN_MESSAGE_DESCRIPTION": "Pin this message on this channel.",
-      "UNPIN_MESSAGE_TITLE": "Unpin message",
-      "UNPIN_MESSAGE_DESCRIPTION": "Unpin this message from this channel."
+      "PIN_MESSAGE_TITLE": "销号信息",
+      "PIN_MESSAGE_DESCRIPTION": "在这个频道上钉上这个消息。",
+      "UNPIN_MESSAGE_TITLE": "撤下信息",
+      "UNPIN_MESSAGE_DESCRIPTION": "从这个频道取消这个消息。"
     }
   },
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
-      "SHOW_USER_AVATAR_TITLE": "Show user avatar",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user.",
-      "SHOW_USER_PROFILE_TITLE": "Show user profile",
-      "SHOW_USER_PROFILE_DESCRIPTION": "Show the profile of this user."
+      "SHOW_USER_AVATAR_TITLE": "显示用户头像",
+      "SHOW_USER_AVATAR_DESCRIPTION": "显示该用户的头像。",
+      "SHOW_USER_PROFILE_TITLE": "显示用户资料",
+      "SHOW_USER_PROFILE_DESCRIPTION": "显示该用户的简介。"
     },
     "MODERATE_THIS_USER": {
-      "PERMANENTLY_BAN_THIS_USER_TITLE": "Permanently ban this user",
-      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Permanently ban this user from the server.",
-      "SHOW_USER_HISTORY_TITLE": "Show user's history",
-      "SHOW_USER_HISTORY_DESCRIPTION": "Show the user's sanctions history.",
-      "KICK_THIS_USER_TITLE": "Kick this user",
-      "KICK_THIS_USER_DESCRIPTION": "Kick this user from the server.",
-      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Permanently mute this user",
-      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Permanently mute this user from the server.",
-      "SOFTBAN_THIS_USER_TITLE": "Softban this user",
-      "SOFTBAN_THIS_USER_DESCRIPTION": "Softban this user from the server.",
-      "TEMPORARILY_BAN_THIS_USER_TITLE": "Temporarily ban this user",
-      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Temporarily ban this user from the server.",
-      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Temporarily mute this user",
-      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Temporarily mute this user from the server.",
-      "UNBAN_THIS_USER_TITLE": "Unban this user",
-      "UNBAN_THIS_USER_DESCRIPTION": "Unban this user from the server.",
-      "UNMUTE_THIS_USER_TITLE": "Unmute this user",
-      "UNMUTE_THIS_USER_DESCRIPTION": "Unmute this user from the server.",
-      "UNWARN_THIS_USER_TITLE": "Unwarn this user",
-      "UNWARN_THIS_USER_DESCRIPTION": "Unwarn this user from the server.",
-      "WARN_THIS_USER_TITLE": "Warn this user",
-      "WARN_THIS_USER_DESCRIPTION": "Warn this user from the server."
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "永久禁止该用户",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "永久禁止该用户进入服务器。",
+      "SHOW_USER_HISTORY_TITLE": "显示用户的历史",
+      "SHOW_USER_HISTORY_DESCRIPTION": "显示用户的制裁历史。",
+      "KICK_THIS_USER_TITLE": "踢掉这个用户",
+      "KICK_THIS_USER_DESCRIPTION": "把这个用户从服务器上踢出去。",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "永久性地使该用户静音",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "将该用户从服务器上永久静音。",
+      "SOFTBAN_THIS_USER_TITLE": "软禁该用户",
+      "SOFTBAN_THIS_USER_DESCRIPTION": "从服务器上软禁该用户。",
+      "TEMPORARILY_BAN_THIS_USER_TITLE": "暂时禁止该用户",
+      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "暂时禁止该用户进入服务器。",
+      "TEMPORARILY_MUTE_THIS_USER_TITLE": "暂时静音该用户",
+      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "暂时将该用户从服务器上静音。",
+      "UNBAN_THIS_USER_TITLE": "解除对该用户的禁令",
+      "UNBAN_THIS_USER_DESCRIPTION": "将该用户从服务器上解禁。",
+      "UNMUTE_THIS_USER_TITLE": "取消该用户的静音",
+      "UNMUTE_THIS_USER_DESCRIPTION": "从服务器上取消该用户的静音。",
+      "UNWARN_THIS_USER_TITLE": "取消对该用户的警告",
+      "UNWARN_THIS_USER_DESCRIPTION": "从服务器上取消对该用户的警告。",
+      "WARN_THIS_USER_TITLE": "向该用户发出警告",
+      "WARN_THIS_USER_DESCRIPTION": "从服务器上警告这个用户。"
     }
   }
 }
