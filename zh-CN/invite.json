@@ -1,11 +1,11 @@
 {
-  "INVITE": "Invite",
-  "INVITES": "Invites",
-  "INVITE_CODE": "Invite code",
-  "MAXIMUM_USES": "Maximum uses of the invite",
-  "TEMPORARY_TRUE": "The invite has temporary membership",
-  "TEMPORARY_FALSE": "The invite has full membership",
-  "ACTIVITY_TRUE": "The invite belongs to an activity",
-  "ACTIVITY_FALSE": "The invite doesn't belong to an activity",
-  "MAXIMUM_PARTICIPANTS": "Maximum participants"
+  "INVITE": "邀请",
+  "INVITES": "邀请",
+  "INVITE_CODE": "邀请码",
+  "MAXIMUM_USES": "邀请函的最大用途",
+  "TEMPORARY_TRUE": "该邀请有临时会员资格",
+  "TEMPORARY_FALSE": "该邀请函具有正式成员资格",
+  "ACTIVITY_TRUE": "该邀请属于一个活动",
+  "ACTIVITY_FALSE": "该邀请不属于一个活动",
+  "MAXIMUM_PARTICIPANTS": "最多参与者"
 }
