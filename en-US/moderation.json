@@ -36,7 +36,8 @@
     "TEMPORARILY_MUTED": "Temporarily muted",
     "UNMUTE": "Unmute",
     "UNMUTED": "Unmuted",
-    "TIMEOUT": "Timeout"
+    "TIMEOUT": "Timeout",
+    "UNTIMEOUT": "Untimeout"
   },
   "CASE_NUMBER": "Case **#{{case.case}}**",
   "SANCTIONED_USER": "Sanctioned user",
