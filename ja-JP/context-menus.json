@@ -38,10 +38,10 @@
       "UNWARN_THIS_USER_DESCRIPTION": "このユーザーのサーバーからの警告を解除します。",
       "WARN_THIS_USER_TITLE": "このユーザーに警告する",
       "WARN_THIS_USER_DESCRIPTION": "このユーザーをサーバーから警告する。",
-      "TIMEOUT_THIS_USER_TITLE": "Timeout this user",
-      "TIMEOUT_THIS_USER_DESCRIPTION": "Timeout this user from the server.",
-      "UNTIMEOUT_THIS_USER_TITLE": "Untimeout this user",
-      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Untimeout this user from the server."
+      "TIMEOUT_THIS_USER_TITLE": "このユーザーをタイムアウトさせる",
+      "TIMEOUT_THIS_USER_DESCRIPTION": "このユーザーをサーバーからタイムアウトさせる。",
+      "UNTIMEOUT_THIS_USER_TITLE": "このユーザーのタイムアウトを解除する",
+      "UNTIMEOUT_THIS_USER_DESCRIPTION": "このユーザーをサーバーからアンタイムアウトさせる。"
     }
   }
 }
