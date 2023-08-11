@@ -14,6 +14,8 @@
     "MEMBER_TEMPMUTE_ADD": "Thành viên được mute tạm thời",
     "MEMBER_MUTE_REMOVE": "Thành viên được bỏ mute",
     "MEMBER_KICK_ADD": "Kicked member",
+    "MEMBER_TIMEOUT_ADD": "Timed out member",
+    "MEMBER_TIMEOUT_REMOVE": "Untimed out member",
     "MEMBER_ADD": "Thành viên đã vào server",
     "MEMBER_UPDATE": "Thành viên đã được cập nhật",
     "MEMBER_REMOVE": "Thành viên đã thoát khỏi server",
