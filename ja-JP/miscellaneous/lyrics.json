@@ -1,15 +1,15 @@
 {
   "SONG": {
-    "SELECT_A_SONG": "You must select a song to view its data.",
-    "SELECT_A_SONG_PLACEHOLDER": "Select a song",
+    "SELECT_A_SONG": "データを見るには曲を選択する必要があります。",
+    "SELECT_A_SONG_PLACEHOLDER": "曲を選択する",
     "VIEWING_THE_LYRICS": {
-      "TITLE": "Viewing the lyrics of the **{{song.title}}** song.",
-      "DESCRIPTION": "You can view the lyrics of this song by **[clicking here]({{url}})**."
+      "TITLE": "**{{song.title}}** の曲の歌詞を表示します。",
+      "DESCRIPTION": "この曲の歌詞は、**[ここをクリック]({{url}})** で見ることができる。"
     },
-    "TITLE": "Title",
-    "FULL_TITLE": "Full title",
-    "FEATURED_TITLE": "Featured title",
-    "ALBUM": "Album",
-    "ARTIST": "Artist"
+    "TITLE": "タイトル",
+    "FULL_TITLE": "フルタイトル",
+    "FEATURED_TITLE": "注目のタイトル",
+    "ALBUM": "アルバム",
+    "ARTIST": "アーティスト"
   }
 }

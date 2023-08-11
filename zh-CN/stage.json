@@ -1,9 +1,9 @@
 {
-  "STAGE_INSTANCE": "Stage instance",
-  "STAGE_INSTANCES": "Stage instances",
-  "STAGE_INSTANCE_PRIVACY_LEVEL": "Privacy level",
-  "PUBLIC_STAGE_INSTANCE": "Public stage instance",
-  "PRIVATE_STAGE_INSTANCE": "Private stage instance",
-  "DISCOVERABLE_DISABLED_TRUE": "The stage instance isn't discoverable",
-  "DISCOVERABLE_DISABLED_FALSE": "The stage instance is discoverable"
+  "STAGE_INSTANCE": "舞台实例",
+  "STAGE_INSTANCES": "阶段性实例",
+  "STAGE_INSTANCE_PRIVACY_LEVEL": "隐私级别",
+  "PUBLIC_STAGE_INSTANCE": "公共舞台实例",
+  "PRIVATE_STAGE_INSTANCE": "私人舞台实例",
+  "DISCOVERABLE_DISABLED_TRUE": "舞台实例不能被发现",
+  "DISCOVERABLE_DISABLED_FALSE": "舞台实例是可以发现的"
 }

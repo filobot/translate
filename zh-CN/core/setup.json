@@ -65,7 +65,7 @@
     "COMMUNITY": {
       "NAME": "Community",
       "COMMANDS": {
-        "LABEL": "Commands",
+        "LABEL": "命令",
         "DESCRIPTION": "Change the behavior of Filo's commands.",
         "CONFIGURE": {
           "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
@@ -215,7 +215,7 @@
       "SELECT_THE_DATA": "Select the data to view",
       "VIEW_ALL": "View all {{data}}.",
       "DM_STATUS": "DM status",
-      "COOLDOWN": "Cooldown",
+      "COOLDOWN": "暂停时间",
       "EXCEPTIONS": "{{type}} exceptions",
       "COMMUNITY": {
         "COMMANDS": {

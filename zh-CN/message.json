@@ -1,9 +1,9 @@
 {
-  "MESSAGE": "Message",
-  "MESSAGES": "Messages",
-  "MESSAGE_INFORMATION": "Message information",
-  "MESSAGE_LINK": "Message URL",
-  "MESSAGE_WITHOUT_CONTENT": "Message without content",
-  "NUMBER_OF_PURGED_MESSAGES": "Number of messages purged",
-  "CHARACTERS": "Characters"
+  "MESSAGE": "留言",
+  "MESSAGES": "留言",
+  "MESSAGE_INFORMATION": "留言信息",
+  "MESSAGE_LINK": "消息网址",
+  "MESSAGE_WITHOUT_CONTENT": "没有内容的信息",
+  "NUMBER_OF_PURGED_MESSAGES": "清除的信息数量",
+  "CHARACTERS": "角色"
 }

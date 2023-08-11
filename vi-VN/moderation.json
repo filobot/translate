@@ -35,7 +35,9 @@
     "TEMPORARY_MUTE": "Mute tạm thời",
     "TEMPORARILY_MUTED": "Đã mute tạm thời",
     "UNMUTE": "Bỏ mute",
-    "UNMUTED": "Đã bỏ mute"
+    "UNMUTED": "Đã bỏ mute",
+    "TIMEOUT": "Timeout",
+    "UNTIMEOUT": "Untimeout"
   },
   "CASE_NUMBER": "Vụ án **#{{case.case}}**",
   "SANCTIONED_USER": "Người dùng đã bị phạt",

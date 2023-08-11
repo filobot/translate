@@ -1,12 +1,12 @@
 {
-  "description": "Lyrics utilities.",
+  "description": "歌詞ユーティリティ。",
   "subcommands": {
     "search": {
-      "description": "Search for a song.",
+      "description": "曲を探す",
       "arguments": {
         "song": {
-          "name": "song",
-          "description": "Song title."
+          "name": "歌",
+          "description": "曲名。"
         }
       }
     }

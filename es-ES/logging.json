@@ -14,6 +14,8 @@
     "MEMBER_TEMPMUTE_ADD": "Miembro silenciado temporalmente",
     "MEMBER_MUTE_REMOVE": "Miembro desilenciado",
     "MEMBER_KICK_ADD": "Miembro expulsado",
+    "MEMBER_TIMEOUT_ADD": "Timed out member",
+    "MEMBER_TIMEOUT_REMOVE": "Untimed out member",
     "MEMBER_ADD": "Miembro unido",
     "MEMBER_UPDATE": "Miembro actualizado",
     "MEMBER_REMOVE": "Miembro sale",
