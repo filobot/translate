@@ -37,7 +37,11 @@
       "UNWARN_THIS_USER_TITLE": "Unwarn this user",
       "UNWARN_THIS_USER_DESCRIPTION": "Unwarn this user from the server.",
       "WARN_THIS_USER_TITLE": "Warn this user",
-      "WARN_THIS_USER_DESCRIPTION": "Warn this user from the server."
+      "WARN_THIS_USER_DESCRIPTION": "Warn this user from the server.",
+      "TIMEOUT_THIS_USER_TITLE": "Timeout this user",
+      "TIMEOUT_THIS_USER_DESCRIPTION": "Timeout this user from the server.",
+      "UNTIMEOUT_THIS_USER_TITLE": "Untimeout this user",
+      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Untimeout this user from the server."
     }
   }
 }
