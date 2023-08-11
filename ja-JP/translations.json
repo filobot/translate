@@ -158,8 +158,8 @@
     "APPROVE_REPORTS": "報告書の承認",
     "DENY_REPORTS": "レポートを拒否する",
     "MANAGE_REPORTS": "レポートの管理",
-    "TIMEOUT_MEMBERS": "Timeout members",
-    "UNTIMEOUT_MEMBERS": "Untimeout members"
+    "TIMEOUT_MEMBERS": "メンバーのタイムアウト",
+    "UNTIMEOUT_MEMBERS": "タイムアウト解除メンバー"
   },
   "THANKS": {
     "TITLE": "Filo の追加ありがとうございます！",
@@ -191,10 +191,10 @@
     "CALCULATOR": "計算機",
     "STATISTICS": "統計情報",
     "THANKS": "ありがとうございます",
-    "LINK_SHORTENER": "Link Shortener"
+    "LINK_SHORTENER": "リンクショートナー"
   },
   "LINK_SHORTENER": {
-    "TITLE": "Redirecting",
-    "SUBTITLE": "You'll be redirected to the original link in a few seconds"
+    "TITLE": "リダイレクト",
+    "SUBTITLE": "数秒後に元のリンクにリダイレクトされます。"
   }
 }
