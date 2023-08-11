@@ -157,7 +157,9 @@
     "BYPASS_REPORTS_COOLDOWN": "Ometre els informes de reutilització",
     "APPROVE_REPORTS": "Aprovar informes",
     "DENY_REPORTS": "Negar informes",
-    "MANAGE_REPORTS": "Gestionar informes"
+    "MANAGE_REPORTS": "Gestionar informes",
+    "TIMEOUT_MEMBERS": "Timeout members",
+    "UNTIMEOUT_MEMBERS": "Untimeout members"
   },
   "THANKS": {
     "TITLE": "Gràcies per afegir a Filo!",
