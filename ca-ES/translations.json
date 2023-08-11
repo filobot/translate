@@ -157,7 +157,9 @@
     "BYPASS_REPORTS_COOLDOWN": "Ometre els informes de reutilització",
     "APPROVE_REPORTS": "Aprovar informes",
     "DENY_REPORTS": "Negar informes",
-    "MANAGE_REPORTS": "Gestionar informes"
+    "MANAGE_REPORTS": "Gestionar informes",
+    "TIMEOUT_MEMBERS": "Timeout members",
+    "UNTIMEOUT_MEMBERS": "Untimeout members"
   },
   "THANKS": {
     "TITLE": "Gràcies per afegir a Filo!",
@@ -189,10 +191,10 @@
     "CALCULATOR": "Calculadora",
     "STATISTICS": "Estadí­stiques",
     "THANKS": "Gràcies",
-    "LINK_SHORTENER": "Link Shortener"
+    "LINK_SHORTENER": "Escurçador de link"
   },
   "LINK_SHORTENER": {
-    "TITLE": "Redirecting",
-    "SUBTITLE": "You'll be redirected to the original link in a few seconds"
+    "TITLE": "Redireccionant",
+    "SUBTITLE": "Seràs redirigit al link original en uns segons"
   }
 }

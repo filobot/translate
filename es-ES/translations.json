@@ -157,7 +157,9 @@
     "BYPASS_REPORTS_COOLDOWN": "Evitar el enfriamiento de los informes",
     "APPROVE_REPORTS": "Aprobar informes",
     "DENY_REPORTS": "Denegar informes",
-    "MANAGE_REPORTS": "Gestionar informes"
+    "MANAGE_REPORTS": "Gestionar informes",
+    "TIMEOUT_MEMBERS": "Timeout members",
+    "UNTIMEOUT_MEMBERS": "Untimeout members"
   },
   "THANKS": {
     "TITLE": "¡Gracias por añadir a Filo!",
@@ -189,10 +191,10 @@
     "CALCULATOR": "Calculadora",
     "STATISTICS": "Estadísticas",
     "THANKS": "Gracias",
-    "LINK_SHORTENER": "Link Shortener"
+    "LINK_SHORTENER": "Acortador de Enlaces"
   },
   "LINK_SHORTENER": {
-    "TITLE": "Redirecting",
-    "SUBTITLE": "You'll be redirected to the original link in a few seconds"
+    "TITLE": "Redirigiendo",
+    "SUBTITLE": "En unos segundos serás redirigido al enlace original"
   }
 }

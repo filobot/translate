@@ -157,7 +157,9 @@
     "BYPASS_REPORTS_COOLDOWN": "レポートのクールダウンを回避する",
     "APPROVE_REPORTS": "報告書の承認",
     "DENY_REPORTS": "レポートを拒否する",
-    "MANAGE_REPORTS": "レポートの管理"
+    "MANAGE_REPORTS": "レポートの管理",
+    "TIMEOUT_MEMBERS": "Timeout members",
+    "UNTIMEOUT_MEMBERS": "Untimeout members"
   },
   "THANKS": {
     "TITLE": "Filo の追加ありがとうございます！",
