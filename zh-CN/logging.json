@@ -14,6 +14,8 @@
     "MEMBER_TEMPMUTE_ADD": "暂时静默的成员",
     "MEMBER_MUTE_REMOVE": "未发表意见的成员",
     "MEMBER_KICK_ADD": "被踢的成员",
+    "MEMBER_TIMEOUT_ADD": "Timed out member",
+    "MEMBER_TIMEOUT_REMOVE": "Untimed out member",
     "MEMBER_ADD": "加入会员",
     "MEMBER_UPDATE": "更新的成员",
     "MEMBER_REMOVE": "理事长",
