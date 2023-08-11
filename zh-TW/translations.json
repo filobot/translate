@@ -188,6 +188,11 @@
     "A_DISCORD_BOT": "Discord 機器人",
     "CALCULATOR": "Calculator",
     "STATISTICS": "統計資料",
-    "THANKS": "Thanks"
+    "THANKS": "Thanks",
+    "LINK_SHORTENER": "Link Shortener"
+  },
+  "LINK_SHORTENER": {
+    "TITLE": "Redirecting",
+    "SUBTITLE": "You'll be redirected to the original link in a few seconds"
   }
 }
