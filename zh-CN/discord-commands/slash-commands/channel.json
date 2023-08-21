@@ -1,26 +1,26 @@
 {
-  "description": "Manage a channel.",
+  "description": "管理一个渠道。",
   "subcommand_groups": {
     "cooldown": {
-      "description": "Manage the cooldown of a channel.",
+      "description": "管理一个通道的冷却时间。",
       "subcommands": {
         "set": {
-          "description": "Set the cooldown of a channel.",
+          "description": "设置一个通道的冷却时间。",
           "arguments": {
             "time": {
-              "name": "time",
-              "description": "Cooldown you want to set."
+              "name": "时间",
+              "description": "你想设置的冷却时间。"
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to set the cooldown."
+              "name": "渠道",
+              "description": "你想设置冷却时间的通道。"
             },
             "reset": {
-              "description": "Reset the cooldown of a channel.",
+              "description": "重置一个通道的冷却时间。",
               "arguments": {
                 "channel": {
-                  "name": "channel",
-                  "description": "Channel where you want to reset the cooldown."
+                  "name": "渠道",
+                  "description": "你想重置冷却时间的通道。"
                 }
               }
             }
@@ -29,59 +29,59 @@
       }
     },
     "messages": {
-      "description": "Manage the messages of a channel.",
+      "description": "管理一个频道的信息。",
       "subcommands": {
         "pin": {
-          "description": "Pin a message on the current channel.",
+          "description": "在当前频道上钉一个信息。",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to pin."
+              "name": "信息",
+              "description": "你想钉住的信息的 ID。"
             }
           }
         },
         "purge": {
-          "description": "Purge a number of messages from a channel.",
+          "description": "从一个频道中清除一些信息。",
           "arguments": {
             "messages": {
-              "name": "messages",
-              "description": "Number of messages you want to purge."
+              "name": "信息",
+              "description": "你想清除的信息数量。"
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to purge messages."
+              "name": "渠道",
+              "description": "你想清除信息的通道。"
             }
           }
         },
         "unpin": {
-          "description": "Unpin a message on the current channel.",
+          "description": "取消在当前频道上的信息。",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to unpin."
+              "name": "信息",
+              "description": "你想取消的信息的 ID。"
             }
           }
         }
       }
     },
     "nsfw": {
-      "description": "Switch the NSFW mode of a channel.",
+      "description": "切换一个频道的 NSFW 模式。",
       "subcommands": {
         "enable": {
-          "description": "Enable the NSFW mode of a channel.",
+          "description": "启用一个频道的 NSFW 模式。",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to enable the NSFW mode."
+              "name": "渠道",
+              "description": "要启用 NSFW 模式的频道。"
             }
           }
         },
         "disable": {
-          "description": "Disable the NSFW mode of a channel.",
+          "description": "禁用频道的 NSFW 模式。",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to disable the NSFW mode."
+              "name": "渠道",
+              "description": "要禁用 NSFW 模式的频道。"
             }
           }
         }
@@ -90,36 +90,36 @@
   },
   "subcommands": {
     "info": {
-      "description": "Get information about a channel.",
+      "description": "获取关于一个通道的信息。",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the information will come from."
+          "name": "渠道",
+          "description": "渠道的信息将来自哪里。"
         }
       }
     },
     "invite": {
-      "description": "Create an instant invite of a channel.",
+      "description": "创建一个渠道的即时邀请。",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where to create the instant invite."
+          "name": "渠道",
+          "description": "频道在哪里创建即时邀请。"
         },
         "temporary": {
-          "name": "temporary",
-          "description": "Specify if you want to grant temporary or permanent membership."
+          "name": "临时",
+          "description": "指定你是否要授予临时或永久成员资格。"
         },
         "max-age": {
-          "name": "max-age",
-          "description": "Time until the invite expires."
+          "name": "最大年龄",
+          "description": "距离邀请函到期的时间。"
         },
         "max-uses": {
-          "name": "max-uses",
-          "description": "Maximum number of uses of the invite."
+          "name": "最大使用量",
+          "description": "邀请函的最大使用次数。"
         },
         "force": {
-          "name": "force",
-          "description": "Force the creation of the invite."
+          "name": "力量",
+          "description": "强制创建邀请。"
         }
       }
     }
