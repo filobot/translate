@@ -1,56 +1,56 @@
 {
-  "description": "Anime Utilities.",
+  "description": "动漫实用工具。",
   "subcommands": {
     "avatar": {
-      "description": "Send a random image of an anime avatar."
+      "description": "随机发送一张动漫头像的图片。"
     },
     "search": {
-      "description": "Search the information of an anime.",
+      "description": "搜索一部动漫的信息。",
       "arguments": {
         "title": {
-          "name": "title",
-          "description": "Title of the anime."
+          "name": "职称",
+          "description": "动画片的标题。"
         }
       }
     },
     "random": {
-      "description": "Show the information from a random anime according to the criteria you specify.",
+      "description": "根据您指定的标准显示随机动漫中的信息。",
       "arguments": {
         "term": {
-          "name": "term",
-          "description": "Term that must include the title of the anime."
+          "name": "术语",
+          "description": "必须包括动画片标题的术语。"
         },
         "type": {
-          "name": "type",
-          "description": "Anime type."
+          "name": "类型",
+          "description": "动漫类型。"
         },
         "status": {
-          "name": "status",
-          "description": "Anime's status."
+          "name": "身份",
+          "description": "动漫的地位。"
         },
         "rating": {
-          "name": "rating",
-          "description": "Anime's rating."
+          "name": "评级",
+          "description": "动漫的评级。"
         },
         "genre": {
-          "name": "genre",
-          "description": "Genre or one of the genres of the Anime."
+          "name": "体裁",
+          "description": "体裁或动漫的体裁之一。"
         }
       }
     }
   },
   "subcommand_groups": {
     "characters": {
-      "description": "Send a random image or gif about an anime character.",
+      "description": "随机发送一张动漫人物的图片或 gif。",
       "subcommands": {
         "ghoul": {
-          "description": "Send a random image of a Ghoul."
+          "description": "随机发送一张食尸鬼的图片。"
         },
         "jojo": {
-          "description": "Send a random image of a Jojo."
+          "description": "随机发送一张乔乔的图片。"
         },
         "titan": {
-          "description": "Send a random image of a Titan."
+          "description": "随机发送一张泰坦的图片。"
         }
       }
     }
