@@ -1,21 +1,21 @@
 {
-  "description": "Encode morse or decode morse code.",
+  "description": "编码摩尔斯码或解码摩尔斯码。",
   "subcommands": {
     "encode": {
-      "description": "Convert the text to morse code.",
+      "description": "将文本转换为摩尔斯电码。",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Text that you want to encode to morse code."
+          "name": "编码",
+          "description": "你想要编码为摩尔斯码的文本。"
         }
       }
     },
     "decode": {
-      "description": "Convert the morse code to text.",
+      "description": "将摩尔斯电码转换为文本。",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Morse code that you want to decode to text."
+          "name": "编码",
+          "description": "你想解码为文本的莫尔斯码。"
         }
       }
     }
