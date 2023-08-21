@@ -2,11 +2,11 @@
   "description": "Remove the mute from a user.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "用户",
       "description": "User you want to remove the mute from."
     },
     "reason": {
-      "name": "reason",
+      "name": "原因",
       "description": "Reason for removing the mute."
     },
     "silent": {
@@ -14,7 +14,7 @@
       "description": "Specify if you want the sanction not to be notified to the user."
     },
     "force": {
-      "name": "force",
+      "name": "力量",
       "description": "Force removal of the mute."
     }
   }
