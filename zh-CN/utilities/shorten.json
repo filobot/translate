@@ -1,5 +1,5 @@
 {
-  "URL_SHORTENED_SUCCESSFULLY": "You have shortened this **[URL]({{url}})** successfully.",
-  "ORIGINAL_URL": "Original URL",
-  "SHORTENED_URL": "Shortened URL"
+  "URL_SHORTENED_SUCCESSFULLY": "您已成功缩短了这个 **[网址]({{url}})**。",
+  "ORIGINAL_URL": "原文网址",
+  "SHORTENED_URL": "缩短的网址"
 }
