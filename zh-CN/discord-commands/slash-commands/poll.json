@@ -2,7 +2,7 @@
   "description": "Create a poll on the current channel.",
   "arguments": {
     "message": {
-      "name": "message",
+      "name": "信息",
       "description": "Message to the poll."
     },
     "choice-1": {
