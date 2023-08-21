@@ -1,13 +1,13 @@
 {
-  "description": "Pay an amount of credits to another user.",
+  "description": "向另一个用户支付一定数量的积分。",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to pay."
+      "name": "用户",
+      "description": "你想支付的用户。"
     },
     "amount": {
-      "name": "amount",
-      "description": "Amount of credits you want to pay."
+      "name": "数量",
+      "description": "你想支付的信贷金额。"
     }
   }
 }
