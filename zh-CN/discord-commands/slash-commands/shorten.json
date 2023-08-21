@@ -1,9 +1,9 @@
 {
-  "description": "Shorten a URL.",
+  "description": "缩短 网址。",
   "arguments": {
     "url": {
-      "name": "url",
-      "description": "URL you want to shorten."
+      "name": "网址",
+      "description": "你想缩短的 网址。"
     }
   }
 }
