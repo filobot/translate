@@ -1,13 +1,13 @@
 {
-  "description": "Get the statistics of a R6S player.",
+  "description": "获取一名 R6S 球员的统计数据。",
   "arguments": {
     "platform": {
-      "name": "platform",
-      "description": "Platform where the player plays."
+      "name": "平台",
+      "description": "玩家玩耍的平台。"
     },
     "player": {
-      "name": "player",
-      "description": "In Game Nick of the player."
+      "name": "玩家",
+      "description": "在游戏中玩家的尼克。"
     }
   }
 }
