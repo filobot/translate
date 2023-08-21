@@ -2,15 +2,15 @@
   "description": "Remove the ban from a user.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "用户",
       "description": "User you want to remove the ban from."
     },
     "reason": {
-      "name": "reason",
+      "name": "原因",
       "description": "Reason for removing the ban."
     },
     "force": {
-      "name": "force",
+      "name": "力量",
       "description": "Force removal of the ban."
     }
   }
