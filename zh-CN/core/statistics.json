@@ -1,6 +1,6 @@
 {
-  "WATCHING_FILO_STATISTICS": "Watching Filo's statistics",
-  "RAM": "RAM",
-  "VERSION": "Version",
-  "UPTIME": "Uptime"
+  "WATCHING_FILO_STATISTICS": "观察 Filo 的统计数据",
+  "RAM": "内存",
+  "VERSION": "版本",
+  "UPTIME": "正常运行时间"
 }
