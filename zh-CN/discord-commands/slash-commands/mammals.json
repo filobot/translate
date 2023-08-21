@@ -1,23 +1,23 @@
 {
-  "description": "Send a image of mammals to the channel.",
+  "description": "发送哺乳动物的图像到该频道。",
   "subcommands": {
     "bear": {
-      "description": "Send a random image of a bear."
+      "description": "随机发送一张熊的图片。"
     },
     "cat": {
-      "description": "Send a random image of a cat."
+      "description": "随机发送一张猫的图片。"
     },
     "dog": {
-      "description": "Send a random image of a dog."
+      "description": "随机发送一张狗的图片。"
     },
     "koala": {
-      "description": "Send a random image of a koala."
+      "description": "随机发送一张考拉的图片。"
     },
     "panda": {
-      "description": "Send a random image of a panda."
+      "description": "随机发送一张熊猫的图片。"
     },
     "wolf": {
-      "description": "Send a random image of a wolf."
+      "description": "随机发送一张狼的图片。"
     }
   }
 }
