@@ -2,11 +2,11 @@
   "description": "Permanently mute a user from the server.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "用户",
       "description": "User you want to mute."
     },
     "reason": {
-      "name": "reason",
+      "name": "原因",
       "description": "Reason for muting this user."
     },
     "silent": {
