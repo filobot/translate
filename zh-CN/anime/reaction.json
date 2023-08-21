@@ -17,7 +17,7 @@
   "SICK": "**{{user.username}}** 病了",
   "SING": "**{{user.username}}** 正在歌唱",
   "SLEEP": "**{{user.username}}** 正在睡觉",
-  "SMUG": "**{{user.username}}** is showing off",
-  "TEEHEE": "**{{user.username}}** says: «teehee»",
-  "THINK": "**{{user.username}}** is thinking"
+  "SMUG": "**{{user.username}}** 正在炫耀",
+  "TEEHEE": "**{{user.username}}** 说：\"嘻嘻\"",
+  "THINK": "**{{user.username}}** 正在思考"
 }
