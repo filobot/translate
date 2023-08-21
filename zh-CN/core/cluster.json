@@ -1,15 +1,15 @@
 {
-  "CLUSTER": "Cluster",
-  "SHARD": "Shard",
-  "SHARDS": "Shards",
-  "PING": "Ping",
-  "LIBRARY": "Library",
-  "NODE_VERSION": "Node version",
-  "OPERATIVE_SYSTEM": "Operative system",
-  "TOTAL_SERVERS": "Total servers",
-  "TOTAL_USERS": "Total users",
-  "TOTAL_CACHED_CHANNELS": "Total cached channels",
-  "SERVERS": "Servers",
+  "CLUSTER": "群体",
+  "SHARD": "碎片",
+  "SHARDS": "碎片",
+  "PING": "平",
+  "LIBRARY": "图书馆",
+  "NODE_VERSION": "节点版本",
+  "OPERATIVE_SYSTEM": "业务系统",
+  "TOTAL_SERVERS": "服务器总数",
+  "TOTAL_USERS": "用户总数",
+  "TOTAL_CACHED_CHANNELS": "缓存通道总数",
+  "SERVERS": "服务员",
   "USERS": "用户",
-  "CACHED_CHANNELS": "Cached channels"
+  "CACHED_CHANNELS": "缓存通道"
 }
