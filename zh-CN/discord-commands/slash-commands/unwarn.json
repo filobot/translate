@@ -2,11 +2,11 @@
   "description": "Remove a warn from a user.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "用户",
       "description": "User you want to remove the warn from."
     },
     "reason": {
-      "name": "reason",
+      "name": "原因",
       "description": "Reason for removing the warn."
     },
     "case": {
