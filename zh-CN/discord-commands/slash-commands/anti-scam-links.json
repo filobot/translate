@@ -1,72 +1,72 @@
 {
-  "description": "Module that allows you to prevent users from sending scam links.",
+  "description": "允许您防止用户发送诈骗链接的模块。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-scam-links module."
+      "description": "启用反欺诈链接模块。"
     },
     "disable": {
-      "description": "Disable the anti-scam-links module."
+      "description": "禁用反诈骗链接模块。"
     },
     "action": {
-      "description": "Set the action to take when someone sends scam links.",
+      "description": "设置当有人发送诈骗链接时要采取的行动。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends scam links."
+          "name": "行动",
+          "description": "当有人发送诈骗链接时应采取的行动。"
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "时间",
+          "description": "行动的时间（如果是临时性的）。"
         }
       }
     },
     "aggressive-filter": {
-      "description": "Enable or disable the aggressive scam link detection filter.",
+      "description": "启用或禁用积极的诈骗链接检测过滤器。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "行动",
+          "description": "你想进行的行动。"
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "从被忽略的频道列表中添加或删除一个频道。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "行动",
+          "description": "你想进行的行动。"
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "渠道",
+          "description": "从模块的通道旁路列表中选择通道。"
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "从被忽略的角色列表中添加或删除一个角色。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "行动",
+          "description": "你想进行的行动。"
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "作用",
+          "description": "从模块的角色分流列表中选择角色。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-scam-links module documentation."
+      "description": "获取反诈骗链接模块的链接文件。"
     },
     "view": {
-      "description": "View the settings of the anti-scam-links module."
+      "description": "查看反欺诈-链接模块的设置。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }
