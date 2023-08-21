@@ -1,39 +1,39 @@
 {
-  "description": "Interact with other users with gifs and actions.",
+  "description": "用 gif 和动作与其他用户互动。",
   "subcommands": {
     "baka": {
-      "description": "Send a baka interaction.",
+      "description": "发送一个巴卡互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "bite": {
-      "description": "Send a bite interaction.",
+      "description": "发送咬合互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "cookie": {
-      "description": "Send a cookie interaction.",
+      "description": "发送 cookie 互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "cuddle": {
-      "description": "Send a cuddle interaction.",
+      "description": "发送一个拥抱的互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
@@ -41,8 +41,8 @@
       "description": "Send a feed interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
@@ -50,8 +50,8 @@
       "description": "Send a hug interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
@@ -59,80 +59,80 @@
       "description": "Send a kick interaction.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "kiss": {
-      "description": "Send a kiss interaction.",
+      "description": "发送一个吻的互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "laugh": {
-      "description": "Send a laugh interaction.",
+      "description": "发送笑声互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "pat": {
-      "description": "Send a pat interaction.",
+      "description": "发出拍打互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "poke": {
-      "description": "Send a poke interaction.",
+      "description": "发送一个戳戳的互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "punch": {
-      "description": "Send a punch interaction.",
+      "description": "发送打卡互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "reverse-card": {
-      "description": "Send a reverse card interaction.",
+      "description": "发送反向卡互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "slap": {
-      "description": "Send a slap interaction.",
+      "description": "发送一个巴掌的互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     },
     "tickle": {
-      "description": "Send a tickle interaction.",
+      "description": "发送痒痒互动。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "用户",
+          "description": "你想把这种互动引向的用户。"
         }
       }
     }
