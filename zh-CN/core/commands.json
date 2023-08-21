@@ -81,49 +81,49 @@
       "PRIVACY": "获取 Filo 隐私政策的链接",
       "ROLES": "以先进的方式管理角色",
       "STATISTICS": "获取 Filo 的全球统计数据",
-      "STATUS": "Get the link to Filo's Status",
-      "SETUP": "Configure the modules and behavior of Filo",
-      "SUPPORT": "Get information on how to receive support",
-      "TERMS": "Get the link to Filo's Terms and Conditions",
-      "TWITTER": "Get the link to Filo's Twitter",
-      "VOTE": "Get the link to Filo's voting pages",
-      "VOTES": "Get the vote counter of all Filo's voting pages",
-      "WEBSITE": "Get the link to Filo's Website",
-      "WIKI": "Get the link to Filo's Wiki"
+      "STATUS": "获取 Filo 状态链接",
+      "SETUP": "配置 Filo 的模块和行为",
+      "SUPPORT": "获取关于如何获得支持的信息",
+      "TERMS": "获取 Filo 条款和条件的链接",
+      "TWITTER": "获取 Filo Twitter 的链接",
+      "VOTE": "获取 Filo 投票页面的链接",
+      "VOTES": "获取所有 Filo 投票页面的投票计数器",
+      "WEBSITE": "获取 Filo 网站链接",
+      "WIKI": "获取 Filo 维基链接"
     },
     "ECONOMY": {
-      "CREDITS": "Get your current credits or a user's credits",
-      "DAILY": "Claim your daily credits or gift them to a user",
-      "PAY": "Pay an amount of credits to another user"
+      "CREDITS": "获取您当前的积分或用户的积分",
+      "DAILY": "领取每日积分或将积分赠送给用户",
+      "PAY": "向另一个用户支付一定数量的积分"
     },
     "FUN": {
-      "8BALL": "Ask the 8 ball a question and it will answer you wisely",
-      "CHUCKNORRIS": "Send a Chuck Norris meme to the current channel",
-      "DRAKE": "Send a Drake meme to the current channel",
-      "JOKE": "Send a random joke to the current channel",
-      "LOVE": "Send an image showing the love you have with another user to the current channel",
-      "MEME": "Send a random meme to the current channel",
-      "OWOIFY": "Convert text to owo"
+      "8BALL": "问8号球一个问题，它将明智地回答你",
+      "CHUCKNORRIS": "发送一个查克-诺里斯的备忘录到当前频道",
+      "DRAKE": "发送一个德雷克的备忘录到当前频道",
+      "JOKE": "向当前频道发送一个随机笑话",
+      "LOVE": "将显示你与另一用户的爱情的图片发送到当前频道",
+      "MEME": "发送一个随机的备忘录到当前频道",
+      "OWOIFY": "将文本转换为乌有"
     },
     "GAME_STATISTICS": {
-      "CSGO": "Watch the statistics of a CSGO player",
-      "FORTNITE": "Watch the statistics of a Fortnite player",
-      "OSU": "Watch the statistics of a osu! player",
-      "R6S": "Watch the statistics of a R6S player"
+      "CSGO": "观看 CSGO 玩家的统计数据",
+      "FORTNITE": "观看 Fortnite 玩家的统计数据",
+      "OSU": "观看 osu! 球员的统计数据",
+      "R6S": "观看一名 R6S 球员的统计数据"
     },
     "GAMES": {
-      "COINFLIP": "Classic coin flip game"
+      "COINFLIP": "经典的硬币翻转游戏"
     },
     "MISCELLANEOUS": {
-      "ASCII": "Convert your text to ASCII text",
-      "AVATAR": "Show your avatar or that of a user",
-      "FORTNITE-STORE": "Get a random item from the Fortnite store",
-      "LYRICS": "Get the lyrics of a song",
-      "MINECRAFT": "Minecraft utility commands",
-      "POLL": "Create a poll on the current channel",
+      "ASCII": "将文本转换为 ASCII 文本",
+      "AVATAR": "显示你的头像或用户的头像",
+      "FORTNITE-STORE": "从 Fortnite 商店获得一个随机物品",
+      "LYRICS": "获取歌曲的歌词",
+      "MINECRAFT": "Minecraft 实用程序命令",
+      "POLL": "在当前频道上创建一个投票",
       "RANDOM-COLOR": "获取一个随机颜色的基本信息",
       "RANDOM-NUMBER": "获得一个随机数",
-      "SAY": "Send a message using Filo",
+      "SAY": "使用 Filo 发送信息",
       "WEATHER": "获取某地的天气"
     },
     "MODERATION": {
@@ -158,9 +158,9 @@
       "ANTI-REPEATED-TEXT": "允许你制裁在信息中重复发送文本的用户的模块",
       "ANTI-SPAM": "允许你避免用户发送垃圾邮件的模块",
       "AUTO-MODERATION": "允许你自动制裁有一定数量警告的用户的模块",
-      "COMMANDS": "Manage Filo's commands by enabling or disabling them",
+      "COMMANDS": "启用或禁用 Filo 命令，对其进行管理",
       "FAREWELLS": "允许你向老会员发送告别信息的模块",
-      "LANGUAGE": "Module that allows you to set the Filo's Language",
+      "LANGUAGE": "可设置 Filo 语言的模块",
       "LOGGING": "允许将服务器的日志发送到一个频道的模块",
       "MEMBER-COUNTER": "允许将一个通道配置为服务器成员计数器的模块",
       "REPORTS": "允许用户向服务器版主报告不良行为的模块",
@@ -175,12 +175,12 @@
       "SHORTEN": "缩短URL"
     }
   },
-  "REQUIRED_FILO_PERMISSIONS": "Required Filo permissions",
-  "REQUIRED_USER_PERMISSIONS": "Required user permissions",
-  "ALTERNATIVE_USER_PERMISSIONS": "Alternative user permissions",
-  "NO_PERMISSIONS_ARE_NEEDED": "No permissions are needed.",
-  "COMMAND_RESTRICTIONS": "Command restrictions",
-  "ONLY_IN_A_SERVER": "This command can only be executed on a server.",
-  "REQUIRED_FLAG": "Required flag",
-  "COMMAND_USAGE": "Command usage"
+  "REQUIRED_FILO_PERMISSIONS": "所需的 Filo 权限",
+  "REQUIRED_USER_PERMISSIONS": "所需的用户权限",
+  "ALTERNATIVE_USER_PERMISSIONS": "替代的用户权限",
+  "NO_PERMISSIONS_ARE_NEEDED": "不需要任何权限。",
+  "COMMAND_RESTRICTIONS": "命令限制",
+  "ONLY_IN_A_SERVER": "这个命令只能在服务器上执行。",
+  "REQUIRED_FLAG": "所需的旗帜",
+  "COMMAND_USAGE": "命令的使用"
 }
