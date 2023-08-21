@@ -1,24 +1,24 @@
 {
-  "description": "Minecraft utility commands.",
+  "description": "Minecraft 实用程序命令。",
   "subcommand_groups": {
     "front": {
-      "description": "Send a render of the specified player's front.",
+      "description": "发送指定球员前面的渲染。",
       "subcommands": {
         "body": {
-          "description": "Send a render of the specified player's front body.",
+          "description": "发送指定球员的正面身体的渲染。",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "玩家",
+              "description": "Minecraft 玩家。"
             }
           }
         },
         "normal": {
-          "description": "Send a render of the specified player's front.",
+          "description": "发送指定球员前面的渲染。",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "玩家",
+              "description": "Minecraft 玩家。"
             }
           }
         }
@@ -27,69 +27,69 @@
   },
   "subcommands": {
     "body": {
-      "description": "Send a render of the specified player's body.",
+      "description": "发送指定球员身体的渲染。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "玩家",
+          "description": "Minecraft 玩家。"
         }
       }
     },
     "bust": {
-      "description": "Send a render of the specified player's bust.",
+      "description": "发送指定球员的半身像的渲染。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "玩家",
+          "description": "Minecraft 玩家。"
         }
       }
     },
     "face": {
-      "description": "Send a render of the specified player's face.",
+      "description": "发送指定玩家的面部渲染图。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "玩家",
+          "description": "Minecraft 玩家。"
         }
       }
     },
     "head": {
-      "description": "Send a render of the specified player's head.",
+      "description": "发送指定球员头部的渲染图。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "玩家",
+          "description": "Minecraft 玩家。"
         }
       }
     },
     "skin": {
-      "description": "Send a render of the specified player's skin.",
+      "description": "发送指定玩家皮肤的渲染。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "玩家",
+          "description": "Minecraft 玩家。"
         }
       }
     },
     "uuid": {
-      "description": "Get the UUID of a minecraft player.",
+      "description": "获取一个 minecraft 玩家的UUID。",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "玩家",
+          "description": "Minecraft 玩家。"
         }
       }
     },
     "server": {
-      "description": "Get the status of a Minecraft server.",
+      "description": "获取 Minecraft 服务器的状态。",
       "arguments": {
         "ip-address": {
           "name": "ip-address",
-          "description": "Minecraft server IP address."
+          "description": "Minecraft 服务器 IP 地址。"
         },
         "port": {
-          "name": "port",
-          "description": "Minecraft server port."
+          "name": "港口",
+          "description": "Minecraft 服务器端口。"
         }
       }
     }
