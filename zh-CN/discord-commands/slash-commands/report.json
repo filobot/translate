@@ -1,37 +1,37 @@
 {
-  "description": "Report bad behavior to a server moderator.",
+  "description": "向服务器版主报告不良行为。",
   "subcommands": {
     "member": {
-      "description": "Report a member.",
+      "description": "举报一个成员。",
       "arguments": {
         "member": {
-          "name": "member",
-          "description": "Member you want to report."
+          "name": "会员",
+          "description": "你要报告的成员。"
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason why you want to report this member."
+          "name": "原因",
+          "description": "你想举报该成员的原因。"
         },
         "evidences": {
-          "name": "evidences",
-          "description": "Evidences that support the reason you are reporting this member."
+          "name": "证据",
+          "description": "支持你举报该成员的理由的证据。"
         }
       }
     },
     "message": {
-      "description": "Report a message.",
+      "description": "报告一个消息。",
       "arguments": {
         "message": {
-          "name": "message",
-          "description": "Message you want to report."
+          "name": "信息",
+          "description": "你想报告的信息。"
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason why you want to report this message."
+          "name": "原因",
+          "description": "你想报告此信息的原因。"
         },
         "evidences": {
-          "name": "evidences",
-          "description": "Evidences that support the reason you are reporting this message."
+          "name": "证据",
+          "description": "支持你报告此信息的原因的证据。"
         }
       }
     }
