@@ -1,149 +1,149 @@
 {
-  "description": "Commands from the Core category.",
+  "description": "核心类别的命令。",
   "subcommands": {
     "info": {
-      "description": "Get information about the bot."
+      "description": "获取关于机器人的信息。"
     },
     "flags": {
-      "description": "Show your flags or that of another specific user.",
+      "description": "显示你的旗帜或其他特定用户的旗帜。",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "Show the flags of the user."
+          "name": "用户",
+          "description": "显示用户的旗帜。"
         }
       }
     },
     "donate": {
-      "description": "Get information about donations for the bot."
+      "description": "获取有关为机器人捐款的信息。"
     },
     "commands": {
-      "description": "Get the list of bot commands or information about a command.",
+      "description": "获取机器人命令的列表或关于某个命令的信息。",
       "arguments": {
         "command": {
-          "name": "command",
-          "description": "Get information from a command."
+          "name": "指挥部",
+          "description": "从一个命令中获取信息。"
         }
       }
     },
     "invite": {
-      "description": "Get the recommended Filo's invite link."
+      "description": "获取推荐的 Filo 邀请链接。"
     },
     "privacy": {
-      "description": "Get the link to Filo's Privacy Policy."
+      "description": "获取 Filo 隐私政策的链接。"
     },
     "terms": {
-      "description": "Get the link to Filo's Terms of Conditions."
+      "description": "获取 Filo 条款的链接。"
     },
     "twitter": {
-      "description": "Get the link to Filo's Twitter."
+      "description": "获取 Filo Twitter 的链接。"
     },
     "status": {
-      "description": "Get the link to Filo's Status page."
+      "description": "获取 Filo 状态页面的链接。"
     },
     "website": {
-      "description": "Get the link to Filo's Website."
+      "description": "获取 Filo 网站的链接。"
     },
     "github": {
-      "description": "Get the link to Filo's GitHub."
+      "description": "获取 Filo GitHub 的链接。"
     },
     "discord": {
-      "description": "Get the link to Filo's Discord Server."
+      "description": "获取 Filo Discord 服务器的链接。"
     },
     "wiki": {
-      "description": "Get the link to Filo's Wiki."
+      "description": "获取 Filo 维基链接。"
     },
     "help": {
-      "description": "Get basic help on the bot."
+      "description": "获得机器人的基本帮助。"
     },
     "support": {
-      "description": "Get information on how to receive support."
+      "description": "获取有关如何获得支持的信息。"
     },
     "vote": {
-      "description": "Get the link to Filo's voting pages."
+      "description": "获取 Filo 投票页面的链接。"
     },
     "votes": {
-      "description": "Get the vote counter of all Filo's voting pages."
+      "description": "获取所有 Filo 投票页面的投票计数器。"
     },
     "cluster": {
-      "description": "Get information about the current Filo's cluster."
+      "description": "获取当前 Filo 集群的信息。"
     },
     "statistics": {
-      "description": "Get Filo's global stats."
+      "description": "获取 Filo 的全球统计数据。"
     },
     "ping": {
-      "description": "Get the latency from Filo and from the Discord API."
+      "description": "从 Filo 和 Discord API 获取延迟。"
     }
   },
   "subcommand_groups": {
     "roles": {
-      "description": "Manage roles in an advanced way.",
+      "description": "以先进的方式管理角色。",
       "subcommands": {
         "muted": {
-          "description": "Create or set the Muted role in the settings.",
+          "description": "在设置中创建或设置静音角色。",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Muted role (in case you want to set it and not create it)."
+              "name": "作用",
+              "description": "缄默的角色（万一你想设置它而不创建它）。"
             }
           }
         },
         "remove": {
-          "description": "Remove all the parameters of a role from the settings.",
+          "description": "从设置中删除一个角色的所有参数。",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Role to which you want to remove all the parameters (properties and permissions)."
+              "name": "作用",
+              "description": "你想删除所有参数（属性和权限）的角色。"
             }
           }
         },
         "permissions": {
-          "description": "Manage the permissions of each role.",
+          "description": "管理每个角色的权限。",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Role you want to manage."
+              "name": "作用",
+              "description": "你想管理的角色。"
             },
             "permission": {
-              "name": "permission",
-              "description": "Permission that you want to add, set, or remove."
+              "name": "准许",
+              "description": "要添加、设置或删除的权限。"
             }
           }
         },
         "view": {
-          "description": "Get the settings of the guild roles."
+          "description": "获取公会角色的设置。"
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "将模块设置恢复到原始设置（数据不能恢复）。",
           "arguments": {
             "confirmation": {
-              "name": "confirmation",
-              "description": "Are you really sure you want to reset the data for this module?"
+              "name": "确认",
+              "description": "您真的确定要重置该模块的数据吗？"
             }
           }
         }
       }
     },
     "moderation": {
-      "description": "Manage the moderation section.",
+      "description": "负责管理审核部分。",
       "subcommands": {
         "dm-notifications": {
-          "description": "Enable or disable notifications for moderation actions.",
+          "description": "启用或停用审核行动的通知。",
           "arguments": {
             "action": {
-              "name": "action",
-              "description": "Action you want to carry out."
+              "name": "行动",
+              "description": "你想进行的行动。"
             }
           }
         },
         "view": {
-          "description": "View the settings of the moderation parameters module."
+          "description": "查看调控参数模块的设置。"
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "将模块设置恢复到原始设置（数据不能恢复）。",
           "arguments": {
             "confirmation": {
-              "name": "confirmation",
-              "description": "Are you really sure you want to reset the data for this module?"
+              "name": "确认",
+              "description": "您真的确定要重置该模块的数据吗？"
             }
           }
         }
