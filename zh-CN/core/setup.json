@@ -211,12 +211,12 @@
     },
     "VIEW": {
       "TITLE": "查看 **{{module}}** 模块的设置",
-      "NO_DATA": "No data",
-      "SELECT_THE_DATA": "Select the data to view",
-      "VIEW_ALL": "View all {{data}}.",
-      "DM_STATUS": "DM status",
+      "NO_DATA": "没有数据",
+      "SELECT_THE_DATA": "选择要查看的数据",
+      "VIEW_ALL": "查看所有 {{data}}.",
+      "DM_STATUS": "DM 状态",
       "COOLDOWN": "暂停时间",
-      "EXCEPTIONS": "{{type}} exceptions",
+      "EXCEPTIONS": "{{type}} 例外情况",
       "COMMUNITY": {
         "COMMANDS": {
           "DISABLED_COMMANDS": "禁用的命令",
@@ -226,22 +226,22 @@
           "LANGUAGE_CODE": "语言代码"
         },
         "REPORTS": {
-          "REPORTS_CHANNEL": "Reports channel",
-          "IGNORED_ROLE": "Ignored role",
-          "DELETE_REVIEWED_REPORTS": "Delete reviewed reports",
-          "NOTIFICATION_ROLES": "Notification roles",
+          "REPORTS_CHANNEL": "报告渠道",
+          "IGNORED_ROLE": "被忽视的角色",
+          "DELETE_REVIEWED_REPORTS": "删除已审查的报告",
+          "NOTIFICATION_ROLES": "通知的作用",
           "REASON_PARAMETERS": {
-            "TITLE": "Reason parameters",
-            "MIN_LENGTH_OF_MEMBER_REASON": "Minimum length of member reason",
-            "MAX_LENGTH_OF_MEMBER_REASON": "Maximum length of member reason",
-            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Clean markdown of member reason",
-            "MIN_LENGTH_OF_REVIEWER_REASON": "Minimum length of reviewer reason",
-            "MAX_LENGTH_OF_REVIEWER_REASON": "Maximum length of reviewer reason",
-            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Clean markdown of reviewer reason"
+            "TITLE": "原因参数",
+            "MIN_LENGTH_OF_MEMBER_REASON": "成员理由的最小长度",
+            "MAX_LENGTH_OF_MEMBER_REASON": "成员理由的最大长度",
+            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "会员理由的清洁标记",
+            "MIN_LENGTH_OF_REVIEWER_REASON": "评审员理由的最小长度",
+            "MAX_LENGTH_OF_REVIEWER_REASON": "评审员理由的最大长度",
+            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "审查员理由的清洁标记"
           },
           "EVIDENCES_PARAMETERS": {
-            "TITLE": "Evidences parameters",
-            "MIN_COUNT": "Minimum count of evidences"
+            "TITLE": "证据参数",
+            "MIN_COUNT": "证据的最低数量"
           }
         }
       }
