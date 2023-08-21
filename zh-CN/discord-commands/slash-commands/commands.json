@@ -34,11 +34,11 @@
       "description": "View the settings of the disable commands module."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }
