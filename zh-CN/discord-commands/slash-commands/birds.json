@@ -1,8 +1,8 @@
 {
-  "description": "Send a image of birds to the channel.",
+  "description": "向频道发送鸟类的图像。",
   "subcommands": {
     "random": {
-      "description": "Send a random image of a bird."
+      "description": "随机发送一张鸟的图片。"
     }
   }
 }
