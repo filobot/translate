@@ -1,66 +1,66 @@
 {
-  "description": "Welcome module that allows you to send a message to new members and assign them a role.",
+  "description": "欢迎模块，允许你向新成员发送消息，并为他们分配一个角色。",
   "subcommands": {
     "enable": {
-      "description": "Enable the welcomes module.",
+      "description": "启用欢迎模块。",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "模块",
+          "description": "你想启用的模块。"
         }
       }
     },
     "disable": {
-      "description": "Disable the welcomes module.",
+      "description": "禁用欢迎模块。",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "模块",
+          "description": "你想禁用的模块。"
         }
       }
     },
     "channel": {
-      "description": "Set the channel where the welcome messages will be sent.",
+      "description": "设置发送欢迎信息的通道。",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where welcome messages will be sent."
+          "name": "渠道",
+          "description": "将发送欢迎信息的渠道。"
         }
       }
     },
     "message": {
-      "description": "Set the welcome message."
+      "description": "设置欢迎词。"
     },
     "type": {
-      "description": "Set the way in which the welcome message will be sent.",
+      "description": "设置欢迎信息的发送方式。",
       "arguments": {
         "type": {
-          "name": "type",
-          "description": "Way in which the welcome message will be sent."
+          "name": "类型",
+          "description": "发送欢迎信息的方式。"
         }
       }
     },
     "role": {
-      "description": "Set the role you want to grant to the new members.",
+      "description": "设置你想授予新成员的角色。",
       "arguments": {
         "role": {
-          "name": "role",
-          "description": "Role that you want to grant to new members."
+          "name": "作用",
+          "description": "你想授予新成员的角色。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the welcomes module documentation."
+      "description": "获取欢迎模块文档的链接。"
     },
     "view": {
-      "description": "View the settings of the welcomes module."
+      "description": "查看欢迎模块的设置。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }
