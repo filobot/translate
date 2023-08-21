@@ -1,68 +1,68 @@
 {
-  "description": "React to other users using gifs.",
+  "description": "使用 gif 与其他用户互动。",
   "subcommands": {
     "angry": {
-      "description": "Send an angry reaction."
+      "description": "发送一个愤怒的反应。"
     },
     "blush": {
-      "description": "Send an blush reaction."
+      "description": "发出脸红的反应。"
     },
     "bored": {
-      "description": "Send an bored reaction."
+      "description": "发送一个无聊的反应。"
     },
     "cold": {
-      "description": "Send an cold reaction."
+      "description": "发出冷淡的反应。"
     },
     "confused": {
-      "description": "Send an confused reaction."
+      "description": "发送混乱的反应。"
     },
     "cry": {
-      "description": "Send an cry reaction."
+      "description": "发送哭诉反应。"
     },
     "dance": {
-      "description": "Send an dance reaction."
+      "description": "发送一个舞蹈反应。"
     },
     "eyebrows": {
-      "description": "Send an eyebrows reaction."
+      "description": "发送眉毛的反应。"
     },
     "greet": {
-      "description": "Send an greet reaction."
+      "description": "发送问候反应。"
     },
     "happy": {
-      "description": "Send an happy reaction."
+      "description": "发出一个快乐的反应。"
     },
     "hot": {
-      "description": "Send an hot reaction."
+      "description": "发送热反应。"
     },
     "like": {
-      "description": "Send an like reaction."
+      "description": "发送喜欢的反应。"
     },
     "pout": {
-      "description": "Send an pout reaction."
+      "description": "发送噘嘴的反应。"
     },
     "run": {
-      "description": "Send an run reaction."
+      "description": "发送一个运行反应。"
     },
     "scared": {
-      "description": "Send an scared reaction."
+      "description": "发送害怕的反应。"
     },
     "sick": {
-      "description": "Send an sick reaction."
+      "description": "发送病态反应。"
     },
     "sing": {
-      "description": "Send an sing reaction."
+      "description": "发出唱反调。"
     },
     "sleep": {
-      "description": "Send an sleep reaction."
+      "description": "发送一个睡眠反应。"
     },
     "smug": {
-      "description": "Send an smug reaction."
+      "description": "发送一个自鸣得意的反应。"
     },
     "teehee": {
-      "description": "Send an teehee reaction."
+      "description": "发出一个提神的反应。"
     },
     "think": {
-      "description": "Send an think reaction."
+      "description": "发送思考反应。"
     }
   }
 }
