@@ -2,11 +2,11 @@
   "description": "Warn a user from the server.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "用户",
       "description": "User you want to warn."
     },
     "reason": {
-      "name": "reason",
+      "name": "原因",
       "description": "Reason for warning this user."
     },
     "silent": {
