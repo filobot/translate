@@ -1,13 +1,13 @@
 {
-  "description": "Start an activity on a voice channel.",
+  "description": "在一个语音频道上开始一个活动。",
   "arguments": {
     "activity": {
-      "name": "activity",
-      "description": "Activity you want to start."
+      "name": "活动",
+      "description": "你想开始的活动。"
     },
     "channel": {
-      "name": "channel",
-      "description": "Voice channel where you want to start the activity."
+      "name": "渠道",
+      "description": "你想开始活动的语音频道。"
     }
   }
 }
