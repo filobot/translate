@@ -1,9 +1,9 @@
 {
-  "description": "Show your profile or the profile of another user.",
+  "description": "显示你的个人资料或其他用户的个人资料。",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to get the profile for."
+      "name": "用户",
+      "description": "你想得到的用户资料。"
     }
   }
 }
