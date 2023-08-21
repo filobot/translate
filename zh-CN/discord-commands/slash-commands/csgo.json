@@ -1,9 +1,9 @@
 {
-  "description": "Get the statistics of a CSGO player.",
+  "description": "获取一个 CSGO 玩家的统计数据。",
   "arguments": {
     "player": {
-      "name": "player",
-      "description": "In Game Nick of the player."
+      "name": "玩家",
+      "description": "在游戏中玩家的尼克。"
     }
   }
 }
