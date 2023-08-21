@@ -38,179 +38,179 @@
     "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
     "DM_STATUS": {
       "LABEL": "Toggle the status of DMs",
-      "DESCRIPTION": "Change the status of notifications by DM.",
-      "DM_STATUS_TOGGLED": "You have successfully **{{action}}** the DM notifications for the **{{module}}** module."
+      "DESCRIPTION": "通过 DM 更改通知状态。",
+      "DM_STATUS_TOGGLED": "您已成功 **{{action}}** 了 **{{module}}** 模块的 DM 通知。"
     },
     "EXCEPTIONS": {
       "ADD": {
-        "LABEL": "Add {{type}}",
-        "DESCRIPTION": "Add {{type}} to the module's exception list.",
-        "COMPLETED": "You have successfully added the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully added **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "添加 {{type}}",
+        "DESCRIPTION": "将 {{type}} 到模块的例外列表中。",
+        "COMPLETED": "你已经成功地将 {{value}} {{type}} 到模块的例外列表中。",
+        "COMPLETED_ALTERNATIVE": "您已成功将 **{{number}}** {{type}} 添加到模块的异常列表中。"
       },
       "SET": {
-        "LABEL": "Set the {{type}}",
-        "DESCRIPTION": "Set the {{type}} list to the module's exception list.",
-        "COMPLETED": "You have successfully set the {{value}} {{type}} to the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully set **{{number}}** {{type}} to the module's exception list."
+        "LABEL": "设置 {{type}}",
+        "DESCRIPTION": "将 {{type}} 列表设置为模块的异常列表。",
+        "COMPLETED": "你已经成功地将 {{value}} {{type}} 到模块的例外列表。",
+        "COMPLETED_ALTERNATIVE": "您已成功将 **{{number}}** {{type}} 设置为模块的异常列表。"
       },
       "REMOVE": {
-        "LABEL": "Remove {{type}}",
-        "DESCRIPTION": "Remove {{type}} from the module's exception list.",
-        "COMPLETED": "You have successfully removed the {{value}} {{type}} from the module's exception list.",
-        "COMPLETED_ALTERNATIVE": "You have successfully removed **{{number}}** {{type}} from the module's exception list.",
-        "NO_DATA_TO_REMOVE": "There are no {{value}} available to remove from the module's exception list."
+        "LABEL": "删除 {{type}}",
+        "DESCRIPTION": "从模块的异常列表中删除 {{type}}。",
+        "COMPLETED": "你已经成功地从模块的例外列表中删除了 {{value}} {{type}}。",
+        "COMPLETED_ALTERNATIVE": "您已成功将 **{{number}}** {{type}} 从模块的异常列表中删除。",
+        "NO_DATA_TO_REMOVE": "{{value}}，无法从模块的异常列表中删除。"
       }
     },
     "COMMUNITY": {
-      "NAME": "Community",
+      "NAME": "社区",
       "COMMANDS": {
         "LABEL": "命令",
-        "DESCRIPTION": "Change the behavior of Filo's commands.",
+        "DESCRIPTION": "更改 Filo 命令的行为。",
         "CONFIGURE": {
-          "SELECT_THE_COMMANDS": "You must select the commands you want to {{action}}.",
-          "SELECT_THE_CATEGORIES": "You must select the categories you want to {{action}}.",
-          "SELECT_THE_COMMANDS_PLACEHOLDER": "Select the commands",
-          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Select the categories",
+          "SELECT_THE_COMMANDS": "你必须选择你想要的命令，{{action}}。",
+          "SELECT_THE_CATEGORIES": "你必须选择你想要的类别 {{action}}。",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "选择命令",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "选择类别",
           "DISABLE_COMMANDS": {
-            "LABEL": "Disable commands",
-            "DESCRIPTION": "Disable Filo's commands.",
-            "NO_COMMANDS_TO_DISABLE": "All available commands have been disabled.",
-            "COMMANDS_DISABLED": "You have disabled **{{commands}}** commands successfully."
+            "LABEL": "禁用命令",
+            "DESCRIPTION": "禁用 Filo 命令。",
+            "NO_COMMANDS_TO_DISABLE": "所有可用命令均已禁用。",
+            "COMMANDS_DISABLED": "你已经成功地禁用了 **{{commands}}** 命令。"
           },
           "ENABLE_COMMANDS": {
-            "LABEL": "Enable commands",
-            "DESCRIPTION": "Enable Filo's commands.",
-            "NO_COMMANDS_TO_ENABLE": "All available commands are currently enabled.",
-            "COMMANDS_ENABLED": "You have enabled **{{commands}}** commands successfully."
+            "LABEL": "启用命令",
+            "DESCRIPTION": "启用 Filo 命令。",
+            "NO_COMMANDS_TO_ENABLE": "所有可用的命令目前都已启用。",
+            "COMMANDS_ENABLED": "你已经成功启用了 **{{commands}}** 命令。"
           },
           "DISABLE_CATEGORIES": {
-            "LABEL": "Disable categories",
-            "DESCRIPTION": "Disable Filo's categories.",
-            "NO_CATEGORIES_TO_DISABLE": "All available categories have been disabled.",
-            "CATEGORIES_DISABLED": "You have disabled **{{categories}}** categories successfully."
+            "LABEL": "禁用类别",
+            "DESCRIPTION": "禁用 Filo 的类别。",
+            "NO_CATEGORIES_TO_DISABLE": "所有可用类别均已禁用。",
+            "CATEGORIES_DISABLED": "您已成功禁用 **{{categories}}** 类别。"
           },
           "ENABLE_CATEGORIES": {
-            "LABEL": "Enable categories",
-            "DESCRIPTION": "Enable Filo's categories.",
-            "NO_CATEGORIES_TO_ENABLE": "All available categories are currently enabled.",
-            "CATEGORIES_ENABLED": "You have enabled **{{categories}}** categories successfully."
+            "LABEL": "启用类别",
+            "DESCRIPTION": "启用 Filo 的类别。",
+            "NO_CATEGORIES_TO_ENABLE": "目前已启用所有可用类别。",
+            "CATEGORIES_ENABLED": "您已成功启用 **{{categories}}** 类别。"
           }
         }
       },
       "LANGUAGE": {
-        "LABEL": "Language",
-        "DESCRIPTION": "Change the language of Filo on this server.",
-        "SELECT_A_LANGUAGE": "You must select the language you want to set.",
-        "SELECT_A_LANGUAGE_PLACEHOLDER": "Select a language",
-        "LANGUAGE_SET": "You have set the **{{language}}** language successfully."
+        "LABEL": "语言",
+        "DESCRIPTION": "在本服务器上更改 Filo 的语言。",
+        "SELECT_A_LANGUAGE": "你必须选择你想设置的语言。",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "选择一种语言",
+        "LANGUAGE_SET": "您已成功设置 **{{language}}** 语言。"
       },
       "REPORTS": {
-        "LABEL": "Reports",
-        "DESCRIPTION": "Provide reporting tools to your server members.",
+        "LABEL": "报告",
+        "DESCRIPTION": "为你的服务器成员提供报告工具。",
         "SUBMODULES_SELECTOR": {
-          "MEMBERS": "Change the behavior of the member reporting module.",
-          "MESSAGES": "Change the behavior of the message reporting module."
+          "MEMBERS": "改变会员报告模块的行为。",
+          "MESSAGES": "改变消息报告模块的行为。"
         },
         "CONFIGURE": {
           "REPORTS_CHANNEL": {
-            "LABEL": "Set the reports channel",
-            "DESCRIPTION": "Set where you want the reports to be sent."
+            "LABEL": "设置报告通道",
+            "DESCRIPTION": "设置你希望报告的发送地点。"
           },
           "IGNORED_ROLE": {
-            "LABEL": "Set the ignored role",
-            "DESCRIPTION": "Set a role whose members can't send reports.",
-            "IGNORED_ROLE_SET": "You have set the **{{role.mention}}** ({{role.id}}) role as the ignored role successfully."
+            "LABEL": "设置被忽略的角色",
+            "DESCRIPTION": "设置一个角色，其成员不能发送报告。",
+            "IGNORED_ROLE_SET": "您已成功将 **{{role.mention}}** ({{role.id}}) 角色设置为忽略角色。"
           },
           "TOGGLE_DELETE_REVIEWED_REPORTS": {
-            "LABEL": "Toggle the deletion of reviewed reports",
-            "DESCRIPTION": "Change the status of the deletion of reviewed reports.",
-            "DELETE_REVIEWED_REPORTS_TOGGLED": "You have successfully **{{action}}** the deletion of reviewed reports."
+            "LABEL": "切换删除已审查的报告",
+            "DESCRIPTION": "改变删除已审查报告的状态。",
+            "DELETE_REVIEWED_REPORTS_TOGGLED": "您已成功 **{{action}}** 删除已审核报告。"
           },
           "NOTIFICATION_ROLES": {
             "ADD": {
-              "LABEL": "Add notification roles",
-              "DESCRIPTION": "Add roles that will be notified when a report is sent.",
-              "COMPLETED": "You have added the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have added **{{number}}** roles as notification roles successfully."
+              "LABEL": "添加通知角色",
+              "DESCRIPTION": "添加报告发送时将被通知的角色。",
+              "COMPLETED": "您已成功添加 **{{role.mention}}** ({{role.id}}) 角色为通知角色。",
+              "COMPLETED_ALTERNATIVE": "您已成功将 **{{number}}** 角色添加为通知角色。"
             },
             "SET": {
-              "LABEL": "Set the notification roles",
-              "DESCRIPTION": "Set the roles that will be notified when a report is sent.",
-              "COMPLETED": "You have set the **{{role.mention}}** ({{role.id}}) role as the notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have set **{{number}}** roles as the notification roles successfully."
+              "LABEL": "设置通知角色",
+              "DESCRIPTION": "设置报告发送时将被通知的角色。",
+              "COMPLETED": "您已成功将 **{{role.mention}}** ({{role.id}}) 角色设置为通知角色。",
+              "COMPLETED_ALTERNATIVE": "您已成功将 **{{number}}** 角色设置为通知角色。"
             },
             "REMOVE": {
-              "LABEL": "Remove notification roles",
-              "DESCRIPTION": "Remove roles that will be notified when a report is sent.",
-              "COMPLETED": "You have removed the **{{role.mention}}** ({{role.id}}) role as a notification role successfully.",
-              "COMPLETED_ALTERNATIVE": "You have removed **{{number}}** roles as notification roles successfully.",
-              "NO_DATA_TO_REMOVE": "There are no notification roles available to remove."
+              "LABEL": "移除通知角色",
+              "DESCRIPTION": "删除发送报告时会收到通知的角色。",
+              "COMPLETED": "您已成功删除作为通知角色的 **{{role.mention}}** ({{role.id}}) 角色。",
+              "COMPLETED_ALTERNATIVE": "您已成功删除 **{{number}}** 作为通知角色的角色。",
+              "NO_DATA_TO_REMOVE": "没有可删除的通知角色。"
             }
           },
           "REASON": {
-            "LABEL": "Configure the reason parameters",
-            "DESCRIPTION": "Change the behavior of the reason field of the reports.",
+            "LABEL": "配置原因参数",
+            "DESCRIPTION": "改变报告的原因字段的行为。",
             "SET_MIN_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the minimum length of member reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the member reports.",
+              "LABEL": "设置成员理由的最小长度",
+              "DESCRIPTION": "设置成员报告的理由的最小长度。",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "最小理由长度"
               },
-              "COMPLETED": "You have successfully set the minimum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "您已成功将成员理由的最小长度设置为 **{{number}}** 字符。"
             },
             "SET_MAX_LENGTH_OF_MEMBER_REASON": {
-              "LABEL": "Set the maximum length of member reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the member reports.",
+              "LABEL": "设置成员理由的最大长度",
+              "DESCRIPTION": "设置成员报告理由的最大长度。",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "最大理由长度"
               },
-              "COMPLETED": "You have successfully set the maximum length of the members reason to **{{number}}** characters."
+              "COMPLETED": "您已成功将成员理由的最大长度设置为 **{{number}}** 个字符。"
             },
             "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of member reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the member reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the members reason."
+              "LABEL": "切换对成员理由的清理标记",
+              "DESCRIPTION": "改变成员报告的原因的清理标记的状态。",
+              "COMPLETED": "您已成功 **{{action}}** 清理了成员原因的标记。"
             },
             "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the minimum length of reviewer reason",
-              "DESCRIPTION": "Set the minimum length of the reason of the reviewer reports.",
+              "LABEL": "设置审查员理由的最小长度",
+              "DESCRIPTION": "设置审查员报告的理由的最小长度。",
               "FORM": {
-                "LABEL": "Minimum reason length"
+                "LABEL": "最小理由长度"
               },
-              "COMPLETED": "You have successfully set the minimum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "您已成功将审阅人理由的最小长度设置为 **{{number}}** 个字符。"
             },
             "SET_MAX_LENGTH_OF_REVIEWER_REASON": {
-              "LABEL": "Set the maximum length of reviewer reason",
-              "DESCRIPTION": "Set the maximum length of the reason of the reviewer reports.",
+              "LABEL": "设置审查员理由的最大长度",
+              "DESCRIPTION": "设置审阅人报告理由的最大长度。",
               "FORM": {
-                "LABEL": "Maximum reason length"
+                "LABEL": "最大理由长度"
               },
-              "COMPLETED": "You have successfully set the maximum length of the reviewers reason to **{{number}}** characters."
+              "COMPLETED": "您已成功将审阅人理由的最大长度设置为 **{{number}}** 个字符。"
             },
             "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
-              "LABEL": "Toggle the cleaning of the markdown of reviewer reason",
-              "DESCRIPTION": "Change the status of the cleaning of the markdown of the reason of the reviewer reports.",
-              "COMPLETED": "You have successfully **{{action}}** the cleaning of the markdown of the reviewers reason."
+              "LABEL": "切换对审查员原因的清理标记",
+              "DESCRIPTION": "改变审查员报告的原因的清理标记的状态。",
+              "COMPLETED": "您已成功 **{{action}}** 清理了审稿人理由的标记。"
             }
           },
           "EVIDENCES": {
-            "LABEL": "Configure the evidences parameters",
-            "DESCRIPTION": "Change the behavior of the evidences field of the reports.",
+            "LABEL": "配置证据参数",
+            "DESCRIPTION": "改变报告中证据领域的行为。",
             "SET_MIN_COUNT": {
-              "LABEL": "Set the minimum count of evidences",
-              "DESCRIPTION": "Set the minimum count of evidences that a report must have.",
+              "LABEL": "设定证据的最低数量",
+              "DESCRIPTION": "设定一份报告必须具备的最小证据数。",
               "FORM": {
-                "LABEL": "Minimum count"
+                "LABEL": "最小计数"
               },
-              "COMPLETED": "You have successfully set the minimum count of evidences to **{{number}}**."
+              "COMPLETED": "您已成功将证据的最低数量设置为 **{{number}}**。"
             }
           }
         }
       }
     },
     "VIEW": {
-      "TITLE": "Viewing the settings of the **{{module}}** module",
+      "TITLE": "查看 **{{module}}** 模块的设置",
       "NO_DATA": "No data",
       "SELECT_THE_DATA": "Select the data to view",
       "VIEW_ALL": "View all {{data}}.",
@@ -219,11 +219,11 @@
       "EXCEPTIONS": "{{type}} exceptions",
       "COMMUNITY": {
         "COMMANDS": {
-          "DISABLED_COMMANDS": "Disabled commands",
-          "DISABLED_CATEGORIES": "Disabled categories"
+          "DISABLED_COMMANDS": "禁用的命令",
+          "DISABLED_CATEGORIES": "残疾人类别"
         },
         "LANGUAGE": {
-          "LANGUAGE_CODE": "Language code"
+          "LANGUAGE_CODE": "语言代码"
         },
         "REPORTS": {
           "REPORTS_CHANNEL": "Reports channel",
