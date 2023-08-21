@@ -1,9 +1,9 @@
 {
-  "USER_REPORTED": "You have successfully reported **[{{user.tag}}]({{url}})** ({{user.id}}).",
-  "MESSAGE_REPORTED": "You have successfully reported the **[message]({{url}})** of **[{{user.tag}}**]({{url2}})** ({{user.id}}).",
-  "REPORT_APPROVED_OR_DENIED": "You have successfully **{{status}}** the report of {{user}}.",
+  "USER_REPORTED": "您已成功报告 **[{{user.tag}}]({{url}})** ({{user.id}}).",
+  "MESSAGE_REPORTED": "你已经成功报告了 **[{{user.tag}}**]({{url2}})** ({{user.id}}) 的 **[信息]({{url}})**。",
+  "REPORT_APPROVED_OR_DENIED": "您已成功 **{{status}}** {{user}} 的报告。",
   "REPORT_NOTIFICATION": {
-    "TITLE": "Your report has been {{status}} on the **{{guild.name}}** server!",
-    "DESCRIPTION": "You are receiving this notification because your report has been {{status}} on the **{{guild.name}}** server."
+    "TITLE": "您的报告已在 **{{guild.name}}** 服务器上 {{status}}！",
+    "DESCRIPTION": "您收到此通知是因为您的报告已在 **{{guild.name}}** 服务器上 {{status}}。"
   }
 }
