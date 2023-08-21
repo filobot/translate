@@ -36,8 +36,8 @@
     "TEMPORARILY_MUTED": "暂时静音",
     "UNMUTE": "撤消静音",
     "UNMUTED": "无声无息",
-    "TIMEOUT": "Timeout",
-    "UNTIMEOUT": "Untimeout"
+    "TIMEOUT": "超时",
+    "UNTIMEOUT": "超时"
   },
   "CASE_NUMBER": "案例 **#{{case.case}}**",
   "SANCTIONED_USER": "认可的用户",
