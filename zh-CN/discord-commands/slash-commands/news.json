@@ -1,25 +1,25 @@
 {
-  "description": "Follow or get information about our news channels.",
+  "description": "关注或获取有关我们新闻频道的信息。",
   "subcommands": {
     "information": {
-      "description": "Get information about our news channels.",
+      "description": "获取有关我们的新闻频道的信息。",
       "arguments": {
         "news": {
-          "name": "news",
-          "description": "News you want to get the information."
+          "name": "新闻",
+          "description": "你想获得的信息的新闻。"
         }
       }
     },
     "follow": {
-      "description": "Follow the news from our server on your server.",
+      "description": "在你的服务器上关注我们服务器上的新闻。",
       "arguments": {
         "news": {
-          "name": "news",
-          "description": "News channel you want to follow."
+          "name": "新闻",
+          "description": "你想关注的新闻频道。"
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel where you want the news to be sent."
+          "name": "渠道",
+          "description": "你想发送新闻的频道。"
         }
       }
     }
