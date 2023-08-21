@@ -1,12 +1,12 @@
 {
   "SERVER": {
-    "SERVER_OFFLINE": "The server you specified is offline.",
-    "IP_ADDRESS": "IP address",
-    "PORT": "Port",
-    "PLAYERS": "Players",
-    "VERSION": "Version"
+    "SERVER_OFFLINE": "你指定的服务器已经脱机。",
+    "IP_ADDRESS": "IP 地址",
+    "PORT": "港口",
+    "PLAYERS": "玩家",
+    "VERSION": "版本"
   },
   "UUID": {
-    "WATCHING_PLAYER_UUID": "The uuid of the player **{{player}}** is **{{uuid}}**."
+    "WATCHING_PLAYER_UUID": "玩家 **{{player}}** 的 uuid 为 **{{uuid}}**。"
   }
 }
