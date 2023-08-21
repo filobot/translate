@@ -1,21 +1,21 @@
 {
-  "description": "Encode binary or decode binary code.",
+  "description": "编码二进制或解码二进制代码。",
   "subcommands": {
     "encode": {
-      "description": "Convert the text to binary code.",
+      "description": "将文本转换为二进制代码。",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Text that you want to binary encode."
+          "name": "编码",
+          "description": "你想进行二进制编码的文本。"
         }
       }
     },
     "decode": {
-      "description": "Convert the binary code to text.",
+      "description": "将二进制代码转换为文本。",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Binary code that you want to decode."
+          "name": "编码",
+          "description": "你想解码的二进制代码。"
         }
       }
     }
