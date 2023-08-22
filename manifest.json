@@ -52,6 +52,7 @@
     "nativeName": "Català",
     "wikiCode": null,
     "discordCode": null,
+    "iso639": "ca",
     "flag": "🇪🇸",
     "default": false,
     "contributors": [
@@ -63,11 +64,24 @@
     "nativeName": "Français",
     "wikiCode": null,
     "discordCode": null,
+    "iso639": "fr",
     "flag": "🇫🇷",
     "default": false,
     "contributors": [
       "510524491126800405",
       "777947717024088106"
+    ]
+  },
+  {
+    "name": "zh-CN",
+    "nativeName": "中文",
+    "wikiCode": null,
+    "discordCode": "zh-CN",
+    "iso639": "zh",
+    "flag": "🇨🇳",
+    "default": false,
+    "contributors": [
+      "266103595949096960"
     ]
   }
 ]
