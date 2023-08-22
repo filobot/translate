@@ -1,9 +1,9 @@
 {
-  "description": "Send an image showing the love you have with another user to the channel.",
+  "description": "将显示你与另一用户的爱情的图片发送到该频道。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User with whom you want to create the image."
+      "description": "你想与之创建图像的用户。"
     }
   }
 }
