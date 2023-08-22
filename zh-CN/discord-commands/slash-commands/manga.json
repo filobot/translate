@@ -1,24 +1,24 @@
 {
-  "description": "Manga Utilities.",
+  "description": "漫画实用工具。",
   "subcommands": {
     "random": {
-      "description": "Show the information from a random manga according to the criteria you specify.",
+      "description": "根据你指定的标准，显示随机漫画的信息。",
       "arguments": {
         "term": {
           "name": "术语",
-          "description": "Term that must include the title of the manga."
+          "description": "术语，必须包括漫画的标题。"
         },
         "type": {
           "name": "类型",
-          "description": "Manga type."
+          "description": "漫画类型。"
         },
         "status": {
           "name": "身份",
-          "description": "Manga's status."
+          "description": "漫画的地位。"
         },
         "rating": {
           "name": "评级",
-          "description": "Manga's rating."
+          "description": "漫画的评级。"
         },
         "genre": {
           "name": "体裁",
@@ -27,11 +27,11 @@
       }
     },
     "search": {
-      "description": "Search the information of an manga.",
+      "description": "搜索漫画的信息。",
       "arguments": {
         "title": {
           "name": "职称",
-          "description": "Title of the manga."
+          "description": "漫画的标题。"
         }
       }
     }
