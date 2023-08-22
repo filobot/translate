@@ -1,21 +1,21 @@
 {
-  "description": "Temporarily mute a user from the server.",
+  "description": "暂时将一个用户从服务器上静音。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User you want to temporarily mute."
+      "description": "你想暂时静音的用户。"
     },
     "time": {
       "name": "时间",
-      "description": "Duration of the sanction."
+      "description": "制裁的期限。"
     },
     "reason": {
       "name": "原因",
-      "description": "Reason for temporarily muting this user."
+      "description": "暂时关闭该用户的原因。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
     }
   }
 }
