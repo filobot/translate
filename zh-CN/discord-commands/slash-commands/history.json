@@ -1,9 +1,9 @@
 {
-  "description": "Get a user's sanction history.",
+  "description": "获取一个用户的制裁历史。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User whose history you want to check."
+      "description": "你想检查其历史的用户。"
     }
   }
 }
