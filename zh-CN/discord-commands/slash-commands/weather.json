@@ -1,13 +1,13 @@
 {
-  "description": "Get the weather of a location.",
+  "description": "获取某地的天气。",
   "arguments": {
     "location": {
-      "name": "location",
-      "description": "Location where you want to get the weather."
+      "name": "地点",
+      "description": "你想获得天气的地点。"
     },
     "degree-type": {
-      "name": "degree-type",
-      "description": "Type of temperature degrees."
+      "name": "学位类型",
+      "description": "温度度数的类型。"
     }
   }
 }
