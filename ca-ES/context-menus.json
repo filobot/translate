@@ -38,10 +38,10 @@
       "UNWARN_THIS_USER_DESCRIPTION": "Desadverteix aquest usuari del servidor.",
       "WARN_THIS_USER_TITLE": "Advertir aquest usuari",
       "WARN_THIS_USER_DESCRIPTION": "Adverteix aquest usuari del servidor.",
-      "TIMEOUT_THIS_USER_TITLE": "Timeout this user",
-      "TIMEOUT_THIS_USER_DESCRIPTION": "Timeout this user from the server.",
-      "UNTIMEOUT_THIS_USER_TITLE": "Untimeout this user",
-      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Untimeout this user from the server."
+      "TIMEOUT_THIS_USER_TITLE": "Aïllar aquest usuari",
+      "TIMEOUT_THIS_USER_DESCRIPTION": "Aïllar aquest usuari del servidor.",
+      "UNTIMEOUT_THIS_USER_TITLE": "Des-aïllar aquest usuari",
+      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Des-aïllar aquest usuari del servidor."
     }
   }
 }
