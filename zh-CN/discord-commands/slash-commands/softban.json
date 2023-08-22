@@ -1,21 +1,21 @@
 {
-  "description": "Soft ban a user from the server.",
+  "description": "从服务器上软禁一个用户。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User you want to soft ban."
+      "description": "你想软禁的用户。"
     },
     "reason": {
       "name": "原因",
-      "description": "Reason for softbanning this user."
+      "description": "软禁该用户的原因。"
     },
     "message-history": {
-      "name": "message-history",
-      "description": "Specify if you want to delete the user's message history."
+      "name": "信息历史",
+      "description": "指定是否要删除用户的信息记录。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
     }
   }
 }
