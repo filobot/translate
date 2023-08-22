@@ -1,21 +1,21 @@
 {
-  "description": "Remove a warn from a user.",
+  "description": "从一个用户身上删除一个警告。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User you want to remove the warn from."
+      "description": "你想删除警告的用户。"
     },
     "reason": {
       "name": "原因",
-      "description": "Reason for removing the warn."
+      "description": "删除警告的原因。"
     },
     "case": {
-      "name": "case",
-      "description": "ID of the warn you want to remove."
+      "name": "案例",
+      "description": "你想删除的警告的ID。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
     }
   }
 }
