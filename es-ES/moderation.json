@@ -36,8 +36,8 @@
     "TEMPORARILY_MUTED": "Silenciado temporalmente",
     "UNMUTE": "Dessilenciar",
     "UNMUTED": "Dessilenciado",
-    "TIMEOUT": "Timeout",
-    "UNTIMEOUT": "Untimeout"
+    "TIMEOUT": "Aislado",
+    "UNTIMEOUT": "Desaislado"
   },
   "CASE_NUMBER": "Caso **#{{case.case}}**",
   "SANCTIONED_USER": "Usuario sancionado",

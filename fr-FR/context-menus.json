@@ -38,10 +38,10 @@
       "UNWARN_THIS_USER_DESCRIPTION": "Retirez un avertissement à cet utilisateur du serveur.",
       "WARN_THIS_USER_TITLE": "Avertir cet utilisateur",
       "WARN_THIS_USER_DESCRIPTION": "Avertissez cet utilisateur du serveur.",
-      "TIMEOUT_THIS_USER_TITLE": "Timeout this user",
-      "TIMEOUT_THIS_USER_DESCRIPTION": "Timeout this user from the server.",
-      "UNTIMEOUT_THIS_USER_TITLE": "Untimeout this user",
-      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Untimeout this user from the server."
+      "TIMEOUT_THIS_USER_TITLE": "Exclure temporairement cet utilisateur",
+      "TIMEOUT_THIS_USER_DESCRIPTION": "Excluez temporairement cet utilisateur du serveur.",
+      "UNTIMEOUT_THIS_USER_TITLE": "Arrêter d'exclure cet utilisateur",
+      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Arrêtez d'exclure cet utilisateur du serveur."
     }
   }
 }

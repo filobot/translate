@@ -36,8 +36,8 @@
     "TEMPORARILY_MUTED": "一時的にミュートされる",
     "UNMUTE": "アンミュート",
     "UNMUTED": "アンミュート",
-    "TIMEOUT": "Timeout",
-    "UNTIMEOUT": "Untimeout"
+    "TIMEOUT": "タイムアウト",
+    "UNTIMEOUT": "アンタイムアウト"
   },
   "CASE_NUMBER": "ケース **#{{case.case}}**",
   "SANCTIONED_USER": "サンクションユーザー",

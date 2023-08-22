@@ -1,17 +1,17 @@
 {
-  "description": "Permanently mute a user from the server.",
+  "description": "从服务器上永久地使一个用户静音。",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to mute."
+      "name": "用户",
+      "description": "你想要静音的用户。"
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for muting this user."
+      "name": "原因",
+      "description": "对该用户进行静音处理的原因。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
     }
   }
 }

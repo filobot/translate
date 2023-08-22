@@ -1,37 +1,37 @@
 {
-  "description": "Module that allows you to ban those users who try to evade an active sanction.",
+  "description": "该模块允许你禁止那些试图逃避主动制裁的用户。",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-evasion module."
+      "description": "启用防逃逸模块。"
     },
     "disable": {
-      "description": "Disable the anti-evasion module."
+      "description": "禁用防逃逸模块。"
     },
     "action": {
-      "description": "Set the action to take when someone tries to evade an active sanction.",
+      "description": "设置当有人试图逃避主动制裁时要采取的行动。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone tries to evade an active sanction."
+          "name": "行动",
+          "description": "当有人试图逃避主动制裁时应采取的行动。"
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "时间",
+          "description": "行动的时间（如果是临时性的）。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-evasion module documentation."
+      "description": "获取反规避模块文档的链接。"
     },
     "view": {
-      "description": "View the settings of the anti-evasion module."
+      "description": "查看防逃逸模块的设置。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }

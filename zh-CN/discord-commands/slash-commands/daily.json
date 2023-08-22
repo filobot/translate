@@ -1,9 +1,9 @@
 {
-  "description": "Claim your daily credits or gift them to a user.",
+  "description": "领取你的每日积分或将其赠送给用户。",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User to whom you want to give your daily credits."
+      "name": "用户",
+      "description": "你想把你的每日积分给谁的用户。"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
-  "description": "Send a meme to the channel.",
+  "description": "向该频道发送一个备忘录。",
   "subcommands": {
     "chuck-norris": {
-      "description": "Send a Chuck Norris meme."
+      "description": "发送一个查克-诺里斯的备忘录。"
     },
     "drake": {
-      "description": "Send a Drake meme."
+      "description": "发送一个德雷克的备忘录。"
     },
     "random": {
-      "description": "Send a random meme."
+      "description": "发送一个随机的备忘录。"
     }
   }
 }

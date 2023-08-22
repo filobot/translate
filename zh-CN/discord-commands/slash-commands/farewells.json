@@ -1,43 +1,43 @@
 {
-  "description": "Module that allows you to send a goodbye message to old members.",
+  "description": "允许你向老成员发送告别信息的模块。",
   "subcommands": {
     "enable": {
-      "description": "Enable the farewells module."
+      "description": "启用 \"告别 \"模块。"
     },
     "disable": {
-      "description": "Disable the farewells module."
+      "description": "禁用告别模块。"
     },
     "channel": {
-      "description": "Set the channel where the farewell messages will be sent.",
+      "description": "设置发送告别信息的通道。",
       "arguments": {
-        "name": "channel",
-        "description": "Channel where farewell messages will be sent."
+        "name": "渠道",
+        "description": "将发送告别信息的渠道。"
       }
     },
     "message": {
-      "description": "Set the farewell message."
+      "description": "设置告别信息。"
     },
     "type": {
-      "description": "Set the way in which the farewell message will be sent.",
+      "description": "设置告别信息的发送方式。",
       "arguments": {
         "type": {
-          "name": "type",
-          "description": "Way in which the welcome farewell will be sent."
+          "name": "类型",
+          "description": "将以何种方式发送欢迎告别。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the farewells module documentation."
+      "description": "获取告别模块文档的链接。"
     },
     "view": {
-      "description": "View the settings of the farewells module."
+      "description": "查看告别模块的设置。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }

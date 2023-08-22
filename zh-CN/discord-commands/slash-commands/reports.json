@@ -1,33 +1,33 @@
 {
-  "description": "Module that allows users to report bad behavior to the Moderators of the server.",
+  "description": "允许用户向服务器的版主报告不良行为的模块。",
   "subcommands": {
     "enable": {
-      "description": "Enable the reports module."
+      "description": "启用报告模块。"
     },
     "disable": {
-      "description": "Disable the reports module."
+      "description": "禁用报告模块。"
     },
     "channel": {
-      "description": "Set the channel where the reports will be sent.",
+      "description": "设置报告发送的通道。",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where you want the reports to be sent."
+          "name": "渠道",
+          "description": "你希望报告被发送的通道。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the reports module documentation."
+      "description": "获取报告模块文档的链接。"
     },
     "view": {
-      "description": "View the settings of the reports module."
+      "description": "查看报告模块的设置。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }

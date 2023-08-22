@@ -1,6 +1,6 @@
 {
-  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) doesn't have any sanction reflected in his history.",
-  "SELECT_A_CASE": "Select a case to view",
-  "VIEWING_USER_HISTORY": "Viewing **{{user.username}}**'s sanction history",
-  "SANCTION_REMOVED": "This sanction was removed in case #**{{case.case}}**."
+  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) 的历史记录中没有任何处罚记录。",
+  "SELECT_A_CASE": "选择一个案例来查看",
+  "VIEWING_USER_HISTORY": "查看 **{{user.username}}** 的处罚记录",
+  "SANCTION_REMOVED": "在 #**{{case.case}}** 案中，这一制裁被取消。"
 }

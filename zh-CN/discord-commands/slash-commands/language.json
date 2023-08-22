@@ -1,20 +1,20 @@
 {
-  "description": "Module that allows you to set the Filo's Language.",
+  "description": "可以设置 Filo 语言的模块。",
   "subcommands": {
     "select": {
-      "description": "Select the Filo's language you prefer (must be available)."
+      "description": "选择您喜欢的 Filo 语言（必须可用）。"
     },
     "docs": {
-      "description": "Get the link of the language module documentation."
+      "description": "获取语言模块文档的链接。"
     },
     "view": {
-      "description": "View the current language information."
+      "description": "查看当前的语言信息。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
-        "name": "confirmation",
-        "description": "Are you really sure you want to reset the data for this module?"
+        "name": "确认",
+        "description": "您真的确定要重置该模块的数据吗？"
       }
     }
   }

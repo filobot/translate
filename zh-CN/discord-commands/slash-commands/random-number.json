@@ -1,9 +1,9 @@
 {
-  "description": "Get a random number.",
+  "description": "获得一个随机数。",
   "arguments": {
     "number": {
-      "name": "number",
-      "description": "Number with which you want to multiply the random value."
+      "name": "数",
+      "description": "你想将随机值与之相乘的数字。"
     }
   }
 }

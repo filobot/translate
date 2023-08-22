@@ -1,45 +1,45 @@
 {
-  "description": "Create a poll on the current channel.",
+  "description": "在当前频道上创建一个投票。",
   "arguments": {
     "message": {
-      "name": "message",
-      "description": "Message to the poll."
+      "name": "信息",
+      "description": "给投票的信息。"
     },
     "choice-1": {
-      "name": "choice-1",
-      "description": "Choice 1 of the poll."
+      "name": "选择-1",
+      "description": "投票的选择 1。"
     },
     "choice-2": {
-      "name": "choice-2",
-      "description": "Choice 2 of the poll."
+      "name": "选择-2",
+      "description": "投票的选择 2。"
     },
     "choice-3": {
-      "name": "choice-3",
-      "description": "Choice 3 of the poll."
+      "name": "选择-3",
+      "description": "投票的选择 3。"
     },
     "choice-4": {
-      "name": "choice-4",
-      "description": "Choice 4 of the poll."
+      "name": "选择-4",
+      "description": "投票的选择 4。"
     },
     "choice-5": {
-      "name": "choice-5",
-      "description": "Choice 5 of the poll."
+      "name": "选择-5",
+      "description": "投票的选择 5。"
     },
     "choice-6": {
-      "name": "choice-6",
-      "description": "Choice 6 of the poll."
+      "name": "选择-6",
+      "description": "投票的选择 6。"
     },
     "choice-7": {
-      "name": "choice-7",
-      "description": "Choice 7 of the poll."
+      "name": "选择-7",
+      "description": "投票的选择 7。"
     },
     "choice-8": {
-      "name": "choice-8",
-      "description": "Choice 8 of the poll."
+      "name": "选择-8",
+      "description": "投票的选择 8。"
     },
     "choice-9": {
-      "name": "choice-9",
-      "description": "Choice 9 of the poll."
+      "name": "选择-9",
+      "description": "投票的选择 9。"
     }
   }
 }

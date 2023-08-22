@@ -1,22 +1,22 @@
 {
   "MANGA": "漫画",
-  "MANGAS": "Mangas",
-  "MANGA_TYPE": "Manga type",
+  "MANGAS": "芒格",
+  "MANGA_TYPE": "漫画类型",
   "MANGA_TYPES": {
     "MANGA": "漫画",
     "NOVEL": "小说",
-    "ONE_SHOT": "One-shot",
-    "DOUJINSHI": "Doujinshi",
-    "MANHWA": "Manhwa",
-    "MANHUA": "Manhua"
+    "ONE_SHOT": "单次拍摄",
+    "DOUJINSHI": "斗转星移",
+    "MANHWA": "曼瓦",
+    "MANHUA": "曼华"
   },
   "MANGA_STATUS": {
-    "PUBLISHING": "Currently publishing",
-    "FINISHED": "Finished publishing",
-    "NOT_YET_PUBLISHED": "Not yet published"
+    "PUBLISHING": "目前正在出版",
+    "FINISHED": "完成出版",
+    "NOT_YET_PUBLISHED": "尚未公布"
   },
-  "MANGA_VOLUMES": "Manga volumes",
-  "VOLUMES": "Volumes",
-  "CHAPTERS": "Chapters",
-  "PUBLISHED_DATE": "Published date"
+  "MANGA_VOLUMES": "漫画卷",
+  "VOLUMES": "卷数",
+  "CHAPTERS": "章节",
+  "PUBLISHED_DATE": "公布日期"
 }

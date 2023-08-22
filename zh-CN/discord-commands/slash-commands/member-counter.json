@@ -1,63 +1,63 @@
 {
-  "description": "Module that allows configuring a channel as a server member counter.",
+  "description": "允许将一个通道配置为一个服务器成员计数器的模块。",
   "subcommands": {
     "enable": {
-      "description": "Enable the member counter module.",
+      "description": "启用成员计数模块。",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "模块",
+          "description": "你想启用的模块。"
         }
       }
     },
     "disable": {
-      "description": "Disable the member counter module.",
+      "description": "禁用成员计数模块。",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "模块",
+          "description": "你想禁用的模块。"
         }
       }
     },
     "channel": {
-      "description": "Set the member counter channel.",
+      "description": "设置成员计数通道。",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel you want to set as the member counter channel."
+          "name": "渠道",
+          "description": "你想设置为成员计数通道的通道。"
         }
       }
     },
     "name": {
-      "description": "Set the name of the member counter channel.",
+      "description": "设置成员计数器通道的名称。",
       "arguments": {
         "name": {
-          "name": "name",
-          "description": "Name of the member counter channel."
+          "name": "名称",
+          "description": "成员计数通道的名称。"
         }
       }
     },
     "nickname": {
-      "description": "Set the nickname of the member counter nickname.",
+      "description": "设置会员计数器的昵称。",
       "arguments": {
         "nickname": {
-          "name": "nickname",
-          "description": "Nickname of the member counter nickname."
+          "name": "外号",
+          "description": "会员柜台昵称的昵称。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the member counter module documentation."
+      "description": "获取成员计数模块的文档链接。"
     },
     "view": {
-      "description": "View the settings of the member counter module."
+      "description": "查看会员计数器模块的设置。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }

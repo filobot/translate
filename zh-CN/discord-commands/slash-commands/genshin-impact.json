@@ -1,31 +1,31 @@
 {
-  "description": "Send a random Genshin Impact wallpaper.",
+  "description": "随机发送一张元神冲击墙纸。",
   "subcommands": {
     "desktop": {
-      "description": "Get a random desktop wallpaper."
+      "description": "获得一个随机的桌面壁纸。"
     },
     "mobile": {
-      "description": "Get a random mobile wallpaper."
+      "description": "获得一个随机的手机墙纸。"
     },
     "random": {
-      "description": "Get random wallpaper between desktop and mobile."
+      "description": "在桌面和手机之间获得随机壁纸。"
     }
   },
   "subcommand_groups": {
     "cards": {
-      "description": "Get a random card wallpaper.",
+      "description": "获得一个随机的卡片壁纸。",
       "subcommands": {
         "characters": {
-          "description": "Get a random character card."
+          "description": "获得一张随机的字符卡。"
         },
         "equipments": {
-          "description": "Get a random equipment card."
+          "description": "获得一张随机的装备卡。"
         },
         "events": {
-          "description": "Get a random event card."
+          "description": "获得一张随机事件卡。"
         },
         "supports": {
-          "description": "Get a random support card."
+          "description": "获得一个随机的支持卡。"
         }
       }
     }

@@ -1,11 +1,11 @@
 {
-  "description": "Send a random image of a neko.",
+  "description": "随机发送一张 neko 的图片。",
   "subcommands": {
     "blushing": {
-      "description": "Send a random image of a blushing neko."
+      "description": "随机发送一张脸红的霓虹灯图片。"
     },
     "random": {
-      "description": "Send a random image of a neko."
+      "description": "随机发送一张 neko 的图片。"
     }
   }
 }

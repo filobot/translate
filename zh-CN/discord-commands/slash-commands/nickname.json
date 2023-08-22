@@ -1,13 +1,13 @@
 {
-  "description": "Manage the nickname of a user.",
+  "description": "管理一个用户的昵称。",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User whose nickname you want to change."
+      "name": "用户",
+      "description": "你想改变其昵称的用户。"
     },
     "nickname": {
-      "name": "nickname",
-      "description": "Nickname that you want to set to the user."
+      "name": "外号",
+      "description": "你想给用户设置的昵称。"
     }
   }
 }

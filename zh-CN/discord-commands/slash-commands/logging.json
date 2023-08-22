@@ -1,42 +1,42 @@
 {
-  "description": "Module that allows to send the logs of the server to a channel.",
+  "description": "允许将服务器的日志发送到一个频道的模块。",
   "subcommands": {
     "enable": {
-      "description": "Enable the logging module."
+      "description": "启用日志模块。"
     },
     "disable": {
-      "description": "Disable the logging module."
+      "description": "禁用日志模块。"
     },
     "events": {
-      "description": "Manage the different events you want to show.",
+      "description": "管理你想显示的不同事件。",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enables or disables an event."
+          "name": "行动",
+          "description": "启用或禁用一个事件。"
         }
       }
     },
     "channel": {
-      "description": "Set the logging channel.",
+      "description": "设置记录通道。",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the logs will be sent."
+          "name": "渠道",
+          "description": "日志将被发送的通道。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the logging module documentation."
+      "description": "获取日志模块文档的链接。"
     },
     "view": {
-      "description": "View the settings of the logging module."
+      "description": "查看日志模块的设置。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }

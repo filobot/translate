@@ -1,21 +1,21 @@
 {
-  "description": "Send a message using Filo.",
+  "description": "使用Filo发送消息。",
   "subcommands": {
     "embed": {
-      "description": "Send the message through an embed.",
+      "description": "通过嵌入的方式发送消息。",
       "arguments": {
         "message": {
-          "name": "message",
-          "description": "Message you want to send."
+          "name": "信息",
+          "description": "你想发送的信息。"
         }
       }
     },
     "normal": {
-      "description": "Send the message using a normal message.",
+      "description": "使用普通信息发送信息。",
       "arguments": {
         "message": {
-          "name": "message",
-          "description": "Message you want to send."
+          "name": "信息",
+          "description": "你想发送的信息。"
         }
       }
     }

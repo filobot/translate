@@ -1,9 +1,9 @@
 {
-  "description": "Show your credits or another user's credits.",
+  "description": "显示你的积分或其他用户的积分。",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User to whom you want to get their credits."
+      "name": "用户",
+      "description": "你想把他们的积分给谁的用户。"
     }
   }
 }

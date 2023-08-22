@@ -38,10 +38,10 @@
       "UNWARN_THIS_USER_DESCRIPTION": "从服务器上取消对该用户的警告。",
       "WARN_THIS_USER_TITLE": "向该用户发出警告",
       "WARN_THIS_USER_DESCRIPTION": "从服务器上警告这个用户。",
-      "TIMEOUT_THIS_USER_TITLE": "Timeout this user",
-      "TIMEOUT_THIS_USER_DESCRIPTION": "Timeout this user from the server.",
-      "UNTIMEOUT_THIS_USER_TITLE": "Untimeout this user",
-      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Untimeout this user from the server."
+      "TIMEOUT_THIS_USER_TITLE": "该用户超时",
+      "TIMEOUT_THIS_USER_DESCRIPTION": "从服务器超时该用户。",
+      "UNTIMEOUT_THIS_USER_TITLE": "取消该用户的超时",
+      "UNTIMEOUT_THIS_USER_DESCRIPTION": "取消该用户的服务器超时。"
     }
   }
 }

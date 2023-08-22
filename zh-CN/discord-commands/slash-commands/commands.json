@@ -1,44 +1,44 @@
 {
-  "description": "Manage Filo's commands by enabling or disabling them.",
+  "description": "启用或禁用 Filo 命令，对其进行管理。",
   "subcommands": {
     "enable": {
-      "description": "Enable a Filo's command or category.",
+      "description": "启用 Filo 的命令或类别。",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to enable."
+          "name": "目标",
+          "description": "指定你想启用的内容。"
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to enable."
+          "name": "价值",
+          "description": "你想启用的命令或类别的名称。"
         }
       }
     },
     "disable": {
-      "description": "Disable a Filo's command or category.",
+      "description": "禁用 Filo 的命令或类别。",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to disable."
+          "name": "目标",
+          "description": "指定你要禁用的东西。"
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to disable."
+          "name": "价值",
+          "description": "你想禁用的命令或类别的名称。"
         }
       }
     },
     "docs": {
-      "description": "Get the link of the disable commands module documentation."
+      "description": "获取禁用命令模块文档的链接。"
     },
     "view": {
-      "description": "View the settings of the disable commands module."
+      "description": "查看禁用命令模块的设置。"
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "将模块设置恢复到原始设置（数据不能恢复）。",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "确认",
+          "description": "您真的确定要重置该模块的数据吗？"
         }
       }
     }
