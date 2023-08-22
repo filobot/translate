@@ -1,15 +1,15 @@
 {
   "SONG": {
-    "SELECT_A_SONG": "You must select a song to view its data.",
-    "SELECT_A_SONG_PLACEHOLDER": "Select a song",
+    "SELECT_A_SONG": "您必须选择一首歌曲才能查看其数据。",
+    "SELECT_A_SONG_PLACEHOLDER": "选择歌曲",
     "VIEWING_THE_LYRICS": {
-      "TITLE": "Viewing the lyrics of the **{{song.title}}** song.",
-      "DESCRIPTION": "You can view the lyrics of this song by **[clicking here]({{url}})**."
+      "TITLE": "查看 **{{song.title}}** 歌词。",
+      "DESCRIPTION": "您可以通过 **[点击此处]({{url}})** 查看这首歌的歌词。"
     },
-    "TITLE": "Title",
-    "FULL_TITLE": "Full title",
-    "FEATURED_TITLE": "Featured title",
-    "ALBUM": "Album",
-    "ARTIST": "Artist"
+    "TITLE": "标题",
+    "FULL_TITLE": "完整标题",
+    "FEATURED_TITLE": "特色标题",
+    "ALBUM": "相册",
+    "ARTIST": "艺术家"
   }
 }
