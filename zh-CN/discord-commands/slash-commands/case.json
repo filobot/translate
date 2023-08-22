@@ -1,25 +1,25 @@
 {
-  "description": "Manage a sanction case.",
+  "description": "管理一个制裁案件。",
   "subcommands": {
     "info": {
-      "description": "Get information about a sanction case.",
+      "description": "获取有关制裁案件的信息。",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "案例",
+          "description": "案件的ID。"
         }
       }
     },
     "set": {
-      "description": "Set the new information for a case.",
+      "description": "为一个案件设置新的信息。",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "案例",
+          "description": "案件的ID。"
         },
         "reason": {
           "name": "原因",
-          "description": "Reason you want to set to the case."
+          "description": "你想设置为案例的原因。"
         }
       }
     }
