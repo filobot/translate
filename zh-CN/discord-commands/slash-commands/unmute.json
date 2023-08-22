@@ -1,21 +1,21 @@
 {
-  "description": "Remove the mute from a user.",
+  "description": "移除一个用户的静音。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User you want to remove the mute from."
+      "description": "你想取消静音的用户。"
     },
     "reason": {
       "name": "原因",
-      "description": "Reason for removing the mute."
+      "description": "取消静音的原因。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
     },
     "force": {
       "name": "力量",
-      "description": "Force removal of the mute."
+      "description": "强制取消静音。"
     }
   }
 }
