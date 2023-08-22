@@ -1,9 +1,9 @@
 {
-  "description": "Show your avatar or that of a user.",
+  "description": "显示你的头像或一个用户的头像。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User whose avatar you want to get."
+      "description": "你想获得其头像的用户。"
     }
   }
 }
