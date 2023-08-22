@@ -1,43 +1,43 @@
 {
   "HOME": {
-    "PRE_START": "Before continuing you must click on the **{{button}}** button.",
-    "DESCRIPTION": "Start configuring Filo by selecting the category of modules you want to configure and then select the module you want to operate with.\n\n**Do you need a reference guide? Don't worry!**\nBy **[clicking here]({{url}})**, you'll redirect to the Filo's Wiki, which contains information on how to configure anything.\n\n**Too complicated?**\n**[Contact us]({{url2}})** if you have any questions or require any additional clarification.",
+    "PRE_START": "在继续之前，您必须点击 **{{button}}** 按钮。",
+    "DESCRIPTION": "开始配置 Filo，选择你要配置的模块类别，然后选择你要操作的模块。\n\n**你需要一个参考指南吗？别担心！**\n通过 **[点击这里]({{url}})**，你会重定向到 Filo 的 Wiki，其中包含如何配置任何东西的信息。\n\n**太复杂了？**\n**[联系我们]({{url2}})**如果你有任何问题或需要任何额外的澄清。",
     "SELECT_A_MODULE_CATEGORY": {
-      "PLACEHOLDER": "Select a module category",
+      "PLACEHOLDER": "选择一个模块类别",
       "ADMINISTRATION": {
-        "LABEL": "Administration modules",
-        "DESCRIPTION": "Modules to help you in the administration of your server."
+        "LABEL": "行政管理模块",
+        "DESCRIPTION": "帮助你管理服务器的模块。"
       },
       "COMMUNITY": {
-        "LABEL": "Community modules",
-        "DESCRIPTION": "Modules to help you improve the experience in your community."
+        "LABEL": "社区模块",
+        "DESCRIPTION": "帮助你改善你的社区经验的模块。"
       },
       "MODERATION": {
-        "LABEL": "Moderation modules",
-        "DESCRIPTION": "Modules to help you moderate your server."
+        "LABEL": "调节模块",
+        "DESCRIPTION": "模块，以帮助你调节你的服务器。"
       }
     },
-    "TITLE": "Filo Setup Menu"
+    "TITLE": "Filo 设置菜单"
   },
-  "LOADING_DATA": "Please wait while the necessary data is loaded.",
+  "LOADING_DATA": "在加载必要的数据时，请等待。",
   "MODULES": {
-    "SELECT_A_MODULE": "You must select the module from the **{{module}}** category that you want to configure.",
-    "SELECT_A_SUBMODULE": "You must select the submodule from the **{{module}}** module that you want to configure.",
-    "PLACEHOLDER": "Select a module",
-    "SELECT_THE_ACTION": "You must select the action you want to perform on the module.",
-    "SELECT_THE_ACTION_PLACEHOLDER": "Select an action",
-    "MODULE_ENABLED_OR_DISABLED": "The **{{module}}** module has been {{action}} successfully.",
-    "RESET_REQUEST_WARNING": "Are you sure you want to reset the **{{module}}** module? This action can't be undone!",
-    "MODULE_RESET": "The **{{module}}** module has been reset successfully.",
-    "SELECT_A_CHANNEL": "You must select the channel you want to set.",
-    "SELECT_A_CHANNEL_PLACEHOLDER": "Select a channel",
-    "SELECT_AT_LEAST_ONE_CHANNEL": "You must select at least one channel.",
-    "SELECT_A_ROLE": "You must select the role you want to set.",
-    "SELECT_A_ROLE_PLACEHOLDER": "Select a role",
-    "SELECT_AT_LEAST_ONE_ROLE": "You must select at least one role.",
-    "CHANNEL_SET": "You have successfully set the **[#{{channel.name}}]({{url}})** channel for the **{{module}}** module.",
+    "SELECT_A_MODULE": "您必须从 **{{module}}** 类别中选择要配置的模块。",
+    "SELECT_A_SUBMODULE": "您必须从 **{{module}}** 模块中选择要配置的子模块。",
+    "PLACEHOLDER": "选择一个模块",
+    "SELECT_THE_ACTION": "你必须选择你想对该模块执行的操作。",
+    "SELECT_THE_ACTION_PLACEHOLDER": "选择一个行动",
+    "MODULE_ENABLED_OR_DISABLED": "**{{module}}** 模块已成功 {{action}}。",
+    "RESET_REQUEST_WARNING": "你确定你要重置 **{{module}}** 模块吗？这个动作是不能撤销的!",
+    "MODULE_RESET": "**{{module}}** 模块已被成功重置。",
+    "SELECT_A_CHANNEL": "你必须选择你想设置的频道。",
+    "SELECT_A_CHANNEL_PLACEHOLDER": "选择一个频道",
+    "SELECT_AT_LEAST_ONE_CHANNEL": "你必须至少选择一个通道。",
+    "SELECT_A_ROLE": "你必须选择你想设置的角色。",
+    "SELECT_A_ROLE_PLACEHOLDER": "选择一个角色",
+    "SELECT_AT_LEAST_ONE_ROLE": "你必须至少选择一个角色。",
+    "CHANNEL_SET": "**{{module}}** 你已经成功地为 **[#{{channel.name}}]({{url}})** 模块设置了通道。",
     "DM_STATUS": {
-      "LABEL": "Toggle the status of DMs",
+      "LABEL": "切换DMs的状态",
       "DESCRIPTION": "通过 DM 更改通知状态。",
       "DM_STATUS_TOGGLED": "您已成功 **{{action}}** 了 **{{module}}** 模块的 DM 通知。"
     },
