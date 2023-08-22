@@ -1,9 +1,9 @@
 {
-  "description": "Convert your text to ASCII text.",
+  "description": "将文本转换为 ASCII 文本。",
   "arguments": {
     "text": {
-      "name": "text",
-      "description": "Text that you want to convert to ASCII."
+      "name": "案文",
+      "description": "要转换为 ASCII 码的文本。"
     }
   }
 }
