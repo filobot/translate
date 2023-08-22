@@ -158,8 +158,8 @@
     "APPROVE_REPORTS": "Aprobar informes",
     "DENY_REPORTS": "Denegar informes",
     "MANAGE_REPORTS": "Gestionar informes",
-    "TIMEOUT_MEMBERS": "Timeout members",
-    "UNTIMEOUT_MEMBERS": "Untimeout members"
+    "TIMEOUT_MEMBERS": "Aislar miembros",
+    "UNTIMEOUT_MEMBERS": "Desairlar miembros"
   },
   "THANKS": {
     "TITLE": "¡Gracias por añadir a Filo!",
