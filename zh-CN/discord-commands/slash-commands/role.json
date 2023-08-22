@@ -1,38 +1,38 @@
 {
-  "description": "Manage a server role.",
+  "description": "管理服务器角色。",
   "subcommands": {
     "add": {
-      "description": "Add a role to a user.",
+      "description": "为用户添加角色。",
       "arguments": {
         "user": {
           "name": "用户",
-          "description": "User to which you want to add a role."
+          "description": "要添加角色的用户。"
         },
         "role": {
           "name": "作用",
-          "description": "Role that you want to add to the user."
+          "description": "要为用户添加的角色。"
         }
       }
     },
     "info": {
-      "description": "Show the information of a role.",
+      "description": "显示角色信息。",
       "arguments": {
         "role": {
           "name": "作用",
-          "description": "Role to which you want to get the information."
+          "description": "您希望获取信息的角色。"
         }
       }
     },
     "remove": {
-      "description": "Remove a role from a user.",
+      "description": "删除用户的角色。",
       "arguments": {
         "user": {
           "name": "用户",
-          "description": "User from which you want to remove a role."
+          "description": "要删除角色的用户。"
         },
         "role": {
           "name": "作用",
-          "description": "Role that you want to remove from the user."
+          "description": "要从用户身上删除的角色。"
         }
       }
     }
