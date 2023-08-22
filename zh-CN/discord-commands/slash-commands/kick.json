@@ -1,17 +1,17 @@
 {
-  "description": "Kick a user from the server.",
+  "description": "从服务器上踢出一个用户。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User you want to kick."
+      "description": "你想踢的用户"
     },
     "reason": {
       "name": "原因",
-      "description": "Reason for kicking this user."
+      "description": "踢出该用户的原因。"
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
     }
   }
 }
