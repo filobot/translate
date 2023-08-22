@@ -1,12 +1,12 @@
 {
-  "description": "Lyrics utilities.",
+  "description": "歌词实用工具。",
   "subcommands": {
     "search": {
-      "description": "Search for a song.",
+      "description": "搜索歌曲。",
       "arguments": {
         "song": {
-          "name": "song",
-          "description": "Song title."
+          "name": "歌曲",
+          "description": "歌曲标题。"
         }
       }
     }
