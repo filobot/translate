@@ -1,9 +1,9 @@
 {
-  "description": "Get the basic information of a random color.",
+  "description": "获取一个随机颜色的基本信息。",
   "arguments": {
     "saturation": {
-      "name": "saturation",
-      "description": "Saturation that you want the random color to have."
+      "name": "饱和度",
+      "description": "你希望随机颜色具有的饱和度。"
     }
   }
 }
