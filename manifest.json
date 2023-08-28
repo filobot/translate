@@ -3,8 +3,6 @@
     "name": "en-US",
     "nativeName": "English",
     "wikiCode": "en",
-    "discordCode": "en-US",
-    "iso639": "en",
     "flag": "🇺🇸",
     "default": true,
     "contributors": [
@@ -15,9 +13,48 @@
     "name": "es-ES",
     "nativeName": "Español",
     "wikiCode": "es",
-    "discordCode": "es-ES",
-    "iso639": "es",
     "flag": "🇪🇸",
+    "default": false,
+    "contributors": [
+      "266103595949096960"
+    ]
+  },
+  {
+    "name": "ja-JP",
+    "nativeName": "日本語",
+    "wikiCode": null,
+    "flag": "🇯🇵",
+    "default": false,
+    "contributors": [
+      "266103595949096960"
+    ]
+  },
+  {
+    "name": "ca-ES",
+    "nativeName": "Català",
+    "wikiCode": null,
+    "flag": "🇪🇸",
+    "default": false,
+    "contributors": [
+      "661241315891085314"
+    ]
+  },
+  {
+    "name": "fr-FR",
+    "nativeName": "Français",
+    "wikiCode": null,
+    "flag": "🇫🇷",
+    "default": false,
+    "contributors": [
+      "510524491126800405",
+      "777947717024088106"
+    ]
+  },
+  {
+    "name": "zh-CN",
+    "nativeName": "简体中文",
+    "wikiCode": null,
+    "flag": "🇨🇳",
     "default": false,
     "contributors": [
       "266103595949096960"
