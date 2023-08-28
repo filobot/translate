@@ -1,97 +1,97 @@
 {
   "ERROR_DESCRIPTIONS": {
     "200": "确定",
-    "400": "Bad Request",
-    "401": "Unauthorized",
-    "402": "Payment Required",
-    "403": "Forbidden",
-    "404": "Not Found",
-    "405": "Method Not Allowed",
-    "406": "Not Acceptable",
-    "407": "Proxy Authentication Required",
-    "408": "Request Timeout",
-    "409": "Conflict",
-    "410": "Gone",
-    "411": "Length Required",
-    "412": "Precondition Failed",
-    "413": "Payload Too Large",
-    "414": "Request-URI Too Long",
-    "415": "Unsupported Media Type",
-    "416": "Requested Range Not Satisfiable",
-    "417": "Expectation Failed",
-    "418": "I'm a teapot",
-    "420": "Unsupported Browser",
-    "421": "Misdirected Request",
-    "422": "Unprocessable Entity",
-    "423": "Locked",
-    "424": "Failed Dependency",
-    "425": "Too Early",
-    "426": "Upgrade Required",
-    "428": "Precondition Required",
-    "429": "Too Many Request",
-    "431": "Request Header Fields Too Large",
-    "444": "Connection Closed Without Response",
-    "451": "Unavailable For Legal Reasons",
-    "500": "Internal Server Error",
-    "501": "Not Implemented",
-    "502": "Bad Gateway",
-    "503": "Service Unavailable",
-    "504": "Gateway Timeout",
-    "505": "HTTP Version Not Supported",
-    "506": "Variant Also Negotiates",
-    "507": "Insufficient Storage",
-    "508": "Loop Detected",
-    "510": "Not Extended",
-    "511": "Network Authentication Required",
-    "599": "Network Connect Timeout Error"
+    "400": "糟糕的请求",
+    "401": "未经授权",
+    "402": "需要付款",
+    "403": "禁止",
+    "404": "未找到",
+    "405": "不允许的方法",
+    "406": "不可接受",
+    "407": "需要代理验证",
+    "408": "请求超时",
+    "409": "冲突",
+    "410": "走了",
+    "411": "所需长度",
+    "412": "先决条件失败",
+    "413": "有效载荷过大",
+    "414": "请求的 URI 太长",
+    "415": "不支持的介质类型",
+    "416": "要求的范围无法满足",
+    "417": "期望落空",
+    "418": "我是茶壶",
+    "420": "不支持的浏览器",
+    "421": "错误的请求",
+    "422": "无法处理的实体",
+    "423": "锁定",
+    "424": "失败的依赖关系",
+    "425": "为时过早",
+    "426": "需要升级",
+    "428": "所需前提条件",
+    "429": "请求太多",
+    "431": "请求标题字段过大",
+    "444": "连接关闭无响应",
+    "451": "因法律原因无法提供",
+    "500": "内部服务器错误",
+    "501": "未实施",
+    "502": "坏网关",
+    "503": "服务不可用",
+    "504": "网关超时",
+    "505": "不支持 HTTP 版本",
+    "506": "变体也可谈判",
+    "507": "存储空间不足",
+    "508": "检测到回路",
+    "510": "未扩展",
+    "511": "需要网络验证",
+    "599": "网络连接超时错误"
   },
   "FILO": {
-    "CLASSIC_DESCRIPTION": "Filo is a powerful multipurpose Discord bot. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands.",
+    "CLASSIC_DESCRIPTION": "Filo 是一款功能强大的多用途 Discord 机器人。可定制、多语言、报告、日志、欢迎和告别、会员计数器、反邀请、自动修改、反规避。+190 条命令。",
     "DESCRIPTION": "自从2019以来，Filo 一款功能强大的多功能Discord机器人，为Discord公会提供服务. 具有广泛的管理和审核模块，使您的工作更轻松."
   },
   "MAIN_HEADER": {
-    "TITLE": "Filo is a powerful multipurpose Discord bot",
+    "TITLE": "Filo 是一款功能强大的多用途 Discord 机器人",
     "SUBTITLE": "具有广泛的管理和审核模块，使您的工作更轻松"
   },
   "FEATURES": {
-    "DESCRIPTION": "The best features to improve your server!",
+    "DESCRIPTION": "改善服务器的最佳功能！",
     "MORE_INFO": "更多信息关于这个特征",
     "REPORTS": {
-      "TITLE": "Reports",
-      "DESCRIPTION": "Enhance the experience and professionalize your server moderation by allowing users to report inappropriate behavior!"
+      "TITLE": "报告",
+      "DESCRIPTION": "允许用户报告不当行为，从而提升体验并使服务器管理专业化！"
     },
     "LOGGING": {
-      "TITLE": "Logging",
-      "DESCRIPTION": "Log all actions performed by users in your server to a channel, allowing you to easily review and filter them!"
+      "TITLE": "记录",
+      "DESCRIPTION": "将用户在服务器中执行的所有操作记录到一个通道中，让您可以轻松查看和过滤这些操作！"
     },
     "ANTI_INVITES": {
-      "TITLE": "Anti Invites",
-      "DESCRIPTION": "Prevent users from sending invites from your servers to yours by automatically sanctioning them!"
+      "TITLE": "反邀请",
+      "DESCRIPTION": "自动制裁用户，防止他们从你的服务器向你的服务器发送邀请！"
     },
     "ANTI_SPAM": {
-      "TITLE": "Anti Spam",
-      "DESCRIPTION": "Tired of spammers? Are your moderators not enough? Let Filo deal with this class of users and have some tea in the meantime!"
+      "TITLE": "反垃圾邮件",
+      "DESCRIPTION": "厌倦了垃圾邮件发送者？您的版主还不够多吗？让 Filo 来处理这类用户吧，顺便喝喝茶！"
     },
     "ANTI_BAD_WORDS": {
-      "TITLE": "Anti Bad Words",
-      "DESCRIPTION": "Prevent users from using bad words in their messages... Nobody likes having to read those words!"
+      "TITLE": "反坏话",
+      "DESCRIPTION": "防止用户在邮件中使用脏话...没人喜欢读这些字！"
     },
     "ANTI_SCAM_LINKS": {
-      "TITLE": "Anti Scam Links",
-      "DESCRIPTION": "Scammers, what tiresome people... Now Filo can help you fight these types of people!"
+      "TITLE": "反诈骗链接",
+      "DESCRIPTION": "骗子，真是令人厌恶的人......现在，Filo 可以帮您打击这类人！"
     },
     "AUTO_MODERATION": {
-      "TITLE": "Auto Moderation",
-      "DESCRIPTION": "Don't allow conflicting users to exist on your server, this can negatively affect the experience of legitimate users!"
+      "TITLE": "自动调节",
+      "DESCRIPTION": "不要让服务器上存在相互冲突的用户，这会对合法用户的使用体验造成负面影响！"
     },
     "ANTI_EVASION": {
-      "TITLE": "Anti Evasion",
-      "DESCRIPTION": "Have you muted several users and they have left the server? No problem! Let Filo automatically ban these users!"
+      "TITLE": "反规避",
+      "DESCRIPTION": "您是否将多个用户静音，但他们却离开了服务器？没问题！让 Filo 自动禁言这些用户！"
     }
   },
   "STATISTICS": {
     "TITLE": "统计",
-    "SERVERS": "Servers",
+    "SERVERS": "服务器",
     "USERS": "用户"
   },
   "DONATE": {
@@ -121,9 +121,9 @@
     "SUBTITLE": "Filo 的有好网页帮助 Filo 继续在成长!"
   },
   "READY": {
-    "TITLE": "Ready to take the next step?",
-    "SUBTITLE": "Enhance the experience and professionalize your server with Filo today!",
-    "INVITE": "Let's do it!",
+    "TITLE": "准备好迈出下一步了吗？",
+    "SUBTITLE": "现在就使用 Filo 来增强体验并使您的服务器专业化！",
+    "INVITE": "开始吧",
     "GETTING_STARTED": "入门"
   },
   "CALCULATOR": {
@@ -151,20 +151,20 @@
     "PIN_MESSAGES": "标注信息",
     "UNPIN_MESSAGES": "取消标注信息",
     "VIEW_HISTORY": "查看历史",
-    "EVADE_SANCTIONS": "Evade sanctions",
-    "REPORT_MEMBERS": "Report members",
-    "REPORT_MESSAGES": "Report messages",
-    "BYPASS_REPORTS_COOLDOWN": "Bypass reports cooldown",
-    "APPROVE_REPORTS": "Approve reports",
-    "DENY_REPORTS": "Deny reports",
-    "MANAGE_REPORTS": "Manage reports",
-    "TIMEOUT_MEMBERS": "Timeout members",
-    "UNTIMEOUT_MEMBERS": "Untimeout members"
+    "EVADE_SANCTIONS": "逃避制裁",
+    "REPORT_MEMBERS": "报告成员",
+    "REPORT_MESSAGES": "报告信息",
+    "BYPASS_REPORTS_COOLDOWN": "绕过报告冷却时间",
+    "APPROVE_REPORTS": "批准报告",
+    "DENY_REPORTS": "拒绝报告",
+    "MANAGE_REPORTS": "管理报告",
+    "TIMEOUT_MEMBERS": "超时成员",
+    "UNTIMEOUT_MEMBERS": "超时成员"
   },
   "THANKS": {
     "TITLE": "感谢添加 Filo!",
     "SUBTITLE": "我们非常感谢您相信 Filo.",
-    "DISCORD_REDIRECT_INFO": "You'll be redirected to our Discord server."
+    "DISCORD_REDIRECT_INFO": "您将被重定向到我们的 Discord 服务器。"
   },
   "FOOTER": {
     "HELPFUL_LINKS": "有用的网址",
@@ -188,13 +188,13 @@
   },
   "PAGE_TITLES": {
     "A_DISCORD_BOT": "Discord 机器人",
-    "CALCULATOR": "Calculator",
+    "CALCULATOR": "计算器",
     "STATISTICS": "统计",
-    "THANKS": "Thanks",
-    "LINK_SHORTENER": "Link Shortener"
+    "THANKS": "谢谢",
+    "LINK_SHORTENER": "链接缩短器"
   },
   "LINK_SHORTENER": {
-    "TITLE": "Redirecting",
-    "SUBTITLE": "You'll be redirected to the original link in a few seconds"
+    "TITLE": "重定向",
+    "SUBTITLE": "几秒钟后，您将被重定向到原始链接"
   }
 }
