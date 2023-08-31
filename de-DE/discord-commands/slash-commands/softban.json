@@ -2,20 +2,20 @@
   "description": "Soft ban a user from the server.",
   "arguments": {
     "user": {
-      "name": "user",
+      "name": "benutzer",
       "description": "User you want to soft ban."
     },
     "reason": {
-      "name": "reason",
+      "name": "grund",
       "description": "Reason for softbanning this user."
     },
     "message-history": {
-      "name": "message-history",
+      "name": "nachrichten-geschichte",
       "description": "Specify if you want to delete the user's message history."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "still",
+      "description": "Geben Sie an, ob die Sanktion dem Benutzer nicht mitgeteilt werden soll."
     }
   }
 }
