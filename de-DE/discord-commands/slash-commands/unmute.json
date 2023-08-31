@@ -1,21 +1,21 @@
 {
-  "description": "Remove the mute from a user.",
+  "description": "Die Stummschaltung eines Benutzers aufheben.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to remove the mute from."
+      "name": "benutzer",
+      "description": "Benutzer, dessen Stummschaltung Sie aufheben möchten."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the mute."
+      "name": "grund",
+      "description": "Grund für die Aufhebung der Stummschaltung."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "still",
+      "description": "Geben Sie an, ob die Sanktion dem Benutzer nicht mitgeteilt werden soll."
     },
     "force": {
-      "name": "force",
-      "description": "Force removal of the mute."
+      "name": "kraft",
+      "description": "Aufhebung der Stummschaltung erzwingen."
     }
   }
 }
