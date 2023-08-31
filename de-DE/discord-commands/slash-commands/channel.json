@@ -12,14 +12,14 @@
               "description": "Abklingzeit, die Sie einstellen möchten."
             },
             "channel": {
-              "name": "Kanal",
+              "name": "kanal",
               "description": "Kanal, für den Sie die Abklingzeit festlegen möchten."
             },
             "reset": {
               "description": "Setzt die Abklingzeit eines Kanals zurück.",
               "arguments": {
                 "channel": {
-                  "name": "Kanal",
+                  "name": "kanal",
                   "description": "Kanal, in dem Sie die Abklingzeit zurücksetzen möchten."
                 }
               }
@@ -48,7 +48,7 @@
               "description": "Anzahl der Nachrichten, die gelöscht werden sollen."
             },
             "channel": {
-              "name": "Kanal",
+              "name": "kanal",
               "description": "Kanal, in dem Sie die Nachrichten löschen möchten."
             }
           }
@@ -71,7 +71,7 @@
           "description": "Aktivieren Sie den NSFW-Modus eines Kanals.",
           "arguments": {
             "channel": {
-              "name": "Kanal",
+              "name": "kanal",
               "description": "Kanal, für den Sie den NSFW-Modus aktivieren möchten."
             }
           }
@@ -80,7 +80,7 @@
           "description": "Deaktivieren Sie den NSFW-Modus eines Kanals.",
           "arguments": {
             "channel": {
-              "name": "Kanal",
+              "name": "kanal",
               "description": "Kanal, in dem Sie den NSFW-Modus deaktivieren möchten."
             }
           }
@@ -93,7 +93,7 @@
       "description": "Abrufen von Informationen über einen Kanal.",
       "arguments": {
         "channel": {
-          "name": "Kanal",
+          "name": "kanal",
           "description": "Kanal, aus dem die Informationen stammen werden."
         }
       }
@@ -102,7 +102,7 @@
       "description": "Erstellen Sie eine sofortige Einladung für einen Kanal.",
       "arguments": {
         "channel": {
-          "name": "Kanal",
+          "name": "kanal",
           "description": "Kanal, in dem die sofortige Einladung erstellt werden soll."
         },
         "temporary": {
