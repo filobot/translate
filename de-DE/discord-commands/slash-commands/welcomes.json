@@ -1,0 +1,68 @@
+{
+  "description": "Welcome module that allows you to send a message to new members and assign them a role.",
+  "subcommands": {
+    "enable": {
+      "description": "Enable the welcomes module.",
+      "arguments": {
+        "module": {
+          "name": "module",
+          "description": "Module you want to enable."
+        }
+      }
+    },
+    "disable": {
+      "description": "Disable the welcomes module.",
+      "arguments": {
+        "module": {
+          "name": "module",
+          "description": "Module you want to disable."
+        }
+      }
+    },
+    "channel": {
+      "description": "Set the channel where the welcome messages will be sent.",
+      "arguments": {
+        "channel": {
+          "name": "channel",
+          "description": "Channel where welcome messages will be sent."
+        }
+      }
+    },
+    "message": {
+      "description": "Set the welcome message."
+    },
+    "type": {
+      "description": "Set the way in which the welcome message will be sent.",
+      "arguments": {
+        "type": {
+          "name": "type",
+          "description": "Way in which the welcome message will be sent."
+        }
+      }
+    },
+    "role": {
+      "description": "Set the role you want to grant to the new members.",
+      "arguments": {
+        "role": {
+          "name": "role",
+          "description": "Role that you want to grant to new members."
+        }
+      }
+    },
+    "docs": {
+      "description": "Get the link of the welcomes module documentation."
+    },
+    "view": {
+      "description": "View the settings of the welcomes module."
+    },
+    "reset": {
+      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "arguments": {
+        "confirmation": {
+          "name": "confirmation",
+          "description": "Are you really sure you want to reset the data for this module?"
+        }
+      }
+    }
+  }
+}
