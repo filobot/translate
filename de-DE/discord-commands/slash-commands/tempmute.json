@@ -1,17 +1,17 @@
 {
-  "description": "Temporarily mute a user from the server.",
+  "description": "Vorübergehende Stummschaltung eines Benutzers auf dem Server.",
   "arguments": {
     "user": {
       "name": "benutzer",
-      "description": "User you want to temporarily mute."
+      "description": "Benutzer, den Sie vorübergehend stummschalten möchten."
     },
     "time": {
       "name": "zeit",
-      "description": "Duration of the sanction."
+      "description": "Dauer der Sanktion."
     },
     "reason": {
       "name": "grund",
-      "description": "Reason for temporarily muting this user."
+      "description": "Grund für die vorübergehende Stummschaltung dieses Benutzers."
     },
     "silent": {
       "name": "still",
