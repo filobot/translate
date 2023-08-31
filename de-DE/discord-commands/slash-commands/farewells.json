@@ -1,43 +1,43 @@
 {
-  "description": "Module that allows you to send a goodbye message to old members.",
+  "description": "Modul, mit dem Sie eine Abschiedsnachricht an alte Mitglieder senden können.",
   "subcommands": {
     "enable": {
-      "description": "Enable the farewells module."
+      "description": "Aktivieren Sie das Modul für Verabschiedungen."
     },
     "disable": {
-      "description": "Disable the farewells module."
+      "description": "Deaktivieren Sie das Modul für Verabschiedungen."
     },
     "channel": {
-      "description": "Set the channel where the farewell messages will be sent.",
+      "description": "Legen Sie den Kanal fest, über den die Abschiedsnachrichten gesendet werden sollen.",
       "arguments": {
-        "name": "channel",
-        "description": "Channel where farewell messages will be sent."
+        "name": "Kanal",
+        "description": "Kanal, über den die Abschiedsnachrichten gesendet werden."
       }
     },
     "message": {
-      "description": "Set the farewell message."
+      "description": "Legen Sie die Abschiedsnachricht fest."
     },
     "type": {
-      "description": "Set the way in which the farewell message will be sent.",
+      "description": "Legen Sie die Art und Weise fest, wie die Abschiedsnachricht gesendet werden soll.",
       "arguments": {
         "type": {
-          "name": "type",
-          "description": "Way in which the welcome farewell will be sent."
+          "name": "typ",
+          "description": "Art und Weise, in der der Willkommensgruß gesendet wird."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the farewells module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Abschiedsmoduls."
     },
     "view": {
-      "description": "View the settings of the farewells module."
+      "description": "Sehen Sie sich die Einstellungen des Abschiedsmoduls an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "Bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
     }
