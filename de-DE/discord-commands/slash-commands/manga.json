@@ -1,37 +1,37 @@
 {
-  "description": "Manga Utilities.",
+  "description": "Manga Dienstprogramme.",
   "subcommands": {
     "random": {
-      "description": "Show the information from a random manga according to the criteria you specify.",
+      "description": "Zeigen Sie die Informationen aus einem zufälligen Manga nach den von Ihnen angegebenen Kriterien an.",
       "arguments": {
         "term": {
-          "name": "term",
-          "description": "Term that must include the title of the manga."
+          "name": "begriff",
+          "description": "Begriff, der den Titel des Mangas enthalten muss."
         },
         "type": {
-          "name": "type",
-          "description": "Manga type."
+          "name": "typ",
+          "description": "Manga-Typ."
         },
         "status": {
           "name": "status",
-          "description": "Manga's status."
+          "description": "Der Status des Mangas."
         },
         "rating": {
-          "name": "rating",
-          "description": "Manga's rating."
+          "name": "bewertung",
+          "description": "Bewertung des Mangas."
         },
         "genre": {
           "name": "genre",
-          "description": "Genre or one of the genres of the Anime."
+          "description": "Genre oder eines der Genres des Anime."
         }
       }
     },
     "search": {
-      "description": "Search the information of an manga.",
+      "description": "Suche die Informationen eines Mangas.",
       "arguments": {
         "title": {
-          "name": "title",
-          "description": "Title of the manga."
+          "name": "titel",
+          "description": "Titel des Mangas."
         }
       }
     }
