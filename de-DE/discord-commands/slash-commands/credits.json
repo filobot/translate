@@ -1,9 +1,9 @@
 {
-  "description": "Show your credits or another user's credits.",
+  "description": "Zeigen Sie Ihre Credits oder die Credits eines anderen Benutzers an.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User to whom you want to get their credits."
+      "name": "benutzer",
+      "description": "Benutzer, dem Sie die Credits zukommen lassen möchten."
     }
   }
 }
