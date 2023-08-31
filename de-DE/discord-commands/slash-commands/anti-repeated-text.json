@@ -8,7 +8,7 @@
       "description": "Deaktivieren Sie das Modul gegen Textwiederholungen."
     },
     "action": {
-      "description": "Set the action to take when someone sends repeated text in a message.",
+      "description": "Legen Sie die Aktion fest, die ausgeführt werden soll.",
       "arguments": {
         "action": {
           "name": "aktion",
@@ -28,7 +28,7 @@
           "description": "Aktion, die Sie durchführen möchten."
         },
         "channel": {
-          "name": "Kanal",
+          "name": "kanal",
           "description": "Kanal aus der Kanalumgehungsliste des Moduls."
         }
       }
@@ -53,10 +53,10 @@
       "description": "Zeigen Sie die Einstellungen des Anti-Repetition-Text-Moduls an."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
       "arguments": {
         "confirmation": {
-          "name": "Bestätigung",
+          "name": "bestätigung",
           "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
