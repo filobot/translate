@@ -1,24 +1,24 @@
 {
-  "description": "Minecraft utility commands.",
+  "description": "Minecraft-Dienstprogramm-Befehle.",
   "subcommand_groups": {
     "front": {
-      "description": "Send a render of the specified player's front.",
+      "description": "Sendet eine Darstellung der Vorderseite des angegebenen Spielers.",
       "subcommands": {
         "body": {
-          "description": "Send a render of the specified player's front body.",
+          "description": "Sendet ein Rendering des Vorderkörpers des angegebenen Spielers.",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "spieler",
+              "description": "Minecraft-Spieler."
             }
           }
         },
         "normal": {
-          "description": "Send a render of the specified player's front.",
+          "description": "Sendet eine Darstellung der Vorderseite des angegebenen Spielers.",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "spieler",
+              "description": "Minecraft-Spieler."
             }
           }
         }
@@ -27,69 +27,69 @@
   },
   "subcommands": {
     "body": {
-      "description": "Send a render of the specified player's body.",
+      "description": "Sendet ein Rendering des Körpers des angegebenen Spielers.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
         }
       }
     },
     "bust": {
-      "description": "Send a render of the specified player's bust.",
+      "description": "Sendet ein Rendering der Büste des angegebenen Spielers.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
         }
       }
     },
     "face": {
-      "description": "Send a render of the specified player's face.",
+      "description": "Sendet ein Rendering des Gesichts des angegebenen Spielers.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
         }
       }
     },
     "head": {
-      "description": "Send a render of the specified player's head.",
+      "description": "Sendet ein Rendering des Kopfes des angegebenen Spielers.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
         }
       }
     },
     "skin": {
-      "description": "Send a render of the specified player's skin.",
+      "description": "Sendet ein Rendering der Haut des angegebenen Spielers.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
         }
       }
     },
     "uuid": {
-      "description": "Get the UUID of a minecraft player.",
+      "description": "Ermittelt die UUID eines Minecraft-Spielers.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
         }
       }
     },
     "server": {
-      "description": "Get the status of a Minecraft server.",
+      "description": "Ermittelt den Status eines Minecraft-Servers.",
       "arguments": {
         "ip-address": {
-          "name": "ip-address",
-          "description": "Minecraft server IP address."
+          "name": "ip-adresse",
+          "description": "IP-Adresse des Minecraft-Servers."
         },
         "port": {
-          "name": "port",
-          "description": "Minecraft server port."
+          "name": "hafen",
+          "description": "Minecraft-Server-Anschluss."
         }
       }
     }
