@@ -11,7 +11,7 @@
     },
     "message-history": {
       "name": "nachrichten-geschichte",
-      "description": "Specify if you want to delete the user's message history."
+      "description": "Geben Sie an, ob Sie den Nachrichtenverlauf des Benutzers löschen möchten."
     },
     "silent": {
       "name": "still",
