@@ -1,42 +1,42 @@
 {
-  "description": "Module that allows to send the logs of the server to a channel.",
+  "description": "Modul, das es erlaubt, die Logs des Servers an einen Channel zu senden.",
   "subcommands": {
     "enable": {
-      "description": "Enable the logging module."
+      "description": "Aktivieren Sie das Protokollierungsmodul."
     },
     "disable": {
-      "description": "Disable the logging module."
+      "description": "Deaktivieren Sie das Protokollierungsmodul."
     },
     "events": {
-      "description": "Manage the different events you want to show.",
+      "description": "Verwalten Sie die verschiedenen Ereignisse, die Sie anzeigen möchten.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enables or disables an event."
+          "name": "aktion",
+          "description": "Aktiviert oder deaktiviert ein Ereignis."
         }
       }
     },
     "channel": {
-      "description": "Set the logging channel.",
+      "description": "Stellen Sie den Protokollierungskanal ein.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the logs will be sent."
+          "name": "Kanal",
+          "description": "Kanal, an den die Protokolle gesendet werden sollen."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the logging module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Logging-Moduls."
     },
     "view": {
-      "description": "View the settings of the logging module."
+      "description": "Zeigen Sie die Einstellungen des Protokollierungsmoduls an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "Bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
     }
