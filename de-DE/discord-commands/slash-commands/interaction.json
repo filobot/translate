@@ -1,138 +1,138 @@
 {
-  "description": "Interact with other users with gifs and actions.",
+  "description": "Interagieren Sie mit anderen Nutzern mit Gifs und Aktionen.",
   "subcommands": {
     "baka": {
-      "description": "Send a baka interaction.",
+      "description": "Senden Sie eine Baka-Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "bite": {
-      "description": "Send a bite interaction.",
+      "description": "Senden Sie eine Biss-Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "cookie": {
-      "description": "Send a cookie interaction.",
+      "description": "Senden einer Cookie-Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "cuddle": {
-      "description": "Send a cuddle interaction.",
+      "description": "Senden Sie eine Kuschelinteraktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "feed": {
-      "description": "Send a feed interaction.",
+      "description": "Senden Sie einen Feed Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "hug": {
-      "description": "Send a hug interaction.",
+      "description": "Senden Sie eine Umarmung Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "kick": {
-      "description": "Send a kick interaction.",
+      "description": "Senden Sie eine Kick-Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "kiss": {
-      "description": "Send a kiss interaction.",
+      "description": "Senden Sie einen Kuss Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "laugh": {
-      "description": "Send a laugh interaction.",
+      "description": "Senden Sie ein Lachen Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "pat": {
-      "description": "Send a pat interaction.",
+      "description": "Senden Sie einen Klaps.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "poke": {
-      "description": "Send a poke interaction.",
+      "description": "Senden Sie eine Stups-Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "punch": {
-      "description": "Send a punch interaction.",
+      "description": "Senden Sie eine Punch-Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "reverse-card": {
-      "description": "Send a reverse card interaction.",
+      "description": "Senden Sie eine Rückwärtskarte Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "slap": {
-      "description": "Send a slap interaction.",
+      "description": "Senden Sie einen Schlag Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     },
     "tickle": {
-      "description": "Send a tickle interaction.",
+      "description": "Senden Sie eine Kitzel-Interaktion.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to whom you want to direct this interaction."
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
         }
       }
     }
