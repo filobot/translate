@@ -1,26 +1,26 @@
 {
-  "description": "Manage a channel.",
+  "description": "Verwalten Sie einen Kanal.",
   "subcommand_groups": {
     "cooldown": {
-      "description": "Manage the cooldown of a channel.",
+      "description": "Verwalten Sie die Abklingzeit eines Kanals.",
       "subcommands": {
         "set": {
-          "description": "Set the cooldown of a channel.",
+          "description": "Legt die Abklingzeit eines Kanals fest.",
           "arguments": {
             "time": {
-              "name": "time",
-              "description": "Cooldown you want to set."
+              "name": "zeit",
+              "description": "Abklingzeit, die Sie einstellen möchten."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to set the cooldown."
+              "name": "Kanal",
+              "description": "Kanal, für den Sie die Abklingzeit festlegen möchten."
             },
             "reset": {
-              "description": "Reset the cooldown of a channel.",
+              "description": "Setzt die Abklingzeit eines Kanals zurück.",
               "arguments": {
                 "channel": {
-                  "name": "channel",
-                  "description": "Channel where you want to reset the cooldown."
+                  "name": "Kanal",
+                  "description": "Kanal, in dem Sie die Abklingzeit zurücksetzen möchten."
                 }
               }
             }
@@ -29,59 +29,59 @@
       }
     },
     "messages": {
-      "description": "Manage the messages of a channel.",
+      "description": "Verwalten Sie die Nachrichten eines Kanals.",
       "subcommands": {
         "pin": {
-          "description": "Pin a message on the current channel.",
+          "description": "Pinnt eine Nachricht an den aktuellen Kanal.",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to pin."
+              "name": "nachricht",
+              "description": "ID der Nachricht, die Sie anheften möchten."
             }
           }
         },
         "purge": {
-          "description": "Purge a number of messages from a channel.",
+          "description": "Löschen Sie eine bestimmte Anzahl von Nachrichten aus einem Kanal.",
           "arguments": {
             "messages": {
-              "name": "messages",
-              "description": "Number of messages you want to purge."
+              "name": "nachrichten",
+              "description": "Anzahl der Nachrichten, die gelöscht werden sollen."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to purge messages."
+              "name": "Kanal",
+              "description": "Kanal, in dem Sie die Nachrichten löschen möchten."
             }
           }
         },
         "unpin": {
-          "description": "Unpin a message on the current channel.",
+          "description": "Hebt die Anheftung einer Nachricht auf dem aktuellen Kanal auf.",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to unpin."
+              "name": "nachricht",
+              "description": "ID der Nachricht, deren Anheftung Sie aufheben möchten."
             }
           }
         }
       }
     },
     "nsfw": {
-      "description": "Switch the NSFW mode of a channel.",
+      "description": "Schalten Sie den NSFW-Modus eines Kanals um.",
       "subcommands": {
         "enable": {
-          "description": "Enable the NSFW mode of a channel.",
+          "description": "Aktivieren Sie den NSFW-Modus eines Kanals.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to enable the NSFW mode."
+              "name": "Kanal",
+              "description": "Kanal, für den Sie den NSFW-Modus aktivieren möchten."
             }
           }
         },
         "disable": {
-          "description": "Disable the NSFW mode of a channel.",
+          "description": "Deaktivieren Sie den NSFW-Modus eines Kanals.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to disable the NSFW mode."
+              "name": "Kanal",
+              "description": "Kanal, in dem Sie den NSFW-Modus deaktivieren möchten."
             }
           }
         }
@@ -90,36 +90,36 @@
   },
   "subcommands": {
     "info": {
-      "description": "Get information about a channel.",
+      "description": "Abrufen von Informationen über einen Kanal.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the information will come from."
+          "name": "Kanal",
+          "description": "Kanal, aus dem die Informationen stammen werden."
         }
       }
     },
     "invite": {
-      "description": "Create an instant invite of a channel.",
+      "description": "Erstellen Sie eine sofortige Einladung für einen Kanal.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where to create the instant invite."
+          "name": "Kanal",
+          "description": "Kanal, in dem die sofortige Einladung erstellt werden soll."
         },
         "temporary": {
-          "name": "temporary",
-          "description": "Specify if you want to grant temporary or permanent membership."
+          "name": "vorübergehend",
+          "description": "Geben Sie an, ob Sie eine vorübergehende oder eine dauerhafte Mitgliedschaft gewähren möchten."
         },
         "max-age": {
           "name": "max-age",
-          "description": "Time until the invite expires."
+          "description": "Zeit, bis die Einladung abläuft."
         },
         "max-uses": {
           "name": "max-uses",
-          "description": "Maximum number of uses of the invite."
+          "description": "Maximale Anzahl der Verwendungen der Einladung."
         },
         "force": {
-          "name": "force",
-          "description": "Force the creation of the invite."
+          "name": "kraft",
+          "description": "Erzwingen Sie die Erstellung der Einladung."
         }
       }
     }
