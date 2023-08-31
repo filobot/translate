@@ -1,76 +1,76 @@
 {
-  "description": "Module that allows you to avoid spam from users.",
+  "description": "Modul, mit dem Sie Spam von Benutzern vermeiden können.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-spam module."
+      "description": "Aktivieren Sie das Anti-Spam-Modul."
     },
     "disable": {
-      "description": "Disable the anti-spam module."
+      "description": "Deaktivieren Sie das Anti-Spam-Modul."
     },
     "action": {
-      "description": "Set the action to take when someone spam.",
+      "description": "Legen Sie die Aktion fest, die durchgeführt werden soll, wenn jemand spammt.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone spam."
+          "name": "aktion",
+          "description": "Maßnahmen, die zu ergreifen sind, wenn jemand spammt."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
         }
       }
     },
     "duplicates": {
-      "description": "Set the duplicate message filter parameters.",
+      "description": "Legen Sie die Parameter für den Filter für doppelte Nachrichten fest.",
       "arguments": {
         "threshold": {
-          "name": "threshold",
-          "description": "Number of identical messages that can be sent."
+          "name": "schwellenwert",
+          "description": "Anzahl der identischen Nachrichten, die gesendet werden können."
         },
         "time": {
-          "name": "time",
-          "description": "Time to reset identical messages sent by a user."
+          "name": "zeit",
+          "description": "Zeit zum Zurücksetzen identischer Nachrichten, die von einem Benutzer gesendet wurden."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Hinzufügen oder Entfernen eines Kanals aus der Liste der ignorierten Kanäle.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "Kanal",
+          "description": "Kanal aus der Kanalumgehungsliste des Moduls."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Hinzufügen oder Entfernen einer Rolle aus der Liste der ignorierten Rollen.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rolle",
+          "description": "Rolle aus der Rollenumgehungsliste des Moduls."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-spam module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Anti-Spam-Moduls."
     },
     "view": {
-      "description": "View the settings of the anti-spam module."
+      "description": "Zeigen Sie die Einstellungen des Anti-Spam-Moduls an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "Bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
     }
