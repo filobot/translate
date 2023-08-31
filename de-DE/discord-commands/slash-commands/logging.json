@@ -20,7 +20,7 @@
       "description": "Stellen Sie den Protokollierungskanal ein.",
       "arguments": {
         "channel": {
-          "name": "Kanal",
+          "name": "kanal",
           "description": "Kanal, an den die Protokolle gesendet werden sollen."
         }
       }
@@ -32,10 +32,10 @@
       "description": "Zeigen Sie die Einstellungen des Protokollierungsmoduls an."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
       "arguments": {
         "confirmation": {
-          "name": "Bestätigung",
+          "name": "bestätigung",
           "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
