@@ -1,37 +1,37 @@
 {
-  "description": "Module that allows you to ban those users who try to evade an active sanction.",
+  "description": "Modul, mit dem Sie Benutzer sperren können, die versuchen, sich einer aktiven Sanktion zu entziehen.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-evasion module."
+      "description": "Aktivieren Sie das Anti-Evasion-Modul."
     },
     "disable": {
-      "description": "Disable the anti-evasion module."
+      "description": "Deaktivieren Sie das Anti-Evasion-Modul."
     },
     "action": {
       "description": "Set the action to take when someone tries to evade an active sanction.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone tries to evade an active sanction."
+          "name": "aktion",
+          "description": "Maßnahmen, die zu ergreifen sind, wenn jemand versucht, sich einer aktiven Sanktion zu entziehen."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-evasion module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Anti-Evasion-Moduls."
     },
     "view": {
-      "description": "View the settings of the anti-evasion module."
+      "description": "Zeigen Sie die Einstellungen des Anti-Evasion-Moduls an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "Bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
     }
