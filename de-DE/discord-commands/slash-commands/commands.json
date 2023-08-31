@@ -37,7 +37,7 @@
       "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her (die Daten können nicht wiederhergestellt werden).",
       "arguments": {
         "confirmation": {
-          "name": "Bestätigung",
+          "name": "bestätigung",
           "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
