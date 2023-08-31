@@ -1,21 +1,21 @@
 {
-  "description": "Remove a warn from a user.",
+  "description": "Entfernen Sie eine Warnung von einem Benutzer.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to remove the warn from."
+      "name": "benutzer",
+      "description": "Benutzer, von dem Sie die Warnung entfernen möchten."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the warn."
+      "name": "grund",
+      "description": "Grund für die Entfernung der Warnung."
     },
     "case": {
-      "name": "case",
-      "description": "ID of the warn you want to remove."
+      "name": "fall",
+      "description": "ID der Warnung, die Sie entfernen möchten."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "still",
+      "description": "Geben Sie an, ob die Sanktion dem Benutzer nicht mitgeteilt werden soll."
     }
   }
 }
