@@ -1,37 +1,37 @@
 {
-  "description": "Report bad behavior to a server moderator.",
+  "description": "Melden Sie schlechtes Verhalten an einen Server-Moderator.",
   "subcommands": {
     "member": {
-      "description": "Report a member.",
+      "description": "Ein Mitglied melden.",
       "arguments": {
         "member": {
-          "name": "member",
-          "description": "Member you want to report."
+          "name": "mitglied",
+          "description": "Mitglied, das Sie melden möchten."
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason why you want to report this member."
+          "name": "grund",
+          "description": "Grund, warum Sie dieses Mitglied melden möchten."
         },
         "evidences": {
-          "name": "evidences",
-          "description": "Evidences that support the reason you are reporting this member."
+          "name": "beweise",
+          "description": "Beweise für den Grund, warum Sie dieses Mitglied melden."
         }
       }
     },
     "message": {
-      "description": "Report a message.",
+      "description": "Eine Nachricht melden.",
       "arguments": {
         "message": {
-          "name": "message",
-          "description": "Message you want to report."
+          "name": "nachricht",
+          "description": "Nachricht, die Sie melden möchten."
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason why you want to report this message."
+          "name": "grund",
+          "description": "Grund, warum Sie diese Nachricht melden möchten."
         },
         "evidences": {
-          "name": "evidences",
-          "description": "Evidences that support the reason you are reporting this message."
+          "name": "beweise",
+          "description": "Beweise für den Grund, aus dem Sie diese Meldung machen."
         }
       }
     }
