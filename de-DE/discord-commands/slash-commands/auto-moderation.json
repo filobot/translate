@@ -1,5 +1,5 @@
 {
-  "description": "Module that allows you to automatically sanction users with a certain amount of warnings.",
+  "description": "Modul, mit dem Sie Benutzer mit einer bestimmten Anzahl.",
   "subcommands": {
     "enable": {
       "description": "Aktivieren Sie das Modul für die automatische Moderation."
@@ -40,10 +40,10 @@
       "description": "Zeigen Sie die Einstellungen des Moduls für die automatische Moderation an."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
       "arguments": {
         "confirmation": {
-          "name": "Bestätigung",
+          "name": "bestätigung",
           "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
