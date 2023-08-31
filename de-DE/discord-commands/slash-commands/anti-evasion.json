@@ -8,7 +8,7 @@
       "description": "Deaktivieren Sie das Anti-Evasion-Modul."
     },
     "action": {
-      "description": "Set the action to take when someone tries to evade an active sanction.",
+      "description": "Legen Sie die Maßnahme fest, die ergriffen werden soll, wenn jemand versucht.",
       "arguments": {
         "action": {
           "name": "aktion",
@@ -27,10 +27,10 @@
       "description": "Zeigen Sie die Einstellungen des Anti-Evasion-Moduls an."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
       "arguments": {
         "confirmation": {
-          "name": "Bestätigung",
+          "name": "bestätigung",
           "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
