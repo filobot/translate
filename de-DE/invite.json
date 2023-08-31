@@ -1,11 +1,11 @@
 {
-  "INVITE": "Invite",
-  "INVITES": "Invites",
-  "INVITE_CODE": "Invite code",
-  "MAXIMUM_USES": "Maximum uses of the invite",
-  "TEMPORARY_TRUE": "The invite has temporary membership",
-  "TEMPORARY_FALSE": "The invite has full membership",
-  "ACTIVITY_TRUE": "The invite belongs to an activity",
-  "ACTIVITY_FALSE": "The invite doesn't belong to an activity",
-  "MAXIMUM_PARTICIPANTS": "Maximum participants"
+  "INVITE": "Einladen",
+  "INVITES": "Einladungen",
+  "INVITE_CODE": "Code einladen",
+  "MAXIMUM_USES": "Maximale Nutzung der Einladung",
+  "TEMPORARY_TRUE": "Die Einladung hat eine befristete Mitgliedschaft",
+  "TEMPORARY_FALSE": "Die Einladung hat volle Mitgliedschaft",
+  "ACTIVITY_TRUE": "Die Einladung gehört zu einer Aktivität",
+  "ACTIVITY_FALSE": "Die Einladung gehört nicht zu einer Aktivität",
+  "MAXIMUM_PARTICIPANTS": "Maximale Teilnehmerzahl"
 }
