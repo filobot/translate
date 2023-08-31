@@ -1,92 +1,92 @@
 {
-  "description": "Module that allows you to sanction users who send links.",
+  "description": "Modul, mit dem Sie Benutzer, die Links versenden, sanktionieren können.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-external-links module."
+      "description": "Aktivieren Sie das Modul gegen externe Links."
     },
     "disable": {
-      "description": "Disable the anti-external-links module."
+      "description": "Deaktivieren Sie das Modul gegen externe Links."
     },
     "action": {
-      "description": "Set the action to take when a user sends a link.",
+      "description": "Legen Sie die Aktion fest, die ausgeführt werden soll, wenn ein Benutzer einen Link sendet.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when a user sends a link."
+          "name": "aktion",
+          "description": "Aktion, die ausgeführt werden soll, wenn ein Benutzer einen Link sendet."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
         }
       }
     },
     "filo": {
-      "description": "Enable or disable bypassing of links from Filo domains.",
+      "description": "Aktivieren oder deaktivieren Sie die Umgehung von Links von Filo-Domains.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enable or disable bypassing of links from Filo domains."
+          "name": "aktion",
+          "description": "Aktivieren oder deaktivieren Sie die Umgehung von Links von Filo-Domains."
         }
       }
     },
     "discord": {
-      "description": "Enable or disable bypassing of links from Discord domains.",
+      "description": "Aktivieren oder deaktivieren Sie die Umgehung von Links von Discord-Domains.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enable or disable bypassing of links from Discord domains."
+          "name": "aktion",
+          "description": "Aktivieren oder deaktivieren Sie die Umgehung von Links von Discord-Domains."
         }
       }
     },
     "link": {
-      "description": "Add or remove a link from the list of ignored links.",
+      "description": "Hinzufügen oder Entfernen eines Links aus der Liste der ignorierten Links.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
         },
         "link": {
           "name": "link",
-          "description": "Link that you want to add or remove to the list of ignored links."
+          "description": "Link, den Sie zur Liste der ignorierten Links hinzufügen oder entfernen möchten."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Hinzufügen oder Entfernen eines Kanals aus der Liste der ignorierten Kanäle.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
         },
         "channel": {
-          "description": "Channel from the module's channel bypass list."
+          "description": "Kanal aus der Kanalumgehungsliste des Moduls."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Hinzufügen oder Entfernen einer Rolle aus der Liste der ignorierten Rollen.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
         },
         "role": {
-          "description": "Role from the module's role bypass list."
+          "description": "Rolle aus der Rollenumgehungsliste des Moduls."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-external-links module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Moduls anti-external-links."
     },
     "view": {
-      "description": "View the settings of the anti-external-links module."
+      "description": "Zeigen Sie die Einstellungen des Anti-Extern-Links-Moduls an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "Bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
     }
