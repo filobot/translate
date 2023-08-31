@@ -18,7 +18,7 @@
           "description": "ID of the case."
         },
         "reason": {
-          "name": "reason",
+          "name": "grund",
           "description": "Reason you want to set to the case."
         }
       }
