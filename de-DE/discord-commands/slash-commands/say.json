@@ -1,12 +1,12 @@
 {
-  "description": "Send a message using Filo.",
+  "description": "Senden Sie eine Nachricht mit Filo.",
   "subcommands": {
     "embed": {
-      "description": "Send the message through an embed.",
+      "description": "Senden Sie die Nachricht über eine Einbettung.",
       "arguments": {
         "message": {
-          "name": "message",
-          "description": "Message you want to send."
+          "name": "nachricht",
+          "description": "Nachricht, die Sie senden möchten."
         }
       }
     },
@@ -14,8 +14,8 @@
       "description": "Send the message using a normal message.",
       "arguments": {
         "message": {
-          "name": "message",
-          "description": "Message you want to send."
+          "name": "nachricht",
+          "description": "Nachricht, die Sie senden möchten."
         }
       }
     }
