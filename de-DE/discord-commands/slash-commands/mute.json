@@ -1,13 +1,13 @@
 {
-  "description": "Permanently mute a user from the server.",
+  "description": "Einen Benutzer dauerhaft vom Server stummschalten.",
   "arguments": {
     "user": {
       "name": "benutzer",
-      "description": "User you want to mute."
+      "description": "Benutzer, den Sie stummschalten möchten."
     },
     "reason": {
       "name": "grund",
-      "description": "Reason for muting this user."
+      "description": "Grund für die Stummschaltung dieses Benutzers."
     },
     "silent": {
       "name": "still",
