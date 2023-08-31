@@ -71,7 +71,7 @@
   "MAX_NUMBER_OF_ROLES_REACHED": "Dieser Server hat das Limit von **{{roles}}** Rollen erreicht.",
   "MODULE_DISABLED": "Das Modul **[{{module}}]({{url}})** ist deaktiviert und daher kann diese Aktion nicht durchgeführt werden.",
   "INVALID_MORSE_CODE": "Der von Ihnen angegebene Morsecode ist ungültig.",
-  "SETUP_MENU_EXPIRED": "Das Setup-Menü ist abgelaufen, dies kann daran liegen, dass ein anderes Setup-Menü geöffnet wurde, ansonsten **[contact us]({{url}})**.",
+  "SETUP_MENU_EXPIRED": "Das Setup-Menü ist abgelaufen, dies kann daran liegen, dass ein anderes Setup-Menü geöffnet wurde, ansonsten **[Kontakt uns]({{url}})**.",
   "PENDING_SANCTIONS": "**[{{user.tag}}]({{url}})** ({{user.id}}) hat eine oder mehrere Sanktionen zur Bearbeitung anstehen.",
   "MISSING_REASON": "Sie müssen einen Grund angeben, um fortzufahren.",
   "IGNORED_ROLE_NOT_CONFIGURED": "Die ignorierte Rolle ist noch nicht konfiguriert worden.",
