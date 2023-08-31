@@ -1,20 +1,20 @@
 {
-  "description": "Module that allows you to set the Filo's Language.",
+  "description": "Modul, mit dem Sie die Sprache des Filo einstellen können.",
   "subcommands": {
     "select": {
-      "description": "Select the Filo's language you prefer (must be available)."
+      "description": "Wählen Sie die von Ihnen bevorzugte Filo-Sprache (muss verfügbar sein)."
     },
     "docs": {
-      "description": "Get the link of the language module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Sprachmoduls."
     },
     "view": {
-      "description": "View the current language information."
+      "description": "Zeigen Sie die aktuellen Sprachinformationen an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
-        "name": "confirmation",
-        "description": "Are you really sure you want to reset the data for this module?"
+        "name": "Bestätigung",
+        "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
       }
     }
   }
