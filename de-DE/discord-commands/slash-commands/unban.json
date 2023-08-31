@@ -1,0 +1,17 @@
+{
+  "description": "Remove the ban from a user.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User you want to remove the ban from."
+    },
+    "reason": {
+      "name": "reason",
+      "description": "Reason for removing the ban."
+    },
+    "force": {
+      "name": "force",
+      "description": "Force removal of the ban."
+    }
+  }
+}
