@@ -1,63 +1,63 @@
 {
-  "description": "Module that allows configuring a channel as a server member counter.",
+  "description": "Modul, das die Konfiguration eines Channels als Zähler für Servermitglieder ermöglicht.",
   "subcommands": {
     "enable": {
-      "description": "Enable the member counter module.",
+      "description": "Aktivieren Sie das Mitgliedszähler-Modul.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "modul",
+          "description": "Modul, das Sie aktivieren möchten."
         }
       }
     },
     "disable": {
-      "description": "Disable the member counter module.",
+      "description": "Deaktivieren Sie das Mitgliedszähler-Modul.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "modul",
+          "description": "Modul, das Sie deaktivieren möchten."
         }
       }
     },
     "channel": {
-      "description": "Set the member counter channel.",
+      "description": "Stellen Sie den Zählerkanal des Mitglieds ein.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel you want to set as the member counter channel."
+          "name": "Kanal",
+          "description": "Kanal, den Sie als Mitgliedszähler-Kanal festlegen möchten."
         }
       }
     },
     "name": {
-      "description": "Set the name of the member counter channel.",
+      "description": "Legen Sie den Namen des Mitgliedszählerkanals fest.",
       "arguments": {
         "name": {
           "name": "name",
-          "description": "Name of the member counter channel."
+          "description": "Name des Mitglied-Zählerkanals."
         }
       }
     },
     "nickname": {
-      "description": "Set the nickname of the member counter nickname.",
+      "description": "Legen Sie den Spitznamen des Mitgliedszähler-Spitznamens fest.",
       "arguments": {
         "nickname": {
-          "name": "nickname",
-          "description": "Nickname of the member counter nickname."
+          "name": "spitzname",
+          "description": "Spitzname des Mitglieds Zähler Spitzname."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the member counter module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Mitgliedszählermoduls."
     },
     "view": {
-      "description": "View the settings of the member counter module."
+      "description": "Zeigen Sie die Einstellungen des Mitgliedszählermoduls an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "Bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
     }
