@@ -1,17 +1,17 @@
 {
-  "description": "Kick a user from the server.",
+  "description": "Einen Benutzer vom Server werfen.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to kick."
+      "name": "benutzer",
+      "description": "Benutzer, den Sie treten wollen."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for kicking this user."
+      "name": "grund",
+      "description": "Grund für den Rauswurf dieses Benutzers."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "still",
+      "description": "Geben Sie an, ob die Sanktion dem Benutzer nicht mitgeteilt werden soll."
     }
   }
 }
