@@ -1,9 +1,9 @@
 {
-  "description": "Get the basic information of a random color.",
+  "description": "Ermittelt die grundlegenden Informationen zu einer zufälligen Farbe.",
   "arguments": {
     "saturation": {
-      "name": "saturation",
-      "description": "Saturation that you want the random color to have."
+      "name": "sättigung",
+      "description": "Sättigung, die die Zufallsfarbe haben soll."
     }
   }
 }
