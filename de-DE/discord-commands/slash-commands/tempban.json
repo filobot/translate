@@ -3,19 +3,19 @@
   "arguments": {
     "user": {
       "name": "benutzer",
-      "description": "User you want to temporarily ban."
+      "description": "Benutzer, den Sie vorübergehend sperren möchten."
     },
     "time": {
       "name": "zeit",
-      "description": "Duration of the sanction."
+      "description": "Dauer der Sanktion."
     },
     "reason": {
       "name": "grund",
-      "description": "Reason for temporarily banning this user."
+      "description": "Grund für die vorübergehende Sperrung dieses Benutzers."
     },
     "message-history": {
       "name": "nachrichten-geschichte",
-      "description": "Specify if you want to delete the user's message history."
+      "description": "Geben Sie an, ob Sie den Nachrichtenverlauf des Benutzers löschen möchten."
     },
     "silent": {
       "name": "still",
