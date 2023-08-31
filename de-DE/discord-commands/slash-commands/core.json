@@ -113,10 +113,10 @@
           "description": "Holen Sie sich die Einstellungen der Gildenrollen."
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
           "arguments": {
             "confirmation": {
-              "name": "Bestätigung",
+              "name": "bestätigung",
               "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
             }
           }
@@ -136,10 +136,10 @@
           }
         },
         "view": {
-          "description": "Zeigen Sie die Einstellungen des Moduls \"Moderationsparameter\" an."
+          "description": "Zeigen Sie die Einstellungen des Moduls \"Moderations-parameter\" an."
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
           "arguments": {
             "confirmation": {
               "name": "bestätigung",
