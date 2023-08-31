@@ -11,9 +11,9 @@
       "description": "Zeigen Sie die aktuellen Sprachinformationen an."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
       "arguments": {
-        "name": "Bestätigung",
+        "name": "bestätigung",
         "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
       }
     }
