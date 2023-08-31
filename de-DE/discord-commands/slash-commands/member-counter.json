@@ -23,7 +23,7 @@
       "description": "Stellen Sie den Zählerkanal des Mitglieds ein.",
       "arguments": {
         "channel": {
-          "name": "Kanal",
+          "name": "kanal",
           "description": "Kanal, den Sie als Mitgliedszähler-Kanal festlegen möchten."
         }
       }
@@ -53,10 +53,10 @@
       "description": "Zeigen Sie die Einstellungen des Mitgliedszählermoduls an."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
       "arguments": {
         "confirmation": {
-          "name": "Bestätigung",
+          "name": "bestätigung",
           "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
