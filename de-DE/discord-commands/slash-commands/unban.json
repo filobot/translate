@@ -1,17 +1,17 @@
 {
-  "description": "Remove the ban from a user.",
+  "description": "Entfernen Sie die Sperre eines Benutzers.",
   "arguments": {
     "user": {
       "name": "benutzer",
-      "description": "User you want to remove the ban from."
+      "description": "Benutzer, für den Sie die Sperre aufheben möchten."
     },
     "reason": {
       "name": "grund",
-      "description": "Reason for removing the ban."
+      "description": "Grund für die Aufhebung des Verbots."
     },
     "force": {
       "name": "kraft",
-      "description": "Force removal of the ban."
+      "description": "Aufhebung des Verbots erzwingen."
     }
   }
 }
