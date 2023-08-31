@@ -1,9 +1,9 @@
 {
-  "description": "Show your avatar or that of a user.",
+  "description": "Zeigen Sie Ihren Avatar oder den eines Benutzers.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User whose avatar you want to get."
+      "name": "benutzer",
+      "description": "Benutzer, dessen Avatar Sie erhalten möchten."
     }
   }
 }
