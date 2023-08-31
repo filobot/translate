@@ -14,11 +14,11 @@
       "description": "Wahlmöglichkeit 2 der Umfrage."
     },
     "choice-3": {
-      "name": "auswahl-3",
+      "name": "wahl-3",
       "description": "Wahlmöglichkeit 3 der Umfrage."
     },
     "choice-4": {
-      "name": "auswahl-4",
+      "name": "wahl-4",
       "description": "Wahlmöglichkeit 4 der Umfrage."
     },
     "choice-5": {
