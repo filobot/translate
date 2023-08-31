@@ -1,0 +1,11 @@
+{
+  "INVITE": "Invite",
+  "INVITES": "Invites",
+  "INVITE_CODE": "Invite code",
+  "MAXIMUM_USES": "Maximum uses of the invite",
+  "TEMPORARY_TRUE": "The invite has temporary membership",
+  "TEMPORARY_FALSE": "The invite has full membership",
+  "ACTIVITY_TRUE": "The invite belongs to an activity",
+  "ACTIVITY_FALSE": "The invite doesn't belong to an activity",
+  "MAXIMUM_PARTICIPANTS": "Maximum participants"
+}
