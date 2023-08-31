@@ -2,65 +2,65 @@
   "description": "Welcome module that allows you to send a message to new members and assign them a role.",
   "subcommands": {
     "enable": {
-      "description": "Enable the welcomes module.",
+      "description": "Aktivieren Sie das Willkommensmodul.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "modul",
+          "description": "Modul, das Sie aktivieren möchten."
         }
       }
     },
     "disable": {
-      "description": "Disable the welcomes module.",
+      "description": "Deaktivieren Sie das Begrüßungsmodul.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "modul",
+          "description": "Modul, das Sie deaktivieren möchten."
         }
       }
     },
     "channel": {
-      "description": "Set the channel where the welcome messages will be sent.",
+      "description": "Legen Sie den Kanal fest, über den die Begrüßungsnachrichten gesendet werden sollen.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where welcome messages will be sent."
+          "name": "Kanal",
+          "description": "Kanal, an den die Willkommensnachrichten gesendet werden."
         }
       }
     },
     "message": {
-      "description": "Set the welcome message."
+      "description": "Legen Sie die Willkommensnachricht fest."
     },
     "type": {
-      "description": "Set the way in which the welcome message will be sent.",
+      "description": "Legen Sie die Art und Weise fest, wie die Begrüßungsnachricht gesendet werden soll.",
       "arguments": {
         "type": {
-          "name": "type",
-          "description": "Way in which the welcome message will be sent."
+          "name": "typ",
+          "description": "Art und Weise, in der die Begrüßungsnachricht gesendet werden soll."
         }
       }
     },
     "role": {
-      "description": "Set the role you want to grant to the new members.",
+      "description": "Legen Sie die Rolle fest, die Sie den neuen Mitgliedern zuweisen möchten.",
       "arguments": {
         "role": {
-          "name": "role",
-          "description": "Role that you want to grant to new members."
+          "name": "rolle",
+          "description": "Rolle, die Sie neuen Mitgliedern zuweisen möchten."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the welcomes module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Willkommensmoduls."
     },
     "view": {
-      "description": "View the settings of the welcomes module."
+      "description": "Zeigen Sie die Einstellungen des Willkommensmoduls an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "Bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
     }
