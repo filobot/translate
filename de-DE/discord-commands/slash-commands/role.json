@@ -5,11 +5,11 @@
       "description": "Add a role to a user.",
       "arguments": {
         "user": {
-          "name": "user",
+          "name": "benutzer",
           "description": "User to which you want to add a role."
         },
         "role": {
-          "name": "role",
+          "name": "rolle",
           "description": "Role that you want to add to the user."
         }
       }
@@ -18,7 +18,7 @@
       "description": "Show the information of a role.",
       "arguments": {
         "role": {
-          "name": "role",
+          "name": "rolle",
           "description": "Role to which you want to get the information."
         }
       }
@@ -27,11 +27,11 @@
       "description": "Remove a role from a user.",
       "arguments": {
         "user": {
-          "name": "user",
+          "name": "benutzer",
           "description": "User from which you want to remove a role."
         },
         "role": {
-          "name": "role",
+          "name": "rolle",
           "description": "Role that you want to remove from the user."
         }
       }
