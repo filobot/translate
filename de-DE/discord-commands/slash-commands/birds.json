@@ -1,8 +1,8 @@
 {
-  "description": "Send a image of birds to the channel.",
+  "description": "Senden Sie ein Bild von Vögeln an den Kanal.",
   "subcommands": {
     "random": {
-      "description": "Send a random image of a bird."
+      "description": "Senden Sie ein zufälliges Bild von einem Vogel."
     }
   }
 }
