@@ -1,63 +1,63 @@
 {
-  "description": "Module that allows you to sanction users who send repeated text in the message.",
+  "description": "Modul, mit dem Sie Benutzer sanktionieren können, die wiederholten Text in der Nachricht senden.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-repeated-text module."
+      "description": "Aktivieren Sie das Modul gegen Textwiederholungen."
     },
     "disable": {
-      "description": "Disable the anti-repeated-text module."
+      "description": "Deaktivieren Sie das Modul gegen Textwiederholungen."
     },
     "action": {
       "description": "Set the action to take when someone sends repeated text in a message.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends repeated text in a message."
+          "name": "aktion",
+          "description": "Maßnahmen, die zu ergreifen sind, wenn jemand wiederholt Text in einer Nachricht sendet."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Hinzufügen oder Entfernen eines Kanals aus der Liste der ignorierten Kanäle.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "Kanal",
+          "description": "Kanal aus der Kanalumgehungsliste des Moduls."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Hinzufügen oder Entfernen einer Rolle aus der Liste der ignorierten Rollen.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rolle",
+          "description": "Rolle aus der Rollenumgehungsliste des Moduls."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-repeated-text module documentation."
+      "description": "Holen Sie sich den Link zur Dokumentation des Moduls anti-repeated-text."
     },
     "view": {
-      "description": "View the settings of the anti-repeated-text module."
+      "description": "Zeigen Sie die Einstellungen des Anti-Repetition-Text-Moduls an."
     },
     "reset": {
       "description": "Restores the module settings to the original ones (data can't be recovered).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "Bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
         }
       }
     }
