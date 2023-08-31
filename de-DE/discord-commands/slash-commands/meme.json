@@ -1,14 +1,14 @@
 {
-  "description": "Send a meme to the channel.",
+  "description": "Senden Sie ein Meme an den Kanal.",
   "subcommands": {
     "chuck-norris": {
-      "description": "Send a Chuck Norris meme."
+      "description": "Schicken Sie ein Chuck Norris Meme."
     },
     "drake": {
-      "description": "Send a Drake meme."
+      "description": "Senden Sie ein Drake-Memo."
     },
     "random": {
-      "description": "Send a random meme."
+      "description": "Senden Sie ein zufälliges Meme."
     }
   }
 }
