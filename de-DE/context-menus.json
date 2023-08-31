@@ -1,47 +1,47 @@
 {
-  "LOADING_ACTION": "Please wait while the requested action loads.",
+  "LOADING_ACTION": "Bitte warten Sie, während die angeforderte Aktion geladen wird.",
   "MESSAGE": {
     "MANAGE_THIS_MESSAGE": {
-      "PIN_MESSAGE_TITLE": "Pin message",
-      "PIN_MESSAGE_DESCRIPTION": "Pin this message on this channel.",
-      "UNPIN_MESSAGE_TITLE": "Unpin message",
-      "UNPIN_MESSAGE_DESCRIPTION": "Unpin this message from this channel."
+      "PIN_MESSAGE_TITLE": "Pin-Nachricht",
+      "PIN_MESSAGE_DESCRIPTION": "Pinnen Sie diese Nachricht auf diesem Kanal.",
+      "UNPIN_MESSAGE_TITLE": "Nachricht entpinnen",
+      "UNPIN_MESSAGE_DESCRIPTION": "Hebe diese Nachricht von diesem Kanal auf."
     }
   },
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
-      "SHOW_USER_AVATAR_TITLE": "Show user avatar",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user.",
-      "SHOW_USER_PROFILE_TITLE": "Show user profile",
-      "SHOW_USER_PROFILE_DESCRIPTION": "Show the profile of this user."
+      "SHOW_USER_AVATAR_TITLE": "Benutzer-Avatar anzeigen",
+      "SHOW_USER_AVATAR_DESCRIPTION": "Den Avatar dieses Benutzers anzeigen.",
+      "SHOW_USER_PROFILE_TITLE": "Benutzerprofil anzeigen",
+      "SHOW_USER_PROFILE_DESCRIPTION": "Das Profil dieses Benutzers anzeigen."
     },
     "MODERATE_THIS_USER": {
-      "PERMANENTLY_BAN_THIS_USER_TITLE": "Permanently ban this user",
-      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Permanently ban this user from the server.",
-      "SHOW_USER_HISTORY_TITLE": "Show user's history",
-      "SHOW_USER_HISTORY_DESCRIPTION": "Show the user's sanctions history.",
-      "KICK_THIS_USER_TITLE": "Kick this user",
-      "KICK_THIS_USER_DESCRIPTION": "Kick this user from the server.",
-      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Permanently mute this user",
-      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Permanently mute this user from the server.",
-      "SOFTBAN_THIS_USER_TITLE": "Softban this user",
-      "SOFTBAN_THIS_USER_DESCRIPTION": "Softban this user from the server.",
-      "TEMPORARILY_BAN_THIS_USER_TITLE": "Temporarily ban this user",
-      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Temporarily ban this user from the server.",
-      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Temporarily mute this user",
-      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Temporarily mute this user from the server.",
-      "UNBAN_THIS_USER_TITLE": "Unban this user",
-      "UNBAN_THIS_USER_DESCRIPTION": "Unban this user from the server.",
-      "UNMUTE_THIS_USER_TITLE": "Unmute this user",
-      "UNMUTE_THIS_USER_DESCRIPTION": "Unmute this user from the server.",
-      "UNWARN_THIS_USER_TITLE": "Unwarn this user",
-      "UNWARN_THIS_USER_DESCRIPTION": "Unwarn this user from the server.",
-      "WARN_THIS_USER_TITLE": "Warn this user",
-      "WARN_THIS_USER_DESCRIPTION": "Warn this user from the server.",
-      "TIMEOUT_THIS_USER_TITLE": "Timeout this user",
-      "TIMEOUT_THIS_USER_DESCRIPTION": "Timeout this user from the server.",
-      "UNTIMEOUT_THIS_USER_TITLE": "Untimeout this user",
-      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Untimeout this user from the server."
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "Dauerhaftes Verbot dieses Benutzers",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Diesen Benutzer dauerhaft vom Server sperren.",
+      "SHOW_USER_HISTORY_TITLE": "Historie des Benutzers anzeigen",
+      "SHOW_USER_HISTORY_DESCRIPTION": "Die Sanktionshistorie des Benutzers anzeigen.",
+      "KICK_THIS_USER_TITLE": "Diesen Benutzer treten",
+      "KICK_THIS_USER_DESCRIPTION": "Kickt diesen Benutzer vom Server.",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Diesen Benutzer dauerhaft stummschalten",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Stellt diesen Benutzer dauerhaft vom Server ab.",
+      "SOFTBAN_THIS_USER_TITLE": "Softban für diesen Benutzer",
+      "SOFTBAN_THIS_USER_DESCRIPTION": "Diesen Benutzer vom Server sperren.",
+      "TEMPORARILY_BAN_THIS_USER_TITLE": "Diesen Benutzer vorübergehend sperren",
+      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Diesen Benutzer vorübergehend vom Server sperren.",
+      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Diesen Benutzer vorübergehend stummschalten",
+      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Diesen Benutzer vorübergehend vom Server stummschalten.",
+      "UNBAN_THIS_USER_TITLE": "Diesen Benutzer entsperren",
+      "UNBAN_THIS_USER_DESCRIPTION": "Hebt die Sperre dieses Benutzers vom Server auf.",
+      "UNMUTE_THIS_USER_TITLE": "Stummschaltung dieses Benutzers aufheben",
+      "UNMUTE_THIS_USER_DESCRIPTION": "Hebt die Stummschaltung dieses Benutzers vom Server auf.",
+      "UNWARN_THIS_USER_TITLE": "Diesen Benutzer entwarnen",
+      "UNWARN_THIS_USER_DESCRIPTION": "Diesen Benutzer vom Server abmelden.",
+      "WARN_THIS_USER_TITLE": "Diesen Benutzer warnen",
+      "WARN_THIS_USER_DESCRIPTION": "Diesen Benutzer vom Server warnen.",
+      "TIMEOUT_THIS_USER_TITLE": "Timeout dieses Benutzers",
+      "TIMEOUT_THIS_USER_DESCRIPTION": "Timeout dieses Benutzers vom Server.",
+      "UNTIMEOUT_THIS_USER_TITLE": "Untimeout dieses Benutzers",
+      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Untimeout dieses Benutzers vom Server."
     }
   }
 }
