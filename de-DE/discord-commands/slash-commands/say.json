@@ -11,7 +11,7 @@
       }
     },
     "normal": {
-      "description": "Send the message using a normal message.",
+      "description": "Senden Sie die Nachricht mit einer normalen Nachricht.",
       "arguments": {
         "message": {
           "name": "nachricht",
