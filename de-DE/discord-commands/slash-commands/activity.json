@@ -6,7 +6,7 @@
       "description": "Aktivität, die Sie beginnen möchten."
     },
     "channel": {
-      "name": "Kanal",
+      "name": "kanal",
       "description": "Sprachkanal, auf dem Sie die Aktivität starten möchten."
     }
   }
