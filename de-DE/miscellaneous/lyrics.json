@@ -1,15 +1,15 @@
 {
   "SONG": {
-    "SELECT_A_SONG": "You must select a song to view its data.",
-    "SELECT_A_SONG_PLACEHOLDER": "Select a song",
+    "SELECT_A_SONG": "Sie müssen einen Song auswählen, um seine Daten anzuzeigen.",
+    "SELECT_A_SONG_PLACEHOLDER": "Wählen Sie ein Lied",
     "VIEWING_THE_LYRICS": {
-      "TITLE": "Viewing the lyrics of the **{{song.title}}** song.",
-      "DESCRIPTION": "You can view the lyrics of this song by **[clicking here]({{url}})**."
+      "TITLE": "Aufrufen des Textes des Liedes **{{song.title}}**.",
+      "DESCRIPTION": "Sie können sich den Text dieses Liedes ansehen, indem Sie **[hier klicken]({{url}})**."
     },
-    "TITLE": "Title",
-    "FULL_TITLE": "Full title",
-    "FEATURED_TITLE": "Featured title",
+    "TITLE": "Titel",
+    "FULL_TITLE": "Vollständiger Titel",
+    "FEATURED_TITLE": "Ausgewählter Titel",
     "ALBUM": "Album",
-    "ARTIST": "Artist"
+    "ARTIST": "Künstler"
   }
 }
