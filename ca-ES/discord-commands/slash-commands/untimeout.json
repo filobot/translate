@@ -1,0 +1,21 @@
+{
+  "description": "Remove the timeout from a user.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "User you want to remove the timeout from."
+    },
+    "reason": {
+      "name": "raó",
+      "description": "Reason for removing the timeout."
+    },
+    "silent": {
+      "name": "silenciós",
+      "description": "Especifica si vols que la sanció no sigui notificada per l'usuari."
+    },
+    "force": {
+      "name": "forçar",
+      "description": "Force removal of the timeout."
+    }
+  }
+}
