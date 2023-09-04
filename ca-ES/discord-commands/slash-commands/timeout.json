@@ -1,0 +1,21 @@
+{
+  "description": "Timeout a user from the server.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "User you want to timeout."
+    },
+    "time": {
+      "name": "temps",
+      "description": "Duració de la sanció."
+    },
+    "reason": {
+      "name": "raó",
+      "description": "Reason for timeout this user."
+    },
+    "silent": {
+      "name": "silenciós",
+      "description": "Especifica si vols que la sanció no sigui notificada per l'usuari."
+    }
+  }
+}
