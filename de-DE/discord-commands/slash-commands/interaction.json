@@ -1,0 +1,140 @@
+{
+  "description": "Interagieren Sie mit anderen Nutzern mit Gifs und Aktionen.",
+  "subcommands": {
+    "baka": {
+      "description": "Senden Sie eine Baka-Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "bite": {
+      "description": "Senden Sie eine Biss-Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "cookie": {
+      "description": "Senden einer Cookie-Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "cuddle": {
+      "description": "Senden Sie eine Kuschelinteraktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "feed": {
+      "description": "Senden Sie einen Feed Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "hug": {
+      "description": "Senden Sie eine Umarmung Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "kick": {
+      "description": "Senden Sie eine Kick-Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "kiss": {
+      "description": "Senden Sie einen Kuss Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "laugh": {
+      "description": "Senden Sie ein Lachen Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "pat": {
+      "description": "Senden Sie einen Klaps.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "poke": {
+      "description": "Senden Sie eine Stups-Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "punch": {
+      "description": "Senden Sie eine Punch-Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "reverse-card": {
+      "description": "Senden Sie eine Rückwärtskarte Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "slap": {
+      "description": "Senden Sie einen Schlag Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    },
+    "tickle": {
+      "description": "Senden Sie eine Kitzel-Interaktion.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Benutzer, an den Sie diese Interaktion richten möchten."
+        }
+      }
+    }
+  }
+}

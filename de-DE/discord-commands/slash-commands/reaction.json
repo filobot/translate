@@ -1,0 +1,68 @@
+{
+  "description": "Reagiere auf andere Nutzer mit Gifs.",
+  "subcommands": {
+    "angry": {
+      "description": "Senden Sie eine wütende Reaktion."
+    },
+    "blush": {
+      "description": "Senden Sie eine errötende Reaktion."
+    },
+    "bored": {
+      "description": "Senden Sie eine gelangweilte Reaktion."
+    },
+    "cold": {
+      "description": "Senden Sie eine kalte Reaktion."
+    },
+    "confused": {
+      "description": "Senden Sie eine verwirrte Reaktion."
+    },
+    "cry": {
+      "description": "Senden Sie eine Schrei-Reaktion."
+    },
+    "dance": {
+      "description": "Senden Sie eine Tanzreaktion."
+    },
+    "eyebrows": {
+      "description": "Senden Sie eine Augenbrauen-Reaktion."
+    },
+    "greet": {
+      "description": "Senden Sie eine Begrüßungsreaktion."
+    },
+    "happy": {
+      "description": "Senden Sie eine freudige Reaktion."
+    },
+    "hot": {
+      "description": "Senden Sie eine heiße Reaktion."
+    },
+    "like": {
+      "description": "Senden Sie eine Like-Reaktion."
+    },
+    "pout": {
+      "description": "Senden Sie eine schmollende Reaktion."
+    },
+    "run": {
+      "description": "Senden Sie eine Laufreaktion."
+    },
+    "scared": {
+      "description": "Senden Sie eine erschrockene Reaktion."
+    },
+    "sick": {
+      "description": "Senden Sie eine kranke Reaktion."
+    },
+    "sing": {
+      "description": "Senden Sie eine singende Reaktion."
+    },
+    "sleep": {
+      "description": "Senden Sie eine Schlafreaktion."
+    },
+    "smug": {
+      "description": "Senden Sie eine süffisante Reaktion."
+    },
+    "teehee": {
+      "description": "Senden Sie eine Teehee-Reaktion."
+    },
+    "think": {
+      "description": "Senden Sie eine Gedankenreaktion."
+    }
+  }
+}

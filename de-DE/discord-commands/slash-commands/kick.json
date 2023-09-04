@@ -1,0 +1,17 @@
+{
+  "description": "Einen Benutzer vom Server werfen.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, den Sie treten wollen."
+    },
+    "reason": {
+      "name": "grund",
+      "description": "Grund für den Rauswurf dieses Benutzers."
+    },
+    "silent": {
+      "name": "still",
+      "description": "Geben Sie an, ob die Sanktion dem Benutzer nicht mitgeteilt werden soll."
+    }
+  }
+}

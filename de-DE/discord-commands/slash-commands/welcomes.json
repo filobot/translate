@@ -1,0 +1,68 @@
+{
+  "description": "Willkommensmodul, mit dem Sie neuen Mitgliedern eine Nachricht senden.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Willkommensmodul.",
+      "arguments": {
+        "module": {
+          "name": "modul",
+          "description": "Modul, das Sie aktivieren möchten."
+        }
+      }
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das Begrüßungsmodul.",
+      "arguments": {
+        "module": {
+          "name": "modul",
+          "description": "Modul, das Sie deaktivieren möchten."
+        }
+      }
+    },
+    "channel": {
+      "description": "Legen Sie den Kanal fest, über den die Begrüßungsnachrichten gesendet werden sollen.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Kanal, an den die Willkommensnachrichten gesendet werden."
+        }
+      }
+    },
+    "message": {
+      "description": "Legen Sie die Willkommensnachricht fest."
+    },
+    "type": {
+      "description": "Legen Sie die Art und Weise fest, wie die Begrüßungsnachricht gesendet werden soll.",
+      "arguments": {
+        "type": {
+          "name": "typ",
+          "description": "Art und Weise, in der die Begrüßungsnachricht gesendet werden soll."
+        }
+      }
+    },
+    "role": {
+      "description": "Legen Sie die Rolle fest, die Sie den neuen Mitgliedern zuweisen möchten.",
+      "arguments": {
+        "role": {
+          "name": "rolle",
+          "description": "Rolle, die Sie neuen Mitgliedern zuweisen möchten."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Willkommensmoduls."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Willkommensmoduls an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

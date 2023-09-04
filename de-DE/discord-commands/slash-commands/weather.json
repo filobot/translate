@@ -1,0 +1,13 @@
+{
+  "description": "Rufen Sie das Wetter eines Ortes ab.",
+  "arguments": {
+    "location": {
+      "name": "standort",
+      "description": "Ort, an dem Sie das Wetter ablesen möchten."
+    },
+    "degree-type": {
+      "name": "grad-typ",
+      "description": "Art der Temperaturgrade."
+    }
+  }
+}

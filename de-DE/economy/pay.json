@@ -1,0 +1,3 @@
+{
+  "TRANSACTION_COMPLETED": "Sie haben erfolgreich **{{credits}}** Credits an **[{{user.tag}}]({{url}})** ({{user.id}}) bezahlt."
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Dauerhaftes Verbot eines Benutzers vom Server.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, den Sie verbieten möchten."
+    },
+    "reason": {
+      "name": "grund",
+      "description": "Grund für die Sperrung dieses Benutzers."
+    },
+    "message-history": {
+      "name": "nachrichten-geschichte",
+      "description": "Geben Sie an, ob Sie den Nachrichtenverlauf des Benutzers löschen möchten."
+    },
+    "silent": {
+      "name": "still",
+      "description": "Geben Sie an, ob die Sanktion dem Benutzer nicht mitgeteilt werden soll."
+    }
+  }
+}

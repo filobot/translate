@@ -1,0 +1,65 @@
+{
+  "description": "Modul, mit dem Sie Benutzer sanktionieren können, die wiederholten Text in der Nachricht senden.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Modul gegen Textwiederholungen."
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das Modul gegen Textwiederholungen."
+    },
+    "action": {
+      "description": "Legen Sie die Aktion fest, die ausgeführt werden soll.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Maßnahmen, die zu ergreifen sind, wenn jemand wiederholt Text in einer Nachricht sendet."
+        },
+        "time": {
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
+        }
+      }
+    },
+    "channel": {
+      "description": "Hinzufügen oder Entfernen eines Kanals aus der Liste der ignorierten Kanäle.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Kanal aus der Kanalumgehungsliste des Moduls."
+        }
+      }
+    },
+    "role": {
+      "description": "Hinzufügen oder Entfernen einer Rolle aus der Liste der ignorierten Rollen.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
+        },
+        "role": {
+          "name": "rolle",
+          "description": "Rolle aus der Rollenumgehungsliste des Moduls."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Moduls anti-repeated-text."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Anti-Repetition-Text-Moduls an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

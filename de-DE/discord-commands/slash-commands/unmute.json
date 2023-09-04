@@ -1,0 +1,21 @@
+{
+  "description": "Die Stummschaltung eines Benutzers aufheben.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, dessen Stummschaltung Sie aufheben möchten."
+    },
+    "reason": {
+      "name": "grund",
+      "description": "Grund für die Aufhebung der Stummschaltung."
+    },
+    "silent": {
+      "name": "still",
+      "description": "Geben Sie an, ob die Sanktion dem Benutzer nicht mitgeteilt werden soll."
+    },
+    "force": {
+      "name": "kraft",
+      "description": "Aufhebung der Stummschaltung erzwingen."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Modul, mit dem Sie Benutzer sperren können, die versuchen, sich einer aktiven Sanktion zu entziehen.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Anti-Evasion-Modul."
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das Anti-Evasion-Modul."
+    },
+    "action": {
+      "description": "Legen Sie die Maßnahme fest, die ergriffen werden soll, wenn jemand versucht.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Maßnahmen, die zu ergreifen sind, wenn jemand versucht, sich einer aktiven Sanktion zu entziehen."
+        },
+        "time": {
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Anti-Evasion-Moduls."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Anti-Evasion-Moduls an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

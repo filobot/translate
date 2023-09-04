@@ -1,0 +1,8 @@
+{
+  "description": "Senden Sie ein Bild von Reptilien an den Kanal.",
+  "subcommands": {
+    "snake": {
+      "description": "Senden Sie ein zufälliges Bild einer Schlange."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Klassisches Münz-Werf-Spiel.",
+  "arguments": {
+    "choice": {
+      "name": "auswahl",
+      "description": "Wählen Sie Kopf oder Zahl, um spielen zu können."
+    }
+  }
+}

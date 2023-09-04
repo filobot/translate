@@ -1,0 +1,9 @@
+{
+  "description": "Erhalten Sie eine Zufallszahl.",
+  "arguments": {
+    "number": {
+      "name": "nummer",
+      "description": "Zahl, mit der Sie den Zufallswert multiplizieren wollen."
+    }
+  }
+}

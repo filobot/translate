@@ -1,0 +1,5 @@
+{
+  "GAME_RESULT": "Sie haben **{{status}}** weil das Ergebnis **{{result}}** war!",
+  "HEADS": "Köpfe",
+  "TAILS": "Schwänze"
+}

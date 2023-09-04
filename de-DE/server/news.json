@@ -1,0 +1,16 @@
+{
+  "SOURCE_FEED_TITLES": {
+    "ANNOUNCEMENTS": "Filo Ankündigungen",
+    "STATUS": "Filo Statusberichte",
+    "UPDATES": "Filo Entwickler-Updates",
+    "FREE_GAMES": "Freie Spiele",
+    "MAL": "MyAnimeList Feed"
+  },
+  "SOURCE_FEED_DETAILS": {
+    "ANNOUNCEMENTS": "Offizielle Bekanntmachungen der Filo-Verwaltung über Änderungen im Dienst, besondere Ereignisse oder andere wichtige Mitteilungen.",
+    "STATUS": "Benachrichtigungen über den Status unseres Dienstes. Sie werden benachrichtigt, wenn ein Ausfall unseres Dienstes oder eine geplante Wartung vorliegt.",
+    "UPDATES": "Benachrichtigungen mit Informationen über neue Filo-Patches oder Dienste im Zusammenhang mit Filo.",
+    "FREE_GAMES": "Benachrichtigungen für FREE GAMES! Wenn wir von der Existenz eines kostenlosen Spiels erfahren, werden wir Sie sofort benachrichtigen.",
+    "MAL": "Willkommen bei MyAnimeList, der weltweit aktivsten Online-Anime- und Manga-Community und Datenbank. Treten Sie der Online-Community bei, erstellen Sie Ihre Anime- und Manga-Liste, lesen Sie Rezensionen, erkunden Sie die Foren, verfolgen Sie Neuigkeiten und vieles mehr!"
+  }
+}

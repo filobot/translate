@@ -1,0 +1,21 @@
+{
+  "description": "Modul, mit dem Sie die Sprache des Filo einstellen können.",
+  "subcommands": {
+    "select": {
+      "description": "Wählen Sie die von Ihnen bevorzugte Filo-Sprache (muss verfügbar sein)."
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Sprachmoduls."
+    },
+    "view": {
+      "description": "Zeigen Sie die aktuellen Sprachinformationen an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "name": "bestätigung",
+        "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+      }
+    }
+  }
+}

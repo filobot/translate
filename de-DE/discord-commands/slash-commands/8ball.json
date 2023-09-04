@@ -1,0 +1,9 @@
+{
+  "description": "Stellen Sie der 8 eine Frage und sie wird Ihnen weise antworten.",
+  "arguments": {
+    "question": {
+      "name": "frage",
+      "description": "Fragen Sie, was Sie mit der 8er-Kugel machen wollen."
+    }
+  }
+}

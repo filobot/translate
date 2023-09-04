@@ -1,0 +1,9 @@
+{
+  "description": "Ermittelt die grundlegenden Informationen zu einer zufälligen Farbe.",
+  "arguments": {
+    "saturation": {
+      "name": "sättigung",
+      "description": "Sättigung, die die Zufallsfarbe haben soll."
+    }
+  }
+}

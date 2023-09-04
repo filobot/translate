@@ -1,0 +1,9 @@
+{
+  "description": "Holen Sie sich die Statistiken eines osu!-Spielers.",
+  "arguments": {
+    "player": {
+      "name": "spieler",
+      "description": "Im Spiel Nick des Spielers."
+    }
+  }
+}

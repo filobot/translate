@@ -1,0 +1,97 @@
+{
+  "description": "Minecraft-Dienstprogramm-Befehle.",
+  "subcommand_groups": {
+    "front": {
+      "description": "Sendet eine Darstellung der Vorderseite des angegebenen Spielers.",
+      "subcommands": {
+        "body": {
+          "description": "Sendet ein Rendering des Vorderkörpers des angegebenen Spielers.",
+          "arguments": {
+            "player": {
+              "name": "spieler",
+              "description": "Minecraft-Spieler."
+            }
+          }
+        },
+        "normal": {
+          "description": "Sendet eine Darstellung der Vorderseite des angegebenen Spielers.",
+          "arguments": {
+            "player": {
+              "name": "spieler",
+              "description": "Minecraft-Spieler."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "body": {
+      "description": "Sendet ein Rendering des Körpers des angegebenen Spielers.",
+      "arguments": {
+        "player": {
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
+        }
+      }
+    },
+    "bust": {
+      "description": "Sendet ein Rendering der Büste des angegebenen Spielers.",
+      "arguments": {
+        "player": {
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
+        }
+      }
+    },
+    "face": {
+      "description": "Sendet ein Rendering des Gesichts des angegebenen Spielers.",
+      "arguments": {
+        "player": {
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
+        }
+      }
+    },
+    "head": {
+      "description": "Sendet ein Rendering des Kopfes des angegebenen Spielers.",
+      "arguments": {
+        "player": {
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
+        }
+      }
+    },
+    "skin": {
+      "description": "Sendet ein Rendering der Haut des angegebenen Spielers.",
+      "arguments": {
+        "player": {
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
+        }
+      }
+    },
+    "uuid": {
+      "description": "Ermittelt die UUID eines Minecraft-Spielers.",
+      "arguments": {
+        "player": {
+          "name": "spieler",
+          "description": "Minecraft-Spieler."
+        }
+      }
+    },
+    "server": {
+      "description": "Ermittelt den Status eines Minecraft-Servers.",
+      "arguments": {
+        "ip-address": {
+          "name": "ip-adresse",
+          "description": "IP-Adresse des Minecraft-Servers."
+        },
+        "port": {
+          "name": "hafen",
+          "description": "Minecraft-Server-Anschluss."
+        }
+      }
+    }
+  }
+}

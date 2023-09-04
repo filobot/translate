@@ -1,0 +1,18 @@
+{
+  "ROLE": "Rolle",
+  "ROLES": "Rollen",
+  "ROLE_COLOR": "Farbe der Rolle",
+  "ROLE_POSITION": "Position der Rolle",
+  "ROLE_PERMISSIONS": "Rollenberechtigungen",
+  "ROLE_MANAGED_TRUE": "Die Rolle wird von einem Integrationsbeauftragten verwaltet",
+  "ROLE_MANAGED_FALSE": "Die Rolle wird nicht durch eine Integration verwaltet",
+  "ROLE_HOIST_TRUE": "Die Rolle ist Hebezeug",
+  "ROLE_HOIST_FALSE": "Die Rolle ist nicht hebbar",
+  "ROLE_MENTIONABLE_TRUE": "Die Rolle kann von jedem angesprochen werden",
+  "ROLE_MENTIONABLE_FALSE": "Die Rolle kann nur von Benutzern mit dem Recht ``{{permission}}`` erwähnt werden",
+  "ROLE_TYPE": "Rollenart",
+  "NORMAL_ROLE": "Normale Rolle",
+  "BOT_ROLE": "Bot-Rolle",
+  "INTEGRATION_ROLE": "Rolle der Integration",
+  "PREMIUM_ROLE": "Rolle des Premium-Abonnenten"
+}

@@ -1,0 +1,65 @@
+{
+  "description": "Modul, das die Konfiguration eines Channels als Zähler für Servermitglieder ermöglicht.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Mitgliedszähler-Modul.",
+      "arguments": {
+        "module": {
+          "name": "modul",
+          "description": "Modul, das Sie aktivieren möchten."
+        }
+      }
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das Mitgliedszähler-Modul.",
+      "arguments": {
+        "module": {
+          "name": "modul",
+          "description": "Modul, das Sie deaktivieren möchten."
+        }
+      }
+    },
+    "channel": {
+      "description": "Stellen Sie den Zählerkanal des Mitglieds ein.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Kanal, den Sie als Mitgliedszähler-Kanal festlegen möchten."
+        }
+      }
+    },
+    "name": {
+      "description": "Legen Sie den Namen des Mitgliedszählerkanals fest.",
+      "arguments": {
+        "name": {
+          "name": "name",
+          "description": "Name des Mitglied-Zählerkanals."
+        }
+      }
+    },
+    "nickname": {
+      "description": "Legen Sie den Spitznamen des Mitgliedszähler-Spitznamens fest.",
+      "arguments": {
+        "nickname": {
+          "name": "spitzname",
+          "description": "Spitzname des Mitglieds Zähler Spitzname."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Mitgliedszählermoduls."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Mitgliedszählermoduls an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

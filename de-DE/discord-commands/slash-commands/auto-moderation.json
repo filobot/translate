@@ -1,0 +1,73 @@
+{
+  "description": "Modul, mit dem Sie Benutzer mit einer bestimmten Anzahl.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Modul für die automatische Moderation."
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das automatische Moderationsmodul."
+    },
+    "add": {
+      "description": "Fügen Sie dem Auto-Moderator eine Stufe hinzu.",
+      "arguments": {
+        "warnings": {
+          "name": "warnungen",
+          "description": "Anzahl der Warnungen, die der Benutzer haben muss, um diese Stufe zu erreichen."
+        },
+        "action": {
+          "name": "aktion",
+          "description": "Maßnahmen, die zu ergreifen sind, wenn jemand diese Stufe erreicht."
+        },
+        "time": {
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
+        }
+      }
+    },
+    "remove": {
+      "description": "Entfernen Sie eine Stufe aus dem Auto-Moderator.",
+      "arguments": {
+        "level": {
+          "name": "ebene",
+          "description": "Auto-Moderator-Ebene."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Auto-Moderationsmoduls."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Moduls für die automatische Moderation an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    },
+    "set": {
+      "description": "Legen Sie die Parameter einer Auto-Moderator-Ebene fest.",
+      "arguments": {
+        "level": {
+          "name": "ebene",
+          "description": "Auto-Moderator-Ebene."
+        },
+        "warnings": {
+          "name": "warnungen",
+          "description": "Anzahl der Warnungen, die der Benutzer haben muss, um diese Stufe zu erreichen."
+        },
+        "action": {
+          "name": "aktion",
+          "description": "Maßnahmen, die zu ergreifen sind, wenn jemand diese Stufe erreicht."
+        },
+        "time": {
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
+        }
+      }
+    }
+  }
+}

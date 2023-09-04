@@ -1,0 +1,13 @@
+{
+  "description": "Verwalten Sie den Spitznamen eines Benutzers.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, dessen Spitznamen Sie ändern möchten."
+    },
+    "nickname": {
+      "name": "spitzname",
+      "description": "Spitzname, den Sie dem Benutzer zuweisen möchten."
+    }
+  }
+}

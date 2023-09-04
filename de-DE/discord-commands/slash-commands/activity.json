@@ -1,0 +1,13 @@
+{
+  "description": "Starten Sie eine Aktivität in einem Sprachkanal.",
+  "arguments": {
+    "activity": {
+      "name": "tätigkeit",
+      "description": "Aktivität, die Sie beginnen möchten."
+    },
+    "channel": {
+      "name": "kanal",
+      "description": "Sprachkanal, auf dem Sie die Aktivität starten möchten."
+    }
+  }
+}

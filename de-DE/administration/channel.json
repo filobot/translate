@@ -1,0 +1,19 @@
+{
+  "COOLDOWN": {
+    "COMPLETED": "Sie haben **{{time}}** als Abklingzeit für den **[#{{channel.name}}]({{url}})** Kanal eingestellt."
+  },
+  "MESSAGES": {
+    "PIN": {
+      "COMPLETED": "Sie haben die Nachricht **[{{message.id}}]({{message.url}})** an den **[#{{channel.name}}]({{url}})** Kanal angeheftet."
+    },
+    "PURGE": {
+      "COMPLETED": "Sie haben **{{messages}}** Nachrichten aus dem **[#{{channel.name}}]({{url}})** ({{channel.id}}) Kanal gelöscht."
+    },
+    "UNPIN": {
+      "COMPLETED": "Sie haben die Nachricht **[{{message.id}}]({{message.url}})** auf dem Kanal **[#{{channel.name}}]({{url}})** entpinnt."
+    }
+  },
+  "NSFW": {
+    "COMPLETED": "Sie haben {{action}} NSFW Modus auf dem **[#{{channel.name}}]({{url}})** ({{channel.id}}) Kanal."
+  }
+}

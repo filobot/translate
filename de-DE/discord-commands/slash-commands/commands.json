@@ -1,0 +1,46 @@
+{
+  "description": "Verwalten Sie die Befehle von Filo, indem Sie sie aktivieren oder deaktivieren.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie den Befehl oder die Kategorie eines Filo.",
+      "arguments": {
+        "target": {
+          "name": "ziel",
+          "description": "Geben Sie an, was Sie aktivieren möchten."
+        },
+        "value": {
+          "name": "wert",
+          "description": "Name des Befehls oder der Kategorie, die Sie aktivieren möchten."
+        }
+      }
+    },
+    "disable": {
+      "description": "Deaktivieren Sie den Befehl oder die Kategorie eines Filo.",
+      "arguments": {
+        "target": {
+          "name": "ziel",
+          "description": "Geben Sie an, was Sie deaktivieren möchten."
+        },
+        "value": {
+          "name": "wert",
+          "description": "Name des Befehls oder der Kategorie, die Sie deaktivieren möchten."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Moduls Befehle deaktivieren."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Moduls zum Deaktivieren von Befehlen an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her (die Daten können nicht wiederhergestellt werden).",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

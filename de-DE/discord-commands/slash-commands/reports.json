@@ -1,0 +1,35 @@
+{
+  "description": "Modul, mit dem Benutzer den Moderatoren des Servers schlechtes Verhalten melden können.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Berichtsmodul."
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das Berichtsmodul."
+    },
+    "channel": {
+      "description": "Legen Sie den Kanal fest, über den die Berichte gesendet werden sollen.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Kanal, an den die Berichte gesendet werden sollen."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Berichtsmoduls."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Berichtsmoduls an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Zeigen Sie Ihre Credits oder die Credits eines anderen Benutzers an.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, dem Sie die Credits zukommen lassen möchten."
+    }
+  }
+}

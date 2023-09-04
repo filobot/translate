@@ -1,0 +1,13 @@
+{
+  "description": "Zahlen Sie einem anderen Nutzer einen bestimmten Betrag an Credits.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, den Sie bezahlen möchten."
+    },
+    "amount": {
+      "name": "betrag",
+      "description": "Höhe der Kredite, die Sie zahlen möchten."
+    }
+  }
+}

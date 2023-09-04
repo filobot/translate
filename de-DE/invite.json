@@ -1,0 +1,11 @@
+{
+  "INVITE": "Einladen",
+  "INVITES": "Einladungen",
+  "INVITE_CODE": "Code einladen",
+  "MAXIMUM_USES": "Maximale Nutzung der Einladung",
+  "TEMPORARY_TRUE": "Die Einladung hat eine befristete Mitgliedschaft",
+  "TEMPORARY_FALSE": "Die Einladung hat volle Mitgliedschaft",
+  "ACTIVITY_TRUE": "Die Einladung gehört zu einer Aktivität",
+  "ACTIVITY_FALSE": "Die Einladung gehört nicht zu einer Aktivität",
+  "MAXIMUM_PARTICIPANTS": "Maximale Teilnehmerzahl"
+}

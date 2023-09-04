@@ -1,0 +1,17 @@
+{
+  "description": "Entfernen Sie die Sperre eines Benutzers.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, für den Sie die Sperre aufheben möchten."
+    },
+    "reason": {
+      "name": "grund",
+      "description": "Grund für die Aufhebung des Verbots."
+    },
+    "force": {
+      "name": "kraft",
+      "description": "Aufhebung des Verbots erzwingen."
+    }
+  }
+}

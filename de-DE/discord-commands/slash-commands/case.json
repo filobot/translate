@@ -1,0 +1,27 @@
+{
+  "description": "Verwalten Sie einen Sanktionsfall.",
+  "subcommands": {
+    "info": {
+      "description": "Informieren Sie sich über ein Sanktionsverfahren.",
+      "arguments": {
+        "case": {
+          "name": "fall",
+          "description": "ID des Falles."
+        }
+      }
+    },
+    "set": {
+      "description": "Legen Sie die neuen Informationen für einen Fall fest.",
+      "arguments": {
+        "case": {
+          "name": "fall",
+          "description": "ID des Falles."
+        },
+        "reason": {
+          "name": "grund",
+          "description": "Grund, den Sie dem Fall zuordnen möchten."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Senden Sie ein zufälliges Bild einer Neko.",
+  "subcommands": {
+    "blushing": {
+      "description": "Senden Sie ein beliebiges Bild einer errötenden Neko."
+    },
+    "random": {
+      "description": "Senden Sie ein zufälliges Bild einer Neko."
+    }
+  }
+}

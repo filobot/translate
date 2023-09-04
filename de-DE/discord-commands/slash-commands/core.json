@@ -1,0 +1,153 @@
+{
+  "description": "Befehle aus der Kategorie Core.",
+  "subcommands": {
+    "info": {
+      "description": "Erhalten Sie Informationen über den Bot."
+    },
+    "flags": {
+      "description": "Zeigen Sie Ihre Flaggen oder die eines anderen Benutzers.",
+      "arguments": {
+        "user": {
+          "name": "benutzer",
+          "description": "Zeigt die Flaggen des Benutzers an."
+        }
+      }
+    },
+    "donate": {
+      "description": "Informieren Sie sich über Spenden für den Bot."
+    },
+    "commands": {
+      "description": "Abrufen der Liste der Bot-Befehle oder von Informationen über einen Befehl.",
+      "arguments": {
+        "command": {
+          "name": "befehl",
+          "description": "Abrufen von Informationen aus einem Befehl."
+        }
+      }
+    },
+    "invite": {
+      "description": "Holen Sie sich den empfohlenen Filo Einladungslink."
+    },
+    "privacy": {
+      "description": "Hier finden Sie den Link zu den Datenschutzbestimmungen von Filo."
+    },
+    "terms": {
+      "description": "Hier finden Sie den Link zu den Allgemeinen Geschäftsbedingungen von Filo."
+    },
+    "twitter": {
+      "description": "Hier der Link zu Filo Twitter."
+    },
+    "status": {
+      "description": "Hier finden Sie den Link zu Filo Statusseite."
+    },
+    "website": {
+      "description": "Hier finden Sie den Link zu Filo Website."
+    },
+    "github": {
+      "description": "Hier der Link zu Filo GitHub."
+    },
+    "discord": {
+      "description": "Holen Sie sich den Link zu Filo Discord Server."
+    },
+    "wiki": {
+      "description": "Holen Sie sich den Link zu Filo Wiki."
+    },
+    "help": {
+      "description": "Holen Sie sich grundlegende Hilfe für den Bot."
+    },
+    "support": {
+      "description": "Informieren Sie sich darüber, wie Sie Unterstützung erhalten können."
+    },
+    "vote": {
+      "description": "Holen Sie sich den Link zu den Abstimmungsseiten von Filo."
+    },
+    "votes": {
+      "description": "Holen Sie sich den Stimmenzähler aller Abstimmungsseiten von Filo."
+    },
+    "cluster": {
+      "description": "Informationen über den aktuellen Filo-Cluster abrufen."
+    },
+    "statistics": {
+      "description": "Holen Sie sich die globalen Statistiken von Filo."
+    },
+    "ping": {
+      "description": "Holen Sie sich die Latenz von Filo und von der Discord-API."
+    }
+  },
+  "subcommand_groups": {
+    "roles": {
+      "description": "Verwalten Sie Rollen auf eine fortschrittliche Art und Weise.",
+      "subcommands": {
+        "muted": {
+          "description": "Erstellen Sie die Rolle \"Stumm\" oder legen Sie sie in den Einstellungen fest.",
+          "arguments": {
+            "role": {
+              "name": "rolle",
+              "description": "Stummgeschaltete Rolle (für den Fall, dass Sie sie einstellen und nicht erstellen möchten)."
+            }
+          }
+        },
+        "remove": {
+          "description": "Entfernen Sie alle Parameter einer Rolle aus den Einstellungen.",
+          "arguments": {
+            "role": {
+              "name": "rolle",
+              "description": "Rolle, für die Sie alle Parameter (Eigenschaften und Berechtigungen) entfernen möchten."
+            }
+          }
+        },
+        "permissions": {
+          "description": "Verwalten Sie die Berechtigungen der einzelnen Rollen.",
+          "arguments": {
+            "role": {
+              "name": "rolle",
+              "description": "Die Rolle, die Sie verwalten möchten."
+            },
+            "permission": {
+              "name": "genehmigung",
+              "description": "Berechtigung, die Sie hinzufügen, festlegen oder entfernen möchten."
+            }
+          }
+        },
+        "view": {
+          "description": "Holen Sie sich die Einstellungen der Gildenrollen."
+        },
+        "reset": {
+          "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+          "arguments": {
+            "confirmation": {
+              "name": "bestätigung",
+              "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+            }
+          }
+        }
+      }
+    },
+    "moderation": {
+      "description": "Verwalten Sie den Moderationsbereich.",
+      "subcommands": {
+        "dm-notifications": {
+          "description": "Aktivieren oder deaktivieren Sie Benachrichtigungen für Moderationsaktionen.",
+          "arguments": {
+            "action": {
+              "name": "aktion",
+              "description": "Aktion, die Sie durchführen möchten."
+            }
+          }
+        },
+        "view": {
+          "description": "Zeigen Sie die Einstellungen des Moduls \"Moderations-parameter\" an."
+        },
+        "reset": {
+          "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+          "arguments": {
+            "confirmation": {
+              "name": "bestätigung",
+              "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+            }
+          }
+        }
+      }
+    }
+  }
+}

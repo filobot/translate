@@ -1,0 +1,9 @@
+{
+  "description": "Erhalten Sie die Statistiken eines CSGO-Spielers.",
+  "arguments": {
+    "player": {
+      "name": "spieler",
+      "description": "Im Spiel Nick des Spielers."
+    }
+  }
+}

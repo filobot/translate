@@ -1,0 +1,23 @@
+{
+  "description": "Morsezeichen kodieren oder dekodieren.",
+  "subcommands": {
+    "encode": {
+      "description": "Konvertieren Sie den Text in Morsecode.",
+      "arguments": {
+        "code": {
+          "name": "code",
+          "description": "Text, den Sie in Morsecode kodieren möchten."
+        }
+      }
+    },
+    "decode": {
+      "description": "Wandeln Sie den Morsecode in Text um.",
+      "arguments": {
+        "code": {
+          "name": "code",
+          "description": "Morsecode, den Sie in Text dekodieren möchten."
+        }
+      }
+    }
+  }
+}

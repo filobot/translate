@@ -1,0 +1,39 @@
+{
+  "description": "Manga Dienstprogramme.",
+  "subcommands": {
+    "random": {
+      "description": "Zeigen Sie die Informationen aus einem zufälligen Manga nach den von Ihnen angegebenen Kriterien an.",
+      "arguments": {
+        "term": {
+          "name": "begriff",
+          "description": "Begriff, der den Titel des Mangas enthalten muss."
+        },
+        "type": {
+          "name": "typ",
+          "description": "Manga-Typ."
+        },
+        "status": {
+          "name": "status",
+          "description": "Der Status des Mangas."
+        },
+        "rating": {
+          "name": "bewertung",
+          "description": "Bewertung des Mangas."
+        },
+        "genre": {
+          "name": "genre",
+          "description": "Genre oder eines der Genres des Anime."
+        }
+      }
+    },
+    "search": {
+      "description": "Suche die Informationen eines Mangas.",
+      "arguments": {
+        "title": {
+          "name": "titel",
+          "description": "Titel des Mangas."
+        }
+      }
+    }
+  }
+}

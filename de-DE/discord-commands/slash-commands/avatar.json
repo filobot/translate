@@ -1,0 +1,9 @@
+{
+  "description": "Zeigen Sie Ihren Avatar oder den eines Benutzers.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, dessen Avatar Sie erhalten möchten."
+    }
+  }
+}

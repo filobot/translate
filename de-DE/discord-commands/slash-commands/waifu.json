@@ -1,0 +1,14 @@
+{
+  "description": "Schicke ein zufälliges Bild einer Waifu.",
+  "subcommands": {
+    "fox": {
+      "description": "Schicke ein zufälliges Bild von einem Waifu-Fuchs."
+    },
+    "neko": {
+      "description": "Schicke ein zufälliges Bild einer Waifu-Neko."
+    },
+    "random": {
+      "description": "Schicke ein zufälliges Bild einer Waifu."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Holen Sie sich die Statistiken eines R6S-Spielers.",
+  "arguments": {
+    "platform": {
+      "name": "plattform",
+      "description": "Plattform, auf der der Spieler spielt."
+    },
+    "player": {
+      "name": "spieler",
+      "description": "Im Spiel Nick des Spielers."
+    }
+  }
+}

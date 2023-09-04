@@ -1,0 +1,45 @@
+{
+  "description": "Modul, mit dem Sie eine Abschiedsnachricht an alte Mitglieder senden können.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Modul für Verabschiedungen."
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das Modul für Verabschiedungen."
+    },
+    "channel": {
+      "description": "Legen Sie den Kanal fest, über den die Abschiedsnachrichten gesendet werden sollen.",
+      "arguments": {
+        "name": "kanal",
+        "description": "Kanal, über den die Abschiedsnachrichten gesendet werden."
+      }
+    },
+    "message": {
+      "description": "Legen Sie die Abschiedsnachricht fest."
+    },
+    "type": {
+      "description": "Legen Sie die Art und Weise fest, wie die Abschiedsnachricht gesendet werden soll.",
+      "arguments": {
+        "type": {
+          "name": "typ",
+          "description": "Art und Weise, in der der Willkommensgruß gesendet wird."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Abschiedsmoduls."
+    },
+    "view": {
+      "description": "Sehen Sie sich die Einstellungen des Abschiedsmoduls an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

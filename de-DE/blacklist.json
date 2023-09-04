@@ -1,0 +1,11 @@
+{
+  "WATCHING_THE_BAN_INFO": "Beobachtung der Verbotsinformationen",
+  "APPEAL_STATUS": "Status des Rechtsbehelfs",
+  "APPEAL_DATE": "Datum des Rechtsbehelfs",
+  "WARNING_BEFORE_APPEAL": "Wenn Sie zu viele Einsprüche einreichen oder Informationen über Ihre Sperre weitergeben, verlieren Sie die Möglichkeit, Einspruch zu erheben.",
+  "WARNING_APPEAL_COOLDOWN": "Wir haben Ihren Widerspruch **{{time}}** erhalten, der abgelehnt wurde. Sie können erst wieder unter **{{expiration_date}}** Widerspruch einlegen.",
+  "USER_BANNED_TITLE": "Sie dürfen Filo nicht mehr benutzen!",
+  "USER_BANNED_DESCRIPTION": "Wenn Sie gegen diese Sperre Einspruch erheben wollen, klicken Sie auf die Schaltfläche **Sperre anfechten**.",
+  "GUILD_BANNED_TITLE": "Dieser Gilde ist die Verwendung von Filo untersagt!",
+  "GUILD_BANNED_DESCRIPTION": "Wenn Sie der Besitzer des Servers sind und Informationen darüber wünschen, wie Sie Einspruch erheben können, klicken Sie auf die Schaltfläche **Einspruch erheben**."
+}

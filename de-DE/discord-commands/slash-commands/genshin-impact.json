@@ -1,0 +1,33 @@
+{
+  "description": "Senden Sie ein zufälliges Genshin Impact Hintergrundbild.",
+  "subcommands": {
+    "desktop": {
+      "description": "Holen Sie sich ein zufälliges Desktop-Hintergrundbild."
+    },
+    "mobile": {
+      "description": "Holen Sie sich ein zufälliges Handy-Hintergrundbild."
+    },
+    "random": {
+      "description": "Holen Sie sich zufällige Hintergrundbilder für Desktop und Handy."
+    }
+  },
+  "subcommand_groups": {
+    "cards": {
+      "description": "Holen Sie sich ein zufälliges Karten-Hintergrundbild.",
+      "subcommands": {
+        "characters": {
+          "description": "Nimm eine zufällige Charakterkarte."
+        },
+        "equipments": {
+          "description": "Erhalte eine zufällige Ausrüstungskarte."
+        },
+        "events": {
+          "description": "Erhalte eine zufällige Ereigniskarte."
+        },
+        "supports": {
+          "description": "Holen Sie sich eine zufällige Unterstützungskarte."
+        }
+      }
+    }
+  }
+}

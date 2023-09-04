@@ -1,0 +1,11 @@
+{
+  "WATCHING_THE_WEATHER": "Beobachtung des Wetters von **{{location.name}}**",
+  "LATITUDE": "Breitengrad",
+  "LONGITUDE": "Längengrad",
+  "TIME_ZONE": "Zeitzone",
+  "TEMPERATURE": "Temperatur",
+  "ACTUAL_TEMPERATURE": "Tatsächliche Temperatur",
+  "WEATHER": "Wetter",
+  "HUMIDITY": "Luftfeuchtigkeit",
+  "WIND": "Wind"
+}

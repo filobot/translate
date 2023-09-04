@@ -1,0 +1,14 @@
+{
+  "description": "Songtext-Dienstprogramme.",
+  "subcommands": {
+    "search": {
+      "description": "Suche nach einem Lied.",
+      "arguments": {
+        "song": {
+          "name": "lied",
+          "description": "Titel des Liedes."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "CLUSTER": "Cluster",
+  "SHARD": "Scherbe",
+  "SHARDS": "Scherben",
+  "PING": "Ping",
+  "LIBRARY": "Bibliothek",
+  "NODE_VERSION": "Version des Knotens",
+  "OPERATIVE_SYSTEM": "Operatives System",
+  "TOTAL_SERVERS": "Server insgesamt",
+  "TOTAL_USERS": "Benutzer insgesamt",
+  "TOTAL_CACHED_CHANNELS": "Zwischengespeicherte Kanäle insgesamt",
+  "SERVERS": "Server",
+  "USERS": "Benutzer",
+  "CACHED_CHANNELS": "Zwischengespeicherte Kanäle"
+}

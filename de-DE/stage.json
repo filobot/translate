@@ -1,0 +1,9 @@
+{
+  "STAGE_INSTANCE": "Bühneninstanz",
+  "STAGE_INSTANCES": "Bühneninstanzen",
+  "STAGE_INSTANCE_PRIVACY_LEVEL": "Datenschutzstufe",
+  "PUBLIC_STAGE_INSTANCE": "Öffentliche Bühneninstanz",
+  "PRIVATE_STAGE_INSTANCE": "Private Bühneninstanz",
+  "DISCOVERABLE_DISABLED_TRUE": "Die Bühneninstanz ist nicht auffindbar",
+  "DISCOVERABLE_DISABLED_FALSE": "Die Bühneninstanz ist auffindbar"
+}

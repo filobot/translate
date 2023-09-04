@@ -1,0 +1,94 @@
+{
+  "description": "Modul, mit dem Sie Benutzer, die Links versenden, sanktionieren können.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Modul gegen externe Links."
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das Modul gegen externe Links."
+    },
+    "action": {
+      "description": "Legen Sie die Aktion fest, die ausgeführt werden soll, wenn ein Benutzer einen Link sendet.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktion, die ausgeführt werden soll, wenn ein Benutzer einen Link sendet."
+        },
+        "time": {
+          "name": "zeit",
+          "description": "Zeitpunkt der Maßnahme (falls sie vorübergehend ist)."
+        }
+      }
+    },
+    "filo": {
+      "description": "Aktivieren oder deaktivieren Sie die Umgehung von Links von Filo-Domains.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktivieren oder deaktivieren Sie die Umgehung von Links von Filo-Domains."
+        }
+      }
+    },
+    "discord": {
+      "description": "Aktivieren oder deaktivieren Sie die Umgehung von Links von Discord-Domains.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktivieren oder deaktivieren Sie die Umgehung von Links von Discord-Domains."
+        }
+      }
+    },
+    "link": {
+      "description": "Hinzufügen oder Entfernen eines Links aus der Liste der ignorierten Links.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
+        },
+        "link": {
+          "name": "link",
+          "description": "Link, den Sie zur Liste der ignorierten Links hinzufügen oder entfernen möchten."
+        }
+      }
+    },
+    "channel": {
+      "description": "Hinzufügen oder Entfernen eines Kanals aus der Liste der ignorierten Kanäle.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
+        },
+        "channel": {
+          "description": "Kanal aus der Kanalumgehungsliste des Moduls."
+        }
+      }
+    },
+    "role": {
+      "description": "Hinzufügen oder Entfernen einer Rolle aus der Liste der ignorierten Rollen.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktion, die Sie durchführen möchten."
+        },
+        "role": {
+          "description": "Rolle aus der Rollenumgehungsliste des Moduls."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Moduls anti-external-links."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Anti-Extern-Links-Moduls an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

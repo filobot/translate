@@ -1,0 +1,58 @@
+{
+  "description": "Anime-Dienstprogramme.",
+  "subcommands": {
+    "avatar": {
+      "description": "Senden Sie ein zufälliges Bild eines Anime-Avatars."
+    },
+    "search": {
+      "description": "Suchen Sie die Informationen eines Anime.",
+      "arguments": {
+        "title": {
+          "name": "titel",
+          "description": "Titel des Anime."
+        }
+      }
+    },
+    "random": {
+      "description": "Zeigt die Informationen eines zufälligen Animes nach den von Ihnen angegebenen Kriterien an.",
+      "arguments": {
+        "term": {
+          "name": "begriff",
+          "description": "Begriff, der den Titel des Anime enthalten muss."
+        },
+        "type": {
+          "name": "typ",
+          "description": "Anime-Typ."
+        },
+        "status": {
+          "name": "status",
+          "description": "Der Status des Anime."
+        },
+        "rating": {
+          "name": "bewertung",
+          "description": "Bewertung des Animes."
+        },
+        "genre": {
+          "name": "genre",
+          "description": "Genre oder eines der Genres des Anime."
+        }
+      }
+    }
+  },
+  "subcommand_groups": {
+    "characters": {
+      "description": "Senden Sie ein zufälliges Bild oder ein Gif über eine Anime-Figur.",
+      "subcommands": {
+        "ghoul": {
+          "description": "Senden Sie ein zufälliges Bild eines Ghouls."
+        },
+        "jojo": {
+          "description": "Senden Sie ein zufälliges Bild von einem Jojo."
+        },
+        "titan": {
+          "description": "Senden Sie ein zufälliges Bild von einem Titanen."
+        }
+      }
+    }
+  }
+}

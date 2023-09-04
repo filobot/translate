@@ -1,0 +1,27 @@
+{
+  "description": "Verfolgen Sie unsere Nachrichtenkanäle oder informieren Sie sich über sie.",
+  "subcommands": {
+    "information": {
+      "description": "Informieren Sie sich über unsere Nachrichtenkanäle.",
+      "arguments": {
+        "news": {
+          "name": "nachrichten",
+          "description": "Nachrichten, über die Sie sich informieren möchten."
+        }
+      }
+    },
+    "follow": {
+      "description": "Verfolgen Sie die Nachrichten von unserem Server auf Ihrem Server.",
+      "arguments": {
+        "news": {
+          "name": "nachrichten",
+          "description": "Nachrichtenkanal, den Sie verfolgen möchten."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Kanal, an den die Nachrichten gesendet werden sollen."
+        }
+      }
+    }
+  }
+}

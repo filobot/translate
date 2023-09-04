@@ -1,0 +1,44 @@
+{
+  "description": "Modul, das es erlaubt, die Logs des Servers an einen Channel zu senden.",
+  "subcommands": {
+    "enable": {
+      "description": "Aktivieren Sie das Protokollierungsmodul."
+    },
+    "disable": {
+      "description": "Deaktivieren Sie das Protokollierungsmodul."
+    },
+    "events": {
+      "description": "Verwalten Sie die verschiedenen Ereignisse, die Sie anzeigen möchten.",
+      "arguments": {
+        "action": {
+          "name": "aktion",
+          "description": "Aktiviert oder deaktiviert ein Ereignis."
+        }
+      }
+    },
+    "channel": {
+      "description": "Stellen Sie den Protokollierungskanal ein.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Kanal, an den die Protokolle gesendet werden sollen."
+        }
+      }
+    },
+    "docs": {
+      "description": "Holen Sie sich den Link zur Dokumentation des Logging-Moduls."
+    },
+    "view": {
+      "description": "Zeigen Sie die Einstellungen des Protokollierungsmoduls an."
+    },
+    "reset": {
+      "description": "Stellt die ursprünglichen Einstellungen des Moduls wieder her.",
+      "arguments": {
+        "confirmation": {
+          "name": "bestätigung",
+          "description": "Sind Sie wirklich sicher, dass Sie die Daten für dieses Modul zurücksetzen wollen?"
+        }
+      }
+    }
+  }
+}

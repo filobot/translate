@@ -1,0 +1,127 @@
+{
+  "description": "Verwalten Sie einen Kanal.",
+  "subcommand_groups": {
+    "cooldown": {
+      "description": "Verwalten Sie die Abklingzeit eines Kanals.",
+      "subcommands": {
+        "set": {
+          "description": "Legt die Abklingzeit eines Kanals fest.",
+          "arguments": {
+            "time": {
+              "name": "zeit",
+              "description": "Abklingzeit, die Sie einstellen möchten."
+            },
+            "channel": {
+              "name": "kanal",
+              "description": "Kanal, für den Sie die Abklingzeit festlegen möchten."
+            },
+            "reset": {
+              "description": "Setzt die Abklingzeit eines Kanals zurück.",
+              "arguments": {
+                "channel": {
+                  "name": "kanal",
+                  "description": "Kanal, in dem Sie die Abklingzeit zurücksetzen möchten."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "messages": {
+      "description": "Verwalten Sie die Nachrichten eines Kanals.",
+      "subcommands": {
+        "pin": {
+          "description": "Pinnt eine Nachricht an den aktuellen Kanal.",
+          "arguments": {
+            "message": {
+              "name": "nachricht",
+              "description": "ID der Nachricht, die Sie anheften möchten."
+            }
+          }
+        },
+        "purge": {
+          "description": "Löschen Sie eine bestimmte Anzahl von Nachrichten aus einem Kanal.",
+          "arguments": {
+            "messages": {
+              "name": "nachrichten",
+              "description": "Anzahl der Nachrichten, die gelöscht werden sollen."
+            },
+            "channel": {
+              "name": "kanal",
+              "description": "Kanal, in dem Sie die Nachrichten löschen möchten."
+            }
+          }
+        },
+        "unpin": {
+          "description": "Hebt die Anheftung einer Nachricht auf dem aktuellen Kanal auf.",
+          "arguments": {
+            "message": {
+              "name": "nachricht",
+              "description": "ID der Nachricht, deren Anheftung Sie aufheben möchten."
+            }
+          }
+        }
+      }
+    },
+    "nsfw": {
+      "description": "Schalten Sie den NSFW-Modus eines Kanals um.",
+      "subcommands": {
+        "enable": {
+          "description": "Aktivieren Sie den NSFW-Modus eines Kanals.",
+          "arguments": {
+            "channel": {
+              "name": "kanal",
+              "description": "Kanal, für den Sie den NSFW-Modus aktivieren möchten."
+            }
+          }
+        },
+        "disable": {
+          "description": "Deaktivieren Sie den NSFW-Modus eines Kanals.",
+          "arguments": {
+            "channel": {
+              "name": "kanal",
+              "description": "Kanal, in dem Sie den NSFW-Modus deaktivieren möchten."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "info": {
+      "description": "Abrufen von Informationen über einen Kanal.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Kanal, aus dem die Informationen stammen werden."
+        }
+      }
+    },
+    "invite": {
+      "description": "Erstellen Sie eine sofortige Einladung für einen Kanal.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Kanal, in dem die sofortige Einladung erstellt werden soll."
+        },
+        "temporary": {
+          "name": "vorübergehend",
+          "description": "Geben Sie an, ob Sie eine vorübergehende oder eine dauerhafte Mitgliedschaft gewähren möchten."
+        },
+        "max-age": {
+          "name": "max-age",
+          "description": "Zeit, bis die Einladung abläuft."
+        },
+        "max-uses": {
+          "name": "max-uses",
+          "description": "Maximale Anzahl der Verwendungen der Einladung."
+        },
+        "force": {
+          "name": "kraft",
+          "description": "Erzwingen Sie die Erstellung der Einladung."
+        }
+      }
+    }
+  }
+}

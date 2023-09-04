@@ -1,0 +1,45 @@
+{
+  "description": "Erstellen Sie eine Umfrage für den aktuellen Kanal.",
+  "arguments": {
+    "message": {
+      "name": "nachricht",
+      "description": "Nachricht an die Umfrage."
+    },
+    "choice-1": {
+      "name": "wahl-1",
+      "description": "Wahlmöglichkeit 1 der Umfrage."
+    },
+    "choice-2": {
+      "name": "wahl-2",
+      "description": "Wahlmöglichkeit 2 der Umfrage."
+    },
+    "choice-3": {
+      "name": "wahl-3",
+      "description": "Wahlmöglichkeit 3 der Umfrage."
+    },
+    "choice-4": {
+      "name": "wahl-4",
+      "description": "Wahlmöglichkeit 4 der Umfrage."
+    },
+    "choice-5": {
+      "name": "auswahl-5",
+      "description": "Wahlmöglichkeit 5 der Umfrage."
+    },
+    "choice-6": {
+      "name": "wahl-6",
+      "description": "Wahlmöglichkeit 6 der Umfrage."
+    },
+    "choice-7": {
+      "name": "auswahl-7",
+      "description": "Wahlmöglichkeit 7 der Umfrage."
+    },
+    "choice-8": {
+      "name": "auswahl-8",
+      "description": "Wahlmöglichkeit 8 der Umfrage."
+    },
+    "choice-9": {
+      "name": "wahl-9",
+      "description": "Wahlmöglichkeit 9 der Umfrage."
+    }
+  }
+}

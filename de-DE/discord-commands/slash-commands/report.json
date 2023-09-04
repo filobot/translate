@@ -1,0 +1,39 @@
+{
+  "description": "Melden Sie schlechtes Verhalten an einen Server-Moderator.",
+  "subcommands": {
+    "member": {
+      "description": "Ein Mitglied melden.",
+      "arguments": {
+        "member": {
+          "name": "mitglied",
+          "description": "Mitglied, das Sie melden möchten."
+        },
+        "reason": {
+          "name": "grund",
+          "description": "Grund, warum Sie dieses Mitglied melden möchten."
+        },
+        "evidences": {
+          "name": "beweise",
+          "description": "Beweise für den Grund, warum Sie dieses Mitglied melden."
+        }
+      }
+    },
+    "message": {
+      "description": "Eine Nachricht melden.",
+      "arguments": {
+        "message": {
+          "name": "nachricht",
+          "description": "Nachricht, die Sie melden möchten."
+        },
+        "reason": {
+          "name": "grund",
+          "description": "Grund, warum Sie diese Nachricht melden möchten."
+        },
+        "evidences": {
+          "name": "beweise",
+          "description": "Beweise für den Grund, aus dem Sie diese Meldung machen."
+        }
+      }
+    }
+  }
+}
