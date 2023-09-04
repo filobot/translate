@@ -1,0 +1,21 @@
+{
+  "description": "Timeout a user from the server.",
+  "arguments": {
+    "user": {
+      "name": "用户",
+      "description": "User you want to timeout."
+    },
+    "time": {
+      "name": "时间",
+      "description": "制裁的期限。"
+    },
+    "reason": {
+      "name": "原因",
+      "description": "Reason for timeout this user."
+    },
+    "silent": {
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
+    }
+  }
+}
