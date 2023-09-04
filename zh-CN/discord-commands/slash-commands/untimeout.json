@@ -1,0 +1,21 @@
+{
+  "description": "Remove the timeout from a user.",
+  "arguments": {
+    "user": {
+      "name": "用户",
+      "description": "User you want to remove the timeout from."
+    },
+    "reason": {
+      "name": "原因",
+      "description": "Reason for removing the timeout."
+    },
+    "silent": {
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
+    },
+    "force": {
+      "name": "力量",
+      "description": "Force removal of the timeout."
+    }
+  }
+}
