@@ -1,9 +1,9 @@
 {
-  "description": "Timeout a user from the server.",
+  "description": "Aïllar un usuari del servidor.",
   "arguments": {
     "user": {
       "name": "usuari",
-      "description": "User you want to timeout."
+      "description": "Usuari al qual vols aïllar."
     },
     "time": {
       "name": "temps",
@@ -11,7 +11,7 @@
     },
     "reason": {
       "name": "raó",
-      "description": "Reason for timeout this user."
+      "description": "Raó per aïllar aquest usuari."
     },
     "silent": {
       "name": "silenciós",
