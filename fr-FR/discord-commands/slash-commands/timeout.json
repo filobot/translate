@@ -1,9 +1,9 @@
 {
-  "description": "Timeout a user from the server.",
+  "description": "Excluez temporairement un utilisateur du serveur.",
   "arguments": {
     "user": {
       "name": "utilisateur",
-      "description": "User you want to timeout."
+      "description": "Utilisateur que vous souhaitez exclure temporairement."
     },
     "time": {
       "name": "durée",
@@ -11,7 +11,7 @@
     },
     "reason": {
       "name": "raison",
-      "description": "Reason for timeout this user."
+      "description": "Raison pour l'exclusion de cet utilisateur."
     },
     "silent": {
       "name": "silence",
