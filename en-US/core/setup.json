@@ -210,7 +210,13 @@
       },
       "AUTO_MODERATION": {
         "LABEL": "Auto Moderation",
-        "DESCRIPTION": "Moderate users intelligently and automatically."
+        "DESCRIPTION": "Moderate users intelligently and automatically.",
+        "CONFIGURE": {
+          "CREATE_A_LEVEL": {
+            "LABEL": "Create a level",
+            "DESCRIPTION": "Create a level for the auto moderation module."
+          }
+        }
       }
     },
     "VIEW": {
