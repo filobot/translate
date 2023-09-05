@@ -1,13 +1,13 @@
 {
-  "description": "Remove the timeout from a user.",
+  "description": "Eliminar el aislamiento de un usuario.",
   "arguments": {
     "user": {
       "name": "usuario",
-      "description": "User you want to remove the timeout from."
+      "description": "Usuario al que quieres eliminar el aislamiento."
     },
     "reason": {
       "name": "razón",
-      "description": "Reason for removing the timeout."
+      "description": "Razón para eliminar el aislamiento."
     },
     "silent": {
       "name": "silencioso",
@@ -15,7 +15,7 @@
     },
     "force": {
       "name": "forzar",
-      "description": "Force removal of the timeout."
+      "description": "Forzar la eliminación del aislamiento."
     }
   }
 }
