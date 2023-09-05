@@ -208,8 +208,8 @@
           }
         }
       },
-      "AUTOMOD": {
-        "LABEL": "AutoMod",
+      "AUTO_MODERATION": {
+        "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically."
       }
     },
