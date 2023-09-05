@@ -207,6 +207,10 @@
             }
           }
         }
+      },
+      "AUTOMOD": {
+        "LABEL": "AutoMod",
+        "DESCRIPTION": "Moderate users intelligently and automatically."
       }
     },
     "VIEW": {
