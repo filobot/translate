@@ -1,9 +1,9 @@
 {
-  "description": "Timeout a user from the server.",
+  "description": "服务器超时。",
   "arguments": {
     "user": {
       "name": "用户",
-      "description": "User you want to timeout."
+      "description": "要超时的用户。"
     },
     "time": {
       "name": "时间",
@@ -11,7 +11,7 @@
     },
     "reason": {
       "name": "原因",
-      "description": "Reason for timeout this user."
+      "description": "该用户超时的原因。"
     },
     "silent": {
       "name": "无声无息",
