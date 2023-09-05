@@ -1,13 +1,13 @@
 {
-  "description": "Remove the timeout from a user.",
+  "description": "Entfernen Sie die Zeitüberschreitung eines Benutzers.",
   "arguments": {
     "user": {
       "name": "benutzer",
-      "description": "User you want to remove the timeout from."
+      "description": "Benutzer, von dem Sie die Zeitüberschreitung entfernen möchten."
     },
     "reason": {
       "name": "grund",
-      "description": "Reason for removing the timeout."
+      "description": "Grund für das Entfernen der Zeitüberschreitung."
     },
     "silent": {
       "name": "still",
@@ -15,7 +15,7 @@
     },
     "force": {
       "name": "kraft",
-      "description": "Force removal of the timeout."
+      "description": "Aufhebung der Zeitüberschreitung erzwingen."
     }
   }
 }
