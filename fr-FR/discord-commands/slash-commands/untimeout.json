@@ -1,13 +1,13 @@
 {
-  "description": "Remove the timeout from a user.",
+  "description": "Révoquez l'exclusion d'un utilisateur.",
   "arguments": {
     "user": {
       "name": "utilisateur",
-      "description": "User you want to remove the timeout from."
+      "description": "Utilisateur dont vous souhaitez révoquer l'exclusion."
     },
     "reason": {
       "name": "raison",
-      "description": "Reason for removing the timeout."
+      "description": "Raison de la révocation de l'exclusion."
     },
     "silent": {
       "name": "silence",
@@ -15,7 +15,7 @@
     },
     "force": {
       "name": "forcer",
-      "description": "Force removal of the timeout."
+      "description": "Forcez la révocation de l'exclusion."
     }
   }
 }
