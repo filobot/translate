@@ -214,7 +214,7 @@
         "CONFIGURE": {
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
-            "DESCRIPTION": "Create a level for the auto moderation module."
+            "DESCRIPTION": "Create a level for the Auto Moderation module."
           }
         }
       }
