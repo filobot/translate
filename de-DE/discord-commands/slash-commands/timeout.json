@@ -1,9 +1,9 @@
 {
-  "description": "Timeout a user from the server.",
+  "description": "Timeout eines Benutzers vom Server.",
   "arguments": {
     "user": {
       "name": "benutzer",
-      "description": "User you want to timeout."
+      "description": "Benutzer, der eine Zeitüberschreitung erhalten soll."
     },
     "time": {
       "name": "zeit",
@@ -11,7 +11,7 @@
     },
     "reason": {
       "name": "grund",
-      "description": "Reason for timeout this user."
+      "description": "Grund für das Timeout dieses Benutzers."
     },
     "silent": {
       "name": "still",
