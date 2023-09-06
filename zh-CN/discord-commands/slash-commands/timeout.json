@@ -1,0 +1,21 @@
+{
+  "description": "服务器超时。",
+  "arguments": {
+    "user": {
+      "name": "用户",
+      "description": "要超时的用户。"
+    },
+    "time": {
+      "name": "时间",
+      "description": "制裁的期限。"
+    },
+    "reason": {
+      "name": "原因",
+      "description": "该用户超时的原因。"
+    },
+    "silent": {
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
+    }
+  }
+}

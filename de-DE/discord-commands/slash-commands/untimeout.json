@@ -1,0 +1,21 @@
+{
+  "description": "Entfernen Sie die Zeitüberschreitung eines Benutzers.",
+  "arguments": {
+    "user": {
+      "name": "benutzer",
+      "description": "Benutzer, von dem Sie die Zeitüberschreitung entfernen möchten."
+    },
+    "reason": {
+      "name": "grund",
+      "description": "Grund für das Entfernen der Zeitüberschreitung."
+    },
+    "silent": {
+      "name": "still",
+      "description": "Geben Sie an, ob die Sanktion dem Benutzer nicht mitgeteilt werden soll."
+    },
+    "force": {
+      "name": "kraft",
+      "description": "Aufhebung der Zeitüberschreitung erzwingen."
+    }
+  }
+}

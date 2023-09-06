@@ -1,0 +1,21 @@
+{
+  "description": "ユーザーからタイムアウトを削除する。",
+  "arguments": {
+    "user": {
+      "name": "ユーザー",
+      "description": "タイムアウトを解除したいユーザー。"
+    },
+    "reason": {
+      "name": "理由",
+      "description": "タイムアウト解除の理由。"
+    },
+    "silent": {
+      "name": "無声",
+      "description": "制裁をユーザーに通知しない場合は、その旨を指定します。"
+    },
+    "force": {
+      "name": "力",
+      "description": "タイムアウトを強制的に解除する。"
+    }
+  }
+}

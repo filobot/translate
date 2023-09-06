@@ -1,0 +1,21 @@
+{
+  "description": "Excluez temporairement un utilisateur du serveur.",
+  "arguments": {
+    "user": {
+      "name": "utilisateur",
+      "description": "Utilisateur que vous souhaitez exclure temporairement."
+    },
+    "time": {
+      "name": "durée",
+      "description": "Durée de la sanction."
+    },
+    "reason": {
+      "name": "raison",
+      "description": "Raison pour l'exclusion de cet utilisateur."
+    },
+    "silent": {
+      "name": "silence",
+      "description": "Indiquez si vous souhaitez que la sanction ne soit pas notifiée à l'utilisateur."
+    }
+  }
+}

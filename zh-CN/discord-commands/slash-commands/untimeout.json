@@ -1,0 +1,21 @@
+{
+  "description": "删除用户的超时。",
+  "arguments": {
+    "user": {
+      "name": "用户",
+      "description": "要取消超时的用户。"
+    },
+    "reason": {
+      "name": "原因",
+      "description": "取消超时的原因。"
+    },
+    "silent": {
+      "name": "无声无息",
+      "description": "指定你是否想让制裁不被通知给用户。"
+    },
+    "force": {
+      "name": "力量",
+      "description": "强制取消超时。"
+    }
+  }
+}

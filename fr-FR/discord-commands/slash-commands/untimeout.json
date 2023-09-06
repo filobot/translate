@@ -1,0 +1,21 @@
+{
+  "description": "Révoquez l'exclusion d'un utilisateur.",
+  "arguments": {
+    "user": {
+      "name": "utilisateur",
+      "description": "Utilisateur dont vous souhaitez révoquer l'exclusion."
+    },
+    "reason": {
+      "name": "raison",
+      "description": "Raison de la révocation de l'exclusion."
+    },
+    "silent": {
+      "name": "silence",
+      "description": "Indiquez si vous souhaitez que la sanction ne soit pas notifiée à l'utilisateur."
+    },
+    "force": {
+      "name": "forcer",
+      "description": "Forcez la révocation de l'exclusion."
+    }
+  }
+}

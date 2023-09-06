@@ -1,0 +1,21 @@
+{
+  "description": "Elimina l'aïllament d'un usuari.",
+  "arguments": {
+    "user": {
+      "name": "usuari",
+      "description": "Usuari el qual vols eliminar l'aïllament."
+    },
+    "reason": {
+      "name": "raó",
+      "description": "Raó per eliminar l'aïllament."
+    },
+    "silent": {
+      "name": "silenciós",
+      "description": "Especifica si vols que la sanció no sigui notificada per l'usuari."
+    },
+    "force": {
+      "name": "forçar",
+      "description": "Forçar l'eliminació de l'aïllament."
+    }
+  }
+}
