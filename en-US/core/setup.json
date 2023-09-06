@@ -214,7 +214,7 @@
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
         "CONFIGURE": {
-          "SANCTION_SET": "You have set the **{{sanction}}** sanction successfully.",
+          "SANCTION_SET": "You have set the **{{sanction}}** sanction successfully for the **{{level}}** level.",
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
             "DESCRIPTION": "Create a level for the Auto Moderation module.",
