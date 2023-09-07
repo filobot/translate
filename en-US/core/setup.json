@@ -214,7 +214,7 @@
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
         "CONFIGURE": {
-          "SANCTION_SET": "You have set the **{{sanction}}** sanction successfully for the **{{level}}** level.",
+          "SANCTION_SET": "You have set the **{{sanction}}** sanction successfully for the level **#{{level}}**.",
           "CONDITIONALS": {
             "ADD_CONDITIONAL": {
               "LABEL": "Add a conditional",
@@ -235,7 +235,7 @@
             "FORM": {
               "LABEL": "Level number"
             },
-            "COMPLETED": "You have successfully started the creation of level **{{level}}**."
+            "COMPLETED": "You have successfully started the creation of level **#{{level}}**."
           }
         }
       }
