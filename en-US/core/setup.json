@@ -215,6 +215,20 @@
         "DESCRIPTION": "Moderate users intelligently and automatically.",
         "CONFIGURE": {
           "SANCTION_SET": "You have set the **{{sanction}}** sanction successfully for the **{{level}}** level.",
+          "CONDITIONALS": {
+            "ADD_CONDITIONAL": {
+              "LABEL": "Add a conditional",
+              "DESCRIPTION": "Add a conditional to the level."
+            },
+            "EDIT_CONDITIONAL": {
+              "LABEL": "Edit a conditional",
+              "DESCRIPTION": "Edit a conditional of the level."
+            },
+            "REMOVE_CONDITIONAL": {
+              "LABEL": "Remove a conditional",
+              "DESCRIPTION": "Remove a conditional of the level."
+            }
+          },
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
             "DESCRIPTION": "Create a level for the Auto Moderation module.",
