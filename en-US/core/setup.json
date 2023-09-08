@@ -244,6 +244,18 @@
                 "DESCRIPTION": "The result of the conditional must be false."
               }
             },
+            "SELECT_THE_TYPE_OF_REQUIREMENT": "You must select the type of requirement of this conditional.",
+            "SELECT_THE_TYPE_OF_REQUIREMENT_PLACEHOLDER": "Select the type of requirement",
+            "AVAILABLE_TYPE_OF_REQUIREMENTS": {
+              "REQUIRED": {
+                "LABEL": "Required",
+                "DESCRIPTION": "The conditional must be met."
+              },
+              "OPTIONAL": {
+                "LABEL": "Optional",
+                "DESCRIPTION": "The conditional is not required to be met."
+              }
+            },
             "ADD_CONDITIONAL": {
               "LABEL": "Add a conditional",
               "DESCRIPTION": "Add a conditional to the level."
