@@ -209,13 +209,23 @@
             }
           }
         }
-      },
+      }
+    },
+    "MODERATION": {
       "AUTO_MODERATION": {
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
+        "CONDITIONALS_LIST": {
+          "USER_FLAGS": {
+            "LABEL": "User flags",
+            "DESCRIPTION": "The flags of the user."
+          }
+        },
         "CONFIGURE": {
           "SANCTION_SET": "You have set the **{{sanction}}** sanction successfully for the level **#{{level}}**.",
           "CONDITIONALS": {
+            "SELECT_THE_CONDITIONAL": "You must select the conditional you want to {{action}}.",
+            "SELECT_THE_CONDITIONAL_PLACEHOLDER": "Select the conditional",
             "ADD_CONDITIONAL": {
               "LABEL": "Add a conditional",
               "DESCRIPTION": "Add a conditional to the level."
