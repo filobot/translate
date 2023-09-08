@@ -233,7 +233,7 @@
             "VALUE_SET": "You have successfully set the **{{value}}** value for this conditional.",
             "SELECT_THE_EXPECTED_VALUE": "You must select the expected value of this conditional.",
             "SELECT_THE_EXPECTED_VALUE_PLACEHOLDER": "Select the expected value",
-            "EXPECTED_VALUE_SET": "You have successfully set the **{{value}}** expected value for this conditional.",
+            "EXPECTED_VALUE_SET": "You have successfully set the **{{value}}** as the expected value for this conditional.",
             "AVAILABLE_VALUES": {
               "TRUE": {
                 "LABEL": "True",
@@ -256,6 +256,7 @@
                 "DESCRIPTION": "The conditional is not required to be met."
               }
             },
+            "TYPE_OF_REQUIREMENT_SET": "You have successfully set the **{{type}}** type of requirement for this conditional.",
             "ADD_CONDITIONAL": {
               "LABEL": "Add a conditional",
               "DESCRIPTION": "Add a conditional to the level."
