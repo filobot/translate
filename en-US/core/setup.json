@@ -230,6 +230,19 @@
           "CONDITIONALS": {
             "SELECT_THE_CONDITIONAL": "You must select the conditional you want to {{action}}.",
             "SELECT_THE_CONDITIONAL_PLACEHOLDER": "Select the conditional",
+            "VALUE_SET": "You have successfully set the **{{value}}** value for this conditional.",
+            "SELECT_THE_EXPECTED_VALUE": "You must select the expected value of this conditional.",
+            "SELECT_THE_EXPECTED_VALUE_PLACEHOLDER": "Select the expected value",
+            "AVAILABLE_VALUES": {
+              "TRUE": {
+                "LABEL": "True",
+                "DESCRIPTION": "The result of the conditional must be true."
+              },
+              "FALSE": {
+                "LABEL": "False",
+                "DESCRIPTION": "The result of the conditional must be false."
+              }
+            },
             "ADD_CONDITIONAL": {
               "LABEL": "Add a conditional",
               "DESCRIPTION": "Add a conditional to the level."
