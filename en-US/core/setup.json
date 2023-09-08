@@ -41,8 +41,6 @@
       "DESCRIPTION": "Change the status of notifications by DM.",
       "DM_STATUS_TOGGLED": "You have successfully **{{action}}** the DM notifications for the **{{module}}** module."
     },
-    "SELECT_A_SANCTION": "You must select the sanction you want to set.",
-    "SELECT_A_SANCTION_PLACEHOLDER": "Select a sanction",
     "EXCEPTIONS": {
       "ADD": {
         "LABEL": "Add {{type}}",
@@ -216,67 +214,10 @@
       "AUTO_MODERATION": {
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
-        "CONDITIONALS_LIST": {
-          "USER_FLAGS": {
-            "LABEL": "User flags",
-            "DESCRIPTION": "Check if the user has the specified flag.",
-            "SELECT_THE_FLAG": "You must select the flag you want to set.",
-            "SELECT_THE_FLAG_PLACEHOLDER": "Select the flag",
-            "DESCRIPTION_ALTERNATIVE": "The user must have the {{flag}} flag."
-          }
-        },
         "CONFIGURE": {
-          "SANCTION_SET": "You have set the **{{sanction}}** sanction successfully for the level **#{{level}}**.",
-          "CONDITIONALS": {
-            "SELECT_THE_CONDITIONAL": "You must select the conditional you want to {{action}}.",
-            "SELECT_THE_CONDITIONAL_PLACEHOLDER": "Select the conditional",
-            "VALUE_SET": "You have successfully set the **{{value}}** value for this conditional.",
-            "SELECT_THE_EXPECTED_VALUE": "You must select the expected value of this conditional.",
-            "SELECT_THE_EXPECTED_VALUE_PLACEHOLDER": "Select the expected value",
-            "EXPECTED_VALUE_SET": "You have successfully set the **{{value}}** as the expected value for this conditional.",
-            "AVAILABLE_VALUES": {
-              "TRUE": {
-                "LABEL": "True",
-                "DESCRIPTION": "The result of the conditional must be true."
-              },
-              "FALSE": {
-                "LABEL": "False",
-                "DESCRIPTION": "The result of the conditional must be false."
-              }
-            },
-            "SELECT_THE_TYPE_OF_REQUIREMENT": "You must select the type of requirement of this conditional.",
-            "SELECT_THE_TYPE_OF_REQUIREMENT_PLACEHOLDER": "Select the type of requirement",
-            "AVAILABLE_TYPE_OF_REQUIREMENTS": {
-              "REQUIRED": {
-                "LABEL": "Required",
-                "DESCRIPTION": "The conditional must be met."
-              },
-              "OPTIONAL": {
-                "LABEL": "Optional",
-                "DESCRIPTION": "The conditional is not required to be met."
-              }
-            },
-            "TYPE_OF_REQUIREMENT_SET": "You have successfully set the **{{type}}** type of requirement for this conditional.",
-            "ADD_CONDITIONAL": {
-              "LABEL": "Add a conditional",
-              "DESCRIPTION": "Add a conditional to the level."
-            },
-            "EDIT_CONDITIONAL": {
-              "LABEL": "Edit a conditional",
-              "DESCRIPTION": "Edit a conditional of the level."
-            },
-            "REMOVE_CONDITIONAL": {
-              "LABEL": "Remove a conditional",
-              "DESCRIPTION": "Remove a conditional of the level."
-            }
-          },
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
-            "DESCRIPTION": "Create a level for the Auto Moderation module.",
-            "FORM": {
-              "LABEL": "Level number"
-            },
-            "COMPLETED": "You have successfully started the creation of level **#{{level}}**."
+            "DESCRIPTION": "Create a level for the Auto Moderation module."
           }
         }
       }
