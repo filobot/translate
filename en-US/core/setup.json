@@ -219,7 +219,10 @@
         "CONDITIONALS_LIST": {
           "USER_FLAGS": {
             "LABEL": "User flags",
-            "DESCRIPTION": "Check if the user has the specified flag."
+            "DESCRIPTION": "Check if the user has the specified flag.",
+            "SELECT_THE_FLAG": "You must select the flag you want to {{action}}.",
+            "SELECT_THE_FLAG_PLACEHOLDER": "Select the flag",
+            "DESCRIPTION_ALTERNATIVE": "The user must have the {{flag}} flag."
           }
         },
         "CONFIGURE": {
