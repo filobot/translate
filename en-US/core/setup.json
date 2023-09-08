@@ -212,13 +212,14 @@
       }
     },
     "MODERATION": {
+      "NAME": "Moderation",
       "AUTO_MODERATION": {
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
         "CONDITIONALS_LIST": {
           "USER_FLAGS": {
             "LABEL": "User flags",
-            "DESCRIPTION": "The flags of the user."
+            "DESCRIPTION": "Check if the user has the specified flag."
           }
         },
         "CONFIGURE": {
