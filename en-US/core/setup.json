@@ -221,7 +221,7 @@
             "FORM": {
               "LABEL": "Level position"
             },
-            "LEVEL_POSITION_SET": "You have successfully set the level position to **#{{number}}**."
+            "LEVEL_POSITION_SET": "You have successfully set the level position to **#{{position}}**."
           }
         }
       }
