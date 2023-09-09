@@ -217,7 +217,11 @@
         "CONFIGURE": {
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
-            "DESCRIPTION": "Create a level for the Auto Moderation module."
+            "DESCRIPTION": "Create a level for the Auto Moderation module.",
+            "FORM": {
+              "LABEL": "Level position"
+            },
+            "LEVEL_POSITION_SET": "You have successfully set the level position to **#{{number}}**."
           }
         }
       }
