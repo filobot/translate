@@ -62,6 +62,9 @@
         "NO_DATA_TO_REMOVE": "There are no {{value}} available to remove from the module's exception list."
       }
     },
+    "SELECT_A_SANCTION": "You must select the sanction you want to set.",
+    "SELECT_A_SANCTION_PLACEHOLDER": "Select a sanction",
+    "SANCTION_SET": "You have successfully set the **{{sanction}}** sanction",
     "COMMUNITY": {
       "NAME": "Community",
       "COMMANDS": {
