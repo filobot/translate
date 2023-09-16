@@ -217,6 +217,15 @@
       "AUTO_MODERATION": {
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
+        "CONDITIONALS_LIST": {
+          "USER_FLAGS": {
+            "LABEL": "User flags",
+            "DESCRIPTION": "Check if the user has the specified flag.",
+            "SELECT_THE_FLAG": "You must select the flag you want to set.",
+            "SELECT_THE_FLAG_PLACEHOLDER": "Select the flag",
+            "DESCRIPTION_ALTERNATIVE": "The user must have the {{flag}} flag."
+          }
+        },
         "CONFIGURE": {
           "SELECT_THE_ACTION": "You must select the action you want to perform on the level.",
           "CONDITIONALS": {
