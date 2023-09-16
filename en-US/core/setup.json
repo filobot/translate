@@ -218,6 +218,23 @@
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
         "CONFIGURE": {
+          "SELECT_THE_ACTION": "You must select the action you want to perform on the level.",
+          "CONDITIONALS": {
+            "ADD_CONDITIONAL": {
+              "LABEL": "Add conditional",
+              "DESCRIPTION": "Add a conditional to the level."
+            },
+            "EDIT_CONDITIONAL": {
+              "LABEL": "Edit conditional",
+              "DESCRIPTION": "Edit a conditional of the level."
+            },
+            "REMOVE_CONDITIONAL": {
+              "LABEL": "Remove conditional",
+              "DESCRIPTION": "Remove a conditional from the level."
+            },
+            "SELECT_THE_CONDITIONAL": "You must select the conditional you want to {{action}}.",
+            "SELECT_THE_CONDITIONAL_PLACEHOLDER": "Select a conditional"
+          },
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
             "DESCRIPTION": "Create a level for the Auto Moderation module.",
