@@ -223,7 +223,8 @@
             "DESCRIPTION": "Check if the user has the specified flag.",
             "SELECT_THE_FLAG": "You must select the flag you want to set.",
             "SELECT_THE_FLAG_PLACEHOLDER": "Select the flag",
-            "DESCRIPTION_ALTERNATIVE": "The user must have the {{flag}} flag."
+            "DESCRIPTION_ALTERNATIVE": "The user must have the {{flag}} flag.",
+            "FLAG_SET": "You have successfully set the **{{flag}}** flag."
           }
         },
         "CONFIGURE": {
