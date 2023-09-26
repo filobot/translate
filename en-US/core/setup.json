@@ -243,7 +243,19 @@
               "DESCRIPTION": "Remove a conditional from the level."
             },
             "SELECT_THE_CONDITIONAL": "You must select the conditional you want to {{action}}.",
-            "SELECT_THE_CONDITIONAL_PLACEHOLDER": "Select a conditional"
+            "SELECT_THE_CONDITIONAL_PLACEHOLDER": "Select a conditional",
+            "SELECT_THE_EXPECTED_VALUE": "You must select the expected value you want to set.",
+            "SELECT_THE_EXPECTED_VALUE_PLACEHOLDER": "Select the expected value",
+            "AVAILABLE_EXPECTED_VALUES": {
+              "TRUE": {
+                "LABEL": "True",
+                "DESCRIPTION": "The expected value must be true"
+              },
+              "FALSE": {
+                "LABEL": "False",
+                "DESCRIPTION": "The expected value must be false"
+              }
+            }
           },
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
