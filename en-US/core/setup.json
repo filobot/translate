@@ -255,7 +255,8 @@
                 "LABEL": "False",
                 "DESCRIPTION": "The expected value must be false"
               }
-            }
+            },
+            "EXPECTED_VALUE_SET": "You have successfully set the expected value to **{{value}}**."
           },
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
