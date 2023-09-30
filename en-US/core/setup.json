@@ -256,7 +256,20 @@
                 "DESCRIPTION": "The expected value must be false"
               }
             },
-            "EXPECTED_VALUE_SET": "You have successfully set the expected value to **{{value}}**."
+            "EXPECTED_VALUE_SET": "You have successfully set the expected value to **{{value}}**.",
+            "SELECT_THE_TYPE_OF_CONDITIONAL": "You must select the type of conditional you want to set.",
+            "SELECT_THE_TYPE_OF_CONDITIONAL_PLACEHOLDER": "Select the type of conditional",
+            "AVAILABLE_TYPES_OF_CONDITIONAL": {
+              "REQUIRED": {
+                "LABEL": "Required",
+                "DESCRIPTION": "The conditional is required to be met"
+              },
+              "OPTIONAL": {
+                "LABEL": "Optional",
+                "DESCRIPTION": "The conditional is optional"
+              }
+            },
+            "TYPE_OF_CONDITIONAL_SET": "You have successfully set the type of conditional to **{{value}}**."
           },
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
