@@ -232,15 +232,18 @@
           "CONDITIONALS": {
             "ADD_CONDITIONAL": {
               "LABEL": "Add conditional",
-              "DESCRIPTION": "Add a conditional to the level."
+              "DESCRIPTION": "Add a conditional to the level.",
+              "COMPLETED": "You have successfully added the conditional to the level."
             },
             "EDIT_CONDITIONAL": {
               "LABEL": "Edit conditional",
-              "DESCRIPTION": "Edit a conditional of the level."
+              "DESCRIPTION": "Edit a conditional of the level.",
+              "COMPLETED": "You have successfully edited the conditional of the level."
             },
             "REMOVE_CONDITIONAL": {
               "LABEL": "Remove conditional",
-              "DESCRIPTION": "Remove a conditional from the level."
+              "DESCRIPTION": "Remove a conditional from the level.",
+              "COMPLETED": "You have successfully removed the conditional from the level."
             },
             "SELECT_THE_CONDITIONAL": "You must select the conditional you want to {{action}}.",
             "SELECT_THE_CONDITIONAL_PLACEHOLDER": "Select a conditional",
