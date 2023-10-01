@@ -277,7 +277,28 @@
                 "DESCRIPTION": "The conditional is optional"
               }
             },
-            "TYPE_OF_CONDITIONAL_SET": "You have successfully set the type of conditional to **{{value}}**."
+            "TYPE_OF_CONDITIONAL_SET": "You have successfully set the type of conditional to **{{value}}**.",
+            "SELECT_THE_OPERAND": "You must select the operand you want to set.",
+            "SELECT_THE_OPERAND_PLACEHOLDER": "Select the operand",
+            "AVAILABLE_OPERANDS": {
+              "GREATER_THAN": {
+                "LABEL": "Greater than",
+                "DESCRIPTION": "The value must be greater than the compared value"
+              },
+              "GREATER_THAN_OR_EQUAL": {
+                "LABEL": "Greater than or equal to",
+                "DESCRIPTION": "The value must be greater than or equal to the compared value"
+              },
+              "LESS_THAN": {
+                "LABEL": "Less than",
+                "DESCRIPTION": "The value must be less than the compared value"
+              },
+              "LESS_THAN_OR_EQUAL": {
+                "LABEL": "Less than or equal to",
+                "DESCRIPTION": "The value must be less than or equal to the compared value"
+              }
+            },
+            "OPERAND_SET": "You have successfully set the operand to **{{value}}**."
           },
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
