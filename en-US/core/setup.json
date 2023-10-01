@@ -225,6 +225,11 @@
             "SELECT_THE_FLAG_PLACEHOLDER": "Select the flag",
             "DESCRIPTION_ALTERNATIVE": "The user must have the {{flag}} flag.",
             "FLAG_SET": "You have successfully set the **{{flag}}** flag."
+          },
+          "USER_REGISTER_DATE": {
+            "LABEL": "User register date",
+            "DESCRIPTION": "Check the time elapsed since the user's registration.",
+            "TIME_SET": "You have successfully set the time elapsed since the user's registration to **{{time}}**."
           }
         },
         "CONFIGURE": {
