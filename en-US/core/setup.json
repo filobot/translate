@@ -230,6 +230,11 @@
             "LABEL": "User register date",
             "DESCRIPTION": "Check the time elapsed since the user's registration.",
             "TIME_SET": "You have successfully set the time elapsed since the user's registration to **{{time}}**."
+          },
+          "USER_DISPLAY_NAME": {
+            "LABEL": "User display name",
+            "DESCRIPTION": "Check the user's display name.",
+            "DISPLAY_NAME_SET": "You have successfully set the user's display name to **{{name}}**."
           }
         },
         "CONFIGURE": {
