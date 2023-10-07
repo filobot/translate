@@ -240,6 +240,11 @@
             "LABEL": "User name",
             "DESCRIPTION": "Check the user's name.",
             "NAME_SET": "You have successfully set the user's name to **{{name}}**."
+          },
+          "MEMBER_JOIN_DATE": {
+            "LABEL": "Member join date",
+            "DESCRIPTION": "Check the time elapsed since the user joined the server.",
+            "TIME_SET": "You have successfully set the time elapsed since the user joined the server to **{{time}}**."
           }
         },
         "CONFIGURE": {
