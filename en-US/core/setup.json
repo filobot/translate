@@ -235,6 +235,11 @@
             "LABEL": "User display name",
             "DESCRIPTION": "Check the user's display name.",
             "DISPLAY_NAME_SET": "You have successfully set the user's display name to **{{name}}**."
+          },
+          "USER_NAME": {
+            "LABEL": "User name",
+            "DESCRIPTION": "Check the user's name.",
+            "NAME_SET": "You have successfully set the user's name to **{{name}}**."
           }
         },
         "CONFIGURE": {
