@@ -245,6 +245,11 @@
             "LABEL": "Member join date",
             "DESCRIPTION": "Check the time elapsed since the user joined the server.",
             "TIME_SET": "You have successfully set the time elapsed since the user joined the server to **{{time}}**."
+          },
+          "MEMBER_NICKNAME": {
+            "LABEL": "Member nickname",
+            "DESCRIPTION": "Check the user's nickname.",
+            "NICKNAME_SET": "You have successfully set the user's nickname to **{{name}}**."
           }
         },
         "CONFIGURE": {
