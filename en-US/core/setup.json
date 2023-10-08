@@ -248,8 +248,25 @@
           },
           "MEMBER_NICKNAME": {
             "LABEL": "Member nickname",
-            "DESCRIPTION": "Check the user's nickname.",
-            "NICKNAME_SET": "You have successfully set the user's nickname to **{{name}}**."
+            "DESCRIPTION": "Check the member's nickname.",
+            "NICKNAME_SET": "You have successfully set the member's nickname to **{{name}}**."
+          },
+          "MEMBER_PENDING_STATE": {
+            "LABEL": "Member pending state",
+            "DESCRIPTION": "Checks that the member has passed the server requirements.",
+            "SELECT_THE_STATE": "You must select the state you want to set.",
+            "SELECT_THE_STATE_PLACEHOLDER": "Select the state",
+            "PENDING_STATE_SET": "You have successfully set the pending state to **{{state}}**.",
+            "AVAILABLE_STATES": {
+              "VERIFIED": {
+                "LABEL": "Verified",
+                "DESCRIPTION": "The member is be verified"
+              },
+              "UNVERIFIED": {
+                "LABEL": "Unverified",
+                "DESCRIPTION": "The member is not be verified"
+              }
+            }
           }
         },
         "CONFIGURE": {
