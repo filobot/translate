@@ -277,6 +277,11 @@
             "LABEL": "Member boost date",
             "DESCRIPTION": "Check the time elapsed since the member boosted the server.",
             "TIME_SET": "You have successfully set the time elapsed since the member boosted the server to **{{time}}**."
+          },
+          "MEMBER_TOTAL_SANCTIONS": {
+            "LABEL": "Member total sanctions",
+            "DESCRIPTION": "Check the total number of sanctions the member has.",
+            "TOTAL_SANCTIONS_SET": "You have successfully set the total number of sanctions the member has to **{{number}}**."
           }
         },
         "CONFIGURE": {
