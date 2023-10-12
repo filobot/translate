@@ -271,7 +271,7 @@
           "MEMBER_ROLE": {
             "LABEL": "Member role",
             "DESCRIPTION": "Check the member's role.",
-            "ROLE_SET": "You have successfully set the member's role to **{{role}}** ({{role.id}})."
+            "ROLE_SET": "You have successfully set the member's role to **{{role.mention}}** ({{role.id}})."
           }
         },
         "CONFIGURE": {
