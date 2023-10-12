@@ -272,6 +272,11 @@
             "LABEL": "Member role",
             "DESCRIPTION": "Check the member's role.",
             "ROLE_SET": "You have successfully set the member's role to **{{role.mention}}** ({{role.id}})."
+          },
+          "MEMBER_BOOST_DATE": {
+            "LABEL": "Member boost date",
+            "DESCRIPTION": "Check the time elapsed since the member boosted the server.",
+            "TIME_SET": "You have successfully set the time elapsed since the member boosted the server to **{{time}}**."
           }
         },
         "CONFIGURE": {
