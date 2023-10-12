@@ -267,6 +267,11 @@
                 "DESCRIPTION": "The member is not be verified"
               }
             }
+          },
+          "MEMBER_ROLE": {
+            "LABEL": "Member role",
+            "DESCRIPTION": "Check the member's role.",
+            "ROLE_SET": "You have successfully set the member's role to **{{role}}** ({{role.id}})."
           }
         },
         "CONFIGURE": {
