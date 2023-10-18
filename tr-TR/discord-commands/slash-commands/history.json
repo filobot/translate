@@ -1,0 +1,9 @@
+{
+  "description": "Get a user's sanction history.",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "User whose history you want to check."
+    }
+  }
+}
