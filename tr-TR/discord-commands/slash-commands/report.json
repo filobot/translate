@@ -1,0 +1,39 @@
+{
+  "description": "Report bad behavior to a server moderator.",
+  "subcommands": {
+    "member": {
+      "description": "Report a member.",
+      "arguments": {
+        "member": {
+          "name": "member",
+          "description": "Member you want to report."
+        },
+        "reason": {
+          "name": "reason",
+          "description": "Reason why you want to report this member."
+        },
+        "evidences": {
+          "name": "evidences",
+          "description": "Evidences that support the reason you are reporting this member."
+        }
+      }
+    },
+    "message": {
+      "description": "Report a message.",
+      "arguments": {
+        "message": {
+          "name": "message",
+          "description": "Message you want to report."
+        },
+        "reason": {
+          "name": "reason",
+          "description": "Reason why you want to report this message."
+        },
+        "evidences": {
+          "name": "evidences",
+          "description": "Evidences that support the reason you are reporting this message."
+        }
+      }
+    }
+  }
+}
