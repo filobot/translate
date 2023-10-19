@@ -294,7 +294,7 @@
             "SELECT_THE_FEATURE": "You must select the feature you want to set.",
             "SELECT_THE_FEATURE_PLACEHOLDER": "Select the feature",
             "DESCRIPTION_ALTERNATIVE": "The server must have the {{feature}} feature.",
-            "FLAG_SET": "You have successfully set the **{{feature}}** feature."
+            "FEATURE_SET": "You have successfully set the **{{feature}}** feature."
           }
         },
         "CONFIGURE": {
