@@ -282,6 +282,11 @@
             "LABEL": "Member total sanctions",
             "DESCRIPTION": "Check the total number of sanctions the member has.",
             "TOTAL_SANCTIONS_SET": "You have successfully set the total number of sanctions the member has to **{{number}}**."
+          },
+          "MEMBER_TOTAL_SANCTIONS_WITH_EXPIRATION": {
+            "LABEL": "Member total sanctions with expiration",
+            "DESCRIPTION": "Check the total number of sanctions the member has with expiration.",
+            "TOTAL_SANCTIONS_WITH_EXPIRATION_SET": "You have successfully set the total number of sanctions the member has with expiration to **{{number}}**."
           }
         },
         "CONFIGURE": {
