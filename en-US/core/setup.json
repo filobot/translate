@@ -291,8 +291,8 @@
           "SERVER_FEATURES": {
             "LABEL": "Server features",
             "DESCRIPTION": "Check if the server has the specified feature.",
-            "SELECT_THE_FLAG": "You must select the feature you want to set.",
-            "SELECT_THE_FLAG_PLACEHOLDER": "Select the feature",
+            "SELECT_THE_FEATURE": "You must select the feature you want to set.",
+            "SELECT_THE_FEATURE_PLACEHOLDER": "Select the feature",
             "DESCRIPTION_ALTERNATIVE": "The server must have the {{feature}} feature.",
             "FLAG_SET": "You have successfully set the **{{feature}}** feature."
           }
