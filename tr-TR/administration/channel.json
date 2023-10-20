@@ -1,19 +1,19 @@
 {
   "COOLDOWN": {
-    "COMPLETED": "You have set **{{time}}** as the cooldown time on the **[#{{channel.name}}]({{url}})** channel."
+    "COMPLETED": "**{{time}}** adresini **[#{{channel.name}}]({{url}})** kanalında bekleme süresi olarak ayarladınız."
   },
   "MESSAGES": {
     "PIN": {
-      "COMPLETED": "You have pinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
+      "COMPLETED": "**[{{message.id}}]({{message.url}})** mesajını **[#{{channel.name}}]({{url}})** kanalına sabitlediniz."
     },
     "PURGE": {
-      "COMPLETED": "You have purged **{{messages}}** messages from the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+      "COMPLETED": "**{{messages}}** mesajlarını **[#{{channel.name}}]({{url}})** ({{channel.id}}) kanalından temizlediniz."
     },
     "UNPIN": {
-      "COMPLETED": "You have unpinned the message **[{{message.id}}]({{message.url}})** on the **[#{{channel.name}}]({{url}})** channel."
+      "COMPLETED": "**[#{{channel.name}}]({{url}})** kanalındaki **[{{message.id}}]({{message.url}})** mesajının sabitlemesini kaldırdınız."
     }
   },
   "NSFW": {
-    "COMPLETED": "You have {{action}} NSFW mode on the **[#{{channel.name}}]({{url}})** ({{channel.id}}) channel."
+    "COMPLETED": "**[#{{channel.name}}]({{url}})** ({{channel.id}}) kanalında {{action}} NSFW moduna sahipsiniz."
   }
 }
