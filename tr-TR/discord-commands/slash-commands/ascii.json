@@ -1,9 +1,9 @@
 {
-  "description": "Convert your text to ASCII text.",
+  "description": "Metninizi ASCII metnine dönüştürün.",
   "arguments": {
     "text": {
-      "name": "text",
-      "description": "Text that you want to convert to ASCII."
+      "name": "metin",
+      "description": "ASCII'ye dönüştürmek istediğiniz metin."
     }
   }
 }
