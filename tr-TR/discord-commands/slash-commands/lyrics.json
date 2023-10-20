@@ -1,12 +1,12 @@
 {
-  "description": "Lyrics utilities.",
+  "description": "Sözler yardımcı programlar.",
   "subcommands": {
     "search": {
-      "description": "Search for a song.",
+      "description": "Bir şarkı arayın.",
       "arguments": {
         "song": {
-          "name": "song",
-          "description": "Song title."
+          "name": "şarkı",
+          "description": "Şarkı adı."
         }
       }
     }
