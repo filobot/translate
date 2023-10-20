@@ -1,44 +1,44 @@
 {
-  "description": "Manage Filo's commands by enabling or disabling them.",
+  "description": "Filo'nun komutlarını etkinleştirerek veya devre dışı bırakarak yönetin.",
   "subcommands": {
     "enable": {
-      "description": "Enable a Filo's command or category.",
+      "description": "Bir Filo'nun komutunu veya kategorisini etkinleştirin.",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to enable."
+          "name": "hedef",
+          "description": "Neyi etkinleştirmek istediğinizi belirtin."
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to enable."
+          "name": "değer",
+          "description": "Etkinleştirmek istediğiniz komutun veya kategorinin adı."
         }
       }
     },
     "disable": {
-      "description": "Disable a Filo's command or category.",
+      "description": "Bir Filo'nun komutunu veya kategorisini devre dışı bırakın.",
       "arguments": {
         "target": {
-          "name": "target",
-          "description": "Specify what you want to disable."
+          "name": "hedef",
+          "description": "Neyi devre dışı bırakmak istediğinizi belirtin."
         },
         "value": {
-          "name": "value",
-          "description": "Name of the command or category you want to disable."
+          "name": "değer",
+          "description": "Devre dışı bırakmak istediğiniz komutun veya kategorinin adı."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the disable commands module documentation."
+      "description": "Devre dışı bırakma komutları modülü belgelerinin bağlantısını alın."
     },
     "view": {
-      "description": "View the settings of the disable commands module."
+      "description": "Komutları devre dışı bırak modülünün ayarlarını görüntüleyin."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
         }
       }
     }
