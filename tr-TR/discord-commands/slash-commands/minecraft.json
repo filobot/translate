@@ -1,24 +1,24 @@
 {
-  "description": "Minecraft utility commands.",
+  "description": "Minecraft yardımcı komutları.",
   "subcommand_groups": {
     "front": {
-      "description": "Send a render of the specified player's front.",
+      "description": "Belirtilen oyuncunun ön tarafının bir renderını gönderir.",
       "subcommands": {
         "body": {
-          "description": "Send a render of the specified player's front body.",
+          "description": "Belirtilen oyuncunun ön gövdesinin bir render'ını gönderir.",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "oyuncu",
+              "description": "Minecraft oyuncusu."
             }
           }
         },
         "normal": {
-          "description": "Send a render of the specified player's front.",
+          "description": "Belirtilen oyuncunun ön tarafının bir renderını gönderir.",
           "arguments": {
             "player": {
-              "name": "player",
-              "description": "Minecraft player."
+              "name": "oyuncu",
+              "description": "Minecraft oyuncusu."
             }
           }
         }
@@ -27,69 +27,69 @@
   },
   "subcommands": {
     "body": {
-      "description": "Send a render of the specified player's body.",
+      "description": "Belirtilen oyuncunun gövdesinin bir render'ını gönderir.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
         }
       }
     },
     "bust": {
-      "description": "Send a render of the specified player's bust.",
+      "description": "Belirtilen oyuncunun büstünün bir renderını gönderir.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
         }
       }
     },
     "face": {
-      "description": "Send a render of the specified player's face.",
+      "description": "Belirtilen oyuncunun yüzünün bir görüntüsünü gönderir.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
         }
       }
     },
     "head": {
-      "description": "Send a render of the specified player's head.",
+      "description": "Belirtilen oyuncunun kafasının bir renderını gönderir.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
         }
       }
     },
     "skin": {
-      "description": "Send a render of the specified player's skin.",
+      "description": "Belirtilen oyuncunun dış görünümünün bir render'ını gönderir.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
         }
       }
     },
     "uuid": {
-      "description": "Get the UUID of a minecraft player.",
+      "description": "Bir minecraft oyuncusunun UUID'sini alın.",
       "arguments": {
         "player": {
-          "name": "player",
-          "description": "Minecraft player."
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
         }
       }
     },
     "server": {
-      "description": "Get the status of a Minecraft server.",
+      "description": "Bir Minecraft sunucusunun durumunu alın.",
       "arguments": {
         "ip-address": {
-          "name": "ip-address",
-          "description": "Minecraft server IP address."
+          "name": "ip adresi",
+          "description": "Minecraft sunucu IP adresi."
         },
         "port": {
-          "name": "port",
-          "description": "Minecraft server port."
+          "name": "liman",
+          "description": "Minecraft sunucu portu."
         }
       }
     }
