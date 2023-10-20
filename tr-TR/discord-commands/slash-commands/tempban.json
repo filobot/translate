@@ -1,25 +1,25 @@
 {
-  "description": "Temporarily ban a user from the server.",
+  "description": "Bir kullanıcıyı sunucudan geçici olarak yasaklar.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to temporarily ban."
+      "name": "kullanıcı",
+      "description": "Geçici olarak yasaklamak istediğiniz kullanıcı."
     },
     "time": {
-      "name": "time",
-      "description": "Duration of the sanction."
+      "name": "zaman",
+      "description": "Yaptırımın süresi."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for temporarily banning this user."
+      "name": "sebep",
+      "description": "Bu kullanıcının geçici olarak yasaklanma nedeni."
     },
     "message-history": {
-      "name": "message-history",
-      "description": "Specify if you want to delete the user's message history."
+      "name": "mesaj-tarihçesi",
+      "description": "Kullanıcının mesaj geçmişini silmek isteyip istemediğinizi belirtin."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
     }
   }
 }
