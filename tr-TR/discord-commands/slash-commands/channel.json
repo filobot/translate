@@ -1,26 +1,26 @@
 {
-  "description": "Manage a channel.",
+  "description": "Bir kanalı yönetin.",
   "subcommand_groups": {
     "cooldown": {
-      "description": "Manage the cooldown of a channel.",
+      "description": "Bir kanalın bekleme süresini yönetin.",
       "subcommands": {
         "set": {
-          "description": "Set the cooldown of a channel.",
+          "description": "Bir kanalın bekleme süresini ayarlayın.",
           "arguments": {
             "time": {
-              "name": "time",
-              "description": "Cooldown you want to set."
+              "name": "zaman",
+              "description": "Ayarlamak istediğiniz bekleme süresi."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to set the cooldown."
+              "name": "kanal",
+              "description": "Bekleme süresini ayarlamak istediğiniz kanal."
             },
             "reset": {
-              "description": "Reset the cooldown of a channel.",
+              "description": "Bir kanalın bekleme süresini sıfırlayın.",
               "arguments": {
                 "channel": {
-                  "name": "channel",
-                  "description": "Channel where you want to reset the cooldown."
+                  "name": "kanal",
+                  "description": "Bekleme süresini sıfırlamak istediğiniz kanal."
                 }
               }
             }
@@ -29,59 +29,59 @@
       }
     },
     "messages": {
-      "description": "Manage the messages of a channel.",
+      "description": "Bir kanalın mesajlarını yönetin.",
       "subcommands": {
         "pin": {
-          "description": "Pin a message on the current channel.",
+          "description": "Geçerli kanala bir mesaj sabitleyin.",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to pin."
+              "name": "mesaj",
+              "description": "Sabitlemek istediğiniz mesajın kimliği."
             }
           }
         },
         "purge": {
-          "description": "Purge a number of messages from a channel.",
+          "description": "Bir kanaldan belirli sayıda mesajı temizleyin.",
           "arguments": {
             "messages": {
-              "name": "messages",
-              "description": "Number of messages you want to purge."
+              "name": "mesajlar",
+              "description": "Temizlemek istediğiniz mesaj sayısı."
             },
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to purge messages."
+              "name": "kanal",
+              "description": "Mesajları temizlemek istediğiniz kanal."
             }
           }
         },
         "unpin": {
-          "description": "Unpin a message on the current channel.",
+          "description": "Geçerli kanaldaki bir mesajın sabitlemesini kaldırır.",
           "arguments": {
             "message": {
-              "name": "message",
-              "description": "ID of the message you want to unpin."
+              "name": "mesaj",
+              "description": "Sabitlemeyi kaldırmak istediğiniz mesajın kimliği."
             }
           }
         }
       }
     },
     "nsfw": {
-      "description": "Switch the NSFW mode of a channel.",
+      "description": "Bir kanalın NSFW modunu değiştirin.",
       "subcommands": {
         "enable": {
-          "description": "Enable the NSFW mode of a channel.",
+          "description": "Bir kanalın NSFW modunu etkinleştirin.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to enable the NSFW mode."
+              "name": "kanal",
+              "description": "NSFW modunu etkinleştirmek istediğiniz kanal."
             }
           }
         },
         "disable": {
-          "description": "Disable the NSFW mode of a channel.",
+          "description": "Bir kanalın NSFW modunu devre dışı bırakın.",
           "arguments": {
             "channel": {
-              "name": "channel",
-              "description": "Channel where you want to disable the NSFW mode."
+              "name": "kanal",
+              "description": "NSFW modunu devre dışı bırakmak istediğiniz kanal."
             }
           }
         }
@@ -90,36 +90,36 @@
   },
   "subcommands": {
     "info": {
-      "description": "Get information about a channel.",
+      "description": "Bir kanal hakkında bilgi alın.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the information will come from."
+          "name": "kanal",
+          "description": "Bilginin nereden geleceğine dair kanal."
         }
       }
     },
     "invite": {
-      "description": "Create an instant invite of a channel.",
+      "description": "Bir kanal için anında davetiye oluşturun.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where to create the instant invite."
+          "name": "kanal",
+          "description": "Anlık davetiyenin oluşturulacağı kanal."
         },
         "temporary": {
-          "name": "temporary",
-          "description": "Specify if you want to grant temporary or permanent membership."
+          "name": "geçici",
+          "description": "Geçici veya kalıcı üyelik vermek isteyip istemediğinizi belirtin."
         },
         "max-age": {
-          "name": "max-age",
-          "description": "Time until the invite expires."
+          "name": "maksimum yaş",
+          "description": "Davet süresinin dolmasına kadar geçen süre."
         },
         "max-uses": {
-          "name": "max-uses",
-          "description": "Maximum number of uses of the invite."
+          "name": "maksimum kullanımlar",
+          "description": "Davetiyenin maksimum kullanım sayısı."
         },
         "force": {
-          "name": "force",
-          "description": "Force the creation of the invite."
+          "name": "kuvvet",
+          "description": "Davetiyenin oluşturulmasını zorlayın."
         }
       }
     }
