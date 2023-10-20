@@ -1,21 +1,21 @@
 {
-  "description": "Encode morse or decode morse code.",
+  "description": "Mors kodlayın veya mors kodunu çözün.",
   "subcommands": {
     "encode": {
-      "description": "Convert the text to morse code.",
+      "description": "Metni mors alfabesine dönüştürün.",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Text that you want to encode to morse code."
+          "name": "kod",
+          "description": "Mors koduna kodlamak istediğiniz metin."
         }
       }
     },
     "decode": {
-      "description": "Convert the morse code to text.",
+      "description": "Mors kodunu metne dönüştürün.",
       "arguments": {
         "code": {
-          "name": "code",
-          "description": "Morse code that you want to decode to text."
+          "name": "kod",
+          "description": "Metne dönüştürmek istediğiniz Mors kodu."
         }
       }
     }
