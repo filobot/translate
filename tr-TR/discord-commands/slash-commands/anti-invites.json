@@ -1,92 +1,92 @@
 {
-  "description": "Module that allows you to sanction users who send invites from other servers.",
+  "description": "Diğer sunuculardan davetiye gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-invites module."
+      "description": "Anti-davet modülünü etkinleştirin."
     },
     "disable": {
-      "description": "Disable the anti-invites module."
+      "description": "Anti-davet modülünü devre dışı bırakın."
     },
     "action": {
-      "description": "Set the action to take when someone sends an invite.",
+      "description": "Birisi davet gönderdiğinde gerçekleştirilecek eylemi ayarlayın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone sends an invite."
+          "name": "eylem",
+          "description": "Birisi davet gönderdiğinde yapılacak işlem."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
         }
       }
     },
     "filo": {
-      "description": "Enable or disable the bypass of invites from the official Filo's server.",
+      "description": "Resmi Filo's sunucusundan gelen davetlerin bypass edilmesini etkinleştirin veya devre dışı bırakın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enable or disable the bypass of invites from the official Filo's server."
+          "name": "eylem",
+          "description": "Resmi Filo's sunucusundan gelen davetlerin bypass edilmesini etkinleştirin veya devre dışı bırakın."
         }
       }
     },
     "discord": {
-      "description": "Enable or disable the bypass of invites from the official Discord's servers.",
+      "description": "Discord'un resmi sunucularından gelen davetiyelerin atlanmasını etkinleştirin veya devre dışı.",
       "arguments": {
-        "name": "action",
-        "description": "Enable or disable the bypass of invites from the official Discord's servers."
+        "name": "eylem",
+        "description": "Discord'un resmi sunucularından gelen davetiyelerin atlanmasını etkinleştirin veya devre dışı."
       }
     },
     "guild": {
-      "description": "Add or remove a guild from the module's guild bypass list.",
+      "description": "Modülün lonca bypass listesine bir lonca ekleyin veya listeden loncayı kaldırın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
         },
         "guild": {
-          "name": "guild",
-          "description": "Guild from the module's guild bypass list."
+          "name": "sunucu",
+          "description": "Modülün lonca bypass listesinden lonca."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "kanal",
+          "description": "Modülün kanal bypass listesinden kanal."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rol",
+          "description": "Modülün rol atlama listesinden rol."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-invites module documentation."
+      "description": "Anti-davet modülü belgelerinin bağlantısını alın."
     },
     "view": {
-      "description": "View the settings of the anti-invites module."
+      "description": "Anti-davet modülünün ayarlarını görüntüleyin."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
         }
       }
     }
