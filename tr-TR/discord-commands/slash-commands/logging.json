@@ -1,42 +1,42 @@
 {
-  "description": "Module that allows to send the logs of the server to a channel.",
+  "description": "Sunucunun günlüklerini bir kanala göndermeyi sağlayan modül.",
   "subcommands": {
     "enable": {
-      "description": "Enable the logging module."
+      "description": "Günlük modülünü etkinleştirin."
     },
     "disable": {
-      "description": "Disable the logging module."
+      "description": "Günlük modülünü devre dışı bırakın."
     },
     "events": {
-      "description": "Manage the different events you want to show.",
+      "description": "Göstermek istediğiniz farklı etkinlikleri yönetin.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Enables or disables an event."
+          "name": "eylem",
+          "description": "Bir olayı etkinleştirir veya devre dışı bırakır."
         }
       }
     },
     "channel": {
-      "description": "Set the logging channel.",
+      "description": "Günlük kanalını ayarlayın.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where the logs will be sent."
+          "name": "kanal",
+          "description": "Günlüklerin gönderileceği kanal."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the logging module documentation."
+      "description": "Günlük modülü belgelerinin bağlantısını alın."
     },
     "view": {
-      "description": "View the settings of the logging module."
+      "description": "Günlük modülünün ayarlarını görüntüleyin."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
         }
       }
     }
