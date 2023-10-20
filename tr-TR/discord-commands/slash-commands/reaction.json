@@ -1,68 +1,68 @@
 {
-  "description": "React to other users using gifs.",
+  "description": "GIF'leri kullanarak diğer kullanıcılara tepki verin.",
   "subcommands": {
     "angry": {
-      "description": "Send an angry reaction."
+      "description": "Kızgın bir tepki gönder."
     },
     "blush": {
-      "description": "Send an blush reaction."
+      "description": "Allık tepkisi gönderin."
     },
     "bored": {
-      "description": "Send an bored reaction."
+      "description": "Sıkılmış bir tepki gönderin."
     },
     "cold": {
-      "description": "Send an cold reaction."
+      "description": "Soğuk bir tepki gönderin."
     },
     "confused": {
-      "description": "Send an confused reaction."
+      "description": "Karışık bir tepki gönderin."
     },
     "cry": {
-      "description": "Send an cry reaction."
+      "description": "Bir ağlama tepkisi gönderin."
     },
     "dance": {
-      "description": "Send an dance reaction."
+      "description": "Bir dans tepkisi gönderin."
     },
     "eyebrows": {
-      "description": "Send an eyebrows reaction."
+      "description": "Kaş tepkisi gönder."
     },
     "greet": {
-      "description": "Send an greet reaction."
+      "description": "Bir selam tepkisi gönderin."
     },
     "happy": {
-      "description": "Send an happy reaction."
+      "description": "Mutlu bir tepki gönderin."
     },
     "hot": {
-      "description": "Send an hot reaction."
+      "description": "Sıcak bir tepki gönderin."
     },
     "like": {
-      "description": "Send an like reaction."
+      "description": "Bir beğeni tepkisi gönderin."
     },
     "pout": {
-      "description": "Send an pout reaction."
+      "description": "Surat asma tepkisi gönder."
     },
     "run": {
-      "description": "Send an run reaction."
+      "description": "Bir koşu tepkisi gönderin."
     },
     "scared": {
-      "description": "Send an scared reaction."
+      "description": "Korkmuş bir tepki gönderin."
     },
     "sick": {
-      "description": "Send an sick reaction."
+      "description": "Hastalıklı bir tepki gönderin."
     },
     "sing": {
-      "description": "Send an sing reaction."
+      "description": "Bir şarkı tepkisi gönderin."
     },
     "sleep": {
-      "description": "Send an sleep reaction."
+      "description": "Bir uyku tepkisi gönderin."
     },
     "smug": {
-      "description": "Send an smug reaction."
+      "description": "Kendini beğenmiş bir tepki gönderin."
     },
     "teehee": {
-      "description": "Send an teehee reaction."
+      "description": "Teehee tepkisi gönderin."
     },
     "think": {
-      "description": "Send an think reaction."
+      "description": "Düşünsel bir tepki gönderin."
     }
   }
 }
