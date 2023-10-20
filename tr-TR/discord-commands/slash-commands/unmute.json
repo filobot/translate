@@ -1,21 +1,21 @@
 {
-  "description": "Remove the mute from a user.",
+  "description": "Bir kullanıcının sessize alınmasını kaldırın.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to remove the mute from."
+      "name": "kullanıcı",
+      "description": "Sessizi kaldırmak istediğiniz kullanıcı."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the mute."
+      "name": "sebep",
+      "description": "Sessizliği kaldırma nedeni."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
     },
     "force": {
-      "name": "force",
-      "description": "Force removal of the mute."
+      "name": "kuvvet",
+      "description": "Sessizliği kaldırmaya zorlayın."
     }
   }
 }
