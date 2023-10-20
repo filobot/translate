@@ -1,8 +1,8 @@
 {
-  "description": "Send a image of birds to the channel.",
+  "description": "Kanala bir kuş görüntüsü gönderin.",
   "subcommands": {
     "random": {
-      "description": "Send a random image of a bird."
+      "description": "Rastgele bir kuş resmi gönderin."
     }
   }
 }
