@@ -215,7 +215,7 @@
       "SELECT_THE_DATA": "Select the data to view",
       "VIEW_ALL": "View all {{data}}.",
       "DM_STATUS": "DM status",
-      "COOLDOWN": "Cooldown",
+      "COOLDOWN": "Bekleme Süresi",
       "EXCEPTIONS": "{{type}} exceptions",
       "COMMUNITY": {
         "COMMANDS": {
