@@ -1,6 +1,6 @@
 {
-  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) doesn't have any sanction reflected in his history.",
-  "SELECT_A_CASE": "Select a case to view",
-  "VIEWING_USER_HISTORY": "Viewing **{{user.username}}**'s sanction history",
-  "SANCTION_REMOVED": "This sanction was removed in case #**{{case.case}}**."
+  "MISSING_SANCTION_HISTORY": "**{{user.tag}}** ({{user.id}}) geçmişine yansıyan herhangi bir yaptırım bulunmamaktadır.",
+  "SELECT_A_CASE": "Görüntülemek için bir vaka seçin",
+  "VIEWING_USER_HISTORY": "**{{user.username}}**'un yaptırım geçmişini görüntüleme",
+  "SANCTION_REMOVED": "Bu yaptırım #**{{case.case}}** davasında kaldırılmıştır."
 }
