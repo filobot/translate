@@ -1,25 +1,25 @@
 {
-  "description": "Follow or get information about our news channels.",
+  "description": "Haber kanallarımızı takip edin veya bilgi alın.",
   "subcommands": {
     "information": {
-      "description": "Get information about our news channels.",
+      "description": "Haber kanallarımız hakkında bilgi alın.",
       "arguments": {
         "news": {
-          "name": "news",
-          "description": "News you want to get the information."
+          "name": "haberler",
+          "description": "Bilgi almak istediğiniz haberler."
         }
       }
     },
     "follow": {
-      "description": "Follow the news from our server on your server.",
+      "description": "Sunucumuzdaki haberleri sunucunuzdan takip edin.",
       "arguments": {
         "news": {
-          "name": "news",
-          "description": "News channel you want to follow."
+          "name": "haberler",
+          "description": "Takip etmek istediğiniz haber kanalı."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel where you want the news to be sent."
+          "name": "kanal",
+          "description": "Haberlerin gönderilmesini istediğiniz kanal."
         }
       }
     }
