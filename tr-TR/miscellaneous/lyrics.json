@@ -1,15 +1,15 @@
 {
   "SONG": {
-    "SELECT_A_SONG": "You must select a song to view its data.",
-    "SELECT_A_SONG_PLACEHOLDER": "Select a song",
+    "SELECT_A_SONG": "Verilerini görüntülemek için bir şarkı seçmelisiniz.",
+    "SELECT_A_SONG_PLACEHOLDER": "Bir şarkı seçin",
     "VIEWING_THE_LYRICS": {
-      "TITLE": "Viewing the lyrics of the **{{song.title}}** song.",
-      "DESCRIPTION": "You can view the lyrics of this song by **[clicking here]({{url}})**."
+      "TITLE": "**{{song.title}}** şarkısının sözleri görüntüleniyor.",
+      "DESCRIPTION": "Bu şarkının sözlerini **[buraya tıklayarak]({{url}})** görüntüleyebilirsiniz."
     },
-    "TITLE": "Title",
-    "FULL_TITLE": "Full title",
-    "FEATURED_TITLE": "Featured title",
-    "ALBUM": "Album",
-    "ARTIST": "Artist"
+    "TITLE": "Başlık",
+    "FULL_TITLE": "Tam başlık",
+    "FEATURED_TITLE": "Öne çıkan başlık",
+    "ALBUM": "Albüm",
+    "ARTIST": "Sanatçı"
   }
 }
