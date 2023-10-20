@@ -1,37 +1,37 @@
 {
-  "description": "Manga Utilities.",
+  "description": "Manga Yardımcı Programları.",
   "subcommands": {
     "random": {
-      "description": "Show the information from a random manga according to the criteria you specify.",
+      "description": "Belirlediğiniz kriterlere göre rastgele bir mangadaki bilgileri gösterin.",
       "arguments": {
         "term": {
-          "name": "term",
-          "description": "Term that must include the title of the manga."
+          "name": "dönem",
+          "description": "Manganın başlığını içermesi gereken terim."
         },
         "type": {
-          "name": "type",
-          "description": "Manga type."
+          "name": "tip",
+          "description": "Manga türü."
         },
         "status": {
-          "name": "status",
-          "description": "Manga's status."
+          "name": "durum",
+          "description": "Manga'nın durumu."
         },
         "rating": {
-          "name": "rating",
-          "description": "Manga's rating."
+          "name": "derecelendirme",
+          "description": "Manga'nın puanı."
         },
         "genre": {
-          "name": "genre",
-          "description": "Genre or one of the genres of the Anime."
+          "name": "tür",
+          "description": "Tür veya Anime türlerinden biri."
         }
       }
     },
     "search": {
-      "description": "Search the information of an manga.",
+      "description": "Bir manganın bilgilerini araştırın.",
       "arguments": {
         "title": {
-          "name": "title",
-          "description": "Title of the manga."
+          "name": "başlık",
+          "description": "Manganın adı."
         }
       }
     }
