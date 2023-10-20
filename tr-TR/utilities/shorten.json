@@ -1,5 +1,5 @@
 {
-  "URL_SHORTENED_SUCCESSFULLY": "You have shortened this **[URL]({{url}})** successfully.",
-  "ORIGINAL_URL": "Original URL",
-  "SHORTENED_URL": "Shortened URL"
+  "URL_SHORTENED_SUCCESSFULLY": "Bu **[URL]({{url}})** adresini başarıyla kısalttınız.",
+  "ORIGINAL_URL": "Orijinal URL",
+  "SHORTENED_URL": "Kısaltılmış URL"
 }
