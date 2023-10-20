@@ -1,25 +1,25 @@
 {
-  "description": "Manage a sanction case.",
+  "description": "Bir yaptırım vakasını yönetin.",
   "subcommands": {
     "info": {
-      "description": "Get information about a sanction case.",
+      "description": "Bir yaptırım davası hakkında bilgi alın.",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "dava",
+          "description": "Davanın kimliği."
         }
       }
     },
     "set": {
-      "description": "Set the new information for a case.",
+      "description": "Bir vaka için yeni bilgileri ayarlayın.",
       "arguments": {
         "case": {
-          "name": "case",
-          "description": "ID of the case."
+          "name": "dava",
+          "description": "Davanın kimliği."
         },
         "reason": {
-          "name": "reason",
-          "description": "Reason you want to set to the case."
+          "name": "sebep",
+          "description": "Kasayı ayarlamak istemenizin nedeni."
         }
       }
     }
