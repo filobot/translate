@@ -1,33 +1,33 @@
 {
-  "description": "Module that allows users to report bad behavior to the Moderators of the server.",
+  "description": "Kullanıcıların kötü davranışları sunucunun Moderatörlerine bildirmelerini sağlayan modül.",
   "subcommands": {
     "enable": {
-      "description": "Enable the reports module."
+      "description": "Raporlar modülünü etkinleştirin."
     },
     "disable": {
-      "description": "Disable the reports module."
+      "description": "Raporlar modülünü devre dışı bırakın."
     },
     "channel": {
-      "description": "Set the channel where the reports will be sent.",
+      "description": "Raporların gönderileceği kanalı ayarlayın.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel where you want the reports to be sent."
+          "name": "kanal",
+          "description": "Raporların gönderilmesini istediğiniz kanal."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the reports module documentation."
+      "description": "Raporlar modülü belgelerinin bağlantısını alın."
     },
     "view": {
-      "description": "View the settings of the reports module."
+      "description": "Raporlar modülünün ayarlarını görüntüleyin."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
         }
       }
     }
