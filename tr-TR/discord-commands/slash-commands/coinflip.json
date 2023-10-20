@@ -1,9 +1,9 @@
 {
-  "description": "Classic coin flip game.",
+  "description": "Klasik yazı tura oyunu.",
   "arguments": {
     "choice": {
-      "name": "choice",
-      "description": "Choose heads or tails to be able to play."
+      "name": "seçim",
+      "description": "Oynayabilmek için yazı veya tura seçin."
     }
   }
 }
