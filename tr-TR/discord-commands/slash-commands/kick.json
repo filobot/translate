@@ -1,17 +1,17 @@
 {
-  "description": "Kick a user from the server.",
+  "description": "Bir kullanıcıyı sunucudan atar.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to kick."
+      "name": "kullanıcı",
+      "description": "Tekmelemek istediğin kullanıcı."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for kicking this user."
+      "name": "sebep",
+      "description": "Bu kullanıcının atılma nedeni."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
     }
   }
 }
