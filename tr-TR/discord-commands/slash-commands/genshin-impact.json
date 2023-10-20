@@ -1,31 +1,31 @@
 {
-  "description": "Send a random Genshin Impact wallpaper.",
+  "description": "Rastgele bir Genshin Impact duvar kağıdı gönderin.",
   "subcommands": {
     "desktop": {
-      "description": "Get a random desktop wallpaper."
+      "description": "Rastgele bir masaüstü duvar kağıdı edinin."
     },
     "mobile": {
-      "description": "Get a random mobile wallpaper."
+      "description": "Rastgele bir mobil duvar kağıdı edinin."
     },
     "random": {
-      "description": "Get random wallpaper between desktop and mobile."
+      "description": "Masaüstü ve mobil cihazlar arasında rastgele duvar kağıdı alın."
     }
   },
   "subcommand_groups": {
     "cards": {
-      "description": "Get a random card wallpaper.",
+      "description": "Rastgele bir kart duvar kağıdı alın.",
       "subcommands": {
         "characters": {
-          "description": "Get a random character card."
+          "description": "Rastgele bir karakter kartı alın."
         },
         "equipments": {
-          "description": "Get a random equipment card."
+          "description": "Rastgele bir ekipman kartı alın."
         },
         "events": {
-          "description": "Get a random event card."
+          "description": "Rastgele bir etkinlik kartı alın."
         },
         "supports": {
-          "description": "Get a random support card."
+          "description": "Rastgele bir destek kartı alın."
         }
       }
     }
