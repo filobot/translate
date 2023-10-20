@@ -1,63 +1,63 @@
 {
-  "description": "Module that allows configuring a channel as a server member counter.",
+  "description": "Bir kanalın sunucu üye sayacı olarak yapılandırılmasını sağlayan modül.",
   "subcommands": {
     "enable": {
-      "description": "Enable the member counter module.",
+      "description": "Üye sayaç modülünü etkinleştirin.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to enable."
+          "name": "modül",
+          "description": "Etkinleştirmek istediğiniz modül."
         }
       }
     },
     "disable": {
-      "description": "Disable the member counter module.",
+      "description": "Üye sayaç modülünü devre dışı bırakın.",
       "arguments": {
         "module": {
-          "name": "module",
-          "description": "Module you want to disable."
+          "name": "modül",
+          "description": "Devre dışı bırakmak istediğiniz modül."
         }
       }
     },
     "channel": {
-      "description": "Set the member counter channel.",
+      "description": "Üye sayaç kanalını ayarlayın.",
       "arguments": {
         "channel": {
-          "name": "channel",
-          "description": "Channel you want to set as the member counter channel."
+          "name": "kanal",
+          "description": "Üye sayaç kanalı olarak ayarlamak istediğiniz kanal."
         }
       }
     },
     "name": {
-      "description": "Set the name of the member counter channel.",
+      "description": "Üye sayaç kanalının adını ayarlayın.",
       "arguments": {
         "name": {
-          "name": "name",
-          "description": "Name of the member counter channel."
+          "name": "isim",
+          "description": "Üye sayaç kanalının adı."
         }
       }
     },
     "nickname": {
-      "description": "Set the nickname of the member counter nickname.",
+      "description": "Üye sayaç takma adını ayarlayın.",
       "arguments": {
         "nickname": {
-          "name": "nickname",
-          "description": "Nickname of the member counter nickname."
+          "name": "takma ad",
+          "description": "Üye sayaç takma adı."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the member counter module documentation."
+      "description": "Üye sayaç modülü belgelerinin bağlantısını alın."
     },
     "view": {
-      "description": "View the settings of the member counter module."
+      "description": "Üye sayaç modülünün ayarlarını görüntüleyin."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
         }
       }
     }
