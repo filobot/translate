@@ -1,37 +1,37 @@
 {
-  "description": "Module that allows you to ban those users who try to evade an active sanction.",
+  "description": "Aktif bir yaptırımdan kaçmaya çalışan kullanıcıları yasaklamanıza olanak tanıyan modül.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-evasion module."
+      "description": "Kaçınma önleme modülünü etkinleştirin."
     },
     "disable": {
-      "description": "Disable the anti-evasion module."
+      "description": "Kaçınma önleme modülünü devre dışı bırakın."
     },
     "action": {
-      "description": "Set the action to take when someone tries to evade an active sanction.",
+      "description": "Birisi aktif bir yaptırımdan kaçmaya çalıştığında gerçekleştirilecek eylemi ayarlayın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone tries to evade an active sanction."
+          "name": "eylem",
+          "description": "Birisi aktif bir yaptırımdan kaçmaya çalıştığında yapılacak işlem."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-evasion module documentation."
+      "description": "Kaçakçılığı önleme modülü belgelerinin bağlantısını alın."
     },
     "view": {
-      "description": "View the settings of the anti-evasion module."
+      "description": "Kaçak önleme modülünün ayarlarını görüntüleyin."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
         }
       }
     }
