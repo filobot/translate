@@ -1,38 +1,38 @@
 {
-  "description": "Manage a server role.",
+  "description": "Bir sunucu rolünü yönetin.",
   "subcommands": {
     "add": {
-      "description": "Add a role to a user.",
+      "description": "Bir kullanıcıya rol ekleyin.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User to which you want to add a role."
+          "name": "kullanıcı",
+          "description": "Rol eklemek istediğiniz kullanıcı."
         },
         "role": {
-          "name": "role",
-          "description": "Role that you want to add to the user."
+          "name": "rol",
+          "description": "Kullanıcıya eklemek istediğiniz rol."
         }
       }
     },
     "info": {
-      "description": "Show the information of a role.",
+      "description": "Bir rolün bilgilerini gösterin.",
       "arguments": {
         "role": {
-          "name": "role",
-          "description": "Role to which you want to get the information."
+          "name": "rol",
+          "description": "Bilgiyi almak istediğiniz rol."
         }
       }
     },
     "remove": {
-      "description": "Remove a role from a user.",
+      "description": "Bir kullanıcıdan bir rolü kaldırın.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "User from which you want to remove a role."
+          "name": "kullanıcı",
+          "description": "Rolünü kaldırmak istediğiniz kullanıcı."
         },
         "role": {
-          "name": "role",
-          "description": "Role that you want to remove from the user."
+          "name": "rol",
+          "description": "Kullanıcıdan kaldırmak istediğiniz rol."
         }
       }
     }
