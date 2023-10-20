@@ -1,21 +1,21 @@
 {
-  "description": "Remove a warn from a user.",
+  "description": "Bir kullanıcıdan uyarıyı kaldırın.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to remove the warn from."
+      "name": "kullanıcı",
+      "description": "Uyarıyı kaldırmak istediğiniz kullanıcı."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for removing the warn."
+      "name": "sebep",
+      "description": "Uyarının kaldırılma nedeni."
     },
     "case": {
-      "name": "case",
-      "description": "ID of the warn you want to remove."
+      "name": "dava",
+      "description": "Kaldırmak istediğiniz uyarının kimliği."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
     }
   }
 }
