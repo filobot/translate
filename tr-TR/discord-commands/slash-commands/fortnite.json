@@ -1,13 +1,13 @@
 {
-  "description": "Get the statistics of a Fortnite player.",
+  "description": "Bir Fortnite oyuncusunun istatistiklerini alın.",
   "arguments": {
     "platform": {
       "name": "platform",
-      "description": "Platform where the player plays."
+      "description": "Oyuncunun oynadığı platform."
     },
     "player": {
-      "name": "player",
-      "description": "In Game Nick of the player."
+      "name": "oyuncu",
+      "description": "Oyuncunun Oyun İçi Nick'i."
     }
   }
 }
