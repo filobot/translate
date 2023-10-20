@@ -1,17 +1,17 @@
 {
-  "description": "Permanently mute a user from the server.",
+  "description": "Bir kullanıcıyı sunucudan kalıcı olarak sessize alın.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to mute."
+      "name": "kullanıcı",
+      "description": "Sessize almak istediğiniz kullanıcı."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for muting this user."
+      "name": "sebep",
+      "description": "Bu kullanıcıyı sessize alma nedeni."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
     }
   }
 }
