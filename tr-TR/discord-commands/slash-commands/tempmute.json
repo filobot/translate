@@ -1,21 +1,21 @@
 {
-  "description": "Temporarily mute a user from the server.",
+  "description": "Bir kullanıcıyı sunucudan geçici olarak sessize alın.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to temporarily mute."
+      "name": "kullanıcı",
+      "description": "Geçici olarak sessize almak istediğiniz kullanıcı."
     },
     "time": {
-      "name": "time",
-      "description": "Duration of the sanction."
+      "name": "zaman",
+      "description": "Yaptırımın süresi."
     },
     "reason": {
-      "name": "reason",
-      "description": "Reason for temporarily muting this user."
+      "name": "sebep",
+      "description": "Bu kullanıcıyı geçici olarak sessize alma nedeni."
     },
     "silent": {
-      "name": "silent",
-      "description": "Specify if you want the sanction not to be notified to the user."
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
     }
   }
 }
