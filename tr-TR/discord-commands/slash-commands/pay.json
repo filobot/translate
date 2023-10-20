@@ -1,13 +1,13 @@
 {
-  "description": "Pay an amount of credits to another user.",
+  "description": "Başka bir kullanıcıya bir miktar kredi ödeyin.",
   "arguments": {
     "user": {
-      "name": "user",
-      "description": "User you want to pay."
+      "name": "kullanıcı",
+      "description": "Ödeme yapmak istediğiniz kullanıcı."
     },
     "amount": {
-      "name": "amount",
-      "description": "Amount of credits you want to pay."
+      "name": "miktar",
+      "description": "Ödemek istediğiniz kredi miktarı."
     }
   }
 }
