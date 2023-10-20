@@ -1,149 +1,149 @@
 {
-  "description": "Commands from the Core category.",
+  "description": "Çekirdek kategorisindeki komutlar.",
   "subcommands": {
     "info": {
-      "description": "Get information about the bot."
+      "description": "Bot hakkında bilgi alın."
     },
     "flags": {
-      "description": "Show your flags or that of another specific user.",
+      "description": "Kendi bayraklarınızı veya başka bir kullanıcının bayraklarını gösterin.",
       "arguments": {
         "user": {
-          "name": "user",
-          "description": "Show the flags of the user."
+          "name": "kullanıcı",
+          "description": "Kullanıcının bayraklarını gösterin."
         }
       }
     },
     "donate": {
-      "description": "Get information about donations for the bot."
+      "description": "Bot için bağışlar hakkında bilgi alın."
     },
     "commands": {
-      "description": "Get the list of bot commands or information about a command.",
+      "description": "Bot komutlarının listesini veya bir komut hakkında bilgi alın.",
       "arguments": {
         "command": {
-          "name": "command",
-          "description": "Get information from a command."
+          "name": "komuta",
+          "description": "Bir komuttan bilgi alın."
         }
       }
     },
     "invite": {
-      "description": "Get the recommended Filo's invite link."
+      "description": "Önerilen Filo's davet bağlantısını alın."
     },
     "privacy": {
-      "description": "Get the link to Filo's Privacy Policy."
+      "description": "Filo'nun Gizlilik Politikası bağlantısını alın."
     },
     "terms": {
-      "description": "Get the link to Filo's Terms of Conditions."
+      "description": "Filo'nun Şartlar Koşulları bağlantısını alın."
     },
     "twitter": {
-      "description": "Get the link to Filo's Twitter."
+      "description": "Filo'nun Twitter bağlantısını alın."
     },
     "status": {
-      "description": "Get the link to Filo's Status page."
+      "description": "Filo'nun Durum sayfasının bağlantısını alın."
     },
     "website": {
-      "description": "Get the link to Filo's Website."
+      "description": "Filo'nun Web sitesinin bağlantısını alın."
     },
     "github": {
-      "description": "Get the link to Filo's GitHub."
+      "description": "Filo'nun GitHub bağlantısını edinin."
     },
     "discord": {
-      "description": "Get the link to Filo's Discord Server."
+      "description": "Filo'nun Discord Sunucusunun bağlantısını alın."
     },
     "wiki": {
-      "description": "Get the link to Filo's Wiki."
+      "description": "Filo'nun Wiki'sinin bağlantısını alın."
     },
     "help": {
-      "description": "Get basic help on the bot."
+      "description": "Bot üzerinde temel yardım alın."
     },
     "support": {
-      "description": "Get information on how to receive support."
+      "description": "Nasıl destek alabileceğiniz hakkında bilgi alın."
     },
     "vote": {
-      "description": "Get the link to Filo's voting pages."
+      "description": "Filo'nun oylama sayfalarının bağlantısını alın."
     },
     "votes": {
-      "description": "Get the vote counter of all Filo's voting pages."
+      "description": "Filo'nun tüm oylama sayfalarının oy sayacını alın."
     },
     "cluster": {
-      "description": "Get information about the current Filo's cluster."
+      "description": "Geçerli Filo kümesi hakkında bilgi alın."
     },
     "statistics": {
-      "description": "Get Filo's global stats."
+      "description": "Filo'nun küresel istatistiklerini alın."
     },
     "ping": {
-      "description": "Get the latency from Filo and from the Discord API."
+      "description": "Filo'dan ve Discord API'sinden gecikme süresini alın."
     }
   },
   "subcommand_groups": {
     "roles": {
-      "description": "Manage roles in an advanced way.",
+      "description": "Rolleri gelişmiş bir şekilde yönetin.",
       "subcommands": {
         "muted": {
-          "description": "Create or set the Muted role in the settings.",
+          "description": "Ayarlarda Sessiz rolünü oluşturun veya ayarlayın.",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Muted role (in case you want to set it and not create it)."
+              "name": "rol",
+              "description": "Sessiz rolü (ayarlamak ve oluşturmak istememeniz durumunda)."
             }
           }
         },
         "remove": {
-          "description": "Remove all the parameters of a role from the settings.",
+          "description": "Bir rolün tüm parametrelerini ayarlardan kaldırın.",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Role to which you want to remove all the parameters (properties and permissions)."
+              "name": "rol",
+              "description": "Tüm parametreleri (özellikler ve izinler) kaldırmak istediğiniz rol."
             }
           }
         },
         "permissions": {
-          "description": "Manage the permissions of each role.",
+          "description": "Her bir rolün izinlerini yönetin.",
           "arguments": {
             "role": {
-              "name": "role",
-              "description": "Role you want to manage."
+              "name": "rol",
+              "description": "Yönetmek istediğiniz rol."
             },
             "permission": {
-              "name": "permission",
-              "description": "Permission that you want to add, set, or remove."
+              "name": "izin",
+              "description": "Eklemek, ayarlamak veya kaldırmak istediğiniz izin."
             }
           }
         },
         "view": {
-          "description": "Get the settings of the guild roles."
+          "description": "Lonca rollerinin ayarlarını alın."
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
           "arguments": {
             "confirmation": {
-              "name": "confirmation",
-              "description": "Are you really sure you want to reset the data for this module?"
+              "name": "onayla",
+              "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
             }
           }
         }
       }
     },
     "moderation": {
-      "description": "Manage the moderation section.",
+      "description": "Moderasyon bölümünü yönetin.",
       "subcommands": {
         "dm-notifications": {
-          "description": "Enable or disable notifications for moderation actions.",
+          "description": "Denetleme eylemleri için bildirimleri etkinleştirin veya devre dışı bırakın.",
           "arguments": {
             "action": {
-              "name": "action",
-              "description": "Action you want to carry out."
+              "name": "eylem",
+              "description": "Gerçekleştirmek istediğiniz eylem."
             }
           }
         },
         "view": {
-          "description": "View the settings of the moderation parameters module."
+          "description": "Moderasyon parametreleri modülünün ayarlarını görüntüleyin."
         },
         "reset": {
-          "description": "Restores the module settings to the original ones (data can't be recovered).",
+          "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
           "arguments": {
             "confirmation": {
-              "name": "confirmation",
-              "description": "Are you really sure you want to reset the data for this module?"
+              "name": "onayla",
+              "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
             }
           }
         }
