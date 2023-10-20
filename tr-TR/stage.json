@@ -1,9 +1,9 @@
 {
-  "STAGE_INSTANCE": "Stage instance",
-  "STAGE_INSTANCES": "Stage instances",
-  "STAGE_INSTANCE_PRIVACY_LEVEL": "Privacy level",
-  "PUBLIC_STAGE_INSTANCE": "Public stage instance",
-  "PRIVATE_STAGE_INSTANCE": "Private stage instance",
-  "DISCOVERABLE_DISABLED_TRUE": "The stage instance isn't discoverable",
-  "DISCOVERABLE_DISABLED_FALSE": "The stage instance is discoverable"
+  "STAGE_INSTANCE": "Sahne örneği",
+  "STAGE_INSTANCES": "Sahne örnekleri",
+  "STAGE_INSTANCE_PRIVACY_LEVEL": "Gizlilik seviyesi",
+  "PUBLIC_STAGE_INSTANCE": "Halka açık sahne örneği",
+  "PRIVATE_STAGE_INSTANCE": "Özel sahne örneği",
+  "DISCOVERABLE_DISABLED_TRUE": "Sahne örneği keşfedilebilir değil",
+  "DISCOVERABLE_DISABLED_FALSE": "Sahne örneği keşfedilebilir"
 }
