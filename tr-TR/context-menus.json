@@ -1,47 +1,47 @@
 {
-  "LOADING_ACTION": "Please wait while the requested action loads.",
+  "LOADING_ACTION": "Lütfen istenen eylem yüklenirken bekleyin.",
   "MESSAGE": {
     "MANAGE_THIS_MESSAGE": {
-      "PIN_MESSAGE_TITLE": "Pin message",
-      "PIN_MESSAGE_DESCRIPTION": "Pin this message on this channel.",
-      "UNPIN_MESSAGE_TITLE": "Unpin message",
-      "UNPIN_MESSAGE_DESCRIPTION": "Unpin this message from this channel."
+      "PIN_MESSAGE_TITLE": "Pin mesajı",
+      "PIN_MESSAGE_DESCRIPTION": "Bu mesajı bu kanala sabitleyin.",
+      "UNPIN_MESSAGE_TITLE": "Mesajın sabitlemesini kaldır",
+      "UNPIN_MESSAGE_DESCRIPTION": "Bu mesajı bu kanaldan kaldırın."
     }
   },
   "USER": {
     "MISCELLANEOUS_ACTIONS": {
-      "SHOW_USER_AVATAR_TITLE": "Show user avatar",
-      "SHOW_USER_AVATAR_DESCRIPTION": "Show the avatar of this user.",
-      "SHOW_USER_PROFILE_TITLE": "Show user profile",
-      "SHOW_USER_PROFILE_DESCRIPTION": "Show the profile of this user."
+      "SHOW_USER_AVATAR_TITLE": "Kullanıcı avatarını göster",
+      "SHOW_USER_AVATAR_DESCRIPTION": "Bu kullanıcının avatarını göster.",
+      "SHOW_USER_PROFILE_TITLE": "Kullanıcı profilini göster",
+      "SHOW_USER_PROFILE_DESCRIPTION": "Bu kullanıcının profilini gösterin."
     },
     "MODERATE_THIS_USER": {
-      "PERMANENTLY_BAN_THIS_USER_TITLE": "Permanently ban this user",
-      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Permanently ban this user from the server.",
-      "SHOW_USER_HISTORY_TITLE": "Show user's history",
-      "SHOW_USER_HISTORY_DESCRIPTION": "Show the user's sanctions history.",
-      "KICK_THIS_USER_TITLE": "Kick this user",
-      "KICK_THIS_USER_DESCRIPTION": "Kick this user from the server.",
-      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Permanently mute this user",
-      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Permanently mute this user from the server.",
-      "SOFTBAN_THIS_USER_TITLE": "Softban this user",
-      "SOFTBAN_THIS_USER_DESCRIPTION": "Softban this user from the server.",
-      "TEMPORARILY_BAN_THIS_USER_TITLE": "Temporarily ban this user",
-      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Temporarily ban this user from the server.",
-      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Temporarily mute this user",
-      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Temporarily mute this user from the server.",
-      "UNBAN_THIS_USER_TITLE": "Unban this user",
-      "UNBAN_THIS_USER_DESCRIPTION": "Unban this user from the server.",
-      "UNMUTE_THIS_USER_TITLE": "Unmute this user",
-      "UNMUTE_THIS_USER_DESCRIPTION": "Unmute this user from the server.",
-      "UNWARN_THIS_USER_TITLE": "Unwarn this user",
-      "UNWARN_THIS_USER_DESCRIPTION": "Unwarn this user from the server.",
-      "WARN_THIS_USER_TITLE": "Warn this user",
-      "WARN_THIS_USER_DESCRIPTION": "Warn this user from the server.",
-      "TIMEOUT_THIS_USER_TITLE": "Timeout this user",
-      "TIMEOUT_THIS_USER_DESCRIPTION": "Timeout this user from the server.",
-      "UNTIMEOUT_THIS_USER_TITLE": "Untimeout this user",
-      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Untimeout this user from the server."
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "Bu kullanıcıyı kalıcı olarak yasakla",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan kalıcı olarak yasaklayın.",
+      "SHOW_USER_HISTORY_TITLE": "Kullanıcı geçmişini göster",
+      "SHOW_USER_HISTORY_DESCRIPTION": "Kullanıcının yaptırım geçmişini gösterin.",
+      "KICK_THIS_USER_TITLE": "Bu kullanıcıyı tekmele",
+      "KICK_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan atar.",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Bu kullanıcıyı kalıcı olarak sessize al",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan kalıcı olarak sessize alın.",
+      "SOFTBAN_THIS_USER_TITLE": "Softban bu kullanıcı",
+      "SOFTBAN_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan uzaklaştırın.",
+      "TEMPORARILY_BAN_THIS_USER_TITLE": "Bu kullanıcıyı geçici olarak yasaklayın",
+      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan geçici olarak yasaklar.",
+      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Bu kullanıcıyı geçici olarak sessize al",
+      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan geçici olarak sessize alın.",
+      "UNBAN_THIS_USER_TITLE": "Bu kullanıcının yasağını kaldırın",
+      "UNBAN_THIS_USER_DESCRIPTION": "Bu kullanıcının sunucudan yasağını kaldırın.",
+      "UNMUTE_THIS_USER_TITLE": "Bu kullanıcının sesini aç",
+      "UNMUTE_THIS_USER_DESCRIPTION": "Bu kullanıcının sunucudan sesini kaldırın.",
+      "UNWARN_THIS_USER_TITLE": "Bu kullanıcıyı uyarma",
+      "UNWARN_THIS_USER_DESCRIPTION": "Bu kullanıcının sunucudan uyarısını kaldırın.",
+      "WARN_THIS_USER_TITLE": "Bu kullanıcıyı uyarın",
+      "WARN_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan uyarın.",
+      "TIMEOUT_THIS_USER_TITLE": "Bu kullanıcı için zaman aşımı",
+      "TIMEOUT_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan zaman aşımına uğratır.",
+      "UNTIMEOUT_THIS_USER_TITLE": "Bu kullanıcıyı zaman aşımına uğrat",
+      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Bu kullanıcının sunucudan zaman aşımını kaldırın."
     }
   }
 }
