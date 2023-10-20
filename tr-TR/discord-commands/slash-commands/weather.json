@@ -1,13 +1,13 @@
 {
-  "description": "Get the weather of a location.",
+  "description": "Bir konumun hava durumunu öğrenin.",
   "arguments": {
     "location": {
-      "name": "location",
-      "description": "Location where you want to get the weather."
+      "name": "konum",
+      "description": "Hava durumunu almak istediğiniz yer."
     },
     "degree-type": {
-      "name": "degree-type",
-      "description": "Type of temperature degrees."
+      "name": "derece-tipi",
+      "description": "Sıcaklık derecelerinin türü."
     }
   }
 }
