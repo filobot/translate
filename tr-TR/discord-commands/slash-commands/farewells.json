@@ -1,43 +1,43 @@
 {
-  "description": "Module that allows you to send a goodbye message to old members.",
+  "description": "Eski üyelere veda mesajı göndermenizi sağlayan modül.",
   "subcommands": {
     "enable": {
-      "description": "Enable the farewells module."
+      "description": "Vedalar modülünü etkinleştirin."
     },
     "disable": {
-      "description": "Disable the farewells module."
+      "description": "Vedalar modülünü devre dışı bırakın."
     },
     "channel": {
-      "description": "Set the channel where the farewell messages will be sent.",
+      "description": "Veda mesajlarının gönderileceği kanalı ayarlayın.",
       "arguments": {
-        "name": "channel",
-        "description": "Channel where farewell messages will be sent."
+        "name": "kanal",
+        "description": "Veda mesajlarının gönderileceği kanal."
       }
     },
     "message": {
-      "description": "Set the farewell message."
+      "description": "Veda mesajını ayarlayın."
     },
     "type": {
-      "description": "Set the way in which the farewell message will be sent.",
+      "description": "Veda mesajının gönderilme şeklini ayarlayın.",
       "arguments": {
         "type": {
-          "name": "type",
-          "description": "Way in which the welcome farewell will be sent."
+          "name": "tip",
+          "description": "Karşılama vedasının gönderileceği yol."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the farewells module documentation."
+      "description": "Farewells modülü belgelerinin bağlantısını alın."
     },
     "view": {
-      "description": "View the settings of the farewells module."
+      "description": "Vedalar modülünün ayarlarını görüntüleyin."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
         }
       }
     }
