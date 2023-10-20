@@ -1,30 +1,30 @@
 {
-  "description": "Convert text to owoify.",
+  "description": "Metni owoify'ye dönüştürün.",
   "subcommands": {
     "owo": {
-      "description": "Owoify ywour text.",
+      "description": "Metnyinyizi Owoify edin.",
       "arguments": {
         "text": {
-          "name": "text",
-          "description": "Text that you want to convert to owo."
+          "name": "metin",
+          "description": "owo biçimine dönüştürmek istediğiniz metin."
         }
       }
     },
     "uwu": {
-      "description": "Owoify ywouw text.",
+      "description": "Metnyinyizi Owoify edin.",
       "arguments": {
         "text": {
-          "name": "text",
-          "description": "Text that you want to convert to uwu."
+          "name": "metin",
+          "description": "uwu'ye dönüştürmek istediğiniz metin."
         }
       }
     },
     "uvu": {
-      "description": "Owoify ywowouw text.",
+      "description": "Metnyinyizi Owoify edin.",
       "arguments": {
         "text": {
-          "name": "text",
-          "description": "Text that you want to convert to uvu."
+          "name": "metin",
+          "description": "uvu'ya dönüştürmek istediğiniz metin."
         }
       }
     }
