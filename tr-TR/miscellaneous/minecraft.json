@@ -1,12 +1,12 @@
 {
   "SERVER": {
-    "SERVER_OFFLINE": "The server you specified is offline.",
-    "IP_ADDRESS": "IP address",
-    "PORT": "Port",
-    "PLAYERS": "Players",
-    "VERSION": "Version"
+    "SERVER_OFFLINE": "Belirttiğiniz sunucu çevrimdışı.",
+    "IP_ADDRESS": "IP adresi",
+    "PORT": "Liman",
+    "PLAYERS": "Oyuncular",
+    "VERSION": "Versiyon"
   },
   "UUID": {
-    "WATCHING_PLAYER_UUID": "The uuid of the player **{{player}}** is **{{uuid}}**."
+    "WATCHING_PLAYER_UUID": "Oyuncunun uuid'si **{{player}}**, **{{uuid}}** şeklindedir."
   }
 }
