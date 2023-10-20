@@ -1,76 +1,76 @@
 {
-  "description": "Module that allows you to avoid spam from users.",
+  "description": "Kullanıcılardan gelen spam'leri önlemenizi sağlayan modül.",
   "subcommands": {
     "enable": {
-      "description": "Enable the anti-spam module."
+      "description": "Anti-spam modülünü etkinleştirin."
     },
     "disable": {
-      "description": "Disable the anti-spam module."
+      "description": "Anti-spam modülünü devre dışı bırakın."
     },
     "action": {
-      "description": "Set the action to take when someone spam.",
+      "description": "Birisi spam yaptığında gerçekleştirilecek eylemi ayarlayın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action to take when someone spam."
+          "name": "eylem",
+          "description": "Birisi spam yaptığında yapılacak işlem."
         },
         "time": {
-          "name": "time",
-          "description": "Time of the action (in case of being temporary)."
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
         }
       }
     },
     "duplicates": {
-      "description": "Set the duplicate message filter parameters.",
+      "description": "Yinelenen mesaj filtresi parametrelerini ayarlayın.",
       "arguments": {
         "threshold": {
-          "name": "threshold",
-          "description": "Number of identical messages that can be sent."
+          "name": "eşik",
+          "description": "Gönderilebilecek özdeş mesaj sayısı."
         },
         "time": {
-          "name": "time",
-          "description": "Time to reset identical messages sent by a user."
+          "name": "zaman",
+          "description": "Bir kullanıcı tarafından gönderilen aynı mesajları sıfırlama zamanı."
         }
       }
     },
     "channel": {
-      "description": "Add or remove a channel from the list of ignored channels.",
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
         },
         "channel": {
-          "name": "channel",
-          "description": "Channel from the module's channel bypass list."
+          "name": "kanal",
+          "description": "Modülün kanal bypass listesinden kanal."
         }
       }
     },
     "role": {
-      "description": "Add or remove a role from the list of ignored roles.",
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
       "arguments": {
         "action": {
-          "name": "action",
-          "description": "Action you want to carry out."
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
         },
         "role": {
-          "name": "role",
-          "description": "Role from the module's role bypass list."
+          "name": "rol",
+          "description": "Modülün rol atlama listesinden rol."
         }
       }
     },
     "docs": {
-      "description": "Get the link of the anti-spam module documentation."
+      "description": "Anti-spam modülü belgelerinin bağlantısını alın."
     },
     "view": {
-      "description": "View the settings of the anti-spam module."
+      "description": "Anti-spam modülünün ayarlarını görüntüleyin."
     },
     "reset": {
-      "description": "Restores the module settings to the original ones (data can't be recovered).",
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
       "arguments": {
         "confirmation": {
-          "name": "confirmation",
-          "description": "Are you really sure you want to reset the data for this module?"
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
         }
       }
     }
