@@ -214,6 +214,38 @@
     },
     "MODERATION": {
       "NAME": "Moderation",
+      "ANTI_BAD_WORDS": {
+        "LABEL": "Anti Bad Words",
+        "DESCRIPTION": "Prevent users from using bad words."
+      },
+      "ANTI_EVASION": {
+        "LABEL": "Anti Evasion",
+        "DESCRIPTION": "Ban those who try to evade their sanctions."
+      },
+      "ANTI_EXTERNAL_LINKS": {
+        "LABEL": "Anti External Links",
+        "DESCRIPTION": "Prevent users from sending external links."
+      },
+      "ANTI_INVITES": {
+        "LABEL": "Anti Invites",
+        "DESCRIPTION": "Don't allow users to send invites that aren't from this server."
+      },
+      "ANTI_MASS_MENTIONS": {
+        "LABEL": "Anti Mass Mentions",
+        "DESCRIPTION": "Prevent users from mass mentioning other users."
+      },
+      "ANTI_REPEATED_TEXT": {
+        "LABEL": "Anti Repeated Text",
+        "DESCRIPTION": "Prevent users from sending repeated text on the same message."
+      },
+      "ANTI_SCAM_LINKS": {
+        "LABEL": "Anti Scam Links",
+        "DESCRIPTION": "Don't allow users to send links that are considered scams."
+      },
+      "ANTI_SPAM": {
+        "LABEL": "Anti Spam",
+        "DESCRIPTION": "Prevent users from spamming."
+      },
       "AUTO_MODERATION": {
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
