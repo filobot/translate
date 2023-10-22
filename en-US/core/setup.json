@@ -288,6 +288,13 @@
             "DESCRIPTION": "Check the total number of sanctions the member has with expiration.",
             "TOTAL_SANCTIONS_WITH_EXPIRATION_SET": "You have successfully set the total number of sanctions to **{{number}}** in the last **{{time}}**."
           },
+          "MEMBER_TOTAL_SANCTIONS_BY_MODULE": {
+            "LABEL": "Member total sanctions by module",
+            "DESCRIPTION": "Check the total number of sanctions the member has by module.",
+            "SELECT_THE_MODULE": "You must select the module you want to set.",
+            "SELECT_THE_MODULE_PLACEHOLDER": "Select the module",
+            "TOTAL_SANCTIONS_BY_MODULE_SET": "You have successfully set the total number of sanctions to **{{number}}** and the module to **{{module}}**."
+          },
           "SERVER_FEATURES": {
             "LABEL": "Server features",
             "DESCRIPTION": "Check if the server has the specified feature.",
