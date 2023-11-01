@@ -341,6 +341,13 @@
             "SELECT_THE_TYPE_PLACEHOLDER": "Select the type",
             "TOTAL_SANCTIONS_BY_TYPE_SET": "You have successfully set the total number of sanctions to **{{number}}** and the type to **{{type}}**."
           },
+          "MEMBER_TOTAL_SANCTIONS_BY_TYPE_WITH_EXPIRATION": {
+            "LABEL": "Member total sanctions by type with expiration",
+            "DESCRIPTION": "Check the total number of sanctions the member has by type with expiration.",
+            "SELECT_THE_TYPE": "You must select the type you want to set.",
+            "SELECT_THE_TYPE_PLACEHOLDER": "Select the type",
+            "TOTAL_SANCTIONS_BY_TYPE_WITH_EXPIRATION_SET": "You have successfully set the total number of sanctions to **{{number}}** in the last **{{time}}** and the type to **{{type}}**."
+          },
           "SERVER_FEATURES": {
             "LABEL": "Server features",
             "DESCRIPTION": "Check if the server has the specified feature.",
