@@ -355,6 +355,23 @@
             "SELECT_THE_FEATURE_PLACEHOLDER": "Select the feature",
             "DESCRIPTION_ALTERNATIVE": "The server must have the {{feature}} feature.",
             "FEATURE_SET": "You have successfully set the **{{feature}}** feature."
+          },
+          "USER_BLACKLISTED_THIRD_PARTY": {
+            "LABEL": "User blacklisted third party",
+            "DESCRIPTION": "Check if the user is blacklisted in a third party.",
+            "SELECT_THE_STATUS": "You must select the status you want to set.",
+            "SELECT_THE_STATUS_PLACEHOLDER": "Select the status",
+            "STATUS_SET": "You have successfully set the status to **{{status}}**.",
+            "AVAILABLE_STATUS": {
+              "BLACKLISTED": {
+                "LABEL": "Blacklisted",
+                "DESCRIPTION": "The user must be blacklisted"
+              },
+              "NOT_BLACKLISTED": {
+                "LABEL": "Not blacklisted",
+                "DESCRIPTION": "The user must not be blacklisted"
+              }
+            }
           }
         },
         "CONFIGURE": {
