@@ -250,8 +250,8 @@
         "LABEL": "Auto Moderation",
         "DESCRIPTION": "Moderate users intelligently and automatically.",
         "CONDITIONALS_LIST": {
-          "USER_FLAGS": {
-            "LABEL": "User flags",
+          "USER_FLAG": {
+            "LABEL": "User flag",
             "DESCRIPTION": "Check if the user has the specified flag.",
             "SELECT_THE_FLAG": "You must select the flag you want to set.",
             "SELECT_THE_FLAG_PLACEHOLDER": "Select the flag",
