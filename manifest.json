@@ -70,5 +70,15 @@
       "446374076441952258",
       "266103595949096960"
     ]
+  },
+  {
+    "name": "de-DE",
+    "nativeName": "Deutsch",
+    "wikiCode": null,
+    "flag": "🇩🇪",
+    "default": false,
+    "contributors": [
+      "266103595949096960"
+    ]
   }
 ]
