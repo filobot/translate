@@ -1,0 +1,9 @@
+{
+  "description": "Bir osu! oyuncusunun istatistiklerini alın.",
+  "arguments": {
+    "player": {
+      "name": "oyuncu",
+      "description": "Oyuncunun Oyun İçi Nick'i."
+    }
+  }
+}

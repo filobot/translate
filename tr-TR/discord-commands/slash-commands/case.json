@@ -1,0 +1,27 @@
+{
+  "description": "Bir yaptırım vakasını yönetin.",
+  "subcommands": {
+    "info": {
+      "description": "Bir yaptırım davası hakkında bilgi alın.",
+      "arguments": {
+        "case": {
+          "name": "dava",
+          "description": "Davanın kimliği."
+        }
+      }
+    },
+    "set": {
+      "description": "Bir vaka için yeni bilgileri ayarlayın.",
+      "arguments": {
+        "case": {
+          "name": "dava",
+          "description": "Davanın kimliği."
+        },
+        "reason": {
+          "name": "sebep",
+          "description": "Kasayı ayarlamak istemenizin nedeni."
+        }
+      }
+    }
+  }
+}

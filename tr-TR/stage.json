@@ -1,0 +1,9 @@
+{
+  "STAGE_INSTANCE": "Sahne örneği",
+  "STAGE_INSTANCES": "Sahne örnekleri",
+  "STAGE_INSTANCE_PRIVACY_LEVEL": "Gizlilik seviyesi",
+  "PUBLIC_STAGE_INSTANCE": "Halka açık sahne örneği",
+  "PRIVATE_STAGE_INSTANCE": "Özel sahne örneği",
+  "DISCOVERABLE_DISABLED_TRUE": "Sahne örneği keşfedilebilir değil",
+  "DISCOVERABLE_DISABLED_FALSE": "Sahne örneği keşfedilebilir"
+}

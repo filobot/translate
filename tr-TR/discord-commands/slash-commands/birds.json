@@ -1,0 +1,8 @@
+{
+  "description": "Kanala bir kuş görüntüsü gönderin.",
+  "subcommands": {
+    "random": {
+      "description": "Rastgele bir kuş resmi gönderin."
+    }
+  }
+}

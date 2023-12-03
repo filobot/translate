@@ -1,0 +1,4 @@
+{
+  "JOIN_THE_ACTIVITY": "**{{activity}}** etkinliğine **[buraya tıklayarak]({{invite.url}})** katılabilirsiniz.",
+  "ACTIVITY_WARNING": "**UYARI**: Bu aktivite sadece masaüstünde çalışabilir."
+}

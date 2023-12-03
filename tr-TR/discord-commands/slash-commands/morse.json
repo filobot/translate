@@ -1,0 +1,23 @@
+{
+  "description": "Mors kodlayın veya mors kodunu çözün.",
+  "subcommands": {
+    "encode": {
+      "description": "Metni mors alfabesine dönüştürün.",
+      "arguments": {
+        "code": {
+          "name": "kod",
+          "description": "Mors koduna kodlamak istediğiniz metin."
+        }
+      }
+    },
+    "decode": {
+      "description": "Mors kodunu metne dönüştürün.",
+      "arguments": {
+        "code": {
+          "name": "kod",
+          "description": "Metne dönüştürmek istediğiniz Mors kodu."
+        }
+      }
+    }
+  }
+}

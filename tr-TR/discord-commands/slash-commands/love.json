@@ -1,0 +1,9 @@
+{
+  "description": "Başka bir kullanıcıyla yaşadığınız aşkı gösteren bir görüntüyü kanala gönderin.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Görüntüyü birlikte oluşturmak istediğiniz kullanıcı."
+    }
+  }
+}

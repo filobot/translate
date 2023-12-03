@@ -1,0 +1,9 @@
+{
+  "USER_REPORTED": "Başarılı bir şekilde **[{{user.tag}}]({{url}})** ({{user.id}}) raporladınız.",
+  "MESSAGE_REPORTED": "Başarılı bir şekilde **[{{user.tag}}**]({{url2}})** ({{user.id}}) **[message]({{url}})** raporladınız.",
+  "REPORT_APPROVED_OR_DENIED": "**{{status}}** {{user}} raporunu başarıyla tamamladınız.",
+  "REPORT_NOTIFICATION": {
+    "TITLE": "Raporunuz {{status}} adresinde **{{guild.name}}** sunucusunda!",
+    "DESCRIPTION": "Bu bildirimi alıyorsunuz çünkü raporunuz **{{guild.name}}** sunucusunda {{status}} olmuştur."
+  }
+}

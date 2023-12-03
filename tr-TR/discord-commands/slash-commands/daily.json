@@ -1,0 +1,9 @@
+{
+  "description": "Günlük kredilerinizi talep edin veya bir kullanıcıya hediye edin.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Günlük kredilerinizi vermek istediğiniz kullanıcı."
+    }
+  }
+}

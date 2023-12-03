@@ -1,0 +1,250 @@
+{
+  "HOME": {
+    "PRE_START": "Devam etmeden önce **{{button}}** düğmesine tıklamanız gerekmektedir.",
+    "DESCRIPTION": "Yapılandırmak istediğiniz modül kategorisini seçerek Filo'yu yapılandırmaya başlayın ve ardından çalıştırmak istediğiniz modülü seçin.\n\n**Bir referans kılavuzuna mı ihtiyacınız var? Endişelenmeyin!**\n**[Buraya tıklayarak]({{url}})**, herhangi bir şeyin nasıl yapılandırılacağı hakkında bilgi içeren Filo'nun Wiki'sine yönlendirileceksiniz.\n\n**Çok mu karmaşık?**\n**[Bize ulaşın]({{url2}})** herhangi bir sorunuz varsa veya ek açıklamaya ihtiyacınız varsa.",
+    "SELECT_A_MODULE_CATEGORY": {
+      "PLACEHOLDER": "Bir modül kategorisi seçin",
+      "ADMINISTRATION": {
+        "LABEL": "Yönetim modülleri",
+        "DESCRIPTION": "Sunucunuzun yönetiminde size yardımcı olacak modüller."
+      },
+      "COMMUNITY": {
+        "LABEL": "Topluluk modülleri",
+        "DESCRIPTION": "Toplumunuzdaki deneyimi geliştirmenize yardımcı olacak modüller."
+      },
+      "MODERATION": {
+        "LABEL": "Moderasyon modülleri",
+        "DESCRIPTION": "Sunucunuzu yönetmenize yardımcı olacak modüller."
+      }
+    },
+    "TITLE": "Filo Kurulum Menüsü"
+  },
+  "LOADING_DATA": "Lütfen gerekli veriler yüklenirken bekleyiniz.",
+  "MODULES": {
+    "SELECT_A_MODULE": "Yapılandırmak istediğiniz modülü **{{module}}** kategorisinden seçmelisiniz.",
+    "SELECT_A_SUBMODULE": "Yapılandırmak istediğiniz alt modülü **{{module}}** modülünden seçmelisiniz.",
+    "PLACEHOLDER": "Bir modül seçin",
+    "SELECT_THE_ACTION": "Modül üzerinde gerçekleştirmek istediğiniz eylemi seçmelisiniz.",
+    "SELECT_THE_ACTION_PLACEHOLDER": "Bir eylem seçin",
+    "MODULE_ENABLED_OR_DISABLED": "**{{module}}** modülü başarıyla {{action}} olmuştur.",
+    "RESET_REQUEST_WARNING": "**{{module}}** modülünü sıfırlamak istediğinizden emin misiniz? Bu işlem geri alınamaz!",
+    "MODULE_RESET": "**{{module}}** modülü başarıyla sıfırlandı.",
+    "SELECT_A_CHANNEL": "Ayarlamak istediğiniz kanalı seçmelisiniz.",
+    "SELECT_A_CHANNEL_PLACEHOLDER": "Bir kanal seçin",
+    "SELECT_AT_LEAST_ONE_CHANNEL": "En az bir kanal seçmelisiniz.",
+    "SELECT_A_ROLE": "Ayarlamak istediğiniz rolü seçmelisiniz.",
+    "SELECT_A_ROLE_PLACEHOLDER": "Bir rol seçin",
+    "SELECT_AT_LEAST_ONE_ROLE": "En az bir rol seçmelisiniz.",
+    "CHANNEL_SET": "**{{module}}** modülü için **[#{{channel.name}}]({{url}})** kanalını başarıyla ayarladınız.",
+    "DM_STATUS": {
+      "LABEL": "DM'lerin durumunu değiştirme",
+      "DESCRIPTION": "Bildirimlerin durumunu DM ile değiştirin.",
+      "DM_STATUS_TOGGLED": "**{{module}}** modülü için DM bildirimlerini başarıyla **{{action}}** yaptınız."
+    },
+    "EXCEPTIONS": {
+      "ADD": {
+        "LABEL": "{{type}} adresini ekleyin",
+        "DESCRIPTION": "{{type}} adresini modülün istisna listesine ekleyin.",
+        "COMPLETED": "{{value}} {{type}} adresini modülün istisna listesine başarıyla eklediniz.",
+        "COMPLETED_ALTERNATIVE": "**{{number}}** {{type}} adresini modülün istisna listesine başarıyla eklediniz."
+      },
+      "SET": {
+        "LABEL": "{{type}} adresini ayarlayın",
+        "DESCRIPTION": "{{type}} listesini modülün istisna listesine ayarlayın.",
+        "COMPLETED": "{{value}} {{type}} adresini modülün istisna listesine başarıyla ayarladınız.",
+        "COMPLETED_ALTERNATIVE": "**{{number}}** {{type}} adresini modülün istisna listesine başarıyla ayarladınız."
+      },
+      "REMOVE": {
+        "LABEL": "{{type}} adresini kaldırın",
+        "DESCRIPTION": "{{type}} adresini modülün istisna listesinden kaldırın.",
+        "COMPLETED": "{{value}} {{type}} adresini modülün istisna listesinden başarıyla kaldırdınız.",
+        "COMPLETED_ALTERNATIVE": "**{{number}}** {{type}} adresini modülün istisna listesinden başarıyla kaldırdınız.",
+        "NO_DATA_TO_REMOVE": "Modülün istisna listesinden kaldırılabilecek {{value}} adresi yoktur."
+      }
+    },
+    "COMMUNITY": {
+      "NAME": "Topluluk",
+      "COMMANDS": {
+        "LABEL": "Komutlar",
+        "DESCRIPTION": "Filo'nun komutlarının davranışını değiştirin.",
+        "CONFIGURE": {
+          "SELECT_THE_COMMANDS": "{{action}} adresine gitmek istediğiniz komutları seçmelisiniz.",
+          "SELECT_THE_CATEGORIES": "{{action}} adresinden istediğiniz kategorileri seçmelisiniz.",
+          "SELECT_THE_COMMANDS_PLACEHOLDER": "Komutları seçin",
+          "SELECT_THE_CATEGORIES_PLACEHOLDER": "Kategorileri seçin",
+          "DISABLE_COMMANDS": {
+            "LABEL": "Komutları devre dışı bırak",
+            "DESCRIPTION": "Filo'nun komutlarını devre dışı bırakın.",
+            "NO_COMMANDS_TO_DISABLE": "Mevcut tüm komutlar devre dışı bırakıldı.",
+            "COMMANDS_DISABLED": "**{{commands}}** komutlarını başarıyla devre dışı bıraktınız."
+          },
+          "ENABLE_COMMANDS": {
+            "LABEL": "Komutları etkinleştir",
+            "DESCRIPTION": "Filo'nun komutlarını etkinleştirin.",
+            "NO_COMMANDS_TO_ENABLE": "Mevcut tüm komutlar şu anda etkindir.",
+            "COMMANDS_ENABLED": "**{{commands}}** komutlarını başarıyla etkinleştirdiniz."
+          },
+          "DISABLE_CATEGORIES": {
+            "LABEL": "Kategorileri devre dışı bırak",
+            "DESCRIPTION": "Filo'nun kategorilerini devre dışı bırakın.",
+            "NO_CATEGORIES_TO_DISABLE": "Mevcut tüm kategoriler devre dışı bırakıldı.",
+            "CATEGORIES_DISABLED": "**{{categories}}** kategorilerini başarıyla devre dışı bıraktınız."
+          },
+          "ENABLE_CATEGORIES": {
+            "LABEL": "Kategorileri etkinleştirin",
+            "DESCRIPTION": "Filo'nun kategorilerini etkinleştirin.",
+            "NO_CATEGORIES_TO_ENABLE": "Mevcut tüm kategoriler şu anda etkindir.",
+            "CATEGORIES_ENABLED": "**{{categories}}** kategorilerini başarıyla etkinleştirdiniz."
+          }
+        }
+      },
+      "LANGUAGE": {
+        "LABEL": "Dil",
+        "DESCRIPTION": "Bu sunucuda Filo'nun dilini değiştirin.",
+        "SELECT_A_LANGUAGE": "Ayarlamak istediğiniz dili seçmelisiniz.",
+        "SELECT_A_LANGUAGE_PLACEHOLDER": "Bir dil seçin",
+        "LANGUAGE_SET": "**{{language}}** dilini başarıyla ayarladınız."
+      },
+      "REPORTS": {
+        "LABEL": "Raporlar",
+        "DESCRIPTION": "Sunucu üyelerinize raporlama araçları sağlayın.",
+        "SUBMODULES_SELECTOR": {
+          "MEMBERS": "Üye raporlama modülünün davranışını değiştirin.",
+          "MESSAGES": "Mesaj raporlama modülünün davranışını değiştirin."
+        },
+        "CONFIGURE": {
+          "REPORTS_CHANNEL": {
+            "LABEL": "Rapor kanalını ayarlama",
+            "DESCRIPTION": "Raporların nereye gönderilmesini istediğinizi ayarlayın."
+          },
+          "IGNORED_ROLE": {
+            "LABEL": "Yok sayılan rolü ayarlayın",
+            "DESCRIPTION": "Üyeleri rapor gönderemeyecek bir rol belirleyin.",
+            "IGNORED_ROLE_SET": "**{{role.mention}}** ({{role.id}}) rolünü yok sayılan rol olarak başarıyla ayarladınız."
+          },
+          "TOGGLE_DELETE_REVIEWED_REPORTS": {
+            "LABEL": "İncelenen raporların silinmesini değiştirme",
+            "DESCRIPTION": "İncelenen raporların silinme durumunu değiştirin.",
+            "DELETE_REVIEWED_REPORTS_TOGGLED": "İncelenen raporların silinmesi işlemini **{{action}}** başarıyla tamamladınız."
+          },
+          "NOTIFICATION_ROLES": {
+            "ADD": {
+              "LABEL": "Bildirim rolleri ekleme",
+              "DESCRIPTION": "Bir rapor gönderildiğinde bilgilendirilecek roller ekleyin.",
+              "COMPLETED": "**{{role.mention}}** ({{role.id}}) rolünü bir bildirim rolü olarak başarıyla eklediniz.",
+              "COMPLETED_ALTERNATIVE": "**{{number}}** rollerini bildirim rolleri olarak başarıyla eklediniz."
+            },
+            "SET": {
+              "LABEL": "Bildirim rollerini ayarlama",
+              "DESCRIPTION": "Bir rapor gönderildiğinde bilgilendirilecek rolleri ayarlayın.",
+              "COMPLETED": "Bildirim rolü olarak **{{role.mention}}** ({{role.id}}) rolünü başarıyla ayarladınız.",
+              "COMPLETED_ALTERNATIVE": "Bildirim rolleri olarak **{{number}}** rollerini başarıyla ayarladınız."
+            },
+            "REMOVE": {
+              "LABEL": "Bildirim rollerini kaldırma",
+              "DESCRIPTION": "Bir rapor gönderildiğinde bildirilecek rolleri kaldırın.",
+              "COMPLETED": "Bildirim rolü olarak **{{role.mention}}** ({{role.id}}) rolünü başarıyla kaldırdınız.",
+              "COMPLETED_ALTERNATIVE": "**{{number}}** rollerini bildirim rolleri olarak başarıyla kaldırdınız.",
+              "NO_DATA_TO_REMOVE": "Kaldırılabilecek herhangi bir bildirim rolü bulunmamaktadır."
+            }
+          },
+          "REASON": {
+            "LABEL": "Sebep parametrelerini yapılandırma",
+            "DESCRIPTION": "Raporların neden alanının davranışını değiştirin.",
+            "SET_MIN_LENGTH_OF_MEMBER_REASON": {
+              "LABEL": "Üye nedeninin minimum uzunluğunu ayarlayın",
+              "DESCRIPTION": "Üye raporlarının nedeninin minimum uzunluğunu ayarlayın.",
+              "FORM": {
+                "LABEL": "Minimum sebep uzunluğu"
+              },
+              "COMPLETED": "Üye nedeninin minimum uzunluğunu **{{number}}** karakter olarak başarıyla ayarladınız."
+            },
+            "SET_MAX_LENGTH_OF_MEMBER_REASON": {
+              "LABEL": "Üye nedeninin maksimum uzunluğunu ayarlayın",
+              "DESCRIPTION": "Üye raporlarının nedeninin maksimum uzunluğunu ayarlayın.",
+              "FORM": {
+                "LABEL": "Maksimum sebep uzunluğu"
+              },
+              "COMPLETED": "Üye nedeninin maksimum uzunluğunu **{{number}}** karakter olarak başarıyla ayarladınız."
+            },
+            "CLEAN_MARKDOWN_OF_MEMBER_REASON": {
+              "LABEL": "Üye nedeninin işaret dökümünün temizlenmesini değiştir",
+              "DESCRIPTION": "Üye raporlarının nedeninin işaretlenmesinin temizlenme durumunu değiştirin.",
+              "COMPLETED": "Başarılı bir şekilde **{{action}}** üyeler nedeninin işaret dökümünü temizlediniz."
+            },
+            "SET_MIN_LENGTH_OF_REVIEWER_REASON": {
+              "LABEL": "Gözden geçirme nedeninin minimum uzunluğunu ayarlayın",
+              "DESCRIPTION": "Gözden geçiren raporlarının nedeninin minimum uzunluğunu ayarlayın.",
+              "FORM": {
+                "LABEL": "Minimum sebep uzunluğu"
+              },
+              "COMPLETED": "Gözden geçirenlerin gerekçesinin minimum uzunluğunu **{{number}}** karakter olarak başarıyla ayarladınız."
+            },
+            "SET_MAX_LENGTH_OF_REVIEWER_REASON": {
+              "LABEL": "Gözden geçiren nedeninin maksimum uzunluğunu ayarlayın",
+              "DESCRIPTION": "Gözden geçiren raporlarının nedeninin maksimum uzunluğunu ayarlayın.",
+              "FORM": {
+                "LABEL": "Maksimum sebep uzunluğu"
+              },
+              "COMPLETED": "Gözden geçirenlerin gerekçesinin maksimum uzunluğunu **{{number}}** karakter olarak başarıyla ayarladınız."
+            },
+            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": {
+              "LABEL": "Gözden geçiren nedeninin işaret dökümünün temizlenmesini değiştir",
+              "DESCRIPTION": "Gözden geçiren raporlarının nedeninin işaretlemesinin temizlenme durumunu değiştirin.",
+              "COMPLETED": "Başarılı bir şekilde **{{action}}** gözden geçirenlerin işaretleme nedeninin temizlenmesini gerçekleştirdiniz."
+            }
+          },
+          "EVIDENCES": {
+            "LABEL": "Kanıt parametrelerini yapılandırma",
+            "DESCRIPTION": "Raporların kanıtlar alanının davranışını değiştirin.",
+            "SET_MIN_COUNT": {
+              "LABEL": "Minimum kanıt sayısını ayarlayın",
+              "DESCRIPTION": "Bir raporun sahip olması gereken minimum kanıt sayısını ayarlayın.",
+              "FORM": {
+                "LABEL": "Minimum sayı"
+              },
+              "COMPLETED": "Minimum kanıt sayısını **{{number}}** olarak başarıyla ayarladınız."
+            }
+          }
+        }
+      }
+    },
+    "VIEW": {
+      "TITLE": "**{{module}}** modülünün ayarlarını görüntüleme",
+      "NO_DATA": "Veri yok",
+      "SELECT_THE_DATA": "Görüntülenecek verileri seçin",
+      "VIEW_ALL": "Tümünü görüntüle {{data}}.",
+      "DM_STATUS": "DM durumu",
+      "COOLDOWN": "Bekleme Süresi",
+      "EXCEPTIONS": "{{type}} istisnalar",
+      "COMMUNITY": {
+        "COMMANDS": {
+          "DISABLED_COMMANDS": "Devre dışı komutlar",
+          "DISABLED_CATEGORIES": "Engelli kategorileri"
+        },
+        "LANGUAGE": {
+          "LANGUAGE_CODE": "Dil kodu"
+        },
+        "REPORTS": {
+          "REPORTS_CHANNEL": "Rapor kanalı",
+          "IGNORED_ROLE": "Göz ardı edilen rol",
+          "DELETE_REVIEWED_REPORTS": "İncelenen raporları silme",
+          "NOTIFICATION_ROLES": "Bildirim rolleri",
+          "REASON_PARAMETERS": {
+            "TITLE": "Sebep parametreleri",
+            "MIN_LENGTH_OF_MEMBER_REASON": "Minimum üye nedeni uzunluğu",
+            "MAX_LENGTH_OF_MEMBER_REASON": "Üye nedeninin maksimum uzunluğu",
+            "CLEAN_MARKDOWN_OF_MEMBER_REASON": "Üye nedeninin temiz işaretlenmesi",
+            "MIN_LENGTH_OF_REVIEWER_REASON": "Minimum inceleme nedeni uzunluğu",
+            "MAX_LENGTH_OF_REVIEWER_REASON": "Maksimum gözden geçirme nedeni uzunluğu",
+            "CLEAN_MARKDOWN_OF_REVIEWER_REASON": "Gözden geçiren nedeninin temiz işaretlemesi"
+          },
+          "EVIDENCES_PARAMETERS": {
+            "TITLE": "Kanıt parametreleri",
+            "MIN_COUNT": "Minimum kanıt sayısı"
+          }
+        }
+      }
+    }
+  }
+}

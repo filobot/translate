@@ -1,0 +1,8 @@
+{
+  "description": "Kanala sürüngenlerin bir görüntüsünü gönderin.",
+  "subcommands": {
+    "snake": {
+      "description": "Rastgele bir yılan resmi gönderin."
+    }
+  }
+}

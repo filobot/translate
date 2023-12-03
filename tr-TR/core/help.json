@@ -1,0 +1,5 @@
+{
+  "HELP_TITLE": "Hızlı yardım menüsü",
+  "HELP_DESCRIPTION": "Burada botu nasıl kullanacağınıza dair temel yardımı bulacaksınız, ancak bunu yetersiz bulursanız ve daha fazla yardıma ihtiyacınız olursa, Discord sunucumuz aracılığıyla **[bize ulaşın]({{url}})** adresinden çekinmeyin.\n\n**Güncel dil**: {{language}}.",
+  "MESSAGE_HELP": "Gizli yardım menüsünü mü arıyorsunuz? Bu menüyü bir komuta taşıdık, ancak aşağıdaki düğmeye basarak komutu çalıştırabilirsiniz!"
+}

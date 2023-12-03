@@ -1,0 +1,45 @@
+{
+  "description": "Geçerli kanalda bir anket oluşturun.",
+  "arguments": {
+    "message": {
+      "name": "mesaj",
+      "description": "Ankete mesaj."
+    },
+    "choice-1": {
+      "name": "seçim-1",
+      "description": "Anketin 1. seçeneği."
+    },
+    "choice-2": {
+      "name": "seçim-2",
+      "description": "Anketin 2. seçeneği."
+    },
+    "choice-3": {
+      "name": "seçim-3",
+      "description": "Anketin 3. seçeneği."
+    },
+    "choice-4": {
+      "name": "seçim-4",
+      "description": "Anketin 4. seçeneği."
+    },
+    "choice-5": {
+      "name": "seçim-5",
+      "description": "Anketin 5. seçeneği."
+    },
+    "choice-6": {
+      "name": "seçim-6",
+      "description": "Anketin 6. seçeneği."
+    },
+    "choice-7": {
+      "name": "seçim-7",
+      "description": "Anketin 7. seçeneği."
+    },
+    "choice-8": {
+      "name": "seçim-8",
+      "description": "Anketin 8. seçeneği."
+    },
+    "choice-9": {
+      "name": "seçim-9",
+      "description": "Anketin 9. seçeneği."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Bir kullanıcıyı sunucudan kalıcı olarak yasaklar.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Yasaklamak istediğiniz kullanıcı."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Bu kullanıcının yasaklanma nedeni."
+    },
+    "message-history": {
+      "name": "mesaj-tarihçesi",
+      "description": "Kullanıcının mesaj geçmişini silmek isteyip istemediğinizi belirtin."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    }
+  }
+}

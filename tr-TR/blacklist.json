@@ -1,0 +1,11 @@
+{
+  "WATCHING_THE_BAN_INFO": "Yasak bilgilerini izleme",
+  "APPEAL_STATUS": "Temyiz durumu",
+  "APPEAL_DATE": "Temyiz tarihi",
+  "WARNING_BEFORE_APPEAL": "Çok fazla itiraz gönderirseniz veya yasaklama bilgilerinizi paylaşırsanız, itiraz etme olanağınızı kaybedersiniz.",
+  "WARNING_APPEAL_COOLDOWN": "İtirazınızı aldık **{{time}}**, reddedildi. **{{expiration_date}}** adresine kadar tekrar itiraz edemeyeceksiniz.",
+  "USER_BANNED_TITLE": "Filo kullanmanız yasaklandı!",
+  "USER_BANNED_DESCRIPTION": "Bu yasağa itiraz etmek istiyorsanız, **Yasağa itiraz et** düğmesine tıklayın.",
+  "GUILD_BANNED_TITLE": "Bu loncanın Filo kullanması yasaklandı!",
+  "GUILD_BANNED_DESCRIPTION": "Sunucunun sahibiyseniz ve nasıl itiraz edeceğiniz hakkında bilgi istiyorsanız, **Yasağa itiraz et** düğmesine tıklayın."
+}

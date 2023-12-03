@@ -1,0 +1,94 @@
+{
+  "description": "Bağlantı gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Harici bağlantı önleme modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Harici bağlantı önleme modülünü devre dışı bırakın."
+    },
+    "action": {
+      "description": "Bir kullanıcı bir bağlantı gönderdiğinde gerçekleştirilecek eylemi ayarlayın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Bir kullanıcı bir bağlantı gönderdiğinde gerçekleştirilecek eylem."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "filo": {
+      "description": "Filo alan adlarından gelen bağlantıların atlanmasını etkinleştirin veya devre dışı bırakın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Filo alan adlarından gelen bağlantıların atlanmasını etkinleştirin veya devre dışı bırakın."
+        }
+      }
+    },
+    "discord": {
+      "description": "Discord etki alanlarından gelen bağlantıların atlanmasını etkinleştirin veya devre dışı bırakın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Discord etki alanlarından gelen bağlantıların atlanmasını etkinleştirin veya devre dışı bırakın."
+        }
+      }
+    },
+    "link": {
+      "description": "Yok sayılan bağlantılar listesine bir bağlantı ekleyin veya listeden bir bağlantıyı kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "link": {
+          "name": "link",
+          "description": "Yoksayılan bağlantılar listesine eklemek veya kaldırmak istediğiniz bağlantı."
+        }
+      }
+    },
+    "channel": {
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "channel": {
+          "description": "Modülün kanal bypass listesinden kanal."
+        }
+      }
+    },
+    "role": {
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "role": {
+          "description": "Modülün rol atlama listesinden rol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Anti-external-links modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Harici bağlantı önleme modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

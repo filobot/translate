@@ -1,0 +1,14 @@
+{
+  "description": "Sözler yardımcı programlar.",
+  "subcommands": {
+    "search": {
+      "description": "Bir şarkı arayın.",
+      "arguments": {
+        "song": {
+          "name": "şarkı",
+          "description": "Şarkı adı."
+        }
+      }
+    }
+  }
+}

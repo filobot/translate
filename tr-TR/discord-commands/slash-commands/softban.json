@@ -1,0 +1,21 @@
+{
+  "description": "Bir kullanıcıyı sunucudan yumuşak bir şekilde yasaklar.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Yumuşak yasaklamak istediğiniz kullanıcı."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Bu kullanıcıyı softbanning nedeni."
+    },
+    "message-history": {
+      "name": "mesaj-tarihçesi",
+      "description": "Kullanıcının mesaj geçmişini silmek isteyip istemediğinizi belirtin."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    }
+  }
+}

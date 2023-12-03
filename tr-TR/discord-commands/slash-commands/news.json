@@ -1,0 +1,27 @@
+{
+  "description": "Haber kanallarımızı takip edin veya bilgi alın.",
+  "subcommands": {
+    "information": {
+      "description": "Haber kanallarımız hakkında bilgi alın.",
+      "arguments": {
+        "news": {
+          "name": "haberler",
+          "description": "Bilgi almak istediğiniz haberler."
+        }
+      }
+    },
+    "follow": {
+      "description": "Sunucumuzdaki haberleri sunucunuzdan takip edin.",
+      "arguments": {
+        "news": {
+          "name": "haberler",
+          "description": "Takip etmek istediğiniz haber kanalı."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Haberlerin gönderilmesini istediğiniz kanal."
+        }
+      }
+    }
+  }
+}

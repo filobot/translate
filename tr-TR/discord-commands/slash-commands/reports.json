@@ -1,0 +1,35 @@
+{
+  "description": "Kullanıcıların kötü davranışları sunucunun Moderatörlerine bildirmelerini sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Raporlar modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Raporlar modülünü devre dışı bırakın."
+    },
+    "channel": {
+      "description": "Raporların gönderileceği kanalı ayarlayın.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Raporların gönderilmesini istediğiniz kanal."
+        }
+      }
+    },
+    "docs": {
+      "description": "Raporlar modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Raporlar modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

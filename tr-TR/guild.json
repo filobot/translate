@@ -1,0 +1,27 @@
+{
+  "GUILD": "Lonca",
+  "GUILDS": "Loncalar",
+  "GUILD_ID": "Lonca Kimliği",
+  "NSFW_LEVEL": "NSFW seviyesi",
+  "PREMIUM_TIER": "Premium kademe",
+  "EXPLICIT_CONTENT_FILTER": "Açık içerik filtresi",
+  "MEMBERS_WITHOUT_ROLES": "Rolü olmayan üyeler",
+  "ALL_MEMBERS": "Tüm üyeler",
+  "MFA_LEVEL": "MFA seviyesi",
+  "GUILD_OWNER": "Lonca sahibi",
+  "BOOSTS": "Güçlendirir",
+  "MODERATION_LEVEL": "Moderasyon seviyesi",
+  "VERIFICATION_LEVEL": {
+    "NONE": "Yok: Kısıtlama olmaksızın.",
+    "LOW": "Düşük: Discord hesaplarında doğrulanmış bir e-postaya sahip olmalıdır.",
+    "MEDIUM": "Orta seviye: Ayrıca Discord'da 5 dakikadan daha uzun süre kayıtlı olunmalıdır.",
+    "HIGH": "Yüksek: Ayrıca bu sunucuya 10 dakikadan uzun süredir üye olmalıdır.",
+    "VERY_HIGH": "Çok yüksek: Discord hesaplarında doğrulanmış bir telefona sahip olmalıdır."
+  },
+  "DEFAULT_NOTIFICATIONS": "Varsayılan bildirimler",
+  "ALL_MESSAGES": "Tüm mesajlar",
+  "ONLY_MENTIONS": "Sadece @mentions",
+  "SYSTEM_CHANNEL": "Sistem kanalı",
+  "2FA_DISABLED": "2FA devre dışı",
+  "2FA_ENABLED": "Moderatörler için 2FA etkinleştirildi"
+}

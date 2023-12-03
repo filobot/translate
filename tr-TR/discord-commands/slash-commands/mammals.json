@@ -1,0 +1,23 @@
+{
+  "description": "Kanala memelilerin bir görüntüsünü gönderin.",
+  "subcommands": {
+    "bear": {
+      "description": "Rastgele bir ayı resmi gönderin."
+    },
+    "cat": {
+      "description": "Rastgele bir kedi resmi gönderin."
+    },
+    "dog": {
+      "description": "Rastgele bir köpek resmi gönderin."
+    },
+    "koala": {
+      "description": "Rastgele bir koala resmi gönderin."
+    },
+    "panda": {
+      "description": "Rastgele bir panda resmi gönderin."
+    },
+    "wolf": {
+      "description": "Rastgele bir kurt resmi gönderin."
+    }
+  }
+}

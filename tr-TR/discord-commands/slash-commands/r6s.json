@@ -1,0 +1,13 @@
+{
+  "description": "Bir R6S oyuncusunun istatistiklerini alın.",
+  "arguments": {
+    "platform": {
+      "name": "platform",
+      "description": "Oyuncunun oynadığı platform."
+    },
+    "player": {
+      "name": "oyuncu",
+      "description": "Oyuncunun Oyun İçi Nick'i."
+    }
+  }
+}

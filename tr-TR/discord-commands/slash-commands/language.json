@@ -1,0 +1,21 @@
+{
+  "description": "Filo'nun Dilini ayarlamanızı sağlayan modül.",
+  "subcommands": {
+    "select": {
+      "description": "Tercih ettiğiniz Filo dilini seçin (mevcut olmalıdır)."
+    },
+    "docs": {
+      "description": "Dil modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Geçerli dil bilgilerini görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "name": "onayla",
+        "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+      }
+    }
+  }
+}

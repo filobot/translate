@@ -1,0 +1,68 @@
+{
+  "description": "GIF'leri kullanarak diğer kullanıcılara tepki verin.",
+  "subcommands": {
+    "angry": {
+      "description": "Kızgın bir tepki gönder."
+    },
+    "blush": {
+      "description": "Allık tepkisi gönderin."
+    },
+    "bored": {
+      "description": "Sıkılmış bir tepki gönderin."
+    },
+    "cold": {
+      "description": "Soğuk bir tepki gönderin."
+    },
+    "confused": {
+      "description": "Karışık bir tepki gönderin."
+    },
+    "cry": {
+      "description": "Bir ağlama tepkisi gönderin."
+    },
+    "dance": {
+      "description": "Bir dans tepkisi gönderin."
+    },
+    "eyebrows": {
+      "description": "Kaş tepkisi gönder."
+    },
+    "greet": {
+      "description": "Bir selam tepkisi gönderin."
+    },
+    "happy": {
+      "description": "Mutlu bir tepki gönderin."
+    },
+    "hot": {
+      "description": "Sıcak bir tepki gönderin."
+    },
+    "like": {
+      "description": "Bir beğeni tepkisi gönderin."
+    },
+    "pout": {
+      "description": "Surat asma tepkisi gönder."
+    },
+    "run": {
+      "description": "Bir koşu tepkisi gönderin."
+    },
+    "scared": {
+      "description": "Korkmuş bir tepki gönderin."
+    },
+    "sick": {
+      "description": "Hastalıklı bir tepki gönderin."
+    },
+    "sing": {
+      "description": "Bir şarkı tepkisi gönderin."
+    },
+    "sleep": {
+      "description": "Bir uyku tepkisi gönderin."
+    },
+    "smug": {
+      "description": "Kendini beğenmiş bir tepki gönderin."
+    },
+    "teehee": {
+      "description": "Teehee tepkisi gönderin."
+    },
+    "think": {
+      "description": "Düşünsel bir tepki gönderin."
+    }
+  }
+}

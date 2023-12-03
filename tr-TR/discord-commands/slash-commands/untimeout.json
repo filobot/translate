@@ -1,0 +1,21 @@
+{
+  "description": "Bir kullanıcıdan zaman aşımını kaldırın.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Zaman aşımını kaldırmak istediğiniz kullanıcı."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Zaman aşımını kaldırma nedeni."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    },
+    "force": {
+      "name": "kuvvet",
+      "description": "Zaman aşımını kaldırmaya zorla."
+    }
+  }
+}

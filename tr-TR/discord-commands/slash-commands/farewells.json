@@ -1,0 +1,45 @@
+{
+  "description": "Eski üyelere veda mesajı göndermenizi sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Vedalar modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Vedalar modülünü devre dışı bırakın."
+    },
+    "channel": {
+      "description": "Veda mesajlarının gönderileceği kanalı ayarlayın.",
+      "arguments": {
+        "name": "kanal",
+        "description": "Veda mesajlarının gönderileceği kanal."
+      }
+    },
+    "message": {
+      "description": "Veda mesajını ayarlayın."
+    },
+    "type": {
+      "description": "Veda mesajının gönderilme şeklini ayarlayın.",
+      "arguments": {
+        "type": {
+          "name": "tip",
+          "description": "Karşılama vedasının gönderileceği yol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Farewells modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Vedalar modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

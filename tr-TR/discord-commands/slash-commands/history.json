@@ -1,0 +1,9 @@
+{
+  "description": "Bir kullanıcının yaptırım geçmişini alın.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Geçmişini kontrol etmek istediğiniz kullanıcı."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Bir kullanıcıyı sunucudan kalıcı olarak sessize alın.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Sessize almak istediğiniz kullanıcı."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Bu kullanıcıyı sessize alma nedeni."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    }
+  }
+}

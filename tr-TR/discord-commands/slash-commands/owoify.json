@@ -1,0 +1,32 @@
+{
+  "description": "Metni owoify'ye dönüştürün.",
+  "subcommands": {
+    "owo": {
+      "description": "Metnyinyizi Owoify edin.",
+      "arguments": {
+        "text": {
+          "name": "metin",
+          "description": "owo biçimine dönüştürmek istediğiniz metin."
+        }
+      }
+    },
+    "uwu": {
+      "description": "Metnyinyizi Owoify edin.",
+      "arguments": {
+        "text": {
+          "name": "metin",
+          "description": "uwu'ye dönüştürmek istediğiniz metin."
+        }
+      }
+    },
+    "uvu": {
+      "description": "Metnyinyizi Owoify edin.",
+      "arguments": {
+        "text": {
+          "name": "metin",
+          "description": "uvu'ya dönüştürmek istediğiniz metin."
+        }
+      }
+    }
+  }
+}

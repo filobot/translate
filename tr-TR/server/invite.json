@@ -1,0 +1,3 @@
+{
+  "INVITE_GENERATED": "**[#{{channel.name}}]({{url}})** kanalı için bir davetiye oluşturdunuz."
+}

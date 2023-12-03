@@ -1,0 +1,21 @@
+{
+  "description": "Bir kullanıcıyı sunucudan geçici olarak sessize alın.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Geçici olarak sessize almak istediğiniz kullanıcı."
+    },
+    "time": {
+      "name": "zaman",
+      "description": "Yaptırımın süresi."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Bu kullanıcıyı geçici olarak sessize alma nedeni."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    }
+  }
+}

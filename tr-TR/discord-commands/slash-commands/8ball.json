@@ -1,0 +1,9 @@
+{
+  "description": "8 topuna bir soru sorun ve o size akıllıca cevap verecektir.",
+  "arguments": {
+    "question": {
+      "name": "soru",
+      "description": "8'lik topa ne yapmak istediğinizi sorun."
+    }
+  }
+}

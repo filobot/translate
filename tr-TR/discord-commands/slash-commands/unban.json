@@ -1,0 +1,17 @@
+{
+  "description": "Bir kullanıcının yasağını kaldırın.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Yasağını kaldırmak istediğiniz kullanıcı."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Yasağı kaldırma nedeni."
+    },
+    "force": {
+      "name": "kuvvet",
+      "description": "Yasağı kaldırmaya zorlayın."
+    }
+  }
+}

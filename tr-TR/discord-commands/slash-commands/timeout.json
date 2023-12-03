@@ -1,0 +1,21 @@
+{
+  "description": "Bir kullanıcıyı sunucudan zaman aşımına uğratır.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Zaman aşımına uğratmak istediğiniz kullanıcı."
+    },
+    "time": {
+      "name": "zaman",
+      "description": "Yaptırımın süresi."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Bu kullanıcının zaman aşımına uğrama nedeni."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    }
+  }
+}

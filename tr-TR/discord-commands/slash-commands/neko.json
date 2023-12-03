@@ -1,0 +1,11 @@
+{
+  "description": "Rastgele bir neko resmi gönder.",
+  "subcommands": {
+    "blushing": {
+      "description": "Kızaran bir neko'nun rastgele bir resmini gönder."
+    },
+    "random": {
+      "description": "Rastgele bir neko resmi gönder."
+    }
+  }
+}

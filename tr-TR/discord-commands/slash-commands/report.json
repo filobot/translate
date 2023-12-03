@@ -1,0 +1,39 @@
+{
+  "description": "Kötü davranışları bir sunucu moderatörüne bildirin.",
+  "subcommands": {
+    "member": {
+      "description": "Bir üye bildirin.",
+      "arguments": {
+        "member": {
+          "name": "üye",
+          "description": "Raporlamak istediğiniz üye."
+        },
+        "reason": {
+          "name": "sebep",
+          "description": "Bu üyeyi neden rapor etmek istediğinizi."
+        },
+        "evidences": {
+          "name": "kanıtlar",
+          "description": "Bu üyeyi rapor etme nedeninizi destekleyen kanıtlar."
+        }
+      }
+    },
+    "message": {
+      "description": "Mesaj bildir.",
+      "arguments": {
+        "message": {
+          "name": "mesaj",
+          "description": "Bildirmek istediğiniz mesaj."
+        },
+        "reason": {
+          "name": "sebep",
+          "description": "Bu mesajı bildirmek istemenizin nedeni."
+        },
+        "evidences": {
+          "name": "kanıtlar",
+          "description": "Bu mesajı bildirme nedeninizi destekleyen kanıtlar."
+        }
+      }
+    }
+  }
+}

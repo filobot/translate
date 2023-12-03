@@ -1,0 +1,9 @@
+{
+  "description": "Rastgele bir rengin temel bilgilerini alın.",
+  "arguments": {
+    "saturation": {
+      "name": "doygunluk",
+      "description": "Rastgele rengin sahip olmasını istediğiniz doygunluk."
+    }
+  }
+}

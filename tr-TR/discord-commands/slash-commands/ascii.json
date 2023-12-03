@@ -1,0 +1,9 @@
+{
+  "description": "Metninizi ASCII metnine dönüştürün.",
+  "arguments": {
+    "text": {
+      "name": "metin",
+      "description": "ASCII'ye dönüştürmek istediğiniz metin."
+    }
+  }
+}

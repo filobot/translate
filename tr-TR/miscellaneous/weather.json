@@ -1,0 +1,11 @@
+{
+  "WATCHING_THE_WEATHER": "Hava durumunu izlemek **{{location.name}}**",
+  "LATITUDE": "Enlem",
+  "LONGITUDE": "Boylam",
+  "TIME_ZONE": "Saat dilimi",
+  "TEMPERATURE": "Sıcaklık",
+  "ACTUAL_TEMPERATURE": "Gerçek sıcaklık",
+  "WEATHER": "Hava Durumu",
+  "HUMIDITY": "Nem",
+  "WIND": "Rüzgar"
+}

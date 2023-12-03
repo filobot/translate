@@ -1,0 +1,78 @@
+{
+  "description": "Kullanıcılardan gelen spam'leri önlemenizi sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Anti-spam modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Anti-spam modülünü devre dışı bırakın."
+    },
+    "action": {
+      "description": "Birisi spam yaptığında gerçekleştirilecek eylemi ayarlayın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Birisi spam yaptığında yapılacak işlem."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "duplicates": {
+      "description": "Yinelenen mesaj filtresi parametrelerini ayarlayın.",
+      "arguments": {
+        "threshold": {
+          "name": "eşik",
+          "description": "Gönderilebilecek özdeş mesaj sayısı."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Bir kullanıcı tarafından gönderilen aynı mesajları sıfırlama zamanı."
+        }
+      }
+    },
+    "channel": {
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Modülün kanal bypass listesinden kanal."
+        }
+      }
+    },
+    "role": {
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Modülün rol atlama listesinden rol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Anti-spam modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Anti-spam modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

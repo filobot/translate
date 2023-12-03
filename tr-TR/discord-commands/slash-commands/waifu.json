@@ -1,0 +1,14 @@
+{
+  "description": "Bir waifu'nun rastgele bir resmini gönderin.",
+  "subcommands": {
+    "fox": {
+      "description": "Bir waifu tilkisinin rastgele bir resmini gönderin."
+    },
+    "neko": {
+      "description": "Bir waifu neko'nun rastgele bir resmini gönderin."
+    },
+    "random": {
+      "description": "Bir waifu'nun rastgele bir resmini gönderin."
+    }
+  }
+}

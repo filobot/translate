@@ -1,0 +1,11 @@
+{
+  "INVITE": "Davetiye",
+  "INVITES": "Davetiyeler",
+  "INVITE_CODE": "Davet kodu",
+  "MAXIMUM_USES": "Davetiyenin maksimum kullanımları",
+  "TEMPORARY_TRUE": "Davetiyenin geçici üyeliği vardır",
+  "TEMPORARY_FALSE": "Davet tam üyeliğe sahiptir",
+  "ACTIVITY_TRUE": "Davet bir etkinliğe aittir",
+  "ACTIVITY_FALSE": "Davet bir etkinliğe ait değil",
+  "MAXIMUM_PARTICIPANTS": "Maksimum katılımcı sayısı"
+}

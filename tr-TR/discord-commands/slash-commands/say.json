@@ -1,0 +1,23 @@
+{
+  "description": "Filo kullanarak bir mesaj gönderin.",
+  "subcommands": {
+    "embed": {
+      "description": "Mesajı bir gömme aracılığıyla gönderin.",
+      "arguments": {
+        "message": {
+          "name": "mesaj",
+          "description": "Göndermek istediğiniz mesaj."
+        }
+      }
+    },
+    "normal": {
+      "description": "Mesajı normal bir mesaj kullanarak gönderin.",
+      "arguments": {
+        "message": {
+          "name": "mesaj",
+          "description": "Göndermek istediğiniz mesaj."
+        }
+      }
+    }
+  }
+}

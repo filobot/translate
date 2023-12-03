@@ -1,0 +1,9 @@
+{
+  "description": "Rastgele bir sayı alın.",
+  "arguments": {
+    "number": {
+      "name": "sayı",
+      "description": "Rastgele değeri çarpmak istediğiniz sayı."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Rastgele bir Genshin Impact duvar kağıdı gönderin.",
+  "subcommands": {
+    "desktop": {
+      "description": "Rastgele bir masaüstü duvar kağıdı edinin."
+    },
+    "mobile": {
+      "description": "Rastgele bir mobil duvar kağıdı edinin."
+    },
+    "random": {
+      "description": "Masaüstü ve mobil cihazlar arasında rastgele duvar kağıdı alın."
+    }
+  },
+  "subcommand_groups": {
+    "cards": {
+      "description": "Rastgele bir kart duvar kağıdı alın.",
+      "subcommands": {
+        "characters": {
+          "description": "Rastgele bir karakter kartı alın."
+        },
+        "equipments": {
+          "description": "Rastgele bir ekipman kartı alın."
+        },
+        "events": {
+          "description": "Rastgele bir etkinlik kartı alın."
+        },
+        "supports": {
+          "description": "Rastgele bir destek kartı alın."
+        }
+      }
+    }
+  }
+}

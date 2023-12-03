@@ -1,0 +1,17 @@
+{
+  "description": "Sunucudan bir kullanıcıyı uyarın.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Uyarmak istediğiniz kullanıcı."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Bu kullanıcıyı uyarma nedeni."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    }
+  }
+}

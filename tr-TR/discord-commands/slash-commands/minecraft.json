@@ -1,0 +1,97 @@
+{
+  "description": "Minecraft yardımcı komutları.",
+  "subcommand_groups": {
+    "front": {
+      "description": "Belirtilen oyuncunun ön tarafının bir renderını gönderir.",
+      "subcommands": {
+        "body": {
+          "description": "Belirtilen oyuncunun ön gövdesinin bir render'ını gönderir.",
+          "arguments": {
+            "player": {
+              "name": "oyuncu",
+              "description": "Minecraft oyuncusu."
+            }
+          }
+        },
+        "normal": {
+          "description": "Belirtilen oyuncunun ön tarafının bir renderını gönderir.",
+          "arguments": {
+            "player": {
+              "name": "oyuncu",
+              "description": "Minecraft oyuncusu."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "body": {
+      "description": "Belirtilen oyuncunun gövdesinin bir render'ını gönderir.",
+      "arguments": {
+        "player": {
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
+        }
+      }
+    },
+    "bust": {
+      "description": "Belirtilen oyuncunun büstünün bir renderını gönderir.",
+      "arguments": {
+        "player": {
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
+        }
+      }
+    },
+    "face": {
+      "description": "Belirtilen oyuncunun yüzünün bir görüntüsünü gönderir.",
+      "arguments": {
+        "player": {
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
+        }
+      }
+    },
+    "head": {
+      "description": "Belirtilen oyuncunun kafasının bir renderını gönderir.",
+      "arguments": {
+        "player": {
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
+        }
+      }
+    },
+    "skin": {
+      "description": "Belirtilen oyuncunun dış görünümünün bir render'ını gönderir.",
+      "arguments": {
+        "player": {
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
+        }
+      }
+    },
+    "uuid": {
+      "description": "Bir minecraft oyuncusunun UUID'sini alın.",
+      "arguments": {
+        "player": {
+          "name": "oyuncu",
+          "description": "Minecraft oyuncusu."
+        }
+      }
+    },
+    "server": {
+      "description": "Bir Minecraft sunucusunun durumunu alın.",
+      "arguments": {
+        "ip-address": {
+          "name": "ip adresi",
+          "description": "Minecraft sunucu IP adresi."
+        },
+        "port": {
+          "name": "liman",
+          "description": "Minecraft sunucu portu."
+        }
+      }
+    }
+  }
+}

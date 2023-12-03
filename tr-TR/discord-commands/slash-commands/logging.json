@@ -1,0 +1,44 @@
+{
+  "description": "Sunucunun günlüklerini bir kanala göndermeyi sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Günlük modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Günlük modülünü devre dışı bırakın."
+    },
+    "events": {
+      "description": "Göstermek istediğiniz farklı etkinlikleri yönetin.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Bir olayı etkinleştirir veya devre dışı bırakır."
+        }
+      }
+    },
+    "channel": {
+      "description": "Günlük kanalını ayarlayın.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Günlüklerin gönderileceği kanal."
+        }
+      }
+    },
+    "docs": {
+      "description": "Günlük modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Günlük modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

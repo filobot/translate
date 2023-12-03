@@ -1,0 +1,12 @@
+{
+  "SERVER": {
+    "SERVER_OFFLINE": "Belirttiğiniz sunucu çevrimdışı.",
+    "IP_ADDRESS": "IP adresi",
+    "PORT": "Liman",
+    "PLAYERS": "Oyuncular",
+    "VERSION": "Versiyon"
+  },
+  "UUID": {
+    "WATCHING_PLAYER_UUID": "Oyuncunun uuid'si **{{player}}**, **{{uuid}}** şeklindedir."
+  }
+}

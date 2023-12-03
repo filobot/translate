@@ -1,0 +1,127 @@
+{
+  "description": "Bir kanalı yönetin.",
+  "subcommand_groups": {
+    "cooldown": {
+      "description": "Bir kanalın bekleme süresini yönetin.",
+      "subcommands": {
+        "set": {
+          "description": "Bir kanalın bekleme süresini ayarlayın.",
+          "arguments": {
+            "time": {
+              "name": "zaman",
+              "description": "Ayarlamak istediğiniz bekleme süresi."
+            },
+            "channel": {
+              "name": "kanal",
+              "description": "Bekleme süresini ayarlamak istediğiniz kanal."
+            },
+            "reset": {
+              "description": "Bir kanalın bekleme süresini sıfırlayın.",
+              "arguments": {
+                "channel": {
+                  "name": "kanal",
+                  "description": "Bekleme süresini sıfırlamak istediğiniz kanal."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "messages": {
+      "description": "Bir kanalın mesajlarını yönetin.",
+      "subcommands": {
+        "pin": {
+          "description": "Geçerli kanala bir mesaj sabitleyin.",
+          "arguments": {
+            "message": {
+              "name": "mesaj",
+              "description": "Sabitlemek istediğiniz mesajın kimliği."
+            }
+          }
+        },
+        "purge": {
+          "description": "Bir kanaldan belirli sayıda mesajı temizleyin.",
+          "arguments": {
+            "messages": {
+              "name": "mesajlar",
+              "description": "Temizlemek istediğiniz mesaj sayısı."
+            },
+            "channel": {
+              "name": "kanal",
+              "description": "Mesajları temizlemek istediğiniz kanal."
+            }
+          }
+        },
+        "unpin": {
+          "description": "Geçerli kanaldaki bir mesajın sabitlemesini kaldırır.",
+          "arguments": {
+            "message": {
+              "name": "mesaj",
+              "description": "Sabitlemeyi kaldırmak istediğiniz mesajın kimliği."
+            }
+          }
+        }
+      }
+    },
+    "nsfw": {
+      "description": "Bir kanalın NSFW modunu değiştirin.",
+      "subcommands": {
+        "enable": {
+          "description": "Bir kanalın NSFW modunu etkinleştirin.",
+          "arguments": {
+            "channel": {
+              "name": "kanal",
+              "description": "NSFW modunu etkinleştirmek istediğiniz kanal."
+            }
+          }
+        },
+        "disable": {
+          "description": "Bir kanalın NSFW modunu devre dışı bırakın.",
+          "arguments": {
+            "channel": {
+              "name": "kanal",
+              "description": "NSFW modunu devre dışı bırakmak istediğiniz kanal."
+            }
+          }
+        }
+      }
+    }
+  },
+  "subcommands": {
+    "info": {
+      "description": "Bir kanal hakkında bilgi alın.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Bilginin nereden geleceğine dair kanal."
+        }
+      }
+    },
+    "invite": {
+      "description": "Bir kanal için anında davetiye oluşturun.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Anlık davetiyenin oluşturulacağı kanal."
+        },
+        "temporary": {
+          "name": "geçici",
+          "description": "Geçici veya kalıcı üyelik vermek isteyip istemediğinizi belirtin."
+        },
+        "max-age": {
+          "name": "maksimum yaş",
+          "description": "Davet süresinin dolmasına kadar geçen süre."
+        },
+        "max-uses": {
+          "name": "maksimum kullanımlar",
+          "description": "Davetiyenin maksimum kullanım sayısı."
+        },
+        "force": {
+          "name": "kuvvet",
+          "description": "Davetiyenin oluşturulmasını zorlayın."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "description": "Kötü kelimeler gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Kötü söz karşıtı modülü etkinleştirin."
+    },
+    "disable": {
+      "description": "Kötü söz karşıtı modülü devre dışı bırakın."
+    },
+    "action": {
+      "description": "Birisi kötü sözler gönderdiğinde yapılacak eylemi belirleyin.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Birisi kötü sözler söylediğinde yapılması gerekenler."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "word": {
+      "description": "Kötü sözcük listesine kötü sözcükler ekleyin veya listeden çıkarın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Kötü kelime ile ilgili yapılacaklar."
+        },
+        "word": {
+          "name": "kelime",
+          "description": "Kötü sözcük listesine eklemek veya listeden çıkarmak istediğiniz kötü sözcük."
+        }
+      }
+    },
+    "aggressive-filter": {
+      "description": "Agresif kötü kelime algılama filtresini etkinleştirin veya devre dışı bırakın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        }
+      }
+    },
+    "channel": {
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Modülün kanal bypass listesinden kanal."
+        }
+      }
+    },
+    "role": {
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Modülün rol atlama listesinden rol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Kötü söz karşıtı modül belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Kötü söz karşıtı modülün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

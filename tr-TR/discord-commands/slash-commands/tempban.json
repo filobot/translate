@@ -1,0 +1,25 @@
+{
+  "description": "Bir kullanıcıyı sunucudan geçici olarak yasaklar.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Geçici olarak yasaklamak istediğiniz kullanıcı."
+    },
+    "time": {
+      "name": "zaman",
+      "description": "Yaptırımın süresi."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Bu kullanıcının geçici olarak yasaklanma nedeni."
+    },
+    "message-history": {
+      "name": "mesaj-tarihçesi",
+      "description": "Kullanıcının mesaj geçmişini silmek isteyip istemediğinizi belirtin."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Manga Yardımcı Programları.",
+  "subcommands": {
+    "random": {
+      "description": "Belirlediğiniz kriterlere göre rastgele bir mangadaki bilgileri gösterin.",
+      "arguments": {
+        "term": {
+          "name": "dönem",
+          "description": "Manganın başlığını içermesi gereken terim."
+        },
+        "type": {
+          "name": "tip",
+          "description": "Manga türü."
+        },
+        "status": {
+          "name": "durum",
+          "description": "Manga'nın durumu."
+        },
+        "rating": {
+          "name": "derecelendirme",
+          "description": "Manga'nın puanı."
+        },
+        "genre": {
+          "name": "tür",
+          "description": "Tür veya Anime türlerinden biri."
+        }
+      }
+    },
+    "search": {
+      "description": "Bir manganın bilgilerini araştırın.",
+      "arguments": {
+        "title": {
+          "name": "başlık",
+          "description": "Manganın adı."
+        }
+      }
+    }
+  }
+}

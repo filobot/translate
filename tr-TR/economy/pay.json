@@ -1,0 +1,3 @@
+{
+  "TRANSACTION_COMPLETED": "**{{credits}}** kredisini **[{{user.tag}}]({{url}})** ({{user.id}})** adresine başarıyla ödediniz."
+}

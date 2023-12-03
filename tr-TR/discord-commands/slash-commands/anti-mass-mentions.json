@@ -1,0 +1,74 @@
+{
+  "description": "Kullanıcıların çok fazla kullanıcıdan bahsettiğine dair yaptırım uygulamanızı sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Kitle imalarına karşı modülü etkinleştirin."
+    },
+    "disable": {
+      "description": "Kitle imalarına karşı modülü devre dışı bırakın."
+    },
+    "action": {
+      "description": "Birisi çok fazla kullanıcıdan bahsettiğinde gerçekleştirilecek eylemi ayarlayın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Birisi çok fazla kullanıcıdan bahsettiğinde yapılacak işlem."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "threshold": {
+      "description": "Kullanıcı başına izin verilen bahsetme sayısını ayarlayın.",
+      "arguments": {
+        "mentions": {
+          "name": "bahseder",
+          "description": "Kullanıcı başına izin verilen bahsetme sayısı."
+        }
+      }
+    },
+    "channel": {
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Modülün kanal bypass listesinden kanal."
+        }
+      }
+    },
+    "role": {
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Modülün rol atlama listesinden rol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Anti-mass-mentions modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Anti-kitle-yorumları modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "HELP_TITLE": "Filo'nun komut listesini görüntüleme",
+  "COMMAND_CATEGORIES": {
+    "ADMINISTRATION": "Yönetim",
+    "ANIMALS": "Hayvanlar",
+    "ANIME": "Anime",
+    "CORE": "Çekirdek",
+    "DEVELOPER": "Geliştirici",
+    "FUN": "Eğlence",
+    "ECONOMY": "Ekonomi",
+    "GAME_STATISTICS": "Oyun İstatistikleri",
+    "GAMES": "Oyunlar",
+    "MISCELLANEOUS": "Çeşitli",
+    "MODERATION": "Moderasyon",
+    "PRIVATE": "Özel",
+    "SERVER": "Sunucu",
+    "SETTINGS": "Ayarlar",
+    "SOCIAL": "Sosyal",
+    "UTILITIES": "Yardımcı Programlar"
+  },
+  "CATEGORIES_DESCRIPTION": {
+    "ADMINISTRATION": "Sunucunun veya bir kullanıcının önemli parametrelerini yöneten veya değiştiren komutlar.",
+    "ANIMALS": "Hayvanların emirleri.",
+    "ANIME": "Anime'nin emirleri.",
+    "CORE": "Filo'nun bilgi ve yönetim komutları.",
+    "FUN": "Diğer şeylerin yanı sıra memler gibi komik komutlar.",
+    "ECONOMY": "Ekonominin emirleri.",
+    "GAME_STATISTICS": "Belirli bir oyundaki bir oyuncunun istatistiklerini çıkarmak için komutlar.",
+    "GAMES": "Zaman geçirmek için mini oyunlar içeren komutlar.",
+    "MISCELLANEOUS": "Başka bir yerde kategorize edilemeyen komutlar. Her şeyi bulacaksınız.",
+    "MODERATION": "Kullanıcıların moderasyonunu yönetmek için komutlar.",
+    "SERVER": "Bilgi komutları veya sunucu yardımcı programları.",
+    "SETTINGS": "Filo'yu yapılandırmak için komutlar.",
+    "SOCIAL": "Sosyal'in emirleri.",
+    "UTILITIES": "Yardımcı programın komutları.",
+    "DEVELOPER": "Geliştirici komutları.",
+    "PRIVATE": "Erin emirleri."
+  },
+  "GENERIC_CATEGORY_DESCRIPTION": "{{category}} kategorisindeki komutlar.",
+  "MULTIPLE_COMMANDS": "Aynı ada sahip birden fazla komut bulundu. Aşağıdan danışmak istediğiniz komutu seçin.",
+  "SELECT_A_COMMAND": "Danışmak istediğiniz komutu seçin.",
+  "SELECT_A_CATEGORY": "Danışmak istediğiniz kategoriyi seçin.",
+  "COMMAND_SELECTED": "Komutu başarıyla seçtiniz.",
+  "COMMAND_DESCRIPTIONS": {
+    "ADMINISTRATION": {
+      "CHANNEL": "Kanal yönetme",
+      "NICKNAME": "Bir kullanıcının takma adını yönetme",
+      "ROLE": "Bir kullanıcının rollerini yönetme"
+    },
+    "ANIMALS": {
+      "BIRDS": "Kanala bir kuş görüntüsü gönderin",
+      "MAMMALS": "Kanala memelilerin bir görüntüsünü gönderin",
+      "REPTILES": "Kanala sürüngenlerin bir görüntüsünü gönderin"
+    },
+    "ANIME": {
+      "ANIME": "Anime Yardımcı Programları",
+      "COFFEE": "Rastgele bir kahve gif'i gönderin",
+      "FAN-ART": "Rastgele bir hayran resmi gönderin",
+      "FOOD": "Rastgele bir yiyecek gif'i gönderin",
+      "GECG": "Rastgele bir gecg görüntüsü gönder",
+      "GENSHIN-IMPACT": "Rastgele bir Genshin Impact duvar kağıdı gönder",
+      "INTERACTION": "Gifler ve eylemlerle diğer kullanıcılarla etkileşim kurun",
+      "HUSBAND": "Bir kocanın rastgele bir görüntüsünü gönderin",
+      "MANGA": "Manga Yardımcı Programları",
+      "NEKO": "Rastgele bir neko resmi gönder",
+      "REACTION": "GIF'leri kullanarak diğer kullanıcılara tepki verin",
+      "TRAP": "Rastgele bir tuzak görüntüsü gönderme",
+      "WAIFU": "Rastgele bir waifu resmi gönder"
+    },
+    "CORE": {
+      "CLUSTER": "Geçerli Filo kümesi hakkında bilgi alın",
+      "COMMANDS": "Bot komutlarının listesini veya bir komut hakkında bilgi alın",
+      "DISCORD": "Filo'nun Discord Sunucusunun bağlantısını alın",
+      "DONATE": "Bot için yapılan bağışlar hakkında bilgi alın",
+      "FLAGS": "Kendi bayraklarınızı veya başka bir kullanıcının bayraklarını gösterin",
+      "GITHUB": "Filo'nun GitHub bağlantısını alın",
+      "HELP": "Bot üzerinde temel yardım alın",
+      "INFO": "Bot hakkında bilgi alın",
+      "INVITE": "Önerilen Filo's davetiyesini alın",
+      "PING": "Filo'dan ve Discord API'sinden gecikme süresini alın",
+      "PRIVACY": "Filo'nun Gizlilik Politikası bağlantısını alın",
+      "ROLES": "Rolleri gelişmiş bir şekilde yönetin",
+      "STATISTICS": "Filo'nun küresel istatistiklerini alın",
+      "STATUS": "Filo'nun Durumuna ilişkin bağlantıyı alın",
+      "SETUP": "Filo'nun modüllerini ve davranışını yapılandırma",
+      "SUPPORT": "Nasıl destek alabileceğiniz hakkında bilgi alın",
+      "TERMS": "Filo'nun Hüküm ve Koşullarının bağlantısını alın",
+      "TWITTER": "Filo'nun Twitter bağlantısını alın",
+      "VOTE": "Filo'nun oylama sayfalarının bağlantısını alın",
+      "VOTES": "Filo'nun tüm oylama sayfalarının oy sayacını alın",
+      "WEBSITE": "Filo'nun Web Sitesinin bağlantısını alın",
+      "WIKI": "Filo'nun Wiki'sinin bağlantısını alın"
+    },
+    "ECONOMY": {
+      "CREDITS": "Mevcut kredilerinizi veya bir kullanıcının kredilerini alın",
+      "DAILY": "Günlük kredilerinizi talep edin veya bir kullanıcıya hediye edin",
+      "PAY": "Başka bir kullanıcıya bir miktar kredi ödeme"
+    },
+    "FUN": {
+      "8BALL": "8 topuna bir soru sorun, size akıllıca cevap verecektir",
+      "CHUCKNORRIS": "Geçerli kanala bir Chuck Norris memesi gönderin",
+      "DRAKE": "Geçerli kanala bir Drake meme'i gönder",
+      "JOKE": "Geçerli kanala rastgele bir şaka gönderir",
+      "LOVE": "Başka bir kullanıcıyla yaşadığınız aşkı gösteren bir görüntüyü mevcut kanala gönderin",
+      "MEME": "Geçerli kanala rastgele bir meme gönderir",
+      "OWOIFY": "Metni owo'ya dönüştür"
+    },
+    "GAME_STATISTICS": {
+      "CSGO": "Bir CSGO oyuncusunun istatistiklerini izleyin",
+      "FORTNITE": "Bir Fortnite oyuncusunun istatistiklerini izleyin",
+      "OSU": "Bir osu! oyuncusunun istatistiklerini izleyin",
+      "R6S": "Bir R6S oyuncusunun istatistiklerini izleyin"
+    },
+    "GAMES": {
+      "COINFLIP": "Klasik yazı tura oyunu"
+    },
+    "MISCELLANEOUS": {
+      "ASCII": "Metninizi ASCII metnine dönüştürün",
+      "AVATAR": "Avatarınızı veya bir kullanıcının avatarını gösterin",
+      "FORTNITE-STORE": "Fortnite mağazasından rastgele bir eşya al",
+      "LYRICS": "Bir şarkının sözlerini alın",
+      "MINECRAFT": "Minecraft yardımcı program komutları",
+      "POLL": "Geçerli kanalda bir anket oluşturun",
+      "RANDOM-COLOR": "Rastgele bir rengin temel bilgilerini alın",
+      "RANDOM-NUMBER": "Rastgele bir sayı alın",
+      "SAY": "Filo kullanarak bir mesaj gönderin",
+      "WEATHER": "Bir konumun hava durumunu alın"
+    },
+    "MODERATION": {
+      "BAN": "Bir kullanıcıyı sunucudan kalıcı olarak yasaklama",
+      "CASE": "Bir yaptırım vakasını yönetme",
+      "HISTORY": "Kullanıcının yaptırım geçmişini gösterme",
+      "KICK": "Bir kullanıcıyı sunucudan atma",
+      "MUTE": "Bir kullanıcıyı sunucudan kalıcı olarak sessize alma",
+      "SOFTBAN": "Bir kullanıcıyı sunucudan yumuşak bir şekilde yasaklama",
+      "TEMPBAN": "Bir kullanıcıyı sunucudan geçici olarak yasaklar.",
+      "TEMPMUTE": "Bir kullanıcıyı sunucudan geçici olarak sessize alma",
+      "UNBAN": "Bir kullanıcının yasağını kaldırma",
+      "UNMUTE": "Bir kullanıcının sessize alınmasını kaldırma",
+      "UNWARN": "Bir kullanıcıdan uyarıyı kaldırma",
+      "WARN": "Bir kullanıcıyı sunucudan uyarın"
+    },
+    "SERVER": {
+      "ACTIVITY": "Bir ses kanalında etkinlik başlatma",
+      "CHANNEL": "Bir kanalın bilgilerini alın",
+      "INVITE": "Bir kanal için davetiye oluşturma",
+      "NEWS": "Haber kanallarımızı takip edin veya bilgi alın",
+      "REPORT": "Kullanıcı davranışını bir sunucu moderatörüne bildirme",
+      "ROLE": "Bir rolün bilgilerini alın",
+      "SERVER": "Sunucu hakkında bilgi alın"
+    },
+    "SETTINGS": {
+      "ANTI-BAD-WORDS": "Kötü sözler gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül",
+      "ANTI-EVASION": "Aktif bir yaptırımdan kaçmaya çalışan kullanıcıları yasaklamanıza olanak tanıyan modül",
+      "ANTI-EXTERNAL-LINKS": "Bağlantı gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül",
+      "ANTI-INVITES": "Diğer sunuculardan davetiye gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül",
+      "ANTI-MASS-MENTIONS": "Kullanıcıların çok fazla kullanıcıdan bahsettiğine dair yaptırım uygulamanızı sağlayan modül",
+      "ANTI-REPEATED-TEXT": "Mesaj içinde tekrarlanan metin gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül",
+      "ANTI-SPAM": "Kullanıcılardan gelen istenmeyen postaları önlemenizi sağlayan modül",
+      "AUTO-MODERATION": "Belirli miktarda uyarı alan kullanıcılara otomatik olarak yaptırım uygulamanızı sağlayan modül",
+      "COMMANDS": "Filo'nun komutlarını etkinleştirerek veya devre dışı bırakarak yönetin",
+      "FAREWELLS": "Eski üyelere veda mesajı göndermenizi sağlayan modül",
+      "LANGUAGE": "Filo'nun Dilini ayarlamanızı sağlayan modül",
+      "LOGGING": "Sunucunun günlüklerini bir kanala göndermeyi sağlayan modül",
+      "MEMBER-COUNTER": "Bir kanalın sunucu üye sayacı olarak yapılandırılmasını sağlayan modül",
+      "REPORTS": "Kullanıcıların kötü davranışları sunucunun Moderatörlerine bildirmesine olanak tanıyan modül",
+      "WELCOMES": "Yeni üyelere bir mesaj göndermenizi ve onlara bir rol atamanızı sağlayan Hoş Geldiniz modülü"
+    },
+    "SOCIAL": {
+      "PROFILE": "Profilinizi veya bir kullanıcının profilini alın"
+    },
+    "UTILITIES": {
+      "BINARY": "İkili kodlama veya ikili kod çözme",
+      "MORSE": "Mors kodlama veya mors kodunu çözme",
+      "SHORTEN": "URL kısaltma"
+    }
+  },
+  "REQUIRED_FILO_PERMISSIONS": "Gerekli Filo izinleri",
+  "REQUIRED_USER_PERMISSIONS": "Gerekli kullanıcı izinleri",
+  "ALTERNATIVE_USER_PERMISSIONS": "Alternatif kullanıcı izinleri",
+  "NO_PERMISSIONS_ARE_NEEDED": "Hiçbir izne gerek yoktur.",
+  "COMMAND_RESTRICTIONS": "Komut kısıtlamaları",
+  "ONLY_IN_A_SERVER": "Bu komut yalnızca bir sunucu üzerinde çalıştırılabilir.",
+  "REQUIRED_FLAG": "Gerekli bayrak",
+  "COMMAND_USAGE": "Komut kullanımı"
+}

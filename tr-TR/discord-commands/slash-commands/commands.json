@@ -1,0 +1,46 @@
+{
+  "description": "Filo'nun komutlarını etkinleştirerek veya devre dışı bırakarak yönetin.",
+  "subcommands": {
+    "enable": {
+      "description": "Bir Filo'nun komutunu veya kategorisini etkinleştirin.",
+      "arguments": {
+        "target": {
+          "name": "hedef",
+          "description": "Neyi etkinleştirmek istediğinizi belirtin."
+        },
+        "value": {
+          "name": "değer",
+          "description": "Etkinleştirmek istediğiniz komutun veya kategorinin adı."
+        }
+      }
+    },
+    "disable": {
+      "description": "Bir Filo'nun komutunu veya kategorisini devre dışı bırakın.",
+      "arguments": {
+        "target": {
+          "name": "hedef",
+          "description": "Neyi devre dışı bırakmak istediğinizi belirtin."
+        },
+        "value": {
+          "name": "değer",
+          "description": "Devre dışı bırakmak istediğiniz komutun veya kategorinin adı."
+        }
+      }
+    },
+    "docs": {
+      "description": "Devre dışı bırakma komutları modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Komutları devre dışı bırak modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

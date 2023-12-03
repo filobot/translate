@@ -1,0 +1,23 @@
+{
+  "description": "İkili kodu kodlayın veya ikili kodu çözün.",
+  "subcommands": {
+    "encode": {
+      "description": "Metni ikili koda dönüştürün.",
+      "arguments": {
+        "code": {
+          "name": "kod",
+          "description": "İkili kodlamak istediğiniz metin."
+        }
+      }
+    },
+    "decode": {
+      "description": "İkili kodu metne dönüştürün.",
+      "arguments": {
+        "code": {
+          "name": "kod",
+          "description": "Çözmek istediğiniz ikili kod."
+        }
+      }
+    }
+  }
+}

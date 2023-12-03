@@ -1,0 +1,39 @@
+{
+  "description": "Aktif bir yaptırımdan kaçmaya çalışan kullanıcıları yasaklamanıza olanak tanıyan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Kaçınma önleme modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Kaçınma önleme modülünü devre dışı bırakın."
+    },
+    "action": {
+      "description": "Birisi aktif bir yaptırımdan kaçmaya çalıştığında gerçekleştirilecek eylemi ayarlayın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Birisi aktif bir yaptırımdan kaçmaya çalıştığında yapılacak işlem."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "docs": {
+      "description": "Kaçakçılığı önleme modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Kaçak önleme modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "description": "Kullanıcıların dolandırıcılık bağlantıları göndermesini engellemenizi sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Anti-scam-links modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Anti-scam-links modülünü devre dışı bırakın."
+    },
+    "action": {
+      "description": "Birisi dolandırıcılık bağlantıları gönderdiğinde gerçekleştirilecek eylemi ayarlayın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Birisi dolandırıcılık bağlantıları gönderdiğinde yapılması gerekenler."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "aggressive-filter": {
+      "description": "Agresif dolandırıcılık bağlantısı algılama filtresini etkinleştirin veya devre dışı bırakın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        }
+      }
+    },
+    "channel": {
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Modülün kanal bypass listesinden kanal."
+        }
+      }
+    },
+    "role": {
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Modülün rol atlama listesinden rol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Anti-scam-links modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Anti-scam-links modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

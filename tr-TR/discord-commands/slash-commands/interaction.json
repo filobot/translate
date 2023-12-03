@@ -1,0 +1,140 @@
+{
+  "description": "Gifler ve eylemlerle diğer kullanıcılarla etkileşim kurun.",
+  "subcommands": {
+    "baka": {
+      "description": "Bir baka etkileşimi gönder.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "bite": {
+      "description": "Bir ısırık etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "cookie": {
+      "description": "Bir çerez etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "cuddle": {
+      "description": "Bir kucaklaşma etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "feed": {
+      "description": "Bir besleme etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "hug": {
+      "description": "Bir kucaklama etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "kick": {
+      "description": "Bir tekme etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "kiss": {
+      "description": "Bir öpücük etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "laugh": {
+      "description": "Gülme etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "pat": {
+      "description": "Bir etkileşim gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "poke": {
+      "description": "Bir dürtme etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "punch": {
+      "description": "Bir yumruk etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "reverse-card": {
+      "description": "Ters kart etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "slap": {
+      "description": "Bir tokat etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    },
+    "tickle": {
+      "description": "Bir gıdıklama etkileşimi gönderin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Bu etkileşimi yönlendirmek istediğiniz kullanıcı."
+        }
+      }
+    }
+  }
+}

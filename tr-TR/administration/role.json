@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "{{action}} **{{role.mention}}** ({{role.id}}) rolünü **[{{user.tag}}]({{url}})** ({{user.id}}) olarak değiştirdiniz."
+}

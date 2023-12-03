@@ -1,0 +1,65 @@
+{
+  "description": "Bir kanalın sunucu üye sayacı olarak yapılandırılmasını sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Üye sayaç modülünü etkinleştirin.",
+      "arguments": {
+        "module": {
+          "name": "modül",
+          "description": "Etkinleştirmek istediğiniz modül."
+        }
+      }
+    },
+    "disable": {
+      "description": "Üye sayaç modülünü devre dışı bırakın.",
+      "arguments": {
+        "module": {
+          "name": "modül",
+          "description": "Devre dışı bırakmak istediğiniz modül."
+        }
+      }
+    },
+    "channel": {
+      "description": "Üye sayaç kanalını ayarlayın.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Üye sayaç kanalı olarak ayarlamak istediğiniz kanal."
+        }
+      }
+    },
+    "name": {
+      "description": "Üye sayaç kanalının adını ayarlayın.",
+      "arguments": {
+        "name": {
+          "name": "isim",
+          "description": "Üye sayaç kanalının adı."
+        }
+      }
+    },
+    "nickname": {
+      "description": "Üye sayaç takma adını ayarlayın.",
+      "arguments": {
+        "nickname": {
+          "name": "takma ad",
+          "description": "Üye sayaç takma adı."
+        }
+      }
+    },
+    "docs": {
+      "description": "Üye sayaç modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Üye sayaç modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

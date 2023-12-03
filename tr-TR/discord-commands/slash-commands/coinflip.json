@@ -1,0 +1,9 @@
+{
+  "description": "Klasik yazı tura oyunu.",
+  "arguments": {
+    "choice": {
+      "name": "seçim",
+      "description": "Oynayabilmek için yazı veya tura seçin."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ROLE": "Rol",
+  "ROLES": "Roller",
+  "ROLE_COLOR": "Rol rengi",
+  "ROLE_POSITION": "Rol pozisyonu",
+  "ROLE_PERMISSIONS": "Rol izinleri",
+  "ROLE_MANAGED_TRUE": "Rol, bir entegrasyon uzmanı tarafından yönetilir",
+  "ROLE_MANAGED_FALSE": "Rol bir entegrasyon tarafından yönetilmez",
+  "ROLE_HOIST_TRUE": "Rol kaldırma",
+  "ROLE_HOIST_FALSE": "Rol vinç değil",
+  "ROLE_MENTIONABLE_TRUE": "Rol herkes tarafından belirtilebilir",
+  "ROLE_MENTIONABLE_FALSE": "Rol sadece ``{{permission}}`` iznine sahip kullanıcılar tarafından belirtilebilir",
+  "ROLE_TYPE": "Rol tipi",
+  "NORMAL_ROLE": "Normal rol",
+  "BOT_ROLE": "Bot rolü",
+  "INTEGRATION_ROLE": "Entegrasyon rolü",
+  "PREMIUM_ROLE": "Premium abone rolü"
+}

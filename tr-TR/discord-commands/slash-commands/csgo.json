@@ -1,0 +1,9 @@
+{
+  "description": "Bir CSGO oyuncusunun istatistiklerini alın.",
+  "arguments": {
+    "player": {
+      "name": "oyuncu",
+      "description": "Oyuncunun Oyun İçi Nick'i."
+    }
+  }
+}

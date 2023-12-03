@@ -1,0 +1,68 @@
+{
+  "description": "Yeni üyelere bir mesaj göndermenizi ve onlara bir rol atamanızı sağlayan hoş geldiniz modülü.",
+  "subcommands": {
+    "enable": {
+      "description": "Karşılama modülünü etkinleştirin.",
+      "arguments": {
+        "module": {
+          "name": "modül",
+          "description": "Etkinleştirmek istediğiniz modül."
+        }
+      }
+    },
+    "disable": {
+      "description": "Welcomes modülünü devre dışı bırakın.",
+      "arguments": {
+        "module": {
+          "name": "modül",
+          "description": "Devre dışı bırakmak istediğiniz modül."
+        }
+      }
+    },
+    "channel": {
+      "description": "Karşılama mesajlarının gönderileceği kanalı ayarlayın.",
+      "arguments": {
+        "channel": {
+          "name": "kanal",
+          "description": "Karşılama mesajlarının gönderileceği kanal."
+        }
+      }
+    },
+    "message": {
+      "description": "Karşılama mesajını ayarlayın."
+    },
+    "type": {
+      "description": "Karşılama mesajının gönderilme şeklini ayarlayın.",
+      "arguments": {
+        "type": {
+          "name": "tip",
+          "description": "Karşılama mesajının gönderileceği yol."
+        }
+      }
+    },
+    "role": {
+      "description": "Yeni üyelere vermek istediğiniz rolü ayarlayın.",
+      "arguments": {
+        "role": {
+          "name": "rol",
+          "description": "Yeni üyelere vermek istediğiniz rol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Karşılama modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Karşılama modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

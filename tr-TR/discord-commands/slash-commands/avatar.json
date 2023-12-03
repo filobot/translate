@@ -1,0 +1,9 @@
+{
+  "description": "Avatarınızı veya bir kullanıcının avatarını gösterin.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Avatarını almak istediğiniz kullanıcı."
+    }
+  }
+}

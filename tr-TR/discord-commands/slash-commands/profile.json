@@ -1,0 +1,9 @@
+{
+  "description": "Profilinizi veya başka bir kullanıcının profilini gösterin.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Profilini almak istediğiniz kullanıcı."
+    }
+  }
+}

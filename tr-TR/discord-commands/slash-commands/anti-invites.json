@@ -1,0 +1,94 @@
+{
+  "description": "Diğer sunuculardan davetiye gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Anti-davet modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Anti-davet modülünü devre dışı bırakın."
+    },
+    "action": {
+      "description": "Birisi davet gönderdiğinde gerçekleştirilecek eylemi ayarlayın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Birisi davet gönderdiğinde yapılacak işlem."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "filo": {
+      "description": "Resmi Filo's sunucusundan gelen davetlerin bypass edilmesini etkinleştirin veya devre dışı bırakın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Resmi Filo's sunucusundan gelen davetlerin bypass edilmesini etkinleştirin veya devre dışı bırakın."
+        }
+      }
+    },
+    "discord": {
+      "description": "Discord'un resmi sunucularından gelen davetiyelerin atlanmasını etkinleştirin veya devre dışı.",
+      "arguments": {
+        "name": "eylem",
+        "description": "Discord'un resmi sunucularından gelen davetiyelerin atlanmasını etkinleştirin veya devre dışı."
+      }
+    },
+    "guild": {
+      "description": "Modülün lonca bypass listesine bir lonca ekleyin veya listeden loncayı kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "guild": {
+          "name": "sunucu",
+          "description": "Modülün lonca bypass listesinden lonca."
+        }
+      }
+    },
+    "channel": {
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Modülün kanal bypass listesinden kanal."
+        }
+      }
+    },
+    "role": {
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Modülün rol atlama listesinden rol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Anti-davet modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Anti-davet modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

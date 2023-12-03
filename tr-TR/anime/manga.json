@@ -1,0 +1,22 @@
+{
+  "MANGA": "Manga",
+  "MANGAS": "Mangas",
+  "MANGA_TYPE": "Manga türü",
+  "MANGA_TYPES": {
+    "MANGA": "Manga",
+    "NOVEL": "Roman",
+    "ONE_SHOT": "Tek atış",
+    "DOUJINSHI": "Doujinshi",
+    "MANHWA": "Manhwa",
+    "MANHUA": "Manhua"
+  },
+  "MANGA_STATUS": {
+    "PUBLISHING": "Şu anda yayınlanıyor",
+    "FINISHED": "Bitmiş yayıncılık",
+    "NOT_YET_PUBLISHED": "Henüz yayınlanmadı"
+  },
+  "MANGA_VOLUMES": "Manga ciltleri",
+  "VOLUMES": "Ciltler",
+  "CHAPTERS": "Bölümler",
+  "PUBLISHED_DATE": "Yayınlanma tarihi"
+}

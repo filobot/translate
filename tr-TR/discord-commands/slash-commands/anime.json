@@ -1,0 +1,58 @@
+{
+  "description": "Anime Yardımcı Programları.",
+  "subcommands": {
+    "avatar": {
+      "description": "Bir anime avatarının rastgele bir görüntüsünü gönderin."
+    },
+    "search": {
+      "description": "Bir animenin bilgilerini arayın.",
+      "arguments": {
+        "title": {
+          "name": "başlık",
+          "description": "Animenin adı."
+        }
+      }
+    },
+    "random": {
+      "description": "Belirlediğiniz kriterlere göre rastgele bir animeden gelen bilgileri gösterin.",
+      "arguments": {
+        "term": {
+          "name": "dönem",
+          "description": "Anime başlığını içermesi gereken terim."
+        },
+        "type": {
+          "name": "tip",
+          "description": "Anime türü."
+        },
+        "status": {
+          "name": "durum",
+          "description": "Anime'nin durumu."
+        },
+        "rating": {
+          "name": "derecelendirme",
+          "description": "Anime'nin reytingi."
+        },
+        "genre": {
+          "name": "tür",
+          "description": "Tür veya Anime türlerinden biri."
+        }
+      }
+    }
+  },
+  "subcommand_groups": {
+    "characters": {
+      "description": "Bir anime karakteri hakkında rastgele bir resim veya gif gönderin.",
+      "subcommands": {
+        "ghoul": {
+          "description": "Bir Ghoul'un rastgele bir görüntüsünü gönderin."
+        },
+        "jojo": {
+          "description": "Rastgele bir Jojo resmi gönderin."
+        },
+        "titan": {
+          "description": "Bir Titan'ın rastgele bir görüntüsünü gönderin."
+        }
+      }
+    }
+  }
+}

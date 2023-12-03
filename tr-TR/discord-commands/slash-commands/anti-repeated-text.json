@@ -1,0 +1,65 @@
+{
+  "description": "Mesajda tekrarlanan metin gönderen kullanıcılara yaptırım uygulamanızı sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Tekrarlanan metin önleme modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Yinelenen metin önleme modülünü devre dışı bırakın."
+    },
+    "action": {
+      "description": "Birisi bir mesajda tekrarlanan metin gönderdiğinde gerçekleştirilecek eylemi ayarlayın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Birisi bir mesajda tekrarlanan metin gönderdiğinde yapılacak işlem."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "channel": {
+      "description": "Yok sayılan kanallar listesine bir kanal ekleyin veya listeden çıkarın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "channel": {
+          "name": "kanal",
+          "description": "Modülün kanal bypass listesinden kanal."
+        }
+      }
+    },
+    "role": {
+      "description": "Yoksayılan roller listesine bir rol ekleyin veya listeden bir rolü kaldırın.",
+      "arguments": {
+        "action": {
+          "name": "eylem",
+          "description": "Gerçekleştirmek istediğiniz eylem."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Modülün rol atlama listesinden rol."
+        }
+      }
+    },
+    "docs": {
+      "description": "Anti-repeated-text modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Yinelenen metin önleme modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "SOURCE_FEED_TITLES": {
+    "ANNOUNCEMENTS": "Filo'nun Duyuruları",
+    "STATUS": "Filo'nun Durum Raporları",
+    "UPDATES": "Filo'nun Geliştirici Güncellemeleri",
+    "FREE_GAMES": "Ücretsiz Oyunlar",
+    "MAL": "MyAnimeList Akışı"
+  },
+  "SOURCE_FEED_DETAILS": {
+    "ANNOUNCEMENTS": "Filo İdaresi tarafından hizmetteki değişiklikler, özel etkinlikler veya diğer önemli mesajlar hakkında yapılan resmi duyurular.",
+    "STATUS": "Hizmetimizin durumuna ilişkin bildirimler. Hizmetimizde bir kesinti veya planlı bakım olduğunda bildirimler gönderilecektir.",
+    "UPDATES": "Son Filo yamaları veya Filo ile ilgili hizmetler hakkında bilgi içeren bildirimler.",
+    "FREE_GAMES": "ÜCRETSİZ OYUNLAR için Bildirimler! Ücretsiz bir oyunun varlığından haberdar olduğumuzda sizi hemen bilgilendireceğiz.",
+    "MAL": "Dünyanın en aktif çevrimiçi anime ve manga topluluğu ve veritabanı olan MyAnimeList'e hoş geldiniz. Çevrimiçi topluluğa katılın, anime ve manga listenizi oluşturun, incelemeleri okuyun, forumları keşfedin, haberleri takip edin ve çok daha fazlasını yapın!"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "CLUSTER": "Küme",
+  "SHARD": "Shard",
+  "SHARDS": "Kırıklar",
+  "PING": "Ping",
+  "LIBRARY": "Kütüphane",
+  "NODE_VERSION": "Düğüm sürümü",
+  "OPERATIVE_SYSTEM": "Operasyonel sistem",
+  "TOTAL_SERVERS": "Toplam sunucular",
+  "TOTAL_USERS": "Toplam kullanıcı",
+  "TOTAL_CACHED_CHANNELS": "Toplam önbelleğe alınmış kanallar",
+  "SERVERS": "Sunucular",
+  "USERS": "Kullanıcılar",
+  "CACHED_CHANNELS": "Önbelleğe alınmış kanallar"
+}

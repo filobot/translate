@@ -1,0 +1,15 @@
+{
+  "SONG": {
+    "SELECT_A_SONG": "Verilerini görüntülemek için bir şarkı seçmelisiniz.",
+    "SELECT_A_SONG_PLACEHOLDER": "Bir şarkı seçin",
+    "VIEWING_THE_LYRICS": {
+      "TITLE": "**{{song.title}}** şarkısının sözleri görüntüleniyor.",
+      "DESCRIPTION": "Bu şarkının sözlerini **[buraya tıklayarak]({{url}})** görüntüleyebilirsiniz."
+    },
+    "TITLE": "Başlık",
+    "FULL_TITLE": "Tam başlık",
+    "FEATURED_TITLE": "Öne çıkan başlık",
+    "ALBUM": "Albüm",
+    "ARTIST": "Sanatçı"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Bir kullanıcıyı sunucudan atar.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Tekmelemek istediğin kullanıcı."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Bu kullanıcının atılma nedeni."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    }
+  }
+}

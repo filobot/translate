@@ -1,0 +1,5 @@
+{
+  "WATCHING_FILO_LATENCY": "Filo'nun gecikme süresini izlemek",
+  "WS_LATENCY": "WS gecikme süresi",
+  "API_LATENCY": "API gecikmesi"
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Bir sunucu rolünü yönetin.",
+  "subcommands": {
+    "add": {
+      "description": "Bir kullanıcıya rol ekleyin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Rol eklemek istediğiniz kullanıcı."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Kullanıcıya eklemek istediğiniz rol."
+        }
+      }
+    },
+    "info": {
+      "description": "Bir rolün bilgilerini gösterin.",
+      "arguments": {
+        "role": {
+          "name": "rol",
+          "description": "Bilgiyi almak istediğiniz rol."
+        }
+      }
+    },
+    "remove": {
+      "description": "Bir kullanıcıdan bir rolü kaldırın.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Rolünü kaldırmak istediğiniz kullanıcı."
+        },
+        "role": {
+          "name": "rol",
+          "description": "Kullanıcıdan kaldırmak istediğiniz rol."
+        }
+      }
+    }
+  }
+}

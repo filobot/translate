@@ -1,0 +1,9 @@
+{
+  "description": "Kredilerinizi veya başka bir kullanıcının kredilerini gösterin.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Kredilerini almak istediğiniz kullanıcı."
+    }
+  }
+}

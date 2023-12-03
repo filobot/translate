@@ -1,0 +1,21 @@
+{
+  "description": "Bir kullanıcının sessize alınmasını kaldırın.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Sessizi kaldırmak istediğiniz kullanıcı."
+    },
+    "reason": {
+      "name": "sebep",
+      "description": "Sessizliği kaldırma nedeni."
+    },
+    "silent": {
+      "name": "sessiz",
+      "description": "Yaptırımın kullanıcıya bildirilmemesini isteyip istemediğinizi belirtin."
+    },
+    "force": {
+      "name": "kuvvet",
+      "description": "Sessizliği kaldırmaya zorlayın."
+    }
+  }
+}

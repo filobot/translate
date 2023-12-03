@@ -1,0 +1,13 @@
+{
+  "description": "Bir ses kanalında bir etkinlik başlatın.",
+  "arguments": {
+    "activity": {
+      "name": "aktivite",
+      "description": "Başlamak istediğiniz faaliyet."
+    },
+    "channel": {
+      "name": "kanal",
+      "description": "Aktiviteyi başlatmak istediğiniz ses kanalı."
+    }
+  }
+}

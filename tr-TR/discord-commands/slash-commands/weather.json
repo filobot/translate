@@ -1,0 +1,13 @@
+{
+  "description": "Bir konumun hava durumunu öğrenin.",
+  "arguments": {
+    "location": {
+      "name": "konum",
+      "description": "Hava durumunu almak istediğiniz yer."
+    },
+    "degree-type": {
+      "name": "derece-tipi",
+      "description": "Sıcaklık derecelerinin türü."
+    }
+  }
+}

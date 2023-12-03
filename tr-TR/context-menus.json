@@ -1,0 +1,47 @@
+{
+  "LOADING_ACTION": "Lütfen istenen eylem yüklenirken bekleyin.",
+  "MESSAGE": {
+    "MANAGE_THIS_MESSAGE": {
+      "PIN_MESSAGE_TITLE": "Pin mesajı",
+      "PIN_MESSAGE_DESCRIPTION": "Bu mesajı bu kanala sabitleyin.",
+      "UNPIN_MESSAGE_TITLE": "Mesajın sabitlemesini kaldır",
+      "UNPIN_MESSAGE_DESCRIPTION": "Bu mesajı bu kanaldan kaldırın."
+    }
+  },
+  "USER": {
+    "MISCELLANEOUS_ACTIONS": {
+      "SHOW_USER_AVATAR_TITLE": "Kullanıcı avatarını göster",
+      "SHOW_USER_AVATAR_DESCRIPTION": "Bu kullanıcının avatarını göster.",
+      "SHOW_USER_PROFILE_TITLE": "Kullanıcı profilini göster",
+      "SHOW_USER_PROFILE_DESCRIPTION": "Bu kullanıcının profilini gösterin."
+    },
+    "MODERATE_THIS_USER": {
+      "PERMANENTLY_BAN_THIS_USER_TITLE": "Bu kullanıcıyı kalıcı olarak yasakla",
+      "PERMANENTLY_BAN_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan kalıcı olarak yasaklayın.",
+      "SHOW_USER_HISTORY_TITLE": "Kullanıcı geçmişini göster",
+      "SHOW_USER_HISTORY_DESCRIPTION": "Kullanıcının yaptırım geçmişini gösterin.",
+      "KICK_THIS_USER_TITLE": "Bu kullanıcıyı tekmele",
+      "KICK_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan atar.",
+      "PERMANENTLY_MUTE_THIS_USER_TITLE": "Bu kullanıcıyı kalıcı olarak sessize al",
+      "PERMANENTLY_MUTE_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan kalıcı olarak sessize alın.",
+      "SOFTBAN_THIS_USER_TITLE": "Softban bu kullanıcı",
+      "SOFTBAN_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan uzaklaştırın.",
+      "TEMPORARILY_BAN_THIS_USER_TITLE": "Bu kullanıcıyı geçici olarak yasaklayın",
+      "TEMPORARILY_BAN_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan geçici olarak yasaklar.",
+      "TEMPORARILY_MUTE_THIS_USER_TITLE": "Bu kullanıcıyı geçici olarak sessize al",
+      "TEMPORARILY_MUTE_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan geçici olarak sessize alın.",
+      "UNBAN_THIS_USER_TITLE": "Bu kullanıcının yasağını kaldırın",
+      "UNBAN_THIS_USER_DESCRIPTION": "Bu kullanıcının sunucudan yasağını kaldırın.",
+      "UNMUTE_THIS_USER_TITLE": "Bu kullanıcının sesini aç",
+      "UNMUTE_THIS_USER_DESCRIPTION": "Bu kullanıcının sunucudan sesini kaldırın.",
+      "UNWARN_THIS_USER_TITLE": "Bu kullanıcıyı uyarma",
+      "UNWARN_THIS_USER_DESCRIPTION": "Bu kullanıcının sunucudan uyarısını kaldırın.",
+      "WARN_THIS_USER_TITLE": "Bu kullanıcıyı uyarın",
+      "WARN_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan uyarın.",
+      "TIMEOUT_THIS_USER_TITLE": "Bu kullanıcı için zaman aşımı",
+      "TIMEOUT_THIS_USER_DESCRIPTION": "Bu kullanıcıyı sunucudan zaman aşımına uğratır.",
+      "UNTIMEOUT_THIS_USER_TITLE": "Bu kullanıcıyı zaman aşımına uğrat",
+      "UNTIMEOUT_THIS_USER_DESCRIPTION": "Bu kullanıcının sunucudan zaman aşımını kaldırın."
+    }
+  }
+}

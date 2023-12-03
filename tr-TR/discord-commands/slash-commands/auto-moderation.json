@@ -1,0 +1,73 @@
+{
+  "description": "Belirli miktarda uyarı alan kullanıcılara otomatik olarak yaptırım uygulamanızı sağlayan modül.",
+  "subcommands": {
+    "enable": {
+      "description": "Otomatik moderasyon modülünü etkinleştirin."
+    },
+    "disable": {
+      "description": "Otomatik moderasyon modülünü devre dışı bırakın."
+    },
+    "add": {
+      "description": "Otomatik moderatöre bir seviye ekleyin.",
+      "arguments": {
+        "warnings": {
+          "name": "uyarılar",
+          "description": "Kullanıcının bu seviyeye ulaşmak için sahip olması gereken uyarı sayısı."
+        },
+        "action": {
+          "name": "eylem",
+          "description": "Birisi bu seviyeye ulaştığında yapılması gerekenler."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    },
+    "remove": {
+      "description": "Otomatik moderatör için bir seviye kaldırın.",
+      "arguments": {
+        "level": {
+          "name": "seviye",
+          "description": "Otomatik moderatör seviyesi."
+        }
+      }
+    },
+    "docs": {
+      "description": "Otomatik moderasyon modülü belgelerinin bağlantısını alın."
+    },
+    "view": {
+      "description": "Otomatik moderasyon modülünün ayarlarını görüntüleyin."
+    },
+    "reset": {
+      "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+      "arguments": {
+        "confirmation": {
+          "name": "onayla",
+          "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+        }
+      }
+    },
+    "set": {
+      "description": "Bir otomatik moderatör seviyesinin parametrelerini ayarlayın.",
+      "arguments": {
+        "level": {
+          "name": "seviye",
+          "description": "Otomatik moderatör seviyesi."
+        },
+        "warnings": {
+          "name": "uyarılar",
+          "description": "Kullanıcının bu seviyeye ulaşmak için sahip olması gereken uyarı sayısı."
+        },
+        "action": {
+          "name": "eylem",
+          "description": "Birisi bu seviyeye ulaştığında yapılması gerekenler."
+        },
+        "time": {
+          "name": "zaman",
+          "description": "Eylemin zamanı (geçici olması durumunda)."
+        }
+      }
+    }
+  }
+}

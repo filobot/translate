@@ -1,0 +1,13 @@
+{
+  "description": "Bir kullanıcının takma adını yönetin.",
+  "arguments": {
+    "user": {
+      "name": "kullanıcı",
+      "description": "Takma adını değiştirmek istediğiniz kullanıcı."
+    },
+    "nickname": {
+      "name": "takma ad",
+      "description": "Kullanıcıya ayarlamak istediğiniz takma ad."
+    }
+  }
+}

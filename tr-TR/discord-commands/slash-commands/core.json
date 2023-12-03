@@ -1,0 +1,153 @@
+{
+  "description": "Çekirdek kategorisindeki komutlar.",
+  "subcommands": {
+    "info": {
+      "description": "Bot hakkında bilgi alın."
+    },
+    "flags": {
+      "description": "Kendi bayraklarınızı veya başka bir kullanıcının bayraklarını gösterin.",
+      "arguments": {
+        "user": {
+          "name": "kullanıcı",
+          "description": "Kullanıcının bayraklarını gösterin."
+        }
+      }
+    },
+    "donate": {
+      "description": "Bot için bağışlar hakkında bilgi alın."
+    },
+    "commands": {
+      "description": "Bot komutlarının listesini veya bir komut hakkında bilgi alın.",
+      "arguments": {
+        "command": {
+          "name": "komuta",
+          "description": "Bir komuttan bilgi alın."
+        }
+      }
+    },
+    "invite": {
+      "description": "Önerilen Filo's davet bağlantısını alın."
+    },
+    "privacy": {
+      "description": "Filo'nun Gizlilik Politikası bağlantısını alın."
+    },
+    "terms": {
+      "description": "Filo'nun Şartlar Koşulları bağlantısını alın."
+    },
+    "twitter": {
+      "description": "Filo'nun Twitter bağlantısını alın."
+    },
+    "status": {
+      "description": "Filo'nun Durum sayfasının bağlantısını alın."
+    },
+    "website": {
+      "description": "Filo'nun Web sitesinin bağlantısını alın."
+    },
+    "github": {
+      "description": "Filo'nun GitHub bağlantısını edinin."
+    },
+    "discord": {
+      "description": "Filo'nun Discord Sunucusunun bağlantısını alın."
+    },
+    "wiki": {
+      "description": "Filo'nun Wiki'sinin bağlantısını alın."
+    },
+    "help": {
+      "description": "Bot üzerinde temel yardım alın."
+    },
+    "support": {
+      "description": "Nasıl destek alabileceğiniz hakkında bilgi alın."
+    },
+    "vote": {
+      "description": "Filo'nun oylama sayfalarının bağlantısını alın."
+    },
+    "votes": {
+      "description": "Filo'nun tüm oylama sayfalarının oy sayacını alın."
+    },
+    "cluster": {
+      "description": "Geçerli Filo kümesi hakkında bilgi alın."
+    },
+    "statistics": {
+      "description": "Filo'nun küresel istatistiklerini alın."
+    },
+    "ping": {
+      "description": "Filo'dan ve Discord API'sinden gecikme süresini alın."
+    }
+  },
+  "subcommand_groups": {
+    "roles": {
+      "description": "Rolleri gelişmiş bir şekilde yönetin.",
+      "subcommands": {
+        "muted": {
+          "description": "Ayarlarda Sessiz rolünü oluşturun veya ayarlayın.",
+          "arguments": {
+            "role": {
+              "name": "rol",
+              "description": "Sessiz rolü (ayarlamak ve oluşturmak istememeniz durumunda)."
+            }
+          }
+        },
+        "remove": {
+          "description": "Bir rolün tüm parametrelerini ayarlardan kaldırın.",
+          "arguments": {
+            "role": {
+              "name": "rol",
+              "description": "Tüm parametreleri (özellikler ve izinler) kaldırmak istediğiniz rol."
+            }
+          }
+        },
+        "permissions": {
+          "description": "Her bir rolün izinlerini yönetin.",
+          "arguments": {
+            "role": {
+              "name": "rol",
+              "description": "Yönetmek istediğiniz rol."
+            },
+            "permission": {
+              "name": "izin",
+              "description": "Eklemek, ayarlamak veya kaldırmak istediğiniz izin."
+            }
+          }
+        },
+        "view": {
+          "description": "Lonca rollerinin ayarlarını alın."
+        },
+        "reset": {
+          "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+          "arguments": {
+            "confirmation": {
+              "name": "onayla",
+              "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+            }
+          }
+        }
+      }
+    },
+    "moderation": {
+      "description": "Moderasyon bölümünü yönetin.",
+      "subcommands": {
+        "dm-notifications": {
+          "description": "Denetleme eylemleri için bildirimleri etkinleştirin veya devre dışı bırakın.",
+          "arguments": {
+            "action": {
+              "name": "eylem",
+              "description": "Gerçekleştirmek istediğiniz eylem."
+            }
+          }
+        },
+        "view": {
+          "description": "Moderasyon parametreleri modülünün ayarlarını görüntüleyin."
+        },
+        "reset": {
+          "description": "Modül ayarlarını orijinal ayarlara geri yükler (veriler kurtarılamaz).",
+          "arguments": {
+            "confirmation": {
+              "name": "onayla",
+              "description": "Bu modül için verileri sıfırlamak istediğinizden gerçekten emin misiniz?"
+            }
+          }
+        }
+      }
+    }
+  }
+}

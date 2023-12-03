@@ -1,0 +1,3 @@
+{
+  "COMPLETED": "Başarılı bir şekilde **[{{user.tag}}]({{url}})** ({{user.id}})'nin takma adını **{{nickname}}** olarak ayarladınız."
+}
