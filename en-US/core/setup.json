@@ -458,7 +458,11 @@
                 "DESCRIPTION": "The value must be less than or equal to the compared value"
               }
             },
-            "OPERAND_SET": "You have successfully set the operand to **{{value}}**."
+            "OPERAND_SET": "You have successfully set the operand to **{{value}}**.",
+            "SELECT_THE_REQUIRED_CONDITIONS": "You must select the required conditions you want to set.",
+            "SELECT_THE_REQUIRED_CONDITIONS_PLACEHOLDER": "Select the required conditions",
+            "SELECT_THE_REQUIRED_CONDITIONS_OPTION_DESCRIPTION": "{{number}} conditions are required to be met.",
+            "REQUIRED_CONDITIONS_SET": "You have successfully set the required conditionals to **{{conditionals}}**."
           },
           "CREATE_A_LEVEL": {
             "LABEL": "Create a level",
