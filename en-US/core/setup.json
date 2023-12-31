@@ -476,6 +476,7 @@
           "DELETE_A_LEVEL": {
             "LABEL": "Delete a level",
             "DESCRIPTION": "Delete a level from the Auto Moderation module.",
+            "NO_LEVELS_FOUND": "There are no levels available to delete.",
             "FORM": {
               "LABEL": "Level number"
             },
