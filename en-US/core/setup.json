@@ -470,7 +470,16 @@
             "FORM": {
               "LABEL": "Level position"
             },
-            "LEVEL_POSITION_SET": "You have successfully set the level position to **#{{position}}**."
+            "LEVEL_POSITION_SET": "You have successfully set the level position to **#{{position}}**.",
+            "COMPLETED": "You have successfully created the level."
+          },
+          "DELETE_A_LEVEL": {
+            "LABEL": "Delete a level",
+            "DESCRIPTION": "Delete a level from the Auto Moderation module.",
+            "FORM": {
+              "LABEL": "Level number"
+            },
+            "COMPLETED": "You have successfully deleted the level **#{{level}}**."
           }
         }
       }
