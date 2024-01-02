@@ -483,6 +483,15 @@
             "LEVEL_SELECTED": "You have successfully selected the level **#{{level}}** to edit.",
             "COMPLETED": "You have successfully edited the level **#{{level}}**."
           },
+          "EDIT_THE_LEVEL_SANCTION": {
+            "LABEL": "Edit the level sanction",
+            "DESCRIPTION": "Edit the sanction of the level.",
+            "NO_LEVELS_FOUND": "There are no levels available to edit.",
+            "SELECT_THE_LEVEL": "You must select the level you want to edit.",
+            "SELECT_THE_LEVEL_PLACEHOLDER": "Select a level",
+            "SELECT_THE_LEVEL_OPTION_DESCRIPTION": "Edit the sanction of the level #{{level}}.",
+            "LEVEL_SELECTED": "You have successfully selected the level **#{{level}}** to edit its sanction."
+          },
           "DELETE_A_LEVEL": {
             "LABEL": "Delete a level",
             "DESCRIPTION": "Delete a level from the Auto Moderation module.",
