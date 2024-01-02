@@ -490,7 +490,8 @@
             "SELECT_THE_LEVEL": "You must select the level you want to edit.",
             "SELECT_THE_LEVEL_PLACEHOLDER": "Select a level",
             "SELECT_THE_LEVEL_OPTION_DESCRIPTION": "Edit the sanction of the level #{{level}}.",
-            "LEVEL_SELECTED": "You have successfully selected the level **#{{level}}** to edit its sanction."
+            "LEVEL_SELECTED": "You have successfully selected the level **#{{level}}** to edit its sanction.",
+            "COMPLETED": "You have successfully edited the sanction of the level **#{{level}}**."
           },
           "DELETE_A_LEVEL": {
             "LABEL": "Delete a level",
