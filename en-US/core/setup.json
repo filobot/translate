@@ -517,6 +517,7 @@
       "DM_STATUS": "DM status",
       "COOLDOWN": "Cooldown",
       "EXCEPTIONS": "{{type}} exceptions",
+      "ACTION": "Action",
       "COMMUNITY": {
         "COMMANDS": {
           "DISABLED_COMMANDS": "Disabled commands",
@@ -543,6 +544,14 @@
             "TITLE": "Evidences parameters",
             "MIN_COUNT": "Minimum count of evidences"
           }
+        }
+      },
+      "MODERATION": {
+        "AUTO_MODERATION": {
+          "LEVEL": "Level #{{level}}",
+          "REQUIRED_CONDITIONS": "Required conditions",
+          "CONDITIONALS": "Conditionals",
+          "CONDITIONAL": "Conditional #{{conditional}}"
         }
       }
     }
