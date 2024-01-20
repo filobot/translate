@@ -551,7 +551,9 @@
           "LEVEL": "Level #{{level}}",
           "REQUIRED_CONDITIONS": "Required conditions",
           "CONDITIONALS": "Conditionals",
-          "CONDITIONAL": "Conditional #{{conditional}}"
+          "CONDITIONAL": "Conditional #{{conditional}}",
+          "EXPECTED_VALUE": "Expected value",
+          "REQUIRED_STATUS": "Required status"
         }
       }
     }
