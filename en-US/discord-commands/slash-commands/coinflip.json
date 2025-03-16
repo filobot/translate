@@ -3,7 +3,11 @@
   "arguments": {
     "choice": {
       "name": "choice",
-      "description": "Choose heads or tails to be able to play."
+      "description": "Choose heads or tails to be able to play.",
+      "choices": {
+        "heads": "Heads",
+        "tails": "Tails"
+      }
     }
   }
 }
