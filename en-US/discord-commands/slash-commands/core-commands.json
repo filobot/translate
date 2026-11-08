@@ -1,9 +1,0 @@
-{
-  "description": "Get the list of bot commands or information about a command",
-  "arguments": {
-    "command": {
-      "name": "command",
-      "description": "The command to inspect"
-    }
-  }
-}
