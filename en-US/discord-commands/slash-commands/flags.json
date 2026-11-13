@@ -1,0 +1,9 @@
+{
+  "description": "Show your flags or that of another specific user",
+  "arguments": {
+    "user": {
+      "name": "user",
+      "description": "The user whose Filo flags you want to view"
+    }
+  }
+}
