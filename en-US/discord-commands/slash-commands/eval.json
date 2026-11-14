@@ -1,0 +1,14 @@
+{
+  "name": "eval",
+  "description": "Evaluate the specified code.",
+  "arguments": {
+    "code": {
+      "name": "code",
+      "description": "Code you want to evaluate."
+    },
+    "delete-after": {
+      "name": "delete-after",
+      "description": "Seconds before deleting the result (1-840; defaults to 14 minutes)"
+    }
+  }
+}
