@@ -8,7 +8,7 @@
     },
     "delete-after": {
       "name": "delete-after",
-      "description": "Seconds before deleting the result (1-840; defaults to 14 minutes)"
+      "description": "Time before deleting the result"
     }
   }
 }
