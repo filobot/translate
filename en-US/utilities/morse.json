@@ -1,4 +1,7 @@
 {
   "VIEWING_THE_CONVERSION": "Viewing the conversion from **{{option1}}** to **{{option2}}**",
-  "MORSE": "Morse"
+  "MORSE": "Morse",
+  "INVALID_ACTION": "Choose a valid Morse conversion.",
+  "INVALID_TEXT": "Provide nonempty text using letters A-Z, digits or supported punctuation. Unsupported characters cannot be converted to Morse.",
+  "INVALID_MORSE": "Provide known Morse symbols separated by whitespace and words separated by a slash. Empty words and unknown symbols are not accepted."
 }
