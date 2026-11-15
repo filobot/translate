@@ -1,0 +1,53 @@
+{
+  "description": "Information, links and statistics about Filo",
+  "subcommands": {
+    "cluster": {
+      "description": "Get information about the current Filo's cluster"
+    },
+    "discord": {
+      "description": "Get the link to Filo's Discord Server"
+    },
+    "donate": {
+      "description": "Get information about donations for the bot"
+    },
+    "github": {
+      "description": "Get the link to Filo's GitHub"
+    },
+    "info": {
+      "description": "Get information about the bot"
+    },
+    "invite": {
+      "description": "Get the recommended Filo's invite"
+    },
+    "privacy": {
+      "description": "Get the link to Filo's Privacy Policy"
+    },
+    "statistics": {
+      "description": "Get Filo's global stats"
+    },
+    "status": {
+      "description": "Get the link to Filo's Status"
+    },
+    "support": {
+      "description": "Get information on how to receive support"
+    },
+    "terms": {
+      "description": "Get the link to Filo's Terms and Conditions"
+    },
+    "twitter": {
+      "description": "Get the link to Filo's Twitter"
+    },
+    "vote": {
+      "description": "Get the link to Filo's voting pages"
+    },
+    "votes": {
+      "description": "Get the vote counter of all Filo's voting pages"
+    },
+    "website": {
+      "description": "Get the link to Filo's Website"
+    },
+    "wiki": {
+      "description": "Get the link to Filo's Wiki"
+    }
+  }
+}

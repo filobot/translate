@@ -1,3 +1,4 @@
 {
-  "TRANSACTION_COMPLETED": "You have successfully paid **{{credits}}** credits to **[{{user.tag}}]({{url}})** ({{user.id}})."
+  "TRANSACTION_COMPLETED": "You have successfully paid **{{credits}}** credits to **[{{user.tag}}]({{url}})** ({{user.id}}).",
+  "TRANSACTION_PENDING": "We could not confirm this payment yet. It may still be processed. Do not send it again. Reference: {{reference}}."
 }

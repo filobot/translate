@@ -1,4 +1,7 @@
 {
+  "COMMAND_UNAVAILABLE": "This command is not available in this version of Filo.",
+  "INTERACTION_UNAVAILABLE": "This interaction is no longer available.",
+  "TEST_SERVER_ONLY": "This Filo instance is limited to its test server.",
   "SOMETHING_WENT_WRONG": "Something went wrong while trying to execute that action",
   "GENERIC_ERROR": "Contact us for further instructions on what happened.",
   "GUILD_REQUIRED": "This action requires the bot to be added to the guild.",

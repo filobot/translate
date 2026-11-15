@@ -1,0 +1,39 @@
+{
+  "CLUSTER": {
+    "CLUSTER": "Cluster",
+    "SHARD": "Shard",
+    "SHARDS": "Shards",
+    "PING": "Ping",
+    "LIBRARY": "Library",
+    "NODE_VERSION": "Node version",
+    "OPERATIVE_SYSTEM": "Operative system",
+    "TOTAL_SERVERS": "Total servers",
+    "TOTAL_USERS": "Total users",
+    "TOTAL_CACHED_CHANNELS": "Total cached channels",
+    "SERVERS": "Servers",
+    "USERS": "Users",
+    "CACHED_CHANNELS": "Cached channels"
+  },
+  "DONATE": {
+    "DONATE_TITLE": "Support Filo by donating!",
+    "DONATE_DESCRIPTION": "Any amount is welcome and will be greatly appreciated. For any donation over $1 you'll receive a **[reward]({{url}})** on our server.\n\nAll donations you make will be used in order to improve the service and maintain it."
+  },
+  "STATISTICS": {
+    "WATCHING_FILO_STATISTICS": "Watching Filo's statistics",
+    "RAM": "RAM",
+    "VERSION": "Version",
+    "UPTIME": "Uptime"
+  },
+  "SUPPORT": {
+    "FILO_SUPPORT_TITLE": "Filo's support",
+    "FILO_SUPPORT_DESCRIPTION": "Do you need our help? don't worry! Below you can see several methods of help that we provide.",
+    "FILO_SERVER": "Filo's server",
+    "FILO_WIKI": "Filo's wiki",
+    "FILO_TWITTER": "Filo's twitter",
+    "FILO_SUPPORT_EMAIL": "Filo's support email"
+  },
+  "VOTES": {
+    "WATCHING_THE_FILO_VOTES": "Watching the Filo's votes",
+    "TOTAL_VOTES": "Total votes"
+  }
+}

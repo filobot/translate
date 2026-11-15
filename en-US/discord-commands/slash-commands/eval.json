@@ -1,0 +1,30 @@
+{
+  "name": "eval",
+  "description": "Evaluate the specified code.",
+  "arguments": {
+    "code": {
+      "name": "code",
+      "description": "Code you want to evaluate."
+    },
+    "delete-after": {
+      "name": "delete-after",
+      "description": "Time before deleting the result"
+    },
+    "export": {
+      "name": "export",
+      "description": "Export the result as Markdown",
+      "choices": {
+        "true": "$t(general:YES)",
+        "false": "$t(general:NO)"
+      }
+    },
+    "public": {
+      "name": "public",
+      "description": "Make the evaluation response public",
+      "choices": {
+        "true": "$t(general:YES)",
+        "false": "$t(general:NO)"
+      }
+    }
+  }
+}

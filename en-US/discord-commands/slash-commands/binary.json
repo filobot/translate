@@ -7,6 +7,14 @@
         "code": {
           "name": "code",
           "description": "Text that you want to binary encode."
+        },
+        "encoding": {
+          "name": "encoding",
+          "description": "Text encoding to use.",
+          "choices": {
+            "utf8": "UTF-8",
+            "latin1": "Legacy (8-bit)"
+          }
         }
       }
     },
@@ -16,6 +24,14 @@
         "code": {
           "name": "code",
           "description": "Binary code that you want to decode."
+        },
+        "encoding": {
+          "name": "encoding",
+          "description": "Text encoding to use.",
+          "choices": {
+            "utf8": "UTF-8",
+            "latin1": "Legacy (8-bit)"
+          }
         }
       }
     }
