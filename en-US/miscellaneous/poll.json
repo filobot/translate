@@ -1,3 +1,5 @@
 {
-  "POLL": "Poll"
+  "POLL": "Poll",
+  "CREATED": "Your poll has been published. [View the poll]({{url}}).",
+  "REACTIONS_INCOMPLETE": "Filo could not add all voting reactions. This poll's reaction setup is incomplete."
 }
