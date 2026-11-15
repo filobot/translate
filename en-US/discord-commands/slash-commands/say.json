@@ -7,6 +7,22 @@
         "message": {
           "name": "message",
           "description": "Message you want to send."
+        },
+        "markdown": {
+          "name": "markdown",
+          "description": "Render Markdown formatting.",
+          "choices": {
+            "true": "$t(general:YES)",
+            "false": "$t(general:NO)"
+          }
+        },
+        "follow-up": {
+          "name": "follow-up",
+          "description": "Send a separate public message with author attribution.",
+          "choices": {
+            "true": "$t(general:YES)",
+            "false": "$t(general:NO)"
+          }
         }
       }
     },
@@ -16,6 +32,22 @@
         "message": {
           "name": "message",
           "description": "Message you want to send."
+        },
+        "markdown": {
+          "name": "markdown",
+          "description": "Render Markdown formatting.",
+          "choices": {
+            "true": "$t(general:YES)",
+            "false": "$t(general:NO)"
+          }
+        },
+        "follow-up": {
+          "name": "follow-up",
+          "description": "Send a separate public message with author attribution.",
+          "choices": {
+            "true": "$t(general:YES)",
+            "false": "$t(general:NO)"
+          }
         }
       }
     }
