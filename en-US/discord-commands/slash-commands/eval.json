@@ -9,6 +9,14 @@
     "delete-after": {
       "name": "delete-after",
       "description": "Time before deleting the result"
+    },
+    "export": {
+      "name": "export",
+      "description": "Export the result as Markdown",
+      "choices": {
+        "true": "$t(general:YES)",
+        "false": "$t(general:NO)"
+      }
     }
   }
 }

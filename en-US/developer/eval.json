@@ -1,6 +1,14 @@
 {
   "MODAL": {
     "TITLE": "Evaluate code",
-    "CODE_LABEL": "Code to evaluate"
-  }
+    "CODE_LABEL": "Code to evaluate",
+    "FILE_LABEL": "Source file",
+    "DURATION_LABEL": "Delete after",
+    "EXPORT_LABEL": "Export result as Markdown"
+  },
+  "INVALID_EXPORT": "Select whether to export the evaluation result.",
+  "SOURCE_REQUIRED": "Enter code or upload a source file.",
+  "SOURCE_CONFLICT": "Provide either code or a source file, not both.",
+  "SOURCE_FILE_INVALID": "Upload one nonempty UTF-8 .js, .mjs or .txt file no larger than 1 MiB.",
+  "SOURCE_DOWNLOAD_FAILED": "The source file could not be read. Upload it again and retry."
 }
