@@ -1,0 +1,9 @@
+{
+  "MODAL": {
+    "TITLE": "Send a message",
+    "MESSAGE_LABEL": "Message",
+    "ALREADY_OPEN": "You already have a message form open. Submit it or wait for it to expire."
+  },
+  "ATTRIBUTION_SENT": "This message was sent through /say by {{user}} (ID: {{id}}).",
+  "SENT": "Your message has been sent. [View the message]({{url}})."
+}
