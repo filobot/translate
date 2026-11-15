@@ -17,6 +17,14 @@
         "true": "$t(general:YES)",
         "false": "$t(general:NO)"
       }
+    },
+    "public": {
+      "name": "public",
+      "description": "Make the evaluation response public",
+      "choices": {
+        "true": "$t(general:YES)",
+        "false": "$t(general:NO)"
+      }
     }
   }
 }
