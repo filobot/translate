@@ -5,7 +5,7 @@
     "FILE_LABEL": "Source file",
     "DURATION_LABEL": "Delete after",
     "EXPORT_LABEL": "Export result as Markdown",
-    "PUBLIC_LABEL": "Make public; I understand the risks",
+    "PUBLIC_LABEL": "Make the response public",
     "CODE_DESCRIPTION": "Paste the JavaScript to execute, or leave this empty when uploading a source file.",
     "FILE_DESCRIPTION": "Upload a JavaScript source file instead of pasting code above.",
     "DURATION_DESCRIPTION": "Choose how long to keep the result before it is deleted.",
@@ -14,6 +14,13 @@
   },
   "INVALID_EXPORT": "Select whether to export the evaluation result.",
   "INVALID_PUBLIC": "Choose whether to make the evaluation response public.",
+  "PUBLICATION": {
+    "WARNING": "Are you sure you want to make this response public? People in this channel may see the result, evaluated code and attached diagnostics.",
+    "ACCEPT": "Yes, make it public",
+    "PRIVATE": "No, keep it private",
+    "CANCELLED": "Confirmation ended without a decision. No code was executed.",
+    "EXECUTING": "Evaluating the code with your selected response visibility."
+  },
   "SOURCE_REQUIRED": "Enter code or upload a source file.",
   "SOURCE_CONFLICT": "Provide either code or a source file, not both.",
   "SOURCE_FILE_INVALID": "Upload one nonempty UTF-8 .js, .mjs or .txt file no larger than 1 MiB.",
