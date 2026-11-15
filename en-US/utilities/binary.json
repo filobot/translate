@@ -1,3 +1,10 @@
 {
-  "VIEWING_THE_CONVERSION": "Viewing the conversion from **{{option1}}** to **{{option2}}**"
+  "VIEWING_THE_CONVERSION": "Viewing the conversion from **{{option1}}** to **{{option2}}**",
+  "BINARY": "Binary",
+  "ENCODING_UTF8": "Encoding: UTF-8",
+  "ENCODING_LEGACY": "Encoding: Legacy (8-bit)",
+  "INVALID_OPTIONS": "Choose a valid binary conversion and encoding.",
+  "INVALID_TEXT": "Provide nonempty text containing valid Unicode characters.",
+  "INVALID_LEGACY_TEXT": "This text cannot be represented in the legacy eight-bit encoding. Use UTF-8 instead.",
+  "INVALID_BINARY": "Provide complete eight-bit groups containing valid text in the selected encoding. For older eight-bit data, select the legacy encoding."
 }
